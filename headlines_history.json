@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "name": "LOCAL AI NEWS Headline History"
+  },
+  "headlines": [
+    {
+      "text": "Qwen3.8-Flash-Next opens the door to the Qwen4 architecture",
+      "source": "Qwen",
+      "date": "2026-08-27",
+      "issue": 1
+    },
+    {
+      "text": "Mac Studio M5 Ultra ships with 512GB unified memory to run frontier AI models locally",
+      "source": "TechTimes",
+      "date": "2026-08-27",
+      "issue": 1
+    },
+    {
+      "text": "Perplexity Portable Computer runs its AI agent fully offline on 24GB+ GPUs",
+      "source": "SiliconSnark",
+      "date": "2026-08-27",
+      "issue": 1
+    },
+    {
+      "text": "Open WebUI v0.11.1 lets the model stop and ask before it acts",
+      "source": "Open WebUI",
+      "date": "2026-08-27",
+      "issue": 1
+    },
+    {
+      "text": "Ollama v0.33.1 adds Qwen3.8 Flash Next support on MLX",
+      "source": "GitHub",
+      "date": "2026-08-27",
+      "issue": 1
+    },
+    {
+      "text": "Low-rank ternary adaptation fine-tunes transformers without dequantizing",
+      "source": "arXiv",
+      "date": "2026-08-27",
+      "issue": 1
+    },
+    {
+      "text": "Systematic look at quantization's toll on low-resource languages",
+      "source": "arXiv",
+      "date": "2026-08-27",
+      "issue": 1
+    },
+    {
+      "text": "On-policy distillation merged with verifiable reward for post-training",
+      "source": "arXiv",
+      "date": "2026-08-27",
+      "issue": 1
+    },
+    {
+      "text": "Agent-hop: one terminal for every coding agent, fully local",
+      "source": "GitHub",
+      "date": "2026-08-27",
+      "issue": 1
+    },
+    {
+      "text": "Devx brings a terminal AI coding agent to Android Termux and desktop",
+      "source": "GitHub",
+      "date": "2026-08-27",
+      "issue": 1
+    },
+    {
+      "text": "llama.cpp pushes eight pre-release builds with Vulkan and Metal fixes",
+      "source": "GitHub",
+      "date": "2026-08-27",
+      "issue": 1
+    },
+    {
+      "text": "n8n 2.37.0 refines AI Builder with MCP tools in the Agent Builder",
+      "source": "n8n",
+      "date": "2026-08-27",
+      "issue": 1
+    },
+    {
+      "text": "r/LocalLLaMA walks through a fully local AI coding stack that works",
+      "source": "r/LocalLLaMA",
+      "date": "2026-08-27",
+      "issue": 1
+    },
+    {
+      "text": "\"2026 is the year of self-hosting\" after an agent takes over a homelab",
+      "source": "r/selfhosted",
+      "date": "2026-08-27",
+      "issue": 1
+    },
+    {
+      "text": "Hot Chips 2026: Intel details Crescent Island, an inference-first accelerator",
+      "source": "Tom's Hardware",
+      "date": "2026-08-27",
+      "issue": 1
+    },
+    {
+      "text": "Micron warns the HBM-to-DDR5 wafer penalty keeps memory prices high",
+      "source": "Tom's Hardware",
+      "date": "2026-08-27",
+      "issue": 1
+    },
+    {
+      "text": "Gemini 3.5 Transcribe: DeepMind's speech model hits 2.6% WER",
+      "source": "Google DeepMind",
+      "date": "2026-08-27",
+      "issue": 1
+    },
+    {
+      "text": "GLM-5.3-Flash NVFP4 weight-only quant released ahead of serving support",
+      "source": "HuggingFace",
+      "date": "2026-08-27",
+      "issue": 1
+    },
+    {
+      "text": "Hugging Face walks through training multi-vector embedding models",
+      "source": "Hugging Face",
+      "date": "2026-08-27",
+      "issue": 1
+    },
+    {
+      "text": "Maia 200: a software-defined dataflow accelerator crossing 5 Pflop/s FP8",
+      "source": "arXiv",
+      "date": "2026-08-27",
+      "issue": 1
+    },
+    {
+      "text": "WhisperBar: Mac menu-bar dictation and text-to-speech for AI prompts",
+      "source": "WhisperBar",
+      "date": "2026-08-27",
+      "issue": 1
+    },
+    {
+      "text": "Knack launches a HIPAA-compliant MCP server for AI builders",
+      "source": "Morningstar",
+      "date": "2026-08-27",
+      "issue": 1
+    },
+    {
+      "text": "Rook: a multi-agent harness that lives entirely inside a Chrome extension",
+      "source": "Chrome Web Store",
+      "date": "2026-08-27",
+      "issue": 1
+    },
+    {
+      "text": "Home Assistant publishes anonymized community survey data",
+      "source": "Home Assistant",
+      "date": "2026-08-27",
+      "issue": 1
+    }
+  ]
+}
