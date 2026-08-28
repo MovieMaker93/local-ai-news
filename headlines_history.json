@@ -266,6 +266,60 @@
       "source": "n8n",
       "date": "2026-08-28",
       "issue": 2
+    },
+    {
+      "text": "Ollama v0.33.2-rc1 adds cross-app session handoff",
+      "source": "GitHub",
+      "date": "2026-08-28",
+      "issue": 2
+    },
+    {
+      "text": "OpenAI details Jalape\u00f1o inference ASIC at Hot Chips 2026",
+      "source": "Tom's Hardware",
+      "date": "2026-08-28",
+      "issue": 2
+    },
+    {
+      "text": "Watermarks Remover strips LLM watermarking from files you own",
+      "source": "GitHub",
+      "date": "2026-08-28",
+      "issue": 2
+    },
+    {
+      "text": "InferCrane puts one stable endpoint in front of self-hosted inference",
+      "source": "InferCrane",
+      "date": "2026-08-28",
+      "issue": 2
+    },
+    {
+      "text": "Grith adds syscall-level supervision for AI coding agents on Linux",
+      "source": "GitHub",
+      "date": "2026-08-28",
+      "issue": 2
+    },
+    {
+      "text": "dmx ships an MCP server for gated loop control in coding agents",
+      "source": "dmx",
+      "date": "2026-08-28",
+      "issue": 2
+    },
+    {
+      "text": "GLM-5.3, a 753B open-weights model, lands from Z.ai",
+      "source": "HuggingFace",
+      "date": "2026-08-28",
+      "issue": 2
+    },
+    {
+      "text": "OpenLayer hooks ComfyUI inpainting into Photoshop locally",
+      "source": "GitHub",
+      "date": "2026-08-28",
+      "issue": 2
+    },
+    {
+      "text": "StreamCore serves open-source realtime voice infrastructure for AI",
+      "source": "GitHub",
+      "date": "2026-08-28",
+      "issue": 2
     }
   ]
 }

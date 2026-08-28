@@ -2,26 +2,19 @@
   "issue_no": 2,
   "date_iso": "2026-08-28",
   "date_human": "August 28, 2026",
-  "notice": null,
+  "notice": "Light news day — fewer fresh items than usual.",
   "lead": {
-    "kicker": "Memory Crunch",
-    "title": "NVIDIA earnings confirm memory crisis is inflating GPU prices, raising the cost of local rigs",
-    "summary": "In its Q2 FY27 earnings, NVIDIA confirmed extreme memory pricing is tempering consumer GPU sales and Blackwell workstations, with the bottleneck expected to persist into FY2028. Consumer RTX 50-series street prices have roughly doubled from MSRP as DRAM/GDDR7 costs surge, directly raising the cost of building a local LLM rig.",
-    "source": "PC Gamer",
+    "kicker": "Local runtime update",
+    "title": "Ollama v0.33.2-rc1 adds cross-app session handoff",
+    "summary": "The v0.33.2 release candidate arrives a day after stable v0.33.1, adding macOS app handoff synchronization so model sessions carry over across the desktop app. It lands alongside stable v0.33.1's MLX Qwen3.8 Flash Next support and structured output as the most widely used local LLM runtime keeps its rapid cadence.",
+    "source": "GitHub",
     "date": "2026-08-27",
-    "url": "https://www.pcgamer.com/hardware/nvidia-says-it-would-be-making-a-whole-lot-more-money-if-it-werent-for-the-memory-crisis-its-contributing-to/"
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.33.2-rc1"
   },
   "top_stories": [
     {
-      "title": "Z.ai releases GLM-5.3, a 753B open-weights text model",
-      "summary": "Z.ai (Zhipu) pushed GLM-5.3, a 753B-parameter open-weights text model, to the Hub alongside a 321B Flash variant, keeping flagship-size open weights flowing for local inference through the community quantization layer.",
-      "source": "HuggingFace",
-      "date": "2026-08-28",
-      "url": "https://huggingface.co/zai-org/GLM-5.3"
-    },
-    {
-      "title": "OpenAI details its Jalapeño inference ASIC at Hot Chips 2026",
-      "summary": "At Hot Chips, OpenAI detailed the Broadcom-built Jalapeño ASIC — 216GB of HBM4, 64-slice NUMA architecture, up to 13.4 MXFP4 PFLOPS at 700W — claiming 1.5-1.9x higher throughput-per-watt than GB200, designed with AI in a nine-month RTL-to-tapeout cycle.",
+      "title": "OpenAI details Jalapeño inference ASIC at Hot Chips 2026",
+      "summary": "The Broadcom-built, AI-co-designed accelerator packs 216GB HBM4 and claims 1.5-1.9x peak throughput-per-watt and 1.7-3.6x lower latency than Nvidia GB200/GB300.",
       "source": "Tom's Hardware",
       "date": "2026-08-27",
       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/hot-chips-2026-openais-jalapeno-ai-asic-unpacked-accelerator-developed-using-ai-achieves-efficiency-and-throughput-gains-against-power-hungry-blackwell"
@@ -32,36 +25,29 @@
       "title": "Tools & Runtimes",
       "items": [
         {
-          "title": "Ollama v0.33.2-rc1 adds macOS app handoff sync",
-          "summary": "The release candidate adds macOS app handoff synchronization so model sessions carry across the desktop app, one day after stable v0.33.1 with MLX Qwen3.8 Flash Next support and structured output.",
-          "source": "GitHub",
-          "date": "2026-08-27",
-          "url": "https://github.com/ollama/ollama/releases/tag/v0.33.2-rc1"
-        },
-        {
-          "title": "Watermarks Remover strips LLM watermarking from text and files",
-          "summary": "An open-source agent skill plus stdlib HTTP service that removes invisible Unicode, C2PA/EXIF/XMP, and best-effort statistical text marks from files you own, aimed at local and agent use.",
+          "title": "Watermarks Remover strips LLM watermarking from files you own",
+          "summary": "Open-source agent skill plus stdlib HTTP service that removes invisible Unicode, C2PA/EXIF/XMP, and best-effort statistical text marks (Claude, Gemini-SynthID, OpenAI, Kirchenbauer) for local/agent use.",
           "source": "GitHub",
           "date": "2026-08-28",
           "url": "https://github.com/guillaumemeyer/watermarks-remover"
         },
         {
-          "title": "InferCrane: one stable endpoint for self-hosted AI inference",
-          "summary": "Presents a single stable endpoint in front of self-hosted inference stacks so clients point at one URL regardless of which local backend or model is swapped underneath.",
+          "title": "InferCrane puts one stable endpoint in front of self-hosted inference",
+          "summary": "Presents a single stable endpoint over self-hosted AI inference stacks so clients point at one URL regardless of which local backend or model is swapped underneath.",
           "source": "InferCrane",
           "date": "2026-08-28",
           "url": "https://infercrane.com"
         },
         {
-          "title": "Grith: syscall-level supervision for AI coding agents on Linux",
-          "summary": "Open-source tool providing syscall-level guardrails for Linux AI coding agents, giving local-agent users control over what the agent can touch at the OS level.",
+          "title": "Grith adds syscall-level supervision for AI coding agents on Linux",
+          "summary": "Open-source tool that gives local-agent users syscall-level guardrails over what a coding agent can actually touch at the OS level.",
           "source": "GitHub",
           "date": "2026-08-28",
           "url": "https://github.com/grith-ai/grith"
         },
         {
-          "title": "dmx: an MCP server for configurable, gated loops in coding agents",
-          "summary": "Adds configurable, gated execution loops to local coding agents via MCP, letting users define bounded iteration patterns agents must respect during tool-augmented runs.",
+          "title": "dmx ships an MCP server for gated loop control in coding agents",
+          "summary": "MCP server adding configurable, gated execution loops to local coding agents, letting users define bounded iteration patterns agents must respect during tool-augmented runs.",
           "source": "dmx",
           "date": "2026-08-28",
           "url": "https://dmx.deepmodel.ai/"
@@ -107,32 +93,29 @@
   },
   "quick_hits": [
     {
-      "title": "llama.cpp b10644 adds nanbeige4.2-3B support",
-      "source": "GitHub",
-      "date": "2026-08-27",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10644"
+      "title": "GLM-5.3, a 753B open-weights model, lands from Z.ai",
+      "source": "HuggingFace",
+      "date": "2026-08-28",
+      "url": "https://huggingface.co/zai-org/GLM-5.3"
     },
     {
-      "title": "OpenLayer: local Photoshop plugin for ComfyUI",
+      "title": "OpenLayer hooks ComfyUI inpainting into Photoshop locally",
       "source": "GitHub",
       "date": "2026-08-28",
       "url": "https://github.com/MehranMarxian/OpenLayer"
     },
     {
-      "title": "StreamCore: open-source realtime voice infrastructure for AI",
+      "title": "StreamCore serves open-source realtime voice infrastructure for AI",
       "source": "GitHub",
       "date": "2026-08-28",
       "url": "https://github.com/streamcoreai/streamcore-server"
-    },
-    {
-      "title": "n8n 2.37.3/2.37.4 fix self-hosted runner images and AI Assistant credential bug",
-      "source": "n8n",
-      "date": "2026-08-28",
-      "url": "https://github.com/n8n-io/n8n/releases"
     }
   ],
   "spiked": {
-    "out of window": 7,
-    "already ran": 3
+    "out of window": 8,
+    "already ran": 5,
+    "low signal": 1,
+    "same story": 1,
+    "thin section": 1
   }
 }
