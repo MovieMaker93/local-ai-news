@@ -194,6 +194,78 @@
       "source": "n8n",
       "date": "2026-08-28",
       "issue": 2
+    },
+    {
+      "text": "NVIDIA earnings confirm memory crisis is inflating GPU prices, raising the cost of local rigs",
+      "source": "PC Gamer",
+      "date": "2026-08-28",
+      "issue": 2
+    },
+    {
+      "text": "Z.ai releases GLM-5.3, a 753B open-weights text model",
+      "source": "HuggingFace",
+      "date": "2026-08-28",
+      "issue": 2
+    },
+    {
+      "text": "OpenAI details its Jalape\u00f1o inference ASIC at Hot Chips 2026",
+      "source": "Tom's Hardware",
+      "date": "2026-08-28",
+      "issue": 2
+    },
+    {
+      "text": "Ollama v0.33.2-rc1 adds macOS app handoff sync",
+      "source": "GitHub",
+      "date": "2026-08-28",
+      "issue": 2
+    },
+    {
+      "text": "Watermarks Remover strips LLM watermarking from text and files",
+      "source": "GitHub",
+      "date": "2026-08-28",
+      "issue": 2
+    },
+    {
+      "text": "InferCrane: one stable endpoint for self-hosted AI inference",
+      "source": "InferCrane",
+      "date": "2026-08-28",
+      "issue": 2
+    },
+    {
+      "text": "Grith: syscall-level supervision for AI coding agents on Linux",
+      "source": "GitHub",
+      "date": "2026-08-28",
+      "issue": 2
+    },
+    {
+      "text": "dmx: an MCP server for configurable, gated loops in coding agents",
+      "source": "dmx",
+      "date": "2026-08-28",
+      "issue": 2
+    },
+    {
+      "text": "llama.cpp b10644 adds nanbeige4.2-3B support",
+      "source": "GitHub",
+      "date": "2026-08-28",
+      "issue": 2
+    },
+    {
+      "text": "OpenLayer: local Photoshop plugin for ComfyUI",
+      "source": "GitHub",
+      "date": "2026-08-28",
+      "issue": 2
+    },
+    {
+      "text": "StreamCore: open-source realtime voice infrastructure for AI",
+      "source": "GitHub",
+      "date": "2026-08-28",
+      "issue": 2
+    },
+    {
+      "text": "n8n 2.37.3/2.37.4 fix self-hosted runner images and AI Assistant credential bug",
+      "source": "n8n",
+      "date": "2026-08-28",
+      "issue": 2
     }
   ]
 }
