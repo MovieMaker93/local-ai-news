@@ -146,6 +146,54 @@
       "source": "Home Assistant",
       "date": "2026-08-27",
       "issue": 1
+    },
+    {
+      "text": "Nvidia memory supply commitments soar to $279B as NVHBM cuts HBM power 15%",
+      "source": "TrendForce",
+      "date": "2026-08-28",
+      "issue": 2
+    },
+    {
+      "text": "singular-lite: multi-agent orchestration engine for software repos",
+      "source": "GitHub",
+      "date": "2026-08-28",
+      "issue": 2
+    },
+    {
+      "text": "Understudy: scenario testing for AI agents",
+      "source": "GitHub",
+      "date": "2026-08-28",
+      "issue": 2
+    },
+    {
+      "text": "Puro-2B: 2B model pretrained on a single RTX 5090 within a $5,090 budget",
+      "source": "arXiv",
+      "date": "2026-08-28",
+      "issue": 2
+    },
+    {
+      "text": "FOCUS & RePAIR: mitigating text degeneration in pruned LLMs",
+      "source": "arXiv",
+      "date": "2026-08-28",
+      "issue": 2
+    },
+    {
+      "text": "Beyond Parallel Blindness: information floors in speculative decoding",
+      "source": "arXiv",
+      "date": "2026-08-28",
+      "issue": 2
+    },
+    {
+      "text": "Kimi K3 open weights: first 3T-class open model (2.8T MoE, 1M context)",
+      "source": "HuggingFace",
+      "date": "2026-08-28",
+      "issue": 2
+    },
+    {
+      "text": "n8n: why static RBAC fails for AI agents and what replaces it",
+      "source": "n8n",
+      "date": "2026-08-28",
+      "issue": 2
     }
   ]
 }

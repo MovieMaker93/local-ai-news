@@ -1,44 +1,30 @@
 {
-  "issue_no": 1,
-  "date_iso": "2026-08-27",
-  "date_human": "August 27, 2026",
-  "notice": null,
+  "issue_no": 2,
+  "date_iso": "2026-08-28",
+  "date_human": "August 28, 2026",
+  "notice": "Light news day — fewer fresh items than usual, and most of yesterday's lead stories already ran.",
   "lead": {
-    "kicker": "Open-weight Qwen4 preview",
-    "title": "Qwen3.8-Flash-Next opens the door to the Qwen4 architecture",
-    "summary": "Qwen released Qwen3.8-Flash-Next, the first open-weight model built on the architecture that will underpin Qwen4. It's a roughly 125B-parameter mixture-of-experts with only ~6B active per token, targeting extreme cost-efficiency while reading images natively with a 262,144-token context window. Official FP8 weights are out, and the model posts agentic-coding scores in Claude Opus territory at a fraction of the training cost.",
-    "source": "Qwen",
-    "date": "2026-08-26",
-    "url": "https://qwen.ai/blog?id=qwen3.8-flash-next"
+    "kicker": "AI memory crunch",
+    "title": "Nvidia memory supply commitments soar to $279B as NVHBM cuts HBM power 15%",
+    "summary": "TrendForce reports Nvidia's HBM supply commitments have ballooned to $279B as the DRAM/HBM crunch keeps memory prices climbing through 2028. Nvidia's custom NVHBM design moves the memory controller to the base die for up to 30% more bandwidth at 15% lower power — a shift that keeps raising the cost floor for consumer and local inference rigs.",
+    "source": "TrendForce",
+    "date": "2026-08-27",
+    "url": "https://www.trendforce.com/news/2026/08/27/news-nvidias-supply-commitments-soar-to-279b-as-memory-costs-surge-new-nvhbm-boosts-bandwidth-30-cuts-power-15"
   },
   "top_stories": [
     {
-      "title": "Mac Studio M5 Ultra ships with 512GB unified memory to run frontier AI models locally",
-      "summary": "Apple's first quad-die M5 Ultra debuts in a Mac Studio with a 512GB unified-memory ceiling, claimed to be the first desktop under $11,000 that fits the largest AI models entirely in local memory; deliveries start September 22 and the new 2nm M6 also appeared for a Mac mini.",
-      "source": "TechTimes",
-      "date": "2026-08-26",
-      "url": "https://www.techtimes.com/articles/325575/20260826/mac-studio-m5-ultra-ships-512gb-run-frontier-ai-models-locally.htm"
-    },
-    {
-      "title": "Perplexity Portable Computer runs its AI agent fully offline on 24GB+ GPUs",
-      "summary": "Announced with Nvidia, Perplexity's Portable Computer packages its agentic stack into a local app that runs fully offline with zero marginal token costs on DGX Spark or 24GB+ GeForce RTX GPUs, launching Linux-first for Pro/Max/Enterprise with Windows support due in September.",
-      "source": "SiliconSnark",
-      "date": "2026-08-26",
-      "url": "https://www.siliconsnark.com/perplexity-put-an-ai-agent-on-your-gpu-the-cloud-gets-visitation-rights/"
-    },
-    {
-      "title": "Open WebUI v0.11.1 lets the model stop and ask before it acts",
-      "summary": "The self-hosted chat interface adds human-in-the-loop tool approvals, an ask_user builtin that pauses mid-answer for a structured question, a terminal file browser, and a delta-streaming rewrite that cuts reply traffic by roughly 99%.",
-      "source": "Open WebUI",
-      "date": "2026-08-25",
-      "url": "https://openwebui.com/blog/v0-11-1-the-model-learns-to-stop-and-ask"
-    },
-    {
-      "title": "Ollama v0.33.1 adds Qwen3.8 Flash Next support on MLX",
-      "summary": "The local runtime shipped v0.33.1 with Qwen3.8 Flash Next support on the MLX engine)Skip, structured output in mlxrunner, and MLX/llama.cpp dependency updates; the v0.33 line also lets Ollama act as a Claude Desktop gateway provider.",
+      "title": "singular-lite: multi-agent orchestration engine for software repos",
+      "summary": "Autonomous multi-agent engine with L0/L1/L2 agents, leases, gates, audits and Git-worktree isolation with detached dispatch by default.",
       "source": "GitHub",
-      "date": "2026-08-26",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.1"
+      "date": "2026-08-27",
+      "url": "https://github.com/alex-reysa/singular-lite"
+    },
+    {
+      "title": "Understudy: scenario testing for AI agents",
+      "summary": "Open-source tool for defining and running scenario-based agent tests, validating behavior against expected outcomes before deployment.",
+      "source": "GitHub",
+      "date": "2026-08-28",
+      "url": "https://github.com/gojiplus/understudy"
     }
   ],
   "sections": [
@@ -46,96 +32,25 @@
       "title": "Research & Papers",
       "items": [
         {
-          "title": "Low-rank ternary adaptation fine-tunes transformers without dequantizing",
-          "summary": "A new method represents discrete updates to ternary transformer weights via a low-rank Kronecker factorization into two small ternary matrices, enabling direct LoRA-style fine-tuning that keeps the merged model fully ternary for extreme memory and compute efficiency.",
+          "title": "Puro-2B: 2B model pretrained on a single RTX 5090 within a $5,090 budget",
+          "summary": "Open-source, cost-efficient pretraining recipe that trains a Qwen2-based 2B model on one consumer RTX 5090, aimed at making small-model pretraining accessible.",
           "source": "arXiv",
-          "date": "2026-08-25",
-          "url": "https://arxiv.org/abs/2608.24469"
+          "date": "2026-08-27",
+          "url": "https://arxiv.org/abs/2608.27370"
         },
         {
-          "title": "Systematic look at quantization's toll on low-resource languages",
-          "summary": "Researchers evaluated GPTQ and GGUF quantization against full precision across three model families on five Bangla NLU benchmarks, probing whether on-device quantization degrades morphologically complex, low-resource languages more than English.",
+          "title": "FOCUS & RePAIR: mitigating text degeneration in pruned LLMs",
+          "summary": "Shows pruning amplifies repetition loops even when perplexity and accuracy hold, and proposes token-level decoding guidance to fix this failure mode.",
           "source": "arXiv",
-          "date": "2026-08-25",
-          "url": "https://arxiv.org/abs/2608.24615"
+          "date": "2026-08-27",
+          "url": "https://arxiv.org/abs/2608.26676"
         },
         {
-          "title": "On-policy distillation merged with verifiable reward for post-training",
-          "summary": "A unified approach combines on-policy distillation's dense token-level supervision with RLVR task-level verifiable-reward correctness, avoiding the extra hyperparameters of weighted-combination approaches and addressing OPD's blindness to trajectory correctness.",
+          "title": "Beyond Parallel Blindness: information floors in speculative decoding",
+          "summary": "Separates within-block path information loss from imperfect modeling to define an information floor for block drafters in speculative decoding.",
           "source": "arXiv",
-          "date": "2026-08-25",
-          "url": "https://arxiv.org/abs/2608.24696"
-        }
-      ]
-    },
-    {
-      "title": "Tools & Runtimes",
-      "items": [
-        {
-          "title": "Agent-hop: one terminal for every coding agent, fully local",
-          "summary": "A new open-source Rust runtime runs Claude Code, Codex, OpenCode, Pi, and Grok inside one terminal, lets you hop a live session between harnesses, and locally searches or resumes any agent session.",
-          "source": "GitHub",
-          "date": "2026-08-26",
-          "url": "https://github.com/hetpatel-11/agent-hop"
-        },
-        {
-          "title": "Devx brings a terminal AI coding agent to Android Termux and desktop",
-          "summary": "The autonomous agent adds Plan/Agent modes, multimodal vision attachments, snapshot rollback, and a built-in live web server, supporting local models through Ollama and LM Studio alongside cloud providers on Android, Windows, macOS, and Linux.",
-          "source": "GitHub",
-          "date": "2026-08-26",
-          "url": "https://github.com/apvcode/Termux-Dev"
-        },
-        {
-          "title": "llama.cpp pushes eight pre-release builds with Vulkan and Metal fixes",
-          "summary": "The runtime's Aug 26 batch includes a Vulkan warp-size clamp, chunked SSD MMA for Mamba-2 prefill on Metal, and ggml-metal/meta buffer-usage and tensor-init fixes.",
-          "source": "GitHub",
-          "date": "2026-08-26",
-          "url": "https://github.com/ggml-org/llama.cpp/releases"
-        }
-      ]
-    },
-    {
-      "title": "Self-Hosted Stack",
-      "items": [
-        {
-          "title": "n8n 2.37.0 refines AI Builder with MCP tools in the Agent Builder",
-          "summary": "The automation platform shipped broad AI Builder and editor fixes, passes MCP connector tools into the Agent Builder, routes OAuth2 through environment proxies, and defaults the Anthropic Chat Model Node to Claude Sonnet 5.",
-          "source": "n8n",
-          "date": "2026-08-25",
-          "url": "https://github.com/n8n-io/n8n/releases"
-        },
-        {
-          "title": "r/LocalLLaMA walks through a fully local AI coding stack that works",
-          "summary": "A 142-point guide details a local setup on a Ryzen 7 + RTX 3080 using VSCode, RooCode, LM Studio running Devstral, and Ollama embeddings, drawing community advice to swap Ollama/LM Studio for plain llama.cpp plus llama-swap.",
-          "source": "r/LocalLLaMA",
-          "date": "2026-08-26",
-          "url": "https://reddit.com/r/LocalLLaMA/comments/1lt4y1z/selfhosted_ai_coding_that_just_works"
-        },
-        {
-          "title": "\"2026 is the year of self-hosting\" after an agent takes over a homelab",
-          "summary": "A heavily upvoted r/selfhosted post shows a ~$200 Beelink running 13 containers managed over Tailscale by a Claude Code CLI agent with full infra permissions, sparking debate on trusting autonomous agents with Docker.",
-          "source": "r/selfhosted",
-          "date": "2026-08-26",
-          "url": "https://reddit.com/r/selfhosted/comments/1q4sxqh/2026_is_the_year_of_selfhosting"
-        }
-      ]
-    },
-    {
-      "title": "Hardware & Edge",
-      "items": [
-        {
-          "title": "Hot Chips 2026: Intel details Crescent Island, an inference-first accelerator",
-          "summary": "Intel's 350W air-cooled PCIe card carries up to 480GB of LPDDR5X with 32 Xe cores and 16-deep XMX systolic engines, targeting maximum AI FLOPS per watt for lower-power inference rather than liquid-cooled HBM4 chips.",
-          "source": "Tom's Hardware",
-          "date": "2026-08-25",
-          "url": "https://www.tomshardware.com/pc-components/gpus/hot-chips-2026-intel-dives-deep-on-crescent-island-ai-accelerator-larger-caches-and-deeper-xmx-engines-target-maximum-ai-flops-per-watt"
-        },
-        {
-          "title": "Micron warns the HBM-to-DDR5 wafer penalty keeps memory prices high",
-          "summary": "Micron told Hot Chips that HBM consumes roughly three times the wafer area of DDR5 and that the penalty is widening with every generation as AI demand pulls silicon away from commodity memory, with Q1 DRAM contract prices up 90-95% QoQ.",
-          "source": "Tom's Hardware",
-          "date": "2026-08-25",
-          "url": "https://www.tomshardware.com/tech-industry/semiconductors/micron-says-the-silicon-gap-between-hbm-and-ddr5-is-widening-with-every-generation"
+          "date": "2026-08-27",
+          "url": "https://arxiv.org/abs/2608.27339"
         }
       ]
     }
@@ -145,163 +60,54 @@
       "title": "GitHub Trending · AI",
       "url": "https://github.com/trending",
       "link_label": "github.com/trending",
-      "date": "2026-08-27",
+      "date": "2026-08-28",
       "items": [
-        {
-          "name": "tt-a1i/archify",
-          "url": "https://github.com/tt-a1i/archify",
-          "meta": "Agent skill for verifiable architecture/workflow/sequence diagrams, self-contained HTML with motion."
-        },
-        {
-          "name": "freestylefly/awesome-gpt-image-2",
-          "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-          "meta": "Prompt-as-Code GPT-Image2 prompt engine with 530+ reverse-engineered cases and industrial templates."
-        },
-        {
-          "name": "anthropics/claude-plugins-official",
-          "url": "https://github.com/anthropics/claude-plugins-official",
-          "meta": "Official Anthropic-managed directory of high-quality Claude Code plugins."
-        },
-        {
-          "name": "Alishahryar1/free-claude-code",
-          "url": "https://github.com/Alishahryar1/free-claude-code",
-          "meta": "Use Claude Code, Codex, Pi, and OpenCode for free via 1.3B+ free tokens from the terminal."
-        },
-        {
-          "name": "MadsLorentzen/ai-job-search",
-          "url": "https://github.com/MadsLorentzen/ai-job-search",
-          "meta": "On-machine AI job-search framework built on Claude Code: evaluates postings, tailors CVs, cover letters."
-        },
-        {
-          "name": "tinyhumansai/openhuman",
-          "url": "https://github.com/tinyhumansai/openhuman",
-          "meta": "Personal AI super-intelligence: local-first memory, orchestrator of agent fleets, and deep researcher."
-        },
-        {
-          "name": "browser-use/browser-use",
-          "url": "https://github.com/browser-use/browser-use",
-          "meta": "Make websites accessible for AI agents; automate tasks online."
-        },
-        {
-          "name": "K-Dense-AI/scientific-agent-skills",
-          "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-          "meta": "Agent-Skills library for science: 163 validated skills plus 100+ scientific databases; used by 175k+ scientists."
-        },
-        {
-          "name": "marin-community/marin",
-          "url": "https://github.com/marin-community/marin",
-          "meta": "Python · 2,358★ · +443 today · Open-source framework for research and development of foundation models."
-        },
-        {
-          "name": "VoltAgent/awesome-agent-skills",
-          "url": "https://github.com/VoltAgent/awesome-agent-skills",
-          "meta": "Curated collection of 1000+ agent skills from official dev teams and community, multi-CLI compatible."
-        }
+        {"name": "DietrichGebert/ponytail", "url": "https://github.com/DietrichGebert/ponytail", "meta": "JavaScript · 114.2k ★ · +1,613 today"},
+        {"name": "ComposioHQ/awesome-claude-skills", "url": "https://github.com/ComposioHQ/awesome-claude-skills", "meta": "Python · 73.6k ★ · +130 today"},
+        {"name": "calesthio/OpenMontage", "url": "https://github.com/calesthio/OpenMontage", "meta": "Python · 52.5k ★ · +1,292 today"},
+        {"name": "anthropics/claude-plugins-official", "url": "https://github.com/anthropics/claude-plugins-official", "meta": "Python · 34.7k ★ · +292 today"},
+        {"name": "freestylefly/awesome-gpt-image-2", "url": "https://github.com/freestylefly/awesome-gpt-image-2", "meta": "JavaScript · 23.2k ★ · +2,096 today"},
+        {"name": "thedotmack/claude-mem", "url": "https://github.com/thedotmack/claude-mem", "meta": "AI agent memory · cross-session context"},
+        {"name": "K-Dense-AI/scientific-agent-skills", "url": "https://github.com/K-Dense-AI/scientific-agent-skills", "meta": "Agent skills · Cursor/Claude Code/Codex compatible"},
+        {"name": "marin-community/marin", "url": "https://github.com/marin-community/marin", "meta": "Python · 2.7k ★ · +255 today · foundation-model research framework"},
+        {"name": "AgriciDaniel/claude-obsidian", "url": "https://github.com/AgriciDaniel/claude-obsidian", "meta": "AI second brain · Obsidian + Claude Code knowledge graph"},
+        {"name": "JetBrains/go-modern-guidelines", "url": "https://github.com/JetBrains/go-modern-guidelines", "meta": "Go · 2.2k ★ · +300 today · for AI coding agents"}
       ]
     },
     "huggingface": {
       "title": "Models Trending (Hugging Face)",
       "url": "https://huggingface.co/models?sort=trending",
       "link_label": "huggingface.co/models",
-      "date": "2026-08-27",
+      "date": "2026-08-28",
       "items": [
-        {
-          "name": "Qwen/Qwen3.8-Flash-Next",
-          "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
-          "meta": "180B image-text-to-text, Qwen4 architecture preview, released Aug 26, 2026."
-        },
-        {
-          "name": "Qwen/Qwen3.8-27B",
-          "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "meta": "28B multimodal dense model; top local-friendly Qwen3.8 release with 262K context."
-        },
-        {
-          "name": "unsloth/Qwen3.8-27B-GGUF",
-          "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
-          "meta": "Unsloth GGUF quantizations of Qwen3.8-27B for local consumption."
-        },
-        {
-          "name": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
-          "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
-          "meta": "28B abliterated/uncensored fine-tune of Qwen3.8-27B."
-        },
-        {
-          "name": "zai-org/GLM-5.3-Flash",
-          "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
-          "meta": "321B text-generation, GLM-5.3-Flash released Aug 26, 2026 with new glm5_next architecture."
-        },
-        {
-          "name": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
-          "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX",
-          "meta": "5B MLX port of the uncensored Qwen3.8-27B for Apple Silicon."
-        },
-        {
-          "name": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
-          "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
-          "meta": "FP8 quantized uncensored variant of Qwen3.8-27B."
-        },
-        {
-          "name": "ornith-ai/Ornith-1.5-35B-A3B",
-          "url": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B",
-          "meta": "36B MoE, 35B-A3B language world model (MIT), strong agentic coding score."
-        },
-        {
-          "name": "Lightricks/LTX-2.5",
-          "url": "https://huggingface.co/Lightricks/LTX-2.5",
-          "meta": "Image-to-video diffusion model, trending with 894k downloads."
-        },
-        {
-          "name": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
-          "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
-          "meta": "2B GGUF aggressive-tuned uncensored Qwen3.8-27B variant with multi-token prediction."
-        }
+        {"name": "Qwen/Qwen3.8-Flash-Next", "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next", "meta": "180B image-text-to-text"},
+        {"name": "zai-org/GLM-5.3-Flash", "url": "https://huggingface.co/zai-org/GLM-5.3-Flash", "meta": "321B MoE / 18B active text generation"},
+        {"name": "unsloth/GLM-5.3-Flash-GGUF", "url": "https://huggingface.co/unsloth/GLM-5.3-Flash-GGUF", "meta": "321B GGUF quant, text generation (Ox-Alpha, llama.cpp-ready)"},
+        {"name": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF", "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF", "meta": "27B GGUF, text generation"},
+        {"name": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF", "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF", "meta": "27B image-text-to-text abliterated GGUF"},
+        {"name": "sensenova/SenseNova-U1.5-8B-MoT", "url": "https://huggingface.co/sensenova/SenseNova-U1.5-8B-MoT", "meta": "18B any-to-any MoE"},
+        {"name": "deepseek-ai/DeepSeek-V4-Flash-0731", "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731", "meta": "304B MoE text generation"},
+        {"name": "ornith-ai/Ornith-1.5-35B-A3B-GGUF", "url": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B-GGUF", "meta": "36B MoE (3B active) GGUF"},
+        {"name": "MiniMaxAI/MiniMax-Music3", "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3", "meta": "2B text-to-audio music model"},
+        {"name": "Audio8/Audio8-TTS-Preview-0.1b", "url": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b", "meta": "0.2B text-to-speech preview"}
       ]
     }
   },
   "quick_hits": [
     {
-      "title": "Gemini 3.5 Transcribe: DeepMind's speech model hits 2.6% WER",
-      "source": "Google DeepMind",
-      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe"
-    },
-    {
-      "title": "GLM-5.3-Flash NVFP4 weight-only quant released ahead of serving support",
+      "title": "Kimi K3 open weights: first 3T-class open model (2.8T MoE, 1M context)",
       "source": "HuggingFace",
-      "url": "https://huggingface.co/LibertAIDAI/GLM-5.3-Flash-NVFP4"
+      "url": "https://huggingface.co/AMAImedia/Kimi-K3"
     },
     {
-      "title": "Hugging Face walks through training multi-vector embedding models",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/train-multi-vector-encoder"
-    },
-    {
-      "title": "Maia 200: a software-defined dataflow accelerator crossing 5 Pflop/s FP8",
-      "source": "arXiv",
-      "url": "https://arxiv.org/abs/2608.24664"
-    },
-    {
-      "title": "WhisperBar: Mac menu-bar dictation and text-to-speech for AI prompts",
-      "source": "WhisperBar",
-      "url": "https://whisperbar.app"
-    },
-    {
-      "title": "Knack launches a HIPAA-compliant MCP server for AI builders",
-      "source": "Morningstar",
-      "url": "https://www.morningstar.com/news/pr-newswire/20260826cl33816/knack-launches-mcp-server-the-hipaa-compliant-backend-for-ai-builders"
-    },
-    {
-      "title": "Rook: a multi-agent harness that lives entirely inside a Chrome extension",
-      "source": "Chrome Web Store",
-      "url": "https://chromewebstore.google.com/detail/rook/opojeelojlkcinlhkbahpcekdolfjmhi"
-    },
-    {
-      "title": "Home Assistant publishes anonymized community survey data",
-      "source": "Home Assistant",
-      "url": "https://www.home-assistant.io/blog/2026/08/26/community-survey-2024-results/"
+      "title": "n8n: why static RBAC fails for AI agents and what replaces it",
+      "source": "n8n",
+      "url": "https://blog.n8n.io/rbac-for-ai-agents/"
     }
   ],
   "spiked": {
-    "out of window": 1,
-    "same story": 3
+    "low signal": 5,
+    "out of window": 8,
+    "already ran": 7
   }
 }
