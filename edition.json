@@ -2,169 +2,128 @@
   "issue_no": 3,
   "date_iso": "2026-08-29",
   "date_human": "August 29, 2026",
-  "notice": null,
+  "notice": "Light news day — several of the window's bigger stories were already covered in issues 1 and 2, so this edition is slimmer than usual.",
   "lead": {
-    "kicker": "Silent corruption",
-    "title": "llama.cpp fixes a Vulkan bug that silently corrupted tokens on AMD and NVIDIA GPUs",
-    "summary": "Release b10677 fixes a missing view-alias dependency in ggml_vk_graph_optimize that reordered aliased reads and writes, producing silently wrong tokens, run-to-run output changes, and invalid speculative-decoding acceptance. It hits Qwen3.8's recurrent state hardest; CUDA was unaffected. If you run Vulkan builds, update now.",
-    "source": "GitHub",
+    "kicker": "Local inference GUI",
+    "title": "LM Studio 0.4.22 adds speculative-decoding drafters and tool-image support",
+    "summary": "The local inference GUI's 0.4.22 update ships DFlash, DSpark, and MTP assistant drafters for speculative decoding (requiring llama.cpp 2.29.1+), alongside support for images returned by tools in OpenAI- and Anthropic-compatible APIs. A batch of Linux AppImage/.deb fixes rounds out the release. A directly usable speedup for daily local inference.",
+    "source": "LM Studio",
     "date": "2026-08-28",
-    "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10677"
+    "url": "https://lmstudio.ai/changelog/lmstudio/lmstudio-v0.4.22"
   },
   "top_stories": [
     {
-      "title": "llama.cpp OpenVINO backend gains Whisper support, Qwen3.5 on Intel NPUs",
-      "summary": "Release b10672 updates the OpenVINO backend to OV 2026.3.1, adds Whisper and Qwen3.5 inference on Intel NPUs, and fuses IM2COL+MatMul convolutions.",
-      "source": "GitHub",
-      "date": "2026-08-28",
-      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10672"
+      "title": "NVIDIA Jetson Orin Nano 2: 78 TOPS of entry-level edge AI",
+      "summary": "NVIDIA's next robotics/edge-AI computer doubles the Orin Nano Super's inference performance in the same footprint at 40% lower power, enough for on-device LLMs like Gemma 4 and Qwen 3. Module and dev kit ship H1 2027.",
+      "source": "NVIDIA Newsroom",
+      "date": "2026-08-25",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-jetson-orin-nano-2-robotics-computer-to-redefine-entry-level-edge-ai"
     },
     {
-      "title": "Fetchgate audits the official MCP registry: 15,329 servers probed",
-      "summary": "A read-only tools/list sweep against every remote URL in the official MCP registry found 54% answering, 29% of live servers running two operators, zero textbook tool-poisoning attacks, and 47 hosts telling the model things nobody should.",
-      "source": "Fetchgate",
+      "title": "Pinea Pi debuts edge AI nodes with up to 275 TOPS for offline inference",
+      "summary": "The new line targets local robotics and embodied-AI workloads: the Pi Pro carries 275 TOPS of NVIDIA compute while the Pi Lite packs up to 180 TOPS of Intel performance, both running fully offline with a privacy switch. Kickstarter launches late September.",
+      "source": "Nativo Ventures",
       "date": "2026-08-29",
-      "url": "https://fetchgate.dev/blog/mcp-registry-audit-2026"
+      "url": "https://www.nativo.ventures/2026/08/26/three-native-capabilities-how-pinea-pi-defines-the-edge-ai-device/"
     },
     {
-      "title": "AI image generation on a $1 RP2350 microcontroller",
-      "summary": "A tiny diffusion transformer running on an RP2350 microcontroller generates 128x128 images of human faces, pushing generative AI to the extreme edge of local hardware.",
-      "source": "Tim's Blog (cpldcpu)",
-      "date": "2026-08-28",
-      "url": "https://cpldcpu.github.io/2026/08/28/ai-image-generation-on-a-rp-pico-2-microcontroller/"
-    },
-    {
-      "title": "Conduct ships open-source guardrails for LLM and MCP tool calls",
-      "summary": "Conduct Guard is AI-agent governance with signed policies, a verified chain, fail-closed defaults, an LLM proxy router, and 20+ compliance packs — topping the day's Show HN on August 28.",
-      "source": "GitHub",
-      "date": "2026-08-28",
-      "url": "https://github.com/sseshachala/conductai"
+      "title": "AgentBridge: one agent thinks while another writes the code",
+      "summary": "A new open-source Rust agent harness that splits reasoning from code-writing across two models, debuted on Show HNable and runs locally for multi-model agent workflows.",
+      "source": "Hacker News",
+      "date": "2026-08-29",
+      "url": "https://github.com/IndexFlowing/AgentBridge"
     }
   ],
   "sections": [
     {
+      "title": "Research & Papers",
+      "items": [
+        {
+          "title": "QLoRA's acquisition-retention frontier for learning new facts",
+          "summary": "Traces how parameter-efficient fine-tuning trades off acquiring new facts against keeping pretrained capabilities, showing the outcome depends strongly on adapter capacity. A controlled OpenStreetMap-derived benchmark on Qwen3-4B informs adapter-rank choices for consumer-hardware fine-tuning.",
+          "source": "arXiv",
+          "date": "2026-08-26",
+          "url": "https://arxiv.org/abs/2608.25677"
+        },
+        {
+          "title": "DualOPSD: adaptive privileged teachers for on-policy self-distillation",
+          "summary": "Improves on-policy self-distillation with an asymmetric alternating scheme and adaptive privileged teachers, sharpening dense-supervision distillation for language-model training.",
+          "source": "arXiv",
+          "date": "2026-08-26",
+          "url": "https://arxiv.org/abs/2608.26019"
+        },
+        {
+          "title": "How much rank does LoRA need? Error bounds for attention heads",
+          "summary": "Offers task-dependent theory for the approximation error achievable at each LoRA rank on Transformer attention heads, providing a principled guide to picking rank instead of pure empirical tuning.",
+          "source": "arXiv",
+          "date": "2026-08-26",
+          "url": "https://arxiv.org/abs/2608.26052"
+        }
+      ]
+    },
+    {
       "title": "Tools & Runtimes",
       "items": [
         {
-          "title": "Forth MCP gives remote AI clients access to your local MCP servers",
-          "summary": "A hosted relay lets Claude, ChatGPT, or any MCP client reach local, NAT'd, or firewalled MCP servers without port forwarding or VPNs — one lightweight connector install.",
-          "source": "Forth MCP",
-          "date": "2026-08-28",
-          "url": "https://www.forthmcp.com/"
-        },
-        {
-          "title": "mcp-session-bridge drives the browser you're already signed into via MCP",
-          "summary": "An MCP server with 20 standalone tools (99 with the free T3rnel extension) that operates the user's existing signed-in browser session over local stdio, with nothing hosted.",
-          "source": "GitHub",
-          "date": "2026-08-28",
-          "url": "https://github.com/t3ratech/mcp-session-bridge"
-        },
-        {
-          "title": "Agentctl brings Terraform-style declarative config to agent harnesses",
-          "summary": "A tool for defining agent harness setups declaratively — 'Terraform for your agent harnesses' — launched on Show HN August 28.",
-          "source": "GitHub",
-          "date": "2026-08-28",
-          "url": "https://github.com/RomanVolkov/agentctl"
-        },
-        {
-          "title": "Leiolai pays users for the compute their devices provide to AI inference",
-          "summary": "A distributed-inference app that runs models across devices people already own instead of data centers — iPhone/Android, free to use, with leiolai-1 offering an 11M-token context via an OpenAI-compatible API.",
-          "source": "Leiolai",
+          "title": "Itsuki: an open-source memory engine for AI agents with API and MCP",
+          "summary": "A self-hosted memory layer for local AI agents exposing both a plain API and a Model Context Protocol interface, launched on Show HN as the memory layer under agent tooling.",
+          "source": "Hacker News",
           "date": "2026-08-29",
-          "url": "https://leiolai.com/"
+          "url": "https://itsuki.app/"
         },
         {
-          "title": "LLM Inference Calculator estimates VRAM, latency, and throughput",
-          "summary": "A free web tool for estimating VRAM requirements, latency, and throughput for LLM inference configurations, posted to Show HN August 28.",
-          "source": "LLM Inference Calculator",
-          "date": "2026-08-28",
-          "url": "https://llm-inference-calculator-delta.vercel.app/"
+          "title": "Metis coding agent reports roughly 50% higher coding performance",
+          "summary": "An agent harness on Show HN that wraps existing coding agents to push results toward Opus-tier scores on local setups, easing multi-agent coding workflows.",
+          "source": "Hacker News",
+          "date": "2026-08-29",
+          "url": "https://github.com/Wholiver/metis"
+        },
+        {
+          "title": "DeepSeekGUI: Windows desktop client for DeepSeek's coding agent",
+          "summary": "A TypeScript desktop app for running DeepSeek's coding agent locally on Windows, wrapping the official web UI with an independent workbench in development.",
+          "source": "Hacker News",
+          "date": "2026-08-29",
+          "url": "https://github.com/See-Sol-Lab/DeepSeekGUI"
+        }
+      ]
+    },
+    {
+      "title": "Hardware & Edge",
+      "items": [
+        {
+          "title": "NVIDIA GeForce driver 616.56 delivers compute gains via CUDA 13.3",
+          "summary": "The WHQL driver (Aug 26) brings CUDA 13.3 with real inference-relevant uplifts: about +8.1% in path tracing on the RTX 5080chers, +21.7% OpenCL, and +5.5% CUDA in Geekbench 7.",
+          "source": "Geeks3D",
+          "date": "2026-08-26",
+          "url": "https://www.geeks3d.com/20260826/nvidia-geforce-r616-graphics-driver/"
+        },
+        {
+          "title": "NVIDIA at Gamescom: DLSS 4.5 Ray Reconstruction and RTX Spark goes Game Ready",
+          "summary": "DLSS 4.5 Ray Reconstruction lands for all GeForce RTX GPUs and NVIDIA confirms its Arm-based RTX Spark AI PC platform is Game Ready this fall, targeting compact desktops and laptops for on-device inference.",
+          "source": "NVIDIA",
+          "date": "2026-08-25",
+          "url": "https://www.nvidia.com/en-us/geforce/news/gamescom-2026-nvidia-geforce-rtx-dlss-4-5-announcements/"
         }
       ]
     }
   ],
   "trending": {
     "github": {
-      "title": "GitHub Trending",
+      "title": "GitHub Trending · AI",
       "url": "https://github.com/trending",
       "link_label": "github.com/trending",
       "date": "2026-08-29",
       "items": [
-        {
-          "name": "tt-a1i/archify",
-          "url": "https://github.com/tt-a1i/archify",
-          "meta": "JavaScript"
-        },
-        {
-          "name": "K-Dense-AI/scientific-agent-skills",
-          "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-          "meta": "Python"
-        },
-        {
-          "name": "anthropics/claude-plugins-official",
-          "url": "https://github.com/anthropics/claude-plugins-official",
-          "meta": "Python"
-        },
-        {
-          "name": "bilawalsidhu/gods-eye-view",
-          "url": "https://github.com/bilawalsidhu/gods-eye-view",
-          "meta": "JavaScript"
-        },
-        {
-          "name": "abhigyanpatwari/GitNexus",
-          "url": "https://github.com/abhigyanpatwari/GitNexus",
-          "meta": "TypeScript"
-        },
-        {
-          "name": "JetBrains/go-modern-guidelines",
-          "url": "https://github.com/JetBrains/go-modern-guidelines",
-          "meta": "Go"
-        },
-        {
-          "name": "calesthio/OpenMontage",
-          "url": "https://github.com/calesthio/OpenMontage",
-          "meta": "Python"
-        },
-        {
-          "name": "abi/screenshot-to-code",
-          "url": "https://github.com/abi/screenshot-to-code",
-          "meta": "Python"
-        },
-        {
-          "name": "cursor/plugins",
-          "url": "https://github.com/cursor/plugins",
-          "meta": "TypeScript"
-        },
-        {
-          "name": "freestylefly/awesome-gpt-image-2",
-          "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-          "meta": "JavaScript"
-        },
-        {
-          "name": "tailscale/tailcat",
-          "url": "https://github.com/tailscale/tailcat",
-          "meta": "Go"
-        },
-        {
-          "name": "NationalSecurityAgency/ghidra",
-          "url": "https://github.com/NationalSecurityAgency/ghidra",
-          "meta": "Java"
-        },
-        {
-          "name": "swoole/typephp",
-          "url": "https://github.com/swoole/typephp",
-          "meta": "PHP"
-        },
-        {
-          "name": "marin-community/marin",
-          "url": "https://github.com/marin-community/marin",
-          "meta": "Python"
-        },
-        {
-          "name": "tashfeenahmed/freellmapi",
-          "url": "https://github.com/tashfeenahmed/freellmapi",
-          "meta": "TypeScript"
-        }
+        {"name": "tt-a1i/archify", "url": "https://github.com/tt-a1i/archify", "meta": "JavaScript · 28,992 ★ · +4,562 today"},
+        {"name": "K-Dense-AI/scientific-agent-skills", "url": "https://github.com/K-Dense-AI/scientific-agent-skills", "meta": "Python · 37,182 ★ · +720 today"},
+        {"name": "anthropics/claude-plugins-official", "url": "https://github.com/anthropics/claude-plugins-official", "meta": "Python · 35,161 ★ · +457 today"},
+        {"name": "bilawalsidhu/gods-eye-view", "url": "https://github.com/bilawalsidhu/gods-eye-view", "meta": "JavaScript · 11,684 ★ · +3,829 today"},
+        {"name": "abhigyanpatwari/GitNexus", "url": "https://github.com/abhigyanpatwari/GitNexus", "meta": "TypeScript · 46,257 ★ · +202 today"},
+        {"name": "JetBrains/go-modern-guidelines", "url": "https://github.com/JetBrains/go-modern-guidelines", "meta": "Go · 2,706 ★ · +574 today"},
+        {"name": "calesthio/OpenMontage", "url": "https://github.com/calesthio/OpenMontage", "meta": "Python · 53,600 ★ · +1,144 today"},
+        {"name": "abi/screenshot-to-code", "url": "https://github.com/abi/screenshot-to-code", "meta": "Python · 75,760 ★ · +326 today"},
+        {"name": "cursor/plugins", "url": "https://github.com/cursor/plugins", "meta": "TypeScript · 6,052 ★ · +246 today"},
+        {"name": "freestylefly/awesome-gpt-image-2", "url": "https://github.com/freestylefly/awesome-gpt-image-2", "meta": "JavaScript · 24,618 ★ · +1,687 today"}
       ]
     },
     "huggingface": {
@@ -173,110 +132,38 @@
       "link_label": "huggingface.co/models",
       "date": "2026-08-29",
       "items": [
-        {
-          "name": "Qwen/Qwen3.8-Flash-Next",
-          "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
-          "meta": "52,341 downloads \u00b7 4,198 likes"
-        },
-        {
-          "name": "zai-org/GLM-5.3-Flash",
-          "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
-          "meta": "189,793 downloads \u00b7 1,544 likes"
-        },
-        {
-          "name": "zai-org/GLM-5.3",
-          "url": "https://huggingface.co/zai-org/GLM-5.3",
-          "meta": "8,804 downloads \u00b7 1,194 likes"
-        },
-        {
-          "name": "Qwen/Qwen3.8-27B",
-          "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "meta": "4,028,839 downloads \u00b7 13,174 likes"
-        },
-        {
-          "name": "unsloth/Qwen3.8-Flash-Next-GGUF",
-          "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF",
-          "meta": "188,061 downloads \u00b7 534 likes"
-        },
-        {
-          "name": "unsloth/Qwen3.8-27B-GGUF",
-          "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
-          "meta": "8,363,481 downloads \u00b7 3,160 likes"
-        },
-        {
-          "name": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
-          "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
-          "meta": "645,554 downloads \u00b7 885 likes"
-        },
-        {
-          "name": "Lightricks/LTX-2.5",
-          "url": "https://huggingface.co/Lightricks/LTX-2.5",
-          "meta": "1,044,661 downloads \u00b7 2,042 likes"
-        },
-        {
-          "name": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
-          "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX",
-          "meta": "97,508 downloads \u00b7 1,196 likes"
-        },
-        {
-          "name": "tencent/Hy4-preview",
-          "url": "https://huggingface.co/tencent/Hy4-preview",
-          "meta": "1,394 downloads \u00b7 258 likes"
-        }
+        {"name": "Qwen/Qwen3.8-27B", "url": "https://huggingface.co/Qwen/Qwen3.8-27B", "meta": "Dense 27B multimodal VLM, Apache 2.0"},
+        {"name": "unsloth/Qwen3.8-27B-GGUF", "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF", "meta": "GGUF quantization of Qwen3.8-27B"},
+        {"name": "orcarouter/Qwen3.8-27B-Uncensored-FP8", "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8", "meta": "FP8 uncensored variant of Qwen3.8-27B"},
+        {"name": "orcarouter/Qwen3.8-27B-Uncensored-MLX", "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX", "meta": "MLX Apple Silicon build of Qwen3.8-27B"},
+        {"name": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF", "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF", "meta": "Uncensored GGUF quantization"},
+        {"name": "OBLITERATUS/Qwen3.8-27B-OBLITERATED", "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED", "meta": "Abliterated/uncensored Qwen3.8-27B"},
+        {"name": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF", "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF", "meta": "Aggressive MTP uncensored GGUF"},
+        {"name": "Lightricks/LTX-2.5", "url": "https://huggingface.co/Lightricks/LTX-2.5", "meta": "Video generation model (LTX 2.5)"},
+        {"name": "MiniMaxAI/MiniMax-Music3", "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3", "meta": "Music generation model"},
+        {"name": "ornith-ai/Ornith-1.5-35B-A3B", "url": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B", "meta": "35B MoE, language world model"}
       ]
     }
   },
   "quick_hits": [
     {
-      "title": "Rafter is an MCP server that shares one team's memory, skills and agents",
-      "source": "Rafter",
-      "date": "2026-08-28",
-      "url": "https://heyrafter.xyz/"
+      "title": "AMD HDMI 2.1 FRL goes default-on in Linux; boot flag retires",
+      "source": "Hardware Busters",
+      "url": "https://hwbusters.com/news/amds-hdmi-2-1-frl-goes-default-on-in-linux-and-the-boot-flag-retires-with-it/"
     },
     {
-      "title": "Agentify Chat adds E2E-encrypted remote chat for Codex, Claude, and Grok CLIs",
-      "source": "Hacker News",
-      "date": "2026-08-28",
-      "url": "https://news.ycombinator.com/item?id=49482455"
+      "title": "n8n 2.36.8 and 2.37.4 fix domain-restricted credentials in core",
+      "source": "n8n",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.8"
     },
     {
-      "title": "Tokensift is an open-source token-efficiency linter for LLM prompts",
+      "title": "llama.cpp b10679 nightly adds NPU ops and per-architecture tunings",
       "source": "GitHub",
-      "date": "2026-08-29",
-      "url": "https://github.com/ritenv/tokensift"
-    },
-    {
-      "title": "Metis is an agent harness pushing DeepSeek toward Opus-tier coding scores",
-      "source": "GitHub",
-      "date": "2026-08-29",
-      "url": "https://github.com/Wholiver/metis"
-    },
-    {
-      "title": "AgentBridge lets one AI think while another AI writes the code",
-      "source": "GitHub",
-      "date": "2026-08-29",
-      "url": "https://github.com/IndexFlowing/AgentBridge"
-    },
-    {
-      "title": "Itsuki is an open-source memory engine for AI agents with API and MCP access",
-      "source": "Itsuki",
-      "date": "2026-08-29",
-      "url": "https://itsuki.app/"
-    },
-    {
-      "title": "Conduct ships open-source guardrails for LLM and MCP tool calls",
-      "source": "GitHub",
-      "date": "2026-08-28",
-      "url": "https://github.com/sseshachala/conductai"
-    },
-    {
-      "title": "Forth MCP gives remote AI clients access to your local MCP servers",
-      "source": "Forth MCP",
-      "date": "2026-08-28",
-      "url": "https://www.forthmcp.com/"
+      "url": "https://github.com/ggml-org/llama.cpp/releases"
     }
   ],
   "spiked": {
-    "already ran": 5
+    "already ran": 5,
+    "thin section": 1
   }
 }

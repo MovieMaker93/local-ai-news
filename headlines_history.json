@@ -428,6 +428,96 @@
       "source": "Forth MCP",
       "date": "2026-08-29",
       "issue": 3
+    },
+    {
+      "text": "LM Studio 0.4.22 adds speculative-decoding drafters and tool-image support",
+      "source": "LM Studio",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "NVIDIA Jetson Orin Nano 2: 78 TOPS of entry-level edge AI",
+      "source": "NVIDIA Newsroom",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "Pinea Pi debuts edge AI nodes with up to 275 TOPS for offline inference",
+      "source": "Nativo Ventures",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "AgentBridge: one agent thinks while another writes the code",
+      "source": "Hacker News",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "QLoRA's acquisition-retention frontier for learning new facts",
+      "source": "arXiv",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "DualOPSD: adaptive privileged teachers for on-policy self-distillation",
+      "source": "arXiv",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "How much rank does LoRA need? Error bounds for attention heads",
+      "source": "arXiv",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "Itsuki: an open-source memory engine for AI agents with API and MCP",
+      "source": "Hacker News",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "Metis coding agent reports roughly 50% higher coding performance",
+      "source": "Hacker News",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "DeepSeekGUI: Windows desktop client for DeepSeek's coding agent",
+      "source": "Hacker News",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "NVIDIA GeForce driver 616.56 delivers compute gains via CUDA 13.3",
+      "source": "Geeks3D",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "NVIDIA at Gamescom: DLSS 4.5 Ray Reconstruction and RTX Spark goes Game Ready",
+      "source": "NVIDIA",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "AMD HDMI 2.1 FRL goes default-on in Linux; boot flag retires",
+      "source": "Hardware Busters",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "n8n 2.36.8 and 2.37.4 fix domain-restricted credentials in core",
+      "source": "n8n",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "llama.cpp b10679 nightly adds NPU ops and per-architecture tunings",
+      "source": "GitHub",
+      "date": "2026-08-29",
+      "issue": 3
     }
   ]
 }
