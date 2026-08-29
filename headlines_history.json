@@ -320,6 +320,114 @@
       "source": "GitHub",
       "date": "2026-08-28",
       "issue": 2
+    },
+    {
+      "text": "llama.cpp fixes a Vulkan bug that silently corrupted tokens on AMD and NVIDIA GPUs",
+      "source": "GitHub",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "llama.cpp OpenVINO backend gains Whisper support, Qwen3.5 on Intel NPUs",
+      "source": "GitHub",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "Fetchgate audits the official MCP registry: 15,329 servers probed",
+      "source": "Fetchgate",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "AI image generation on a $1 RP2350 microcontroller",
+      "source": "Tim's Blog (cpldcpu)",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "Conduct ships open-source guardrails for LLM and MCP tool calls",
+      "source": "GitHub",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "Forth MCP gives remote AI clients access to your local MCP servers",
+      "source": "Forth MCP",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "mcp-session-bridge drives the browser you're already signed into via MCP",
+      "source": "GitHub",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "Agentctl brings Terraform-style declarative config to agent harnesses",
+      "source": "GitHub",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "Leiolai pays users for the compute their devices provide to AI inference",
+      "source": "Leiolai",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "LLM Inference Calculator estimates VRAM, latency, and throughput",
+      "source": "LLM Inference Calculator",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "Rafter is an MCP server that shares one team's memory, skills and agents",
+      "source": "Rafter",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "Agentify Chat adds E2E-encrypted remote chat for Codex, Claude, and Grok CLIs",
+      "source": "Hacker News",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "Tokensift is an open-source token-efficiency linter for LLM prompts",
+      "source": "GitHub",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "Metis is an agent harness pushing DeepSeek toward Opus-tier coding scores",
+      "source": "GitHub",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "AgentBridge lets one AI think while another AI writes the code",
+      "source": "GitHub",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "Itsuki is an open-source memory engine for AI agents with API and MCP access",
+      "source": "Itsuki",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "Conduct ships open-source guardrails for LLM and MCP tool calls",
+      "source": "GitHub",
+      "date": "2026-08-29",
+      "issue": 3
+    },
+    {
+      "text": "Forth MCP gives remote AI clients access to your local MCP servers",
+      "source": "Forth MCP",
+      "date": "2026-08-29",
+      "issue": 3
     }
   ]
 }
