@@ -518,6 +518,48 @@
       "source": "GitHub",
       "date": "2026-08-29",
       "issue": 3
+    },
+    {
+      "text": "MoE-Direct streams MoE experts from NVMe to run huge models on a 32GB desktop",
+      "source": "Hacker News / GitHub",
+      "date": "2026-08-30",
+      "issue": 4
+    },
+    {
+      "text": "Qwen3.8-27B: Alibaba ships a new SOTA open-weights flagship for local use",
+      "source": "HuggingFace",
+      "date": "2026-08-30",
+      "issue": 4
+    },
+    {
+      "text": "MSI XpertStation WS300 ships a DGX Station-class desktop with 748GB of memory",
+      "source": "Northeast Herald",
+      "date": "2026-08-30",
+      "issue": 4
+    },
+    {
+      "text": "Memnest gives coding agents local-first persistent memory over one MCP contract",
+      "source": "Hacker News",
+      "date": "2026-08-30",
+      "issue": 4
+    },
+    {
+      "text": "llama.cpp b10687\u2013b10689 add Vulkan mul_mat_id fixes and M1 Max metal tunings",
+      "source": "GitHub",
+      "date": "2026-08-30",
+      "issue": 4
+    },
+    {
+      "text": "Cloudless Voice brings free, fully offline Whisper dictation to Mac and Windows",
+      "source": "Hacker News",
+      "date": "2026-08-30",
+      "issue": 4
+    },
+    {
+      "text": "Aetina MegaEdge AIP-RQ87 edge system enters mass production for on-prem LLMs",
+      "source": "Theia",
+      "date": "2026-08-30",
+      "issue": 4
     }
   ]
 }

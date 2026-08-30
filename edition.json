@@ -1,169 +1,108 @@
 {
-  "issue_no": 3,
-  "date_iso": "2026-08-29",
-  "date_human": "August 29, 2026",
-  "notice": "Light news day — several of the window's bigger stories were already covered in issues 1 and 2, so this edition is slimmer than usual.",
+  "issue_no": 4,
+  "date_iso": "2026-08-30",
+  "date_human": "August 30, 2026",
+  "notice": "Light news day — fewer fresh items than usual.",
   "lead": {
-    "kicker": "Local inference GUI",
-    "title": "LM Studio 0.4.22 adds speculative-decoding drafters and tool-image support",
-    "summary": "The local inference GUI's 0.4.22 update ships DFlash, DSpark, and MTP assistant drafters for speculative decoding (requiring llama.cpp 2.29.1+), alongside support for images returned by tools in OpenAI- and Anthropic-compatible APIs. A batch of Linux AppImage/.deb fixes rounds out the release. A directly usable speedup for daily local inference.",
-    "source": "LM Studio",
-    "date": "2026-08-28",
-    "url": "https://lmstudio.ai/changelog/lmstudio/lmstudio-v0.4.22"
+    "kicker": "MoE beyond RAM",
+    "title": "MoE-Direct streams MoE experts from NVMe to run huge models on a 32GB desktop",
+    "summary": "A new Windows tool streams byte-preserving MoE experts straight off an NVMe drive on demand, letting models like Qwen3.5-122B and a 436GB Kimi K2.6 run on a single 32GB desktop. No re-quantization or routing changes, and outputs stay token-identical.",
+    "source": "Hacker News / GitHub",
+    "date": "2026-08-29",
+    "url": "https://github.com/tmxkzm1925-max/MoE-Direct"
   },
   "top_stories": [
     {
-      "title": "NVIDIA Jetson Orin Nano 2: 78 TOPS of entry-level edge AI",
-      "summary": "NVIDIA's next robotics/edge-AI computer doubles the Orin Nano Super's inference performance in the same footprint at 40% lower power, enough for on-device LLMs like Gemma 4 and Qwen 3. Module and dev kit ship H1 2027.",
-      "source": "NVIDIA Newsroom",
-      "date": "2026-08-25",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-jetson-orin-nano-2-robotics-computer-to-redefine-entry-level-edge-ai"
+      "title": "Qwen3.8-27B: Alibaba ships a new SOTA open-weights flagship for local use",
+      "summary": "The new 27B open-weights model tops its size class with native image and video understanding, 262K native context (extendable to 1M), and strong agentic scores — this week's top trending model on Hugging Face.",
+      "source": "HuggingFace",
+      "date": "2026-08-30",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
     },
     {
-      "title": "Pinea Pi debuts edge AI nodes with up to 275 TOPS for offline inference",
-      "summary": "The new line targets local robotics and embodied-AI workloads: the Pi Pro carries 275 TOPS of NVIDIA compute while the Pi Lite packs up to 180 TOPS of Intel performance, both running fully offline with a privacy switch. Kickstarter launches late September.",
-      "source": "Nativo Ventures",
+      "title": "MSI XpertStation WS300 ships a DGX Station-class desktop with 748GB of memory",
+      "summary": "The GB300-based deskside AI box, whose 748GB of coherent memory keeps large foundation models resident, is now shipping through ASI, D&H and Newegg. Dual 400GbE ConnectX-8 networking lets two units cluster for larger workloads.",
+      "source": "Northeast Herald",
       "date": "2026-08-29",
-      "url": "https://www.nativo.ventures/2026/08/26/three-native-capabilities-how-pinea-pi-defines-the-edge-ai-device/"
+      "url": "https://www.neherald.com/life/msi-s-new-ai-supercomputer-is-here-and-it-packs-nvidia-s-most-powerful-chip"
     },
     {
-      "title": "AgentBridge: one agent thinks while another writes the code",
-      "summary": "A new open-source Rust agent harness that splits reasoning from code-writing across two models, debuted on Show HNable and runs locally for multi-model agent workflows.",
+      "title": "Memnest gives coding agents local-first persistent memory over one MCP contract",
+      "summary": "A Rust service hands pi, Claude Code and Codex durable memory through a single MCP/HTTP tool contract, with local BM25 + HNSW hybrid search, transcript capture and an encrypted secrets vault. Fully on-device with no LLM calls.",
       "source": "Hacker News",
-      "date": "2026-08-29",
-      "url": "https://github.com/IndexFlowing/AgentBridge"
+      "date": "2026-08-30",
+      "url": "https://github.com/Blue-B/memnest"
     }
   ],
   "sections": [
     {
-      "title": "Research & Papers",
-      "items": [
-        {
-          "title": "QLoRA's acquisition-retention frontier for learning new facts",
-          "summary": "Traces how parameter-efficient fine-tuning trades off acquiring new facts against keeping pretrained capabilities, showing the outcome depends strongly on adapter capacity. A controlled OpenStreetMap-derived benchmark on Qwen3-4B informs adapter-rank choices for consumer-hardware fine-tuning.",
-          "source": "arXiv",
-          "date": "2026-08-26",
-          "url": "https://arxiv.org/abs/2608.25677"
-        },
-        {
-          "title": "DualOPSD: adaptive privileged teachers for on-policy self-distillation",
-          "summary": "Improves on-policy self-distillation with an asymmetric alternating scheme and adaptive privileged teachers, sharpening dense-supervision distillation for language-model training.",
-          "source": "arXiv",
-          "date": "2026-08-26",
-          "url": "https://arxiv.org/abs/2608.26019"
-        },
-        {
-          "title": "How much rank does LoRA need? Error bounds for attention heads",
-          "summary": "Offers task-dependent theory for the approximation error achievable at each LoRA rank on Transformer attention heads, providing a principled guide to picking rank instead of pure empirical tuning.",
-          "source": "arXiv",
-          "date": "2026-08-26",
-          "url": "https://arxiv.org/abs/2608.26052"
-        }
-      ]
-    },
-    {
       "title": "Tools & Runtimes",
       "items": [
         {
-          "title": "Itsuki: an open-source memory engine for AI agents with API and MCP",
-          "summary": "A self-hosted memory layer for local AI agents exposing both a plain API and a Model Context Protocol interface, launched on Show HN as the memory layer under agent tooling.",
-          "source": "Hacker News",
-          "date": "2026-08-29",
-          "url": "https://itsuki.app/"
+          "title": "llama.cpp b10687\u2013b10689 add Vulkan mul_mat_id fixes and M1 Max metal tunings",
+          "summary": "Fresh pre-release builds tighten SYCL --fit VRAM accounting, fix Vulkan mul_mat_id padding, and tune fa-vec for M1 Max in the metal backend, shipped with Windows OpenVINO/SYCL/ROCm binaries.",
+          "source": "GitHub",
+          "date": "2026-08-30",
+          "url": "https://github.com/ggml-org/llama.cpp/releases"
         },
         {
-          "title": "Metis coding agent reports roughly 50% higher coding performance",
-          "summary": "An agent harness on Show HN that wraps existing coding agents to push results toward Opus-tier scores on local setups, easing multi-agent coding workflows.",
+          "title": "Cloudless Voice brings free, fully offline Whisper dictation to Mac and Windows",
+          "summary": "A 100%-local voice dictation app positioned as an open-source alternative to Wispr Flow, running Parakeet V3 on MLX with a fine-tuned Llama 1B cleanup model. No cloud processing.",
           "source": "Hacker News",
           "date": "2026-08-29",
-          "url": "https://github.com/Wholiver/metis"
-        },
-        {
-          "title": "DeepSeekGUI: Windows desktop client for DeepSeek's coding agent",
-          "summary": "A TypeScript desktop app for running DeepSeek's coding agent locally on Windows, wrapping the official web UI with an independent workbench in development.",
-          "source": "Hacker News",
-          "date": "2026-08-29",
-          "url": "https://github.com/See-Sol-Lab/DeepSeekGUI"
-        }
-      ]
-    },
-    {
-      "title": "Hardware & Edge",
-      "items": [
-        {
-          "title": "NVIDIA GeForce driver 616.56 delivers compute gains via CUDA 13.3",
-          "summary": "The WHQL driver (Aug 26) brings CUDA 13.3 with real inference-relevant uplifts: about +8.1% in path tracing on the RTX 5080chers, +21.7% OpenCL, and +5.5% CUDA in Geekbench 7.",
-          "source": "Geeks3D",
-          "date": "2026-08-26",
-          "url": "https://www.geeks3d.com/20260826/nvidia-geforce-r616-graphics-driver/"
-        },
-        {
-          "title": "NVIDIA at Gamescom: DLSS 4.5 Ray Reconstruction and RTX Spark goes Game Ready",
-          "summary": "DLSS 4.5 Ray Reconstruction lands for all GeForce RTX GPUs and NVIDIA confirms its Arm-based RTX Spark AI PC platform is Game Ready this fall, targeting compact desktops and laptops for on-device inference.",
-          "source": "NVIDIA",
-          "date": "2026-08-25",
-          "url": "https://www.nvidia.com/en-us/geforce/news/gamescom-2026-nvidia-geforce-rtx-dlss-4-5-announcements/"
+          "url": "https://www.cloudless.so/"
         }
       ]
     }
   ],
   "trending": {
     "github": {
-      "title": "GitHub Trending · AI",
+      "title": "GitHub Trending \u00b7 AI",
       "url": "https://github.com/trending",
       "link_label": "github.com/trending",
-      "date": "2026-08-29",
+      "date": "2026-08-30",
       "items": [
-        {"name": "tt-a1i/archify", "url": "https://github.com/tt-a1i/archify", "meta": "JavaScript · 28,992 ★ · +4,562 today"},
-        {"name": "K-Dense-AI/scientific-agent-skills", "url": "https://github.com/K-Dense-AI/scientific-agent-skills", "meta": "Python · 37,182 ★ · +720 today"},
-        {"name": "anthropics/claude-plugins-official", "url": "https://github.com/anthropics/claude-plugins-official", "meta": "Python · 35,161 ★ · +457 today"},
-        {"name": "bilawalsidhu/gods-eye-view", "url": "https://github.com/bilawalsidhu/gods-eye-view", "meta": "JavaScript · 11,684 ★ · +3,829 today"},
-        {"name": "abhigyanpatwari/GitNexus", "url": "https://github.com/abhigyanpatwari/GitNexus", "meta": "TypeScript · 46,257 ★ · +202 today"},
-        {"name": "JetBrains/go-modern-guidelines", "url": "https://github.com/JetBrains/go-modern-guidelines", "meta": "Go · 2,706 ★ · +574 today"},
-        {"name": "calesthio/OpenMontage", "url": "https://github.com/calesthio/OpenMontage", "meta": "Python · 53,600 ★ · +1,144 today"},
-        {"name": "abi/screenshot-to-code", "url": "https://github.com/abi/screenshot-to-code", "meta": "Python · 75,760 ★ · +326 today"},
-        {"name": "cursor/plugins", "url": "https://github.com/cursor/plugins", "meta": "TypeScript · 6,052 ★ · +246 today"},
-        {"name": "freestylefly/awesome-gpt-image-2", "url": "https://github.com/freestylefly/awesome-gpt-image-2", "meta": "JavaScript · 24,618 ★ · +1,687 today"}
+        {"name": "tt-a1i/archify", "url": "https://github.com/tt-a1i/archify", "meta": "JavaScript \u00b7 31.5k \u2605 \u00b7 +3,902 today"},
+        {"name": "K-Dense-AI/scientific-agent-skills", "url": "https://github.com/K-Dense-AI/scientific-agent-skills", "meta": "Python \u00b7 38.1k \u2605 \u00b7 +1,587 today"},
+        {"name": "THU-MAIC/OpenMAIC", "url": "https://github.com/THU-MAIC/OpenMAIC", "meta": "TypeScript \u00b7 22.5k \u2605 \u00b7 +907 today"},
+        {"name": "calesthio/OpenMontage", "url": "https://github.com/calesthio/OpenMontage", "meta": "Python \u00b7 54.2k \u2605 \u00b7 +806 today"},
+        {"name": "abi/screenshot-to-code", "url": "https://github.com/abi/screenshot-to-code", "meta": "Python \u00b7 76.1k \u2605 \u00b7 +550 today"},
+        {"name": "anthropics/claude-plugins-official", "url": "https://github.com/anthropics/claude-plugins-official", "meta": "Python \u00b7 35.5k \u2605 \u00b7 +358 today"},
+        {"name": "JetBrains/go-modern-guidelines", "url": "https://github.com/JetBrains/go-modern-guidelines", "meta": "Go \u00b7 2.9k \u2605 \u00b7 +303 today"},
+        {"name": "p-e-w/heretic", "url": "https://github.com/p-e-w/heretic", "meta": "Python \u00b7 28.8k \u2605 \u00b7 +150 today"},
+        {"name": "ComposioHQ/awesome-claude-skills", "url": "https://github.com/ComposioHQ/awesome-claude-skills", "meta": "Python \u00b7 74.0k \u2605 \u00b7 +73 today"},
+        {"name": "Osmantic/ODS", "url": "https://github.com/Osmantic/ODS", "meta": "Python \u00b7 5.0k \u2605 \u00b7 +35 today"}
       ]
     },
     "huggingface": {
       "title": "Models Trending (Hugging Face)",
       "url": "https://huggingface.co/models?sort=trending",
       "link_label": "huggingface.co/models",
-      "date": "2026-08-29",
+      "date": "2026-08-30",
       "items": [
-        {"name": "Qwen/Qwen3.8-27B", "url": "https://huggingface.co/Qwen/Qwen3.8-27B", "meta": "Dense 27B multimodal VLM, Apache 2.0"},
-        {"name": "unsloth/Qwen3.8-27B-GGUF", "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF", "meta": "GGUF quantization of Qwen3.8-27B"},
-        {"name": "orcarouter/Qwen3.8-27B-Uncensored-FP8", "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8", "meta": "FP8 uncensored variant of Qwen3.8-27B"},
-        {"name": "orcarouter/Qwen3.8-27B-Uncensored-MLX", "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX", "meta": "MLX Apple Silicon build of Qwen3.8-27B"},
-        {"name": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF", "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF", "meta": "Uncensored GGUF quantization"},
-        {"name": "OBLITERATUS/Qwen3.8-27B-OBLITERATED", "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED", "meta": "Abliterated/uncensored Qwen3.8-27B"},
-        {"name": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF", "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF", "meta": "Aggressive MTP uncensored GGUF"},
-        {"name": "Lightricks/LTX-2.5", "url": "https://huggingface.co/Lightricks/LTX-2.5", "meta": "Video generation model (LTX 2.5)"},
-        {"name": "MiniMaxAI/MiniMax-Music3", "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3", "meta": "Music generation model"},
-        {"name": "ornith-ai/Ornith-1.5-35B-A3B", "url": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B", "meta": "35B MoE, language world model"}
+        {"name": "Qwen/Qwen3.8-27B", "url": "https://huggingface.co/Qwen/Qwen3.8-27B", "meta": "28B image-text-to-text, SOTA local model"},
+        {"name": "unsloth/Qwen3.8-27B-GGUF", "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF", "meta": "27B, GGUF quant of Qwen3.8-27B"},
+        {"name": "orcarouter/Qwen3.8-27B-Uncensored-MLX", "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX", "meta": "5B MLX, uncensored Qwen3.8-27B"},
+        {"name": "OBLITERATUS/Qwen3.8-27B-OBLITERATED", "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED", "meta": "28B text generation, abliterated Qwen3.8-27B"},
+        {"name": "orcarouter/Qwen3.8-27B-Uncensored-FP8", "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8", "meta": "28B FP8, uncensored Qwen3.8-27B"},
+        {"name": "ornith-ai/Ornith-1.5-35B-A3B", "url": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B", "meta": "36B MoE (3B active), language model"},
+        {"name": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF", "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF", "meta": "2B GGUF, uncensored Qwen3.8-27B variant"},
+        {"name": "Lightricks/LTX-2.5", "url": "https://huggingface.co/Lightricks/LTX-2.5", "meta": "image-to-video generation model"},
+        {"name": "ornith-ai/Ornith-1.5-35B-A3B-GGUF", "url": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B-GGUF", "meta": "36B GGUF, Ornith-1.5 MoE"},
+        {"name": "MiniMaxAI/MiniMax-Music3", "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3", "meta": "2B text-to-audio music generation"}
       ]
     }
   },
   "quick_hits": [
     {
-      "title": "AMD HDMI 2.1 FRL goes default-on in Linux; boot flag retires",
-      "source": "Hardware Busters",
-      "url": "https://hwbusters.com/news/amds-hdmi-2-1-frl-goes-default-on-in-linux-and-the-boot-flag-retires-with-it/"
-    },
-    {
-      "title": "n8n 2.36.8 and 2.37.4 fix domain-restricted credentials in core",
-      "source": "n8n",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.8"
-    },
-    {
-      "title": "llama.cpp b10679 nightly adds NPU ops and per-architecture tunings",
-      "source": "GitHub",
-      "url": "https://github.com/ggml-org/llama.cpp/releases"
+      "title": "Aetina MegaEdge AIP-RQ87 edge system enters mass production for on-prem LLMs",
+      "source": "Theia",
+      "date": "2026-08-29",
+      "url": "https://www.theia.global/article/aetina-unveils-megaedge-aip-rq87-2u-edge-ai-system-for-private-llms-and-automation-ee9c567b"
     }
   ],
   "spiked": {
-    "already ran": 5,
-    "thin section": 1
+    "already ran": 9,
+    "out of window": 2
   }
 }
