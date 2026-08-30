@@ -560,6 +560,18 @@
       "source": "Theia",
       "date": "2026-08-30",
       "issue": 4
+    },
+    {
+      "text": "Ornith-1.5: self-improving open-weight models scale to 397B",
+      "source": "HuggingFace",
+      "date": "2026-08-30",
+      "issue": 4
+    },
+    {
+      "text": "Self-hosting a local reranker for Open WebUI with vLLM",
+      "source": "r/OpenWebUI",
+      "date": "2026-08-30",
+      "issue": 4
     }
   ]
 }

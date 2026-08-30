@@ -4,74 +4,40 @@
   "date_human": "August 30, 2026",
   "notice": "Light news day — fewer fresh items than usual.",
   "lead": {
-    "kicker": "MoE beyond RAM",
-    "title": "MoE-Direct streams MoE experts from NVMe to run huge models on a 32GB desktop",
-    "summary": "A new Windows tool streams byte-preserving MoE experts straight off an NVMe drive on demand, letting models like Qwen3.5-122B and a 436GB Kimi K2.6 run on a single 32GB desktop. No re-quantization or routing changes, and outputs stay token-identical.",
-    "source": "Hacker News / GitHub",
+    "kicker": "Self-improving models",
+    "title": "Ornith-1.5: self-improving open-weight models scale to 397B",
+    "summary": "Ornith-1.5 expands end-to-end self-improvement to a full family — 9B dense, 35B-A3B, and 397B MoE — jointly optimizing task generation, scaffold construction, and rollouts. The 397B flagship scores 86.1 on Terminal-Bench 2.1, on par with Claude Opus 4.8, while the 9B variant is edge- and single-GPU deployable.",
+    "source": "HuggingFace",
     "date": "2026-08-29",
-    "url": "https://github.com/tmxkzm1925-max/MoE-Direct"
+    "url": "https://huggingface.co/ornith-ai/Ornith-1.5-397B"
   },
   "top_stories": [
     {
-      "title": "Qwen3.8-27B: Alibaba ships a new SOTA open-weights flagship for local use",
-      "summary": "The new 27B open-weights model tops its size class with native image and video understanding, 262K native context (extendable to 1M), and strong agentic scores — this week's top trending model on Hugging Face.",
-      "source": "HuggingFace",
-      "date": "2026-08-30",
-      "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
-    },
-    {
-      "title": "MSI XpertStation WS300 ships a DGX Station-class desktop with 748GB of memory",
-      "summary": "The GB300-based deskside AI box, whose 748GB of coherent memory keeps large foundation models resident, is now shipping through ASI, D&H and Newegg. Dual 400GbE ConnectX-8 networking lets two units cluster for larger workloads.",
-      "source": "Northeast Herald",
+      "title": "Self-hosting a local reranker for Open WebUI with vLLM",
+      "url": "https://www.reddit.com/r/OpenWebUI/comments/1pk3sni/how_i_selfhosted_a_local_reranker_for_open_webui",
+      "source": "r/OpenWebUI",
       "date": "2026-08-29",
-      "url": "https://www.neherald.com/life/msi-s-new-ai-supercomputer-is-here-and-it-packs-nvidia-s-most-powerful-chip"
-    },
-    {
-      "title": "Memnest gives coding agents local-first persistent memory over one MCP contract",
-      "summary": "A Rust service hands pi, Claude Code and Codex durable memory through a single MCP/HTTP tool contract, with local BM25 + HNSW hybrid search, transcript capture and an encrypted secrets vault. Fully on-device with no LLM calls.",
-      "source": "Hacker News",
-      "date": "2026-08-30",
-      "url": "https://github.com/Blue-B/memnest"
+      "summary": "An operator serving 100 employees wires BAAI/bge-reranker-v2-m3 into Open WebUI via a self-hosted vLLM /v1/rerank endpoint, keeping RAG chunks fully on-premises and dropping the external Jina rerank API."
     }
   ],
-  "sections": [
-    {
-      "title": "Tools & Runtimes",
-      "items": [
-        {
-          "title": "llama.cpp b10687\u2013b10689 add Vulkan mul_mat_id fixes and M1 Max metal tunings",
-          "summary": "Fresh pre-release builds tighten SYCL --fit VRAM accounting, fix Vulkan mul_mat_id padding, and tune fa-vec for M1 Max in the metal backend, shipped with Windows OpenVINO/SYCL/ROCm binaries.",
-          "source": "GitHub",
-          "date": "2026-08-30",
-          "url": "https://github.com/ggml-org/llama.cpp/releases"
-        },
-        {
-          "title": "Cloudless Voice brings free, fully offline Whisper dictation to Mac and Windows",
-          "summary": "A 100%-local voice dictation app positioned as an open-source alternative to Wispr Flow, running Parakeet V3 on MLX with a fine-tuned Llama 1B cleanup model. No cloud processing.",
-          "source": "Hacker News",
-          "date": "2026-08-29",
-          "url": "https://www.cloudless.so/"
-        }
-      ]
-    }
-  ],
+  "sections": [],
   "trending": {
     "github": {
-      "title": "GitHub Trending \u00b7 AI",
+      "title": "GitHub Trending · AI",
       "url": "https://github.com/trending",
       "link_label": "github.com/trending",
       "date": "2026-08-30",
       "items": [
-        {"name": "tt-a1i/archify", "url": "https://github.com/tt-a1i/archify", "meta": "JavaScript \u00b7 31.5k \u2605 \u00b7 +3,902 today"},
-        {"name": "K-Dense-AI/scientific-agent-skills", "url": "https://github.com/K-Dense-AI/scientific-agent-skills", "meta": "Python \u00b7 38.1k \u2605 \u00b7 +1,587 today"},
-        {"name": "THU-MAIC/OpenMAIC", "url": "https://github.com/THU-MAIC/OpenMAIC", "meta": "TypeScript \u00b7 22.5k \u2605 \u00b7 +907 today"},
-        {"name": "calesthio/OpenMontage", "url": "https://github.com/calesthio/OpenMontage", "meta": "Python \u00b7 54.2k \u2605 \u00b7 +806 today"},
-        {"name": "abi/screenshot-to-code", "url": "https://github.com/abi/screenshot-to-code", "meta": "Python \u00b7 76.1k \u2605 \u00b7 +550 today"},
-        {"name": "anthropics/claude-plugins-official", "url": "https://github.com/anthropics/claude-plugins-official", "meta": "Python \u00b7 35.5k \u2605 \u00b7 +358 today"},
-        {"name": "JetBrains/go-modern-guidelines", "url": "https://github.com/JetBrains/go-modern-guidelines", "meta": "Go \u00b7 2.9k \u2605 \u00b7 +303 today"},
-        {"name": "p-e-w/heretic", "url": "https://github.com/p-e-w/heretic", "meta": "Python \u00b7 28.8k \u2605 \u00b7 +150 today"},
-        {"name": "ComposioHQ/awesome-claude-skills", "url": "https://github.com/ComposioHQ/awesome-claude-skills", "meta": "Python \u00b7 74.0k \u2605 \u00b7 +73 today"},
-        {"name": "Osmantic/ODS", "url": "https://github.com/Osmantic/ODS", "meta": "Python \u00b7 5.0k \u2605 \u00b7 +35 today"}
+        {"name": "tt-a1i/archify", "url": "https://github.com/tt-a1i/archify", "meta": "JavaScript · 29.1k ★ · +4,562 today"},
+        {"name": "K-Dense-AI/scientific-agent-skills", "url": "https://github.com/K-Dense-AI/scientific-agent-skills", "meta": "Python · 37.2k ★ · +720 today"},
+        {"name": "anthropics/claude-plugins-official", "url": "https://github.com/anthropics/claude-plugins-official", "meta": "Python · 35.2k ★ · +457 today"},
+        {"name": "abhigyanpatwari/GitNexus", "url": "https://github.com/abhigyanpatwari/GitNexus", "meta": "TypeScript · 46.3k ★ · +202 today"},
+        {"name": "calesthio/OpenMontage", "url": "https://github.com/calesthio/OpenMontage", "meta": "Python · 53.6k ★ · +1,144 today"},
+        {"name": "abi/screenshot-to-code", "url": "https://github.com/abi/screenshot-to-code", "meta": "Python · 75.8k ★ · +326 today"},
+        {"name": "cursor/plugins", "url": "https://github.com/cursor/plugins", "meta": "TypeScript · 6.1k ★ · +246 today"},
+        {"name": "freestylefly/awesome-gpt-image-2", "url": "https://github.com/freestylefly/awesome-gpt-image-2", "meta": "JavaScript · 24.7k ★ · +1,687 today"},
+        {"name": "marin-community/marin", "url": "https://github.com/marin-community/marin", "meta": "Python · 2.9k ★ · +236 today"},
+        {"name": "tashfeenahmed/freellmapi", "url": "https://github.com/tashfeenahmed/freellmapi", "meta": "TypeScript · 21.9k ★ · +433 today"}
       ]
     },
     "huggingface": {
@@ -80,29 +46,65 @@
       "link_label": "huggingface.co/models",
       "date": "2026-08-30",
       "items": [
-        {"name": "Qwen/Qwen3.8-27B", "url": "https://huggingface.co/Qwen/Qwen3.8-27B", "meta": "28B image-text-to-text, SOTA local model"},
-        {"name": "unsloth/Qwen3.8-27B-GGUF", "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF", "meta": "27B, GGUF quant of Qwen3.8-27B"},
-        {"name": "orcarouter/Qwen3.8-27B-Uncensored-MLX", "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX", "meta": "5B MLX, uncensored Qwen3.8-27B"},
-        {"name": "OBLITERATUS/Qwen3.8-27B-OBLITERATED", "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED", "meta": "28B text generation, abliterated Qwen3.8-27B"},
-        {"name": "orcarouter/Qwen3.8-27B-Uncensored-FP8", "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8", "meta": "28B FP8, uncensored Qwen3.8-27B"},
-        {"name": "ornith-ai/Ornith-1.5-35B-A3B", "url": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B", "meta": "36B MoE (3B active), language model"},
-        {"name": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF", "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF", "meta": "2B GGUF, uncensored Qwen3.8-27B variant"},
-        {"name": "Lightricks/LTX-2.5", "url": "https://huggingface.co/Lightricks/LTX-2.5", "meta": "image-to-video generation model"},
-        {"name": "ornith-ai/Ornith-1.5-35B-A3B-GGUF", "url": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B-GGUF", "meta": "36B GGUF, Ornith-1.5 MoE"},
-        {"name": "MiniMaxAI/MiniMax-Music3", "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3", "meta": "2B text-to-audio music generation"}
+        {"name": "Qwen/Qwen3.8-27B", "url": "https://huggingface.co/Qwen/Qwen3.8-27B", "meta": "27.8B dense multimodal, consumer GPU friendly"},
+        {"name": "unsloth/Qwen3.8-27B-GGUF", "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF", "meta": "Quantized GGUF build of Qwen3.8-27B"},
+        {"name": "orcarouter/Qwen3.8-27B-Uncensored-FP8", "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8", "meta": "FP8 uncensored variant of Qwen3.8-27B"},
+        {"name": "orcarouter/Qwen3.8-27B-Uncensored-MLX", "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX", "meta": "MLX variant of Qwen3.8-27B for Apple Silicon"},
+        {"name": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF", "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF", "meta": "GGUF uncensored build of Qwen3.8-27B"},
+        {"name": "OBLITERATUS/Qwen3.8-27B-OBLITERATED", "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED", "meta": "Abliterated (safety-refusals stripped) Qwen3.8-27B"},
+        {"name": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF", "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF", "meta": "GGUF with aggressive MTP token prediction"},
+        {"name": "Lightricks/LTX-2.5", "url": "https://huggingface.co/Lightricks/LTX-2.5", "meta": "Text-to-video generation model"},
+        {"name": "MiniMaxAI/MiniMax-Music3", "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3", "meta": "Music generation model"},
+        {"name": "ornith-ai/Ornith-1.5-35B-A3B", "url": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B", "meta": "35B MoE self-improving foundation model"}
       ]
     }
   },
-  "quick_hits": [
-    {
-      "title": "Aetina MegaEdge AIP-RQ87 edge system enters mass production for on-prem LLMs",
-      "source": "Theia",
-      "date": "2026-08-29",
-      "url": "https://www.theia.global/article/aetina-unveils-megaedge-aip-rq87-2u-edge-ai-system-for-private-llms-and-automation-ee9c567b"
+  "free_models": {
+    "openrouter": {
+      "title": "Free on OpenRouter",
+      "url": "https://openrouter.ai/models?max_price=0",
+      "link_label": "Browse free models on OpenRouter →",
+      "date": "2026-08-30",
+      "items": [
+        {"name": "Cohere: North Mini Code (free)", "url": "https://openrouter.ai/cohere/north-mini-code:free", "meta": "256K ctx"},
+        {"name": "Dots Studio: Dots3-Note Preview (free)", "url": "https://openrouter.ai/dots-studio/dots-3-note-preview:free", "meta": "512K ctx"},
+        {"name": "Google: Gemma 4 26B A4B (free)", "url": "https://openrouter.ai/google/gemma-4-26b-a4b-it:free", "meta": "262K ctx"},
+        {"name": "Google: Gemma 4 31B (free)", "url": "https://openrouter.ai/google/gemma-4-31b-it:free", "meta": "262K ctx"},
+        {"name": "Ling 3.0 Flash Fin (free)", "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-fin:free", "meta": "262K ctx"},
+        {"name": "LiquidAI: LFM2.5-2.6B (free)", "url": "https://openrouter.ai/liquid/lfm-2.5-2.6b:free", "meta": "65K ctx"},
+        {"name": "MiniMax: MiniMax M2.7 (free)", "url": "https://openrouter.ai/minimax/minimax-m2.7:free", "meta": "196K ctx"},
+        {"name": "MiniMax: MiniMax M3 (free)", "url": "https://openrouter.ai/minimax/minimax-m3:free", "meta": "1.04858M ctx"},
+        {"name": "NVIDIA: Nemotron 3 Nano Omni (free)", "url": "https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free", "meta": "256K ctx"},
+        {"name": "NVIDIA: Nemotron 3 Super (free)", "url": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free", "meta": "262K ctx"},
+        {"name": "NVIDIA: Nemotron 3 Ultra (free)", "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free", "meta": "1M ctx"},
+        {"name": "NVIDIA: Nemotron 3.5 Content Safety (free)", "url": "https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free", "meta": "128K ctx"},
+        {"name": "NVIDIA: Nemotron 3.5 Lightning (free)", "url": "https://openrouter.ai/nvidia/nemotron-3.5-lightning:free", "meta": "1M ctx"},
+        {"name": "Poolside: Laguna S 2.1 (free)", "url": "https://openrouter.ai/poolside/laguna-s-2.1:free", "meta": "262K ctx"},
+        {"name": "Poolside: Laguna XS 2.1 (free)", "url": "https://openrouter.ai/poolside/laguna-xs-2.1:free", "meta": "262K ctx"},
+        {"name": "Thinking Machines: Inkling (free)", "url": "https://openrouter.ai/thinkingmachines/inkling:free", "meta": "1.04858M ctx"},
+        {"name": "Thinking Machines: Inkling Small (free)", "url": "https://openrouter.ai/thinkingmachines/inkling-small:free", "meta": "1.04858M ctx"},
+        {"name": "Z.ai: GLM 5.2 (free)", "url": "https://openrouter.ai/z-ai/glm-5.2:free", "meta": "256K ctx"}
+      ]
+    },
+    "opencode_zen": {
+      "title": "Free on OpenCode Zen",
+      "url": "https://opencode.ai/docs/zen/",
+      "link_label": "See the full Zen catalog →",
+      "date": "2026-08-30",
+      "items": [
+        {"name": "Big Pickle", "url": "https://opencode.ai/docs/zen/", "meta": "big-pickle"},
+        {"name": "MiMo-V2.5 Free", "url": "https://opencode.ai/docs/zen/", "meta": "mimo-v2.5-free"},
+        {"name": "Ling 3.0 Flash Fin Free", "url": "https://opencode.ai/docs/zen/", "meta": "ling-3.0-flash-fin-free"},
+        {"name": "Nemotron 3 Ultra Free", "url": "https://opencode.ai/docs/zen/", "meta": "nemotron-3-ultra-free"},
+        {"name": "Nemotron 3.5 Lightning Free", "url": "https://opencode.ai/docs/zen/", "meta": "nemotron-3.5-lightning-free"},
+        {"name": "Muse Spark 1.2 Contributor Free", "url": "https://opencode.ai/docs/zen/", "meta": "muse-spark-1.2-contributor-free"}
+      ]
     }
-  ],
+  },
+  "quick_hits": [],
   "spiked": {
-    "already ran": 9,
-    "out of window": 2
+    "low signal": 1,
+    "out of window": 11,
+    "already ran": 3
   }
 }
