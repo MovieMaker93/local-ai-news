@@ -2,25 +2,108 @@
   "issue_no": 4,
   "date_iso": "2026-08-30",
   "date_human": "August 30, 2026",
-  "notice": "Light news day — fewer fresh items than usual.",
+  "notice": "Light news day — several big items from the past week (GLM-5.3 open weights, Qwen3.8-Flash-Next, Open WebUI v0.11.1) were already covered, so this issue leans on fresh releases and funding news.",
   "lead": {
-    "kicker": "Self-improving models",
-    "title": "Ornith-1.5: self-improving open-weight models scale to 397B",
-    "summary": "Ornith-1.5 expands end-to-end self-improvement to a full family — 9B dense, 35B-A3B, and 397B MoE — jointly optimizing task generation, scaffold construction, and rollouts. The 397B flagship scores 86.1 on Terminal-Bench 2.1, on par with Claude Opus 4.8, while the 9B variant is edge- and single-GPU deployable.",
-    "source": "HuggingFace",
+    "kicker": "Local AI Mac mini",
+    "title": "Apple M6 Mac mini brings local AI to a $899 desktop",
+    "summary": "Apple's new M6 Mac mini, available for pre-order now with shipments from September 22, pairs a dual 16-core Neural Engine with a 12-core GPU and up to 170GB/s of unified-memory bandwidth in a tiny $899 desktop tuned for local inference and coding agents. The step-up M5 Pro config reaches 64GB of unified memory at 307GB/s for heavier local LLM workloads.",
+    "source": "TechShowUp",
     "date": "2026-08-29",
-    "url": "https://huggingface.co/ornith-ai/Ornith-1.5-397B"
+    "url": "https://techshowup.com/News/Article/01a04f68-0fb7-74cf-b981-cd6b9deec0c4/apple-m6-mac-mini-brings-local-ai-power-to-a-tiny-desktop-st",
+    "image": "images/lead_2026-08-30.jpg"
   },
   "top_stories": [
     {
-      "title": "Self-hosting a local reranker for Open WebUI with vLLM",
-      "url": "https://www.reddit.com/r/OpenWebUI/comments/1pk3sni/how_i_selfhosted_a_local_reranker_for_open_webui",
-      "source": "r/OpenWebUI",
+      "title": "Nvidia moves to acquire Hugging Face for about $13B",
+      "summary": "Nvidia agreed to buy the open-weight model platform Hugging Face for roughly $13B (up from a $4.5B valuation in 2023), putting the home of most open weights under Nvidia's control.",
+      "source": "TechCrunch",
       "date": "2026-08-29",
-      "summary": "An operator serving 100 employees wires BAAI/bge-reranker-v2-m3 into Open WebUI via a self-hosted vLLM /v1/rerank endpoint, keeping RAG chunks fully on-premises and dropping the external Jina rerank API."
+      "url": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition"
+    },
+    {
+      "title": "Lambda raises $1B in debt to buy more Nvidia chips",
+      "summary": "AI cloud Lambda secured $1B in short-dated debt via JPMorgan to buy Nvidia chips and lease them to Microsoft, with a $3B pre-IPO round reportedly in the works.",
+      "source": "TechCrunch",
+      "date": "2026-08-28",
+      "url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/"
+    },
+    {
+      "title": "VelocityNote: local-first Markdown notebook with on-device AI",
+      "summary": "A cross-platform Markdown notebook under 100 MB ships llama.cpp and ONNX so Qwen3, Parakeet transcription and OCR all run locally with no account or API key.",
+      "source": "Hacker News",
+      "date": "2026-08-30",
+      "url": "https://github.com/VelocityNote/velocitynote"
+    },
+    {
+      "title": "a16z raises a $1.1B 'Machine Age' fund for AI hardware",
+      "summary": "Andreessen Horowitz launched a $1.1B fund dedicated to AI chips, memory, networking, storage, data centers and robotics — the physical buildout behind the model race.",
+      "source": "TechCrunch",
+      "date": "2026-08-28",
+      "url": "https://techcrunch.com/2026/08/28/a16z-creates-a-1-1b-machine-age-fund-to-accelerate-the-physical-buildout-of-ai/"
     }
   ],
-  "sections": [],
+  "sections": [
+    {
+      "title": "Tools & Runtimes",
+      "items": [
+        {
+          "title": "Bolnee-Chat: self-hosted RAG chatbots on your own LLM",
+          "summary": "Free self-hosted chatbot platform that grounds answers on your site or PDFs and works with OpenRouter, Groq, Ollama or vLLM, embeddable as a two-line widget.",
+          "source": "Hacker News",
+          "date": "2026-08-30",
+          "url": "https://github.com/AniketWathore/bolnee-chat",
+          "image": "images/section_tools_2026-08-30.jpg"
+        },
+        {
+          "title": "Shepherdr: phone-friendly web UI for self-hosted Herdr agents",
+          "summary": "An open-source companion interface to monitor Herdr coding agents from your phone, open real terminals)Skip, send files and get notifications via passkey auth on a private Tailscale address.",
+          "source": "Hacker News",
+          "date": "2026-08-30",
+          "url": "https://github.com/luiscleto/shepherdr"
+        }
+      ]
+    },
+    {
+      "title": "Self-Hosted Stack",
+      "items": [
+        {
+          "title": "MCP Assist cuts Home Assistant voice LLM tokens by ~95%",
+          "summary": "A Home Assistant integration replaces full entity dumps with MCP-based entity discovery, dropping voice-assistant LLM context to about 400 tokens with a 90-94% prompt-cache hit rate on local and cloud models.",
+          "source": "Home Assistant Community",
+          "date": "2026-08-28",
+          "url": "https://community.home-assistant.io/t/mcp-assist-95-token-reduction-for-voice-assistants-with-local-cloud-llms/977977",
+          "image": "images/section_selfhosted_2026-08-30.jpg"
+        },
+        {
+          "title": "Friday's Party: building a private agentic voice assistant on Home Assistant",
+          "summary": "A 700+ reply mega-thread documents building a fully local, agentic 'Friday' voice assistant with Voice Assistant tools, MCP servers and the modular ZenOS-AI framework.",
+          "source": "Home Assistant Community",
+          "date": "2026-08-29",
+          "url": "https://community.home-assistant.io/t/fridays-party-creating-a-private-agentic-ai-using-voice-assistant-tools/855862"
+        }
+      ]
+    },
+    {
+      "title": "Hardware & Edge",
+      "items": [
+        {
+          "title": "Qualcomm unveils Dragonwing QCS6490 for edge AI and industrial IoT",
+          "summary": "Qualcomm's new on-device AI processor pairs an 8-core Kryo 670 CPU with a dedicated NPU and Hexagon DSP for up to 12 dense TOPS, targeting robotics, vision systems and smart warehouses under a Product Longevity Program.",
+          "source": "TheNextGenTechInsider",
+          "date": "2026-08-30",
+          "url": "https://www.thenextgentechinsider.com/pulse/qualcomm-unveils-dragonwing-qcs6490-for-advanced-edge-ai-and-industrial-iot",
+          "image": "images/section_hardware_2026-08-30.jpg"
+        },
+        {
+          "title": "Hot Chips 2026: XCENA and Samsung's near-memory CXL compute device",
+          "summary": "The MX1 CXL memory-expansion device hosts up to 2TB of DDR5 plus 3,072 RISC-V cores in a 40W near-memory design to ease memory-bandwidth bottlenecks for large-model workloads.",
+          "source": "Chips and Cheese",
+          "date": "2026-08-30",
+          "url": "https://chipsandcheese.com/p/hot-chips-2026-xcena-and-samsungs"
+        }
+      ]
+    }
+  ],
   "trending": {
     "github": {
       "title": "GitHub Trending · AI",
@@ -28,16 +111,16 @@
       "link_label": "github.com/trending",
       "date": "2026-08-30",
       "items": [
-        {"name": "tt-a1i/archify", "url": "https://github.com/tt-a1i/archify", "meta": "JavaScript · 29.1k ★ · +4,562 today"},
-        {"name": "K-Dense-AI/scientific-agent-skills", "url": "https://github.com/K-Dense-AI/scientific-agent-skills", "meta": "Python · 37.2k ★ · +720 today"},
-        {"name": "anthropics/claude-plugins-official", "url": "https://github.com/anthropics/claude-plugins-official", "meta": "Python · 35.2k ★ · +457 today"},
-        {"name": "abhigyanpatwari/GitNexus", "url": "https://github.com/abhigyanpatwari/GitNexus", "meta": "TypeScript · 46.3k ★ · +202 today"},
-        {"name": "calesthio/OpenMontage", "url": "https://github.com/calesthio/OpenMontage", "meta": "Python · 53.6k ★ · +1,144 today"},
-        {"name": "abi/screenshot-to-code", "url": "https://github.com/abi/screenshot-to-code", "meta": "Python · 75.8k ★ · +326 today"},
-        {"name": "cursor/plugins", "url": "https://github.com/cursor/plugins", "meta": "TypeScript · 6.1k ★ · +246 today"},
-        {"name": "freestylefly/awesome-gpt-image-2", "url": "https://github.com/freestylefly/awesome-gpt-image-2", "meta": "JavaScript · 24.7k ★ · +1,687 today"},
-        {"name": "marin-community/marin", "url": "https://github.com/marin-community/marin", "meta": "Python · 2.9k ★ · +236 today"},
-        {"name": "tashfeenahmed/freellmapi", "url": "https://github.com/tashfeenahmed/freellmapi", "meta": "TypeScript · 21.9k ★ · +433 today"}
+        {"name": "THU-MAIC/OpenMAIC", "url": "https://github.com/THU-MAIC/OpenMAIC", "meta": "TypeScript · 22.9k ★ · +907 today · multi-agent interactive classroom"},
+        {"name": "K-Dense-AI/scientific-agent-skills", "url": "https://github.com/K-Dense-AI/scientific-agent-skills", "meta": "Python · 38.4k ★ · +1,587 today · agent skills for science"},
+        {"name": "tt-a1i/archify", "url": "https://github.com/tt-a1i/archify", "meta": "JavaScript · 32.9k ★ · +3,902 today · agent skill for architecture diagrams"},
+        {"name": "p-e-w/heretic", "url": "https://github.com/p-e-w/heretic", "meta": "Python · 28.9k ★ · +150 today · automatic censorship removal for LLMs"},
+        {"name": "unclecode/crawl4ai", "url": "https://github.com/unclecode/crawl4ai", "meta": "Python · 80.0k ★ · +229 today · LLM-friendly web crawler/scraper"},
+        {"name": "mvanhorn/last30days-skill", "url": "https://github.com/mvanhorn/last30days-skill", "meta": "Python · 60.3k ★ · +272 today · AI agent research skill"},
+        {"name": "punkpeye/awesome-mcp-servers", "url": "https://github.com/punkpeye/awesome-mcp-servers", "meta": "93.1k ★ · +65 today · collection of MCP servers"},
+        {"name": "pollen-robotics/microduck_rl", "url": "https://github.com/pollen-robotics/microduck_rl", "meta": "Python · 641 ★ · +147 today · RL training environments"},
+        {"name": "tashfeenahmed/freellmapi", "url": "https://github.com/tashfeenahmed/freellmapi", "meta": "TypeScript · 22.4k ★ · +622 today · 34 free LLM providers behind one /v1 endpoint"},
+        {"name": "livekit/agents", "url": "https://github.com/livekit/agents", "meta": "Python · 13.6k ★ · +254 today · realtime voice AI agent framework"}
       ]
     },
     "huggingface": {
@@ -46,16 +129,16 @@
       "link_label": "huggingface.co/models",
       "date": "2026-08-30",
       "items": [
-        {"name": "Qwen/Qwen3.8-27B", "url": "https://huggingface.co/Qwen/Qwen3.8-27B", "meta": "27.8B dense multimodal, consumer GPU friendly"},
-        {"name": "unsloth/Qwen3.8-27B-GGUF", "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF", "meta": "Quantized GGUF build of Qwen3.8-27B"},
-        {"name": "orcarouter/Qwen3.8-27B-Uncensored-FP8", "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8", "meta": "FP8 uncensored variant of Qwen3.8-27B"},
-        {"name": "orcarouter/Qwen3.8-27B-Uncensored-MLX", "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX", "meta": "MLX variant of Qwen3.8-27B for Apple Silicon"},
-        {"name": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF", "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF", "meta": "GGUF uncensored build of Qwen3.8-27B"},
-        {"name": "OBLITERATUS/Qwen3.8-27B-OBLITERATED", "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED", "meta": "Abliterated (safety-refusals stripped) Qwen3.8-27B"},
-        {"name": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF", "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF", "meta": "GGUF with aggressive MTP token prediction"},
-        {"name": "Lightricks/LTX-2.5", "url": "https://huggingface.co/Lightricks/LTX-2.5", "meta": "Text-to-video generation model"},
-        {"name": "MiniMaxAI/MiniMax-Music3", "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3", "meta": "Music generation model"},
-        {"name": "ornith-ai/Ornith-1.5-35B-A3B", "url": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B", "meta": "35B MoE self-improving foundation model"}
+        {"name": "Qwen/Qwen3.8-Flash-Next", "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next", "meta": "180B, image-text-to-text MoE"},
+        {"name": "zai-org/GLM-5.3-Flash", "url": "https://huggingface.co/zai-org/GLM-5.3-Flash", "meta": "321B, text generation MoE"},
+        {"name": "zai-org/GLM-5.3", "url": "https://huggingface.co/zai-org/GLM-5.3", "meta": "753B, text generation frontier open weights"},
+        {"name": "Qwen/Qwen3.8-27B", "url": "https://huggingface.co/Qwen/Qwen3.8-27B", "meta": "28B, multimodal dense LLM"},
+        {"name": "unsloth/Qwen3.8-Flash-Next-GGUF", "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF", "meta": "177B GGUF quant for local inference"},
+        {"name": "unsloth/Qwen3.8-27B-GGUF", "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF", "meta": "27B GGUF quant"},
+        {"name": "Lightricks/LTX-2.5", "url": "https://huggingface.co/Lightricks/LTX-2.5", "meta": "image-to-video diffusion model"},
+        {"name": "OBLITERATUS/Qwen3.8-27B-OBLITERATED", "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED", "meta": "28B, uncensored/abliterated variant"},
+        {"name": "tencent/Hy4-preview", "url": "https://huggingface.co/tencent/Hy4-preview", "meta": "780B, text generation preview"},
+        {"name": "unsloth/GLM-5.3-Flash-GGUF", "url": "https://huggingface.co/unsloth/GLM-5.3-Flash-GGUF", "meta": "321B GGUF quant for GLM-5.3-Flash"}
       ]
     }
   },
@@ -101,10 +184,30 @@
       ]
     }
   },
-  "quick_hits": [],
+  "quick_hits": [
+    {
+      "title": "Tencent Hy4-preview trends on Hugging Face",
+      "source": "HuggingFace",
+      "date": "2026-08-30",
+      "url": "https://huggingface.co/tencent/Hy4-preview"
+    },
+    {
+      "title": "Instinct raises $350M at a $2.5B valuation",
+      "source": "TechCrunch",
+      "date": "2026-08-26",
+      "url": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/"
+    },
+    {
+      "title": "China's AI video tech moves toward 'alternate reality' generation",
+      "source": "YouTube — Beyond AI News",
+      "date": "2026-08-29",
+      "url": "https://www.youtube.com/watch?v=22ruz4eysQQ"
+    }
+  ],
   "spiked": {
-    "low signal": 1,
-    "out of window": 11,
-    "already ran": 3
+    "already ran": 12,
+    "out of window": 2,
+    "same story": 1,
+    "thin section": 1
   }
 }

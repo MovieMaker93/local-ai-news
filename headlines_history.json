@@ -572,6 +572,90 @@
       "source": "r/OpenWebUI",
       "date": "2026-08-30",
       "issue": 4
+    },
+    {
+      "text": "Apple M6 Mac mini brings local AI to a $899 desktop",
+      "source": "TechShowUp",
+      "date": "2026-08-30",
+      "issue": 4
+    },
+    {
+      "text": "Nvidia moves to acquire Hugging Face for about $13B",
+      "source": "TechCrunch",
+      "date": "2026-08-30",
+      "issue": 4
+    },
+    {
+      "text": "Lambda raises $1B in debt to buy more Nvidia chips",
+      "source": "TechCrunch",
+      "date": "2026-08-30",
+      "issue": 4
+    },
+    {
+      "text": "VelocityNote: local-first Markdown notebook with on-device AI",
+      "source": "Hacker News",
+      "date": "2026-08-30",
+      "issue": 4
+    },
+    {
+      "text": "a16z raises a $1.1B 'Machine Age' fund for AI hardware",
+      "source": "TechCrunch",
+      "date": "2026-08-30",
+      "issue": 4
+    },
+    {
+      "text": "Bolnee-Chat: self-hosted RAG chatbots on your own LLM",
+      "source": "Hacker News",
+      "date": "2026-08-30",
+      "issue": 4
+    },
+    {
+      "text": "Shepherdr: phone-friendly web UI for self-hosted Herdr agents",
+      "source": "Hacker News",
+      "date": "2026-08-30",
+      "issue": 4
+    },
+    {
+      "text": "MCP Assist cuts Home Assistant voice LLM tokens by ~95%",
+      "source": "Home Assistant Community",
+      "date": "2026-08-30",
+      "issue": 4
+    },
+    {
+      "text": "Friday's Party: building a private agentic voice assistant on Home Assistant",
+      "source": "Home Assistant Community",
+      "date": "2026-08-30",
+      "issue": 4
+    },
+    {
+      "text": "Qualcomm unveils Dragonwing QCS6490 for edge AI and industrial IoT",
+      "source": "TheNextGenTechInsider",
+      "date": "2026-08-30",
+      "issue": 4
+    },
+    {
+      "text": "Hot Chips 2026: XCENA and Samsung's near-memory CXL compute device",
+      "source": "Chips and Cheese",
+      "date": "2026-08-30",
+      "issue": 4
+    },
+    {
+      "text": "Tencent Hy4-preview trends on Hugging Face",
+      "source": "HuggingFace",
+      "date": "2026-08-30",
+      "issue": 4
+    },
+    {
+      "text": "Instinct raises $350M at a $2.5B valuation",
+      "source": "TechCrunch",
+      "date": "2026-08-30",
+      "issue": 4
+    },
+    {
+      "text": "China's AI video tech moves toward 'alternate reality' generation",
+      "source": "YouTube \u2014 Beyond AI News",
+      "date": "2026-08-30",
+      "issue": 4
     }
   ]
 }
