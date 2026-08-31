@@ -656,6 +656,96 @@
       "source": "YouTube \u2014 Beyond AI News",
       "date": "2026-08-30",
       "issue": 4
+    },
+    {
+      "text": "RTX 50-series GPU prices spike up to 41% as Blackwell memory costs bite",
+      "source": "Tom's Hardware",
+      "date": "2026-08-31",
+      "issue": 5
+    },
+    {
+      "text": "DeepSeek V4-Pro goes GA with MIT open weights",
+      "source": "HuggingFace",
+      "date": "2026-08-31",
+      "issue": 5
+    },
+    {
+      "text": "Meta Muse Glimmer 30B: first open-weights agentic model that fits on one GPU",
+      "source": "HuggingFace",
+      "date": "2026-08-31",
+      "issue": 5
+    },
+    {
+      "text": "Qwen3.8-Max (2.4T-A95B) open weights land on Hugging Face",
+      "source": "HuggingFace",
+      "date": "2026-08-31",
+      "issue": 5
+    },
+    {
+      "text": "DeepSeek nears $7.4B round at $74B valuation ahead of a 2027 IPO",
+      "source": "TechStartups",
+      "date": "2026-08-31",
+      "issue": 5
+    },
+    {
+      "text": "Layer bit-width allocation tunes LLM quantization for latency under a quality budget",
+      "source": "arXiv",
+      "date": "2026-08-31",
+      "issue": 5
+    },
+    {
+      "text": "DAMP: decay-aware mixed-precision recurrent-state quantization",
+      "source": "arXiv",
+      "date": "2026-08-31",
+      "issue": 5
+    },
+    {
+      "text": "VISTA: verifier-informed student-to-teacher adaptation for self-distillation",
+      "source": "arXiv",
+      "date": "2026-08-31",
+      "issue": 5
+    },
+    {
+      "text": "Quantization-triggered backdoors expose a validation-deployment gap in LLMs",
+      "source": "arXiv",
+      "date": "2026-08-31",
+      "issue": 5
+    },
+    {
+      "text": "llama.cpp b10715 fuses the DFlash encoder into the KV-cache decode path",
+      "source": "GitHub",
+      "date": "2026-08-31",
+      "issue": 5
+    },
+    {
+      "text": "Open WebUI v0.11.2 adds richer terminal-file previews",
+      "source": "GitHub",
+      "date": "2026-08-31",
+      "issue": 5
+    },
+    {
+      "text": "Sonde: a local code graph for AI coding agents",
+      "source": "GitHub",
+      "date": "2026-08-31",
+      "issue": 5
+    },
+    {
+      "text": "Why distributed inference hasn't taken off for 1.5TB open-weight models",
+      "source": "r/LocalLLaMA",
+      "date": "2026-08-31",
+      "issue": 5
+    },
+    {
+      "text": "n8n community node plugs a free Pollinations AI chat model into Agent nodes",
+      "source": "n8n Community",
+      "date": "2026-08-31",
+      "issue": 5
+    },
+    {
+      "text": "RTX 50 Super GPUs reportedly built but held back by excessive GDDR7 pricing",
+      "source": "Tom's Hardware",
+      "date": "2026-08-31",
+      "issue": 5
     }
   ]
 }
