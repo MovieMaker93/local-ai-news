@@ -1,0 +1,219 @@
+{
+  "issue_no": 5,
+  "date_iso": "2026-08-31",
+  "date_human": "August 31, 2026",
+  "notice": null,
+  "lead": {
+    "kicker": "GPU prices spike",
+    "title": "RTX 50-series GPU prices spike up to 41% as Blackwell memory costs bite",
+    "summary": "Tom's Hardware's Newegg median-price tracker shows RTX 50-series cards jumped from June to August: the RTX 5060 Ti 16GB is up 39%, the RTX 5070 up 36%, and the RTX 5090's US median climbed to $4,699.99. Rising GDDR7 memory costs are pushing consumer GPU prices far above MSRP, directly hitting anyone buying cards for a local inference rig.",
+    "source": "Tom's Hardware",
+    "date": "2026-08-30",
+    "url": "https://www.tomshardware.com/pc-components/gpus/geforce-rtx-50-series-gpu-prices-spike-as-much-as-39-percent-as-blackwell-price-hikes-hit-the-us-rtx-5070-gets-a-36-percent-hike-rtx-5060-up-27-percent-at-the-median-of-newegg-listings",
+    "image": "images/lead_2026-08-31.jpg"
+  },
+  "top_stories": [
+    {
+      "title": "DeepSeek V4-Pro goes GA with MIT open weights",
+      "summary": "DeepSeek V4-Pro, the strongest open-weight value model (1.6T/49B active), was promoted to general availability with MIT weights on Hugging Face; community GGUF quants appeared within hours.",
+      "source": "HuggingFace",
+      "date": "2026-08-31",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+    },
+    {
+      "title": "Meta Muse Glimmer 30B: first open-weights agentic model that fits on one GPU",
+      "summary": "Meta's first Muse-family open-weights release: a ~30B dense multimodal agentic model whose 4-bit quant sits under 20 GB, shipping BF16, GGUF and ExecuTorch builds for a 24/32 GB VRAM envelope.",
+      "source": "HuggingFace",
+      "date": "2026-08-31",
+      "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+    },
+    {
+      "title": "Qwen3.8-Max (2.4T-A95B) open weights land on Hugging Face",
+      "summary": "Alibaba's first Max-class model released as open weights: a 2.4T MoE / A95B FP8 checkpoint, text-only under a revenue-share license and aimed at rack-scale deployment.",
+      "source": "HuggingFace",
+      "date": "2026-08-31",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+    },
+    {
+      "title": "DeepSeek nears $7.4B round at $74B valuation ahead of a 2027 IPO",
+      "summary": "DeepSeek is nearing a roughly $7.4B funding round valuing the Hangzhou lab at about $74B, expected to close by end of August ahead of a possible Shanghai Star Market IPO.",
+      "source": "TechStartups",
+      "date": "2026-08-31",
+      "url": "https://techstartups.com/2026/08/28/deepseek-nears-7-4-billion-funding-round-at-74-billion-valuation-ahead-of-2027-ipo/"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Research & Papers",
+      "items": [
+        {
+          "title": "Layer bit-width allocation tunes LLM quantization for latency under a quality budget",
+          "summary": "Formulates quantization as latency-performance maximization under an allowable generation-quality degradation budget for Gemma-3-1B, directly targeting efficient local inference on small models.",
+          "source": "arXiv",
+          "date": "2026-08-28",
+          "url": "https://arxiv.org/abs/2608.28003",
+          "image": "images/section_research_2026-08-31.jpg"
+        },
+        {
+          "title": "DAMP: decay-aware mixed-precision recurrent-state quantization",
+          "summary": "A decay-aware mixed-precision scheme for the fixed-size recurrent states in Gated DeltaNet and Kimi Delta Attention layers, cutting inference memory that would otherwise grow with sequence length.",
+          "source": "arXiv",
+          "date": "2026-08-28",
+          "url": "https://arxiv.org/abs/2608.27513"
+        },
+        {
+          "title": "VISTA: verifier-informed student-to-teacher adaptation for self-distillation",
+          "summary": "Improves on-policy self-distillation by adapting the teacher distribution toward the student based on a verifier, refining distillation for small models trained locally on their own rollouts.",
+          "source": "arXiv",
+          "date": "2026-08-28",
+          "url": "https://arxiv.org/abs/2608.28306"
+        },
+        {
+          "title": "Quantization-triggered backdoors expose a validation-deployment gap in LLMs",
+          "summary": "Shows post-training quantization can trigger backdoors when the full-precision source is evaluated but quantization is applied downstream, a security risk for small-model edge deployment.",
+          "source": "arXiv",
+          "date": "2026-08-27",
+          "url": "https://arxiv.org/abs/2608.27512"
+        }
+      ]
+    },
+    {
+      "title": "Tools & Runtimes",
+      "items": [
+        {
+          "title": "llama.cpp b10715 fuses the DFlash encoder into the KV-cache decode path",
+          "summary": "Eliminates a device-to-host round trip and a second graph build per token for encoder-based vision inputs, released with WebGPU and Vulkan tuning builds (b10713/b10714).",
+          "source": "GitHub",
+          "date": "2026-08-31",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10715",
+          "image": "images/section_tools_2026-08-31.jpg"
+        },
+        {
+          "title": "Open WebUI v0.11.2 adds richer terminal-file previews",
+          "summary": "Word documents and slide decks generated in the terminal now render as finished documents with a clickable page-strip of numbered thumbnails, and the 'preview may differ' warning is removed.",
+          "source": "GitHub",
+          "date": "2026-08-31",
+          "url": "https://github.com/open-webui/open-webui/releases/tag/v0.11.2"
+        },
+        {
+          "title": "Sonde: a local code graph for AI coding agents",
+          "summary": "A tree-sitter based code-context engine that serves coding agents structural answers about a codebase within a token budget, exposing an MCP server to keep code analysis local.",
+          "source": "GitHub",
+          "date": "2026-08-31",
+          "url": "https://github.com/anishmoncivarghese/sonde"
+        }
+      ]
+    },
+    {
+      "title": "Self-Hosted Stack",
+      "items": [
+        {
+          "title": "Why distributed inference hasn't taken off for 1.5TB open-weight models",
+          "summary": "A r/LocalLLaMA thread on GLM-5's 1.5TB BF16 size examines why pooled consumer-GPU inference (Petals, Gensyn, llama.cpp RPC) hasn't become mainstream, citing node-level privacy, WAN latency and marginal speedups.",
+          "source": "r/LocalLLaMA",
+          "date": "2026-08-30",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r2wnld/glm5_is_15tb_why_hasnt_distributed_inference/",
+          "image": "images/section_selfhosted_2026-08-31.jpg"
+        },
+        {
+          "title": "n8n community node plugs a free Pollinations AI chat model into Agent nodes",
+          "summary": "A self-hoster's community node wires the Pollinations AI chat model into n8n's AI Agent and Chain nodes, giving users a free path to experiment with AI workflows before paying a provider.",
+          "source": "n8n Community",
+          "date": "2026-08-30",
+          "url": "https://community.n8n.io/t/i-ve-built-a-pollinations-chat-model-node-for-n8n-so-you-can-learn-ai-workflows-for-free/299996"
+        }
+      ]
+    }
+  ],
+  "trending": {
+    "github": {
+      "title": "GitHub Trending · AI",
+      "url": "https://github.com/trending",
+      "link_label": "github.com/trending",
+      "date": "2026-08-31",
+      "items": [
+        {"name": "THU-MAIC/OpenMAIC", "url": "https://github.com/THU-MAIC/OpenMAIC", "meta": "Multi-agent interactive classroom for immersive learning"},
+        {"name": "K-Dense-AI/scientific-agent-skills", "url": "https://github.com/K-Dense-AI/scientific-agent-skills", "meta": "Agent Skills library for AI Scientists, 165+ validated skills"},
+        {"name": "tt-a1i/archify", "url": "https://github.com/tt-a1i/archify", "meta": "Agent skill for beautiful, verifiable architecture diagrams"},
+        {"name": "p-e-w/heretic", "url": "https://github.com/p-e-w/heretic", "meta": "Fully automatic censorship removal for language models"},
+        {"name": "unclecode/crawl4ai", "url": "https://github.com/unclecode/crawl4ai", "meta": "Open-source LLM-friendly web crawler & scraper"},
+        {"name": "mvanhorn/last30days-skill", "url": "https://github.com/mvanhorn/last30days-skill", "meta": "AI agent skill researching Reddit/X/YouTube/HN/web"},
+        {"name": "punkpeye/awesome-mcp-servers", "url": "https://github.com/punkpeye/awesome-mcp-servers", "meta": "A collection of MCP servers"},
+        {"name": "pollen-robotics/microduck_rl", "url": "https://github.com/pollen-robotics/microduck_rl", "meta": "Python · 663 ★ · +147 today · RL training envs for Microduck"},
+        {"name": "tashfeenahmed/freellmapi", "url": "https://github.com/tashfeenahmed/freellmapi", "meta": "7.4B tokens/mo, 34 free LLM providers behind one /v1 endpoint"},
+        {"name": "livekit/agents", "url": "https://github.com/livekit/agents", "meta": "Framework for building realtime voice AI agents"}
+      ]
+    },
+    "huggingface": {
+      "title": "Models Trending (Hugging Face)",
+      "url": "https://huggingface.co/models?sort=trending",
+      "link_label": "huggingface.co/models",
+      "date": "2026-08-31",
+      "items": [
+        {"name": "SulphurAI/Sulphur-2-base", "url": "https://huggingface.co/SulphurAI/Sulphur-2-base", "meta": "New trending base model"},
+        {"name": "openbmb/MiniCPM-V-4.6", "url": "https://huggingface.co/openbmb/MiniCPM-V-4.6", "meta": "Multimodal vision-language model update"},
+        {"name": "HiDream-ai/HiDream-O1-Image", "url": "https://huggingface.co/HiDream-ai/HiDream-O1-Image", "meta": "Image generation model"},
+        {"name": "Zyphra/ZAYA1-8B", "url": "https://huggingface.co/Zyphra/ZAYA1-8B", "meta": "8B language model"},
+        {"name": "Supertone/supertonic-3", "url": "https://huggingface.co/Supertone/supertonic-3", "meta": "Audio/speech model"},
+        {"name": "deepseek-ai/DeepSeek-V4-Pro", "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro", "meta": "1.6T MoE / 49B active, MIT open weights"},
+        {"name": "unsloth/Qwen3.6-27B-MTP-GGUF", "url": "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF", "meta": "GGUF quant of Qwen3.6-27B for llama.cpp"},
+        {"name": "SeeSee21/Z-Anime", "url": "https://huggingface.co/SeeSee21/Z-Anime", "meta": "Anime image model"},
+        {"name": "unsloth/Qwen3.6-35B-A3B-MTP-GGUF", "url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF", "meta": "GGUF quant of Qwen3.6-35B-A3B MoE"},
+        {"name": "circlestone-labs/Anima", "url": "https://huggingface.co/circlestone-labs/Anima", "meta": "New trending model"}
+      ]
+    }
+  },
+  "free_models": {
+    "openrouter": {
+      "title": "Free on OpenRouter",
+      "url": "https://openrouter.ai/models?max_price=0",
+      "link_label": "Browse free models on OpenRouter →",
+      "date": "2026-08-31",
+      "items": [
+        {"name": "Cohere: North Mini Code (free)", "url": "https://openrouter.ai/cohere/north-mini-code:free", "meta": "256K ctx"},
+        {"name": "Dots Studio: Dots3-Note Preview (free)", "url": "https://openrouter.ai/dots-studio/dots-3-note-preview:free", "meta": "512K ctx"},
+        {"name": "Google: Gemma 4 26B A4B (free)", "url": "https://openrouter.ai/google/gemma-4-26b-a4b-it:free", "meta": "262K ctx"},
+        {"name": "Google: Gemma 4 31B (free)", "url": "https://openrouter.ai/google/gemma-4-31b-it:free", "meta": "262K ctx"},
+        {"name": "Ling 3.0 Flash Fin (free)", "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-fin:free", "meta": "262K ctx"},
+        {"name": "LiquidAI: LFM2.5-2.6B (free)", "url": "https://openrouter.ai/liquid/lfm-2.5-2.6b:free", "meta": "65K ctx"},
+        {"name": "MiniMax: MiniMax M2.7 (free)", "url": "https://openrouter.ai/minimax/minimax-m2.7:free", "meta": "196K ctx"},
+        {"name": "MiniMax: MiniMax M3 (free)", "url": "https://openrouter.ai/minimax/minimax-m3:free", "meta": "1.04858M ctx"},
+        {"name": "NVIDIA: Nemotron 3 Nano Omni (free)", "url": "https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free", "meta": "256K ctx"},
+        {"name": "NVIDIA: Nemotron 3 Super (free)", "url": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free", "meta": "262K ctx"},
+        {"name": "NVIDIA: Nemotron 3 Ultra (free)", "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free", "meta": "1M ctx"},
+        {"name": "NVIDIA: Nemotron 3.5 Content Safety (free)", "url": "https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free", "meta": "128K ctx"},
+        {"name": "NVIDIA: Nemotron 3.5 Lightning (free)", "url": "https://openrouter.ai/nvidia/nemotron-3.5-lightning:free", "meta": "1M ctx"},
+        {"name": "Poolside: Laguna S 2.1 (free)", "url": "https://openrouter.ai/poolside/laguna-s-2.1:free", "meta": "262K ctx"},
+        {"name": "Poolside: Laguna XS 2.1 (free)", "url": "https://openrouter.ai/poolside/laguna-xs-2.1:free", "meta": "262K ctx"},
+        {"name": "Thinking Machines: Inkling (free)", "url": "https://openrouter.ai/thinkingmachines/inkling:free", "meta": "1.04858M ctx"},
+        {"name": "Thinking Machines: Inkling Small (free)", "url": "https://openrouter.ai/thinkingmachines/inkling-small:free", "meta": "1.04858M ctx"},
+        {"name": "Z.ai: GLM 5.2 (free)", "url": "https://openrouter.ai/z-ai/glm-5.2:free", "meta": "256K ctx"}
+      ]
+    },
+    "opencode_zen": {
+      "title": "Free on OpenCode Zen",
+      "url": "https://opencode.ai/docs/zen/",
+      "link_label": "See the full Zen catalog →",
+      "date": "2026-08-31",
+      "items": [
+        {"name": "Big Pickle", "url": "https://opencode.ai/docs/zen/", "meta": "big-pickle"},
+        {"name": "MiMo-V2.5 Free", "url": "https://opencode.ai/docs/zen/", "meta": "mimo-v2.5-free"},
+        {"name": "Ling 3.0 Flash Fin Free", "url": "https://opencode.ai/docs/zen/", "meta": "ling-3.0-flash-fin-free"},
+        {"name": "Nemotron 3 Ultra Free", "url": "https://opencode.ai/docs/zen/", "meta": "nemotron-3-ultra-free"},
+        {"name": "Nemotron 3.5 Lightning Free", "url": "https://opencode.ai/docs/zen/", "meta": "nemotron-3.5-lightning-free"},
+        {"name": "Muse Spark 1.2 Contributor Free", "url": "https://opencode.ai/docs/zen/", "meta": "muse-spark-1.2-contributor-free"}
+      ]
+    }
+  },
+  "quick_hits": [
+    {
+      "title": "RTX 50 Super GPUs reportedly built but held back by excessive GDDR7 pricing",
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-50-super-gpus-are-reportedly-ready-but-stuck-in-limbo-due-to-excessive-gddr7-pricing-3gb-gddr7-module-costs-triple-the-price-of-2gb"
+    }
+  ],
+  "spiked": {
+    "already ran": 3,
+    "same story": 1
+  }
+}

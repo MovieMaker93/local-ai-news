@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOCAL AI NEWS — open-weight intelligence · August 31, 2026</title>
+  <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
+  <link rel="stylesheet" href="style.css">
+  <style>.wt{display:flex;align-items:center;height:38px;background:var(--ink);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);margin:14px 0 0;overflow:hidden}.wtt{display:flex;align-items:center;white-space:nowrap;padding-left:20px;animation:ws 90s linear infinite}.wtt:hover{animation-play-state:paused}@keyframes ws{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.ti{display:inline-flex;align-items:center;gap:7px;padding:0 22px;cursor:pointer;border-right:1px solid var(--rule);height:38px}.ti:hover{background:rgba(240,162,60,.05)}.tih{font-family:var(--serif);font-size:13px;color:var(--type)}.tis{font-family:var(--sans);font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.mo{display:none;position:fixed;inset:0;background:rgba(10,10,12,.88);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(8px)}.mo.a{display:flex}.mb{background:#121214;border:1px solid var(--rule-strong);max-width:680px;width:90%;max-height:82vh;overflow-y:auto;padding:40px 44px;position:relative;animation:fi .2s ease}@keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.mc{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:var(--sans);padding:4px 8px}.mh{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;letter-spacing:-.01em;color:var(--type);margin:0 0 14px;padding-right:32px}.mm{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}.mm a{color:var(--lux)}.mm a:hover{text-decoration:underline}.mbd{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--type-dim)}.mbd .en{display:block;color:var(--lux-soft);font-style:italic;font-size:15px;margin-top:14px;padding-left:12px;border-left:2px solid var(--rule-strong)}.mbd .as{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.5}.mbd .as .al{color:var(--lux-soft);font-weight:600;font-family:var(--sans);font-size:10px;letter-spacing:.06em;text-transform:uppercase}</style></head>
+  <body>
+  <div class="container">
+
+  <header class="masthead">
+    <div class="topline"></div>
+    <div class="ears">
+      <span class="left">Est. MMXXVI</span>
+      <span class="right">No. 5 <a href="/archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+    </div>
+    <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
+      <hr class="rule-double">
+      <div class="dateline">
+        <span>August 31, 2026</span>
+        <span class="dot">◆</span>
+        <span class="tag">open weights, on your metal</span>
+        <span class="dot">◆</span>
+        <span>59 stories</span>
+      </div>
+      <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
+      <hr class="rule-thin">
+    </header>
+
+    
+
+    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="The Theragun Sense makes everyday recovery surprisingly easy" data-b="Aisha Malik, a consumer news reporter at TechCrunch, spent several weeks testing the Therabody Theragun Sense (2nd Gen) and was surprised to find herself won over, according to TechCrunch. Writing for the outlet, Malik notes she had long been skeptical of massage guns after trying off-brand versions, but the Sense convinced her they are not as gimmicky as she assumed.
+
+The Theragun Sense is a wellness-focused massage gun priced at $299, geared toward everyday aches, muscle tension, relaxation, and soreness rather than deep-tissue recovery. The device features an LCD screen that guides users through built-in visually guided routines step by step, showing exactly where to apply the gun, how long to spend on each area, and how much pressure to use. It comes with four routines, with more available through the Therabody app and syncable via Bluetooth. Malik&#x27;s favorite was a six-minute &quot;Sleep&quot; routine. The device offers five speeds, a quiet motor, and is designed to be lightweight and easy to hold for reaching the back and shoulders)Skip.
+
+The app layers in Coach, the company&#x27;s AI feature, which creates personalized recovery recommendations based on goals and activity. Included accessories comprise a USB-C charging cable, a travel pouch, and two massage attachments, with a &quot;Supersoft&quot; attachment sold separately for $35. Malik concludes the device at $299 is not cheap but is a strong option for everyday wellness and relaxation.
+
+*A balanced verdict from a convinced tester — though $299 still feels like a notable premium for what is ultimately a guided relaxation tool rather than a hardcore recovery device.*
+— Written by AI (flash)" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/08/29/the-theragun-sense-makes-everyday-recovery-surprisingly-easy/"><span class="tih">The Theragun Sense makes everyday recovery surprisingly easy</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia’s edge now extends beyond the chips themselves" data-b="According to a TechCrunch piece by Russell Brandom, investors have begun reconsidering how durable Nvidia’s advantage really is. The older narrative held that Nvidia profited enormously as the early, dominant source of top-tier GPUs, only to face fresh competition as hyperscalers like Amazon and Google built their own silicon. That story is mostly true but incomplete.
+
+Following Nvidia’s Wednesday earnings, a different picture emerged: the company’s strength now runs well past the GPU itself. As AI compute expands toward gigawatt scale, orchestration has become far more complex, and Nvidia has built much of the hardware needed to handle it. The piece points to the Vera Rubin architecture, which pairs the Rubin GPU with units such as the Vera CPU and similar racks for storage and networking. Nvidia’s VP of storage technology, Jason Hardy, told Brandom that the Vera CPU handles data orchestration, noting upward of 3x improvement in operations and fuller use of flash without bottlenecking. The broader logic appears elsewhere too: OpenAI’s Jalapeño chip was designed to minimize data movement entirely within one integrated system. Competition, the article argues, has shifted to a new layer where efficient whole-system operation matters more than building a rival GPU — a lead Nvidia appears to hold early on.
+
+*Data orchestration may quietly matter as much as raw compute in the next phase of AI infrastructure.*
+
+*— Written by AI (flash)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/"><span class="tih">Nvidia’s edge now extends beyond the chips themselves</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Local LLMs can run offline on your own hardware, WIRED reports in its guide to getting started with locally hosted chatbots." data-b="Large language models like those powering ChatGPT are typically used through cloud services, but the same kinds of models can be downloaded and run on a personal computer. According to WIRED, the main advantages are offline access and greater privacy, since nothing is sent to the cloud for analysis. Users also avoid monthly subscription fees and usage limits, as many free models are available from major companies such as Meta and Google)Skip.
+
+WIRED notes the trade-offs: locally run models tend to be less advanced or speedy than paid cloud versions, though they remain capable enough for daily useable and interchangeable. Users take on more maintenance, like handling updates themselves, in exchange for a more personalized and private system.
+
+The publication walks through hardware needs, noting 8GB of RAM is a bare minimum and 32GB or more is needed for the largest models, with a dedicated GPU&#x27;s VRAM helping performance. Platforms include Windows, macOS, and Linux, with macOS considered popular among enthusiasts. Recommended software includes LM Studio Bionic, vLLM, Llama.cpp, Ollama, and GPT4All, while Hugging Face hosts more than three million downloadable models.
+
+*A sensible choice for privacy-conscious users, but the maintenance and hardware costs are worth weighing against the convenience of a managed cloud service.*
+*— Written by AI (flash)*" data-s="wired.com" data-u="https://www.wired.com/story/how-to-run-your-own-local-llm/"><span class="tih">Local LLMs can run offline on your own hardware, WIRED reports in its guide to getting started with locally hosted chatbots.</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Chinese automakers pile into humanoid robots after Tesla’s lead" data-b="Chinese automakers are increasingly betting that humanoid robots will become the next big profit driver, following a bet first popularized by Tesla and its Optimus robot, according to a TechCrunch report by Kirsten Korosec. The article notes that hype around humanoids is not new — fueled partly by viral videos of Boston Dynamics’ Atlas — but argues real progress is being made, with researchers now believing large language model techniques could let such robots learn nearly any task.
+
+Many of the latest entrants are Chinese automakers. Xpeng’s robotics unit recently raised more than $900 million at a post-money valuation above $6.3 billion, a round led by IDG Capital with participation from Gaorong Ventures, Tencent, and Alibaba, which the company called the largest single-round private financing in China’s “embodied AI” industry. Separately, Chery Automobile’s robotics unit AiMOGA reportedly began preparing for an IPO, and BYD unveiled a humanoid robot called Xiao Di, while Changan, GAC, Li Auto, SAIC, and Seres are also developing humanoids.
+
+According to Michael Dunne of advisory firm Dunne Insights, Xpeng most closely follows Tesla on autonomy and humanoid robots Capital, and founder He Xiaopeng sees razor-thin car profits near-term. Xpeng’s bet centers on Iron, a humanoid built for commercial deployment)SkipAt. Other players cited include Mobileye, which acquired humanoid startup Mentee Robotics for $900 million.
+
+*It will be telling whether Chinese automakers’ manufacturing edge can close the gap with Tesla on the AI side.*
+
+— Written by AI (flash)" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/08/28/chinese-automakers-are-following-teslas-bet-that-robots-are-the-next-big-profit-machine/"><span class="tih">Chinese automakers pile into humanoid robots after Tesla’s lead</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Donald Trump&#x27;s call cuts into Nvidia&#x27;s all-hands meeting" data-b="President Donald Trump interrupted Nvidia&#x27;s all-hands staff meeting on Thursday morning when he phoned CEO Jensen Huang partway through, according to three sources who witnessed the exchange and spoke to WIRED.
+
+Such meetings typically see Huang presenting or fielding questions on stage at the company&#x27;s Santa Clara, California headquarters while thousands of remote employees watch via livestream. During the meeting, Huang&#x27;s mobile phone rang repeatedly, and he stepped aside to take the call. Staffers could clearly recognize Trump&#x27;s distinctive voice through Huang&#x27;s onstage microphone, though they couldn&#x27;t make out the words. Under a minute later, Huang returned and resumed the meeting.
+
+An Nvidia spokesperson declined to comment on the incident, but employees were abuzz about the president&#x27;s inadvertent interruption. Later that day, Trump posted on social media congratulating Huang on Nvidia&#x27;s &quot;incredible&quot; quarterly sales and rosy forecast for next year. Days earlier, Nvidia had reported second-quarter revenue of $96 billion, up 106 percent year over year.
+
+The call came at a notable moment for Nvidia, which announced a new employee-funded political action committee earlier that day)Skip and has had policy disagreements with the administration over open AI models and chip sales to China. The Information also recently reported that Nvidia plans to acquire the open-source platform company Hugging Face, a deal some outlets value at more than $13 billion, which would likely draw US antitrust scrutiny.
+
+*Huang&#x27;s habit of jetting to Washington makes a hotline to the president less surprising than the timing, landing right as Nvidia wades deeper into political waters.*
+*— Written by AI (flash)*" data-s="wired.com" data-u="https://www.wired.com/story/nvidia-ceo-jensen-huang-took-a-call-from-donald-trump-in-the-middle-of-an-all-hands/"><span class="tih">Donald Trump&#x27;s call cuts into Nvidia&#x27;s all-hands meeting</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="The Theragun Sense makes everyday recovery surprisingly easy" data-b="Aisha Malik, a consumer news reporter at TechCrunch, spent several weeks testing the Therabody Theragun Sense (2nd Gen) and was surprised to find herself won over, according to TechCrunch. Writing for the outlet, Malik notes she had long been skeptical of massage guns after trying off-brand versions, but the Sense convinced her they are not as gimmicky as she assumed.
+
+The Theragun Sense is a wellness-focused massage gun priced at $299, geared toward everyday aches, muscle tension, relaxation, and soreness rather than deep-tissue recovery. The device features an LCD screen that guides users through built-in visually guided routines step by step, showing exactly where to apply the gun, how long to spend on each area, and how much pressure to use. It comes with four routines, with more available through the Therabody app and syncable via Bluetooth. Malik&#x27;s favorite was a six-minute &quot;Sleep&quot; routine. The device offers five speeds, a quiet motor, and is designed to be lightweight and easy to hold for reaching the back and shoulders)Skip.
+
+The app layers in Coach, the company&#x27;s AI feature, which creates personalized recovery recommendations based on goals and activity. Included accessories comprise a USB-C charging cable, a travel pouch, and two massage attachments, with a &quot;Supersoft&quot; attachment sold separately for $35. Malik concludes the device at $299 is not cheap but is a strong option for everyday wellness and relaxation.
+
+*A balanced verdict from a convinced tester — though $299 still feels like a notable premium for what is ultimately a guided relaxation tool rather than a hardcore recovery device.*
+— Written by AI (flash)" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/08/29/the-theragun-sense-makes-everyday-recovery-surprisingly-easy/"><span class="tih">The Theragun Sense makes everyday recovery surprisingly easy</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia’s edge now extends beyond the chips themselves" data-b="According to a TechCrunch piece by Russell Brandom, investors have begun reconsidering how durable Nvidia’s advantage really is. The older narrative held that Nvidia profited enormously as the early, dominant source of top-tier GPUs, only to face fresh competition as hyperscalers like Amazon and Google built their own silicon. That story is mostly true but incomplete.
+
+Following Nvidia’s Wednesday earnings, a different picture emerged: the company’s strength now runs well past the GPU itself. As AI compute expands toward gigawatt scale, orchestration has become far more complex, and Nvidia has built much of the hardware needed to handle it. The piece points to the Vera Rubin architecture, which pairs the Rubin GPU with units such as the Vera CPU and similar racks for storage and networking. Nvidia’s VP of storage technology, Jason Hardy, told Brandom that the Vera CPU handles data orchestration, noting upward of 3x improvement in operations and fuller use of flash without bottlenecking. The broader logic appears elsewhere too: OpenAI’s Jalapeño chip was designed to minimize data movement entirely within one integrated system. Competition, the article argues, has shifted to a new layer where efficient whole-system operation matters more than building a rival GPU — a lead Nvidia appears to hold early on.
+
+*Data orchestration may quietly matter as much as raw compute in the next phase of AI infrastructure.*
+
+*— Written by AI (flash)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/"><span class="tih">Nvidia’s edge now extends beyond the chips themselves</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Local LLMs can run offline on your own hardware, WIRED reports in its guide to getting started with locally hosted chatbots." data-b="Large language models like those powering ChatGPT are typically used through cloud services, but the same kinds of models can be downloaded and run on a personal computer. According to WIRED, the main advantages are offline access and greater privacy, since nothing is sent to the cloud for analysis. Users also avoid monthly subscription fees and usage limits, as many free models are available from major companies such as Meta and Google)Skip.
+
+WIRED notes the trade-offs: locally run models tend to be less advanced or speedy than paid cloud versions, though they remain capable enough for daily useable and interchangeable. Users take on more maintenance, like handling updates themselves, in exchange for a more personalized and private system.
+
+The publication walks through hardware needs, noting 8GB of RAM is a bare minimum and 32GB or more is needed for the largest models, with a dedicated GPU&#x27;s VRAM helping performance. Platforms include Windows, macOS, and Linux, with macOS considered popular among enthusiasts. Recommended software includes LM Studio Bionic, vLLM, Llama.cpp, Ollama, and GPT4All, while Hugging Face hosts more than three million downloadable models.
+
+*A sensible choice for privacy-conscious users, but the maintenance and hardware costs are worth weighing against the convenience of a managed cloud service.*
+*— Written by AI (flash)*" data-s="wired.com" data-u="https://www.wired.com/story/how-to-run-your-own-local-llm/"><span class="tih">Local LLMs can run offline on your own hardware, WIRED reports in its guide to getting started with locally hosted chatbots.</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Chinese automakers pile into humanoid robots after Tesla’s lead" data-b="Chinese automakers are increasingly betting that humanoid robots will become the next big profit driver, following a bet first popularized by Tesla and its Optimus robot, according to a TechCrunch report by Kirsten Korosec. The article notes that hype around humanoids is not new — fueled partly by viral videos of Boston Dynamics’ Atlas — but argues real progress is being made, with researchers now believing large language model techniques could let such robots learn nearly any task.
+
+Many of the latest entrants are Chinese automakers. Xpeng’s robotics unit recently raised more than $900 million at a post-money valuation above $6.3 billion, a round led by IDG Capital with participation from Gaorong Ventures, Tencent, and Alibaba, which the company called the largest single-round private financing in China’s “embodied AI” industry. Separately, Chery Automobile’s robotics unit AiMOGA reportedly began preparing for an IPO, and BYD unveiled a humanoid robot called Xiao Di, while Changan, GAC, Li Auto, SAIC, and Seres are also developing humanoids.
+
+According to Michael Dunne of advisory firm Dunne Insights, Xpeng most closely follows Tesla on autonomy and humanoid robots Capital, and founder He Xiaopeng sees razor-thin car profits near-term. Xpeng’s bet centers on Iron, a humanoid built for commercial deployment)SkipAt. Other players cited include Mobileye, which acquired humanoid startup Mentee Robotics for $900 million.
+
+*It will be telling whether Chinese automakers’ manufacturing edge can close the gap with Tesla on the AI side.*
+
+— Written by AI (flash)" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/08/28/chinese-automakers-are-following-teslas-bet-that-robots-are-the-next-big-profit-machine/"><span class="tih">Chinese automakers pile into humanoid robots after Tesla’s lead</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Donald Trump&#x27;s call cuts into Nvidia&#x27;s all-hands meeting" data-b="President Donald Trump interrupted Nvidia&#x27;s all-hands staff meeting on Thursday morning when he phoned CEO Jensen Huang partway through, according to three sources who witnessed the exchange and spoke to WIRED.
+
+Such meetings typically see Huang presenting or fielding questions on stage at the company&#x27;s Santa Clara, California headquarters while thousands of remote employees watch via livestream. During the meeting, Huang&#x27;s mobile phone rang repeatedly, and he stepped aside to take the call. Staffers could clearly recognize Trump&#x27;s distinctive voice through Huang&#x27;s onstage microphone, though they couldn&#x27;t make out the words. Under a minute later, Huang returned and resumed the meeting.
+
+An Nvidia spokesperson declined to comment on the incident, but employees were abuzz about the president&#x27;s inadvertent interruption. Later that day, Trump posted on social media congratulating Huang on Nvidia&#x27;s &quot;incredible&quot; quarterly sales and rosy forecast for next year. Days earlier, Nvidia had reported second-quarter revenue of $96 billion, up 106 percent year over year.
+
+The call came at a notable moment for Nvidia, which announced a new employee-funded political action committee earlier that day)Skip and has had policy disagreements with the administration over open AI models and chip sales to China. The Information also recently reported that Nvidia plans to acquire the open-source platform company Hugging Face, a deal some outlets value at more than $13 billion, which would likely draw US antitrust scrutiny.
+
+*Huang&#x27;s habit of jetting to Washington makes a hotline to the president less surprising than the timing, landing right as Nvidia wades deeper into political waters.*
+*— Written by AI (flash)*" data-s="wired.com" data-u="https://www.wired.com/story/nvidia-ceo-jensen-huang-took-a-call-from-donald-trump-in-the-middle-of-an-all-hands/"><span class="tih">Donald Trump&#x27;s call cuts into Nvidia&#x27;s all-hands meeting</span> <span class="tis">— wired.com</span></div></div></div>
+<div class="lead-zone">
+      <article class="lead">
+  <a href="https://www.tomshardware.com/pc-components/gpus/geforce-rtx-50-series-gpu-prices-spike-as-much-as-39-percent-as-blackwell-price-hikes-hit-the-us-rtx-5070-gets-a-36-percent-hike-rtx-5060-up-27-percent-at-the-median-of-newegg-listings" target="_blank" rel="noopener">
+    <img src="images/lead_2026-08-31.jpg" alt="" class="lead-image">
+    <div class="lead-grid">
+      <div class="lead-head">
+        <p class="kicker">GPU prices spike</p>
+        <h1>RTX 50-series GPU prices spike up to 41% as Blackwell memory costs bite</h1>
+      </div>
+      <div class="lead-body">
+        <p class="deck">Tom's Hardware's Newegg median-price tracker shows RTX 50-series cards jumped from June to August: the RTX 5060 Ti 16GB is up 39%, the RTX 5070 up 36%, and the RTX 5090's US median climbed to $4,699.99. Rising GDDR7 memory costs are pushing consumer GPU prices far above MSRP, directly hitting anyone buying cards for a local inference rig.</p>
+        <p class="byline"><span class="src">Tom's Hardware</span> · <span>2026-08-30</span> · <span class="more">Read the dispatch →</span></p>
+      </div>
+    </div>
+  </a>
+</article>
+
+    </div>
+
+    <div class="topstories">
+<article class="story">
+  <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro" target="_blank" rel="noopener">
+    <h3>DeepSeek V4-Pro goes GA with MIT open weights</h3>
+    <p>DeepSeek V4-Pro, the strongest open-weight value model (1.6T/49B active), was promoted to general availability with MIT weights on Hugging Face; community GGUF quants appeared within hours.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-08-31</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://huggingface.co/meta-models/Muse-Glimmer-30B" target="_blank" rel="noopener">
+    <h3>Meta Muse Glimmer 30B: first open-weights agentic model that fits on one GPU</h3>
+    <p>Meta's first Muse-family open-weights release: a ~30B dense multimodal agentic model whose 4-bit quant sits under 20 GB, shipping BF16, GGUF and ExecuTorch builds for a 24/32 GB VRAM envelope.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-08-31</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B" target="_blank" rel="noopener">
+    <h3>Qwen3.8-Max (2.4T-A95B) open weights land on Hugging Face</h3>
+    <p>Alibaba's first Max-class model released as open weights: a 2.4T MoE / A95B FP8 checkpoint, text-only under a revenue-share license and aimed at rack-scale deployment.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-08-31</p>
+  </a>
+</article>
+
+</div>
+
+
+    <div class="sections">
+      <section class="section">
+  <div class="section-head">
+    <h2>Research &amp; Papers</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  <a href="https://arxiv.org/abs/2608.28003" target="_blank" rel="noopener" class="section-hero"><img src="images/section_research_2026-08-31.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Layer bit-width allocation tunes LLM quantization for latency under a quality budget</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://arxiv.org/abs/2608.28003" target="_blank" rel="noopener">
+    <h4>Layer bit-width allocation tunes LLM quantization for latency under a quality budget</h4>
+    <p>Formulates quantization as latency-performance maximization under an allowable generation-quality degradation budget for Gemma-3-1B, directly targeting efficient local inference on small models.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-08-28</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2608.27513" target="_blank" rel="noopener">
+    <h4>DAMP: decay-aware mixed-precision recurrent-state quantization</h4>
+    <p>A decay-aware mixed-precision scheme for the fixed-size recurrent states in Gated DeltaNet and Kimi Delta Attention layers, cutting inference memory that would otherwise grow with sequence length.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-08-28</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2608.28306" target="_blank" rel="noopener">
+    <h4>VISTA: verifier-informed student-to-teacher adaptation for self-distillation</h4>
+    <p>Improves on-policy self-distillation by adapting the teacher distribution toward the student based on a verifier, refining distillation for small models trained locally on their own rollouts.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-08-28</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2608.27512" target="_blank" rel="noopener">
+    <h4>Quantization-triggered backdoors expose a validation-deployment gap in LLMs</h4>
+    <p>Shows post-training quantization can trigger backdoors when the full-precision source is evaluated but quantization is applied downstream, a security risk for small-model edge deployment.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-08-27</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Tools &amp; Runtimes</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  <a href="https://github.com/ggml-org/llama.cpp/releases/tag/b10715" target="_blank" rel="noopener" class="section-hero"><img src="images/section_tools_2026-08-31.jpg" alt="" class="section-hero-img"><h4 class="hero-title">llama.cpp b10715 fuses the DFlash encoder into the KV-cache decode path</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://github.com/ggml-org/llama.cpp/releases/tag/b10715" target="_blank" rel="noopener">
+    <h4>llama.cpp b10715 fuses the DFlash encoder into the KV-cache decode path</h4>
+    <p>Eliminates a device-to-host round trip and a second graph build per token for encoder-based vision inputs, released with WebGPU and Vulkan tuning builds (b10713/b10714).</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-08-31</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/open-webui/open-webui/releases/tag/v0.11.2" target="_blank" rel="noopener">
+    <h4>Open WebUI v0.11.2 adds richer terminal-file previews</h4>
+    <p>Word documents and slide decks generated in the terminal now render as finished documents with a clickable page-strip of numbered thumbnails, and the 'preview may differ' warning is removed.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-08-31</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/anishmoncivarghese/sonde" target="_blank" rel="noopener">
+    <h4>Sonde: a local code graph for AI coding agents</h4>
+    <p>A tree-sitter based code-context engine that serves coding agents structural answers about a codebase within a token budget, exposing an MCP server to keep code analysis local.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-08-31</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Self-Hosted Stack</h2>
+    <span class="line"></span>
+    <span class="n">02</span>
+  </div>
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1r2wnld/glm5_is_15tb_why_hasnt_distributed_inference/" target="_blank" rel="noopener" class="section-hero"><img src="images/section_selfhosted_2026-08-31.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Why distributed inference hasn't taken off for 1.5TB open-weight models</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1r2wnld/glm5_is_15tb_why_hasnt_distributed_inference/" target="_blank" rel="noopener">
+    <h4>Why distributed inference hasn't taken off for 1.5TB open-weight models</h4>
+    <p>A r/LocalLLaMA thread on GLM-5's 1.5TB BF16 size examines why pooled consumer-GPU inference (Petals, Gensyn, llama.cpp RPC) hasn't become mainstream, citing node-level privacy, WAN latency and marginal speedups.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-08-30</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://community.n8n.io/t/i-ve-built-a-pollinations-chat-model-node-for-n8n-so-you-can-learn-ai-workflows-for-free/299996" target="_blank" rel="noopener">
+    <h4>n8n community node plugs a free Pollinations AI chat model into Agent nodes</h4>
+    <p>A self-hoster's community node wires the Pollinations AI chat model into n8n's AI Agent and Chain nodes, giving users a free path to experiment with AI workflows before paying a provider.</p>
+    <p class="byline"><span class="src">n8n Community</span> · 2026-08-30</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+    </div>
+
+    <div class="trending-wrap">
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Repos on GitHub</h1>
+      <div class="t-line"></div>
+      <a href="https://github.com/trending" target="_blank" rel="noopener" class="t-link">Go to GitHub trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://github.com/THU-MAIC/OpenMAIC" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">THU-MAIC/OpenMAIC</span>
+    <span class="t-meta">Multi-agent interactive classroom for immersive learning</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/K-Dense-AI/scientific-agent-skills" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">K-Dense-AI/scientific-agent-skills</span>
+    <span class="t-meta">Agent Skills library for AI Scientists, 165+ validated skills</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/tt-a1i/archify" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">tt-a1i/archify</span>
+    <span class="t-meta">Agent skill for beautiful, verifiable architecture diagrams</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/p-e-w/heretic" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">p-e-w/heretic</span>
+    <span class="t-meta">Fully automatic censorship removal for language models</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/unclecode/crawl4ai" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">unclecode/crawl4ai</span>
+    <span class="t-meta">Open-source LLM-friendly web crawler &amp; scraper</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/mvanhorn/last30days-skill" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">mvanhorn/last30days-skill</span>
+    <span class="t-meta">AI agent skill researching Reddit/X/YouTube/HN/web</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/punkpeye/awesome-mcp-servers" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">punkpeye/awesome-mcp-servers</span>
+    <span class="t-meta">A collection of MCP servers</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/pollen-robotics/microduck_rl" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">pollen-robotics/microduck_rl</span>
+    <span class="t-meta">Python · 663 ★ · +147 today · RL training envs for Microduck</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/tashfeenahmed/freellmapi" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">tashfeenahmed/freellmapi</span>
+    <span class="t-meta">7.4B tokens/mo, 34 free LLM providers behind one /v1 endpoint</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/livekit/agents" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">livekit/agents</span>
+    <span class="t-meta">Framework for building realtime voice AI agents</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+  
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Trending on HF</h1>
+      <div class="t-line"></div>
+      <a href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener" class="t-link">Go to Hugging Face trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://huggingface.co/SulphurAI/Sulphur-2-base" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">SulphurAI/Sulphur-2-base</span>
+    <span class="t-meta">New trending base model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/openbmb/MiniCPM-V-4.6" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">openbmb/MiniCPM-V-4.6</span>
+    <span class="t-meta">Multimodal vision-language model update</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/HiDream-ai/HiDream-O1-Image" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">HiDream-ai/HiDream-O1-Image</span>
+    <span class="t-meta">Image generation model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Zyphra/ZAYA1-8B" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Zyphra/ZAYA1-8B</span>
+    <span class="t-meta">8B language model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Supertone/supertonic-3" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Supertone/supertonic-3</span>
+    <span class="t-meta">Audio/speech model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">deepseek-ai/DeepSeek-V4-Pro</span>
+    <span class="t-meta">1.6T MoE / 49B active, MIT open weights</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">unsloth/Qwen3.6-27B-MTP-GGUF</span>
+    <span class="t-meta">GGUF quant of Qwen3.6-27B for llama.cpp</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/SeeSee21/Z-Anime" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">SeeSee21/Z-Anime</span>
+    <span class="t-meta">Anime image model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">unsloth/Qwen3.6-35B-A3B-MTP-GGUF</span>
+    <span class="t-meta">GGUF quant of Qwen3.6-35B-A3B MoE</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/circlestone-labs/Anima" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">circlestone-labs/Anima</span>
+    <span class="t-meta">New trending model</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+</div>
+
+
+    <section class="section" id="free-models">
+  <div class="section-head">
+    <h2>Free Models</h2>
+    <span class="line"></span>
+    <span class="n">24</span>
+  </div>
+
+  <p class="section-note">Free means $0 per token today, not unlimited or unconditional: both platforms rate-limit free use and require a free API key, some OpenRouter free endpoints may train on your prompts unless you opt out in account settings, and the roster changes daily. Verified against each provider's own pricing data at generation time — but pricing changes without notice, so confirm it's still free on the provider's own page before you rely on it.</p>
+
+  <div class="trending-wrap trending-wrap--in-section">
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenRouter</h1>
+        <div class="t-line"></div>
+        <a href="https://openrouter.ai/models?max_price=0" target="_blank" rel="noopener" class="t-link">Browse free models →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://openrouter.ai/cohere/north-mini-code:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Cohere: North Mini Code (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/dots-studio/dots-3-note-preview:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Dots Studio: Dots3-Note Preview (free)</span>
+    <span class="t-meta">512K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-26b-a4b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Google: Gemma 4 26B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-31b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Google: Gemma 4 31B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.0-flash-fin:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Ling 3.0 Flash Fin (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/liquid/lfm-2.5-2.6b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">LiquidAI: LFM2.5-2.6B (free)</span>
+    <span class="t-meta">65K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/minimax/minimax-m2.7:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">MiniMax: MiniMax M2.7 (free)</span>
+    <span class="t-meta">196K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/minimax/minimax-m3:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">MiniMax: MiniMax M3 (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Nano Omni (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Super (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Ultra (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Content Safety (free)</span>
+    <span class="t-meta">128K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-lightning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#13</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Lightning (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-s-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#14</span>
+    <span class="t-name">Poolside: Laguna S 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-xs-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#15</span>
+    <span class="t-name">Poolside: Laguna XS 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#16</span>
+    <span class="t-name">Thinking Machines: Inkling (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling-small:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#17</span>
+    <span class="t-name">Thinking Machines: Inkling Small (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/z-ai/glm-5.2:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#18</span>
+    <span class="t-name">Z.ai: GLM 5.2 (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenCode Zen</h1>
+        <div class="t-line"></div>
+        <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener" class="t-link">See the full Zen catalog →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Big Pickle</span>
+    <span class="t-meta">big-pickle</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">MiMo-V2.5 Free</span>
+    <span class="t-meta">mimo-v2.5-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Ling 3.0 Flash Fin Free</span>
+    <span class="t-meta">ling-3.0-flash-fin-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Nemotron 3 Ultra Free</span>
+    <span class="t-meta">nemotron-3-ultra-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Nemotron 3.5 Lightning Free</span>
+    <span class="t-meta">nemotron-3.5-lightning-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">Muse Spark 1.2 Contributor Free</span>
+    <span class="t-meta">muse-spark-1.2-contributor-free</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <section class="inbrief">
+  <div class="section-head">
+    <h2>In Brief</h2>
+    <span class="line"></span>
+    <span class="n">01</span>
+  </div>
+  <ul class="qh-list">
+    <li><a href="https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-50-super-gpus-are-reportedly-ready-but-stuck-in-limbo-due-to-excessive-gddr7-pricing-3gb-gddr7-module-costs-triple-the-price-of-2gb" target="_blank" rel="noopener"><span class="qh-title">RTX 50 Super GPUs reportedly built but held back by excessive GDDR7 pricing</span><span class="qh-src">Tom's Hardware</span></a></li>
+
+  </ul>
+</section>
+
+
+    <footer class="colophon">
+      <p class="mark">Per aspera ad astra</p>
+      <p class="meta">Compiled by Hermes Agent · 2026-08-31 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
+    </footer>
+
+  </div>
+<div class="mo" id="mo" onclick="cm(event)"><div class="mb"><button class="mc" onclick="cm()">✕</button><h2 class="mh" id="mh"></h2><p class="mm">Source: <span id="ms"></span></p><div class="mbd" id="mbd"></div></div></div>
+<script>function openArt(el){var h=el.getAttribute('data-h'),b=el.getAttribute('data-b'),s=el.getAttribute('data-s'),u=el.getAttribute('data-u');document.getElementById('mh').textContent=h;var sl=document.getElementById('ms');if(u&&u!=='#'&&u!==''){sl.innerHTML='<a href="'+u+'" target="_blank" rel="noopener">'+s+'</a>';}else{sl.textContent=s;}var aiS='*— Written by AI (';var i=b.indexOf(aiS);if(i>=0){var bf=b.substring(0,i);var af=b.substring(i+aiS.length);var mdl=af.split(')')[0];bf=bf.split('\n').join('<br>');bf=bf.replace(/\*([^*]+)\*/g,'<em class="en">$1</em>');var sg='<div class="as"><span class="al">⬥ AI-GENERATED</span><br>Model: '+mdl+'</div>';document.getElementById('mbd').innerHTML=bf+sg;}else{document.getElementById('mbd').innerHTML=b.split('\n').join('<br>');}document.getElementById('mo').classList.add('a');document.body.style.overflow='hidden';}function cm(e){if(e&&e.target!=document.getElementById('mo'))return;document.getElementById('mo').classList.remove('a');document.body.style.overflow='';}document.addEventListener('keydown',function(e){if(e.key==='Escape')cm()});</script></body>
+</html>
