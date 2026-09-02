@@ -4,90 +4,123 @@
   "date_human": "September 02, 2026",
   "notice": null,
   "lead": {
-    "kicker": "Thin rig, big model",
-    "title": "87GB Qwen3.8-Flash-Next runs on CPU-only at 8 tokens/s",
-    "summary": "An r/LocalLLaMA benchmark shoved the 87.2 GiB Qwen3.8-Flash-Next GGUF through llama.cpp on a CPU-only box)Skip sustaining roughly 8.34 tok/s decode, and about 109 tok/s once the GPU layer sits fully in VRAM. Putting the embedding table on GPU delivered a large decode boost at long context, illustrating the architecture's design tradeoffs for low-memory local runs.",
-    "source": "PulseAugur (r/LocalLLaMA)",
+    "kicker": "WebGPU local inference",
+    "title": "@huggingface/kernels ships 200+ WebGPU kernels for browser-based local AI",
+    "summary": "Hugging Face released @huggingface/kernels, a JavaScript library for loading and running optimized WebGPU kernels from the Hub, with an initial collection of 207 Apache-2.0 kernels. Against ONNX Runtime Web it showed up to 2.57x faster kernel performance by geometric mean, alongside a new browser-based Fleet benchmarking suite.",
+    "source": "Hugging Face",
     "date": "2026-09-01",
-    "url": "https://pulseaugur.com/cluster/229782-87gb-llm-runs-on-cpu-via-quantization-vecq-tool-targets-on-device-embeddings",
+    "url": "https://huggingface.co/blog/webgpu-kernels",
     "image": "images/lead_2026-09-02.jpg"
   },
   "top_stories": [
     {
-      "title": "Qwen3.6-35B-A3B: first open-weight Qwen3.6 variant, Apache 2.0 sparse MoE",
-      "summary": "Alibaba released Qwen3.6-35B-A3B, a 35B-total/~3B-active multimodal sparse MoE focused on agentic coding with a 'thinking preservation' feature. Same-day support across vLLM, SGLang, Ollama and Unsloth GGUFs (~22-23GB RAM) makes it immediately usable locally.",
-      "source": "HuggingFace",
-      "date": "2026-09-02",
-      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
-      "scout_source": "opensource"
+      "title": "Qwen3.8-Flash-Next runs on CPU at ~8 tok/s — 87GB GGUF benchmarked",
+      "summary": "An 87.2 GiB GGUF of Qwen3.8-Flash-Next hits roughly 8.3 tok/s decode on CPU-only llama.cpp and ~109 tok/s with full VRAM, with GPU-placed embeddings giving a large boost at long context.",
+      "source": "PulseAugur (r/LocalLLaMA)",
+      "date": "2026-09-01",
+      "url": "https://pulseaugur.com/cluster/229782-87gb-llm-runs-on-cpu-via-quantization-vecq-tool-targets-on-device-embeddings"
     },
     {
-      "title": "BenchMIRT audits what LLM benchmarks actually measure",
-      "summary": "AI2's Olmo team released BenchMIRT, a multidimensional Item Response Theory method for auditing benchmarks at question level across 100 open-weight LLMs and 16 benchmarks. It recovered safety and general reasoning as the dominant measured capabilities and can rank the most informative questions.",
-      "source": "Hugging Face",
-      "date": "2026-09-01",
-      "url": "https://huggingface.co/blog/allenai/benchmirt",
-      "scout_source": "official"
+      "title": "Home Assistant 2026.9 ships: local LLM direction continues",
+      "summary": "The September release adds child devices, a Matter network map, tile-card lighting and climate controls, and OpenStreetMap vector tiles, building on the 2026.8 llama.cpp and Ollama integrations that let local models drive devices with no cloud round-trip.",
+      "source": "Home Assistant",
+      "date": "2026-09-02",
+      "url": "https://developers.home-assistant.io/blog/"
     },
     {
       "title": "Qualcomm and HUMAIN unveil Horizon Ultra AI PC at LEAP 2026",
-      "summary": "The Horizon Ultra runs on Snapdragon X2 Elite (18-core Oryon CPU, Adreno GPU, Hexagon NPU) and runs AI models on-device with optional cloud extension. Enterprise availability starts September 20, 2026 on Windows, with a HUMAIN OS variant planned for 2027.",
+      "summary": "A Snapdragon X2 Elite AI PC with an 18-core Oryon CPU, Adreno GPU and Hexagon NPU designed to run models locally on-device, available for enterprise purchase from September 20, with a HUMAIN OS variant planned for 2027.",
       "source": "TechPowerUp",
       "date": "2026-09-01",
-      "url": "https://www.techpowerup.com/352216/qualcomm-and-humain-unveil-horizon-ultra-ai-pc-at-leap-2026",
-      "scout_source": "hardware"
-    },
-    {
-      "title": "Superagent: a local home for your coding agent on Mac",
-      "summary": "A free, MIT-licensed Mac app where a local coding agent lives: it drives a real browser signed in as you, streams a live iPhone simulator, and keeps chats across restarts, all on-device with no account and no telemetry. Works with Claude Code, with Codex and Antigravity coming.",
-      "source": "Superagent",
-      "date": "2026-09-01",
-      "url": "https://superagent.computer/",
-      "scout_source": "tools"
+      "url": "https://www.techpowerup.com/352216/qualcomm-and-humain-unveil-horizon-ultra-ai-pc-at-leap-2026"
     }
   ],
   "sections": [
     {
       "title": "Research & Papers",
+      "image": "images/section_research_2026-09-02.jpg",
       "items": [
         {
-          "title": "A mathematical theory of reusable neural bases for network compression",
-          "summary": "Proposes the Linear Reusable Neural Bases Architecture (LRNBA), a framework to improve parameter efficiency and mitigate the memory cost bottleneck in large-model training and inference.",
+          "title": "SinkPruner prunes visual tokens to cut multimodal LLM inference cost",
+          "summary": "Sink-free visual token pruning that reduces the inference overhead of multimodal LLMs on long visual token sequences, tackling the cost of vision-centric and text-guided pruning strategies.",
           "source": "arXiv",
           "date": "2026-09-01",
-          "url": "https://arxiv.org/abs/2609.01550",
-          "scout_source": "research",
-          "image": "images/section_research-papers_2026-09-02.jpg"
+          "url": "https://arxiv.org/abs/2609.01004"
         },
         {
-          "title": "Breaking structural identity: personalized federated LoRA under rank heterogeneity",
-          "summary": "Addresses resource-efficient federated fine-tuning of LLMs with LoRA under heterogeneous rank budgets across privacy-sensitive, distributed clients.",
+          "title": "Qwen3.8-Next design paper: 125B sparse MoE beats its 397B predecessor",
+          "summary": "Details the Qwen3.8-Flash-Next architecture — a 125B sparse MoE (6B activated) with n-gram embedding tables held off-accelerator and hybrid Gated DeltaNet/global attention — beating the 397B model on most benchmarks at a third the activated parameters and roughly a ninth of training FLOPs.",
+          "source": "arXiv",
+          "date": "2026-08-31",
+          "url": "https://arxiv.org/abs/2608.30320"
+        },
+        {
+          "title": "LatentPress compresses context into continuous memory tokens",
+          "summary": "Compresses conversational histories and long documents into continuous memory tokens a frozen language model can read directly, cutting context memory footprint versus human-readable text or decoded images.",
           "source": "arXiv",
           "date": "2026-09-01",
-          "url": "https://arxiv.org/abs/2609.00632",
-          "scout_source": "research"
+          "url": "https://arxiv.org/abs/2609.01507"
+        },
+        {
+          "title": "A mathematical theory of reusable neural bases for network compression",
+          "summary": "The Linear Reusable Neural Bases Architecture (LRNBA) improves parameter efficiency to ease the memory-cost bottleneck in large-model training and inference.",
+          "source": "arXiv",
+          "date": "2026-09-01",
+          "url": "https://arxiv.org/abs/2609.01550"
+        }
+      ]
+    },
+    {
+      "title": "Open Weights & Models",
+      "image": "images/section_open-weights_2026-09-02.jpg",
+      "items": [
+        {
+          "title": "DeepSeek opens weights for V4-Flash-Vision-Exp, first vision model in the V4 family",
+          "summary": "A 305B sparse MoE with vision released under MIT license, the first downloadable checkpoint in the V4 family. Ships in FP8 (~168GB) with tokenizer and minimal PyTorch inference code; the API launched August 21 and weights followed ten days later.",
+          "source": "HuggingFace",
+          "date": "2026-08-31",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
+        },
+        {
+          "title": "Qwen3.6-35B-A3B: first open-weight Qwen3.6 variant, agentic-coding MoE",
+          "summary": "Alibaba released the 35B total / ~3B active multimodal sparse MoE under Apache 2.0, focused on agentic coding with a thinking-preservation feature and day-one support across vLLM, SGLang, Ollama and Unsloth GGUFs (~22-23GB RAM to run locally).",
+          "source": "HuggingFace",
+          "date": "2026-09-01",
+          "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B"
+        },
+        {
+          "title": "Qwen3.6-27B dense companion lands with 262K context",
+          "summary": "Part of the first open-weight Qwen3.6 release, the 27B dense model scores strong agentic coding and reasoning results and is available in HF Transformers, vLLM, SGLang plus Unsloth GGUF/MTP and MLX-8bit quantizations for local hardware.",
+          "source": "HuggingFace",
+          "date": "2026-09-01",
+          "url": "https://huggingface.co/Qwen/Qwen3.6-27B"
         }
       ]
     },
     {
       "title": "Tools & Runtimes",
+      "image": "images/section_tools_2026-09-02.jpg",
       "items": [
         {
           "title": "Fountain: open-source conversational API that gives your app a computer",
-          "summary": "A self-hosted AGPL engine that spins up a sandboxed coding agent with repos, tools and credentials from a single prompt. Supports Claude Code, Codex, Gemini CLI and OpenCode runtimes, attaches MCP servers, and keeps all conversations in your own Postgres.",
+          "summary": "A self-hosted AGPL engine that spins up a sandboxed coding agent with repos, tools and credentials from a single prompt. Supports Claude Code, Codex, Gemini CLI and OpenCode runtimes, attaches MCP servers, and keeps conversations in your own Postgres.",
           "source": "Fountain",
           "date": "2026-09-01",
-          "url": "https://managoat.com/oss-launch",
-          "scout_source": "tools",
-          "image": "images/section_tools-runtimes_2026-09-02.jpg"
+          "url": "https://managoat.com/oss-launch"
         },
         {
-          "title": "Markdown Gatekeeper: local-first authority layer for agent-facing Markdown",
-          "summary": "A local-first CLI that keeps ordinary Markdown and Git but enforces one rule: a document doesn't become current authority just because an agent calls it authoritative. Works with Claude Code and Codex via native Skills and hooks, no cloud service and no MCP dependency.",
+          "title": "Superagent — a local home for your coding agent (Mac)",
+          "summary": "A free, MIT-licensed Mac app where a local coding agent lives: drives a real browser signed in as you, streams a live iPhone simulator, keeps chats across restarts, and runs fully on-device with no account and no telemetry.",
+          "source": "Superagent",
+          "date": "2026-09-01",
+          "url": "https://superagent.computer/"
+        },
+        {
+          "title": "mcptunnels — ngrok for MCP with OAuth 2.1",
+          "summary": "MCP-shaped tunneling that gives a local stdio MCP server a public URL in one command, with OAuth 2.1-gated endpoints by default and a self-hostable relay. Bridges stdio to Streamable HTTP so remote clients like ChatGPT, Claude and Cursor can reach a server on your laptop.",
           "source": "GitHub",
-          "date": "2026-09-02",
-          "url": "https://github.com/nanlogic/markdown-gatekeeper",
-          "scout_source": "tools"
+          "date": "2026-09-01",
+          "url": "https://terragohan.github.io/mcptunnels/"
         }
       ]
     }
@@ -173,44 +206,17 @@
     }
   },
   "quick_hits": [
-    {
-      "title": "Qwen3.6-27B: dense companion model in the Qwen3.6 open-weight release",
-      "source": "HuggingFace",
-      "url": "https://huggingface.co/Qwen/Qwen3.6-27B"
-    },
-    {
-      "title": "llama.cpp merges qwen4exp follow-up fixes for Qwen3.8-Flash-Next",
-      "source": "llama.cpp",
-      "url": "https://github.com/ggml-org/llama.cpp/pull/27941"
-    },
-    {
-      "title": "AIR raises $50M to vet the skills and add-ons AI agents use",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/"
-    },
-    {
-      "title": "AfterQuery becomes Y Combinator's fastest-ever unicorn at $3.2B",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/"
-    },
-    {
-      "title": "Sequoia-incubated Empirik launches with $21M to predict outages before they happen",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/"
-    },
-    {
-      "title": "Fambot introduces an 'AI chief of staff' for families",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/09/01/fambot-introduces-an-ai-chief-of-staff-for-families/"
-    },
-    {
-      "title": "GPT-6 Astra goes viral — major new model release",
-      "source": "YouTube — Beyond AI News",
-      "url": "https://www.youtube.com/watch?v=pUF5uEQ14QE"
-    }
+    {"title": "BenchMIRT: item response theory audits what LLM benchmarks actually measure", "source": "Hugging Face", "url": "https://huggingface.co/blog/allenai/benchmirt"},
+    {"title": "llama.cpp merges qwen4exp follow-up fixes for Qwen3.8-Flash-Next", "source": "llama.cpp", "url": "https://github.com/ggml-org/llama.cpp/pull/27941"},
+    {"title": "Markdown Gatekeeper: local-first authority layer for agent-facing Markdown", "source": "GitHub", "url": "https://github.com/nanlogic/markdown-gatekeeper"},
+    {"title": "Federated LoRA fine-tuning under rank heterogeneity across distributed clients", "source": "arXiv", "url": "https://arxiv.org/abs/2609.00632"},
+    {"title": "AIR raises $50M to vet the skills and add-ons AI agents use", "source": "TechCrunch", "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/"},
+    {"title": "AfterQuery becomes Y Combinator's fastest-ever unicorn at a $3.2B valuation", "source": "TechCrunch", "url": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/"},
+    {"title": "Empirik launches with $21M to predict infrastructure outages before they happen", "source": "TechCrunch", "url": "https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/"},
+    {"title": "GPT-6 Astra launch goes viral across the AI community", "source": "YouTube — Beyond AI News", "url": "https://www.youtube.com/watch?v=pUF5uEQ14QE"}
   ],
   "spiked": {
-    "already ran": 11,
-    "out of window": 1
+    "already ran": 5,
+    "low signal": 1
   }
 }

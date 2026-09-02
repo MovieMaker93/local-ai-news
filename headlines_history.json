@@ -1130,6 +1130,138 @@
       "source": "YouTube \u2014 Beyond AI News",
       "date": "2026-09-02",
       "issue": 7
+    },
+    {
+      "text": "@huggingface/kernels ships 200+ WebGPU kernels for browser-based local AI",
+      "source": "Hugging Face",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "Qwen3.8-Flash-Next runs on CPU at ~8 tok/s \u2014 87GB GGUF benchmarked",
+      "source": "PulseAugur (r/LocalLLaMA)",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "Home Assistant 2026.9 ships: local LLM direction continues",
+      "source": "Home Assistant",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "Qualcomm and HUMAIN unveil Horizon Ultra AI PC at LEAP 2026",
+      "source": "TechPowerUp",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "SinkPruner prunes visual tokens to cut multimodal LLM inference cost",
+      "source": "arXiv",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "Qwen3.8-Next design paper: 125B sparse MoE beats its 397B predecessor",
+      "source": "arXiv",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "LatentPress compresses context into continuous memory tokens",
+      "source": "arXiv",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "A mathematical theory of reusable neural bases for network compression",
+      "source": "arXiv",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "DeepSeek opens weights for V4-Flash-Vision-Exp, first vision model in the V4 family",
+      "source": "HuggingFace",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "Qwen3.6-35B-A3B: first open-weight Qwen3.6 variant, agentic-coding MoE",
+      "source": "HuggingFace",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "Qwen3.6-27B dense companion lands with 262K context",
+      "source": "HuggingFace",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "Fountain: open-source conversational API that gives your app a computer",
+      "source": "Fountain",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "Superagent \u2014 a local home for your coding agent (Mac)",
+      "source": "Superagent",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "mcptunnels \u2014 ngrok for MCP with OAuth 2.1",
+      "source": "GitHub",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "BenchMIRT: item response theory audits what LLM benchmarks actually measure",
+      "source": "Hugging Face",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "llama.cpp merges qwen4exp follow-up fixes for Qwen3.8-Flash-Next",
+      "source": "llama.cpp",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "Markdown Gatekeeper: local-first authority layer for agent-facing Markdown",
+      "source": "GitHub",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "Federated LoRA fine-tuning under rank heterogeneity across distributed clients",
+      "source": "arXiv",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "AIR raises $50M to vet the skills and add-ons AI agents use",
+      "source": "TechCrunch",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "AfterQuery becomes Y Combinator's fastest-ever unicorn at a $3.2B valuation",
+      "source": "TechCrunch",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "Empirik launches with $21M to predict infrastructure outages before they happen",
+      "source": "TechCrunch",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "GPT-6 Astra launch goes viral across the AI community",
+      "source": "YouTube \u2014 Beyond AI News",
+      "date": "2026-09-02",
+      "issue": 7
     }
   ]
 }
