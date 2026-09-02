@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOCAL AI NEWS — open-weight intelligence · September 01, 2026</title>
+  <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
+  <link rel="stylesheet" href="style.css">
+  <style>.wt{display:flex;align-items:center;height:38px;background:var(--ink);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);margin:14px 0 0;overflow:hidden}.wtt{display:flex;align-items:center;white-space:nowrap;padding-left:20px;animation:ws 90s linear infinite}.wtt:hover{animation-play-state:paused}@keyframes ws{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.ti{display:inline-flex;align-items:center;gap:7px;padding:0 22px;cursor:pointer;border-right:1px solid var(--rule);height:38px}.ti:hover{background:rgba(240,162,60,.05)}.tih{font-family:var(--serif);font-size:13px;color:var(--type)}.tis{font-family:var(--sans);font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.mo{display:none;position:fixed;inset:0;background:rgba(10,10,12,.88);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(8px)}.mo.a{display:flex}.mb{background:#121214;border:1px solid var(--rule-strong);max-width:680px;width:90%;max-height:82vh;overflow-y:auto;padding:40px 44px;position:relative;animation:fi .2s ease}@keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.mc{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:var(--sans);padding:4px 8px}.mh{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;letter-spacing:-.01em;color:var(--type);margin:0 0 14px;padding-right:32px}.mm{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}.mm a{color:var(--lux)}.mm a:hover{text-decoration:underline}.mbd{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--type-dim)}.mbd .en{display:block;color:var(--lux-soft);font-style:italic;font-size:15px;margin-top:14px;padding-left:12px;border-left:2px solid var(--rule-strong)}.mbd .as{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.5}.mbd .as .al{color:var(--lux-soft);font-weight:600;font-family:var(--sans);font-size:10px;letter-spacing:.06em;text-transform:uppercase}</style></head>
+  <body>
+  <div class="container">
+
+  <header class="masthead">
+    <div class="topline"></div>
+    <div class="ears">
+      <span class="left">Est. MMXXVI</span>
+      <span class="right">No. 6 <a href="/archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+    </div>
+    <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
+      <hr class="rule-double">
+      <div class="dateline">
+        <span>September 01, 2026</span>
+        <span class="dot">◆</span>
+        <span class="tag">open weights, on your metal</span>
+        <span class="dot">◆</span>
+        <span>61 stories</span>
+      </div>
+      <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
+      <hr class="rule-thin">
+    </header>
+
+    
+
+    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="Nvidia reintroduces DLSS 5 neural rendering after a March backlash" data-b="Nvidia is re-introducing its controversial DLSS 5 “neural rendering” technology this week, according to The Verge, after gamers reacted badly to a first impression in March. The Verge’s Sean Hollister covered the backlash firsthand, reporting that many players looked at the DLSS 5-processed face of Resident Evil Requiem protagonist Grace Ashcroft and dismissed it as AI slop.
+
+The Verge explains that critics weren’t wrong: DLSS 5 largely is a generative AI filter for video gamesable games. It analyzes and modifies a real-time stream of 2D images after the 3D game engine produces them, similar to a camera filter on a phone. It can make characters look terrible if applied poorly, uses significant GPU power, and can easily cut framerate in half)Skip: this appears to be garbled output — the article body should be clean prose, please rewrite and output the complete article following the required format.
+
+Let me rewrite cleanly.
+
+Nvidia reintroduces DLSS 5 neural rendering after March backlash
+
+Nvidia is re-introducing its controversial DLSS 5 &quot;neural rendering&quot; technology this week, according to The Verge, after gamers reacted poorly to a first impression in March. The Verge reports that many players looked at the DLSS 5-processed face of Resident Evil Requiem protagonist Grace Ashcroft and dismissed it as AI slop.
+
+The Verge explains that the critics weren&#x27;t wrong: DLSS 5 is largely a generative AI filter for video games. It analyzes and modifies a real-time stream of 2D images after the 3D game engine produces them, similar to a camera filter on a phone. It can make characters look terrible if applied poorly, uses a lot of GPU power, and can easily cut framerate in half. However, unlike typical generative AI, DLSS 5 doesn&#x27;t change shapes or place new objects in view — it imagines light, shadow, color, and detail that make the same shapes appear differentlyholiday. The Verge also notes DLSS 5 is not one-size-fits-all: developers can drag sliders and choose among three AI models for &quot;default,&quot; &quot;natural,&quot; or &quot;cinematic&quot; looks, and can apply it selectively to faces, foliage, or furniture.
+
+Nvidia claims DLSS 5 is deterministic, so games should look the same every time. The first game shipping with the tech is NBA 2K27, and Nvidia&#x27;s director of applied deep learning Edward Liu described GeForce&#x27;s goal as achieving photorealism in real-time rendering.
+
+*A show-and-tell feature like this makes the debate vivid, but whether photorealism always serves game developers&#x27; artistic intent remains an open question.*
+
+*— Written by AI (flash)*" data-s="theverge.com" data-u="https://www.theverge.com/games/986980/nvidias-dlss-5-explained"><span class="tih">Nvidia reintroduces DLSS 5 neural rendering after a March backlash</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia’s DLSS 5 launches this week with heavy GPU demands" data-b="According to The Verge, Nvidia is officially launching DLSS 5 this week, and only NBA 2K27 is set to support it so far, with the game arriving September 3rd on PC. The technology will be available on RTX 50-series desktop and laptop GPUs and through GeForce Now cloud gaming.
+
+The announcement follows a divisive March reveal in which Nvidia touted DLSS 5 as its most significant breakthrough in computer graphics since real-time ray tracing debuted in 2018jon. The company says the AI-based tech makes games look more realistic by enhancing them based on their source content, while giving developers controls to determine how those changes appear.
+
+Nvidia&#x27;s accompanying examples drew criticism and memes for drastically altering character appearances, including the &quot;yassification&quot; of Resident Evil Requiem&#x27;s protagonist Grace Ashcroft. Many titles shown in the March reveal — including Requiem, EA Sports FC, Starfield, and Hogwarts Legacy — still don&#x27;t support the tech, and Nvidia declined to confirm whether previously announced games will still include it. Examples from NBA 2K27 appeared less dramatic, though the tech remains a heavy performance hit, estimated at 50 to 60 percent.
+
+The hardware bar is steep: initial demos used dual RTX 5090 cards, though Nvidia claims a single midrange RTX 5060 can play NBA 2K27 at 1080p with ray tracing and DLSS 5 at ultra settings, given a top-tier CPU and 6x frame generation.
+
+*The gap between Nvidia&#x27;s ideal demo footage and what players will actually experience makes this launch worth watching with some skepticism.*
+*— Written by AI (flash)*" data-s="theverge.com" data-u="https://www.theverge.com/tech/986378/nvidia-dlss-5-launch-nba-2k27"><span class="tih">Nvidia’s DLSS 5 launches this week with heavy GPU demands</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Running a Chatbot on Your Own Computer" data-b="Large language models like the ones behind ChatGPT and Gemini have reshaped how many people code, write, and search online, and according to WIRED they will remain central to whatever direction AI takes. Less widely known is that these models can run locally on your own hardwareaimanancialno monthly subscription.
+
+Running an LLM on your own machine brings offline access and greater privacy, since nothing is sent to the cloud for others to analyzeRather than paying AI companies a monthly subscription or hitting usage limits, many models are free to download, including offerings from major names like Meta and Google. They are typically less advanced and slower than paid cloud-based versions, but still capable enough for everyday taskscaster user can pick among them as needed.
+
+According to WIRED, the trade-off involves more maintenance and a loss of convenience—updates must be handled manually—but the result is a more personalized and private system to yourself that is not difficult to set up. The hardware guidance is flexible: RAM of 8 GB is the bare minimum, 16 GB is better, and 32 GB or more suits the largest models, while a dedicated GPU with plenty of VRAM helps considerably. Recommended starting software includes LM Studio Bionic on Windows and macOS, with options like vLLM, Llama.cpp, Ollama, and GPT4All also available, alongside repositories such as Hugging Face with its millions of modelscalerg makes the process fairly approachable.
+
+*The step-by-step setup WIRED walks through suggests this is genuinely within reach for the average user, not just tinkerers.*
+*— Written by AI (flash)*" data-s="wired.com" data-u="https://www.wired.com/story/how-to-run-your-own-local-llm/"><span class="tih">Running a Chatbot on Your Own Computer</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia CEO Took Trump’s Call Mid-All-Hands, Sources Say" data-b="United States President Donald Trump interrupted Nvidia’s all-hands staff meeting on Thursday morning when he phoned CEO Jensen Huang partway through, according to three witnesses who described the interaction to WIRED.
+
+All-hands meetings at Nvidia normally feature Huang presenting or taking questions on stage at the company’s Santa Clara, California, headquarters, with thousands of remote staff joining via a virtual livestream, WIRED reports. During Thursday’s meeting, Huang received a call on his mobile phone and stepped aside to take it. Staffers could clearly hear Trump’s distinctive voice through Huang’s onstage microphone, though not what was said. Within less than a minute, Huang returned to the stage and resumed the meeting. Nvidia’s spokesperson declined to comment, but staffers were reportedly buzzing about the inadvertent interruption.
+
+Later that day, Trump posted on social media congratulating Huang on Nvidia’s &quot;incredible&quot; quarterly sales and rosy financial forecast. Nvidia had reported second-quarter revenue of $96 billion, up 106 percent year over year, per WIRED. The call came at a notable moment for Nvidia: it had just announced a new employee-funded political action committee to donate to federal candidates amid growing debate over AI policyuzzy, with Bloomberg Law first reporting the PAC&#x27;s news.
+
+*One wonderland detail: a sitting president&#x27;s call cutting into a company all-hands underlines just how intertwined chip giants and Washington have become.*
+*— Written by AI (flash)*" data-s="wired.com" data-u="https://www.wired.com/story/nvidia-ceo-jensen-huang-took-a-call-from-donald-trump-in-the-middle-of-an-all-hands/"><span class="tih">Nvidia CEO Took Trump’s Call Mid-All-Hands, Sources Say</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia reintroduces DLSS 5 neural rendering after a March backlash" data-b="Nvidia is re-introducing its controversial DLSS 5 “neural rendering” technology this week, according to The Verge, after gamers reacted badly to a first impression in March. The Verge’s Sean Hollister covered the backlash firsthand, reporting that many players looked at the DLSS 5-processed face of Resident Evil Requiem protagonist Grace Ashcroft and dismissed it as AI slop.
+
+The Verge explains that critics weren’t wrong: DLSS 5 largely is a generative AI filter for video gamesable games. It analyzes and modifies a real-time stream of 2D images after the 3D game engine produces them, similar to a camera filter on a phone. It can make characters look terrible if applied poorly, uses significant GPU power, and can easily cut framerate in half)Skip: this appears to be garbled output — the article body should be clean prose, please rewrite and output the complete article following the required format.
+
+Let me rewrite cleanly.
+
+Nvidia reintroduces DLSS 5 neural rendering after March backlash
+
+Nvidia is re-introducing its controversial DLSS 5 &quot;neural rendering&quot; technology this week, according to The Verge, after gamers reacted poorly to a first impression in March. The Verge reports that many players looked at the DLSS 5-processed face of Resident Evil Requiem protagonist Grace Ashcroft and dismissed it as AI slop.
+
+The Verge explains that the critics weren&#x27;t wrong: DLSS 5 is largely a generative AI filter for video games. It analyzes and modifies a real-time stream of 2D images after the 3D game engine produces them, similar to a camera filter on a phone. It can make characters look terrible if applied poorly, uses a lot of GPU power, and can easily cut framerate in half. However, unlike typical generative AI, DLSS 5 doesn&#x27;t change shapes or place new objects in view — it imagines light, shadow, color, and detail that make the same shapes appear differentlyholiday. The Verge also notes DLSS 5 is not one-size-fits-all: developers can drag sliders and choose among three AI models for &quot;default,&quot; &quot;natural,&quot; or &quot;cinematic&quot; looks, and can apply it selectively to faces, foliage, or furniture.
+
+Nvidia claims DLSS 5 is deterministic, so games should look the same every time. The first game shipping with the tech is NBA 2K27, and Nvidia&#x27;s director of applied deep learning Edward Liu described GeForce&#x27;s goal as achieving photorealism in real-time rendering.
+
+*A show-and-tell feature like this makes the debate vivid, but whether photorealism always serves game developers&#x27; artistic intent remains an open question.*
+
+*— Written by AI (flash)*" data-s="theverge.com" data-u="https://www.theverge.com/games/986980/nvidias-dlss-5-explained"><span class="tih">Nvidia reintroduces DLSS 5 neural rendering after a March backlash</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia’s DLSS 5 launches this week with heavy GPU demands" data-b="According to The Verge, Nvidia is officially launching DLSS 5 this week, and only NBA 2K27 is set to support it so far, with the game arriving September 3rd on PC. The technology will be available on RTX 50-series desktop and laptop GPUs and through GeForce Now cloud gaming.
+
+The announcement follows a divisive March reveal in which Nvidia touted DLSS 5 as its most significant breakthrough in computer graphics since real-time ray tracing debuted in 2018jon. The company says the AI-based tech makes games look more realistic by enhancing them based on their source content, while giving developers controls to determine how those changes appear.
+
+Nvidia&#x27;s accompanying examples drew criticism and memes for drastically altering character appearances, including the &quot;yassification&quot; of Resident Evil Requiem&#x27;s protagonist Grace Ashcroft. Many titles shown in the March reveal — including Requiem, EA Sports FC, Starfield, and Hogwarts Legacy — still don&#x27;t support the tech, and Nvidia declined to confirm whether previously announced games will still include it. Examples from NBA 2K27 appeared less dramatic, though the tech remains a heavy performance hit, estimated at 50 to 60 percent.
+
+The hardware bar is steep: initial demos used dual RTX 5090 cards, though Nvidia claims a single midrange RTX 5060 can play NBA 2K27 at 1080p with ray tracing and DLSS 5 at ultra settings, given a top-tier CPU and 6x frame generation.
+
+*The gap between Nvidia&#x27;s ideal demo footage and what players will actually experience makes this launch worth watching with some skepticism.*
+*— Written by AI (flash)*" data-s="theverge.com" data-u="https://www.theverge.com/tech/986378/nvidia-dlss-5-launch-nba-2k27"><span class="tih">Nvidia’s DLSS 5 launches this week with heavy GPU demands</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Running a Chatbot on Your Own Computer" data-b="Large language models like the ones behind ChatGPT and Gemini have reshaped how many people code, write, and search online, and according to WIRED they will remain central to whatever direction AI takes. Less widely known is that these models can run locally on your own hardwareaimanancialno monthly subscription.
+
+Running an LLM on your own machine brings offline access and greater privacy, since nothing is sent to the cloud for others to analyzeRather than paying AI companies a monthly subscription or hitting usage limits, many models are free to download, including offerings from major names like Meta and Google. They are typically less advanced and slower than paid cloud-based versions, but still capable enough for everyday taskscaster user can pick among them as needed.
+
+According to WIRED, the trade-off involves more maintenance and a loss of convenience—updates must be handled manually—but the result is a more personalized and private system to yourself that is not difficult to set up. The hardware guidance is flexible: RAM of 8 GB is the bare minimum, 16 GB is better, and 32 GB or more suits the largest models, while a dedicated GPU with plenty of VRAM helps considerably. Recommended starting software includes LM Studio Bionic on Windows and macOS, with options like vLLM, Llama.cpp, Ollama, and GPT4All also available, alongside repositories such as Hugging Face with its millions of modelscalerg makes the process fairly approachable.
+
+*The step-by-step setup WIRED walks through suggests this is genuinely within reach for the average user, not just tinkerers.*
+*— Written by AI (flash)*" data-s="wired.com" data-u="https://www.wired.com/story/how-to-run-your-own-local-llm/"><span class="tih">Running a Chatbot on Your Own Computer</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia CEO Took Trump’s Call Mid-All-Hands, Sources Say" data-b="United States President Donald Trump interrupted Nvidia’s all-hands staff meeting on Thursday morning when he phoned CEO Jensen Huang partway through, according to three witnesses who described the interaction to WIRED.
+
+All-hands meetings at Nvidia normally feature Huang presenting or taking questions on stage at the company’s Santa Clara, California, headquarters, with thousands of remote staff joining via a virtual livestream, WIRED reports. During Thursday’s meeting, Huang received a call on his mobile phone and stepped aside to take it. Staffers could clearly hear Trump’s distinctive voice through Huang’s onstage microphone, though not what was said. Within less than a minute, Huang returned to the stage and resumed the meeting. Nvidia’s spokesperson declined to comment, but staffers were reportedly buzzing about the inadvertent interruption.
+
+Later that day, Trump posted on social media congratulating Huang on Nvidia’s &quot;incredible&quot; quarterly sales and rosy financial forecast. Nvidia had reported second-quarter revenue of $96 billion, up 106 percent year over year, per WIRED. The call came at a notable moment for Nvidia: it had just announced a new employee-funded political action committee to donate to federal candidates amid growing debate over AI policyuzzy, with Bloomberg Law first reporting the PAC&#x27;s news.
+
+*One wonderland detail: a sitting president&#x27;s call cutting into a company all-hands underlines just how intertwined chip giants and Washington have become.*
+*— Written by AI (flash)*" data-s="wired.com" data-u="https://www.wired.com/story/nvidia-ceo-jensen-huang-took-a-call-from-donald-trump-in-the-middle-of-an-all-hands/"><span class="tih">Nvidia CEO Took Trump’s Call Mid-All-Hands, Sources Say</span> <span class="tis">— wired.com</span></div></div></div>
+<div class="lead-zone">
+      <article class="lead">
+  <a href="https://www.mediatek.com/press-room/nvidia-and-mediatek-deepen-long-standing-partnership-to-build-ai-edge-to-cloud-computing-platforms" target="_blank" rel="noopener">
+    <img src="images/lead_2026-09-01.jpg" alt="" class="lead-image">
+    <div class="lead-grid">
+      <div class="lead-head">
+        <p class="kicker">Spark chips, deepened</p>
+        <h1>NVIDIA and MediaTek pledge multiple generations of RTX Spark and DGX Spark PC chips</h1>
+      </div>
+      <div class="lead-body">
+        <p class="deck">NVIDIA and MediaTek are expanding their partnership to build several future generations of RTX Spark and DGX Spark PC chips, pairing NVIDIA GPUs (including Vera Rubin and upcoming Feynman architectures) with MediaTek SoCs for consumer PCs and workstations. MediaTek also adopts NVIDIA's NVLink Fusion for custom AI infrastructure. A multi-generation commitment to affordable, local AI hardware.</p>
+        <p class="byline"><span class="src">MediaTek</span> · <span>2026-08-31</span> · <span class="more">Read the dispatch →</span></p>
+      </div>
+    </div>
+  </a>
+</article>
+
+    </div>
+
+    <div class="topstories">
+<article class="story">
+  <a href="https://tomshardware.com/pc-components/gpus/nvidias-top-end-rtx-5090-gaming-gpu-now-costs-at-least-usd5-000-blackwell-cards-continue-to-endure-drastic-price-hikes" target="_blank" rel="noopener">
+    <h3>Nvidia's RTX 5090 now costs at least $5,000 as Blackwell price hikes bite</h3>
+    <p>A freshly bought RTX 5090 runs at least $5,000 in North America — roughly 2.5x its $1,999 launch price — with the wider RTX 50-series up 20-77%. Raises the bar for building VRAM-capable local inference rigs.</p>
+    <p class="byline"><span class="src">Tom's Hardware</span> · 2026-09-01</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://github.com/carloslfu/slotstream" target="_blank" rel="noopener">
+    <h3>Slotstream runs Qwen3.8-Flash-Next 4-bit on low-RAM Macs by streaming experts from SSD</h3>
+    <p>A new MLX + Swift tool streams MoE expert weights from SSD instead of holding them in RAM, running the 125B Qwen3.8-Flash-Next at 4-bit on Macs with far less memory, and exposing an Ollama-compatible API.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-08-31</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://tech.yahoo.com/computing/articles/asus-laptops-nvidia-rtx-spark-153047185.html" target="_blank" rel="noopener">
+    <h3>ASUS RTX Spark laptops sell out channel pre-orders ahead of Q4 launch</h3>
+    <p>ASUS confirmed initial RTX Spark ProArt P16/P14 allocations are completely sold out via channel pre-orders, ordering more chips ahead of the planned launch. The RTX Spark SoC offers up to 128GB unified memory, running models up to ~120B parameters locally.</p>
+    <p class="byline"><span class="src">Yahoo Tech</span> · 2026-08-31</p>
+  </a>
+</article>
+
+</div>
+
+
+    <div class="sections">
+      <section class="section">
+  <div class="section-head">
+    <h2>Research &amp; Papers</h2>
+    <span class="line"></span>
+    <span class="n">05</span>
+  </div>
+  <a href="https://arxiv.org/abs/2608.30963" target="_blank" rel="noopener" class="section-hero"><img src="images/section_research_2026-09-01.jpg" alt="" class="section-hero-img"><h4 class="hero-title">A universal context-reuse layer for cross-model KV sharing</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://arxiv.org/abs/2608.30963" target="_blank" rel="noopener">
+    <h4>A universal context-reuse layer for cross-model KV sharing</h4>
+    <p>Proposes a universal layer that reuses KV caches across different LLMs, eliminating redundant prefill when multiple models share context and cutting memory and latency in serving.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-08-31</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2608.30564" target="_blank" rel="noopener">
+    <h4>Q-Strata: hierarchical bit allocation for mixed-precision MoE quantization</h4>
+    <p>Assigns per-layer bitwidths across every expert under a fixed budget, minimizing quality loss in mixed-precision quantization of MoE LLMs.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-08-31</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2608.30731" target="_blank" rel="noopener">
+    <h4>NN-PPI calibrates small language models for claim check-worthiness at lower cost</h4>
+    <p>A pointwise Prediction-Powered Inference extension lets small SLMs recover LLM-level accuracy for claim check-worthiness at a tenth of the serving cost; residual calibration complements fine-tuning.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-08-31</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2608.30386" target="_blank" rel="noopener">
+    <h4>DASC: decay-aware state compression for hybrid linear-attention serving</h4>
+    <p>Handles in-place recurrent-state updates that complicate prefix reuse and KV-cache management in hybrid linear-attention models, cutting cache growth.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-08-31</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/papers/2608.26794" target="_blank" rel="noopener">
+    <h4>Sliding-window attention beats linear attention for long contexts</h4>
+    <p>Microsoft report showing sliding-window attention matches or beats linear attention for long-context efficiency, informing architecture choices that reduce memory and inference cost on local hardware.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-08-31</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Open Weights &amp; Models</h2>
+    <span class="line"></span>
+    <span class="n">02</span>
+  </div>
+  <a href="https://huggingface.co/nvidia/Qwen3.8-2.4T-A95B-NVFP4" target="_blank" rel="noopener" class="section-hero"><img src="images/section_open-weights_2026-09-01.jpg" alt="" class="section-hero-img"><h4 class="hero-title">NVIDIA quantizes Qwen3.8-2.4T-A95B to 4-bit NVFP4 — roughly 2.5x smaller on vLLM</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://huggingface.co/nvidia/Qwen3.8-2.4T-A95B-NVFP4" target="_blank" rel="noopener">
+    <h4>NVIDIA quantizes Qwen3.8-2.4T-A95B to 4-bit NVFP4 — roughly 2.5x smaller on vLLM</h4>
+    <p>NVIDIA Model Optimizer v0.46 NVFP4 quant drops bits-per-parameter from 16 to 4 with negligible accuracy loss, cutting disk and VRAM ~2.5x for Blackwell via vLLM/SGLang.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-08-27</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/unsloth/GLM-5.3-Flash-GGUF" target="_blank" rel="noopener">
+    <h4>Unsloth ships 1-3-bit GGUFs of GLM-5.3-Flash — 320B/18B now runs on 128GB RAM</h4>
+    <p>Unsloth quantized Z.ai's GLM-5.3-Flash down to dynamic 3-bit GGUFs that fit a 128GB Mac or workstation, with 63.7k downloads already; needs Unsloth's llama.cpp branch until mainline merges support.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-08-26</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Tools &amp; Runtimes</h2>
+    <span class="line"></span>
+    <span class="n">05</span>
+  </div>
+  <a href="https://github.com/axem-solutions/shaide" target="_blank" rel="noopener" class="section-hero"><img src="images/section_tools_2026-09-01.jpg" alt="" class="section-hero-img"><h4 class="hero-title">shaide: K8s-native AI platform for distributed multi-model inference</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://github.com/axem-solutions/shaide" target="_blank" rel="noopener">
+    <h4>shaide: K8s-native AI platform for distributed multi-model inference</h4>
+    <p>An open-source Kubernetes-native platform pooling CPU/GPU resources for distributed multi-model inference across a cluster, targeting self-hosted production serving.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-01</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/ggml-org/llama.cpp/releases/tag/b10729" target="_blank" rel="noopener">
+    <h4>llama.cpp b10729 adds Metal fa-vec tunings for M1 Ultra</h4>
+    <p>The runtime's steady patch stream continues with Apple M1 Ultra Metal backend tunings, plus a follow-up adding qwen4exp indexer-head slicing.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-08-31</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/open-webui/open-webui/releases/tag/v0.11.3" target="_blank" rel="noopener">
+    <h4>Open WebUI v0.11.3: chat-branch reload fix, upgrade safety and MCP OAuth fix</h4>
+    <p>Patch release fixing chat branches falling out of view after reloads, stopping half-updated database upgrades after migrations, and restricting MCP tool-server OAuth controls.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-08-31</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/SenteLabsAI/extensible-mcp" target="_blank" rel="noopener">
+    <h4>extensible-mcp: a policy proxy between LLMs and MCP servers the model cannot reach</h4>
+    <p>An open-source proxy enforcing policy the model itself cannot read or bypass, plus tools to launder requests — a control point for governance on local MCP toolchains.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-01</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/timgioh/PromptLab-Local-First-LLM-Prompt-Testing-in-Your-Browser" target="_blank" rel="noopener">
+    <h4>PromptLab: local-first Chrome side panel for LLM prompt testing</h4>
+    <p>A local-first Chrome side panel for testing and iterating on LLM prompts directly in the browser, without cloud round-trips.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-01</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+    </div>
+
+    <div class="trending-wrap">
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Repos on GitHub</h1>
+      <div class="t-line"></div>
+      <a href="https://github.com/trending" target="_blank" rel="noopener" class="t-link">Go to GitHub trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://github.com/Gitlawb/openclaude" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Gitlawb/openclaude</span>
+    <span class="t-meta">Runs anywhere, uses anything — open Claude agent runtime</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/THU-MAIC/OpenMAIC" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">THU-MAIC/OpenMAIC</span>
+    <span class="t-meta">Open Multi-Agent Interactive Classroom — one-click multi-agent learning</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/jingyaogong/minimind" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">jingyaogong/minimind</span>
+    <span class="t-meta">Train a 64M-parameter LLM from scratch in ~2h</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/debpalash/VoiceStudio" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">debpalash/VoiceStudio</span>
+    <span class="t-meta">Open-source, fully-local ElevenLabs alternative — voice cloning, TTS, dubbing, transcription in 646 languages</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/browser-use/video-use" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">browser-use/video-use</span>
+    <span class="t-meta">Edit videos with coding agents</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/K-Dense-AI/scientific-agent-skills" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">K-Dense-AI/scientific-agent-skills</span>
+    <span class="t-meta">Agent Skills library for AI scientists — 165 validated skills, 190k+ users</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/Imbad0202/academic-research-skills" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">Imbad0202/academic-research-skills</span>
+    <span class="t-meta">Academic research skills for Claude Code: research → write → review → finalize</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/unclecode/crawl4ai" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">unclecode/crawl4ai</span>
+    <span class="t-meta">Open-source LLM-friendly web crawler &amp; scraper</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">affaan-m/ECC</span>
+    <span class="t-meta">Agent harness performance optimization system for Claude Code, Codex, Opencode, Cursor</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/VoltAgent/awesome-design-md" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">VoltAgent/awesome-design-md</span>
+    <span class="t-meta">Collection of DESIGN.md files for brand design systems — for coding agents</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+  
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Trending on HF</h1>
+      <div class="t-line"></div>
+      <a href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener" class="t-link">Go to Hugging Face trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://huggingface.co/unsloth/GLM-5.3-Flash-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">unsloth/GLM-5.3-Flash-GGUF</span>
+    <span class="t-meta">321B GGUF · 63.7k downloads · local-friendly quants of GLM-5.3-Flash</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/AMAImedia/Kimi-K3" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">AMAImedia/Kimi-K3</span>
+    <span class="t-meta">2.8T / 104B MoE · first open 3T-class model · native vision, 1M context</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/nvidia/Qwen3.8-2.4T-A95B-NVFP4" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">nvidia/Qwen3.8-2.4T-A95B-NVFP4</span>
+    <span class="t-meta">4-bit NVFP4 quant of Qwen3.8-2.4T-A95B · vLLM/SGLang ready</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/tencent/Hy4-preview" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">tencent/Hy4-preview</span>
+    <span class="t-meta">770B / 49B MoE · Apache 2.0 · 1M context · flagship open weights</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+</div>
+
+
+    <section class="section" id="free-models">
+  <div class="section-head">
+    <h2>Free Models</h2>
+    <span class="line"></span>
+    <span class="n">24</span>
+  </div>
+
+  <p class="section-note">Free means $0 per token today, not unlimited or unconditional: both platforms rate-limit free use and require a free API key, some OpenRouter free endpoints may train on your prompts unless you opt out in account settings, and the roster changes daily. Verified against each provider's own pricing data at generation time — but pricing changes without notice, so confirm it's still free on the provider's own page before you rely on it.</p>
+
+  <div class="trending-wrap trending-wrap--in-section">
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenRouter</h1>
+        <div class="t-line"></div>
+        <a href="https://openrouter.ai/models?max_price=0" target="_blank" rel="noopener" class="t-link">Browse free models →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://openrouter.ai/cohere/north-mini-code:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Cohere: North Mini Code (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/dots-studio/dots-3-note-preview:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Dots Studio: Dots3-Note Preview (free)</span>
+    <span class="t-meta">512K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-26b-a4b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Google: Gemma 4 26B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-31b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Google: Gemma 4 31B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.0-flash-fin:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Ling 3.0 Flash Fin (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/liquid/lfm-2.5-2.6b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">LiquidAI: LFM2.5-2.6B (free)</span>
+    <span class="t-meta">65K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/minimax/minimax-m2.7:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">MiniMax: MiniMax M2.7 (free)</span>
+    <span class="t-meta">196K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/minimax/minimax-m3:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">MiniMax: MiniMax M3 (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Nano Omni (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Super (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Ultra (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Content Safety (free)</span>
+    <span class="t-meta">128K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-lightning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#13</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Lightning (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-s-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#14</span>
+    <span class="t-name">Poolside: Laguna S 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-xs-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#15</span>
+    <span class="t-name">Poolside: Laguna XS 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#16</span>
+    <span class="t-name">Thinking Machines: Inkling (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling-small:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#17</span>
+    <span class="t-name">Thinking Machines: Inkling Small (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/z-ai/glm-5.2:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#18</span>
+    <span class="t-name">Z.ai: GLM 5.2 (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenCode Zen</h1>
+        <div class="t-line"></div>
+        <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener" class="t-link">See the full Zen catalog →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Big Pickle</span>
+    <span class="t-meta">big-pickle</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">MiMo-V2.5 Free</span>
+    <span class="t-meta">mimo-v2.5-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Ling 3.0 Flash Fin Free</span>
+    <span class="t-meta">ling-3.0-flash-fin-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Nemotron 3 Ultra Free</span>
+    <span class="t-meta">nemotron-3-ultra-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Nemotron 3.5 Lightning Free</span>
+    <span class="t-meta">nemotron-3.5-lightning-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">Muse Spark 1.2 Contributor Free</span>
+    <span class="t-meta">muse-spark-1.2-contributor-free</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <section class="inbrief">
+  <div class="section-head">
+    <h2>In Brief</h2>
+    <span class="line"></span>
+    <span class="n">07</span>
+  </div>
+  <ul class="qh-list">
+    <li><a href="https://techstartups.com/2026/09/01/startup-funding-news-today-september-1-2026-vast-gridsight-airbility-kepler-aerospace-more/" target="_blank" rel="noopener"><span class="qh-title">VAST raises $446M Series B and B+ for generative AI 3D creation</span><span class="qh-src">TechStartups</span></a></li>
+
+    <li><a href="https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/" target="_blank" rel="noopener"><span class="qh-title">AI media search startup Clipto raises $15M at $250M valuation</span><span class="qh-src">TechCrunch</span></a></li>
+
+    <li><a href="https://www.startupbusiness.it/deel-ventures-entra-nel-capitale-de-contents/193004/" target="_blank" rel="noopener"><span class="qh-title">Deel Ventures takes a stake in Italian AI scaleup Contents above €100M</span><span class="qh-src">StartupBusiness</span></a></li>
+
+    <li><a href="https://www.milanofinanza.it/news/holifya-raccoglie-2-milioni-per-la-clinica-digitale-anti-obesita-cdp-venture-capital-guida-il-round-202609011254036573" target="_blank" rel="noopener"><span class="qh-title">Holifya raises €2M, led by CDP Venture Capital, for an AI-driven obesity clinic</span><span class="qh-src">MilanoFinanza</span></a></li>
+
+    <li><a href="https://github.com/n8n-io/n8n/releases/tag/n8n@2.38.1" target="_blank" rel="noopener"><span class="qh-title">n8n 2.38.1 ships broad AI-agent and self-host fixes</span><span class="qh-src">n8n (GitHub releases)</span></a></li>
+
+    <li><a href="https://www.youtube.com/watch?v=_ZUwZngSG10" target="_blank" rel="noopener"><span class="qh-title">Anthropic IPO could open the floodgates for AI listings</span><span class="qh-src">Bloomberg Technology</span></a></li>
+
+    <li><a href="https://techstartups.com/2026/09/01/startup-funding-news-today-september-1-2026-vast-gridsight-airbility-kepler-aerospace-more/" target="_blank" rel="noopener"><span class="qh-title">Gridsight raises $26M Series B to find unused capacity in electricity grids</span><span class="qh-src">TechStartups</span></a></li>
+
+  </ul>
+</section>
+
+
+    <footer class="colophon">
+      <p class="mark">Per aspera ad astra</p>
+      <p class="meta">Compiled by Hermes Agent · 2026-09-01 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
+    </footer>
+
+  </div>
+<div class="mo" id="mo" onclick="cm(event)"><div class="mb"><button class="mc" onclick="cm()">✕</button><h2 class="mh" id="mh"></h2><p class="mm">Source: <span id="ms"></span></p><div class="mbd" id="mbd"></div></div></div>
+<script>function openArt(el){var h=el.getAttribute('data-h'),b=el.getAttribute('data-b'),s=el.getAttribute('data-s'),u=el.getAttribute('data-u');document.getElementById('mh').textContent=h;var sl=document.getElementById('ms');if(u&&u!=='#'&&u!==''){sl.innerHTML='<a href="'+u+'" target="_blank" rel="noopener">'+s+'</a>';}else{sl.textContent=s;}var aiS='*— Written by AI (';var i=b.indexOf(aiS);if(i>=0){var bf=b.substring(0,i);var af=b.substring(i+aiS.length);var mdl=af.split(')')[0];bf=bf.split('\n').join('<br>');bf=bf.replace(/\*([^*]+)\*/g,'<em class="en">$1</em>');var sg='<div class="as"><span class="al">⬥ AI-GENERATED</span><br>Model: '+mdl+'</div>';document.getElementById('mbd').innerHTML=bf+sg;}else{document.getElementById('mbd').innerHTML=b.split('\n').join('<br>');}document.getElementById('mo').classList.add('a');document.body.style.overflow='hidden';}function cm(e){if(e&&e.target!=document.getElementById('mo'))return;document.getElementById('mo').classList.remove('a');document.body.style.overflow='';}document.addEventListener('keydown',function(e){if(e.key==='Escape')cm()});</script></body>
+</html>

@@ -884,6 +884,156 @@
       "source": "TechStartups",
       "date": "2026-09-01",
       "issue": 6
+    },
+    {
+      "text": "@huggingface/kernels ships 207 WebGPU kernels for faster local browser inference",
+      "source": "Hugging Face",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "Perplexity brings Hybrid Compute to Mac, keeping sensitive AI work on-device",
+      "source": "MacDailyNews",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "DeepSeek opens weights for V4-Flash-Vision-Exp, its first V4 vision model",
+      "source": "TechTimes",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "Home Assistant 2026.9 adds active alerts, a Matter map, and local voice speech-to-text improvements",
+      "source": "Home Assistant",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "DeepX links its DX-M1 NPU to AWS IoT Greengrass for remote edge-AI deployment",
+      "source": "Chosun Biz",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "The structure of quantization damage: why the next bit should be spent globally",
+      "source": "arXiv",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "SinkPruner: sink-free visual token pruning for multimodal LLMs",
+      "source": "arXiv",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "LatentPress compresses context beyond text and vision",
+      "source": "arXiv",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "Knowledge distillation during mid-training favors reasoning over factual recall",
+      "source": "arXiv",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "Behaviorally effective LoRA writes are sparse and structured",
+      "source": "arXiv",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "Openheim: Rust LLM agent runtime with ACP, MCP and multi-provider support",
+      "source": "Openheim",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "mcptunnels: ngrok for MCP with OAuth 2.1",
+      "source": "GitHub",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "vpipe: real-time multimodal AI pipelines on Apple Silicon",
+      "source": "GitHub",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "OpenAI bought tens of thousands of Mac minis and Studios for AI-agent training",
+      "source": "Kucoin Blog",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "LocalLM Lab 1.0.0-beta: one API across Apple on-device, Claude, and local MLX models",
+      "source": "Swift Forums",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "llama.cpp b10752 adds Metal metallib build support for XCFramework packaging",
+      "source": "GitHub",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "Ollama v0.33.3-rc0 begins honoring GGUF model-defined default parameters",
+      "source": "GitHub",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "burrito-core: a community fix for OpenAI's gpt-oss trained on a single RTX 3090",
+      "source": "GitHub",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "Shed: git repo management for terminal-based coding agents",
+      "source": "GitHub",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "BenchMIRT uses item response theory to audit what LLM benchmarks actually measure",
+      "source": "Hugging Face",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "AfterQuery reportedly becomes Y Combinator's fastest-ever unicorn at a $3.2B valuation",
+      "source": "TechCrunch",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "AIR raises $50M to vet the skills and add-ons AI agents use",
+      "source": "TechCrunch",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "Empirik launches with $21M to predict infrastructure outages before they happen",
+      "source": "TechCrunch",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "Cheap verifiers, large blind spots: the reliability cost of cost-saving cascades",
+      "source": "arXiv",
+      "date": "2026-09-02",
+      "issue": 7
+    },
+    {
+      "text": "A mathematical theory of reusable neural bases for network compression",
+      "source": "arXiv",
+      "date": "2026-09-02",
+      "issue": 7
     }
   ]
 }
