@@ -1262,6 +1262,114 @@
       "source": "YouTube \u2014 Beyond AI News",
       "date": "2026-09-02",
       "issue": 7
+    },
+    {
+      "text": "Unsloth v0.1.806-beta: 2x faster Qwen3.8-Flash and GLM-5.3-Flash via MTP",
+      "source": "GitHub",
+      "date": "2026-09-03",
+      "issue": 8
+    },
+    {
+      "text": "RTX 5090's 16-pin connector caps DLSS 5 neural rendering, dual-connector cards needed for full performance",
+      "source": "Aroged",
+      "date": "2026-09-03",
+      "issue": 8
+    },
+    {
+      "text": "Qualcomm details Adreno 'Neural Fusion' GPU with dedicated AI Matrix Cores for next Snapdragon",
+      "source": "9to5Google",
+      "date": "2026-09-03",
+      "issue": 8
+    },
+    {
+      "text": "Apple's A20 Pro widens Neural Engine die area for on-device AI as memory costs reshape silicon economics",
+      "source": "AI2Work",
+      "date": "2026-09-03",
+      "issue": 8
+    },
+    {
+      "text": "Language Models Can Control Their Own Attention",
+      "source": "arXiv",
+      "date": "2026-09-03",
+      "issue": 8
+    },
+    {
+      "text": "Post-Training Ternarization of Qwen3-4B",
+      "source": "arXiv",
+      "date": "2026-09-03",
+      "issue": 8
+    },
+    {
+      "text": "Scalable Kronecker-Fisher Approximation for LLM Compression",
+      "source": "arXiv",
+      "date": "2026-09-03",
+      "issue": 8
+    },
+    {
+      "text": "Learn from Whoever Is Right: Answer-Verified Multi-Teacher Distillation",
+      "source": "arXiv",
+      "date": "2026-09-03",
+      "issue": 8
+    },
+    {
+      "text": "TaRA: Training-Aware Low-Rank Adaptation Initialization",
+      "source": "arXiv",
+      "date": "2026-09-03",
+      "issue": 8
+    },
+    {
+      "text": "Paperclip v2026.831.1: open-source AI agent orchestration",
+      "source": "GitHub",
+      "date": "2026-09-03",
+      "issue": 8
+    },
+    {
+      "text": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+      "source": "Hugging Face",
+      "date": "2026-09-03",
+      "issue": 8
+    },
+    {
+      "text": "TimesFM 3.0: Google time-series foundation model lands on the Hub",
+      "source": "Hugging Face",
+      "date": "2026-09-03",
+      "issue": 8
+    },
+    {
+      "text": "Wonderful more than doubles its valuation to $5B in under 6 months",
+      "source": "TechCrunch",
+      "date": "2026-09-03",
+      "issue": 8
+    },
+    {
+      "text": "HiddenLayer nabs $100M as enterprises rush to secure their AI deployments",
+      "source": "TechCrunch",
+      "date": "2026-09-03",
+      "issue": 8
+    },
+    {
+      "text": "Former Apple engineers' robotics startup Lyte raises $165M at $1.6B",
+      "source": "Crunchbase",
+      "date": "2026-09-03",
+      "issue": 8
+    },
+    {
+      "text": "MIMIT approves Quantia quantum-AI project at Naples' Federico II University",
+      "source": "Metropolisweb",
+      "date": "2026-09-03",
+      "issue": 8
+    },
+    {
+      "text": "SEAL reinforces global safety in MoE via shared expert alignment",
+      "source": "arXiv",
+      "date": "2026-09-03",
+      "issue": 8
+    },
+    {
+      "text": "DeepAffinity predicts long-term eCommerce preferences with small LMs",
+      "source": "arXiv",
+      "date": "2026-09-03",
+      "issue": 8
     }
   ]
 }

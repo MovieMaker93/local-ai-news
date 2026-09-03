@@ -1,126 +1,79 @@
 {
-  "issue_no": 7,
-  "date_iso": "2026-09-02",
-  "date_human": "September 02, 2026",
+  "issue_no": 8,
+  "date_iso": "2026-09-03",
+  "date_human": "September 03, 2026",
   "notice": null,
   "lead": {
-    "kicker": "WebGPU local inference",
-    "title": "@huggingface/kernels ships 200+ WebGPU kernels for browser-based local AI",
-    "summary": "Hugging Face released @huggingface/kernels, a JavaScript library for loading and running optimized WebGPU kernels from the Hub, with an initial collection of 207 Apache-2.0 kernels. Against ONNX Runtime Web it showed up to 2.57x faster kernel performance by geometric mean, alongside a new browser-based Fleet benchmarking suite.",
-    "source": "Hugging Face",
-    "date": "2026-09-01",
-    "url": "https://huggingface.co/blog/webgpu-kernels",
-    "image": "images/lead_2026-09-02.jpg"
+    "kicker": "Local inference speedup",
+    "title": "Unsloth v0.1.806-beta: 2x faster Qwen3.8-Flash and GLM-5.3-Flash via MTP",
+    "summary": "Unsloth's new beta runs Qwen3.8-Flash-Next and GLM-5.3-Flash up to 2x faster with multi-token prediction enabled by default, bundled with 170+ improvements across training, chat, hardware support, and APIs in its local inference and fine-tuning studio. It is the most directly actionable speedup this week for anyone serving the leading open-weight models on their own rig.",
+    "source": "GitHub",
+    "date": "2026-09-02",
+    "url": "https://github.com/unslothai/unsloth/releases",
+    "image": "images/lead_2026-09-03.jpg"
   },
   "top_stories": [
     {
-      "title": "Qwen3.8-Flash-Next runs on CPU at ~8 tok/s — 87GB GGUF benchmarked",
-      "summary": "An 87.2 GiB GGUF of Qwen3.8-Flash-Next hits roughly 8.3 tok/s decode on CPU-only llama.cpp and ~109 tok/s with full VRAM, with GPU-placed embeddings giving a large boost at long context.",
-      "source": "PulseAugur (r/LocalLLaMA)",
-      "date": "2026-09-01",
-      "url": "https://pulseaugur.com/cluster/229782-87gb-llm-runs-on-cpu-via-quantization-vecq-tool-targets-on-device-embeddings"
-    },
-    {
-      "title": "Home Assistant 2026.9 ships: local LLM direction continues",
-      "summary": "The September release adds child devices, a Matter network map, tile-card lighting and climate controls, and OpenStreetMap vector tiles, building on the 2026.8 llama.cpp and Ollama integrations that let local models drive devices with no cloud round-trip.",
-      "source": "Home Assistant",
+      "title": "RTX 5090's 16-pin connector caps DLSS 5 neural rendering, dual-connector cards needed for full performance",
+      "summary": "Testing a leaked DLSS 5 neural filter shows the standard single-12V-2x6 RTX 5090 hits its 575W power cap and drops 42-49% frame rate, while a dual-connector card up to 1000W keeps frame rates stable. The power subsystem, not compute, is the constraint for running these neural models locally on NVIDIA's flagship Blackwell card.",
+      "source": "Aroged",
       "date": "2026-09-02",
-      "url": "https://developers.home-assistant.io/blog/"
+      "url": "https://www.aroged.com/2026/09/02/the-16-pin-connector-on-the-rtx-5090-doesnt-just-burn-out-it-prevents-it-from-working-dlss-5-test-on-flagship-shows-power-limits/"
     },
     {
-      "title": "Qualcomm and HUMAIN unveil Horizon Ultra AI PC at LEAP 2026",
-      "summary": "A Snapdragon X2 Elite AI PC with an 18-core Oryon CPU, Adreno GPU and Hexagon NPU designed to run models locally on-device, available for enterprise purchase from September 20, with a HUMAIN OS variant planned for 2027.",
-      "source": "TechPowerUp",
-      "date": "2026-09-01",
-      "url": "https://www.techpowerup.com/352216/qualcomm-and-humain-unveil-horizon-ultra-ai-pc-at-leap-2026"
+      "title": "Qualcomm details Adreno 'Neural Fusion' GPU with dedicated AI Matrix Cores for next Snapdragon",
+      "summary": "Qualcomm's next premium Snapdragon will be the first to dedicate AI Matrix Cores inside each of three 1.45GHz GPU slices, paired with an 18MB high-performance memory cache to run AI models directly in the graphics pipeline, claiming up to 40% lower power. NPU details arrive at Snapdragon Summit on September 22-24.",
+      "source": "9to5Google",
+      "date": "2026-09-02",
+      "url": "https://9to5google.com/2026/09/02/qualcomm-details-adreno-neural-fusion-gpu-for-next-snapdragon-chip/"
+    },
+    {
+      "title": "Apple's A20 Pro widens Neural Engine die area for on-device AI as memory costs reshape silicon economics",
+      "summary": "Ahead of Apple's September 9 keynote, supply-chain reporting expects the A20 Pro to be Apple's first TSMC-2nm iPhone chip where the Neural Engine takes the largest share of added transistor budget, with moves toward on-package DRAM — as memory becomes the single most expensive component in flagship phones.",
+      "source": "AI2Work",
+      "date": "2026-09-02",
+      "url": "https://www.ai2.work/blog/apple-s-september-event-puts-on-device-ai-silicon-center-stage"
     }
   ],
   "sections": [
     {
       "title": "Research & Papers",
-      "image": "images/section_research_2026-09-02.jpg",
       "items": [
         {
-          "title": "SinkPruner prunes visual tokens to cut multimodal LLM inference cost",
-          "summary": "Sink-free visual token pruning that reduces the inference overhead of multimodal LLMs on long visual token sequences, tackling the cost of vision-centric and text-guided pruning strategies.",
+          "title": "Language Models Can Control Their Own Attention",
+          "summary": "Introduces a method letting LMs control which context they attend to, cutting per-token KV-cache scanning for long 1M-token contexts down to the few tokens that matter.",
           "source": "arXiv",
-          "date": "2026-09-01",
-          "url": "https://arxiv.org/abs/2609.01004"
+          "date": "2026-09-02",
+          "url": "https://arxiv.org/abs/2609.02737",
+          "image": "images/research-papers_2026-09-03.jpg"
         },
         {
-          "title": "Qwen3.8-Next design paper: 125B sparse MoE beats its 397B predecessor",
-          "summary": "Details the Qwen3.8-Flash-Next architecture — a 125B sparse MoE (6B activated) with n-gram embedding tables held off-accelerator and hybrid Gated DeltaNet/global attention — beating the 397B model on most benchmarks at a third the activated parameters and roughly a ninth of training FLOPs.",
+          "title": "Post-Training Ternarization of Qwen3-4B",
+          "summary": "End-to-end post-training conversion of an instruction-tuned 4B Qwen model to ultra-low-bit ternary (1.58-bit) representation, analyzing capability retention, effective bit budget, storage compression, and runtime deployment.",
           "source": "arXiv",
-          "date": "2026-08-31",
-          "url": "https://arxiv.org/abs/2608.30320"
+          "date": "2026-09-02",
+          "url": "https://arxiv.org/abs/2609.01962"
         },
         {
-          "title": "LatentPress compresses context into continuous memory tokens",
-          "summary": "Compresses conversational histories and long documents into continuous memory tokens a frozen language model can read directly, cutting context memory footprint versus human-readable text or decoded images.",
+          "title": "Scalable Kronecker-Fisher Approximation for LLM Compression",
+          "summary": "A scalable Kronecker-based approximation captures cross-layer Fisher-matrix interactions without materializing the full matrix, enabling Hessian analysis for billion-parameter LLM compression and pruning.",
           "source": "arXiv",
-          "date": "2026-09-01",
-          "url": "https://arxiv.org/abs/2609.01507"
+          "date": "2026-09-02",
+          "url": "https://arxiv.org/abs/2609.02451"
         },
         {
-          "title": "A mathematical theory of reusable neural bases for network compression",
-          "summary": "The Linear Reusable Neural Bases Architecture (LRNBA) improves parameter efficiency to ease the memory-cost bottleneck in large-model training and inference.",
+          "title": "Learn from Whoever Is Right: Answer-Verified Multi-Teacher Distillation",
+          "summary": "Distillation that routes each sample to matching-domain teachers and answer-verifies their outputs, integrating multi-domain capabilities into a single deployable model.",
           "source": "arXiv",
-          "date": "2026-09-01",
-          "url": "https://arxiv.org/abs/2609.01550"
-        }
-      ]
-    },
-    {
-      "title": "Open Weights & Models",
-      "image": "images/section_open-weights_2026-09-02.jpg",
-      "items": [
-        {
-          "title": "DeepSeek opens weights for V4-Flash-Vision-Exp, first vision model in the V4 family",
-          "summary": "A 305B sparse MoE with vision released under MIT license, the first downloadable checkpoint in the V4 family. Ships in FP8 (~168GB) with tokenizer and minimal PyTorch inference code; the API launched August 21 and weights followed ten days later.",
-          "source": "HuggingFace",
-          "date": "2026-08-31",
-          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
+          "date": "2026-09-02",
+          "url": "https://arxiv.org/abs/2609.02548"
         },
         {
-          "title": "Qwen3.6-35B-A3B: first open-weight Qwen3.6 variant, agentic-coding MoE",
-          "summary": "Alibaba released the 35B total / ~3B active multimodal sparse MoE under Apache 2.0, focused on agentic coding with a thinking-preservation feature and day-one support across vLLM, SGLang, Ollama and Unsloth GGUFs (~22-23GB RAM to run locally).",
-          "source": "HuggingFace",
-          "date": "2026-09-01",
-          "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B"
-        },
-        {
-          "title": "Qwen3.6-27B dense companion lands with 262K context",
-          "summary": "Part of the first open-weight Qwen3.6 release, the 27B dense model scores strong agentic coding and reasoning results and is available in HF Transformers, vLLM, SGLang plus Unsloth GGUF/MTP and MLX-8bit quantizations for local hardware.",
-          "source": "HuggingFace",
-          "date": "2026-09-01",
-          "url": "https://huggingface.co/Qwen/Qwen3.6-27B"
-        }
-      ]
-    },
-    {
-      "title": "Tools & Runtimes",
-      "image": "images/section_tools_2026-09-02.jpg",
-      "items": [
-        {
-          "title": "Fountain: open-source conversational API that gives your app a computer",
-          "summary": "A self-hosted AGPL engine that spins up a sandboxed coding agent with repos, tools and credentials from a single prompt. Supports Claude Code, Codex, Gemini CLI and OpenCode runtimes, attaches MCP servers, and keeps conversations in your own Postgres.",
-          "source": "Fountain",
-          "date": "2026-09-01",
-          "url": "https://managoat.com/oss-launch"
-        },
-        {
-          "title": "Superagent — a local home for your coding agent (Mac)",
-          "summary": "A free, MIT-licensed Mac app where a local coding agent lives: drives a real browser signed in as you, streams a live iPhone simulator, keeps chats across restarts, and runs fully on-device with no account and no telemetry.",
-          "source": "Superagent",
-          "date": "2026-09-01",
-          "url": "https://superagent.computer/"
-        },
-        {
-          "title": "mcptunnels — ngrok for MCP with OAuth 2.1",
-          "summary": "MCP-shaped tunneling that gives a local stdio MCP server a public URL in one command, with OAuth 2.1-gated endpoints by default and a self-hostable relay. Bridges stdio to Streamable HTTP so remote clients like ChatGPT, Claude and Cursor can reach a server on your laptop.",
-          "source": "GitHub",
-          "date": "2026-09-01",
-          "url": "https://terragohan.github.io/mcptunnels/"
+          "title": "TaRA: Training-Aware Low-Rank Adaptation Initialization",
+          "summary": "Proposes training-aware initializations to address LoRA's sensitivity to initialization caused by its low-rank information bottleneck, improving parameter-efficient fine-tuning.",
+          "source": "arXiv",
+          "date": "2026-09-02",
+          "url": "https://arxiv.org/abs/2609.02639"
         }
       ]
     }
@@ -130,36 +83,36 @@
       "title": "GitHub Trending · AI",
       "url": "https://github.com/trending",
       "link_label": "github.com/trending",
-      "date": "2026-09-02",
+      "date": "2026-09-03",
       "items": [
-        {"name": "Gitlawb/openclaude", "url": "https://github.com/Gitlawb/openclaude", "meta": "runs anywhere, uses anything — agent runtime"},
-        {"name": "THU-MAIC/OpenMAIC", "url": "https://github.com/THU-MAIC/OpenMAIC", "meta": "Open Multi-Agent Interactive Classroom"},
-        {"name": "jingyaogong/minimind", "url": "https://github.com/jingyaogong/minimind", "meta": "train a 64M-parameter LLM from scratch in 2h"},
-        {"name": "debpalash/VoiceStudio", "url": "https://github.com/debpalash/VoiceStudio", "meta": "open-source, fully-local ElevenLabs alternative — TTS, voice cloning, 646 languages"},
-        {"name": "browser-use/video-use", "url": "https://github.com/browser-use/video-use", "meta": "edit videos with coding agents"},
-        {"name": "K-Dense-AI/scientific-agent-skills", "url": "https://github.com/K-Dense-AI/scientific-agent-skills", "meta": "Agent Skills library for science, 190k+ users"},
-        {"name": "handsomestWei/patent-disclosure-skill", "url": "https://github.com/handsomestWei/patent-disclosure-skill", "meta": "Python · 6.6k ★ · +502 today — patent analysis agent skill"},
-        {"name": "VoltAgent/awesome-design-md", "url": "https://github.com/VoltAgent/awesome-design-md", "meta": "DESIGN.md collection for agent-generated UI"},
-        {"name": "affaan-m/ECC", "url": "https://github.com/affaan-m/ECC", "meta": "agent harness performance optimization system"},
-        {"name": "unclecode/crawl4ai", "url": "https://github.com/unclecode/crawl4ai", "meta": "open-source LLM-friendly web crawler & scraper"}
+        {"name": "google-research/timesfm", "url": "https://github.com/google-research/timesfm", "meta": "Python · 30.2k ★ · +343 today"},
+        {"name": "debpalash/VoiceStudio", "url": "https://github.com/debpalash/VoiceStudio", "meta": "Python · 15.3k ★ · +832 today"},
+        {"name": "ChromeDevTools/chrome-devtools-mcp", "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp", "meta": "TypeScript · 50.7k ★ · +148 today"},
+        {"name": "NousResearch/hermes-agent", "url": "https://github.com/NousResearch/hermes-agent", "meta": "Python · 240.3k ★ · +533 today"},
+        {"name": "superlinked/sie", "url": "https://github.com/superlinked/sie", "meta": "Python · 3.1k ★ · +60 today"},
+        {"name": "pacifio/atlas", "url": "https://github.com/pacifio/atlas", "meta": "Rust · 3.0k ★ · +888 today"},
+        {"name": "Imbad0202/academic-research-skills", "url": "https://github.com/Imbad0202/academic-research-skills", "meta": "Python · 45.7k ★ · +799 today"},
+        {"name": "affaan-m/ECC", "url": "https://github.com/affaan-m/ECC", "meta": "JavaScript · 246.5k ★ · +516 today"},
+        {"name": "blader/humanizer", "url": "https://github.com/blader/humanizer", "meta": "Python · 40.7k ★ · +374 today"},
+        {"name": "Gitlawb/openclaude", "url": "https://github.com/Gitlawb/openclaude", "meta": "TypeScript · 32.1k ★ · +775 today"}
       ]
     },
     "huggingface": {
       "title": "Models Trending (Hugging Face)",
       "url": "https://huggingface.co/models?sort=trending",
       "link_label": "huggingface.co/models",
-      "date": "2026-09-02",
+      "date": "2026-09-03",
       "items": [
-        {"name": "SulphurAI/Sulphur-2-base", "url": "https://huggingface.co/SulphurAI/Sulphur-2-base", "meta": "base model, trending #1"},
-        {"name": "openbmb/MiniCPM-V-4.6", "url": "https://huggingface.co/openbmb/MiniCPM-V-4.6", "meta": "vision-language model"},
-        {"name": "HiDream-ai/HiDream-O1-Image", "url": "https://huggingface.co/HiDream-ai/HiDream-O1-Image", "meta": "image generation model"},
-        {"name": "Zyphra/ZAYA1-8B", "url": "https://huggingface.co/Zyphra/ZAYA1-8B", "meta": "8B language model"},
-        {"name": "Supertone/supertonic-3", "url": "https://huggingface.co/Supertone/supertonic-3", "meta": "audio model"},
-        {"name": "deepseek-ai/DeepSeek-V4-Pro", "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro", "meta": "DeepSeek V4 Pro flagship"},
-        {"name": "unsloth/Qwen3.6-27B-MTP-GGUF", "url": "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF", "meta": "Qwen3.6 GGUF with MTP speculative decoding"},
-        {"name": "SeeSee21/Z-Anime", "url": "https://huggingface.co/SeeSee21/Z-Anime", "meta": "anime model"},
-        {"name": "unsloth/Qwen3.6-35B-A3B-MTP-GGUF", "url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF", "meta": "Qwen3.6-35B-A3B GGUF with MTP decoding"},
-        {"name": "circlestone-labs/Anima", "url": "https://huggingface.co/circlestone-labs/Anima", "meta": "trending model"}
+        {"name": "zai-org/GLM-5.3", "url": "https://huggingface.co/zai-org/GLM-5.3", "meta": "753B text generation flagship"},
+        {"name": "zai-org/GLM-5.3-Flash", "url": "https://huggingface.co/zai-org/GLM-5.3-Flash", "meta": "321B image-text-to-text multimodal"},
+        {"name": "Qwen/Qwen3.8-Flash-Next", "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next", "meta": "180B image-text-to-text MoE"},
+        {"name": "Qwen/Qwen3.8-27B", "url": "https://huggingface.co/Qwen/Qwen3.8-27B", "meta": "28B image-text-to-text"},
+        {"name": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp", "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp", "meta": "305B experimental vision variant"},
+        {"name": "tencent/Hy4-preview", "url": "https://huggingface.co/tencent/Hy4-preview", "meta": "780B MoE text generation"},
+        {"name": "Lightricks/LTX-2.5", "url": "https://huggingface.co/Lightricks/LTX-2.5", "meta": "Image-to-video generator"},
+        {"name": "unsloth/Qwen3.8-Flash-Next-GGUF", "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF", "meta": "177B GGUF quantized for local"},
+        {"name": "unsloth/Qwen3.8-27B-GGUF", "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF", "meta": "27B GGUF quantized for local"},
+        {"name": "google/timesfm-3.0-pytorch", "url": "https://huggingface.co/google/timesfm-3.0-pytorch", "meta": "0.3B time-series forecasting"}
       ]
     }
   },
@@ -168,7 +121,7 @@
       "title": "Free on OpenRouter",
       "url": "https://openrouter.ai/models?max_price=0",
       "link_label": "Browse free models on OpenRouter →",
-      "date": "2026-09-02",
+      "date": "2026-09-03",
       "items": [
         {"name": "Cohere: North Mini Code (free)", "url": "https://openrouter.ai/cohere/north-mini-code:free", "meta": "256K ctx"},
         {"name": "Dots Studio: Dots3-Note Preview (free)", "url": "https://openrouter.ai/dots-studio/dots-3-note-preview:free", "meta": "512K ctx"},
@@ -194,29 +147,32 @@
       "title": "Free on OpenCode Zen",
       "url": "https://opencode.ai/docs/zen/",
       "link_label": "See the full Zen catalog →",
-      "date": "2026-09-02",
+      "date": "2026-09-03",
       "items": [
         {"name": "Big Pickle", "url": "https://opencode.ai/docs/zen/", "meta": "big-pickle"},
         {"name": "MiMo-V2.5 Free", "url": "https://opencode.ai/docs/zen/", "meta": "mimo-v2.5-free"},
         {"name": "Ling 3.0 Flash Fin Free", "url": "https://opencode.ai/docs/zen/", "meta": "ling-3.0-flash-fin-free"},
         {"name": "Nemotron 3 Ultra Free", "url": "https://opencode.ai/docs/zen/", "meta": "nemotron-3-ultra-free"},
         {"name": "Nemotron 3.5 Lightning Free", "url": "https://opencode.ai/docs/zen/", "meta": "nemotron-3.5-lightning-free"},
+        {"name": "Muse Spark 1.3 Contributor Free", "url": "https://opencode.ai/docs/zen/", "meta": "muse-spark-1.3-contributor-free"},
         {"name": "Muse Spark 1.2 Contributor Free", "url": "https://opencode.ai/docs/zen/", "meta": "muse-spark-1.2-contributor-free"}
       ]
     }
   },
   "quick_hits": [
-    {"title": "BenchMIRT: item response theory audits what LLM benchmarks actually measure", "source": "Hugging Face", "url": "https://huggingface.co/blog/allenai/benchmirt"},
-    {"title": "llama.cpp merges qwen4exp follow-up fixes for Qwen3.8-Flash-Next", "source": "llama.cpp", "url": "https://github.com/ggml-org/llama.cpp/pull/27941"},
-    {"title": "Markdown Gatekeeper: local-first authority layer for agent-facing Markdown", "source": "GitHub", "url": "https://github.com/nanlogic/markdown-gatekeeper"},
-    {"title": "Federated LoRA fine-tuning under rank heterogeneity across distributed clients", "source": "arXiv", "url": "https://arxiv.org/abs/2609.00632"},
-    {"title": "AIR raises $50M to vet the skills and add-ons AI agents use", "source": "TechCrunch", "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/"},
-    {"title": "AfterQuery becomes Y Combinator's fastest-ever unicorn at a $3.2B valuation", "source": "TechCrunch", "url": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/"},
-    {"title": "Empirik launches with $21M to predict infrastructure outages before they happen", "source": "TechCrunch", "url": "https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/"},
-    {"title": "GPT-6 Astra launch goes viral across the AI community", "source": "YouTube — Beyond AI News", "url": "https://www.youtube.com/watch?v=pUF5uEQ14QE"}
+    {"title": "Paperclip v2026.831.1: open-source AI agent orchestration", "source": "GitHub", "url": "https://github.com/paperclipai/paperclip/releases"},
+    {"title": "Real-Time Intelligence with IBM Time Series Models on Confluent", "source": "Hugging Face", "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence"},
+    {"title": "TimesFM 3.0: Google time-series foundation model lands on the Hub", "source": "Hugging Face", "url": "https://huggingface.co/google/timesfm-3.0-pytorch"},
+    {"title": "Wonderful more than doubles its valuation to $5B in under 6 months", "source": "TechCrunch", "url": "https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/"},
+    {"title": "HiddenLayer nabs $100M as enterprises rush to secure their AI deployments", "source": "TechCrunch", "url": "https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments"},
+    {"title": "Former Apple engineers' robotics startup Lyte raises $165M at $1.6B", "source": "Crunchbase", "url": "https://news.crunchbase.com/venture/robotics-ai-startup-lyte-seriesc-raise-maverick/"},
+    {"title": "MIMIT approves Quantia quantum-AI project at Naples' Federico II University", "source": "Metropolisweb", "url": "https://www.metropolisweb.it/2026/09/02/ia-universita-federico-ii-via-libera-del-mimit-progetto-quantia/"},
+    {"title": "SEAL reinforces global safety in MoE via shared expert alignment", "source": "arXiv", "url": "https://arxiv.org/abs/2609.02293"},
+    {"title": "DeepAffinity predicts long-term eCommerce preferences with small LMs", "source": "arXiv", "url": "https://arxiv.org/abs/2609.02468"}
   ],
   "spiked": {
-    "already ran": 5,
+    "same story": 1,
+    "already ran": 10,
     "low signal": 1
   }
 }
