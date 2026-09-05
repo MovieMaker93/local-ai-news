@@ -1370,6 +1370,204 @@
       "source": "arXiv",
       "date": "2026-09-03",
       "issue": 8
+    },
+    {
+      "text": "AMD launches Ryzen AI Max PRO 400 with 192GB unified memory - up to 160GB addressable as VRAM",
+      "source": "Tech Times",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "NVIDIA: new llama.cpp and vLLM optimizations lift local LLM throughput up to 1.9x on RTX 5090, RTX PRO 6000 and DGX Spark",
+      "source": "RuntimeWire",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "OpenAI rolls out GPT-6, codenamed 'Astra', reported as its most advanced model yet",
+      "source": "YouTube - Bloomberg Technology",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "Why Gated DeltaNet survives 4-bit quantization: NVFP4 W4A4 for the recurrent half of a hybrid 27B LLM",
+      "source": "arXiv",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "Random attention: scored token selection adds almost nothing to KV cache eviction",
+      "source": "arXiv",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "Rethinking on-policy distillation II: one training example is enough to go far",
+      "source": "arXiv",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "Hardware-aware FP4 FlashAttention-4 maps attention scores straight to FP4 probabilities",
+      "source": "arXiv",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "VestigeKV: the NoPE-MLA KV cache carries its own eviction signal in a vestigial branch",
+      "source": "arXiv",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "Unlocking lossless speedups in LLMs via discrete diffusion",
+      "source": "arXiv",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "IFM releases K2 Horizon: six fully open models (0.9B-375B) with weights, code and training data",
+      "source": "IFM",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "FastVideo publishes FastH3, a 4-step 35B text-to-video preview",
+      "source": "Hugging Face",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "Spark-X2.5-4B and 1.7B: claimed first edge models with native 1M-token context",
+      "source": "Hugging Face",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "llama.cpp ships v0.4.0, its second semver-stable release",
+      "source": "GitHub",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "ggml v0.23.0 lands sparse attention, async RPC and an Apple RDMA transport",
+      "source": "GitHub",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "Show HN: Sageling runs Qwen 3.5 9B in-process on Apple Silicon via MLX",
+      "source": "Hacker News",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "Show HN: Moadim is a local, cron-free scheduler daemon for coding agents",
+      "source": "Hacker News",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "Show HN: Personal Context MCP puts accounts, memory and skills behind one self-hostable endpoint",
+      "source": "Hacker News",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "NVIDIA launches PAIR beta: a Personal AI Router that pools home PCs for local LLM inference",
+      "source": "The Verge",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "Ollama 0.33.3 brings multimodal Gemma 4 (images and audio) to Apple Silicon's MLX engine",
+      "source": "GitHub",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "Lenovo ThinkCentre X Ultra: 1.6-liter Ryzen AI Max+ PRO 495 mini PC with 128GB unified memory, clusterable four-deep to 512GB",
+      "source": "Yahoo Tech",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "AMD unveils Threadripper Halo Station at IFA: a liquid-cooled workstation targeting trillion-parameter local inference",
+      "source": "Tech Times",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "Epic Games CEO Tim Sweeney compares the component shortage to the 1983 video game crash; expects 3+ more years of tight memory supply",
+      "source": "Tech4Gamers",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "Malaysia's APU opens first university lab powered by NVIDIA DGX Spark, serving up to 200B-parameter models locally",
+      "source": "The Star",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "Triple-bottom-line sustainability of language models for edge AI: quantized LLMs beat natively trained SLMs",
+      "source": "arXiv",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "Sequential beats joint: on the interplay between on-policy distillation and RLVR",
+      "source": "arXiv",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "Unsloth ships Dynamic 2.0 GGUF quants of Qwen3.8-Flash-Next (177B multimodal MoE)",
+      "source": "Hugging Face",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "Community merge Friday: DavidAU's kitchen-sink fuse of Qwen3.8-27B lands as TURBO MTP GGUF",
+      "source": "Hugging Face",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "AirLLM: open-source layer streaming runs full-precision 70B models on a 4GB VRAM GPU",
+      "source": "PulseAugur",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "Show HN: ActraDeck puts risky coding-agent actions back in front of a human",
+      "source": "Hacker News",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "AI compute provider Nscale seeks $3.5B in pre-IPO financing, with NVIDIA leading a $2B tranche",
+      "source": "TechCrunch",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "ByteDance secures $29.6 billion syndicated loan in AI push",
+      "source": "Reuters",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "Bloomberg: AI is eroding the first rung of the tech job ladder",
+      "source": "YouTube - Bloomberg Technology",
+      "date": "2026-09-05",
+      "issue": 9
+    },
+    {
+      "text": "Rai brings AI on air: 'Codice' debuts Ipazia, an AI avatar that dialogues with guests in real time",
+      "source": "Affaritaliani",
+      "date": "2026-09-05",
+      "issue": 9
     }
   ]
 }

@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOCAL AI NEWS — open-weight intelligence · September 03, 2026</title>
+  <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
+  <link rel="stylesheet" href="style.css">
+  <style>.wt{display:flex;align-items:center;height:38px;background:var(--ink);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);margin:14px 0 0;overflow:hidden}.wtt{display:flex;align-items:center;white-space:nowrap;padding-left:20px;animation:ws 90s linear infinite}.wtt:hover{animation-play-state:paused}@keyframes ws{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.ti{display:inline-flex;align-items:center;gap:7px;padding:0 22px;cursor:pointer;border-right:1px solid var(--rule);height:38px}.ti:hover{background:rgba(240,162,60,.05)}.tih{font-family:var(--serif);font-size:13px;color:var(--type)}.tis{font-family:var(--sans);font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.mo{display:none;position:fixed;inset:0;background:rgba(10,10,12,.88);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(8px)}.mo.a{display:flex}.mb{background:#121214;border:1px solid var(--rule-strong);max-width:680px;width:90%;max-height:82vh;overflow-y:auto;padding:40px 44px;position:relative;animation:fi .2s ease}@keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.mc{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:var(--sans);padding:4px 8px}.mh{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;letter-spacing:-.01em;color:var(--type);margin:0 0 14px;padding-right:32px}.mm{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}.mm a{color:var(--lux)}.mm a:hover{text-decoration:underline}.mbd{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--type-dim)}.mbd .en{display:block;color:var(--lux-soft);font-style:italic;font-size:15px;margin-top:14px;padding-left:12px;border-left:2px solid var(--rule-strong)}.mbd .as{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.5}.mbd .as .al{color:var(--lux-soft);font-weight:600;font-family:var(--sans);font-size:10px;letter-spacing:.06em;text-transform:uppercase}</style></head>
+  <body>
+  <div class="container">
+
+  <header class="masthead">
+    <div class="topline"></div>
+    <div class="ears">
+      <span class="left">Est. MMXXVI</span>
+      <span class="right">No. 8 <a href="/archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+    </div>
+    <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
+      <hr class="rule-double">
+      <div class="dateline">
+        <span>September 03, 2026</span>
+        <span class="dot">◆</span>
+        <span class="tag">open weights, on your metal</span>
+        <span class="dot">◆</span>
+        <span>63 stories</span>
+      </div>
+      <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
+      <hr class="rule-thin">
+    </header>
+
+    
+
+    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="Meta Pushes Its New AI Agent on Employees—but Eases Off on Tokenmaxxing" data-b="According to WIRED, Meta is formally ending what amounted to a &quot;tokenmaxxing&quot; incentive program for employees. In an internal announcement this week, the social media giant told workers their performance evaluations would no longer depend on how much they used AI tools, according to three employees who received the message. But as Meta workers begin testing a new agentic AI tool known as Hatch, their token consumption continues to surge.
+
+Almost a year ago, Meta had said workers would be graded on their &quot;AI-driven impact,&quot; a policy that in practice correlated with labels such as &quot;AI Native,&quot; &quot;AI First,&quot; or &quot;AI Enabled.&quot; New guidance unveiled this week replaces references to criteria like &quot;usage of AI&quot; with looser wording, stating these outcomes &quot;can be supported by AI or other means.&quot; Some employees tell WIRED the changes are subtle but welcome, freeing them from pressure to use AI where it doesn&#x27;t make sense)Skip to main content Meta spokesperson Tracy Clayton says the updates aim to emphasize what has always been the case—that Meta evaluates employees based on their contributions.
+
+For months, some employees prompted AI tools repeatedly to maximize internal usage measurements. The era peaked when a worker created a leaderboard labeling colleagues as, for example, a &quot;Token Legend.&quot; Hatch, which can autonomously browse the web and operate applications, has been tested for several weeks ahead of an expected public release, though some employees remain hesitant to connect it to personal accounts over privacy worries.
+
+*WIRED&#x27;s reporting suggests Meta&#x27;s shift could help rebuild trust among a workforce wary of AI, though management still appears interested in seeing employees prove they can effectively wield these tools.*
+
+*— Written by AI (flash)*" data-s="wired.com" data-u="https://www.wired.com/story/meta-pushes-its-new-ai-agent-on-employees-but-eases-off-on-tokenmaxxing/"><span class="tih">Meta Pushes Its New AI Agent on Employees—but Eases Off on Tokenmaxxing</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="TechCrunch expands Disrupt 2026 with a new Real World AI Stage" data-b="TechCrunch Disrupt 2026 is expanding its AI programming, splitting a single AI stage into two with the introduction of the brand-new Real World AI Stage, according to TechCrunch. The new stage focuses on the intersection of the digital and physical worlds, exploring how autonomous hardware is moving beyond self-driving cars into public spaces, homes, battlefields, and even efforts to help extinct species return.
+
+The announced lineup includes speakers from Nvidia, Shield AI, Colossal Biosciences, FieldAI, and Foxglove. Sessions will examine why robots still lack the data foundation that powered large language models, how founders determine when autonomous systems are safe to deploy, the technologies behind de-extinction efforts, and how AI operates in edge environments where cloud connectivity is limited. Additional talks cover the difficult transition from prototype to production and scaled business.
+
+The event runs October 13 to 15 at San Francisco&#x27;s Moscone West, alongside other stages covering topics such as stablecoins, fusion breakthroughs, and tactical advice for founders and investors. TechCrunch describes the gathering as bringing together more than 10,000 startup, tech, and VC leaders for three days of sessions, networking, and its Startup Battlefield.
+
+*The push to bring AI into physical spaces while debating the ethics of engineering nature back into existence signals a stage well-suited for this moment in the field.*
+*— Written by AI (flash)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/"><span class="tih">TechCrunch expands Disrupt 2026 with a new Real World AI Stage</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Democrats Plan to Leverage Funding to Force Trump Associates to Cooperate With Investigations" data-b="House Democrats, sensing a possible win in the midterms, are beginning to plan oversight investigations for next year)Skip this. They believe a potential House majority could let them wield the power of the purse to compel the Trump administration&#x27;s compliance.
+
+The scope of any investigations is still undecided, and reclaiming the House is not guaranteed. But should Democrats control the chamber, committee aides have already explored methods to pressure recalcitrant officials and family in Trump&#x27;s orbit into answering subpoenas. With the president focused on personal vanity projects, one idea is to cut funding for Trump&#x27;s construction efforts. If Trump blocks an investigation or continues renaming buildings, House Democrats might halt future West Wing renovations or block money for his triumphal arch.
+
+The top Democrat on the House Judiciary Committee, Jamie Raskin, suggested cutting funding to rein in projects already underway, telling reporters that the power of the purse could prevent Trump from destroying federal buildings or landmarks-after a divided Supreme Court allowed him to keep building his ballroom.
+
+Traditional court enforcement of subpoenas can take years, and in his first term Trump asserted executive privilege over a subpoenaed counsel who never testified. Aides have also weighed cumulative fines through an inherent contempt provision, though legal experts believe passing legislation to fast-track judicial review of contested subpoenas is the only way to give them teeth. Such a bill is no panacea, since the Justice Department could decline to prosecute its own officials.
+
+*One can&#x27;t help but notice that the &quot;power of the purse&quot; is a blunt instrument whose bite depends entirely on winning the election first.*
+
+*— Written by AI (flash)*" data-s="wired.com" data-u="https://www.wired.com/story/democrats-have-a-plan-to-force-trumps-associates-to-cooperate-with-investigations/"><span class="tih">Democrats Plan to Leverage Funding to Force Trump Associates to Cooperate With Investigations</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Google&#x27;s new Gemini 3.8 Flash &#x27;works harder&#x27; but might cost more" data-b="Google has launched Gemini 3.8 Flash, arriving just weeks after its predecessor, according to The Verge. The company says the new model &quot;works harder&quot; than Gemini 3.7 Flash by performing more reasoning steps on complex tasks and calling tools iteratively. While it carries the same introductory pricing as the earlier version — $0.75 per million input tokens and $3.75 per million output tokens — Google warns users could still end up paying more, since the model may use more tokens to maximize performance at higher effort levels. Developers who want to minimize token usage can stick with 3.7 Flash.
+
+Early impressions suggest the cost concerns are real. The Verge reports that Artificial Analysis measured the model as roughly 40% more expensive per task than 3.7 Flash despite unchanged per-token pricing, driven by a 30% increase in output tokens per task)Skip early-巳...
+
+Early impressions cited by The Verge back up that warning. Artificial Analysis said Gemini 3.8 Flash is still &quot;the cheapest we&#x27;ve measured at this level of intelligence,&quot; yet noted per-task costs are up around 40% from 3.7 Flash due to more output tokens and extra turns on agentic evaluations. Aigora.ai CEO John Ennis compared the model to Anthropic&#x27;s, praising &quot;Opus 5 coding quality&quot; at a lower cost. Google highlights &quot;significant improvements&quot; for software engineering, where it tops the DeepSWE v1.1 benchmark, as well as finance and legal benchmarks, while noting safeguards against misuse in CBRN and cyber-offense domains. Google also released a Cyber variant and its Fairwind Program for governments and trusted partners — about 650 members including CrowdStrike — offering access to the Cyber model and its CodeMender agent for autonomous vulnerability fixing.
+
+*Smarter models that quietly cost more per task feel like a trade-off worth watching. — Written by AI (flash)*" data-s="theverge.com" data-u="https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash"><span class="tih">Google&#x27;s new Gemini 3.8 Flash &#x27;works harder&#x27; but might cost more</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="US government files brief backing OpenAI in NYT copyright lawsuit" data-b="The Trump administration has weighed in on the legal fight over whether AI companies can train large language models on copyrighted material without permission, siding with OpenAI in the lawsuit filed by The New York Times. According to TechCrunch, the administration contributed a 20-page brief in defense of the ChatGPT maker&#x27;s unlicensed use of copyrighted works.
+
+The brief argues that the United States has a strong interest in maintaining a robust and competitive AI industry that sets global standards, and that constraining LLM development under a misunderstanding of fair use doctrine would hinder American prosperity lung economic mobility. It references an executive order signed by President Donald Trump supporting global AI leadership.
+
+The report notes that chatbots like ChatGPT, Claude, and Gemini are trained on massive databases of published works, including copyrighted books and articles fed in without permission. Recent rulings have largely favored AI companies: Judge William Alsup ordered Anthropic to pay a $1.5 billion settlement last year, though not for training itself—only for using illegal shadow libraries to pirate books.
+
+The brief is not a ruling, TechCrunch notes, as the case is being heard in the U.S. District Court for the Southern District of New York corrected to the federal court, but the intervention could still carry weight.
+
+*Government filings are persuasive signals, but the final word on fair use still belongs to the courts.*
+*— Written by AI (flash)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/"><span class="tih">US government files brief backing OpenAI in NYT copyright lawsuit</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Meta Pushes Its New AI Agent on Employees—but Eases Off on Tokenmaxxing" data-b="According to WIRED, Meta is formally ending what amounted to a &quot;tokenmaxxing&quot; incentive program for employees. In an internal announcement this week, the social media giant told workers their performance evaluations would no longer depend on how much they used AI tools, according to three employees who received the message. But as Meta workers begin testing a new agentic AI tool known as Hatch, their token consumption continues to surge.
+
+Almost a year ago, Meta had said workers would be graded on their &quot;AI-driven impact,&quot; a policy that in practice correlated with labels such as &quot;AI Native,&quot; &quot;AI First,&quot; or &quot;AI Enabled.&quot; New guidance unveiled this week replaces references to criteria like &quot;usage of AI&quot; with looser wording, stating these outcomes &quot;can be supported by AI or other means.&quot; Some employees tell WIRED the changes are subtle but welcome, freeing them from pressure to use AI where it doesn&#x27;t make sense)Skip to main content Meta spokesperson Tracy Clayton says the updates aim to emphasize what has always been the case—that Meta evaluates employees based on their contributions.
+
+For months, some employees prompted AI tools repeatedly to maximize internal usage measurements. The era peaked when a worker created a leaderboard labeling colleagues as, for example, a &quot;Token Legend.&quot; Hatch, which can autonomously browse the web and operate applications, has been tested for several weeks ahead of an expected public release, though some employees remain hesitant to connect it to personal accounts over privacy worries.
+
+*WIRED&#x27;s reporting suggests Meta&#x27;s shift could help rebuild trust among a workforce wary of AI, though management still appears interested in seeing employees prove they can effectively wield these tools.*
+
+*— Written by AI (flash)*" data-s="wired.com" data-u="https://www.wired.com/story/meta-pushes-its-new-ai-agent-on-employees-but-eases-off-on-tokenmaxxing/"><span class="tih">Meta Pushes Its New AI Agent on Employees—but Eases Off on Tokenmaxxing</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="TechCrunch expands Disrupt 2026 with a new Real World AI Stage" data-b="TechCrunch Disrupt 2026 is expanding its AI programming, splitting a single AI stage into two with the introduction of the brand-new Real World AI Stage, according to TechCrunch. The new stage focuses on the intersection of the digital and physical worlds, exploring how autonomous hardware is moving beyond self-driving cars into public spaces, homes, battlefields, and even efforts to help extinct species return.
+
+The announced lineup includes speakers from Nvidia, Shield AI, Colossal Biosciences, FieldAI, and Foxglove. Sessions will examine why robots still lack the data foundation that powered large language models, how founders determine when autonomous systems are safe to deploy, the technologies behind de-extinction efforts, and how AI operates in edge environments where cloud connectivity is limited. Additional talks cover the difficult transition from prototype to production and scaled business.
+
+The event runs October 13 to 15 at San Francisco&#x27;s Moscone West, alongside other stages covering topics such as stablecoins, fusion breakthroughs, and tactical advice for founders and investors. TechCrunch describes the gathering as bringing together more than 10,000 startup, tech, and VC leaders for three days of sessions, networking, and its Startup Battlefield.
+
+*The push to bring AI into physical spaces while debating the ethics of engineering nature back into existence signals a stage well-suited for this moment in the field.*
+*— Written by AI (flash)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/"><span class="tih">TechCrunch expands Disrupt 2026 with a new Real World AI Stage</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Democrats Plan to Leverage Funding to Force Trump Associates to Cooperate With Investigations" data-b="House Democrats, sensing a possible win in the midterms, are beginning to plan oversight investigations for next year)Skip this. They believe a potential House majority could let them wield the power of the purse to compel the Trump administration&#x27;s compliance.
+
+The scope of any investigations is still undecided, and reclaiming the House is not guaranteed. But should Democrats control the chamber, committee aides have already explored methods to pressure recalcitrant officials and family in Trump&#x27;s orbit into answering subpoenas. With the president focused on personal vanity projects, one idea is to cut funding for Trump&#x27;s construction efforts. If Trump blocks an investigation or continues renaming buildings, House Democrats might halt future West Wing renovations or block money for his triumphal arch.
+
+The top Democrat on the House Judiciary Committee, Jamie Raskin, suggested cutting funding to rein in projects already underway, telling reporters that the power of the purse could prevent Trump from destroying federal buildings or landmarks-after a divided Supreme Court allowed him to keep building his ballroom.
+
+Traditional court enforcement of subpoenas can take years, and in his first term Trump asserted executive privilege over a subpoenaed counsel who never testified. Aides have also weighed cumulative fines through an inherent contempt provision, though legal experts believe passing legislation to fast-track judicial review of contested subpoenas is the only way to give them teeth. Such a bill is no panacea, since the Justice Department could decline to prosecute its own officials.
+
+*One can&#x27;t help but notice that the &quot;power of the purse&quot; is a blunt instrument whose bite depends entirely on winning the election first.*
+
+*— Written by AI (flash)*" data-s="wired.com" data-u="https://www.wired.com/story/democrats-have-a-plan-to-force-trumps-associates-to-cooperate-with-investigations/"><span class="tih">Democrats Plan to Leverage Funding to Force Trump Associates to Cooperate With Investigations</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Google&#x27;s new Gemini 3.8 Flash &#x27;works harder&#x27; but might cost more" data-b="Google has launched Gemini 3.8 Flash, arriving just weeks after its predecessor, according to The Verge. The company says the new model &quot;works harder&quot; than Gemini 3.7 Flash by performing more reasoning steps on complex tasks and calling tools iteratively. While it carries the same introductory pricing as the earlier version — $0.75 per million input tokens and $3.75 per million output tokens — Google warns users could still end up paying more, since the model may use more tokens to maximize performance at higher effort levels. Developers who want to minimize token usage can stick with 3.7 Flash.
+
+Early impressions suggest the cost concerns are real. The Verge reports that Artificial Analysis measured the model as roughly 40% more expensive per task than 3.7 Flash despite unchanged per-token pricing, driven by a 30% increase in output tokens per task)Skip early-巳...
+
+Early impressions cited by The Verge back up that warning. Artificial Analysis said Gemini 3.8 Flash is still &quot;the cheapest we&#x27;ve measured at this level of intelligence,&quot; yet noted per-task costs are up around 40% from 3.7 Flash due to more output tokens and extra turns on agentic evaluations. Aigora.ai CEO John Ennis compared the model to Anthropic&#x27;s, praising &quot;Opus 5 coding quality&quot; at a lower cost. Google highlights &quot;significant improvements&quot; for software engineering, where it tops the DeepSWE v1.1 benchmark, as well as finance and legal benchmarks, while noting safeguards against misuse in CBRN and cyber-offense domains. Google also released a Cyber variant and its Fairwind Program for governments and trusted partners — about 650 members including CrowdStrike — offering access to the Cyber model and its CodeMender agent for autonomous vulnerability fixing.
+
+*Smarter models that quietly cost more per task feel like a trade-off worth watching. — Written by AI (flash)*" data-s="theverge.com" data-u="https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash"><span class="tih">Google&#x27;s new Gemini 3.8 Flash &#x27;works harder&#x27; but might cost more</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="US government files brief backing OpenAI in NYT copyright lawsuit" data-b="The Trump administration has weighed in on the legal fight over whether AI companies can train large language models on copyrighted material without permission, siding with OpenAI in the lawsuit filed by The New York Times. According to TechCrunch, the administration contributed a 20-page brief in defense of the ChatGPT maker&#x27;s unlicensed use of copyrighted works.
+
+The brief argues that the United States has a strong interest in maintaining a robust and competitive AI industry that sets global standards, and that constraining LLM development under a misunderstanding of fair use doctrine would hinder American prosperity lung economic mobility. It references an executive order signed by President Donald Trump supporting global AI leadership.
+
+The report notes that chatbots like ChatGPT, Claude, and Gemini are trained on massive databases of published works, including copyrighted books and articles fed in without permission. Recent rulings have largely favored AI companies: Judge William Alsup ordered Anthropic to pay a $1.5 billion settlement last year, though not for training itself—only for using illegal shadow libraries to pirate books.
+
+The brief is not a ruling, TechCrunch notes, as the case is being heard in the U.S. District Court for the Southern District of New York corrected to the federal court, but the intervention could still carry weight.
+
+*Government filings are persuasive signals, but the final word on fair use still belongs to the courts.*
+*— Written by AI (flash)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/"><span class="tih">US government files brief backing OpenAI in NYT copyright lawsuit</span> <span class="tis">— techcrunch.com</span></div></div></div>
+<div class="lead-zone">
+      <article class="lead">
+  <a href="https://github.com/unslothai/unsloth/releases" target="_blank" rel="noopener">
+    <img src="images/lead_2026-09-03.jpg" alt="" class="lead-image">
+    <div class="lead-grid">
+      <div class="lead-head">
+        <p class="kicker">Local inference speedup</p>
+        <h1>Unsloth v0.1.806-beta: 2x faster Qwen3.8-Flash and GLM-5.3-Flash via MTP</h1>
+      </div>
+      <div class="lead-body">
+        <p class="deck">Unsloth's new beta runs Qwen3.8-Flash-Next and GLM-5.3-Flash up to 2x faster with multi-token prediction enabled by default, bundled with 170+ improvements across training, chat, hardware support, and APIs in its local inference and fine-tuning studio. It is the most directly actionable speedup this week for anyone serving the leading open-weight models on their own rig.</p>
+        <p class="byline"><span class="src">GitHub</span> · <span>2026-09-02</span> · <span class="more">Read the dispatch →</span></p>
+      </div>
+    </div>
+  </a>
+</article>
+
+    </div>
+
+    <div class="topstories">
+<article class="story">
+  <a href="https://www.aroged.com/2026/09/02/the-16-pin-connector-on-the-rtx-5090-doesnt-just-burn-out-it-prevents-it-from-working-dlss-5-test-on-flagship-shows-power-limits/" target="_blank" rel="noopener">
+    <h3>RTX 5090's 16-pin connector caps DLSS 5 neural rendering, dual-connector cards needed for full performance</h3>
+    <p>Testing a leaked DLSS 5 neural filter shows the standard single-12V-2x6 RTX 5090 hits its 575W power cap and drops 42-49% frame rate, while a dual-connector card up to 1000W keeps frame rates stable. The power subsystem, not compute, is the constraint for running these neural models locally on NVIDIA's flagship Blackwell card.</p>
+    <p class="byline"><span class="src">Aroged</span> · 2026-09-02</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://9to5google.com/2026/09/02/qualcomm-details-adreno-neural-fusion-gpu-for-next-snapdragon-chip/" target="_blank" rel="noopener">
+    <h3>Qualcomm details Adreno 'Neural Fusion' GPU with dedicated AI Matrix Cores for next Snapdragon</h3>
+    <p>Qualcomm's next premium Snapdragon will be the first to dedicate AI Matrix Cores inside each of three 1.45GHz GPU slices, paired with an 18MB high-performance memory cache to run AI models directly in the graphics pipeline, claiming up to 40% lower power. NPU details arrive at Snapdragon Summit on September 22-24.</p>
+    <p class="byline"><span class="src">9to5Google</span> · 2026-09-02</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://www.ai2.work/blog/apple-s-september-event-puts-on-device-ai-silicon-center-stage" target="_blank" rel="noopener">
+    <h3>Apple's A20 Pro widens Neural Engine die area for on-device AI as memory costs reshape silicon economics</h3>
+    <p>Ahead of Apple's September 9 keynote, supply-chain reporting expects the A20 Pro to be Apple's first TSMC-2nm iPhone chip where the Neural Engine takes the largest share of added transistor budget, with moves toward on-package DRAM — as memory becomes the single most expensive component in flagship phones.</p>
+    <p class="byline"><span class="src">AI2Work</span> · 2026-09-02</p>
+  </a>
+</article>
+
+</div>
+
+
+    <div class="sections">
+      <section class="section">
+  <div class="section-head">
+    <h2>Research &amp; Papers</h2>
+    <span class="line"></span>
+    <span class="n">05</span>
+  </div>
+  <a href="https://arxiv.org/abs/2609.02737" target="_blank" rel="noopener" class="section-hero"><img src="images/research-papers_2026-09-03.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Language Models Can Control Their Own Attention</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.02737" target="_blank" rel="noopener">
+    <h4>Language Models Can Control Their Own Attention</h4>
+    <p>Introduces a method letting LMs control which context they attend to, cutting per-token KV-cache scanning for long 1M-token contexts down to the few tokens that matter.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-02</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.01962" target="_blank" rel="noopener">
+    <h4>Post-Training Ternarization of Qwen3-4B</h4>
+    <p>End-to-end post-training conversion of an instruction-tuned 4B Qwen model to ultra-low-bit ternary (1.58-bit) representation, analyzing capability retention, effective bit budget, storage compression, and runtime deployment.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-02</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.02451" target="_blank" rel="noopener">
+    <h4>Scalable Kronecker-Fisher Approximation for LLM Compression</h4>
+    <p>A scalable Kronecker-based approximation captures cross-layer Fisher-matrix interactions without materializing the full matrix, enabling Hessian analysis for billion-parameter LLM compression and pruning.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-02</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.02548" target="_blank" rel="noopener">
+    <h4>Learn from Whoever Is Right: Answer-Verified Multi-Teacher Distillation</h4>
+    <p>Distillation that routes each sample to matching-domain teachers and answer-verifies their outputs, integrating multi-domain capabilities into a single deployable model.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-02</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.02639" target="_blank" rel="noopener">
+    <h4>TaRA: Training-Aware Low-Rank Adaptation Initialization</h4>
+    <p>Proposes training-aware initializations to address LoRA's sensitivity to initialization caused by its low-rank information bottleneck, improving parameter-efficient fine-tuning.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-02</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+    </div>
+
+    <div class="trending-wrap">
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Repos on GitHub</h1>
+      <div class="t-line"></div>
+      <a href="https://github.com/trending" target="_blank" rel="noopener" class="t-link">Go to GitHub trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://github.com/google-research/timesfm" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">google-research/timesfm</span>
+    <span class="t-meta">Python · 30.2k ★ · +343 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/debpalash/VoiceStudio" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">debpalash/VoiceStudio</span>
+    <span class="t-meta">Python · 15.3k ★ · +832 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/ChromeDevTools/chrome-devtools-mcp" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">ChromeDevTools/chrome-devtools-mcp</span>
+    <span class="t-meta">TypeScript · 50.7k ★ · +148 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/NousResearch/hermes-agent" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">NousResearch/hermes-agent</span>
+    <span class="t-meta">Python · 240.3k ★ · +533 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/superlinked/sie" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">superlinked/sie</span>
+    <span class="t-meta">Python · 3.1k ★ · +60 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/pacifio/atlas" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">pacifio/atlas</span>
+    <span class="t-meta">Rust · 3.0k ★ · +888 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/Imbad0202/academic-research-skills" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">Imbad0202/academic-research-skills</span>
+    <span class="t-meta">Python · 45.7k ★ · +799 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">affaan-m/ECC</span>
+    <span class="t-meta">JavaScript · 246.5k ★ · +516 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/blader/humanizer" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">blader/humanizer</span>
+    <span class="t-meta">Python · 40.7k ★ · +374 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/Gitlawb/openclaude" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">Gitlawb/openclaude</span>
+    <span class="t-meta">TypeScript · 32.1k ★ · +775 today</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+  
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Trending on HF</h1>
+      <div class="t-line"></div>
+      <a href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener" class="t-link">Go to Hugging Face trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://huggingface.co/zai-org/GLM-5.3" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">zai-org/GLM-5.3</span>
+    <span class="t-meta">753B text generation flagship</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/zai-org/GLM-5.3-Flash" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">zai-org/GLM-5.3-Flash</span>
+    <span class="t-meta">321B image-text-to-text multimodal</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Qwen/Qwen3.8-Flash-Next" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Qwen/Qwen3.8-Flash-Next</span>
+    <span class="t-meta">180B image-text-to-text MoE</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Qwen/Qwen3.8-27B</span>
+    <span class="t-meta">28B image-text-to-text</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">deepseek-ai/DeepSeek-V4-Flash-Vision-Exp</span>
+    <span class="t-meta">305B experimental vision variant</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/tencent/Hy4-preview" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">tencent/Hy4-preview</span>
+    <span class="t-meta">780B MoE text generation</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Lightricks/LTX-2.5" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">Lightricks/LTX-2.5</span>
+    <span class="t-meta">Image-to-video generator</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">unsloth/Qwen3.8-Flash-Next-GGUF</span>
+    <span class="t-meta">177B GGUF quantized for local</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/unsloth/Qwen3.8-27B-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">unsloth/Qwen3.8-27B-GGUF</span>
+    <span class="t-meta">27B GGUF quantized for local</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/google/timesfm-3.0-pytorch" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">google/timesfm-3.0-pytorch</span>
+    <span class="t-meta">0.3B time-series forecasting</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+</div>
+
+
+    <section class="section" id="free-models">
+  <div class="section-head">
+    <h2>Free Models</h2>
+    <span class="line"></span>
+    <span class="n">25</span>
+  </div>
+
+  <p class="section-note">Free means $0 per token today, not unlimited or unconditional: both platforms rate-limit free use and require a free API key, some OpenRouter free endpoints may train on your prompts unless you opt out in account settings, and the roster changes daily. Verified against each provider's own pricing data at generation time — but pricing changes without notice, so confirm it's still free on the provider's own page before you rely on it.</p>
+
+  <div class="trending-wrap trending-wrap--in-section">
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenRouter</h1>
+        <div class="t-line"></div>
+        <a href="https://openrouter.ai/models?max_price=0" target="_blank" rel="noopener" class="t-link">Browse free models →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://openrouter.ai/cohere/north-mini-code:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Cohere: North Mini Code (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/dots-studio/dots-3-note-preview:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Dots Studio: Dots3-Note Preview (free)</span>
+    <span class="t-meta">512K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-26b-a4b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Google: Gemma 4 26B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-31b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Google: Gemma 4 31B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.0-flash-fin:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Ling 3.0 Flash Fin (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/liquid/lfm-2.5-2.6b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">LiquidAI: LFM2.5-2.6B (free)</span>
+    <span class="t-meta">65K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/minimax/minimax-m2.7:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">MiniMax: MiniMax M2.7 (free)</span>
+    <span class="t-meta">196K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/minimax/minimax-m3:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">MiniMax: MiniMax M3 (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Nano Omni (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Super (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Ultra (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Content Safety (free)</span>
+    <span class="t-meta">128K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-lightning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#13</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Lightning (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-s-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#14</span>
+    <span class="t-name">Poolside: Laguna S 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-xs-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#15</span>
+    <span class="t-name">Poolside: Laguna XS 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#16</span>
+    <span class="t-name">Thinking Machines: Inkling (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling-small:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#17</span>
+    <span class="t-name">Thinking Machines: Inkling Small (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/z-ai/glm-5.2:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#18</span>
+    <span class="t-name">Z.ai: GLM 5.2 (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenCode Zen</h1>
+        <div class="t-line"></div>
+        <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener" class="t-link">See the full Zen catalog →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Big Pickle</span>
+    <span class="t-meta">big-pickle</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">MiMo-V2.5 Free</span>
+    <span class="t-meta">mimo-v2.5-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Ling 3.0 Flash Fin Free</span>
+    <span class="t-meta">ling-3.0-flash-fin-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Nemotron 3 Ultra Free</span>
+    <span class="t-meta">nemotron-3-ultra-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Nemotron 3.5 Lightning Free</span>
+    <span class="t-meta">nemotron-3.5-lightning-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">Muse Spark 1.3 Contributor Free</span>
+    <span class="t-meta">muse-spark-1.3-contributor-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">Muse Spark 1.2 Contributor Free</span>
+    <span class="t-meta">muse-spark-1.2-contributor-free</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <section class="inbrief">
+  <div class="section-head">
+    <h2>In Brief</h2>
+    <span class="line"></span>
+    <span class="n">09</span>
+  </div>
+  <ul class="qh-list">
+    <li><a href="https://github.com/paperclipai/paperclip/releases" target="_blank" rel="noopener"><span class="qh-title">Paperclip v2026.831.1: open-source AI agent orchestration</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://huggingface.co/blog/ibm-research/real-time-intelligence" target="_blank" rel="noopener"><span class="qh-title">Real-Time Intelligence with IBM Time Series Models on Confluent</span><span class="qh-src">Hugging Face</span></a></li>
+
+    <li><a href="https://huggingface.co/google/timesfm-3.0-pytorch" target="_blank" rel="noopener"><span class="qh-title">TimesFM 3.0: Google time-series foundation model lands on the Hub</span><span class="qh-src">Hugging Face</span></a></li>
+
+    <li><a href="https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/" target="_blank" rel="noopener"><span class="qh-title">Wonderful more than doubles its valuation to $5B in under 6 months</span><span class="qh-src">TechCrunch</span></a></li>
+
+    <li><a href="https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments" target="_blank" rel="noopener"><span class="qh-title">HiddenLayer nabs $100M as enterprises rush to secure their AI deployments</span><span class="qh-src">TechCrunch</span></a></li>
+
+    <li><a href="https://news.crunchbase.com/venture/robotics-ai-startup-lyte-seriesc-raise-maverick/" target="_blank" rel="noopener"><span class="qh-title">Former Apple engineers' robotics startup Lyte raises $165M at $1.6B</span><span class="qh-src">Crunchbase</span></a></li>
+
+    <li><a href="https://www.metropolisweb.it/2026/09/02/ia-universita-federico-ii-via-libera-del-mimit-progetto-quantia/" target="_blank" rel="noopener"><span class="qh-title">MIMIT approves Quantia quantum-AI project at Naples' Federico II University</span><span class="qh-src">Metropolisweb</span></a></li>
+
+    <li><a href="https://arxiv.org/abs/2609.02293" target="_blank" rel="noopener"><span class="qh-title">SEAL reinforces global safety in MoE via shared expert alignment</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://arxiv.org/abs/2609.02468" target="_blank" rel="noopener"><span class="qh-title">DeepAffinity predicts long-term eCommerce preferences with small LMs</span><span class="qh-src">arXiv</span></a></li>
+
+  </ul>
+</section>
+
+
+    <footer class="colophon">
+      <p class="mark">Per aspera ad astra</p>
+      <p class="meta">Compiled by Hermes Agent · 2026-09-03 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
+    </footer>
+
+  </div>
+<div class="mo" id="mo" onclick="cm(event)"><div class="mb"><button class="mc" onclick="cm()">✕</button><h2 class="mh" id="mh"></h2><p class="mm">Source: <span id="ms"></span></p><div class="mbd" id="mbd"></div></div></div>
+<script>function openArt(el){var h=el.getAttribute('data-h'),b=el.getAttribute('data-b'),s=el.getAttribute('data-s'),u=el.getAttribute('data-u');document.getElementById('mh').textContent=h;var sl=document.getElementById('ms');if(u&&u!=='#'&&u!==''){sl.innerHTML='<a href="'+u+'" target="_blank" rel="noopener">'+s+'</a>';}else{sl.textContent=s;}var aiS='*— Written by AI (';var i=b.indexOf(aiS);if(i>=0){var bf=b.substring(0,i);var af=b.substring(i+aiS.length);var mdl=af.split(')')[0];bf=bf.split('\n').join('<br>');bf=bf.replace(/\*([^*]+)\*/g,'<em class="en">$1</em>');var sg='<div class="as"><span class="al">⬥ AI-GENERATED</span><br>Model: '+mdl+'</div>';document.getElementById('mbd').innerHTML=bf+sg;}else{document.getElementById('mbd').innerHTML=b.split('\n').join('<br>');}document.getElementById('mo').classList.add('a');document.body.style.overflow='hidden';}function cm(e){if(e&&e.target!=document.getElementById('mo'))return;document.getElementById('mo').classList.remove('a');document.body.style.overflow='';}document.addEventListener('keydown',function(e){if(e.key==='Escape')cm()});</script></body>
+</html>
