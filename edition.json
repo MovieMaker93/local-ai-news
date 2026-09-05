@@ -7,6 +7,7 @@
     "kicker": "IFA 2026 memory",
     "title": "AMD launches Ryzen AI Max PRO 400 with 192GB unified memory - up to 160GB addressable as VRAM",
     "summary": "At its IFA 2026 opening keynote AMD commercially launched the Ryzen AI Max PRO 400 series, whose single LPDDR5X-8533 pool of up to 192GB (around 273 GB/s) lets the integrated Radeon 8060S iGPU map up to 160GB as VRAM - on paper enough to hold quantized 300B-parameter models on a desk with no discrete GPU and no cloud. Commercial systems from HP and Lenovo are targeted for Q3 2026; the 192GB SKU's tight SK Hynix LPDDR5X supply remains the open question.",
+    "image": "images/lead_2026-09-05.jpg",
     "source": "Tech Times",
     "date": "2026-09-04",
     "url": "https://www.techtimes.com/articles/326623/20260904/ryzen-ai-max-pro-400-192gb-unified-memory-puts-300b-parameter-llms-your-desk-without-cloud.htm",
@@ -37,6 +38,7 @@
         {
           "title": "Why Gated DeltaNet survives 4-bit quantization: NVFP4 W4A4 for the recurrent half of a hybrid 27B LLM",
           "summary": "Quantizes all 496 Gated DeltaNet layers of the hybrid 27B Qwen3.8-27B to NVFP4 W4A4, including the decay and write-strength gates previously kept at 8/16-bit, and matches BF16 within seed noise across perplexity, MMLU-Pro, GSM8K, AIME'25, GPQA-Diamond and RULER to 64K tokens - disproving the community intuition that recurrent-state errors accumulate fatally under low precision.",
+          "image": "images/section_research-papers_2026-09-05.jpg",
           "source": "arXiv",
           "date": "2026-09-03",
           "url": "https://arxiv.org/abs/2609.04098",
@@ -82,7 +84,8 @@
           "url": "https://arxiv.org/abs/2609.04010",
           "scout_source": "research"
         }
-      ]
+      ],
+      "image": "images/section_research-papers_2026-09-05.jpg"
     },
     {
       "title": "Open Weights & Models",
@@ -90,6 +93,7 @@
         {
           "title": "IFM releases K2 Horizon: six fully open models (0.9B-375B) with weights, code and training data",
           "summary": "The Institute of Foundation Models opens everything - weights, code, training data, recipes and evaluations - across a fleet from 0.9B to 375B, with diffusion distillation for roughly 3x faster inference and a Mixture-of-Value-Attention 36B-A4B model that reportedly beats MoE models up to 15x its size; the 36B-A4B GGUF checkpoints landed on the Hub yesterday.",
+          "image": "images/section_open-weights-models_2026-09-05.jpg",
           "source": "IFM",
           "date": "2026-09-04",
           "url": "https://ifm.ai/blog/k2",
@@ -111,7 +115,8 @@
           "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
           "scout_source": "opensource"
         }
-      ]
+      ],
+      "image": "images/section_open-weights-models_2026-09-05.jpg"
     },
     {
       "title": "Tools & Runtimes",
@@ -119,6 +124,7 @@
         {
           "title": "llama.cpp ships v0.4.0, its second semver-stable release",
           "summary": "Adds initial Qwen3.8-Flash-Next and NVIDIA Nemotron-3-Puzzle-75B-A9B support, on-demand lazy tensor reading (--lazy-mode), per-slot server context limits, video-input options, per-layer expert routing/FFN, an n-gram history lookup and quantizer RAM caps / row-slab streaming to cut peak memory during load; the ggml bump to 0.23.0 comes along too.",
+          "image": "images/section_tools-runtimes_2026-09-05.jpg",
           "source": "GitHub",
           "date": "2026-09-04",
           "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.4.0",
@@ -156,7 +162,8 @@
           "url": "https://news.ycombinator.com/item?id=49571566",
           "scout_source": "tools"
         }
-      ]
+      ],
+      "image": "images/section_tools-runtimes_2026-09-05.jpg"
     },
     {
       "title": "Self-Hosted Stack",
@@ -164,6 +171,7 @@
         {
           "title": "NVIDIA launches PAIR beta: a Personal AI Router that pools home PCs for local LLM inference",
           "summary": "A free open-source tool that discovers machines on the home network running Ollama or LM Studio and distributes local AI/agent inference requests across them by real-time device capacity, with mTLS-encrypted traffic between nodes; the beta supports Windows, Linux and macOS (Apple M4 or newer) and is positioned for households with a gaming PC plus a laptop.",
+          "image": "images/section_self-hosted-stack_2026-09-05.jpg",
           "source": "The Verge",
           "date": "2026-09-04",
           "url": "https://theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
@@ -177,7 +185,8 @@
           "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc1",
           "scout_source": "tools"
         }
-      ]
+      ],
+      "image": "images/section_self-hosted-stack_2026-09-05.jpg"
     },
     {
       "title": "Hardware & Edge",
@@ -185,6 +194,7 @@
         {
           "title": "Lenovo ThinkCentre X Ultra: 1.6-liter Ryzen AI Max+ PRO 495 mini PC with 128GB unified memory, clusterable four-deep to 512GB",
           "summary": "At IFA 2026 Lenovo announced a 1.6L box built around AMD's Ryzen AI Max+ PRO 495 (16 Zen 5 cores, Radeon 8060S iGPU, about 55 TOPS NPU) with up to 128GB of unified LPDDR5X, starting at $3,699 and shipping November 2026; up to four units can pool as much as 512GB of coherent memory, DGX-Spark-class capacity at roughly 50% less cost per box.",
+          "image": "images/section_hardware-edge_2026-09-05.jpg",
           "source": "Yahoo Tech",
           "date": "2026-09-04",
           "url": "https://tech.yahoo.com/computing/articles/lenovos-thinkcentre-x-ultra-puts-160000676.html",
@@ -214,7 +224,8 @@
           "url": "https://www.thestar.com.my/news/nation/2026-09-04/ai-must-not-replace-human-critical-thinking-in-universities-says-zambry",
           "scout_source": "hardware"
         }
-      ]
+      ],
+      "image": "images/section_hardware-edge_2026-09-05.jpg"
     }
   ],
   "trending": {
