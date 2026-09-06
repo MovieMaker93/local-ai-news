@@ -1568,6 +1568,174 @@
       "source": "Affaritaliani",
       "date": "2026-09-05",
       "issue": 9
+    },
+    {
+      "text": "Ollama v0.34.0-rc1 serves Ollama-hosted models directly inside ChatGPT Desktop",
+      "source": "GitHub",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "GMKtec EVO-X5 Pro debuts at IFA: 192GB unified-memory mini PC claimed to run 300B-parameter models locally",
+      "source": "TakeToNews",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "Minisforum MS-S1 MAX-P495 and N5 MAX-P495 bring 192GB Gorgon Halo to rackable local-AI boxes",
+      "source": "Nanobyte",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "Jane Street Capital leads $1.5B into Fluidstack at an $18B valuation",
+      "source": "Value Add VC",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "llama.cpp ships daily builds b10817-b10825 with SYCL memtrace, --log-jsonl and embedded UI assets",
+      "source": "GitHub",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "Unfolding the Leech lattice: fused multi-shell decoding and VRAM layouts for 2-bit LLM weights",
+      "source": "arXiv",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "XMerge compresses LLM depth with training-free cross-axis layer merging",
+      "source": "arXiv",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "Compile by Training turns natural-language specs into local neural functions with no API calls",
+      "source": "arXiv",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "HeadWiseKV puts budgeted per-head cache residency into hybrid long-context models",
+      "source": "arXiv",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "GLM-5.3-Flash gets a lossless local tier: Unsloth posts a Q8 GGUF build plus an FP8 variant",
+      "source": "HuggingFace",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "SmolLM3-3B converted to LiteRT-LM blockwise int4: 93 tok/s on an M-series Mac, 22.5 tok/s on iPhone 17 Pro",
+      "source": "HuggingFace",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "Bonsai Image 4B goes ternary and tflite: a 3.97GiB on-device text-to-image pipeline with no Torch, no Diffusers",
+      "source": "HuggingFace",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "Nvidia CFO calls memory pricing 'extreme' and warns it is headed higher into next year",
+      "source": "Yahoo Finance",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "DGX Spark and GB10 desk AI appliances sold out at MSRP, up about 50% since spring",
+      "source": "pi3g.com",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "Apple pitches the M6 Mac mini and M5 Pro as always-on local AI agent boxes - and maps which memory tiers work",
+      "source": "AsiaOne",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "HBM and DRAM shortage data roundup: DDR5 kits at $402, contract prices up nearly 100% QoQ",
+      "source": "IntuitionLabs",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "SGD-KV: summarization-guided KV-cache compression budgets the heads that actually aggregate information",
+      "source": "arXiv",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "Train What You Deploy: closing the MLP reachability gap in low-rank clone distillation",
+      "source": "arXiv",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "UE5M3 FP4 block scaling stabilizes 4-bit pretraining without NVIDIA's NVFP4 recipe overhead",
+      "source": "arXiv",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "Measurement-driven sub-network selection for on-premise retrieval-augmented factory agents",
+      "source": "arXiv",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "Community abliterates Qwen3.8-Flash-Next into a single GGUF - and inherits the Qwen Community 1.0 licence with it",
+      "source": "HuggingFace",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "Show HN: Ramanujan, an open-source multi-model agent for computational-maths research",
+      "source": "GitHub",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "Show HN: Phntm-ONE, a maker-built hardware desk assistant that runs its AI locally",
+      "source": "Hacker News",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "Show HN: MobileCode, an OpenCode fork with built-in iOS and Android previews",
+      "source": "GitHub",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "Home Assistant 2026.9.1 patch fixes receive-backup streaming in self-hosted installs",
+      "source": "Home Assistant",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "Anthropic IPO marketing slips to mid-October, prospectus to late September",
+      "source": "Value Add VC",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "AI labs have committed over $275B to cloud compute in 2026 across five Anthropic contracts",
+      "source": "Value Add VC",
+      "date": "2026-09-06",
+      "issue": 10
+    },
+    {
+      "text": "To The Peak opens its Bolzano startup competition with at least EUR 460K of committed investment",
+      "source": "Il Sole 24 Ore",
+      "date": "2026-09-06",
+      "issue": 10
     }
   ]
 }
