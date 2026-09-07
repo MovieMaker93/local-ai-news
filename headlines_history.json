@@ -1736,6 +1736,204 @@
       "source": "Il Sole 24 Ore",
       "date": "2026-09-06",
       "issue": 10
+    },
+    {
+      "text": "Coop runs coding agents inside disposable VMs so they never touch your host",
+      "source": "GitHub",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "Nvidia confirms a $12.9B purchase of Hugging Face, its largest deal ever",
+      "source": "Broadband Breakfast (AP wire)",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "Qwen3.8-27B confirmed at about 17 GB of VRAM by Unsloth's Daniel Han",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "llama.cpp Metal catches MLX on Apple Silicon, and GGUF regains the Mac default",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "KVMem virtualizes million-token agent contexts on one consumer GPU",
+      "source": "arXiv",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "Quantized models answer the same request differently under default prefix caching",
+      "source": "arXiv",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "BeaconKV steers KV-cache compression with beacon queries",
+      "source": "arXiv",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "Cache-aware joint router adaptation cuts MoE expert-weight transfers",
+      "source": "arXiv",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "Deep Microcompression packs networks for microcontrollers",
+      "source": "arXiv",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "RWKV7-G1j scales the attention-free recurrent line to 13.3B under Apache 2.0",
+      "source": "HuggingFace",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "inclusionAI's LLaDA2.2-mini is a 16B diffusion language model with a fully open recipe",
+      "source": "HuggingFace",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "NVIDIA's NVFP4 build halves Qwen3.8-Flash-Next on Blackwell",
+      "source": "HuggingFace",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "H Company's NeoMME drops the vision tower and OCR for document retrieval",
+      "source": "HuggingFace",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "Engrim keeps episodic memory for coding CLIs in a local SQLite database",
+      "source": "GitHub",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "Chrome-bridge lets an agent drive your real logged-in browser",
+      "source": "GitHub",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "vernLLM replaces the LLM gateway with in-process rate limits",
+      "source": "GitHub",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "legacy2mcp wraps SOAP services as MCP servers for agents",
+      "source": "GitHub",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "Swift Smart Prompter runs a meeting assistant on Apple's on-device stack",
+      "source": "GitHub",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "Which agent harness do you use, and why?",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "'LocalLLaMA 2026': the community confronts agent-driven bot slop",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "n8n 2.37.10 is current stable",
+      "source": "n8n",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "ACE skips MoE experts with no calibration and no retraining",
+      "source": "arXiv",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "Don't Drop Dropout: layer sparsity for cheaper training and faster inference",
+      "source": "arXiv",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "DEX-Comp: two-stage training lets compressed RAG context beat the uncompressed baseline",
+      "source": "arXiv",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "How to speculate about uncertainty in agentic coding: a draft-model gate",
+      "source": "arXiv",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "A survey of diffusion language models for mobile edge agents",
+      "source": "arXiv",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "llama.cpp b10830 adds a --fuse-qkv flag for GGUF conversion",
+      "source": "GitHub",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "Notifyd: a one-binary notification service operated over MCP",
+      "source": "GitHub",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "Toolog records a local audit trail of Claude Code tool calls",
+      "source": "GitHub",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "Yume gives Claude Code a Tauri desktop UI with background agents",
+      "source": "GitHub",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "Tripo AI closes a ~$446M Series B/B+ for 3D-native foundation models",
+      "source": "The Robotics Media",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "Italy's Domyn raise turns out to be about 90% debt, funding its Colosseum supercomputer",
+      "source": "Dealflow IT",
+      "date": "2026-09-07",
+      "issue": 11
+    },
+    {
+      "text": "AIKO, the Turin startup that taught deep-learning algorithms to run in orbit",
+      "source": "La Tech Made in Italy",
+      "date": "2026-09-07",
+      "issue": 11
     }
   ]
 }
