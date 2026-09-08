@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOCAL AI NEWS — open-weight intelligence · September 07, 2026</title>
+  <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
+  <link rel="stylesheet" href="style.css">
+  <style>.wt{display:flex;align-items:center;height:38px;background:var(--ink);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);margin:14px 0 0;overflow:hidden}.wtt{display:flex;align-items:center;white-space:nowrap;padding-left:20px;animation:ws 90s linear infinite}.wtt:hover{animation-play-state:paused}@keyframes ws{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.ti{display:inline-flex;align-items:center;gap:7px;padding:0 22px;cursor:pointer;border-right:1px solid var(--rule);height:38px}.ti:hover{background:rgba(240,162,60,.05)}.tih{font-family:var(--serif);font-size:13px;color:var(--type)}.tis{font-family:var(--sans);font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.mo{display:none;position:fixed;inset:0;background:rgba(10,10,12,.88);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(8px)}.mo.a{display:flex}.mb{background:#121214;border:1px solid var(--rule-strong);max-width:680px;width:90%;max-height:82vh;overflow-y:auto;padding:40px 44px;position:relative;animation:fi .2s ease}@keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.mc{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:var(--sans);padding:4px 8px}.mh{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;letter-spacing:-.01em;color:var(--type);margin:0 0 14px;padding-right:32px}.mm{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}.mm a{color:var(--lux)}.mm a:hover{text-decoration:underline}.mbd{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--type-dim)}.mbd .en{display:block;color:var(--lux-soft);font-style:italic;font-size:15px;margin-top:14px;padding-left:12px;border-left:2px solid var(--rule-strong)}.mbd .as{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.5}.mbd .as .al{color:var(--lux-soft);font-weight:600;font-family:var(--sans);font-size:10px;letter-spacing:.06em;text-transform:uppercase}</style></head>
+  <body>
+  <div class="container">
+
+  <header class="masthead">
+    <div class="topline"></div>
+    <div class="ears">
+      <span class="left">Est. MMXXVI</span>
+      <span class="right">No. 11 <a href="/archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+    </div>
+    <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
+      <hr class="rule-double">
+      <div class="dateline">
+        <span>September 07, 2026</span>
+        <span class="dot">◆</span>
+        <span class="tag">open weights, on your metal</span>
+        <span class="dot">◆</span>
+        <span>77 stories</span>
+      </div>
+      <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
+      <hr class="rule-thin">
+    </header>
+
+    
+
+    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="Fairphone 6 Plus arrives in the US as a midrange Android you can repair yourself" data-b="Fairphone&#x27;s sustainability-first handset has finally arrived in the United States, and according to a review published on The Verge, the Fairphone 6 Plus no longer asks buyers to suffer through weak performance in exchange for an ethical supply chain. The reviewer describes it as feeling like an ordinary mid-tier Android device, which the review frames as the main improvement.
+
+The 6 Plus is described as a light update to last year&#x27;s Fairphone 6, adding a newer midrange Snapdragon chipset and a new color that the company calls cobalt. Replacement parts sold by Fairphone are interchangeable between the two models. The review compares its speed to a typical mid-tier Razr or A-series Pixel and praises a close-to-stock Android build with no bloatware or built-in AI features.
+
+Pricing is called the top of the midrange bracket. The reviewer argues the sticker price is softened by 12GB of RAM, a five-year warranty and up to six OS upgrades, plus twelve user-replaceable components including the battery, screen, USB-C port and all three cameras. A $39.99 battery and an $89.99 display are contrasted with much higher third-party repair costs. The phone is sold directly in the US with support for T-Mobile and AT&amp;T, while Verizon use worked but is uncertified. Reported tradeoffs are an IP55 rating and merely adequate battery life, both cushioned by cheap self-repair.
+
+*The most interesting thing here isn&#x27;t the phone but the arithmetic — once a fresh battery costs $39.99 instead of a service appointment, &quot;repairable&quot; stops being a slogan and becomes a budget line.*
+
+*— Written by AI (qwen-mia)*" data-s="theverge.com" data-u="https://www.theverge.com/tech/990436/fairphone-6-plus-review"><span class="tih">Fairphone 6 Plus arrives in the US as a midrange Android you can repair yourself</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="ICE Subpoena Turns REI Beanie Buyers Into a Person of Interest in Minnesota Protest Case" data-b="Federal investigators investigating a Minnesota immigration-enforcement protest also asked the outdoor retailer REI to hand over the purchase records of every customer in the greater Minneapolis–St. Paul area who bought one particular style of dark green knit cap since 2024, according to court filings described by wired.com. The request went out in March from agents of Homeland Security Investigations, part of a sweeping effort that reportedly produced 92 separate subpoenas. REI neither confirmed nor denied cooperating, and DHS declined to comment.
+
+The filings surfaced in the government&#x27;s lawsuit against 39 defendants connected to a demonstration at a church whose pastor was simultaneously serving as an acting ICE field office director; journalists covering the event, including former CNN host Don Lemon, are among those named. Other subpoena recipients include social media platforms, airlines, telecom providers, a car rental firm, and a state employment agency. One airline was asked not just for past flight records but to alert investigators to a defendant&#x27;s future travel.
+
+The paper trail also shows uneven corporate responses: T-Mobile reportedly produced six months of a journalist&#x27;s call and text logs, Google balked at a request about a YouTube channel&#x27;s viewers and subscribers, Reddit said it got 11 subpoenas withdrawn after First Amendment objections, and Meta resisted at least one. Oregon senator Ron Wyden called the REI demand a never-ending fishing expedition.
+
+*When a retailer&#x27;s hat receipts and a telecom&#x27;s text logs become investigative leads, the line between targeting protesters and surveilling customers all but disappears.*
+*— Written by AI (qwen-mia)*" data-s="wired.com" data-u="https://www.wired.com/story/ice-wants-to-know-who-bought-a-certain-green-beanie-from-rei-in-the-last-2-years/"><span class="tih">ICE Subpoena Turns REI Beanie Buyers Into a Person of Interest in Minnesota Protest Case</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia&#x27;s RTX Spark Silicon Reaches Shelves in First AI Laptops and Desktops" data-b="Nvidia&#x27;s RTX Spark superchip is moving from stage reveal to real hardware. Reporting from the IFA 2026 show in Berlin, Wired described a first hands-on look at a laptop built around the chip, along with fresh announcements for Spark-powered mini desktops, and framed both as responses to growing appetite for running agentic AI workloads such as OpenClaw directly on a machine.
+
+The review unit was Lenovo&#x27;s 16-inch Yoga 9n 2-in-1, which Wired called strikingly premium and aimed at the MacBook Pro. It pairs a 360-degree hinge with an OLED touch panel at 2880 x 1800 and 120 Hz, a six-speaker array and a 9.2-megapixel webcam, and measures 0.69 inches thick, just behind the 16-inch MacBook Pro by 0.03 inches. That thinness comes from an Arm-based system-on-a-chip that fuses a Grace CPU of up to 20 cores with a Blackwell RTX GPU of up to 6,144 cores, a packaging choice Wired likened more to Apple silicon than to ordinary Windows laptops. Judged by core count alone, the outlet placed its graphics muscle between laptop RTX 5070 Ti and 5080 parts. The 2-in-1 caps at 64 GB of memory, while the slimmer 0.66-inch, 15-inch Yoga Pro 9n, which adds a stylus-ready Force Pad touchpad, reaches 128 GB.
+
+Further Spark laptops are expected this fall from Dell, Asus, Microsoft and HP, and Acer and Asus each showed Mac Mini-sized desktop boxes with up to 128 GB of memory, according to Wired. Lenovo&#x27;s AMD-driven ThinkCentre X Ultra, priced from $3,699 at the entry level, suggests these systems will not come cheap.
+
+*The interesting story here is less the silicon than the memory ceiling: a &quot;local AI PC&quot; capped at 64 GB still leaves serious agentic workloads priced out of reach for most buyers.*
+
+*— Written by AI (qwen-mia)*" data-s="wired.com" data-u="https://www.wired.com/story/nvidia-rtx-spark-laptops-first-look/"><span class="tih">Nvidia&#x27;s RTX Spark Silicon Reaches Shelves in First AI Laptops and Desktops</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia Buys Hugging Face for Nearly $13 Billion in Open-Source Bet" data-b="Nvidia said Thursday it has agreed to acquire Hugging Face, the company behind online developer tools and a sprawling library of open-source datasets, for nearly $13 billion, according to Wired. The purchase was rumored for weeks before the two companies made it official, the article notes, with Business Insider earlier reporting talks and The Information later reporting a reached deal.
+
+Wired reports the agreement signals Nvidia&#x27;s intent to be embedded in generative AI software, not just infrastructure, and that Nvidia pledged to maintain Hugging Face&#x27;s current open standards. It already offers free, customizable open-weight models called Nemotron. According to Wired, Nvidia has leaned into that argument: earlier this month it gathered more than 80 companies to sign a letter urging the US government to defend open-weight AI, and launched SAFE, an initiative asking firms to confidentially collect and analyze AI incidents and near misses, then publish evidence-based recommendations.
+
+&quot;Open models let startups, businesses, universities and public institutions build on advanced capabilities without training every model from scratch,&quot; Nvidia chief executive Jensen Huang said, adding that AI advances faster when people build together.
+
+Wired traces Hugging Face to three French founders in New York City, whose AI companion app flopped before they built natural language processing tools and, eventually, a hub for sharing code, datasets and large models. PitchBook data cited by Wired shows roughly $400 million raised as of December 2025, and the platform was recently hacked by OpenAI agents.
+
+*Wired&#x27;s telling suggests Nvidia is buying not a struggling startup but the front door to open-weight AI development, at a moment when the open-versus-closed split has become a policy fight.*
+
+*— Written by AI (qwen-mia)*" data-s="wired.com" data-u="https://www.wired.com/story/nvidias-hugging-face-acquisition-is-a-dollar129-billion-bet-on-open-source-ai/"><span class="tih">Nvidia Buys Hugging Face for Nearly $13 Billion in Open-Source Bet</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Fairphone 6 Plus arrives in the US as a midrange Android you can repair yourself" data-b="Fairphone&#x27;s sustainability-first handset has finally arrived in the United States, and according to a review published on The Verge, the Fairphone 6 Plus no longer asks buyers to suffer through weak performance in exchange for an ethical supply chain. The reviewer describes it as feeling like an ordinary mid-tier Android device, which the review frames as the main improvement.
+
+The 6 Plus is described as a light update to last year&#x27;s Fairphone 6, adding a newer midrange Snapdragon chipset and a new color that the company calls cobalt. Replacement parts sold by Fairphone are interchangeable between the two models. The review compares its speed to a typical mid-tier Razr or A-series Pixel and praises a close-to-stock Android build with no bloatware or built-in AI features.
+
+Pricing is called the top of the midrange bracket. The reviewer argues the sticker price is softened by 12GB of RAM, a five-year warranty and up to six OS upgrades, plus twelve user-replaceable components including the battery, screen, USB-C port and all three cameras. A $39.99 battery and an $89.99 display are contrasted with much higher third-party repair costs. The phone is sold directly in the US with support for T-Mobile and AT&amp;T, while Verizon use worked but is uncertified. Reported tradeoffs are an IP55 rating and merely adequate battery life, both cushioned by cheap self-repair.
+
+*The most interesting thing here isn&#x27;t the phone but the arithmetic — once a fresh battery costs $39.99 instead of a service appointment, &quot;repairable&quot; stops being a slogan and becomes a budget line.*
+
+*— Written by AI (qwen-mia)*" data-s="theverge.com" data-u="https://www.theverge.com/tech/990436/fairphone-6-plus-review"><span class="tih">Fairphone 6 Plus arrives in the US as a midrange Android you can repair yourself</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="ICE Subpoena Turns REI Beanie Buyers Into a Person of Interest in Minnesota Protest Case" data-b="Federal investigators investigating a Minnesota immigration-enforcement protest also asked the outdoor retailer REI to hand over the purchase records of every customer in the greater Minneapolis–St. Paul area who bought one particular style of dark green knit cap since 2024, according to court filings described by wired.com. The request went out in March from agents of Homeland Security Investigations, part of a sweeping effort that reportedly produced 92 separate subpoenas. REI neither confirmed nor denied cooperating, and DHS declined to comment.
+
+The filings surfaced in the government&#x27;s lawsuit against 39 defendants connected to a demonstration at a church whose pastor was simultaneously serving as an acting ICE field office director; journalists covering the event, including former CNN host Don Lemon, are among those named. Other subpoena recipients include social media platforms, airlines, telecom providers, a car rental firm, and a state employment agency. One airline was asked not just for past flight records but to alert investigators to a defendant&#x27;s future travel.
+
+The paper trail also shows uneven corporate responses: T-Mobile reportedly produced six months of a journalist&#x27;s call and text logs, Google balked at a request about a YouTube channel&#x27;s viewers and subscribers, Reddit said it got 11 subpoenas withdrawn after First Amendment objections, and Meta resisted at least one. Oregon senator Ron Wyden called the REI demand a never-ending fishing expedition.
+
+*When a retailer&#x27;s hat receipts and a telecom&#x27;s text logs become investigative leads, the line between targeting protesters and surveilling customers all but disappears.*
+*— Written by AI (qwen-mia)*" data-s="wired.com" data-u="https://www.wired.com/story/ice-wants-to-know-who-bought-a-certain-green-beanie-from-rei-in-the-last-2-years/"><span class="tih">ICE Subpoena Turns REI Beanie Buyers Into a Person of Interest in Minnesota Protest Case</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia&#x27;s RTX Spark Silicon Reaches Shelves in First AI Laptops and Desktops" data-b="Nvidia&#x27;s RTX Spark superchip is moving from stage reveal to real hardware. Reporting from the IFA 2026 show in Berlin, Wired described a first hands-on look at a laptop built around the chip, along with fresh announcements for Spark-powered mini desktops, and framed both as responses to growing appetite for running agentic AI workloads such as OpenClaw directly on a machine.
+
+The review unit was Lenovo&#x27;s 16-inch Yoga 9n 2-in-1, which Wired called strikingly premium and aimed at the MacBook Pro. It pairs a 360-degree hinge with an OLED touch panel at 2880 x 1800 and 120 Hz, a six-speaker array and a 9.2-megapixel webcam, and measures 0.69 inches thick, just behind the 16-inch MacBook Pro by 0.03 inches. That thinness comes from an Arm-based system-on-a-chip that fuses a Grace CPU of up to 20 cores with a Blackwell RTX GPU of up to 6,144 cores, a packaging choice Wired likened more to Apple silicon than to ordinary Windows laptops. Judged by core count alone, the outlet placed its graphics muscle between laptop RTX 5070 Ti and 5080 parts. The 2-in-1 caps at 64 GB of memory, while the slimmer 0.66-inch, 15-inch Yoga Pro 9n, which adds a stylus-ready Force Pad touchpad, reaches 128 GB.
+
+Further Spark laptops are expected this fall from Dell, Asus, Microsoft and HP, and Acer and Asus each showed Mac Mini-sized desktop boxes with up to 128 GB of memory, according to Wired. Lenovo&#x27;s AMD-driven ThinkCentre X Ultra, priced from $3,699 at the entry level, suggests these systems will not come cheap.
+
+*The interesting story here is less the silicon than the memory ceiling: a &quot;local AI PC&quot; capped at 64 GB still leaves serious agentic workloads priced out of reach for most buyers.*
+
+*— Written by AI (qwen-mia)*" data-s="wired.com" data-u="https://www.wired.com/story/nvidia-rtx-spark-laptops-first-look/"><span class="tih">Nvidia&#x27;s RTX Spark Silicon Reaches Shelves in First AI Laptops and Desktops</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia Buys Hugging Face for Nearly $13 Billion in Open-Source Bet" data-b="Nvidia said Thursday it has agreed to acquire Hugging Face, the company behind online developer tools and a sprawling library of open-source datasets, for nearly $13 billion, according to Wired. The purchase was rumored for weeks before the two companies made it official, the article notes, with Business Insider earlier reporting talks and The Information later reporting a reached deal.
+
+Wired reports the agreement signals Nvidia&#x27;s intent to be embedded in generative AI software, not just infrastructure, and that Nvidia pledged to maintain Hugging Face&#x27;s current open standards. It already offers free, customizable open-weight models called Nemotron. According to Wired, Nvidia has leaned into that argument: earlier this month it gathered more than 80 companies to sign a letter urging the US government to defend open-weight AI, and launched SAFE, an initiative asking firms to confidentially collect and analyze AI incidents and near misses, then publish evidence-based recommendations.
+
+&quot;Open models let startups, businesses, universities and public institutions build on advanced capabilities without training every model from scratch,&quot; Nvidia chief executive Jensen Huang said, adding that AI advances faster when people build together.
+
+Wired traces Hugging Face to three French founders in New York City, whose AI companion app flopped before they built natural language processing tools and, eventually, a hub for sharing code, datasets and large models. PitchBook data cited by Wired shows roughly $400 million raised as of December 2025, and the platform was recently hacked by OpenAI agents.
+
+*Wired&#x27;s telling suggests Nvidia is buying not a struggling startup but the front door to open-weight AI development, at a moment when the open-versus-closed split has become a policy fight.*
+
+*— Written by AI (qwen-mia)*" data-s="wired.com" data-u="https://www.wired.com/story/nvidias-hugging-face-acquisition-is-a-dollar129-billion-bet-on-open-source-ai/"><span class="tih">Nvidia Buys Hugging Face for Nearly $13 Billion in Open-Source Bet</span> <span class="tis">— wired.com</span></div></div></div>
+<div class="lead-zone">
+      <article class="lead">
+  <a href="https://github.com/trailofbits/coop" target="_blank" rel="noopener">
+    <img src="images/lead_2026-09-07.jpg" alt="" class="lead-image">
+    <div class="lead-grid">
+      <div class="lead-head">
+        <p class="kicker">Isolated agent VMs</p>
+        <h1>Coop runs coding agents inside disposable VMs so they never touch your host</h1>
+      </div>
+      <div class="lead-body">
+        <p class="deck">Trail of Bits released Coop, a Rust tool that runs Claude Code, Codex and similar coding agents inside disposable, isolated VM environments on your own hardware, so agent file and shell actions never execute directly on the machine that launched them. The pitch lands as local stacks hand agents ever more autonomy over real repos, and the project hit Hacker News on September 7 with getting-started docs in the repo.</p>
+        <p class="byline"><span class="src">GitHub</span> · <span>2026-09-07</span> · <span class="more">Read the dispatch →</span></p>
+      </div>
+    </div>
+  </a>
+</article>
+
+    </div>
+
+    <div class="topstories">
+<article class="story">
+  <a href="https://broadbandbreakfast.com/nvidia-confirms-it-will-spend-13-billion-on-hugging-face-ai-software-platform" target="_blank" rel="noopener">
+    <h3>Nvidia confirms a $12.9B purchase of Hugging Face, its largest deal ever</h3>
+    <p>The chipmaker is buying the open-weights hub for about $12.9B in cash and stock — roughly $11.9B to shareholders plus $1B in retention equity — announced September 3 and re-reported by the AP wire on September 6. Hugging Face hosts 3M+ models and 500K datasets used by more than 18M developers, and it is the distribution channel for most of the quants this readership runs.</p>
+    <p class="byline"><span class="src">Broadband Breakfast (AP wire)</span> · 2026-09-06</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://www.reddit.com/r/LocalLLaMA/top?t=week" target="_blank" rel="noopener">
+    <h3>Qwen3.8-27B confirmed at about 17 GB of VRAM by Unsloth's Daniel Han</h3>
+    <p>The community's favourite daily-driver model fits and runs in roughly 17 GB of VRAM quantized, putting it within reach of 16 GB-class consumer GPUs.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-09-06</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://reddit.com/r/LocalLLaMA/comments/1w5kau3/mac_heads_is_there_any_point_to_mlx_in_september" target="_blank" rel="noopener">
+    <h3>llama.cpp Metal catches MLX on Apple Silicon, and GGUF regains the Mac default</h3>
+    <p>With the Metal backend's M5 matmul support, Unsloth Q_8 GGUF prefill lands at roughly 300-350 t/s — at or above MLX — so Mac users are standardizing on GGUF again; the cited MLX gaps are weaker vision support and KV-cache breaks when media enters the stream.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-09-06</p>
+  </a>
+</article>
+
+</div>
+
+
+    <div class="sections">
+      <section class="section">
+  <div class="section-head">
+    <h2>Research &amp; Papers</h2>
+    <span class="line"></span>
+    <span class="n">05</span>
+  </div>
+  <a href="https://arxiv.org/abs/2609.04852" target="_blank" rel="noopener" class="section-hero"><img src="images/section_research_papers_2026-09-07.jpg" alt="" class="section-hero-img"><h4 class="hero-title">KVMem virtualizes million-token agent contexts on one consumer GPU</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.04852" target="_blank" rel="noopener">
+    <h4>KVMem virtualizes million-token agent contexts on one consumer GPU</h4>
+    <p>A KV-context virtualization system pages overflowed agent history across GPU memory, host RAM and NVMe, selecting relevant blocks with lightweight model-native attention-space indexes instead of summarizing or re-prefilling; on histories up to a million tokens it generally beats summarization and retrieval baselines.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-04</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.04748" target="_blank" rel="noopener">
+    <h4>Quantized models answer the same request differently under default prefix caching</h4>
+    <p>With model, decoding parameters, seed and request order fixed, output divergence rises sharply with weight quantization once prefix caching is on — enabled by default in major open-source serving stacks. A direct caution for anyone running quantized models locally.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-04</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.04971" target="_blank" rel="noopener">
+    <h4>BeaconKV steers KV-cache compression with beacon queries</h4>
+    <p>Explicit beacon queries predict future-token importance better than recent-query scores, targeting the KV growth of long chain-of-thought reasoning that exceeds GPU capacity.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-04</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.04895" target="_blank" rel="noopener">
+    <h4>Cache-aware joint router adaptation cuts MoE expert-weight transfers</h4>
+    <p>Treats expert caching for models whose experts exceed GPU memory as a training-time problem, jointly adapting the backbone and lightweight cache routers while keeping native top-K routing — better hit rates on Qwen3 and GPT-OSS.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-04</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.05081" target="_blank" rel="noopener">
+    <h4>Deep Microcompression packs networks for microcontrollers</h4>
+    <p>Structured pruning plus bit-packed quantization reaches a 55.8x weight compression ratio on LeNet-5 at 98.77% accuracy, emitting a dependency-free C library and the first documented CNN deployment on a 2KB-SRAM ATmega328P.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-04</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Open Weights &amp; Models</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  <a href="https://huggingface.co/RWKV/RWKV7-G1j-13.3B-20260831" target="_blank" rel="noopener" class="section-hero"><img src="images/section_open_weights_models_2026-09-07.jpg" alt="" class="section-hero-img"><h4 class="hero-title">RWKV7-G1j scales the attention-free recurrent line to 13.3B under Apache 2.0</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://huggingface.co/RWKV/RWKV7-G1j-13.3B-20260831" target="_blank" rel="noopener">
+    <h4>RWKV7-G1j scales the attention-free recurrent line to 13.3B under Apache 2.0</h4>
+    <p>Four checkpoints (13.3B, 7.2B, 2.9B, 1.5B) refreshed September 4; because the recurrent state does not grow with context, it is a low-memory bet for long-document and streaming workloads.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-04</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/inclusionAI/LLaDA2.2-mini" target="_blank" rel="noopener">
+    <h4>inclusionAI's LLaDA2.2-mini is a 16B diffusion language model with a fully open recipe</h4>
+    <p>Published September 5 under Apache 2.0: a diffusion transformer paired with a frozen vision-language model, generating tokens in parallel blocks instead of left-to-right — with the open question of whether the throughput win survives on llama.cpp today.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-05</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4" target="_blank" rel="noopener">
+    <h4>NVIDIA's NVFP4 build halves Qwen3.8-Flash-Next on Blackwell</h4>
+    <p>The official Model Optimizer quantization of the 120B-total qwen4exp MoE cuts weights and activations to 4-bit — roughly half the memory of the shipped FP8 — at the cost of a Blackwell-only vLLM path.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-05</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/blog/hcompany/neomme" target="_blank" rel="noopener">
+    <h4>H Company's NeoMME drops the vision tower and OCR for document retrieval</h4>
+    <p>260M and 800M multilingual encoders trained from scratch on raw text and image patches with a masked discrete-diffusion objective; the retriever ranks page screenshots directly, preserving layout and typography, and is small enough to fine-tune locally.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-03</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Tools &amp; Runtimes</h2>
+    <span class="line"></span>
+    <span class="n">05</span>
+  </div>
+  <a href="https://github.com/timgordontg/engrim" target="_blank" rel="noopener" class="section-hero"><img src="images/section_tools_runtimes_2026-09-07.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Engrim keeps episodic memory for coding CLIs in a local SQLite database</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://github.com/timgordontg/engrim" target="_blank" rel="noopener">
+    <h4>Engrim keeps episodic memory for coding CLIs in a local SQLite database</h4>
+    <p>A cross-model, project-scoped memory standard that stores agent context in local SQLite and serves it to coding agents such as Antigravity, Claude Code, Cursor and Windsurf with no cloud dependency.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-07</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/siropkin/chrome-bridge" target="_blank" rel="noopener">
+    <h4>Chrome-bridge lets an agent drive your real logged-in browser</h4>
+    <p>An open-source bridge that operates the user's actual Chrome profile rather than a throwaway headless instance, reusing existing sessions for agent browsing tasks.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-06</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/LakBud/vernLLM" target="_blank" rel="noopener">
+    <h4>vernLLM replaces the LLM gateway with in-process rate limits</h4>
+    <p>Moves rate limiting, fallback and routing logic into the process itself, removing the separate gateway service normally run in front of model endpoints.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-06</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/bvenkata/legacy2mcp" target="_blank" rel="noopener">
+    <h4>legacy2mcp wraps SOAP services as MCP servers for agents</h4>
+    <p>Converts legacy SOAP web services into MCP servers, letting AI agents call old enterprise backends through the Model Context Protocol.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-07</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/rcarmo/swift-smart-prompter" target="_blank" rel="noopener">
+    <h4>Swift Smart Prompter runs a meeting assistant on Apple's on-device stack</h4>
+    <p>Transcription and meeting summaries stay local by building on Apple's on-device Intelligence instead of shipping audio to a cloud service.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-06</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Self-Hosted Stack</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1w8f7bp/which_agent_harness_do_you_use_and_why/" target="_blank" rel="noopener" class="section-hero"><img src="images/section_self_hosted_stack_2026-09-07.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Which agent harness do you use, and why?</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1w8f7bp/which_agent_harness_do_you_use_and_why/" target="_blank" rel="noopener">
+    <h4>Which agent harness do you use, and why?</h4>
+    <p>An r/LocalLLaMA comparison of opencode-style CLIs, Claude Code with local backends and Open WebUI's automation tools centers on tool-calling robustness — with the practical takeaway that harness choice, not model choice, is the dominant failure mode.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-09-05</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1s6r5gn/localllama_2026/" target="_blank" rel="noopener">
+    <h4>'LocalLLaMA 2026': the community confronts agent-driven bot slop</h4>
+    <p>A high-engagement meta thread (top comments at 573 and 221 points) says the subreddit is being overrun by LLM-generated posts, part of it blamed on agent-runner clones that attach a browser to a model and sidestep anti-bot protections; the ask is harsher enforcement.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-09-06</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/n8n-io/n8n/releases" target="_blank" rel="noopener">
+    <h4>n8n 2.37.10 is current stable</h4>
+    <p>2.37.9 restored mutating array methods on $json in expressions after a regression; 2.37.10 (September 4) bundles agent, AI-builder and credential-handling fixes with no new AI-node features.</p>
+    <p class="byline"><span class="src">n8n</span> · 2026-09-06</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+    </div>
+
+    <div class="trending-wrap">
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Repos on GitHub</h1>
+      <div class="t-line"></div>
+      <a href="https://github.com/trending" target="_blank" rel="noopener" class="t-link">Go to GitHub trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">affaan-m/ECC</span>
+    <span class="t-meta">JavaScript · 251.7k ★ · +1485 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/mattpocock/skills" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">mattpocock/skills</span>
+    <span class="t-meta">Shell · 255.0k ★ · +2207 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/NousResearch/hermes-agent" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">NousResearch/hermes-agent</span>
+    <span class="t-meta">Python · 242.7k ★ · +520 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/anomalyco/opencode" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">anomalyco/opencode</span>
+    <span class="t-meta">TypeScript · 205.4k ★ · +551 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/blader/humanizer" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">blader/humanizer</span>
+    <span class="t-meta">Python · 44.5k ★ · +748 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/DietrichGebert/ponytail" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">DietrichGebert/ponytail</span>
+    <span class="t-meta">JavaScript · 129.7k ★ · +1539 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/ruvnet/ruflo" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">ruvnet/ruflo</span>
+    <span class="t-meta">TypeScript · 71.1k ★ · +276 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/magnitudedev/magnitude" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">magnitudedev/magnitude</span>
+    <span class="t-meta">TypeScript · 3.8k ★ · +604 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/aipoch/open-science" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">aipoch/open-science</span>
+    <span class="t-meta">TypeScript · 3.9k ★ · +146 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/OpenWhispr/openwhispr" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">OpenWhispr/openwhispr</span>
+    <span class="t-meta">JavaScript · 7.5k ★ · +121 today</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+  
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Trending on HF</h1>
+      <div class="t-line"></div>
+      <a href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener" class="t-link">Go to Hugging Face trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">deepseek-ai/DeepSeek-V4-Flash-Vision-Exp</span>
+    <span class="t-meta">305B MoE, experimental vision-language extension of V4 Flash</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Qwen/Qwen3.8-27B</span>
+    <span class="t-meta">28B dense vision-language model, Apache 2.0, 6.19M downloads</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/XHToken/Spark-X2.5-4B" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">XHToken/Spark-X2.5-4B</span>
+    <span class="t-meta">4B text generation model, Apache 2.0, 625 likes</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/google/timesfm-3.0-pytorch" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">google/timesfm-3.0-pytorch</span>
+    <span class="t-meta">331M time-series forecasting foundation model, 144k downloads</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Qwen/Qwen3.8-Flash-Next" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Qwen/Qwen3.8-Flash-Next</span>
+    <span class="t-meta">180B MoE, 6B active, qwen4exp architecture preview</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF</span>
+    <span class="t-meta">27B community GGUF quant, 348k downloads</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Lightricks/LTX-2.5" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">Lightricks/LTX-2.5</span>
+    <span class="t-meta">Image-to-video diffusion model, 1.53M downloads</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/zai-org/GLM-5.3-Flash" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">zai-org/GLM-5.3-Flash</span>
+    <span class="t-meta">321B MoE vision-language, hybrid sparse attention, 761k downloads</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/unsloth/Qwen3.8-27B-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">unsloth/Qwen3.8-27B-GGUF</span>
+    <span class="t-meta">27B GGUF quant of Qwen3.8, 10.3M downloads</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/zai-org/GLM-5.3" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">zai-org/GLM-5.3</span>
+    <span class="t-meta">753B MoE text model, ~40B active, 410k downloads</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+</div>
+
+
+    <section class="section" id="free-models">
+  <div class="section-head">
+    <h2>Free Models</h2>
+    <span class="line"></span>
+    <span class="n">24</span>
+  </div>
+
+  <p class="section-note">Free means $0 per token today, not unlimited or unconditional: both platforms rate-limit free use and require a free API key, some OpenRouter free endpoints may train on your prompts unless you opt out in account settings, and the roster changes daily. Verified against each provider's own pricing data at generation time — but pricing changes without notice, so confirm it's still free on the provider's own page before you rely on it.</p>
+
+  <div class="trending-wrap trending-wrap--in-section">
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenRouter</h1>
+        <div class="t-line"></div>
+        <a href="https://openrouter.ai/models?max_price=0" target="_blank" rel="noopener" class="t-link">Browse free models →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://openrouter.ai/cohere/north-mini-code:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Cohere: North Mini Code (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/dots-studio/dots-3-note-preview:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Dots Studio: Dots3-Note Preview (free)</span>
+    <span class="t-meta">512K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-26b-a4b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Google: Gemma 4 26B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-31b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Google: Gemma 4 31B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.0-flash-fin:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">inclusionAI: Ling 3.0 Flash Fin (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.0-flash-sante:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">inclusionAI: Ling 3.0 Flash Sante (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/liquid/lfm-2.5-2.6b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">LiquidAI: LFM2.5-2.6B (free)</span>
+    <span class="t-meta">65K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/minimax/minimax-m2.7:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">MiniMax: MiniMax M2.7 (free)</span>
+    <span class="t-meta">196K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/minimax/minimax-m3:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">MiniMax: MiniMax M3 (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Nano Omni (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Super (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Ultra (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#13</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Content Safety (free)</span>
+    <span class="t-meta">128K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-lightning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#14</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Lightning (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-s-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#15</span>
+    <span class="t-name">Poolside: Laguna S 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-xs-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#16</span>
+    <span class="t-name">Poolside: Laguna XS 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#17</span>
+    <span class="t-name">Thinking Machines: Inkling (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling-small:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#18</span>
+    <span class="t-name">Thinking Machines: Inkling Small (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenCode Zen</h1>
+        <div class="t-line"></div>
+        <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener" class="t-link">See the full Zen catalog →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Big Pickle</span>
+    <span class="t-meta">big-pickle</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">MiMo-V2.5 Free</span>
+    <span class="t-meta">mimo-v2.5-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Ling 3.0 Flash Fin Free</span>
+    <span class="t-meta">ling-3.0-flash-fin-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Nemotron 3 Ultra Free</span>
+    <span class="t-meta">nemotron-3-ultra-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Nemotron 3.5 Lightning Free</span>
+    <span class="t-meta">nemotron-3.5-lightning-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">Muse Spark 1.3 Contributor Free</span>
+    <span class="t-meta">muse-spark-1.3-contributor-free</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <section class="inbrief">
+  <div class="section-head">
+    <h2>In Brief</h2>
+    <span class="line"></span>
+    <span class="n">12</span>
+  </div>
+  <ul class="qh-list">
+    <li><a href="https://arxiv.org/abs/2609.05228" target="_blank" rel="noopener"><span class="qh-title">ACE skips MoE experts with no calibration and no retraining</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://arxiv.org/abs/2609.05275" target="_blank" rel="noopener"><span class="qh-title">Don't Drop Dropout: layer sparsity for cheaper training and faster inference</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://arxiv.org/abs/2609.05152" target="_blank" rel="noopener"><span class="qh-title">DEX-Comp: two-stage training lets compressed RAG context beat the uncompressed baseline</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://arxiv.org/abs/2609.05274" target="_blank" rel="noopener"><span class="qh-title">How to speculate about uncertainty in agentic coding: a draft-model gate</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://arxiv.org/abs/2609.04778" target="_blank" rel="noopener"><span class="qh-title">A survey of diffusion language models for mobile edge agents</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://github.com/ggml-org/llama.cpp/releases/tag/b10830" target="_blank" rel="noopener"><span class="qh-title">llama.cpp b10830 adds a --fuse-qkv flag for GGUF conversion</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://github.com/rmzlb/notifyd" target="_blank" rel="noopener"><span class="qh-title">Notifyd: a one-binary notification service operated over MCP</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://github.com/zaghaghi/toolog" target="_blank" rel="noopener"><span class="qh-title">Toolog records a local audit trail of Claude Code tool calls</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://github.com/aofp/yume" target="_blank" rel="noopener"><span class="qh-title">Yume gives Claude Code a Tauri desktop UI with background agents</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://theroboticsmedia.com/article/tripo-ai-446m-series-b-mpci-3d-foundation-model-quad-topology-september-1-2026" target="_blank" rel="noopener"><span class="qh-title">Tripo AI closes a ~$446M Series B/B+ for 3D-native foundation models</span><span class="qh-src">The Robotics Media</span></a></li>
+
+    <li><a href="https://dealflowit.niccolosanarico.com/p/twis-308" target="_blank" rel="noopener"><span class="qh-title">Italy's Domyn raise turns out to be about 90% debt, funding its Colosseum supercomputer</span><span class="qh-src">Dealflow IT</span></a></li>
+
+    <li><a href="https://www.latechmadeinitaly.com/una-tech-made-in-italy-che-insegna-ai-satelliti-a-pensare/" target="_blank" rel="noopener"><span class="qh-title">AIKO, the Turin startup that taught deep-learning algorithms to run in orbit</span><span class="qh-src">La Tech Made in Italy</span></a></li>
+
+  </ul>
+</section>
+
+
+    <footer class="colophon">
+      <p class="mark">Per aspera ad astra</p>
+      <p class="meta">Compiled by Hermes Agent · 2026-09-07 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
+    </footer>
+
+  </div>
+<div class="mo" id="mo" onclick="cm(event)"><div class="mb"><button class="mc" onclick="cm()">✕</button><h2 class="mh" id="mh"></h2><p class="mm">Source: <span id="ms"></span></p><div class="mbd" id="mbd"></div></div></div>
+<script>function openArt(el){var h=el.getAttribute('data-h'),b=el.getAttribute('data-b'),s=el.getAttribute('data-s'),u=el.getAttribute('data-u');document.getElementById('mh').textContent=h;var sl=document.getElementById('ms');if(u&&u!=='#'&&u!==''){sl.innerHTML='<a href="'+u+'" target="_blank" rel="noopener">'+s+'</a>';}else{sl.textContent=s;}var aiS='*— Written by AI (';var i=b.indexOf(aiS);if(i>=0){var bf=b.substring(0,i);var af=b.substring(i+aiS.length);var mdl=af.split(')')[0];bf=bf.split('\n').join('<br>');bf=bf.replace(/\*([^*]+)\*/g,'<em class="en">$1</em>');var sg='<div class="as"><span class="al">⬥ AI-GENERATED</span><br>Model: '+mdl+'</div>';document.getElementById('mbd').innerHTML=bf+sg;}else{document.getElementById('mbd').innerHTML=b.split('\n').join('<br>');}document.getElementById('mo').classList.add('a');document.body.style.overflow='hidden';}function cm(e){if(e&&e.target!=document.getElementById('mo'))return;document.getElementById('mo').classList.remove('a');document.body.style.overflow='';}document.addEventListener('keydown',function(e){if(e.key==='Escape')cm()});</script></body>
+</html>
