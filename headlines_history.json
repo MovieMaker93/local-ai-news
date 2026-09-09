@@ -2138,6 +2138,198 @@
       "source": "Tech Startups",
       "date": "2026-09-08",
       "issue": 12
+    },
+    {
+      "text": "Nvidia locks October for its first RTX Spark Windows PCs, with eight OEMs on a public launch roster",
+      "source": "shattered.io",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "Unsloth v0.1.807-beta: AMD defaults to Vulkan, 200+ fixes, signed llama-server",
+      "source": "GitHub",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "OpenClaw 2026.9.3 ships rehearsed self-hosted updates and warm-cache performance work",
+      "source": "GitHub (openclaw/openclaw release feed)",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "r/selfhosted: fake AI-crawler traffic is credential scanning, and log tools file it as agent traffic",
+      "source": "Reddit r/selfhosted",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "LattePanda Mu Ultra micro x86 module brings 115 TOPS and local LLM inference to edge devices",
+      "source": "TechPowerUp",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "CPU reliability benchmark for MCP-style tool calling in sub-2B models",
+      "source": "arXiv",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "Measurement study of LLM inference trade-offs across edge-continuum hardware",
+      "source": "arXiv",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "KBBQ: a predictive noise law and the limits of spectrum flattening in FP4 quantization",
+      "source": "arXiv",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "Accuracy is not enough: measuring fidelity loss in quantized LLMs",
+      "source": "arXiv",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "On-policy reverse distillation lets a weak teacher accelerate, not cap, the student",
+      "source": "Hugging Face",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "Poolside releases Laguna S 2.1: 118B-A8B MoE for agentic coding with a 1M-token context",
+      "source": "Hugging Face",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "ISTA DASLab drops per-tensor GSQ-RCO GGUF quantizations of Qwen3.8-27B",
+      "source": "Hugging Face",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "Community abliterates GLM-5.3 into a 753B FP8 cybersecurity model and publishes the weights",
+      "source": "Hugging Face",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "llama.cpp daily builds b10867-b10868: MoE IQ quants, iGPU lazy-load fix",
+      "source": "GitHub",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "Ferrum-infer-rs v0.8.9: Rust local inference engine closes in on Windows CUDA",
+      "source": "GitHub",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "LM Studio Bionic 1.1.1 ships UI performance work and llama.cpp 2.31.2 packs",
+      "source": "LM Studio",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "Show HN: Browser LLM Fit matches hardware to in-browser models",
+      "source": "Hacker News",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "llama.cpp merges MiniMax M3 support with MSA sparse attention",
+      "source": "Reddit r/LocalLLaMA",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "n8n publishes its five-part AI agent reliability playbook for production",
+      "source": "n8n Blog",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "r/LocalLLaMA's 'Friends Don't Let Friends Use Ollama' debate tops the day",
+      "source": "LLM Daily newsletter, citing r/LocalLLaMA",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "HP expands NVIDIA RTX Spark lineup with OmniBook Ultra 16, OmniBook X 14 and OmniDesk",
+      "source": "Engineering.com",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "Microsoft Project Zenith: a stripped-down Windows 11 for local-AI developer boxes, first on AMD Ryzen AI Halo",
+      "source": "TweakTown",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "Backblaze ships an open-source MCP server for B2 object storage: up to 40 tools, scoped per access key",
+      "source": "Backblaze",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "Show HN: Blackholes, a native macOS workspace for running several coding agents side by side",
+      "source": "Hacker News",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "Show HN: Grok CLI, an agentic coding harness written in Rust",
+      "source": "Hacker News",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "MetaKV picks a per-prompt KV-cache configuration from your latency and peak-memory budgets",
+      "source": "arXiv",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "Jacap replaces heuristic KV-eviction scores with a Jacobian information-capacity objective",
+      "source": "arXiv",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "Int4 narrows output diversity at 8B but not at 14B or 32B, across 71,000 paired completions",
+      "source": "arXiv",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "Train overcomplete, deploy compact: overparameterized recovery modules lift pruned models by 8.4 points at 50% sparsity",
+      "source": "arXiv",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "Hugging Face blog: boundary-aware self-distillation to refuse only the harmful subset of a topic",
+      "source": "Hugging Face",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "Cognition raises $2B Series E at a $48B valuation as Devin's run-rate revenue nears $900M",
+      "source": "TechCrunch",
+      "date": "2026-09-09",
+      "issue": 13
+    },
+    {
+      "text": "Milan legal-AI Lexroom buys France's Query Juriste and Bulgaria's Praven Intelekt in its first M&A deals",
+      "source": "Startupbusiness.it",
+      "date": "2026-09-09",
+      "issue": 13
     }
   ]
 }
