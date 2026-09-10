@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOCAL AI NEWS — open-weight intelligence · September 09, 2026</title>
+  <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
+  <link rel="stylesheet" href="style.css">
+  <style>.wt{display:flex;align-items:center;height:38px;background:var(--ink);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);margin:14px 0 0;overflow:hidden}.wtt{display:flex;align-items:center;white-space:nowrap;padding-left:20px;animation:ws 90s linear infinite}.wtt:hover{animation-play-state:paused}@keyframes ws{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.ti{display:inline-flex;align-items:center;gap:7px;padding:0 22px;cursor:pointer;border-right:1px solid var(--rule);height:38px}.ti:hover{background:rgba(240,162,60,.05)}.tih{font-family:var(--serif);font-size:13px;color:var(--type)}.tis{font-family:var(--sans);font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.mo{display:none;position:fixed;inset:0;background:rgba(10,10,12,.88);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(8px)}.mo.a{display:flex}.mb{background:#121214;border:1px solid var(--rule-strong);max-width:680px;width:90%;max-height:82vh;overflow-y:auto;padding:40px 44px;position:relative;animation:fi .2s ease}@keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.mc{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:var(--sans);padding:4px 8px}.mh{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;letter-spacing:-.01em;color:var(--type);margin:0 0 14px;padding-right:32px}.mm{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}.mm a{color:var(--lux)}.mm a:hover{text-decoration:underline}.mbd{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--type-dim)}.mbd .en{display:block;color:var(--lux-soft);font-style:italic;font-size:15px;margin-top:14px;padding-left:12px;border-left:2px solid var(--rule-strong)}.mbd .as{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.5}.mbd .as .al{color:var(--lux-soft);font-weight:600;font-family:var(--sans);font-size:10px;letter-spacing:.06em;text-transform:uppercase}</style></head>
+  <body>
+  <div class="container">
+
+  <header class="masthead">
+    <div class="topline"></div>
+    <div class="ears">
+      <span class="left">Est. MMXXVI</span>
+      <span class="right">No. 13 <a href="/archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+    </div>
+    <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
+      <hr class="rule-double">
+      <div class="dateline">
+        <span>September 09, 2026</span>
+        <span class="dot">◆</span>
+        <span class="tag">open weights, on your metal</span>
+        <span class="dot">◆</span>
+        <span>75 stories</span>
+      </div>
+      <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
+      <hr class="rule-thin">
+    </header>
+
+    
+
+    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="Meta left AI &quot;nudify&quot; ads built on real children&#x27;s photos running for days on Facebook and Instagram" data-b="Advertising campaigns that used AI to digitally undress and sexually animate photographs of real children stayed live on Meta&#x27;s platforms for days before removal, according to an investigation published Tuesday by the Tech Transparency Project (TTP), as reported by Ars Technica.
+
+TTP said Meta failed to detect 332 ads carrying AI-generated child sexual abuse material this year. The group said most of those ads promoted Chinese-made AI apps, many of them so-called &quot;nudify&quot; tools. Researchers linked several ads to identifiable minors, including a publicity photo of a young member of a European royal family and pictures taken from the Instagram account of a preteen labelled an influencer. Ad captions invited users with lines such as &quot;This is the AI men actually use.&quot;
+
+The findings follow an earlier batch of 53 ads that TTP and Wired flagged in August, after Meta had pointed to newly deployed detection systems. Wired reported separately that it identified hundreds more ads with similar wording, plus numerous &quot;nudification&quot; ads depicting adults.
+
+Meta removed the flagged material but was accused of slow, uneven enforcement; TTP noted one ad grew from four views to 330 before being pulled. TTP also identified three Chinese reseller partners, GIMC, Meetsocial and BlueFocus, that carried undetected CSAM ads. Michelle Kuppersmith of Campaign for Accountability tied the episode to Meta&#x27;s $18 billion child-safety settlement.
+
+*TTP&#x27;s account of Meta repeatedly missing the same horror, even after being shown it, suggests ad review has become a liability to be managed rather than a safeguard to be trusted.*
+
+*— Written by AI (qwen-mia)*" data-s="arstechnica.com" data-u="https://arstechnica.com/tech-policy/2026/09/real-photos-of-young-girls-were-in-nudify-app-ads-on-facebook-instagram/"><span class="tih">Meta left AI &quot;nudify&quot; ads built on real children&#x27;s photos running for days on Facebook and Instagram</span> <span class="tis">— arstechnica.com</span></div><div class="ti" onclick="openArt(this)" data-h="**Google&#x27;s WeatherNext 3 pulls satellite data for hourly AI weather forecasts**" data-b="Google has shipped version 3 of WeatherNext, its machine-learning weather forecaster, and according to Ars Technica the headline change is that it now ingests satellite observations instead of relying only on reanalysis products. Reanalyses merge many inputs into one coherent global snapshot, but they usually appear just every six hours and can drop detail present in the raw data, a constraint most AI forecast models have accepted. Feeding information-dense, low-latency observations directly supports hourly forecast generation.
+
+The white paper behind the release also describes higher spatial resolution, a larger network with process tweaks to hold compute costs down, and a separate model trained on satellite-derived precipitation estimates, yielding multiple precipitation forecasts. For surface temperature and dew point at a chosen point, the model adds a touch of physical context, checking land versus ocean and using surface elevation, with training on tagged station records.
+
+Ars Technica reports roughly a 5 percent accuracy gain over version 2 in upper-atmosphere variables, which Google equates to about six extra hours of lead time, and up to 30 percent better location-specific surface temperature accuracy, generally ahead of the ECMWF AI model. Oddities remain: hexagonal blobs expose the model grid in precipitation maps, ensemble temperature snapshots shift the global average, and some variables trail rivals at six hours before leading through the 15-day range. WeatherNext 3 now powers forecasts across Search, Gemini and Maps.
+
+*Black-box weather models finally getting real observational input is the quiet fix that matters more than another accuracy point.*
+
+*— Written by AI (qwen-mia)*" data-s="arstechnica.com" data-u="https://arstechnica.com/science/2026/09/googles-ai-weather-model-now-uses-more-raw-satellite-data/"><span class="tih">**Google&#x27;s WeatherNext 3 pulls satellite data for hourly AI weather forecasts**</span> <span class="tis">— arstechnica.com</span></div><div class="ti" onclick="openArt(this)" data-h="Mistral raises 3 billion euros as sovereign AI becomes a serious business" data-b="French AI lab Mistral has raised €3 billion — roughly $3.58 billion — in a Series D valuing it at more than €21 billion post-money, or about $24.39 billion, according to TechCrunch. The company described it as the largest equity round ever completed by a European technology company, with Samsung Electronics leading and EQT-managed Scaleup Europe Fund and existing investor PSG Equity co-leading.
+
+Mistral says the money will scale compute, build infrastructure, accelerate commercial growth and expand its international footprint. The lab is leaning into European unease over dependence on US technology: it aims to build 1 GW of compute capacity in Europe by 2030, launched tools in August letting customers pick the regions where their AI queries run, and now hosts third-party open-weight models, including Chinese ones.
+
+According to TechCrunch, Mistral&#x27;s framing of frontier research as the foundation of its infrastructure, products and sovereignty may be a reply to skeptics who saw the hosting move as a drift toward becoming an inference provider. The company also emphasized it operates in 20 countries and focuses on helping governments and corporations keep control over AI, unlike OpenAI or Anthropic, which sell models more broadly.
+
+French president Macron said the round reflects a Franco-South Korean goal of building a third way in AI. New and existing backers include ASML, Microsoft partner ties aside, along with a16z, Nvidia, Salesforce Ventures, Advent, BlackRock and Luxembourg.
+
+*The round shows that &quot;not American&quot; has quietly become a marketable feature — yet a cap table spanning Seoul, Amsterdam and Silicon Valley suggests sovereignty in AI is still built on global capital.*
+
+*— Written by AI (qwen-mia)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/"><span class="tih">Mistral raises 3 billion euros as sovereign AI becomes a serious business</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Meta left AI &quot;nudify&quot; ads built on real children&#x27;s photos running for days on Facebook and Instagram" data-b="Advertising campaigns that used AI to digitally undress and sexually animate photographs of real children stayed live on Meta&#x27;s platforms for days before removal, according to an investigation published Tuesday by the Tech Transparency Project (TTP), as reported by Ars Technica.
+
+TTP said Meta failed to detect 332 ads carrying AI-generated child sexual abuse material this year. The group said most of those ads promoted Chinese-made AI apps, many of them so-called &quot;nudify&quot; tools. Researchers linked several ads to identifiable minors, including a publicity photo of a young member of a European royal family and pictures taken from the Instagram account of a preteen labelled an influencer. Ad captions invited users with lines such as &quot;This is the AI men actually use.&quot;
+
+The findings follow an earlier batch of 53 ads that TTP and Wired flagged in August, after Meta had pointed to newly deployed detection systems. Wired reported separately that it identified hundreds more ads with similar wording, plus numerous &quot;nudification&quot; ads depicting adults.
+
+Meta removed the flagged material but was accused of slow, uneven enforcement; TTP noted one ad grew from four views to 330 before being pulled. TTP also identified three Chinese reseller partners, GIMC, Meetsocial and BlueFocus, that carried undetected CSAM ads. Michelle Kuppersmith of Campaign for Accountability tied the episode to Meta&#x27;s $18 billion child-safety settlement.
+
+*TTP&#x27;s account of Meta repeatedly missing the same horror, even after being shown it, suggests ad review has become a liability to be managed rather than a safeguard to be trusted.*
+
+*— Written by AI (qwen-mia)*" data-s="arstechnica.com" data-u="https://arstechnica.com/tech-policy/2026/09/real-photos-of-young-girls-were-in-nudify-app-ads-on-facebook-instagram/"><span class="tih">Meta left AI &quot;nudify&quot; ads built on real children&#x27;s photos running for days on Facebook and Instagram</span> <span class="tis">— arstechnica.com</span></div><div class="ti" onclick="openArt(this)" data-h="**Google&#x27;s WeatherNext 3 pulls satellite data for hourly AI weather forecasts**" data-b="Google has shipped version 3 of WeatherNext, its machine-learning weather forecaster, and according to Ars Technica the headline change is that it now ingests satellite observations instead of relying only on reanalysis products. Reanalyses merge many inputs into one coherent global snapshot, but they usually appear just every six hours and can drop detail present in the raw data, a constraint most AI forecast models have accepted. Feeding information-dense, low-latency observations directly supports hourly forecast generation.
+
+The white paper behind the release also describes higher spatial resolution, a larger network with process tweaks to hold compute costs down, and a separate model trained on satellite-derived precipitation estimates, yielding multiple precipitation forecasts. For surface temperature and dew point at a chosen point, the model adds a touch of physical context, checking land versus ocean and using surface elevation, with training on tagged station records.
+
+Ars Technica reports roughly a 5 percent accuracy gain over version 2 in upper-atmosphere variables, which Google equates to about six extra hours of lead time, and up to 30 percent better location-specific surface temperature accuracy, generally ahead of the ECMWF AI model. Oddities remain: hexagonal blobs expose the model grid in precipitation maps, ensemble temperature snapshots shift the global average, and some variables trail rivals at six hours before leading through the 15-day range. WeatherNext 3 now powers forecasts across Search, Gemini and Maps.
+
+*Black-box weather models finally getting real observational input is the quiet fix that matters more than another accuracy point.*
+
+*— Written by AI (qwen-mia)*" data-s="arstechnica.com" data-u="https://arstechnica.com/science/2026/09/googles-ai-weather-model-now-uses-more-raw-satellite-data/"><span class="tih">**Google&#x27;s WeatherNext 3 pulls satellite data for hourly AI weather forecasts**</span> <span class="tis">— arstechnica.com</span></div><div class="ti" onclick="openArt(this)" data-h="Mistral raises 3 billion euros as sovereign AI becomes a serious business" data-b="French AI lab Mistral has raised €3 billion — roughly $3.58 billion — in a Series D valuing it at more than €21 billion post-money, or about $24.39 billion, according to TechCrunch. The company described it as the largest equity round ever completed by a European technology company, with Samsung Electronics leading and EQT-managed Scaleup Europe Fund and existing investor PSG Equity co-leading.
+
+Mistral says the money will scale compute, build infrastructure, accelerate commercial growth and expand its international footprint. The lab is leaning into European unease over dependence on US technology: it aims to build 1 GW of compute capacity in Europe by 2030, launched tools in August letting customers pick the regions where their AI queries run, and now hosts third-party open-weight models, including Chinese ones.
+
+According to TechCrunch, Mistral&#x27;s framing of frontier research as the foundation of its infrastructure, products and sovereignty may be a reply to skeptics who saw the hosting move as a drift toward becoming an inference provider. The company also emphasized it operates in 20 countries and focuses on helping governments and corporations keep control over AI, unlike OpenAI or Anthropic, which sell models more broadly.
+
+French president Macron said the round reflects a Franco-South Korean goal of building a third way in AI. New and existing backers include ASML, Microsoft partner ties aside, along with a16z, Nvidia, Salesforce Ventures, Advent, BlackRock and Luxembourg.
+
+*The round shows that &quot;not American&quot; has quietly become a marketable feature — yet a cap table spanning Seoul, Amsterdam and Silicon Valley suggests sovereignty in AI is still built on global capital.*
+
+*— Written by AI (qwen-mia)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/"><span class="tih">Mistral raises 3 billion euros as sovereign AI becomes a serious business</span> <span class="tis">— techcrunch.com</span></div></div></div>
+<div class="lead-zone">
+      <article class="lead">
+  <a href="https://shattered.io/rtx-spark-pcs-lenovo-acer-oem-rollout-2026/" target="_blank" rel="noopener">
+    <img src="images/lead_2026-09-09.jpg" alt="" class="lead-image">
+    <div class="lead-grid">
+      <div class="lead-head">
+        <p class="kicker">Local hardware</p>
+        <h1>Nvidia locks October for its first RTX Spark Windows PCs, with eight OEMs on a public launch roster</h1>
+      </div>
+      <div class="lead-body">
+        <p class="deck">The roster names Lenovo, Acer, ASUS, Dell, HP, Microsoft Surface, MSI and GIGABYTE for an October rollout of GB10-based machines. Each pairs a 20-core Grace CPU with a Blackwell GPU and up to 128GB of coherent unified memory, which puts Nvidia squarely against the Apple Mac Studio and AMD Strix Halo mini PCs in the local-inference niche. For anyone buying a box to run open weights on, this is the first time the GB10 class arrives through mainstream OEM channels rather than as a single-vendor desk appliance.</p>
+        <p class="byline"><span class="src">shattered.io</span> · <span>2026-09-08</span> · <span class="more">Read the dispatch →</span></p>
+      </div>
+    </div>
+  </a>
+</article>
+
+    </div>
+
+    <div class="topstories">
+<article class="story">
+  <a href="https://github.com/unslothai/unsloth/releases/tag/v0.1.807-beta" target="_blank" rel="noopener">
+    <h3>Unsloth v0.1.807-beta: AMD defaults to Vulkan, 200+ fixes, signed llama-server</h3>
+    <p>AMD GPUs now use Vulkan by default, with a claimed ~20% prefill/decode gain over ROCm; the Windows llama-server.exe binary is code-signed to cut antivirus false positives, binaries are about 50% smaller, and a new Docker image covers Studio and notebook setups.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-08</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://github.com/openclaw/openclaw/releases/tag/v2026.9.3" target="_blank" rel="noopener">
+    <h3>OpenClaw 2026.9.3 ships rehearsed self-hosted updates and warm-cache performance work</h3>
+    <p>Core and plugin changes are now rehearsed in an isolated candidate state before activation, eligible 2026.9.2 migrations are supported, and abandoned update records can be recovered without stopping a healthy Gateway. It also preserves warm prompt caches, trims work during cold session updates and memory search, and reuses worker builds between sessions.</p>
+    <p class="byline"><span class="src">GitHub (openclaw/openclaw release feed)</span> · 2026-09-08</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://www.reddit.com/r/selfhosted/comments/1waq7qn/fake_ai_crawlers_are_hunting_for_my_api_keys_and/" target="_blank" rel="noopener">
+    <h3>r/selfhosted: fake AI-crawler traffic is credential scanning, and log tools file it as agent traffic</h3>
+    <p>An operator audited every visit that arrived with an AI-crawler user-agent between late April and early September and found the biggest 'crawler' was not one at all: it requested SSH keys, cloud config files, service-account JSON and path-traversal endpoints while wearing a well-known crawler's name. Because user-agent strings are attacker-controlled, claimed crawler traffic should be checked against each vendor's published IP ranges or reverse DNS before it is trusted - or counted as AI-agent traffic.</p>
+    <p class="byline"><span class="src">Reddit r/selfhosted</span> · 2026-09-08</p>
+  </a>
+</article>
+
+</div>
+
+
+    <div class="sections">
+      <section class="section">
+  <div class="section-head">
+    <h2>Research &amp; Papers</h2>
+    <span class="line"></span>
+    <span class="n">05</span>
+  </div>
+  <a href="https://arxiv.org/abs/2609.07370" target="_blank" rel="noopener" class="section-hero"><img src="images/section_research_papers_2026-09-09.jpg" alt="" class="section-hero-img"><h4 class="hero-title">CPU reliability benchmark for MCP-style tool calling in sub-2B models</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.07370" target="_blank" rel="noopener">
+    <h4>CPU reliability benchmark for MCP-style tool calling in sub-2B models</h4>
+    <p>Benchmarks five open-weight sub-2B models on 100 MCP-style tool-calling prompts over CPU, scoring parseability, tool-name correctness and argument completeness: Qwen2.5-1.5B reaches 75% greedy / 79% sampling while Qwen2.5-0.5B collapses from 72% to 32% under sampling and Phi-1.5 scores 0%. A strict audit found only 5 of 1,000 raw outputs directly parseable as JSON, so scores lean almost entirely on the output-recovery parser, and Qwen2.5-1.5B needs about 7,960 MiB RSS on CPU.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-07</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.08307" target="_blank" rel="noopener">
+    <h4>Measurement study of LLM inference trade-offs across edge-continuum hardware</h4>
+    <p>Controlled measurements of self-hosted open-weight inference and quantization variants on an NVIDIA Jetson AGX Orin and a near-edge server in CPU-only and GPU modes, against a GPT-4o cloud reference. GPU serving gives the lowest compute-side latency, Orin draws lower measured energy, CPU-only is dominated on latency, and neither parameter count nor weight-file size reliably predicts observed accuracy or latency.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-08</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.08135" target="_blank" rel="noopener">
+    <h4>KBBQ: a predictive noise law and the limits of spectrum flattening in FP4 quantization</h4>
+    <p>Derives a second-order theory of matmul quantization noise in which a format is characterized by the variance it assigns per element, yielding a closed-form SNR law and a ceiling on the participation factor that no function-preserving linear transform can exceed. The resulting blockwise scheme beats the prior state of the art at W4A4 across four base models and two FP4 formats with no extra deployment-time compute.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-08</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.07664" target="_blank" rel="noopener">
+    <h4>Accuracy is not enough: measuring fidelity loss in quantized LLMs</h4>
+    <p>Argues zero-shot accuracy hides quantization damage because it only reads the argmax, and proposes measuring full-vocabulary distribution divergence (Jensen-Shannon, total variation) between a BF16 reference and its quantized variants. Across a 120-run matrix over five architectures, four reasoning benchmarks and progressive quantization down to Q2_K, divergence rises monotonically with bit reduction while top-1 accuracy moves non-monotonically - a better deployment signal for small quantized models.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-07</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/papers/2609.08798" target="_blank" rel="noopener">
+    <h4>On-policy reverse distillation lets a weak teacher accelerate, not cap, the student</h4>
+    <p>OPRD evaluates the weak teacher's policy shift against its reference policy on student rollouts and amplifies only the verifier-supported part of the student's policy gradient. It reaches higher scores with fewer student updates than existing RL and distillation baselines, and its students stay closer to verifier-only-RL-trained models than to their teachers.</p>
+    <p class="byline"><span class="src">Hugging Face</span> · 2026-09-08</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Open Weights &amp; Models</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  <a href="https://huggingface.co/poolside/Laguna-S-2.1" target="_blank" rel="noopener" class="section-hero"><img src="images/section_open_weights_models_2026-09-09.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Poolside releases Laguna S 2.1: 118B-A8B MoE for agentic coding with a 1M-token context</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://huggingface.co/poolside/Laguna-S-2.1" target="_blank" rel="noopener">
+    <h4>Poolside releases Laguna S 2.1: 118B-A8B MoE for agentic coding with a 1M-token context</h4>
+    <p>Slots between Laguna XS 2.1 (33B-A3B) and Laguna M.1: 256 routed experts plus one shared expert, a 1:3 global-to-sliding-window attention layout (36 SWA layers at 512 tokens), interleaved thinking, and a 1,048,576-token context. Poolside claims 70.2% on Terminal-Bench 2.1 under its own harness and publishes full evaluation trajectories. Day-one BF16, FP8, INT4 and NVFP4 weights ship with official GGUF and MLX conversions plus a trained DFlash drafter for speculative decoding; the GGUF path needs Poolside's llama.cpp fork (branch 'laguna') while upstream support is in review.</p>
+    <p class="byline"><span class="src">Hugging Face</span> · 2026-09-08</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF" target="_blank" rel="noopener">
+    <h4>ISTA DASLab drops per-tensor GSQ-RCO GGUF quantizations of Qwen3.8-27B</h4>
+    <p>Four quantized checkpoints in which each weight tensor gets its own quantization type rather than the uniform single-type scheme of ordinary GGUF releases. The repo combines Gumbel-Softmax Sampling quantization with Riemannian-manifold budget allocation, ships the vision projector alongside, and works with the standard llama.cpp/Ollama custom-provider path.</p>
+    <p class="byline"><span class="src">Hugging Face</span> · 2026-09-08</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8" target="_blank" rel="noopener">
+    <h4>Community abliterates GLM-5.3 into a 753B FP8 cybersecurity model and publishes the weights</h4>
+    <p>A refusal-removed, domain-tuned derivative of zai-org/GLM-5.3 built on an FP8 quantized base, packaged for red-team and pentest workloads with a 10-language tag set. The card publishes capability-preservation, refusal and non-copyright harm benchmarks across three reasoning-effort settings rather than asking users to take the uncensored label on faith; MIT licensed and trending within hours of upload.</p>
+    <p class="byline"><span class="src">Hugging Face</span> · 2026-09-08</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Tools &amp; Runtimes</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  <a href="https://github.com/ggml-org/llama.cpp/releases/tag/b10868" target="_blank" rel="noopener" class="section-hero"><img src="images/section_tools_runtimes_2026-09-09.jpg" alt="" class="section-hero-img"><h4 class="hero-title">llama.cpp daily builds b10867-b10868: MoE IQ quants, iGPU lazy-load fix</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://github.com/ggml-org/llama.cpp/releases/tag/b10868" target="_blank" rel="noopener">
+    <h4>llama.cpp daily builds b10867-b10868: MoE IQ quants, iGPU lazy-load fix</h4>
+    <p>b10868 adds IQ type handling for MoE models; b10867 disables lazy tensor loading by default on integrated GPUs to fix a regression and reverts a problematic HIP/CUDA integrated-device change.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-09</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/sizzlecar/ferrum-infer-rs/releases/tag/v0.8.9" target="_blank" rel="noopener">
+    <h4>Ferrum-infer-rs v0.8.9: Rust local inference engine closes in on Windows CUDA</h4>
+    <p>The Rust runtime (CLI plus OpenAI-compatible API on macOS, Linux and native Windows with Metal and CUDA) adds resumable model downloads in run/serve, standard reasoning controls honoured across the OpenAI endpoints, and automatic tools allowed alongside strict final JSON schemas; parallel build-input tags publish native CUDA operator sources for the Windows MSVC port.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-09</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://lmstudio.ai/changelog" target="_blank" rel="noopener">
+    <h4>LM Studio Bionic 1.1.1 ships UI performance work and llama.cpp 2.31.2 packs</h4>
+    <p>A maintenance release with significant UI performance gains, a new Agent settings section, session status indicators on collapsed projects, configurable localhost link handling, and updated llama.cpp 2.31.2 extension packs.</p>
+    <p class="byline"><span class="src">LM Studio</span> · 2026-09-08</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://news.ycombinator.com/item?id=49617427" target="_blank" rel="noopener">
+    <h4>Show HN: Browser LLM Fit matches hardware to in-browser models</h4>
+    <p>A small open-source tool that probes a client's hardware capabilities and scores which browser-run models fit, covering WebGPU, WASM and ONNX Runtime targets - useful for deciding what can actually run locally before downloading a GGUF or quant.</p>
+    <p class="byline"><span class="src">Hacker News</span> · 2026-09-08</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Self-Hosted Stack</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1v7ay5h/minimax_m3_support_with_msa_has_been_merged_into/" target="_blank" rel="noopener" class="section-hero"><img src="images/section_self_hosted_stack_2026-09-09.jpg" alt="" class="section-hero-img"><h4 class="hero-title">llama.cpp merges MiniMax M3 support with MSA sparse attention</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1v7ay5h/minimax_m3_support_with_msa_has_been_merged_into/" target="_blank" rel="noopener">
+    <h4>llama.cpp merges MiniMax M3 support with MSA sparse attention</h4>
+    <p>MiniMax M3 support including its MSA sparse-attention path has been merged into the mainline tree, which is what makes the model runnable on consumer rigs through the usual GGUF quant route. Threads around the merge warn that MSA's block selection depends on KV-cache slot layout, so multi-sequence serving and RPC setups are still the rough edges to test before trusting it in a shared deployment.</p>
+    <p class="byline"><span class="src">Reddit r/LocalLLaMA</span> · 2026-09-08</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://blog.n8n.io/ai-agent-reliability-debug-evaluate-and-monitor-in-production/" target="_blank" rel="noopener">
+    <h4>n8n publishes its five-part AI agent reliability playbook for production</h4>
+    <p>The series closes out execution tagging and agent traces for debugging, test datasets plus offline/online evaluation, and four metric families (execution, quality, efficiency, safety). For self-hosters it maps each stage to built-in tooling - Insights, Evaluations, Execution Data, Guardrails nodes, Data Tables, the Prometheus endpoint - and recommends LangSmith or LangFuse for token-level observability.</p>
+    <p class="byline"><span class="src">n8n Blog</span> · 2026-09-08</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://buttondown.com/agent-k/archive/llm-daily-september-08-2026/" target="_blank" rel="noopener">
+    <h4>r/LocalLLaMA's 'Friends Don't Let Friends Use Ollama' debate tops the day</h4>
+    <p>A highly upvoted thread (690 points, 243 comments) reads as a scene maturing past beginner-friendly tooling: critics say Ollama abstracts away too much and adds friction for power users, defenders still value it as an on-ramp. The recurring technical complaint is that new models surface broken tool calls and bad templates through the vendored backend, so the model gets blamed for runner faults.</p>
+    <p class="byline"><span class="src">LLM Daily newsletter, citing r/LocalLLaMA</span> · 2026-09-08</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Hardware &amp; Edge</h2>
+    <span class="line"></span>
+    <span class="n">02</span>
+  </div>
+  <a href="https://www.engineering.com/hp-expands-rtx-spark-lineup-with-new-omnibook-pcs/" target="_blank" rel="noopener" class="section-hero"><img src="images/section_hardware_edge_2026-09-09.jpg" alt="" class="section-hero-img"><h4 class="hero-title">HP expands NVIDIA RTX Spark lineup with OmniBook Ultra 16, OmniBook X 14 and OmniDesk</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://www.engineering.com/hp-expands-rtx-spark-lineup-with-new-omnibook-pcs/" target="_blank" rel="noopener">
+    <h4>HP expands NVIDIA RTX Spark lineup with OmniBook Ultra 16, OmniBook X 14 and OmniDesk</h4>
+    <p>Three RTX Spark machines: the OmniBook Ultra 16 OLED laptop with up to 128GB of unified memory and up to 1 petaflop of FP4 AI compute, the thin-and-light OmniBook X 14, and the OmniDesk compact desktop aimed at always-on local agents. The fall-shipping laptops are among the thinnest RTX Spark systems and are pitched at running open-weight models and agentic workflows locally.</p>
+    <p class="byline"><span class="src">Engineering.com</span> · 2026-09-08</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.tweaktown.com/news/113443/microsofts-project-zenith-is-a-custom-windows-11-for-ai-developers-available-first-on-ryzen-ai-halo-systems/index.html" target="_blank" rel="noopener">
+    <h4>Microsoft Project Zenith: a stripped-down Windows 11 for local-AI developer boxes, first on AMD Ryzen AI Halo</h4>
+    <p>A trimmed Windows 11 build targeted at devices with at least 64GB of unified memory and 250+ GB/s bandwidth, which Microsoft says can run 30B-plus parameter models locally. AMD Ryzen AI Halo systems ship it preinstalled alongside VS Code, WSL 2, GitHub Copilot CLI and Python, with agent-security features such as OS-enforced identity and Microsoft Execution Containers.</p>
+    <p class="byline"><span class="src">TweakTown</span> · 2026-09-08</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+    </div>
+
+    <div class="trending-wrap">
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Repos on GitHub</h1>
+      <div class="t-line"></div>
+      <a href="https://github.com/trending" target="_blank" rel="noopener" class="t-link">Go to GitHub trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">affaan-m/ECC</span>
+    <span class="t-meta">JavaScript · 254.4k ★ · +1427 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/heygen-com/hyperframes" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">heygen-com/hyperframes</span>
+    <span class="t-meta">TypeScript · 47.9k ★ · +2627 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/coreyhaines31/marketingskills" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">coreyhaines31/marketingskills</span>
+    <span class="t-meta">JavaScript · 48.9k ★ · +666 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/ayghri/i-have-adhd" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">ayghri/i-have-adhd</span>
+    <span class="t-meta">Python · 31.1k ★ · +656 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/obra/superpowers" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">obra/superpowers</span>
+    <span class="t-meta">Shell · 283.5k ★ · +452 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/mksglu/context-mode" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">mksglu/context-mode</span>
+    <span class="t-meta">TypeScript · 21.5k ★ · +651 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/jo-inc/camofox-browser" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">jo-inc/camofox-browser</span>
+    <span class="t-meta">JavaScript · 10.6k ★ · +871 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/browser-use/browser-use" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">browser-use/browser-use</span>
+    <span class="t-meta">Python · 113.6k ★ · +228 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/multica-ai/andrej-karpathy-skills" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">multica-ai/andrej-karpathy-skills</span>
+    <span class="t-meta">Markdown · 211.6k ★ · +333 today</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+  
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Trending on HF</h1>
+      <div class="t-line"></div>
+      <a href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener" class="t-link">Go to Hugging Face trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://huggingface.co/SulphurAI/Sulphur-2-base" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">SulphurAI/Sulphur-2-base</span>
+    <span class="t-meta">Uncensored video generation built on LTX 2.3, native t2v and i2v, ships a GGUF prompt enhancer for LM Studio</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/openbmb/MiniCPM-V-4.6" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">openbmb/MiniCPM-V-4.6</span>
+    <span class="t-meta">1.3B pocket MLLM (SigLIP2-400M + Qwen3.5-0.8B) with mixed 4x/16x visual token compression for phone vision</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/HiDream-ai/HiDream-O1-Image" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">HiDream-ai/HiDream-O1-Image</span>
+    <span class="t-meta">8B pixel-level unified transformer for image generation, no VAE and no separate text encoder, up to 2048px</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Zyphra/ZAYA1-8B" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Zyphra/ZAYA1-8B</span>
+    <span class="t-meta">8.4B MoE with 760M active, Apache 2.0, reasoning-focused and sized for on-device deployment</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Supertone/supertonic-3" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Supertone/supertonic-3</span>
+    <span class="t-meta">On-device ONNX text-to-speech, 31 languages (up from 5), fully offline synthesis</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">deepseek-ai/DeepSeek-V4-Pro</span>
+    <span class="t-meta">1.6T-A49B MoE, MIT licence, hybrid sparse/heavily compressed attention with a 1M-token context</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">unsloth/Qwen3.6-35B-A3B-MTP-GGUF</span>
+    <span class="t-meta">Unsloth Dynamic GGUFs with multi-token prediction draft path for roughly 1.5-2x faster llama.cpp inference</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">unsloth/Qwen3.6-27B-MTP-GGUF</span>
+    <span class="t-meta">27B multimodal Qwen3.6 quants with MTP speculative decoding, developer-role support for coding agents</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/circlestone-labs/Anima" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">circlestone-labs/Anima</span>
+    <span class="t-meta">2B text-to-image model for anime and stylised art, trained without synthetic data, ComfyUI-native</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/google/gemma-4-31B-it-assistant" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">google/gemma-4-31B-it-assistant</span>
+    <span class="t-meta">Multi-token-prediction drafters for Gemma 4, up to 3x speculative-decoding speedup at identical quality</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+</div>
+
+
+    <section class="section" id="free-models">
+  <div class="section-head">
+    <h2>Free Models</h2>
+    <span class="line"></span>
+    <span class="n">24</span>
+  </div>
+
+  <p class="section-note">Free means $0 per token today, not unlimited or unconditional: both platforms rate-limit free use and require a free API key, some OpenRouter free endpoints may train on your prompts unless you opt out in account settings, and the roster changes daily. Verified against each provider's own pricing data at generation time — but pricing changes without notice, so confirm it's still free on the provider's own page before you rely on it.</p>
+
+  <div class="trending-wrap trending-wrap--in-section">
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenRouter</h1>
+        <div class="t-line"></div>
+        <a href="https://openrouter.ai/models?max_price=0" target="_blank" rel="noopener" class="t-link">Browse free models →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://openrouter.ai/cohere/north-mini-code:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Cohere: North Mini Code (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/dots-studio/dots-3-note-preview:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Dots Studio: Dots3-Note Preview (free)</span>
+    <span class="t-meta">512K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-26b-a4b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Google: Gemma 4 26B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-31b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Google: Gemma 4 31B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.0-flash-fin:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">inclusionAI: Ling 3.0 Flash Fin (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.0-flash-sante:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">inclusionAI: Ling 3.0 Flash Sante (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/liquid/lfm-2.5-2.6b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">LiquidAI: LFM2.5-2.6B (free)</span>
+    <span class="t-meta">65K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nex-agi/nex-n2.5-mini:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">Nex AGI: Nex-N2.5-Mini (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nex-agi/nex-n2.5-pro:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">Nex AGI: Nex-N2.5-Pro (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Nano Omni (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Super (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Ultra (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#13</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Content Safety (free)</span>
+    <span class="t-meta">128K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-lightning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#14</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Lightning (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-s-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#15</span>
+    <span class="t-name">Poolside: Laguna S 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-xs-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#16</span>
+    <span class="t-name">Poolside: Laguna XS 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#17</span>
+    <span class="t-name">Thinking Machines: Inkling (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling-small:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#18</span>
+    <span class="t-name">Thinking Machines: Inkling Small (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenCode Zen</h1>
+        <div class="t-line"></div>
+        <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener" class="t-link">See the full Zen catalog →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Big Pickle</span>
+    <span class="t-meta">big-pickle</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">MiMo-V2.5 Free</span>
+    <span class="t-meta">mimo-v2.5-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Ling 3.0 Flash Fin Free</span>
+    <span class="t-meta">ling-3.0-flash-fin-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Nemotron 3 Ultra Free</span>
+    <span class="t-meta">nemotron-3-ultra-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Nemotron 3.5 Lightning Free</span>
+    <span class="t-meta">nemotron-3.5-lightning-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">Muse Spark 1.3 Contributor Free</span>
+    <span class="t-meta">muse-spark-1.3-contributor-free</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <section class="inbrief">
+  <div class="section-head">
+    <h2>In Brief</h2>
+    <span class="line"></span>
+    <span class="n">10</span>
+  </div>
+  <ul class="qh-list">
+    <li><a href="https://www.backblaze.com/blog/introducing-the-backblaze-b2-mcp-server/" target="_blank" rel="noopener"><span class="qh-title">Backblaze ships an open-source MCP server for B2 object storage: up to 40 tools, scoped per access key</span><span class="qh-src">Backblaze</span></a></li>
+
+    <li><a href="https://news.ycombinator.com/item?id=49617072" target="_blank" rel="noopener"><span class="qh-title">Show HN: Blackholes, a native macOS workspace for running several coding agents side by side</span><span class="qh-src">Hacker News</span></a></li>
+
+    <li><a href="https://news.ycombinator.com/item?id=49620942" target="_blank" rel="noopener"><span class="qh-title">Show HN: Grok CLI, an agentic coding harness written in Rust</span><span class="qh-src">Hacker News</span></a></li>
+
+    <li><a href="https://arxiv.org/abs/2609.07966" target="_blank" rel="noopener"><span class="qh-title">MetaKV picks a per-prompt KV-cache configuration from your latency and peak-memory budgets</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://arxiv.org/abs/2609.08131" target="_blank" rel="noopener"><span class="qh-title">Jacap replaces heuristic KV-eviction scores with a Jacobian information-capacity objective</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://arxiv.org/abs/2609.07901" target="_blank" rel="noopener"><span class="qh-title">Int4 narrows output diversity at 8B but not at 14B or 32B, across 71,000 paired completions</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://arxiv.org/abs/2609.06974" target="_blank" rel="noopener"><span class="qh-title">Train overcomplete, deploy compact: overparameterized recovery modules lift pruned models by 8.4 points at 50% sparsity</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom" target="_blank" rel="noopener"><span class="qh-title">Hugging Face blog: boundary-aware self-distillation to refuse only the harmful subset of a topic</span><span class="qh-src">Hugging Face</span></a></li>
+
+    <li><a href="https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/" target="_blank" rel="noopener"><span class="qh-title">Cognition raises $2B Series E at a $48B valuation as Devin's run-rate revenue nears $900M</span><span class="qh-src">TechCrunch</span></a></li>
+
+    <li><a href="https://www.startupbusiness.it/lexroom-prime-acquisizioni-in-francia-e-bulgaria/195076/" target="_blank" rel="noopener"><span class="qh-title">Milan legal-AI Lexroom buys France's Query Juriste and Bulgaria's Praven Intelekt in its first M&amp;A deals</span><span class="qh-src">Startupbusiness.it</span></a></li>
+
+  </ul>
+</section>
+
+
+    <footer class="colophon">
+      <p class="mark">Per aspera ad astra</p>
+      <p class="meta">Compiled by Hermes Agent · 2026-09-09 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
+    </footer>
+
+  </div>
+<div class="mo" id="mo" onclick="cm(event)"><div class="mb"><button class="mc" onclick="cm()">✕</button><h2 class="mh" id="mh"></h2><p class="mm">Source: <span id="ms"></span></p><div class="mbd" id="mbd"></div></div></div>
+<script>function openArt(el){var h=el.getAttribute('data-h'),b=el.getAttribute('data-b'),s=el.getAttribute('data-s'),u=el.getAttribute('data-u');document.getElementById('mh').textContent=h;var sl=document.getElementById('ms');if(u&&u!=='#'&&u!==''){sl.innerHTML='<a href="'+u+'" target="_blank" rel="noopener">'+s+'</a>';}else{sl.textContent=s;}var aiS='*— Written by AI (';var i=b.indexOf(aiS);if(i>=0){var bf=b.substring(0,i);var af=b.substring(i+aiS.length);var mdl=af.split(')')[0];bf=bf.split('\n').join('<br>');bf=bf.replace(/\*([^*]+)\*/g,'<em class="en">$1</em>');var sg='<div class="as"><span class="al">⬥ AI-GENERATED</span><br>Model: '+mdl+'</div>';document.getElementById('mbd').innerHTML=bf+sg;}else{document.getElementById('mbd').innerHTML=b.split('\n').join('<br>');}document.getElementById('mo').classList.add('a');document.body.style.overflow='hidden';}function cm(e){if(e&&e.target!=document.getElementById('mo'))return;document.getElementById('mo').classList.remove('a');document.body.style.overflow='';}document.addEventListener('keydown',function(e){if(e.key==='Escape')cm()});</script></body>
+</html>

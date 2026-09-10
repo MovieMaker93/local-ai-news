@@ -2330,6 +2330,180 @@
       "source": "Startupbusiness.it",
       "date": "2026-09-09",
       "issue": 13
+    },
+    {
+      "text": "vLLM 0.29.0 makes Model Runner V2 the default everywhere",
+      "source": "GitHub",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "IBM releases Granite Time Series PatchTST-FM-r2, a SOTA permissively licensed forecasting model",
+      "source": "Hugging Face",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Japanese retailer warns GPU prices are rising again as the AI memory crunch tightens",
+      "source": "WebProNews",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Qualcomm's next Snapdragon flagship adds an Element Accelerator NPU aimed at easing the RAM crisis",
+      "source": "TechRadar",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Harvey raises $550M at a $15.5B valuation, a record for legal AI",
+      "source": "TechStartups",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Forward-free depth pruning removes Transformer blocks via weight redundancy",
+      "source": "arXiv",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Joint KV-cache concatenation fine-tuning and recompute for RAG prefill",
+      "source": "arXiv",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "AuK: open 1.5B speech foundation model unifying generation and editing",
+      "source": "Hugging Face",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "UI-Mate-9B open-weight GUI agent runs computer use on a single GPU",
+      "source": "Hugging Face",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "OxCoder-9B: agentic coding model distilled from frontier traces",
+      "source": "Hugging Face",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "NeoHorse-1-9B RSI prototype ships GGUF builds for local runtimes",
+      "source": "Hugging Face",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "DeepSeek-V4-Flash IQ1_S-XL: 61.6 GB quant aims a 284B model at consumer GPUs",
+      "source": "GitHub",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "llama.cpp b10883 reworks Vulkan compute with Ampere regression fix",
+      "source": "GitHub",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Hydra: open-source agentic terminal with a PTY daemon",
+      "source": "GitHub",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "BiNeuron: AI code assistant that runs 100% locally",
+      "source": "GitHub",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "computer-use-mcp: Rust MCP server for direct OS control",
+      "source": "GitHub",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Rayrun: one endpoint for every MCP tool",
+      "source": "Rayrun",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Experimental patches get open-source Nouveau and NVK drivers running on DGX Spark GB10",
+      "source": "Phoronix",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Radeon RX 9070 XT becomes AMD's most popular discrete GPU on Steam",
+      "source": "VideoCardz",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Framework cuts Laptop 13 Pro prices after finding cheaper LPCAMM2 stock",
+      "source": "VideoCardz",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Mistral case study migrates 40,000 lines of legacy Fortran 77 to C++ with AI agents",
+      "source": "Mistral",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "n8n 2.39.0 pre-release adds Instance AI memory, sub-agent sandbox sharing, and source-control API",
+      "source": "n8n",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Hybrid-voice-agent sample shows on-device iOS voice with cloud fallback via Switchboard SDK",
+      "source": "GitHub",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Ambient Context v1.0.0 keeps a local record of your work for AI assistants",
+      "source": "GitHub",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Milan's Bynario raises \u20ac2.1M pre-seed for autonomous AI cybersecurity after exposing Apple flaws",
+      "source": "EU-Startups",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Listen Labs walks away from a $125M Series C to pursue a ~$2B Salesforce acquisition",
+      "source": "TechCrunch",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Kapital raises $125M to push its AI banking platform into the US and Europe",
+      "source": "Cryptobriefing",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Sequoia backs Cymphony's $30M raise for AI-agent security",
+      "source": "TechCrunch",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Meta reportedly agrees to acquire Swedish AI startup Stilla for its business agent",
+      "source": "AIStockWire",
+      "date": "2026-09-10",
+      "issue": 14
     }
   ]
 }
