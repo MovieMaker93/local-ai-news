@@ -2504,6 +2504,234 @@
       "source": "AIStockWire",
       "date": "2026-09-10",
       "issue": 14
+    },
+    {
+      "text": "vLLM 0.29.0 makes Model Runner V2 the default for all models",
+      "source": "GitHub",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "DeepSeek-V4.1-Flash: brand-new MIT-licensed open-weight architecture family",
+      "source": "HuggingFace",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Qualcomm's next Snapdragon chip sharpens its on-device AI push",
+      "source": "Computerworld",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Wiz finds 1 in 10 exposed LiteLLM gateways accept the default sk-1234 key",
+      "source": "Wiz Blog",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Positron AI raises $875M Series C for AI inference hardware",
+      "source": "FinSMEs",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Online draft co-training for speculative decoding in long-context RL post-training",
+      "source": "arXiv",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Forward-free LLM depth pruning via weight redundancy",
+      "source": "arXiv",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "RiLM: parameter-efficient language modeling via geodesic decoding",
+      "source": "arXiv",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "DiffLUT-Net: differentiable training of FPGA LUT networks",
+      "source": "arXiv",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Readable schemas beat fixed keys for SLM vehicle-agent function calls",
+      "source": "arXiv",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 under a permissive license",
+      "source": "Hugging Face",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "AuK: open-source foundational model for speech generation and editing",
+      "source": "X (AK)",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "NeoMME: efficient multimodal-native multilingual encoders (260M/800M)",
+      "source": "Hugging Face",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Qwen ZG: local-first semantic grep for AI agents",
+      "source": "Frontier Models",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Orchestrator: spawn and manage Claude Code instances remotely",
+      "source": "GitHub (Hacker News)",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "almost-cli: BYOK multi-agent coding, local first",
+      "source": "GitHub",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Kryzz AI v1.1: open-sourced local-first Android AI workspace",
+      "source": "GitHub",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Skillctl: audit context cost and conflicts across agent skills",
+      "source": "GitHub (Hacker News)",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "n8n ships 2.38.6 stable with memory-bound source-control push",
+      "source": "n8n changelog",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Community evidence Qwen3.8 was post-trained on GPT-5.5 chain-of-thought",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Single-GPU eval: Qwen3.8-Flash-Next NVFP4 vs Qwen3.8-27B FP8 for agent workloads",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Local-first AI is a systems problem, not a model problem",
+      "source": "derpx06.online",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "A modder brings NVIDIA's unreleased RTX 3070 Ti 16GB to life",
+      "source": "Tom's Hardware",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "RTX 5070 reportedly getting a second variant on the larger GB203 die",
+      "source": "VideoCardz",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Framework finds cheaper LPCAMM2 stock and immediately cuts prices",
+      "source": "VideoCardz",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Radeon RX 9070 XT becomes AMD's most popular discrete GPU on Steam",
+      "source": "VideoCardz",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Harvey raises $550M at a $15.5B valuation, a record for legal AI",
+      "source": "TechCrunch",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Bending Spoons agrees to acquire Miro for $1.36 billion in landmark Italian tech deal",
+      "source": "La Tech Made in Italy",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Off-grid AI power startup TAR raises $120M Series A at ~$1B valuation",
+      "source": "Bloomberg",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "AI research startup Listen Labs scrubbed a $1.5B round for Salesforce talks",
+      "source": "TechCrunch",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Clay raises $115M Series D at $7.1B valuation",
+      "source": "FinSMEs",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Anthropic Economics releases model of AI impact on growth, jobs, and wages by 2030",
+      "source": "X (AnthropicAI)",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Paul Christiano joins OpenAI Foundation Board and Safety Committee",
+      "source": "X (OpenAI)",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Anthropic researcher quits with a stark warning that AI could pose existential risk",
+      "source": "YouTube \u2014 Beyond AI News",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Mistral documents modernizing a 40,000-line Fortran 77 reservoir simulator with AI agents",
+      "source": "Mistral",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "Simon Willison analyzes OpenAI's Navier-Stokes proof approach",
+      "source": "X (simonw)",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "NeoHorse-1 explores recursive self-improvement via agentic post-training",
+      "source": "X (AK)",
+      "date": "2026-09-10",
+      "issue": 14
+    },
+    {
+      "text": "llama.cpp nightly b10894 ships multi-platform macOS and Linux builds",
+      "source": "GitHub",
+      "date": "2026-09-10",
+      "issue": 14
     }
   ]
 }
