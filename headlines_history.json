@@ -2732,6 +2732,192 @@
       "source": "GitHub",
       "date": "2026-09-10",
       "issue": 14
+    },
+    {
+      "text": "Open WebUI discloses 16 CVEs in one batch; OAuth session-hijack flaw rates CVSS 8.1",
+      "source": "Severity Daily",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "System76 Thelio Mira AI fits 192GB of ECC GDDR7 into a $3,299 consumer desktop",
+      "source": "Tech Times",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "n8n patches expression-sandbox escape to worker RCE (CVE-2026-86083) plus two workflow-injection CVEs",
+      "source": "GitLab Advisory Database",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "Hugging Face rebuilds AUTOMATIC1111 on Gradio Workflows for local image generation",
+      "source": "Hugging Face",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "Mistral and Cloudera partner to bring sovereign, specialized AI to enterprise data",
+      "source": "Mistral AI",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "A unified per-token gating family for on-policy distillation",
+      "source": "arXiv",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "SenseNova-U1.5: encoder-free 8B unified visual intelligence with open training code",
+      "source": "HuggingFace",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "LOCUS: task-aware low-rank post-training that cuts output-token cost",
+      "source": "arXiv",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "ZipCodec: ultra-low-frame-rate streaming speech coding on consumer CPUs",
+      "source": "arXiv",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "VikingRAG: token-efficient retrieval over structured documents",
+      "source": "arXiv",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "Nex-N2.5-Pro: Apache-2.0 Qwen3.5-MoE checkpoint refreshed",
+      "source": "HuggingFace",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "Community NVFP4 quantization of DeepSeek-V4.1-Flash lands for local runtimes",
+      "source": "HuggingFace",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "Stroq: a local action firewall for AI coding agents",
+      "source": "GitHub",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "Kern Agent: watch your agent think, step by step",
+      "source": "GitHub",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "Gojo: fully on-device dictation and notch tools for macOS",
+      "source": "Product Hunt",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "GoModel: self-hosted AI gateway as a single Go binary",
+      "source": "Product Hunt",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "Loudkit: local TTS with native ports in five languages",
+      "source": "GitHub",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "RTX 5090 mod: three 8-pin connectors unlock 900W and 3,400 MHz",
+      "source": "Tom's Hardware",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "\u201cYour PC is the solar panel to cloud AI subscriptions\u201d",
+      "source": "PCWorld",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "Local voice brain on Jetson Orin Nano 8GB: llama.cpp vs Ollama throughput benchmarks",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "llama.cpp builds b10897\u2013b10901 add Vulkan small-batch Qwen optimizations and CUDA 13.4.1 WoA builds",
+      "source": "GitHub",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "Bio-inspired probabilistic in-memory computing paper lays groundwork for Bayesian-like learning in analog memories",
+      "source": "arXiv",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "Structural priors from non-language data lower pretraining loss but don't reliably transfer to downstream tasks",
+      "source": "arXiv",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "Cadenya: an agent runtime wired to your own API/MCP servers with Thompson-Sampling variant selection",
+      "source": "Cadenya",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "Charter: a framework for production-safe agents that run on your own infra",
+      "source": "GitHub",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "Ridge: a resource mesh letting agents reach local, Docker, SSH and S3 with scoped delegation",
+      "source": "GitHub",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "OpenMuse: open-source personal agent you deploy yourself, built on OpenComputer Serverless Agents",
+      "source": "GitHub",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "Ayar Labs adds a $150M Series E extension, bringing total financing to $650M at ~$5B for optical AI interconnects",
+      "source": "TechStartups",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "Moonshot AI eyes a dual Hong Kong\u2013Shanghai IPO at ~$50B valuation, targeting a ~$3B raise",
+      "source": "TechStartups",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "L'Espresso's Sette Idee festival brings 98 startups and seven pitch competitions to Milan, September 17\u201318",
+      "source": "Digital-News.it",
+      "date": "2026-09-11",
+      "issue": 15
+    },
+    {
+      "text": "MCPCore: a hosted platform for creating, building and deploying MCP servers with auth and analytics",
+      "source": "MCPCore",
+      "date": "2026-09-11",
+      "issue": 15
     }
   ]
 }
