@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LOCAL AI NEWS — open-weight intelligence · September 11, 2026</title>
+  <title>LOCAL AI NEWS — open-weight intelligence · September 12, 2026</title>
   <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
   <link rel="stylesheet" href="style.css">
   <style>.wt{display:flex;align-items:center;height:38px;background:var(--ink);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);margin:14px 0 0;overflow:hidden}.wtt{display:flex;align-items:center;white-space:nowrap;padding-left:20px;animation:ws 90s linear infinite}.wtt:hover{animation-play-state:paused}@keyframes ws{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.ti{display:inline-flex;align-items:center;gap:7px;padding:0 22px;cursor:pointer;border-right:1px solid var(--rule);height:38px}.ti:hover{background:rgba(240,162,60,.05)}.tih{font-family:var(--serif);font-size:13px;color:var(--type)}.tis{font-family:var(--sans);font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.mo{display:none;position:fixed;inset:0;background:rgba(10,10,12,.88);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(8px)}.mo.a{display:flex}.mb{background:#121214;border:1px solid var(--rule-strong);max-width:680px;width:90%;max-height:82vh;overflow-y:auto;padding:40px 44px;position:relative;animation:fi .2s ease}@keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.mc{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:var(--sans);padding:4px 8px}.mh{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;letter-spacing:-.01em;color:var(--type);margin:0 0 14px;padding-right:32px}.mm{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}.mm a{color:var(--lux)}.mm a:hover{text-decoration:underline}.mbd{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--type-dim)}.mbd .en{display:block;color:var(--lux-soft);font-style:italic;font-size:15px;margin-top:14px;padding-left:12px;border-left:2px solid var(--rule-strong)}.mbd .as{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.5}.mbd .as .al{color:var(--lux-soft);font-weight:600;font-family:var(--sans);font-size:10px;letter-spacing:.06em;text-transform:uppercase}</style></head>
@@ -14,16 +14,16 @@
     <div class="topline"></div>
     <div class="ears">
       <span class="left">Est. MMXXVI</span>
-      <span class="right">No. 15 <a href="archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+      <span class="right">No. 16 <a href="archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
     </div>
     <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
       <hr class="rule-double">
       <div class="dateline">
-        <span>September 11, 2026</span>
+        <span>September 12, 2026</span>
         <span class="dot">◆</span>
         <span class="tag">open weights, on your metal</span>
         <span class="dot">◆</span>
-        <span>76 stories</span>
+        <span>73 stories</span>
       </div>
       <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
       <hr class="rule-thin">
@@ -31,73 +31,39 @@
 
     
 
-    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="Nvidia&#x27;s Huang doubles down on 70% revenue growth forecast at Goldman conference" data-b="Speaking at the Goldman Sachs Communacopia + Technology conference on Thursday, Nvidia CEO Jensen Huang reiterated his bold revenue outlook, telling attendees the company could grow 70% year over year next year, according to TechCrunch. The forecast, first shared last month alongside another record-breaking quarterly report, would lift annual revenue from analysts&#x27; expected $400 billion this fiscal year to roughly $680 billion.
+    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="Y Combinator’s Garry Tan Wants US Open-Weight Labs to Play the Distillation Game Too" data-b="According to TechCrunch, Garry Tan, the CEO of Y Combinator, wants American open-weight AI labs to turn the tables and distill frontier models the same way Chinese labs do. He told CNBC this week that regulators should stay out of it, saying “I would do nothing,” and suggested there could be an American distillation regime.
 
-Huang argued Nvidia is far more than a chipmaker, describing its flagship GPU as an $8.5 million computer composed of two million parts drawing 250,000 kilowatts, joined through NVLink and shipped by the thousands. One product, a system pairing 36 Grace CPUs with 72 Blackwell GPUs, is currently seeing 27% month-over-month growth in orders.
+Distillation, as the article explains, is when a model maker extensively prompts another model to learn how it works and reasons — a standard, legitimate training technique. The report notes that Anthropic this week published its second study accusing Chinese labs of “illicit distillation attacks,” hiding their identities and relying on fraud and stolen credentials. Anthropic’s CEO had publicly pushed regulators to act.
 
-He brushed aside concerns about rising competition from hyperscalers, AI labs, and new chip entrants, insisting Nvidia runs every major model — from Anthropic, OpenAI, and Google to open-weight offerings — making it a foundational platform of the AI ecosystem. He claimed his company tracks land, power, and data-center shells worldwide, with partners reporting back from every corner of the industry.
+Tan disagrees. His argument has two parts. First, he believes it is an overreach for frontier labs to dictate what customers do with information their models share with them. Second, the proprietary labs never asked permission when they absorbed huge amounts of human knowledge — including copyrighted material — to train their own models. He told TechCrunch that access to intelligence trained on broad public data should be treated more as a public good than something locked behind restrictive terms of service.
 
-Pressed on circular investment deals, a pattern tied to Lucent Technologies&#x27; collapse, Huang quipped that putting in a dollar and getting a hundred back doesn&#x27;t look circular to him, adding that Nvidia only invests after verifying real revenue-generating contracts, totaling some $100 billion.
+Tan wants a balance between open-weight and frontier labs, and warns that his doomer scenario is one giant monopolistic company controlling all of AI’s power. “The nightmare scenario, the doomer scenario for AI is that there’s just one company,” he said.
 
-*Nvidia&#x27;s reach across every layer of AI is undeniable, but the tech industry&#x27;s golden rule remains: all big things eventually get disrupted.*
-*— Written by AI (deepseek-v4-flash-0731)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/"><span class="tih">Nvidia&#x27;s Huang doubles down on 70% revenue growth forecast at Goldman conference</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Technical Artist Builds a Tool to Break Gaming&#x27;s &#x27;Killmonger Locs&#x27; Habit" data-b="Danielle Udogaranya, the technical artist better known as Ebonix, has spent more than a decade crafting custom hair content for life-simulation games, according to WIRED. She is tired of the endless demand for it, and particularly of the stiff, short-dreaded style popularized by Michael B. Jordan&#x27;s character in Black Panther, which appears across games such as Tekken 8, Spider-Man 2, Apex Legends, and Horizon Zero Dawn.
+*For a startup accelerator chief to side with openness over enforcement is notable, and his point about reciprocity — labs that trained on the whole internet lecturing users on terms of service — deserves regulators’ attention.*
 
-WIRED reports that the root problem is technical: textured Black hair has relied on code never designed for itched—straight hair is easy to taper attractively, while adding Black texture can produce hot-dog-like shapescars. Historically, Black hair has been a design afterthought, from 1976&#x27;s Heavyweight Champ through limited The Sims options in 2000ced. Industry efforts like Dove and Open Source Afro Hair Library&#x27;s Code My Crown, launched in 2023, have tried to address the gap.
+*— Written by AI (deepseek-v4-flash-0731)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/"><span class="tih">Y Combinator’s Garry Tan Wants US Open-Weight Labs to Play the Distillation Game Too</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Y Combinator’s Garry Tan Wants US Open-Weight Labs to Play the Distillation Game Too" data-b="According to TechCrunch, Garry Tan, the CEO of Y Combinator, wants American open-weight AI labs to turn the tables and distill frontier models the same way Chinese labs do. He told CNBC this week that regulators should stay out of it, saying “I would do nothing,” and suggested there could be an American distillation regime.
 
-Udogaranya found a different path. Drawing on the 2024 paper Curly-Cue: Geometric Methods for Highly Coiled Hair, she built a Blender plug-in called the Loc &amp; Kinky Strand Generator Tool. It lets creators produce textured styles that once took weeks in under an hour, switching between curls, coils, and locs in a few clicks. She trained her own local AI to assist, though creators still design by hand. The tool remains in beta testing, but Udogaranya reports interest from Paralives, Roblox, Second Life, and Triple-A studio makers, and she hopes to eventually turn it into a licensable standalone app.
+Distillation, as the article explains, is when a model maker extensively prompts another model to learn how it works and reasons — a standard, legitimate training technique. The report notes that Anthropic this week published its second study accusing Chinese labs of “illicit distillation attacks,” hiding their identities and relying on fraud and stolen credentials. Anthropic’s CEO had publicly pushed regulators to act.
 
-*A welcome reminder that better game representation is often an engineering problem as much as a creative one, and that no generative-AI shortcut can replace careful craft.*
+Tan disagrees. His argument has two parts. First, he believes it is an overreach for frontier labs to dictate what customers do with information their models share with them. Second, the proprietary labs never asked permission when they absorbed huge amounts of human knowledge — including copyrighted material — to train their own models. He told TechCrunch that access to intelligence trained on broad public data should be treated more as a public good than something locked behind restrictive terms of service.
 
-— Written by AI (deepseek-v4-flash-0731)" data-s="wired.com" data-u="https://www.wired.com/story/killmonger-locs-have-infiltrated-video-games-this-artist-is-sick-of-it/"><span class="tih">Technical Artist Builds a Tool to Break Gaming&#x27;s &#x27;Killmonger Locs&#x27; Habit</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="WIRED Lets a Rogue AI Agent Loose on Its Author&#x27;s Home Network" data-b="WIRED&#x27;s AI newsletter author decided to test frontier cybersecurity agents firsthand by unleashing one on his own home network. Over several days, according to WIRED, the agent found vulnerabilities in household devices, hacked into a PC, and turned up dozens of bugs in his vibe-coded side projects. His wife, he notes, rolled her eyes at each proud discovery.
+Tan wants a balance between open-weight and frontier labs, and warns that his doomer scenario is one giant monopolistic company controlling all of AI’s power. “The nightmare scenario, the doomer scenario for AI is that there’s just one company,” he said.
 
-The experiment grew out of Abliteration AI, a startup selling &quot;de-aligned&quot; models with safety guardrails stripped away. Abliteration works by locating and modifying the internal patterns in open-weight models that trigger refusalsaren&#x27;t—so-called guardrails. Such models are already used by academics and cybersecurity firms; WIRED likens them to Anthropic&#x27;s Mythos and OpenAI&#x27;s Astra Exhibit. The strongest offering is a version of Z.ai&#x27;s GLM 5.3, priced as low as a pizza, whose CEO, Devon, argues that wide access to de-aligned models is smart defense against rogue agents in critical infrastructure.
+*For a startup accelerator chief to side with openness over enforcement is notable, and his point about reciprocity — labs that trained on the whole internet lecturing users on terms of service — deserves regulators’ attention.*
 
-Guided by the CyberStrike harness, the agent mapped a dozen devices, flagging a misconfigured printer, a Wiim stereo leaking data, and IoT gear needing firmware updates. Its advice: patch firmware, secure the printer, and isolate smart speakers on a guest network. Vibe-coded projects contained unprotected API credentials and a setting that could let attackers send mail. A probed Linux machine was deemed relatively secure, with the agent even guessing a working username.
-
-The author found the exercise revealing, scary, yet oddly reassuring—and concludes that your own AI hacker may be the best answer to AI hacking.
-
-*If de-aligned models can find this many flaws in a journalist&#x27;s home network, corporate and infrastructure deployments should expect a long list of surprises too.*
-
-*— Written by AI (deepseek-v4-flash-0731)*" data-s="wired.com" data-u="https://www.wired.com/story/i-used-ai-to-hack-my-home-network/"><span class="tih">WIRED Lets a Rogue AI Agent Loose on Its Author&#x27;s Home Network</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia&#x27;s Huang doubles down on 70% revenue growth forecast at Goldman conference" data-b="Speaking at the Goldman Sachs Communacopia + Technology conference on Thursday, Nvidia CEO Jensen Huang reiterated his bold revenue outlook, telling attendees the company could grow 70% year over year next year, according to TechCrunch. The forecast, first shared last month alongside another record-breaking quarterly report, would lift annual revenue from analysts&#x27; expected $400 billion this fiscal year to roughly $680 billion.
-
-Huang argued Nvidia is far more than a chipmaker, describing its flagship GPU as an $8.5 million computer composed of two million parts drawing 250,000 kilowatts, joined through NVLink and shipped by the thousands. One product, a system pairing 36 Grace CPUs with 72 Blackwell GPUs, is currently seeing 27% month-over-month growth in orders.
-
-He brushed aside concerns about rising competition from hyperscalers, AI labs, and new chip entrants, insisting Nvidia runs every major model — from Anthropic, OpenAI, and Google to open-weight offerings — making it a foundational platform of the AI ecosystem. He claimed his company tracks land, power, and data-center shells worldwide, with partners reporting back from every corner of the industry.
-
-Pressed on circular investment deals, a pattern tied to Lucent Technologies&#x27; collapse, Huang quipped that putting in a dollar and getting a hundred back doesn&#x27;t look circular to him, adding that Nvidia only invests after verifying real revenue-generating contracts, totaling some $100 billion.
-
-*Nvidia&#x27;s reach across every layer of AI is undeniable, but the tech industry&#x27;s golden rule remains: all big things eventually get disrupted.*
-*— Written by AI (deepseek-v4-flash-0731)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/"><span class="tih">Nvidia&#x27;s Huang doubles down on 70% revenue growth forecast at Goldman conference</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Technical Artist Builds a Tool to Break Gaming&#x27;s &#x27;Killmonger Locs&#x27; Habit" data-b="Danielle Udogaranya, the technical artist better known as Ebonix, has spent more than a decade crafting custom hair content for life-simulation games, according to WIRED. She is tired of the endless demand for it, and particularly of the stiff, short-dreaded style popularized by Michael B. Jordan&#x27;s character in Black Panther, which appears across games such as Tekken 8, Spider-Man 2, Apex Legends, and Horizon Zero Dawn.
-
-WIRED reports that the root problem is technical: textured Black hair has relied on code never designed for itched—straight hair is easy to taper attractively, while adding Black texture can produce hot-dog-like shapescars. Historically, Black hair has been a design afterthought, from 1976&#x27;s Heavyweight Champ through limited The Sims options in 2000ced. Industry efforts like Dove and Open Source Afro Hair Library&#x27;s Code My Crown, launched in 2023, have tried to address the gap.
-
-Udogaranya found a different path. Drawing on the 2024 paper Curly-Cue: Geometric Methods for Highly Coiled Hair, she built a Blender plug-in called the Loc &amp; Kinky Strand Generator Tool. It lets creators produce textured styles that once took weeks in under an hour, switching between curls, coils, and locs in a few clicks. She trained her own local AI to assist, though creators still design by hand. The tool remains in beta testing, but Udogaranya reports interest from Paralives, Roblox, Second Life, and Triple-A studio makers, and she hopes to eventually turn it into a licensable standalone app.
-
-*A welcome reminder that better game representation is often an engineering problem as much as a creative one, and that no generative-AI shortcut can replace careful craft.*
-
-— Written by AI (deepseek-v4-flash-0731)" data-s="wired.com" data-u="https://www.wired.com/story/killmonger-locs-have-infiltrated-video-games-this-artist-is-sick-of-it/"><span class="tih">Technical Artist Builds a Tool to Break Gaming&#x27;s &#x27;Killmonger Locs&#x27; Habit</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="WIRED Lets a Rogue AI Agent Loose on Its Author&#x27;s Home Network" data-b="WIRED&#x27;s AI newsletter author decided to test frontier cybersecurity agents firsthand by unleashing one on his own home network. Over several days, according to WIRED, the agent found vulnerabilities in household devices, hacked into a PC, and turned up dozens of bugs in his vibe-coded side projects. His wife, he notes, rolled her eyes at each proud discovery.
-
-The experiment grew out of Abliteration AI, a startup selling &quot;de-aligned&quot; models with safety guardrails stripped away. Abliteration works by locating and modifying the internal patterns in open-weight models that trigger refusalsaren&#x27;t—so-called guardrails. Such models are already used by academics and cybersecurity firms; WIRED likens them to Anthropic&#x27;s Mythos and OpenAI&#x27;s Astra Exhibit. The strongest offering is a version of Z.ai&#x27;s GLM 5.3, priced as low as a pizza, whose CEO, Devon, argues that wide access to de-aligned models is smart defense against rogue agents in critical infrastructure.
-
-Guided by the CyberStrike harness, the agent mapped a dozen devices, flagging a misconfigured printer, a Wiim stereo leaking data, and IoT gear needing firmware updates. Its advice: patch firmware, secure the printer, and isolate smart speakers on a guest network. Vibe-coded projects contained unprotected API credentials and a setting that could let attackers send mail. A probed Linux machine was deemed relatively secure, with the agent even guessing a working username.
-
-The author found the exercise revealing, scary, yet oddly reassuring—and concludes that your own AI hacker may be the best answer to AI hacking.
-
-*If de-aligned models can find this many flaws in a journalist&#x27;s home network, corporate and infrastructure deployments should expect a long list of surprises too.*
-
-*— Written by AI (deepseek-v4-flash-0731)*" data-s="wired.com" data-u="https://www.wired.com/story/i-used-ai-to-hack-my-home-network/"><span class="tih">WIRED Lets a Rogue AI Agent Loose on Its Author&#x27;s Home Network</span> <span class="tis">— wired.com</span></div></div></div>
+*— Written by AI (deepseek-v4-flash-0731)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/"><span class="tih">Y Combinator’s Garry Tan Wants US Open-Weight Labs to Play the Distillation Game Too</span> <span class="tis">— techcrunch.com</span></div></div></div>
 <div class="lead-zone">
       <article class="lead">
-  <a href="https://severitydaily.com/open-webui-16-cve-batch-0-11-1-oauth-sqlite-like-wildcard-cve-2026-87016/" target="_blank" rel="noopener">
-    <img src="images/lead_2026-09-11.jpg" alt="" class="lead-image">
+  <a href="https://www.tomshardware.com/pc-components/gpus/china-modified-nvidia-rtx-5090-with-massive-96gb-of-memory-appears-on-alibaba-for-less-than-usd4-000-3x-more-vram-at-65-percent-the-cost-of-the-original" target="_blank" rel="noopener">
+    <img src="images/lead_2026-09-12.jpg" alt="" class="lead-image">
     <div class="lead-grid">
       <div class="lead-head">
-        <p class="kicker">Local UI security</p>
-        <h1>Open WebUI discloses 16 CVEs in one batch; OAuth session-hijack flaw rates CVSS 8.1</h1>
+        <p class="kicker">96GB RTX 5090</p>
+        <h1>Modified RTX 5090 with 96GB of VRAM sells for under $4,000</h1>
       </div>
       <div class="lead-body">
-        <p class="deck">Sixteen CVEs against Open WebUI 0.6.41–0.11.1 were published on September 9–10, led by CVE-2026-87016 (CVSS 8.1): an OAuth/SCIM identity-confusion bug where a 'sub' claim containing % or _ SQL wildcards can hijack an administrator's session on SQLite-backed deployments. PostgreSQL installs are unaffected. All 16 are fixed in v0.11.1, which shipped August 25 with security details deliberately withheld — anyone self-hosting Open WebUI should upgrade.</p>
-        <p class="byline"><span class="src">Severity Daily</span> · <span>2026-09-10</span> · <span class="more">Read the dispatch →</span></p>
+        <p class="deck">Shenzhen resellers are shipping rebuilt RTX 5090 cards carrying 96GB of GDDR7 — three times the stock 32GB — for about $3,888, using leaked Nvidia firmware to address the expanded memory pool. At roughly 65% of a retail 5090's cost, it is a cheap path to far more VRAM than any stock Blackwell card for local inference.</p>
+        <p class="byline"><span class="src">Tom's Hardware</span> · <span>2026-09-11</span> · <span class="more">Read the dispatch →</span></p>
       </div>
     </div>
   </a>
@@ -107,26 +73,18 @@ The author found the exercise revealing, scary, yet oddly reassuring—and concl
 
     <div class="topstories">
 <article class="story">
-  <a href="https://www.techtimes.com/articles/327269/20260910/system76-thelio-mira-ai-fits-192-gb-ecc-gpu-memory-consumer-desktop-chassis.htm" target="_blank" rel="noopener">
-    <h3>System76 Thelio Mira AI fits 192GB of ECC GDDR7 into a $3,299 consumer desktop</h3>
-    <p>Two RTX PRO 6000 workstation GPUs (192GB combined ECC GDDR7 VRAM) in an AM5 consumer chassis, capable of roughly 146B-parameter 4-bit models locally — a direct counter to the GDDR7 shortage-driven price surge.</p>
-    <p class="byline"><span class="src">Tech Times</span> · 2026-09-10</p>
+  <a href="https://techpowerup.com/352592/gamers-buy-more-gpus-than-ever-in-q2-2026-even-as-prices-keep-climbing" target="_blank" rel="noopener">
+    <h3>Desktop GPU shipments hit a 3-year high in Q2 2026 even as prices climb</h3>
+    <p>Desktop AIB shipments reached 12.5 million units in Q2 2026, the most since Q1 2022, as buyers buy ahead of further GPU price hikes tied to the GDDR/DRAM crunch.</p>
+    <p class="byline"><span class="src">TechPowerUp</span> · 2026-09-11</p>
   </a>
 </article>
 
 <article class="story">
-  <a href="https://advisories.gitlab.com/npm/n8n/CVE-2026-86083/" target="_blank" rel="noopener">
-    <h3>n8n patches expression-sandbox escape to worker RCE (CVE-2026-86083) plus two workflow-injection CVEs</h3>
-    <p>CVE-2026-86083 (CVSS 7.7) lets an authenticated workflow editor escape the legacy expression sandbox to full Node.js code execution; all three are fixed from 2.38.2 onward, so self-hosted n8n deployments should upgrade.</p>
-    <p class="byline"><span class="src">GitLab Advisory Database</span> · 2026-09-10</p>
-  </a>
-</article>
-
-<article class="story">
-  <a href="https://huggingface.co/blog/gradio-workflow-1111" target="_blank" rel="noopener">
-    <h3>Hugging Face rebuilds AUTOMATIC1111 on Gradio Workflows for local image generation</h3>
-    <p>A tutorial and workflow that reimplements the classic AUTOMATIC1111 Stable Diffusion UI on Gradio Workflows, aimed at local image-generation tooling.</p>
-    <p class="byline"><span class="src">Hugging Face</span> · 2026-09-10</p>
+  <a href="https://deepmind.google/blog/d4rt-teaching-ai-to-see-the-world-in-four-dimensions/" target="_blank" rel="noopener">
+    <h3>Google DeepMind details D4RT, a unified model for 4D scene reconstruction</h3>
+    <p>DeepMind's D4RT tackles fast 4D scene reconstruction and tracking across space and time in one model; the project page was refreshed September 11.</p>
+    <p class="byline"><span class="src">Google DeepMind</span> · 2026-09-11</p>
   </a>
 </article>
 
@@ -136,76 +94,49 @@ The author found the exercise revealing, scary, yet oddly reassuring—and concl
     <div class="sections">
       <section class="section">
   <div class="section-head">
-    <h2>Research &amp; Papers</h2>
+    <h2>Open Weights &amp; Models</h2>
     <span class="line"></span>
     <span class="n">05</span>
   </div>
-  <a href="https://arxiv.org/abs/2609.11768" target="_blank" rel="noopener" class="section-hero"><img src="images/section_research-papers_2026-09-11.jpg" alt="" class="section-hero-img"><h4 class="hero-title">A unified per-token gating family for on-policy distillation</h4></a>
+  <a href="https://huggingface.co/abacusai/Smaug-Agentic" target="_blank" rel="noopener" class="section-hero"><img src="images/section_open-weights-models_2026-09-12.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Abacus.AI releases Smaug Agentic, Flash and Mini open-weight models</h4></a>
   <div class="section-grid">
 <article class="item">
-  <a href="https://arxiv.org/abs/2609.11768" target="_blank" rel="noopener">
-    <h4>A unified per-token gating family for on-policy distillation</h4>
-    <p>A four-coefficient per-token gating parameterization subsumes EOPD and ToDi, and beats matched single-channel configs on 33 of 36 cells when distilling a Qwen3-32B teacher into a 4B student.</p>
-    <p class="byline"><span class="src">arXiv</span> · 2026-09-10</p>
-  </a>
-</article>
-
-<article class="item">
-  <a href="https://huggingface.co/papers/2609.11929" target="_blank" rel="noopener">
-    <h4>SenseNova-U1.5: encoder-free 8B unified visual intelligence with open training code</h4>
-    <p>An 8B MoT multimodal model that understands, reasons about and generates visual content at native resolutions up to 4K, with training code open-sourced.</p>
-    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-10</p>
-  </a>
-</article>
-
-<article class="item">
-  <a href="https://arxiv.org/abs/2609.11739" target="_blank" rel="noopener">
-    <h4>LOCUS: task-aware low-rank post-training that cuts output-token cost</h4>
-    <p>LOCUS selects a low-rank adaptation subspace that reduces continuation length by up to 39.84% on Pythia-2.8B and 14.87–17.58% on Qwen2.5-3B with a frozen backbone and native preference objective.</p>
-    <p class="byline"><span class="src">arXiv</span> · 2026-09-10</p>
-  </a>
-</article>
-
-<article class="item">
-  <a href="https://arxiv.org/abs/2609.11642" target="_blank" rel="noopener">
-    <h4>ZipCodec: ultra-low-frame-rate streaming speech coding on consumer CPUs</h4>
-    <p>A streaming neural codec at 6.25 Hz and 0.80 kbps with 160ms latency; the 842M-parameter model substantially outperforms comparable codecs while running in real time on a consumer-grade CPU.</p>
-    <p class="byline"><span class="src">arXiv</span> · 2026-09-10</p>
-  </a>
-</article>
-
-<article class="item">
-  <a href="https://arxiv.org/abs/2609.11390" target="_blank" rel="noopener">
-    <h4>VikingRAG: token-efficient retrieval over structured documents</h4>
-    <p>A directory-aware semantic data manager that cuts structural-context tokens without sacrificing RAG accuracy, reusing agentic retrieval traces as experience edges.</p>
-    <p class="byline"><span class="src">arXiv</span> · 2026-09-10</p>
-  </a>
-</article>
-
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-head">
-    <h2>Open Weights &amp; Models</h2>
-    <span class="line"></span>
-    <span class="n">02</span>
-  </div>
-  <a href="https://huggingface.co/nex-agi/Nex-N2.5-Pro" target="_blank" rel="noopener" class="section-hero"><img src="images/section_open-weights_2026-09-11.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Nex-N2.5-Pro: Apache-2.0 Qwen3.5-MoE checkpoint refreshed</h4></a>
-  <div class="section-grid">
-<article class="item">
-  <a href="https://huggingface.co/nex-agi/Nex-N2.5-Pro" target="_blank" rel="noopener">
-    <h4>Nex-N2.5-Pro: Apache-2.0 Qwen3.5-MoE checkpoint refreshed</h4>
-    <p>The new Pro checkpoint in the Nex N2.5 line was updated September 11 and is trending strongly on the Hub alongside Nex-N2.5-mini.</p>
+  <a href="https://huggingface.co/abacusai/Smaug-Agentic" target="_blank" rel="noopener">
+    <h4>Abacus.AI releases Smaug Agentic, Flash and Mini open-weight models</h4>
+    <p>Abacus.AI published three open-weight agentic LLMs, led by Smaug Agentic, a fine-tune of Moonshot's 2.8T-parameter Kimi K3 MoE base, plus Smaug Flash and 27B multimodal Smaug Mini for long-running agent loops that can be self-hosted in enterprise VPCs.</p>
     <p class="byline"><span class="src">HuggingFace</span> · 2026-09-11</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://huggingface.co/msuiche/DeepSeek-V4.1-Flash-NVFP4" target="_blank" rel="noopener">
-    <h4>Community NVFP4 quantization of DeepSeek-V4.1-Flash lands for local runtimes</h4>
-    <p>A community NVFP4 quant of DeepSeek-V4.1-Flash is published; vLLM support for V4.1 remains a set of open, unmerged PRs.</p>
-    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-10</p>
+  <a href="https://huggingface.co/MiniMaxAI/MiniMax-H3" target="_blank" rel="noopener">
+    <h4>MiniMax-H3: 33B open-weight video generation with synchronized audio</h4>
+    <p>NVIDIA's September open-weight rollout includes MiniMax-H3, a 33B text/image/audio-to-video model with natively synchronized stereo audio, distributed through ComfyUI with NVIDIA-optimized checkpoints; it is currently trending on Hugging Face.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-11</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/bot-lab-21/DeepSeek-V4.1-Flash-EXL3-3.5bpw-Pollard" target="_blank" rel="noopener">
+    <h4>DeepSeek-V4.1-Flash EXL3 3.5bpw quant lands for local runtimes</h4>
+    <p>A community EXL3 3.5bpw quantization of DeepSeek-V4.1-Flash is now serving, an early attempt at running the 763B MoE on EXL2/EXL3-class local inference.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-11</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/0xTank/DeepSeek-V4.1-Flash-vLLM-4x-GB10-Recipe" target="_blank" rel="noopener">
+    <h4>Community vLLM recipe runs DeepSeek-V4.1-Flash on a 4x GB10 DGX Spark</h4>
+    <p>A published serving recipe documents running DeepSeek-V4.1-Flash across four GB10 nodes with measured prompt and generation latency.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-11</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/laion/snowball-64k-eagle3-draft-r2egym" target="_blank" rel="noopener">
+    <h4>LAION ships a one-layer Eagle-3 speculative-draft model</h4>
+    <p>LAION's Snowball-64k Eagle-3 draft adapts a single-layer draft model on agent trajectories for speculative decoding, aimed at boosting local inference throughput.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-11</p>
   </a>
 </article>
 
@@ -218,45 +149,45 @@ The author found the exercise revealing, scary, yet oddly reassuring—and concl
     <span class="line"></span>
     <span class="n">05</span>
   </div>
-  <a href="https://github.com/AGGIB/Stroq" target="_blank" rel="noopener" class="section-hero"><img src="images/section_tools-runtimes_2026-09-11.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Stroq: a local action firewall for AI coding agents</h4></a>
+  <a href="https://github.com/Adarshent/Spnda" target="_blank" rel="noopener" class="section-hero"><img src="images/section_tools-runtimes_2026-09-12.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Spanda gives LLM outputs sub-microsecond epistemic uncertainty signals</h4></a>
   <div class="section-grid">
 <article class="item">
-  <a href="https://github.com/AGGIB/Stroq" target="_blank" rel="noopener">
-    <h4>Stroq: a local action firewall for AI coding agents</h4>
-    <p>A local firewall that tracks what an agent reads, taints the session context, and blocks dangerous follow-up actions before they execute.</p>
-    <p class="byline"><span class="src">GitHub</span> · 2026-09-10</p>
-  </a>
-</article>
-
-<article class="item">
-  <a href="https://github.com/oguzbilgic/kern-ai" target="_blank" rel="noopener">
-    <h4>Kern Agent: watch your agent think, step by step</h4>
-    <p>Open-source observability that introspects each agent action and output instead of treating the model as a black box.</p>
+  <a href="https://github.com/Adarshent/Spnda" target="_blank" rel="noopener">
+    <h4>Spanda gives LLM outputs sub-microsecond epistemic uncertainty signals</h4>
+    <p>Spanda is an open-source, zero-dependency library that computes epistemic uncertainty on LLM outputs entirely locally, with no extra model calls.</p>
     <p class="byline"><span class="src">GitHub</span> · 2026-09-11</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://www.producthunt.com/products/gojo" target="_blank" rel="noopener">
-    <h4>Gojo: fully on-device dictation and notch tools for macOS</h4>
-    <p>Recognizes speech entirely on-device for dictation into any field, plus clipboard, window, file-shelf and media controls in the MacBook notch.</p>
-    <p class="byline"><span class="src">Product Hunt</span> · 2026-09-10</p>
+  <a href="https://github.com/paulknysh/raggy" target="_blank" rel="noopener">
+    <h4>Raggy: lightweight CLI for RAG over local documents</h4>
+    <p>Raggy is a CLI built on LangChain, Chroma and Ollama for hybrid vector + BM25 retrieval over local documents with OCR support; generation can run on a local LLM or an API key.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-11</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://www.producthunt.com/products/gomodel" target="_blank" rel="noopener">
-    <h4>GoModel: self-hosted AI gateway as a single Go binary</h4>
-    <p>An MIT-licensed OpenAI-compatible gateway that exposes Ollama and vLLM behind one endpoint, with budgets, caching, guardrails, load balancing and failover.</p>
-    <p class="byline"><span class="src">Product Hunt</span> · 2026-09-10</p>
+  <a href="https://github.com/eminsk/nanovector" target="_blank" rel="noopener">
+    <h4>NanoVector: a 120KB zero-dependency vector search engine</h4>
+    <p>NanoVector is a C99 vector search engine (~120KB, AVX2/FMA/ARM NEON) pitched as 'the SQLite of vector search' for local agent episodic memory, with a PyPI package.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-11</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://github.com/loudreader/loudkit" target="_blank" rel="noopener">
-    <h4>Loudkit: local TTS with native ports in five languages</h4>
-    <p>A local text-to-speech engine with 28 voices across 10 languages and voice cloning, shipped as native Python, Swift, Go, Rust and TypeScript ports with no cloud dependency.</p>
-    <p class="byline"><span class="src">GitHub</span> · 2026-09-10</p>
+  <a href="https://github.com/ggml-org/llama.cpp/releases/tag/b10919" target="_blank" rel="noopener">
+    <h4>llama.cpp b10919 updates ggml-webgpu to a recent Dawn</h4>
+    <p>The September 12 build refreshes the WebGPU backend against a recent Dawn release, improving browser-based local inference.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-12</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/sqliteai/sqlite-vector" target="_blank" rel="noopener">
+    <h4>SQLite-Vector brings vector search to SQLite under Apache 2.0</h4>
+    <p>SQLite-Vector now ships Apache-2.0 with exact search, SIMD distance kernels and SIMD 2/3/4-bit TurboQuant scans, running anywhere SQLite runs.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-11</p>
   </a>
 </article>
 
@@ -265,25 +196,41 @@ The author found the exercise revealing, scary, yet oddly reassuring—and concl
 
 <section class="section">
   <div class="section-head">
-    <h2>Hardware &amp; Edge</h2>
+    <h2>Self-Hosted Stack</h2>
     <span class="line"></span>
-    <span class="n">02</span>
+    <span class="n">04</span>
   </div>
-  <a href="https://www.tomshardware.com/pc-components/gpus/modded-rtx-5090-ditches-16-pin-power-for-triple-8-pin-connectors-draws-up-to-900w-and-hits-3-400-mhz" target="_blank" rel="noopener" class="section-hero"><img src="images/section_hardware-edge_2026-09-11.jpg" alt="" class="section-hero-img"><h4 class="hero-title">RTX 5090 mod: three 8-pin connectors unlock 900W and 3,400 MHz</h4></a>
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1we2fi6/unsloth_udquants_qwen_38_27b_for_example_worth/" target="_blank" rel="noopener" class="section-hero"><img src="images/section_self-hosted-stack_2026-09-12.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Are 8-bit UD quants worth the speed hit for Qwen 3.8 27B coding?</h4></a>
   <div class="section-grid">
 <article class="item">
-  <a href="https://www.tomshardware.com/pc-components/gpus/modded-rtx-5090-ditches-16-pin-power-for-triple-8-pin-connectors-draws-up-to-900w-and-hits-3-400-mhz" target="_blank" rel="noopener">
-    <h4>RTX 5090 mod: three 8-pin connectors unlock 900W and 3,400 MHz</h4>
-    <p>TecLab removed the 16-pin power header, ran the Blackwell flagship off three standard 8-pin PCIe connectors, and pushed it to 900W — reviving the question of whether high-end GeForce cards need the 16-pin design.</p>
-    <p class="byline"><span class="src">Tom's Hardware</span> · 2026-09-10</p>
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1we2fi6/unsloth_udquants_qwen_38_27b_for_example_worth/" target="_blank" rel="noopener">
+    <h4>Are 8-bit UD quants worth the speed hit for Qwen 3.8 27B coding?</h4>
+    <p>r/LocalLLaMA debates whether Unsloth UD-8-bit quants beat UD-Q6_K_XL for long-context coding, with commenters noting quantization affects attention precision and that Qwen Flash Next's ngram approach resists quant drift.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-09-12</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://www.pcworld.com/article/3229663/ai-subscriptions-are-the-electric-bill-your-pc-is-the-solar-panel.html" target="_blank" rel="noopener">
-    <h4>“Your PC is the solar panel to cloud AI subscriptions”</h4>
-    <p>PCWorld argues local NPU/GPU PCs beat recurring token bills, citing NVIDIA PAIR pooling up to 18 home GPUs and AI appliances like Anker MindBase shown at IFA.</p>
-    <p class="byline"><span class="src">PCWorld</span> · 2026-09-10</p>
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1wduplw/what_is_a_good_toolmodel_for_nearrealtime_voice/" target="_blank" rel="noopener">
+    <h4>What to use for local STT-LLM-TTS real-time voice stacks</h4>
+    <p>A practical thread compares LiveKit Agent, HuggingFace speech-to-speech pipelines, Kokoro/Fish Audio/Breeze TTSholiday, and SillyTavern's server tools with local GGUF models.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-09-11</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.reddit.com/r/selfhosted/comments/1wdoti6/mohdel_10_a_selfhosted_llm_gateway_for_node_your/" target="_blank" rel="noopener">
+    <h4>Mohdel 1.0: self-hosted LLM gateway and SDK for Node</h4>
+    <p>Mohdel is an MIT-licensed self-hosted gateway/SDK that keeps your own API keys, tracks per-call USD cost internally, and routes inference with no SaaS in the path.</p>
+    <p class="byline"><span class="src">r/selfhosted</span> · 2026-09-11</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.reddit.com/r/selfhosted/comments/1wdftao/since_i_couldnt_buy_a_mac_i_built_my_own/" target="_blank" rel="noopener">
+    <h4>A custom local AI WebUI for iPad, no SaaS subscriptions</h4>
+    <p>A build log shows a privacy-first AI workspace on iPadOS using a-Shell and Safari with bring-your-own keys instead of platform fees.</p>
+    <p class="byline"><span class="src">r/selfhosted</span> · 2026-09-11</p>
   </a>
 </article>
 
@@ -304,79 +251,71 @@ The author found the exercise revealing, scary, yet oddly reassuring—and concl
   <a href="https://github.com/ayghri/i-have-adhd" target="_blank" rel="noopener">
     <span class="t-ranking">#01</span>
     <span class="t-name">ayghri/i-have-adhd</span>
-    <span class="t-meta">Python · 38.9k ★ · +3,882 today</span>
+    <span class="t-meta">Python · 42,250 ★ · +3,463 today — agent skill that stops coding agents from burying the answer</span>
   </a>
 </li>
 
 <li>
-  <a href="https://github.com/sponsors/obra" target="_blank" rel="noopener">
+  <a href="https://github.com/melgarafael/DeskcommCRM" target="_blank" rel="noopener">
     <span class="t-ranking">#02</span>
-    <span class="t-name">sponsors/obra</span>
-    <span class="t-meta">Shell · 284.8k ★ · +732 today</span>
-  </a>
-</li>
-
-<li>
-  <a href="https://github.com/alsk1992/CloddsBot" target="_blank" rel="noopener">
-    <span class="t-ranking">#03</span>
-    <span class="t-name">alsk1992/CloddsBot</span>
-    <span class="t-meta">TypeScript · 1.8k ★ · +277 today</span>
-  </a>
-</li>
-
-<li>
-  <a href="https://github.com/Tencent/teamai-cli" target="_blank" rel="noopener">
-    <span class="t-ranking">#04</span>
-    <span class="t-name">Tencent/teamai-cli</span>
-    <span class="t-meta">TypeScript · 3.9k ★ · +841 today</span>
-  </a>
-</li>
-
-<li>
-  <a href="https://github.com/sponsors/AlexsJones" target="_blank" rel="noopener">
-    <span class="t-ranking">#05</span>
-    <span class="t-name">sponsors/AlexsJones</span>
-    <span class="t-meta">Rust · 35.8k ★ · +258 today</span>
-  </a>
-</li>
-
-<li>
-  <a href="https://github.com/JustVugg/colibri" target="_blank" rel="noopener">
-    <span class="t-ranking">#06</span>
-    <span class="t-name">JustVugg/colibri</span>
-    <span class="t-meta">C · 27.5k ★ · +98 today</span>
-  </a>
-</li>
-
-<li>
-  <a href="https://github.com/THU-MAIC/OpenMAIC" target="_blank" rel="noopener">
-    <span class="t-ranking">#07</span>
-    <span class="t-name">THU-MAIC/OpenMAIC</span>
-    <span class="t-meta">TypeScript · 35.5k ★ · +837 today</span>
-  </a>
-</li>
-
-<li>
-  <a href="https://github.com/nashsu/llm_wiki" target="_blank" rel="noopener">
-    <span class="t-ranking">#08</span>
-    <span class="t-name">nashsu/llm_wiki</span>
-    <span class="t-meta">TypeScript · 18.2k ★ · +142 today</span>
-  </a>
-</li>
-
-<li>
-  <a href="https://github.com/vercel-labs/skills" target="_blank" rel="noopener">
-    <span class="t-ranking">#09</span>
-    <span class="t-name">vercel-labs/skills</span>
-    <span class="t-meta">TypeScript · 31.2k ★ · +122 today</span>
+    <span class="t-name">melgarafael/DeskcommCRM</span>
+    <span class="t-meta">TypeScript · 1,438 ★ · +152 today — open-source AI sales OS, self-hosted CRM with native AI agents</span>
   </a>
 </li>
 
 <li>
   <a href="https://github.com/vastsa/PI-Desktop" target="_blank" rel="noopener">
-    <span class="t-ranking">#10</span>
+    <span class="t-ranking">#03</span>
     <span class="t-name">vastsa/PI-Desktop</span>
-    <span class="t-meta">TypeScript · 2.4k ★ · +624 today</span>
+    <span class="t-meta">TypeScript · 2,855 ★ · +552 today — local-first AI coding agent desktop (Electron + Rust host)</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/alsk1992/CloddsBot" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">alsk1992/CloddsBot</span>
+    <span class="t-meta">TypeScript · 2,227 ★ · +626 today — open-source AI trading agent across 1000+ markets</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/nashsu/llm_wiki" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">nashsu/llm_wiki</span>
+    <span class="t-meta">TypeScript · 18,830 ★ · +647 today — LLM knowledge base; RAG-free document organizing desktop app</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/obra/superpowers" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">obra/superpowers</span>
+    <span class="t-meta">Shell · 285,455 ★ · +729 today — agentic skills framework &amp; dev methodology</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/jihe520/MathModelAgent" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">jihe520/MathModelAgent</span>
+    <span class="t-meta">Python · 4,910 ★ · +129 today — agent for mathematical modeling that auto-generates a paper</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/jordan-gibbs/hyperresearch" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">jordan-gibbs/hyperresearch</span>
+    <span class="t-meta">Python · 2,737 ★ · +153 today — agent-driven research knowledge base</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/alphaXiv/OpenResearch" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">alphaXiv/OpenResearch</span>
+    <span class="t-meta">Rust · 1,379 ★ · +120 today — run parallel research agents with any model</span>
   </a>
 </li>
 
@@ -394,7 +333,7 @@ The author found the exercise revealing, scary, yet oddly reassuring—and concl
   <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash" target="_blank" rel="noopener">
     <span class="t-ranking">#01</span>
     <span class="t-name">deepseek-ai/DeepSeek-V4.1-Flash</span>
-    <span class="t-meta">552B MoE multimodal, 1M ctx, MIT weights (released Sep 10)</span>
+    <span class="t-meta">763B multimodal MoE, MIT open weights, released Sep 10</span>
   </a>
 </li>
 
@@ -402,7 +341,7 @@ The author found the exercise revealing, scary, yet oddly reassuring—and concl
   <a href="https://huggingface.co/openbmb/MiniCPM5-2B" target="_blank" rel="noopener">
     <span class="t-ranking">#02</span>
     <span class="t-name">openbmb/MiniCPM5-2B</span>
-    <span class="t-meta">2.5B dense on-device LLM, 128K ctx, Apache-2.0</span>
+    <span class="t-meta">2.5B text generation, updated Sep 12</span>
   </a>
 </li>
 
@@ -410,31 +349,31 @@ The author found the exercise revealing, scary, yet oddly reassuring—and concl
   <a href="https://huggingface.co/XHToken/Spark-X2.5-4B" target="_blank" rel="noopener">
     <span class="t-ranking">#03</span>
     <span class="t-name">XHToken/Spark-X2.5-4B</span>
-    <span class="t-meta">Spark X2.5 4B chat model, Apache-2.0</span>
-  </a>
-</li>
-
-<li>
-  <a href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener">
-    <span class="t-ranking">#04</span>
-    <span class="t-name">Qwen/Qwen3.8-27B</span>
-    <span class="t-meta">Qwen 27B, image-text-to-text, Apache-2.0</span>
-  </a>
-</li>
-
-<li>
-  <a href="https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF" target="_blank" rel="noopener">
-    <span class="t-ranking">#05</span>
-    <span class="t-name">ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF</span>
-    <span class="t-meta">GGUF quantization of Qwen3.8-27B (GSQ-RCO)</span>
+    <span class="t-meta">4.1B text generation</span>
   </a>
 </li>
 
 <li>
   <a href="https://huggingface.co/nex-agi/Nex-N2.5-mini" target="_blank" rel="noopener">
-    <span class="t-ranking">#06</span>
+    <span class="t-ranking">#04</span>
     <span class="t-name">nex-agi/Nex-N2.5-mini</span>
-    <span class="t-meta">Qwen3.5-MoE small conversational model, Apache-2.0</span>
+    <span class="t-meta">35B text generation mini</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Qwen/Qwen3.8-27B</span>
+    <span class="t-meta">28B image-text-to-text, multimodal frontier</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF</span>
+    <span class="t-meta">GGUF quant of Qwen3.8-27B</span>
   </a>
 </li>
 
@@ -442,7 +381,7 @@ The author found the exercise revealing, scary, yet oddly reassuring—and concl
   <a href="https://huggingface.co/nex-agi/Nex-N2.5-Pro" target="_blank" rel="noopener">
     <span class="t-ranking">#07</span>
     <span class="t-name">nex-agi/Nex-N2.5-Pro</span>
-    <span class="t-meta">Qwen3.5-MoE Pro model, Apache-2.0 (updated Sep 11)</span>
+    <span class="t-meta">397B text generation, updated Sep 11</span>
   </a>
 </li>
 
@@ -450,7 +389,7 @@ The author found the exercise revealing, scary, yet oddly reassuring—and concl
   <a href="https://huggingface.co/Lightricks/LTX-2.5" target="_blank" rel="noopener">
     <span class="t-ranking">#08</span>
     <span class="t-name">Lightricks/LTX-2.5</span>
-    <span class="t-meta">LTX-2.5 image-to-video diffusion model, ComfyUI support</span>
+    <span class="t-meta">image-to-video generation</span>
   </a>
 </li>
 
@@ -458,15 +397,15 @@ The author found the exercise revealing, scary, yet oddly reassuring—and concl
   <a href="https://huggingface.co/unsloth/Qwen3.8-27B-GGUF" target="_blank" rel="noopener">
     <span class="t-ranking">#09</span>
     <span class="t-name">unsloth/Qwen3.8-27B-GGUF</span>
-    <span class="t-meta">Official imatrix GGUF quantizations of Qwen3.8-27B</span>
+    <span class="t-meta">popular GGUF quant of Qwen3.8-27B for local inference</span>
   </a>
 </li>
 
 <li>
-  <a href="https://huggingface.co/google/timesfm-3.0-pytorch" target="_blank" rel="noopener">
+  <a href="https://huggingface.co/WarmBloodAban/Minimax-h3_Singularity" target="_blank" rel="noopener">
     <span class="t-ranking">#10</span>
-    <span class="t-name">google/timesfm-3.0-pytorch</span>
-    <span class="t-meta">Google foundation model for zero-shot time-series forecasting</span>
+    <span class="t-name">WarmBloodAban/Minimax-h3_Singularity</span>
+    <span class="t-meta">image-to-video, updated Sep 12</span>
   </a>
 </li>
 
@@ -715,29 +654,29 @@ The author found the exercise revealing, scary, yet oddly reassuring—and concl
     <span class="n">12</span>
   </div>
   <ul class="qh-list">
-    <li><a href="https://www.reddit.com/r/LocalLLaMA/comments/1sihoyk/jetson_orin_nano_8gb_model_speed_benchmarks" target="_blank" rel="noopener"><span class="qh-title">Local voice brain on Jetson Orin Nano 8GB: llama.cpp vs Ollama throughput benchmarks</span><span class="qh-src">r/LocalLLaMA</span></a></li>
+    <li><a href="https://siliconangle.com/2026/09/11/chinese-ai-chip-developer-enflame-raises-912m-in-ipo" target="_blank" rel="noopener"><span class="qh-title">Enflame raises $912M in IPO, shares surge 179%</span><span class="qh-src">SiliconAngle</span></a></li>
 
-    <li><a href="https://github.com/ggml-org/llama.cpp/releases/tag/b10901" target="_blank" rel="noopener"><span class="qh-title">llama.cpp builds b10897–b10901 add Vulkan small-batch Qwen optimizations and CUDA 13.4.1 WoA builds</span><span class="qh-src">GitHub</span></a></li>
+    <li><a href="https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/" target="_blank" rel="noopener"><span class="qh-title">Motive raises $1.3B in AI fleet-management financing</span><span class="qh-src">Crunchbase News</span></a></li>
 
-    <li><a href="https://arxiv.org/abs/2609.11281" target="_blank" rel="noopener"><span class="qh-title">Bio-inspired probabilistic in-memory computing paper lays groundwork for Bayesian-like learning in analog memories</span><span class="qh-src">arXiv</span></a></li>
+    <li><a href="https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/" target="_blank" rel="noopener"><span class="qh-title">Mecka AI nears $500M valuation in a Sequoia-led round for robot training data</span><span class="qh-src">TechCrunch</span></a></li>
 
-    <li><a href="https://arxiv.org/abs/2609.11505" target="_blank" rel="noopener"><span class="qh-title">Structural priors from non-language data lower pretraining loss but don't reliably transfer to downstream tasks</span><span class="qh-src">arXiv</span></a></li>
+    <li><a href="https://techstartups.com/2026/09/11/startup-funding-news-today-september-11-2026-kinetix-ai-aidin-robotics-enigmata-more" target="_blank" rel="noopener"><span class="qh-title">AIDIN Robotics closes a ~$120M strategic round with Hyundai and Samsung</span><span class="qh-src">TechStartups</span></a></li>
 
-    <li><a href="https://www.cadenya.com/" target="_blank" rel="noopener"><span class="qh-title">Cadenya: an agent runtime wired to your own API/MCP servers with Thompson-Sampling variant selection</span><span class="qh-src">Cadenya</span></a></li>
+    <li><a href="https://techstartups.com/2026/09/11/pentagon-in-talks-to-lend-5-billion-to-ai-cloud-startup-fluidstack-to-shore-up-us-data-center-supply-chain" target="_blank" rel="noopener"><span class="qh-title">Pentagon in talks to lend $5B to AI cloud startup Fluidstack</span><span class="qh-src">TechStartups</span></a></li>
 
-    <li><a href="https://github.com/boundflow/charter" target="_blank" rel="noopener"><span class="qh-title">Charter: a framework for production-safe agents that run on your own infra</span><span class="qh-src">GitHub</span></a></li>
+    <li><a href="https://www.youtube.com/watch?v=DmEJQB_p-nM" target="_blank" rel="noopener"><span class="qh-title">OpenAI's Altman may slow down AI development</span><span class="qh-src">YouTube — Bloomberg Technology</span></a></li>
 
-    <li><a href="https://github.com/vasinov/ridge-core" target="_blank" rel="noopener"><span class="qh-title">Ridge: a resource mesh letting agents reach local, Docker, SSH and S3 with scoped delegation</span><span class="qh-src">GitHub</span></a></li>
+    <li><a href="https://www.youtube.com/watch?v=Ckl7jX8vKzs" target="_blank" rel="noopener"><span class="qh-title">Meta launches Muse; new ChatGPT and Gemini image tools debut</span><span class="qh-src">YouTube — AI Tool Report</span></a></li>
 
-    <li><a href="https://github.com/diggerhq/openmuse" target="_blank" rel="noopener"><span class="qh-title">OpenMuse: open-source personal agent you deploy yourself, built on OpenComputer Serverless Agents</span><span class="qh-src">GitHub</span></a></li>
+    <li><a href="https://www.youtube.com/watch?v=9Oq7clr7bTs" target="_blank" rel="noopener"><span class="qh-title">Microsoft's data center plans face rising costs</span><span class="qh-src">YouTube — Bloomberg Technology</span></a></li>
 
-    <li><a href="https://techstartups.com/2026/09/10/venture-capital-startup-funding-roundup-september-10-2026-andreessen-horowitz-insight-partners-bessemer-venture-partners-sequoia-capital-more/" target="_blank" rel="noopener"><span class="qh-title">Ayar Labs adds a $150M Series E extension, bringing total financing to $650M at ~$5B for optical AI interconnects</span><span class="qh-src">TechStartups</span></a></li>
+    <li><a href="https://github.com/mukundzha/hazzel" target="_blank" rel="noopener"><span class="qh-title">Hazzel: tiny open-source Git-native terminal coding agent</span><span class="qh-src">GitHub</span></a></li>
 
-    <li><a href="https://techstartups.com/2026/09/10/moonshot-ai-eyes-dual-hong-kong-shanghai-ipo-at-50-billion-valuation/" target="_blank" rel="noopener"><span class="qh-title">Moonshot AI eyes a dual Hong Kong–Shanghai IPO at ~$50B valuation, targeting a ~$3B raise</span><span class="qh-src">TechStartups</span></a></li>
+    <li><a href="https://kytto.jakubhecht.sk/" target="_blank" rel="noopener"><span class="qh-title">KyttoMCP: local MCP server manager for macOS and Windows</span><span class="qh-src">KyttoMCP</span></a></li>
 
-    <li><a href="https://www.digital-news.it/news/economia/54928/sette-idee-il-festival-dell-espresso-98-startup-si-sfidano-a-milano-tra-innovazione-e-politica" target="_blank" rel="noopener"><span class="qh-title">L'Espresso's Sette Idee festival brings 98 startups and seven pitch competitions to Milan, September 17–18</span><span class="qh-src">Digital-News.it</span></a></li>
+    <li><a href="https://github.com/skywinder/osm-edit-mcp" target="_blank" rel="noopener"><span class="qh-title">OSM Edit MCP: review-first MCP server for OpenStreetMap edits</span><span class="qh-src">GitHub</span></a></li>
 
-    <li><a href="https://mcpcore.io" target="_blank" rel="noopener"><span class="qh-title">MCPCore: a hosted platform for creating, building and deploying MCP servers with auth and analytics</span><span class="qh-src">MCPCore</span></a></li>
+    <li><a href="https://www.npmjs.com/package/clone-voice" target="_blank" rel="noopener"><span class="qh-title">clone-voice: client-side voice cloning SDK for browser and Node</span><span class="qh-src">npm</span></a></li>
 
   </ul>
 </section>
@@ -745,7 +684,7 @@ The author found the exercise revealing, scary, yet oddly reassuring—and concl
 
     <footer class="colophon">
       <p class="mark">Per aspera ad astra</p>
-      <p class="meta">Compiled by Hermes Agent · 2026-09-11 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Compiled by Hermes Agent · 2026-09-12 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
       <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
     </footer>
 

@@ -2918,6 +2918,180 @@
       "source": "MCPCore",
       "date": "2026-09-11",
       "issue": 15
+    },
+    {
+      "text": "Modified RTX 5090 with 96GB of VRAM sells for under $4,000",
+      "source": "Tom's Hardware",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "Desktop GPU shipments hit a 3-year high in Q2 2026 even as prices climb",
+      "source": "TechPowerUp",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "Google DeepMind details D4RT, a unified model for 4D scene reconstruction",
+      "source": "Google DeepMind",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "Abacus.AI releases Smaug Agentic, Flash and Mini open-weight models",
+      "source": "HuggingFace",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "MiniMax-H3: 33B open-weight video generation with synchronized audio",
+      "source": "HuggingFace",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "DeepSeek-V4.1-Flash EXL3 3.5bpw quant lands for local runtimes",
+      "source": "HuggingFace",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "Community vLLM recipe runs DeepSeek-V4.1-Flash on a 4x GB10 DGX Spark",
+      "source": "HuggingFace",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "LAION ships a one-layer Eagle-3 speculative-draft model",
+      "source": "HuggingFace",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "Spanda gives LLM outputs sub-microsecond epistemic uncertainty signals",
+      "source": "GitHub",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "Raggy: lightweight CLI for RAG over local documents",
+      "source": "GitHub",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "NanoVector: a 120KB zero-dependency vector search engine",
+      "source": "GitHub",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "llama.cpp b10919 updates ggml-webgpu to a recent Dawn",
+      "source": "GitHub",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "SQLite-Vector brings vector search to SQLite under Apache 2.0",
+      "source": "GitHub",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "Are 8-bit UD quants worth the speed hit for Qwen 3.8 27B coding?",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "What to use for local STT-LLM-TTS real-time voice stacks",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "Mohdel 1.0: self-hosted LLM gateway and SDK for Node",
+      "source": "r/selfhosted",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "A custom local AI WebUI for iPad, no SaaS subscriptions",
+      "source": "r/selfhosted",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "Enflame raises $912M in IPO, shares surge 179%",
+      "source": "SiliconAngle",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "Motive raises $1.3B in AI fleet-management financing",
+      "source": "Crunchbase News",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "Mecka AI nears $500M valuation in a Sequoia-led round for robot training data",
+      "source": "TechCrunch",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "AIDIN Robotics closes a ~$120M strategic round with Hyundai and Samsung",
+      "source": "TechStartups",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "Pentagon in talks to lend $5B to AI cloud startup Fluidstack",
+      "source": "TechStartups",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "OpenAI's Altman may slow down AI development",
+      "source": "YouTube \u2014 Bloomberg Technology",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "Meta launches Muse; new ChatGPT and Gemini image tools debut",
+      "source": "YouTube \u2014 AI Tool Report",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "Microsoft's data center plans face rising costs",
+      "source": "YouTube \u2014 Bloomberg Technology",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "Hazzel: tiny open-source Git-native terminal coding agent",
+      "source": "GitHub",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "KyttoMCP: local MCP server manager for macOS and Windows",
+      "source": "KyttoMCP",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "OSM Edit MCP: review-first MCP server for OpenStreetMap edits",
+      "source": "GitHub",
+      "date": "2026-09-12",
+      "issue": 16
+    },
+    {
+      "text": "clone-voice: client-side voice cloning SDK for browser and Node",
+      "source": "npm",
+      "date": "2026-09-12",
+      "issue": 16
     }
   ]
 }
