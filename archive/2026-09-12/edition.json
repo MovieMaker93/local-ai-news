@@ -1,0 +1,484 @@
+{
+  "issue_no": 16,
+  "date_iso": "2026-09-12",
+  "date_human": "September 12, 2026",
+  "notice": null,
+  "lead": {
+    "kicker": "96GB RTX 5090",
+    "title": "Modified RTX 5090 with 96GB of VRAM sells for under $4,000",
+    "summary": "Shenzhen resellers are shipping rebuilt RTX 5090 cards carrying 96GB of GDDR7 — three times the stock 32GB — for about $3,888, using leaked Nvidia firmware to address the expanded memory pool. At roughly 65% of a retail 5090's cost, it is a cheap path to far more VRAM than any stock Blackwell card for local inference.",
+    "source": "Tom's Hardware",
+    "date": "2026-09-11",
+    "url": "https://www.tomshardware.com/pc-components/gpus/china-modified-nvidia-rtx-5090-with-massive-96gb-of-memory-appears-on-alibaba-for-less-than-usd4-000-3x-more-vram-at-65-percent-the-cost-of-the-original",
+    "image": "images/lead_2026-09-12.jpg"
+  },
+  "top_stories": [
+    {
+      "title": "Desktop GPU shipments hit a 3-year high in Q2 2026 even as prices climb",
+      "summary": "Desktop AIB shipments reached 12.5 million units in Q2 2026, the most since Q1 2022, as buyers buy ahead of further GPU price hikes tied to the GDDR/DRAM crunch.",
+      "source": "TechPowerUp",
+      "date": "2026-09-11",
+      "url": "https://techpowerup.com/352592/gamers-buy-more-gpus-than-ever-in-q2-2026-even-as-prices-keep-climbing"
+    },
+    {
+      "title": "Google DeepMind details D4RT, a unified model for 4D scene reconstruction",
+      "summary": "DeepMind's D4RT tackles fast 4D scene reconstruction and tracking across space and time in one model; the project page was refreshed September 11.",
+      "source": "Google DeepMind",
+      "date": "2026-09-11",
+      "url": "https://deepmind.google/blog/d4rt-teaching-ai-to-see-the-world-in-four-dimensions/"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Open Weights & Models",
+      "items": [
+        {
+          "title": "Abacus.AI releases Smaug Agentic, Flash and Mini open-weight models",
+          "summary": "Abacus.AI published three open-weight agentic LLMs, led by Smaug Agentic, a fine-tune of Moonshot's 2.8T-parameter Kimi K3 MoE base, plus Smaug Flash and 27B multimodal Smaug Mini for long-running agent loops that can be self-hosted in enterprise VPCs.",
+          "source": "HuggingFace",
+          "date": "2026-09-11",
+          "url": "https://huggingface.co/abacusai/Smaug-Agentic",
+          "image": "images/section_open-weights-models_2026-09-12.jpg"
+        },
+        {
+          "title": "MiniMax-H3: 33B open-weight video generation with synchronized audio",
+          "summary": "NVIDIA's September open-weight rollout includes MiniMax-H3, a 33B text/image/audio-to-video model with natively synchronized stereo audio, distributed through ComfyUI with NVIDIA-optimized checkpoints; it is currently trending on Hugging Face.",
+          "source": "HuggingFace",
+          "date": "2026-09-11",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3"
+        },
+        {
+          "title": "DeepSeek-V4.1-Flash EXL3 3.5bpw quant lands for local runtimes",
+          "summary": "A community EXL3 3.5bpw quantization of DeepSeek-V4.1-Flash is now serving, an early attempt at running the 763B MoE on EXL2/EXL3-class local inference.",
+          "source": "HuggingFace",
+          "date": "2026-09-11",
+          "url": "https://huggingface.co/bot-lab-21/DeepSeek-V4.1-Flash-EXL3-3.5bpw-Pollard"
+        },
+        {
+          "title": "Community vLLM recipe runs DeepSeek-V4.1-Flash on a 4x GB10 DGX Spark",
+          "summary": "A published serving recipe documents running DeepSeek-V4.1-Flash across four GB10 nodes with measured prompt and generation latency.",
+          "source": "HuggingFace",
+          "date": "2026-09-11",
+          "url": "https://huggingface.co/0xTank/DeepSeek-V4.1-Flash-vLLM-4x-GB10-Recipe"
+        },
+        {
+          "title": "LAION ships a one-layer Eagle-3 speculative-draft model",
+          "summary": "LAION's Snowball-64k Eagle-3 draft adapts a single-layer draft model on agent trajectories for speculative decoding, aimed at boosting local inference throughput.",
+          "source": "HuggingFace",
+          "date": "2026-09-11",
+          "url": "https://huggingface.co/laion/snowball-64k-eagle3-draft-r2egym"
+        }
+      ]
+    },
+    {
+      "title": "Tools & Runtimes",
+      "items": [
+        {
+          "title": "Spanda gives LLM outputs sub-microsecond epistemic uncertainty signals",
+          "summary": "Spanda is an open-source, zero-dependency library that computes epistemic uncertainty on LLM outputs entirely locally, with no extra model calls.",
+          "source": "GitHub",
+          "date": "2026-09-11",
+          "url": "https://github.com/Adarshent/Spnda",
+          "image": "images/section_tools-runtimes_2026-09-12.jpg"
+        },
+        {
+          "title": "Raggy: lightweight CLI for RAG over local documents",
+          "summary": "Raggy is a CLI built on LangChain, Chroma and Ollama for hybrid vector + BM25 retrieval over local documents with OCR support; generation can run on a local LLM or an API key.",
+          "source": "GitHub",
+          "date": "2026-09-11",
+          "url": "https://github.com/paulknysh/raggy"
+        },
+        {
+          "title": "NanoVector: a 120KB zero-dependency vector search engine",
+          "summary": "NanoVector is a C99 vector search engine (~120KB, AVX2/FMA/ARM NEON) pitched as 'the SQLite of vector search' for local agent episodic memory, with a PyPI package.",
+          "source": "GitHub",
+          "date": "2026-09-11",
+          "url": "https://github.com/eminsk/nanovector"
+        },
+        {
+          "title": "llama.cpp b10919 updates ggml-webgpu to a recent Dawn",
+          "summary": "The September 12 build refreshes the WebGPU backend against a recent Dawn release, improving browser-based local inference.",
+          "source": "GitHub",
+          "date": "2026-09-12",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b10919"
+        },
+        {
+          "title": "SQLite-Vector brings vector search to SQLite under Apache 2.0",
+          "summary": "SQLite-Vector now ships Apache-2.0 with exact search, SIMD distance kernels and SIMD 2/3/4-bit TurboQuant scans, running anywhere SQLite runs.",
+          "source": "GitHub",
+          "date": "2026-09-11",
+          "url": "https://github.com/sqliteai/sqlite-vector"
+        }
+      ]
+    },
+    {
+      "title": "Self-Hosted Stack",
+      "items": [
+        {
+          "title": "Are 8-bit UD quants worth the speed hit for Qwen 3.8 27B coding?",
+          "summary": "r/LocalLLaMA debates whether Unsloth UD-8-bit quants beat UD-Q6_K_XL for long-context coding, with commenters noting quantization affects attention precision and that Qwen Flash Next's ngram approach resists quant drift.",
+          "source": "r/LocalLLaMA",
+          "date": "2026-09-12",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1we2fi6/unsloth_udquants_qwen_38_27b_for_example_worth/",
+          "image": "images/section_self-hosted-stack_2026-09-12.jpg"
+        },
+        {
+          "title": "What to use for local STT-LLM-TTS real-time voice stacks",
+          "summary": "A practical thread compares LiveKit Agent, HuggingFace speech-to-speech pipelines, Kokoro/Fish Audio/Breeze TTSholiday, and SillyTavern's server tools with local GGUF models.",
+          "source": "r/LocalLLaMA",
+          "date": "2026-09-11",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wduplw/what_is_a_good_toolmodel_for_nearrealtime_voice/"
+        },
+        {
+          "title": "Mohdel 1.0: self-hosted LLM gateway and SDK for Node",
+          "summary": "Mohdel is an MIT-licensed self-hosted gateway/SDK that keeps your own API keys, tracks per-call USD cost internally, and routes inference with no SaaS in the path.",
+          "source": "r/selfhosted",
+          "date": "2026-09-11",
+          "url": "https://www.reddit.com/r/selfhosted/comments/1wdoti6/mohdel_10_a_selfhosted_llm_gateway_for_node_your/"
+        },
+        {
+          "title": "A custom local AI WebUI for iPad, no SaaS subscriptions",
+          "summary": "A build log shows a privacy-first AI workspace on iPadOS using a-Shell and Safari with bring-your-own keys instead of platform fees.",
+          "source": "r/selfhosted",
+          "date": "2026-09-11",
+          "url": "https://www.reddit.com/r/selfhosted/comments/1wdftao/since_i_couldnt_buy_a_mac_i_built_my_own/"
+        }
+      ]
+    }
+  ],
+  "trending": {
+    "github": {
+      "title": "GitHub Trending · AI",
+      "url": "https://github.com/trending",
+      "link_label": "github.com/trending",
+      "date": "2026-09-12",
+      "items": [
+        {
+          "name": "ayghri/i-have-adhd",
+          "url": "https://github.com/ayghri/i-have-adhd",
+          "meta": "Python · 42,250 ★ · +3,463 today — agent skill that stops coding agents from burying the answer"
+        },
+        {
+          "name": "melgarafael/DeskcommCRM",
+          "url": "https://github.com/melgarafael/DeskcommCRM",
+          "meta": "TypeScript · 1,438 ★ · +152 today — open-source AI sales OS, self-hosted CRM with native AI agents"
+        },
+        {
+          "name": "vastsa/PI-Desktop",
+          "url": "https://github.com/vastsa/PI-Desktop",
+          "meta": "TypeScript · 2,855 ★ · +552 today — local-first AI coding agent desktop (Electron + Rust host)"
+        },
+        {
+          "name": "alsk1992/CloddsBot",
+          "url": "https://github.com/alsk1992/CloddsBot",
+          "meta": "TypeScript · 2,227 ★ · +626 today — open-source AI trading agent across 1000+ markets"
+        },
+        {
+          "name": "nashsu/llm_wiki",
+          "url": "https://github.com/nashsu/llm_wiki",
+          "meta": "TypeScript · 18,830 ★ · +647 today — LLM knowledge base; RAG-free document organizing desktop app"
+        },
+        {
+          "name": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "meta": "Shell · 285,455 ★ · +729 today — agentic skills framework & dev methodology"
+        },
+        {
+          "name": "jihe520/MathModelAgent",
+          "url": "https://github.com/jihe520/MathModelAgent",
+          "meta": "Python · 4,910 ★ · +129 today — agent for mathematical modeling that auto-generates a paper"
+        },
+        {
+          "name": "jordan-gibbs/hyperresearch",
+          "url": "https://github.com/jordan-gibbs/hyperresearch",
+          "meta": "Python · 2,737 ★ · +153 today — agent-driven research knowledge base"
+        },
+        {
+          "name": "alphaXiv/OpenResearch",
+          "url": "https://github.com/alphaXiv/OpenResearch",
+          "meta": "Rust · 1,379 ★ · +120 today — run parallel research agents with any model"
+        }
+      ]
+    },
+    "huggingface": {
+      "title": "Models Trending (Hugging Face)",
+      "url": "https://huggingface.co/models?sort=trending",
+      "link_label": "huggingface.co/models",
+      "date": "2026-09-12",
+      "items": [
+        {
+          "name": "deepseek-ai/DeepSeek-V4.1-Flash",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+          "meta": "763B multimodal MoE, MIT open weights, released Sep 10"
+        },
+        {
+          "name": "openbmb/MiniCPM5-2B",
+          "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
+          "meta": "2.5B text generation, updated Sep 12"
+        },
+        {
+          "name": "XHToken/Spark-X2.5-4B",
+          "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
+          "meta": "4.1B text generation"
+        },
+        {
+          "name": "nex-agi/Nex-N2.5-mini",
+          "url": "https://huggingface.co/nex-agi/Nex-N2.5-mini",
+          "meta": "35B text generation mini"
+        },
+        {
+          "name": "Qwen/Qwen3.8-27B",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+          "meta": "28B image-text-to-text, multimodal frontier"
+        },
+        {
+          "name": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+          "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+          "meta": "GGUF quant of Qwen3.8-27B"
+        },
+        {
+          "name": "nex-agi/Nex-N2.5-Pro",
+          "url": "https://huggingface.co/nex-agi/Nex-N2.5-Pro",
+          "meta": "397B text generation, updated Sep 11"
+        },
+        {
+          "name": "Lightricks/LTX-2.5",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5",
+          "meta": "image-to-video generation"
+        },
+        {
+          "name": "unsloth/Qwen3.8-27B-GGUF",
+          "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+          "meta": "popular GGUF quant of Qwen3.8-27B for local inference"
+        },
+        {
+          "name": "WarmBloodAban/Minimax-h3_Singularity",
+          "url": "https://huggingface.co/WarmBloodAban/Minimax-h3_Singularity",
+          "meta": "image-to-video, updated Sep 12"
+        }
+      ]
+    }
+  },
+  "free_models": {
+    "openrouter": {
+      "title": "Free on OpenRouter",
+      "url": "https://openrouter.ai/models?max_price=0",
+      "link_label": "Browse free models on OpenRouter →",
+      "date": "2026-09-12",
+      "items": [
+        {
+          "name": "Cohere: North Mini Code (free)",
+          "url": "https://openrouter.ai/cohere/north-mini-code:free",
+          "meta": "256K ctx"
+        },
+        {
+          "name": "Dots Studio: Dots3-Note Preview (free)",
+          "url": "https://openrouter.ai/dots-studio/dots-3-note-preview:free",
+          "meta": "512K ctx"
+        },
+        {
+          "name": "Google: Gemma 4 26B A4B (free)",
+          "url": "https://openrouter.ai/google/gemma-4-26b-a4b-it:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "Google: Gemma 4 31B (free)",
+          "url": "https://openrouter.ai/google/gemma-4-31b-it:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "inclusionAI: Ling 3.0 Flash Fin (free)",
+          "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-fin:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
+          "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-sante:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "inclusionAI: Ling 3.0 Flash VL (free)",
+          "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-vl:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "LiquidAI: LFM2.5-2.6B (free)",
+          "url": "https://openrouter.ai/liquid/lfm-2.5-2.6b:free",
+          "meta": "65K ctx"
+        },
+        {
+          "name": "Nex AGI: Nex-N2.5-Mini (free)",
+          "url": "https://openrouter.ai/nex-agi/nex-n2.5-mini:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "Nex AGI: Nex-N2.5-Pro (free)",
+          "url": "https://openrouter.ai/nex-agi/nex-n2.5-pro:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+          "meta": "256K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3 Super (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3 Ultra (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free",
+          "meta": "1M ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free",
+          "meta": "128K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3.5-lightning:free",
+          "meta": "1M ctx"
+        },
+        {
+          "name": "Poolside: Laguna S 2.1 (free)",
+          "url": "https://openrouter.ai/poolside/laguna-s-2.1:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "Poolside: Laguna XS 2.1 (free)",
+          "url": "https://openrouter.ai/poolside/laguna-xs-2.1:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "Thinking Machines: Inkling (free)",
+          "url": "https://openrouter.ai/thinkingmachines/inkling:free",
+          "meta": "1.04858M ctx"
+        },
+        {
+          "name": "Thinking Machines: Inkling Small (free)",
+          "url": "https://openrouter.ai/thinkingmachines/inkling-small:free",
+          "meta": "1.04858M ctx"
+        }
+      ]
+    },
+    "opencode_zen": {
+      "title": "Free on OpenCode Zen",
+      "url": "https://opencode.ai/docs/zen/",
+      "link_label": "See the full Zen catalog →",
+      "date": "2026-09-12",
+      "items": [
+        {
+          "name": "Big Pickle",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "big-pickle"
+        },
+        {
+          "name": "MiMo-V2.5 Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "mimo-v2.5-free"
+        },
+        {
+          "name": "Ling 3.0 Flash Fin Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "ling-3.0-flash-fin-free"
+        },
+        {
+          "name": "Nemotron 3 Ultra Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "nemotron-3-ultra-free"
+        },
+        {
+          "name": "Nemotron 3.5 Lightning Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "nemotron-3.5-lightning-free"
+        },
+        {
+          "name": "Muse Spark 1.3 Contributor Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "muse-spark-1.3-contributor-free"
+        }
+      ]
+    }
+  },
+  "quick_hits": [
+    {
+      "title": "Enflame raises $912M in IPO, shares surge 179%",
+      "source": "SiliconAngle",
+      "date": "2026-09-11",
+      "url": "https://siliconangle.com/2026/09/11/chinese-ai-chip-developer-enflame-raises-912m-in-ipo"
+    },
+    {
+      "title": "Motive raises $1.3B in AI fleet-management financing",
+      "source": "Crunchbase News",
+      "date": "2026-09-11",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/"
+    },
+    {
+      "title": "Mecka AI nears $500M valuation in a Sequoia-led round for robot training data",
+      "source": "TechCrunch",
+      "date": "2026-09-11",
+      "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/"
+    },
+    {
+      "title": "AIDIN Robotics closes a ~$120M strategic round with Hyundai and Samsung",
+      "source": "TechStartups",
+      "date": "2026-09-11",
+      "url": "https://techstartups.com/2026/09/11/startup-funding-news-today-september-11-2026-kinetix-ai-aidin-robotics-enigmata-more"
+    },
+    {
+      "title": "Pentagon in talks to lend $5B to AI cloud startup Fluidstack",
+      "source": "TechStartups",
+      "date": "2026-09-11",
+      "url": "https://techstartups.com/2026/09/11/pentagon-in-talks-to-lend-5-billion-to-ai-cloud-startup-fluidstack-to-shore-up-us-data-center-supply-chain"
+    },
+    {
+      "title": "OpenAI's Altman may slow down AI development",
+      "source": "YouTube — Bloomberg Technology",
+      "date": "2026-09-11",
+      "url": "https://www.youtube.com/watch?v=DmEJQB_p-nM"
+    },
+    {
+      "title": "Meta launches Muse; new ChatGPT and Gemini image tools debut",
+      "source": "YouTube — AI Tool Report",
+      "date": "2026-09-11",
+      "url": "https://www.youtube.com/watch?v=Ckl7jX8vKzs"
+    },
+    {
+      "title": "Microsoft's data center plans face rising costs",
+      "source": "YouTube — Bloomberg Technology",
+      "date": "2026-09-11",
+      "url": "https://www.youtube.com/watch?v=9Oq7clr7bTs"
+    },
+    {
+      "title": "Hazzel: tiny open-source Git-native terminal coding agent",
+      "source": "GitHub",
+      "date": "2026-09-11",
+      "url": "https://github.com/mukundzha/hazzel"
+    },
+    {
+      "title": "KyttoMCP: local MCP server manager for macOS and Windows",
+      "source": "KyttoMCP",
+      "date": "2026-09-11",
+      "url": "https://kytto.jakubhecht.sk/"
+    },
+    {
+      "title": "OSM Edit MCP: review-first MCP server for OpenStreetMap edits",
+      "source": "GitHub",
+      "date": "2026-09-11",
+      "url": "https://github.com/skywinder/osm-edit-mcp"
+    },
+    {
+      "title": "clone-voice: client-side voice cloning SDK for browser and Node",
+      "source": "npm",
+      "date": "2026-09-11",
+      "url": "https://www.npmjs.com/package/clone-voice"
+    }
+  ],
+  "spiked": {
+    "already ran": 10,
+    "same story": 2,
+    "low signal": 3
+  }
+}

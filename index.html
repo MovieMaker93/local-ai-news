@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LOCAL AI NEWS — open-weight intelligence · September 12, 2026</title>
+  <title>LOCAL AI NEWS — open-weight intelligence · September 13, 2026</title>
   <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
   <link rel="stylesheet" href="style.css">
   <style>.wt{display:flex;align-items:center;height:38px;background:var(--ink);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);margin:14px 0 0;overflow:hidden}.wtt{display:flex;align-items:center;white-space:nowrap;padding-left:20px;animation:ws 90s linear infinite}.wtt:hover{animation-play-state:paused}@keyframes ws{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.ti{display:inline-flex;align-items:center;gap:7px;padding:0 22px;cursor:pointer;border-right:1px solid var(--rule);height:38px}.ti:hover{background:rgba(240,162,60,.05)}.tih{font-family:var(--serif);font-size:13px;color:var(--type)}.tis{font-family:var(--sans);font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.mo{display:none;position:fixed;inset:0;background:rgba(10,10,12,.88);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(8px)}.mo.a{display:flex}.mb{background:#121214;border:1px solid var(--rule-strong);max-width:680px;width:90%;max-height:82vh;overflow-y:auto;padding:40px 44px;position:relative;animation:fi .2s ease}@keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.mc{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:var(--sans);padding:4px 8px}.mh{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;letter-spacing:-.01em;color:var(--type);margin:0 0 14px;padding-right:32px}.mm{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}.mm a{color:var(--lux)}.mm a:hover{text-decoration:underline}.mbd{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--type-dim)}.mbd .en{display:block;color:var(--lux-soft);font-style:italic;font-size:15px;margin-top:14px;padding-left:12px;border-left:2px solid var(--rule-strong)}.mbd .as{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.5}.mbd .as .al{color:var(--lux-soft);font-weight:600;font-family:var(--sans);font-size:10px;letter-spacing:.06em;text-transform:uppercase}</style></head>
@@ -14,56 +14,73 @@
     <div class="topline"></div>
     <div class="ears">
       <span class="left">Est. MMXXVI</span>
-      <span class="right">No. 16 <a href="archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+      <span class="right">No. 17 <a href="archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
     </div>
     <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
       <hr class="rule-double">
       <div class="dateline">
-        <span>September 12, 2026</span>
+        <span>September 13, 2026</span>
         <span class="dot">◆</span>
         <span class="tag">open weights, on your metal</span>
         <span class="dot">◆</span>
-        <span>73 stories</span>
+        <span>72 stories</span>
       </div>
       <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
       <hr class="rule-thin">
     </header>
 
-    
+    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="Sam Altman says OpenAI IPO in 2026 would be ill-advised" data-b="OpenAI CEO Sam Altman ruled out an initial public offering for the company in 2026, telling Fortune during an interview that going public right now would be an ill-advised move. According to The Verge, Altman made the comments over a roughly 45-minute conversation that covered a wide range of subjects, including the recent Hugging Face hacking incident, the prospect of recursive self-improvement, and whether artificial intelligence could one day exceed human control.
 
-    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="Y Combinator’s Garry Tan Wants US Open-Weight Labs to Play the Distillation Game Too" data-b="According to TechCrunch, Garry Tan, the CEO of Y Combinator, wants American open-weight AI labs to turn the tables and distill frontier models the same way Chinese labs do. He told CNBC this week that regulators should stay out of it, saying “I would do nothing,” and suggested there could be an American distillation regime.
+On that final topic, Altman said it was absolutely possible to build an AI beyond humanity&#x27;s grasp. Still, he pledged to take steps to keep that future in check, even if it meant halting training runs. He warned that there are risks the field should not be willing to shoulder on behalf of humanity.
 
-Distillation, as the article explains, is when a model maker extensively prompts another model to learn how it works and reasons — a standard, legitimate training technique. The report notes that Anthropic this week published its second study accusing Chinese labs of “illicit distillation attacks,” hiding their identities and relying on fraud and stolen credentials. Anthropic’s CEO had publicly pushed regulators to act.
+Regarding the timing of a listing, Altman insisted the company is not rushing, does not feel external pressure, and has long signaled it will go public only when the moment is right. That moment, he suggested, is not 2026, citing a long to-do list in the meantime. The Verge&#x27;s Terrence O&#x27;Brien reported the exchange, noting Altman framed safety concerns as a key reason to hold off on an IPO this year.
 
-Tan disagrees. His argument has two parts. First, he believes it is an overreach for frontier labs to dictate what customers do with information their models share with them. Second, the proprietary labs never asked permission when they absorbed huge amounts of human knowledge — including copyrighted material — to train their own models. He told TechCrunch that access to intelligence trained on broad public data should be treated more as a public good than something locked behind restrictive terms of service.
+*The pledge to pause training for safety signals that OpenAI sees alignment as a hard constraint, not a marketing line.*
 
-Tan wants a balance between open-weight and frontier labs, and warns that his doomer scenario is one giant monopolistic company controlling all of AI’s power. “The nightmare scenario, the doomer scenario for AI is that there’s just one company,” he said.
+*— Written by AI (deepseek-v4-flash-0731)*" data-s="theverge.com" data-u="https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised"><span class="tih">Sam Altman says OpenAI IPO in 2026 would be ill-advised</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="LG pushes back on TV data-upload claims" data-b="Earlier this week, hardware reviewers Gamers Nexus and Level1Techs, along with independent security researchers, highlighted findings suggesting LG smart TVs log and upload data about their owners. Now, according to The Verge, LG has responded, arguing that recent media coverage has fueled misconceptions about how its TVs work.
 
-*For a startup accelerator chief to side with openness over enforcement is notable, and his point about reciprocity — labs that trained on the whole internet lecturing users on terms of service — deserves regulators’ attention.*
+In a statement, LG maintains that its TVs do not continuously record or transmit users&#x27; conversations through their microphones for wake-word detection — that processing, the company says, happens locally on the device. However, The Verge notes that the word &quot;continuously&quot; carries significant weight here, since Gamers Nexus demonstrated an LG TV retaining extensive logs of ambient conversation well after its AI assistant would reasonably have stopped listening.
 
-*— Written by AI (deepseek-v4-flash-0731)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/"><span class="tih">Y Combinator’s Garry Tan Wants US Open-Weight Labs to Play the Distillation Game Too</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Y Combinator’s Garry Tan Wants US Open-Weight Labs to Play the Distillation Game Too" data-b="According to TechCrunch, Garry Tan, the CEO of Y Combinator, wants American open-weight AI labs to turn the tables and distill frontier models the same way Chinese labs do. He told CNBC this week that regulators should stay out of it, saying “I would do nothing,” and suggested there could be an American distillation regime.
+LG also insists that features such as Automatic Content Recognition (ACR), voice recognition, and interest-based advertising are optional rather than enabled by default. On ACR specifically, the company says it relies on audio fingerprinting performed by the TV&#x27;s internal audio processor — not a microphone — to identify content, and that it does not collect screenshots, screen recordings, video recordings, or separate audio recordings.
 
-Distillation, as the article explains, is when a model maker extensively prompts another model to learn how it works and reasons — a standard, legitimate training technique. The report notes that Anthropic this week published its second study accusing Chinese labs of “illicit distillation attacks,” hiding their identities and relying on fraud and stolen credentials. Anthropic’s CEO had publicly pushed regulators to act.
+According to The Verge, LG&#x27;s response left broader questions unaddressed, including how much data it accumulates, who it shares that data with, whether bad actors could exploit the features, and whether its privacy settings are presented misleadingly.
 
-Tan disagrees. His argument has two parts. First, he believes it is an overreach for frontier labs to dictate what customers do with information their models share with them. Second, the proprietary labs never asked permission when they absorbed huge amounts of human knowledge — including copyrighted material — to train their own models. He told TechCrunch that access to intelligence trained on broad public data should be treated more as a public good than something locked behind restrictive terms of service.
+*The company answered the immediate claims but dodged the larger questions about data collection that prompted the scrutiny in the first place.*
 
-Tan wants a balance between open-weight and frontier labs, and warns that his doomer scenario is one giant monopolistic company controlling all of AI’s power. “The nightmare scenario, the doomer scenario for AI is that there’s just one company,” he said.
+*— Written by AI (deepseek-v4-flash-0731)*" data-s="theverge.com" data-u="https://www.theverge.com/tech/994333/lg-responds-to-tv-spying-allegations"><span class="tih">LG pushes back on TV data-upload claims</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Sam Altman says OpenAI IPO in 2026 would be ill-advised" data-b="OpenAI CEO Sam Altman ruled out an initial public offering for the company in 2026, telling Fortune during an interview that going public right now would be an ill-advised move. According to The Verge, Altman made the comments over a roughly 45-minute conversation that covered a wide range of subjects, including the recent Hugging Face hacking incident, the prospect of recursive self-improvement, and whether artificial intelligence could one day exceed human control.
 
-*For a startup accelerator chief to side with openness over enforcement is notable, and his point about reciprocity — labs that trained on the whole internet lecturing users on terms of service — deserves regulators’ attention.*
+On that final topic, Altman said it was absolutely possible to build an AI beyond humanity&#x27;s grasp. Still, he pledged to take steps to keep that future in check, even if it meant halting training runs. He warned that there are risks the field should not be willing to shoulder on behalf of humanity.
 
-*— Written by AI (deepseek-v4-flash-0731)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/"><span class="tih">Y Combinator’s Garry Tan Wants US Open-Weight Labs to Play the Distillation Game Too</span> <span class="tis">— techcrunch.com</span></div></div></div>
-<div class="lead-zone">
+Regarding the timing of a listing, Altman insisted the company is not rushing, does not feel external pressure, and has long signaled it will go public only when the moment is right. That moment, he suggested, is not 2026, citing a long to-do list in the meantime. The Verge&#x27;s Terrence O&#x27;Brien reported the exchange, noting Altman framed safety concerns as a key reason to hold off on an IPO this year.
+
+*The pledge to pause training for safety signals that OpenAI sees alignment as a hard constraint, not a marketing line.*
+
+*— Written by AI (deepseek-v4-flash-0731)*" data-s="theverge.com" data-u="https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised"><span class="tih">Sam Altman says OpenAI IPO in 2026 would be ill-advised</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="LG pushes back on TV data-upload claims" data-b="Earlier this week, hardware reviewers Gamers Nexus and Level1Techs, along with independent security researchers, highlighted findings suggesting LG smart TVs log and upload data about their owners. Now, according to The Verge, LG has responded, arguing that recent media coverage has fueled misconceptions about how its TVs work.
+
+In a statement, LG maintains that its TVs do not continuously record or transmit users&#x27; conversations through their microphones for wake-word detection — that processing, the company says, happens locally on the device. However, The Verge notes that the word &quot;continuously&quot; carries significant weight here, since Gamers Nexus demonstrated an LG TV retaining extensive logs of ambient conversation well after its AI assistant would reasonably have stopped listening.
+
+LG also insists that features such as Automatic Content Recognition (ACR), voice recognition, and interest-based advertising are optional rather than enabled by default. On ACR specifically, the company says it relies on audio fingerprinting performed by the TV&#x27;s internal audio processor — not a microphone — to identify content, and that it does not collect screenshots, screen recordings, video recordings, or separate audio recordings.
+
+According to The Verge, LG&#x27;s response left broader questions unaddressed, including how much data it accumulates, who it shares that data with, whether bad actors could exploit the features, and whether its privacy settings are presented misleadingly.
+
+*The company answered the immediate claims but dodged the larger questions about data collection that prompted the scrutiny in the first place.*
+
+*— Written by AI (deepseek-v4-flash-0731)*" data-s="theverge.com" data-u="https://www.theverge.com/tech/994333/lg-responds-to-tv-spying-allegations"><span class="tih">LG pushes back on TV data-upload claims</span> <span class="tis">— theverge.com</span></div></div></div>
+<div class="notice"><b>Editor's note —</b> Light news day — fewer fresh items than usual.</div>
+
+
+    <div class="lead-zone">
       <article class="lead">
-  <a href="https://www.tomshardware.com/pc-components/gpus/china-modified-nvidia-rtx-5090-with-massive-96gb-of-memory-appears-on-alibaba-for-less-than-usd4-000-3x-more-vram-at-65-percent-the-cost-of-the-original" target="_blank" rel="noopener">
-    <img src="images/lead_2026-09-12.jpg" alt="" class="lead-image">
+  <a href="https://news.ycombinator.com/item?id=49675987" target="_blank" rel="noopener">
+    <img src="images/lead_2026-09-13.jpg" alt="" class="lead-image">
     <div class="lead-grid">
       <div class="lead-head">
-        <p class="kicker">96GB RTX 5090</p>
-        <h1>Modified RTX 5090 with 96GB of VRAM sells for under $4,000</h1>
+        <p class="kicker">Local-first LLM client</p>
+        <h1>Lab is a local-first, serverless browser client for LLMs</h1>
       </div>
       <div class="lead-body">
-        <p class="deck">Shenzhen resellers are shipping rebuilt RTX 5090 cards carrying 96GB of GDDR7 — three times the stock 32GB — for about $3,888, using leaked Nvidia firmware to address the expanded memory pool. At roughly 65% of a retail 5090's cost, it is a cheap path to far more VRAM than any stock Blackwell card for local inference.</p>
-        <p class="byline"><span class="src">Tom's Hardware</span> · <span>2026-09-11</span> · <span class="more">Read the dispatch →</span></p>
+        <p class="deck">Lab launches as a local-first, serverless browser client for running LLMs, pitched as a chat and experimentation UI that targets local inference workflows with no server component. It stands out as the most general-purpose new interface in a window otherwise crowded with niche agent tooling.</p>
+        <p class="byline"><span class="src">Hacker News</span> · <span>2026-09-12</span> · <span class="more">Read the dispatch →</span></p>
       </div>
     </div>
   </a>
@@ -73,18 +90,26 @@ Tan wants a balance between open-weight and frontier labs, and warns that his do
 
     <div class="topstories">
 <article class="story">
-  <a href="https://techpowerup.com/352592/gamers-buy-more-gpus-than-ever-in-q2-2026-even-as-prices-keep-climbing" target="_blank" rel="noopener">
-    <h3>Desktop GPU shipments hit a 3-year high in Q2 2026 even as prices climb</h3>
-    <p>Desktop AIB shipments reached 12.5 million units in Q2 2026, the most since Q1 2022, as buyers buy ahead of further GPU price hikes tied to the GDDR/DRAM crunch.</p>
-    <p class="byline"><span class="src">TechPowerUp</span> · 2026-09-11</p>
+  <a href="https://github.com/takaakit/astah-pro-mcp" target="_blank" rel="noopener">
+    <h3>Astah Pro MCP lets AI agents design UML models locally</h3>
+    <p>A local MCP server plugin for Astah Professional lets AI agents design and explain UML models, generate code from models and back, and build diagrams from hand-drawn sketches via programmatic tool calling.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-13</p>
   </a>
 </article>
 
 <article class="story">
-  <a href="https://deepmind.google/blog/d4rt-teaching-ai-to-see-the-world-in-four-dimensions/" target="_blank" rel="noopener">
-    <h3>Google DeepMind details D4RT, a unified model for 4D scene reconstruction</h3>
-    <p>DeepMind's D4RT tackles fast 4D scene reconstruction and tracking across space and time in one model; the project page was refreshed September 11.</p>
-    <p class="byline"><span class="src">Google DeepMind</span> · 2026-09-11</p>
+  <a href="https://lumae.app" target="_blank" rel="noopener">
+    <h3>Lumae: a macOS screen recorder AI agents can edit over MCP</h3>
+    <p>Lumae is a free native macOS screen recorder and screenshot tool whose recordings AI agents can edit over MCP, with automatic zoom, smooth cursor, motion blur, captions, and annotation callouts.</p>
+    <p class="byline"><span class="src">Lumae</span> · 2026-09-12</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://www.ai-market-watch.com/news/deepseek-reportedly-accelerates-preparations-for-a-public-listing-with-analysts--fksndm" target="_blank" rel="noopener">
+    <h3>DeepSeek reportedly accelerates STAR Market IPO work with CITIC Securities as sponsor</h3>
+    <p>DeepSeek is reportedly preparing a Shanghai STAR Market listing with CITIC Securities as sponsor, targeting an A-share debut in 2026-2027, following a June round of about $7.2B at roughly $56B post-money.</p>
+    <p class="byline"><span class="src">AI Market Watch</span> · 2026-09-12</p>
   </a>
 </article>
 
@@ -94,49 +119,76 @@ Tan wants a balance between open-weight and frontier labs, and warns that his do
     <div class="sections">
       <section class="section">
   <div class="section-head">
-    <h2>Open Weights &amp; Models</h2>
+    <h2>Research &amp; Papers</h2>
     <span class="line"></span>
     <span class="n">05</span>
   </div>
-  <a href="https://huggingface.co/abacusai/Smaug-Agentic" target="_blank" rel="noopener" class="section-hero"><img src="images/section_open-weights-models_2026-09-12.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Abacus.AI releases Smaug Agentic, Flash and Mini open-weight models</h4></a>
+  <a href="https://arxiv.org/abs/2609.11687" target="_blank" rel="noopener" class="section-hero"><img src="images/section_research-papers_2026-09-13.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Structured transforms cut quantization overhead from O(N²) to O(N log N)</h4></a>
   <div class="section-grid">
 <article class="item">
-  <a href="https://huggingface.co/abacusai/Smaug-Agentic" target="_blank" rel="noopener">
-    <h4>Abacus.AI releases Smaug Agentic, Flash and Mini open-weight models</h4>
-    <p>Abacus.AI published three open-weight agentic LLMs, led by Smaug Agentic, a fine-tune of Moonshot's 2.8T-parameter Kimi K3 MoE base, plus Smaug Flash and 27B multimodal Smaug Mini for long-running agent loops that can be self-hosted in enterprise VPCs.</p>
-    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-11</p>
+  <a href="https://arxiv.org/abs/2609.11687" target="_blank" rel="noopener">
+    <h4>Structured transforms cut quantization overhead from O(N²) to O(N log N)</h4>
+    <p>Replacing dense random orthogonal matrices with sign-randomized DCT transforms makes Kashin-decomposition-based weight quantization far cheaper while staying competitive with OPTQ, QuIP and QuIP-RG at 4-bit per channel, and remaining numerically stable where QuIP diverges on Pythia-6.9B and Mistral-7B.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-10</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://huggingface.co/MiniMaxAI/MiniMax-H3" target="_blank" rel="noopener">
-    <h4>MiniMax-H3: 33B open-weight video generation with synchronized audio</h4>
-    <p>NVIDIA's September open-weight rollout includes MiniMax-H3, a 33B text/image/audio-to-video model with natively synchronized stereo audio, distributed through ComfyUI with NVIDIA-optimized checkpoints; it is currently trending on Hugging Face.</p>
-    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-11</p>
+  <a href="https://arxiv.org/abs/2609.11163" target="_blank" rel="noopener">
+    <h4>LILA prunes LLMs with no calibration data and beats an RL pruning policy</h4>
+    <p>A calibration-free scoring method based on latent spectral geometry and KS distances outperforms PruneNet's 45M-parameter RL policy by 1.57pp on LLaMA-2-7B at 25% sparsity and beats WikiText-2-calibrated SliceGPT by up to 6pp.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-10</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://huggingface.co/bot-lab-21/DeepSeek-V4.1-Flash-EXL3-3.5bpw-Pollard" target="_blank" rel="noopener">
-    <h4>DeepSeek-V4.1-Flash EXL3 3.5bpw quant lands for local runtimes</h4>
-    <p>A community EXL3 3.5bpw quantization of DeepSeek-V4.1-Flash is now serving, an early attempt at running the 763B MoE on EXL2/EXL3-class local inference.</p>
-    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-11</p>
+  <a href="https://arxiv.org/abs/2609.11699" target="_blank" rel="noopener">
+    <h4>Negative Self-Distillation trains models to avoid their own flawed reasoning</h4>
+    <p>NSD makes LLMs diverge from their own flawed reasoning traces instead of imitating ground-truth solutions, countering on-policy self-distillation's tendency to suppress uncertainty and self-correction on complex reasoning tasks.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-10</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://huggingface.co/0xTank/DeepSeek-V4.1-Flash-vLLM-4x-GB10-Recipe" target="_blank" rel="noopener">
-    <h4>Community vLLM recipe runs DeepSeek-V4.1-Flash on a 4x GB10 DGX Spark</h4>
-    <p>A published serving recipe documents running DeepSeek-V4.1-Flash across four GB10 nodes with measured prompt and generation latency.</p>
-    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-11</p>
+  <a href="https://arxiv.org/abs/2609.11412" target="_blank" rel="noopener">
+    <h4>X-AuT compresses speech-LLM audio encoders and lowers error rates</h4>
+    <p>Progressive audio-encoder compression with cross-scale distillation cut macro-average error on Qwen3-ASR-0.6B from 5.61% to 5.27% across ten Chinese-English benchmarks while the language-model backbone stayed frozen.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-10</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://huggingface.co/laion/snowball-64k-eagle3-draft-r2egym" target="_blank" rel="noopener">
-    <h4>LAION ships a one-layer Eagle-3 speculative-draft model</h4>
-    <p>LAION's Snowball-64k Eagle-3 draft adapts a single-layer draft model on agent trajectories for speculative decoding, aimed at boosting local inference throughput.</p>
-    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-11</p>
+  <a href="https://arxiv.org/abs/2609.11058" target="_blank" rel="noopener">
+    <h4>EMMI compresses multimodal representations for edge MLLM inference</h4>
+    <p>Fused representation compression reduces the compute, memory and communication demands of running multimodal LLMs on resource-constrained edge platforms across vision, text and telemetry modalities.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-10</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Open Weights &amp; Models</h2>
+    <span class="line"></span>
+    <span class="n">02</span>
+  </div>
+  <a href="https://huggingface.co/dougalldeepmind/2026-09-12-qwen36-0-delib-sonnet-7" target="_blank" rel="noopener" class="section-hero"><img src="images/section_open-weights-models_2026-09-13.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Qwen3.6-based delib/sonnet fine-tune lands on Hugging Face</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://huggingface.co/dougalldeepmind/2026-09-12-qwen36-0-delib-sonnet-7" target="_blank" rel="noopener">
+    <h4>Qwen3.6-based delib/sonnet fine-tune lands on Hugging Face</h4>
+    <p>A Qwen3.6 fine-tune from the dougalldeepmind experimental line was uploaded Sept 12 with safetensors weights, part of the ongoing delib/sonnet series.</p>
+    <p class="byline"><span class="src">Hugging Face</span> · 2026-09-12</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/dougalldeepmind/2026-09-12-qwen36-agent-advice-638-0" target="_blank" rel="noopener">
+    <h4>Qwen3.6 agent-advice checkpoint uploaded Sept 12</h4>
+    <p>A second in-window upload from dougalldeepmind focuses on agentic advice and reasoning traces; minor but genuine new weights for the reporting window.</p>
+    <p class="byline"><span class="src">Hugging Face</span> · 2026-09-12</p>
   </a>
 </article>
 
@@ -147,47 +199,39 @@ Tan wants a balance between open-weight and frontier labs, and warns that his do
   <div class="section-head">
     <h2>Tools &amp; Runtimes</h2>
     <span class="line"></span>
-    <span class="n">05</span>
+    <span class="n">04</span>
   </div>
-  <a href="https://github.com/Adarshent/Spnda" target="_blank" rel="noopener" class="section-hero"><img src="images/section_tools-runtimes_2026-09-12.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Spanda gives LLM outputs sub-microsecond epistemic uncertainty signals</h4></a>
+  <a href="https://github.com/ggml-org/llama.cpp/releases/tag/b10937" target="_blank" rel="noopener" class="section-hero"><img src="images/section_tools-runtimes_2026-09-13.jpg" alt="" class="section-hero-img"><h4 class="hero-title">llama.cpp b10937 extends OpenCL row-alignment rule to more quant formats</h4></a>
   <div class="section-grid">
 <article class="item">
-  <a href="https://github.com/Adarshent/Spnda" target="_blank" rel="noopener">
-    <h4>Spanda gives LLM outputs sub-microsecond epistemic uncertainty signals</h4>
-    <p>Spanda is an open-source, zero-dependency library that computes epistemic uncertainty on LLM outputs entirely locally, with no extra model calls.</p>
-    <p class="byline"><span class="src">GitHub</span> · 2026-09-11</p>
+  <a href="https://github.com/ggml-org/llama.cpp/releases/tag/b10937" target="_blank" rel="noopener">
+    <h4>llama.cpp b10937 extends OpenCL row-alignment rule to more quant formats</h4>
+    <p>Daily build b10937 extends the noshuffle row-alignment rule in the OpenCL backend to q4_K, q5_K and q8_0 quantizations, previously limited to q6_K.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-13</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://github.com/paulknysh/raggy" target="_blank" rel="noopener">
-    <h4>Raggy: lightweight CLI for RAG over local documents</h4>
-    <p>Raggy is a CLI built on LangChain, Chroma and Ollama for hybrid vector + BM25 retrieval over local documents with OCR support; generation can run on a local LLM or an API key.</p>
-    <p class="byline"><span class="src">GitHub</span> · 2026-09-11</p>
-  </a>
-</article>
-
-<article class="item">
-  <a href="https://github.com/eminsk/nanovector" target="_blank" rel="noopener">
-    <h4>NanoVector: a 120KB zero-dependency vector search engine</h4>
-    <p>NanoVector is a C99 vector search engine (~120KB, AVX2/FMA/ARM NEON) pitched as 'the SQLite of vector search' for local agent episodic memory, with a PyPI package.</p>
-    <p class="byline"><span class="src">GitHub</span> · 2026-09-11</p>
-  </a>
-</article>
-
-<article class="item">
-  <a href="https://github.com/ggml-org/llama.cpp/releases/tag/b10919" target="_blank" rel="noopener">
-    <h4>llama.cpp b10919 updates ggml-webgpu to a recent Dawn</h4>
-    <p>The September 12 build refreshes the WebGPU backend against a recent Dawn release, improving browser-based local inference.</p>
+  <a href="https://github.com/khuynh22/agent-dev-team" target="_blank" rel="noopener">
+    <h4>agent-dev-team: a tiered engineering team configured for AI coding tools</h4>
+    <p>A configurable add-on for local AI coding agents ships 21 role agents across four seniority tiers, 26 portable workflow skills and an escalation protocol, working with Claude Code, Codex, Gemini CLI, Cursor, Windsurf, OpenCode and GitHub Copilot.</p>
     <p class="byline"><span class="src">GitHub</span> · 2026-09-12</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://github.com/sqliteai/sqlite-vector" target="_blank" rel="noopener">
-    <h4>SQLite-Vector brings vector search to SQLite under Apache 2.0</h4>
-    <p>SQLite-Vector now ships Apache-2.0 with exact search, SIMD distance kernels and SIMD 2/3/4-bit TurboQuant scans, running anywhere SQLite runs.</p>
-    <p class="byline"><span class="src">GitHub</span> · 2026-09-11</p>
+  <a href="https://github.com/rakutentech/sorify" target="_blank" rel="noopener">
+    <h4>Sorify: an open-source, MCP-managed browser automation platform</h4>
+    <p>An AI-first browser testing and automation platform managed entirely through MCP, with low token consumption, a scheduler, CI webhooks and a Chrome extension that records events for agents.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-12</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/no-human-ai/no_human" target="_blank" rel="noopener">
+    <h4>no_human runs a full ticket-to-PR pipeline on-device</h4>
+    <p>A free, open-source pipeline that runs entirely on your machine, handling development from issue ticket to reviewed pull request using AI coding agents.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-12</p>
   </a>
 </article>
 
@@ -196,41 +240,25 @@ Tan wants a balance between open-weight and frontier labs, and warns that his do
 
 <section class="section">
   <div class="section-head">
-    <h2>Self-Hosted Stack</h2>
+    <h2>Hardware &amp; Edge</h2>
     <span class="line"></span>
-    <span class="n">04</span>
+    <span class="n">02</span>
   </div>
-  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1we2fi6/unsloth_udquants_qwen_38_27b_for_example_worth/" target="_blank" rel="noopener" class="section-hero"><img src="images/section_self-hosted-stack_2026-09-12.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Are 8-bit UD quants worth the speed hit for Qwen 3.8 27B coding?</h4></a>
+  <a href="https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-september-12-2026-benchmarking-qwen-3-8-the-splintered-compute-economy-and-ai-breakthroughs" target="_blank" rel="noopener" class="section-hero"><img src="images/section_hardware-edge_2026-09-13.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Tom's Hardware benchmarks Qwen 3.8 on RTX 5090 — VRAM alone can't beat software bottlenecks</h4></a>
   <div class="section-grid">
 <article class="item">
-  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1we2fi6/unsloth_udquants_qwen_38_27b_for_example_worth/" target="_blank" rel="noopener">
-    <h4>Are 8-bit UD quants worth the speed hit for Qwen 3.8 27B coding?</h4>
-    <p>r/LocalLLaMA debates whether Unsloth UD-8-bit quants beat UD-Q6_K_XL for long-context coding, with commenters noting quantization affects attention precision and that Qwen Flash Next's ngram approach resists quant drift.</p>
-    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-09-12</p>
+  <a href="https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-september-12-2026-benchmarking-qwen-3-8-the-splintered-compute-economy-and-ai-breakthroughs" target="_blank" rel="noopener">
+    <h4>Tom's Hardware benchmarks Qwen 3.8 on RTX 5090 — VRAM alone can't beat software bottlenecks</h4>
+    <p>This week's hardware roundup finds VRAM capacity alone cannot overcome severe software and inference-engine bottlenecks when benchmarking Qwen 3.8 27B, alongside coverage of the splintered compute economy and GPU/memory pricing pressure.</p>
+    <p class="byline"><span class="src">Tom's Hardware</span> · 2026-09-12</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1wduplw/what_is_a_good_toolmodel_for_nearrealtime_voice/" target="_blank" rel="noopener">
-    <h4>What to use for local STT-LLM-TTS real-time voice stacks</h4>
-    <p>A practical thread compares LiveKit Agent, HuggingFace speech-to-speech pipelines, Kokoro/Fish Audio/Breeze TTSholiday, and SillyTavern's server tools with local GGUF models.</p>
-    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-09-11</p>
-  </a>
-</article>
-
-<article class="item">
-  <a href="https://www.reddit.com/r/selfhosted/comments/1wdoti6/mohdel_10_a_selfhosted_llm_gateway_for_node_your/" target="_blank" rel="noopener">
-    <h4>Mohdel 1.0: self-hosted LLM gateway and SDK for Node</h4>
-    <p>Mohdel is an MIT-licensed self-hosted gateway/SDK that keeps your own API keys, tracks per-call USD cost internally, and routes inference with no SaaS in the path.</p>
-    <p class="byline"><span class="src">r/selfhosted</span> · 2026-09-11</p>
-  </a>
-</article>
-
-<article class="item">
-  <a href="https://www.reddit.com/r/selfhosted/comments/1wdftao/since_i_couldnt_buy_a_mac_i_built_my_own/" target="_blank" rel="noopener">
-    <h4>A custom local AI WebUI for iPad, no SaaS subscriptions</h4>
-    <p>A build log shows a privacy-first AI workspace on iPadOS using a-Shell and Safari with bring-your-own keys instead of platform fees.</p>
-    <p class="byline"><span class="src">r/selfhosted</span> · 2026-09-11</p>
+  <a href="https://techbriefe.com/tech/tech-briefing/nvidia-brings-founders-edition-rtx-50-series-graphics-cards-back-to-retail" target="_blank" rel="noopener">
+    <h4>Nvidia sells Founder's Edition RTX 50-series cards at MSRP during PAX West</h4>
+    <p>Nvidia offered RTX 5090 ($1,999), RTX 5080 ($999) and RTX 5070 ($549) Founder's Edition cards at original launch MSRP to Verified Priority Access attendees, amid the 2026 GPU price premium environment.</p>
+    <p class="byline"><span class="src">TechBriefe</span> · 2026-09-12</p>
   </a>
 </article>
 
@@ -248,26 +276,26 @@ Tan wants a balance between open-weight and frontier labs, and warns that his do
     </div>
     <ul class="t-list">
       <li>
-  <a href="https://github.com/ayghri/i-have-adhd" target="_blank" rel="noopener">
-    <span class="t-ranking">#01</span>
-    <span class="t-name">ayghri/i-have-adhd</span>
-    <span class="t-meta">Python · 42,250 ★ · +3,463 today — agent skill that stops coding agents from burying the answer</span>
-  </a>
-</li>
-
-<li>
   <a href="https://github.com/melgarafael/DeskcommCRM" target="_blank" rel="noopener">
-    <span class="t-ranking">#02</span>
+    <span class="t-ranking">#01</span>
     <span class="t-name">melgarafael/DeskcommCRM</span>
-    <span class="t-meta">TypeScript · 1,438 ★ · +152 today — open-source AI sales OS, self-hosted CRM with native AI agents</span>
+    <span class="t-meta">TypeScript · 1.9k ★ · +504 today — open-source AI sales OS with native AI agents + WhatsApp</span>
   </a>
 </li>
 
 <li>
-  <a href="https://github.com/vastsa/PI-Desktop" target="_blank" rel="noopener">
+  <a href="https://github.com/asgeirtj/system_prompts_leaks" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">asgeirtj/system_prompts_leaks</span>
+    <span class="t-meta">JavaScript · 65.5k ★ · +217 today — extracted LLM system prompts (Claude, OpenAI)</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/jihe520/MathModelAgent" target="_blank" rel="noopener">
     <span class="t-ranking">#03</span>
-    <span class="t-name">vastsa/PI-Desktop</span>
-    <span class="t-meta">TypeScript · 2,855 ★ · +552 today — local-first AI coding agent desktop (Electron + Rust host)</span>
+    <span class="t-name">jihe520/MathModelAgent</span>
+    <span class="t-meta">Python · 5.2k ★ · +262 today — AI agent for automated mathematical modeling</span>
   </a>
 </li>
 
@@ -275,47 +303,39 @@ Tan wants a balance between open-weight and frontier labs, and warns that his do
   <a href="https://github.com/alsk1992/CloddsBot" target="_blank" rel="noopener">
     <span class="t-ranking">#04</span>
     <span class="t-name">alsk1992/CloddsBot</span>
-    <span class="t-meta">TypeScript · 2,227 ★ · +626 today — open-source AI trading agent across 1000+ markets</span>
+    <span class="t-meta">TypeScript · 2.6k ★ · +376 today — open-source AI trading agent across 1000+ markets</span>
   </a>
 </li>
 
 <li>
-  <a href="https://github.com/nashsu/llm_wiki" target="_blank" rel="noopener">
+  <a href="https://github.com/Shubhamsaboo/awesome-llm-apps" target="_blank" rel="noopener">
     <span class="t-ranking">#05</span>
-    <span class="t-name">nashsu/llm_wiki</span>
-    <span class="t-meta">TypeScript · 18,830 ★ · +647 today — LLM knowledge base; RAG-free document organizing desktop app</span>
+    <span class="t-name">Shubhamsaboo/awesome-llm-apps</span>
+    <span class="t-meta">Python · 137.7k ★ · +230 today — 100+ AI agents, agent skills and RAG apps</span>
   </a>
 </li>
 
 <li>
-  <a href="https://github.com/obra/superpowers" target="_blank" rel="noopener">
+  <a href="https://github.com/SnailSploit/Claude-Red" target="_blank" rel="noopener">
     <span class="t-ranking">#06</span>
-    <span class="t-name">obra/superpowers</span>
-    <span class="t-meta">Shell · 285,455 ★ · +729 today — agentic skills framework &amp; dev methodology</span>
+    <span class="t-name">SnailSploit/Claude-Red</span>
+    <span class="t-meta">Python · 3.7k ★ · +113 today — offensive-security skill library for Claude</span>
   </a>
 </li>
 
 <li>
-  <a href="https://github.com/jihe520/MathModelAgent" target="_blank" rel="noopener">
+  <a href="https://github.com/multimodal-art-projection/YuE" target="_blank" rel="noopener">
     <span class="t-ranking">#07</span>
-    <span class="t-name">jihe520/MathModelAgent</span>
-    <span class="t-meta">Python · 4,910 ★ · +129 today — agent for mathematical modeling that auto-generates a paper</span>
+    <span class="t-name">multimodal-art-projection/YuE</span>
+    <span class="t-meta">Python · 7.4k ★ · +210 today — YuE2 frontier open-source music generation</span>
   </a>
 </li>
 
 <li>
-  <a href="https://github.com/jordan-gibbs/hyperresearch" target="_blank" rel="noopener">
+  <a href="https://github.com/max-sixty/worktrunk" target="_blank" rel="noopener">
     <span class="t-ranking">#08</span>
-    <span class="t-name">jordan-gibbs/hyperresearch</span>
-    <span class="t-meta">Python · 2,737 ★ · +153 today — agent-driven research knowledge base</span>
-  </a>
-</li>
-
-<li>
-  <a href="https://github.com/alphaXiv/OpenResearch" target="_blank" rel="noopener">
-    <span class="t-ranking">#09</span>
-    <span class="t-name">alphaXiv/OpenResearch</span>
-    <span class="t-meta">Rust · 1,379 ★ · +120 today — run parallel research agents with any model</span>
+    <span class="t-name">max-sixty/worktrunk</span>
+    <span class="t-meta">Rust · 7.3k ★ · +54 today — git worktree CLI designed for parallel AI agent workflows</span>
   </a>
 </li>
 
@@ -333,7 +353,7 @@ Tan wants a balance between open-weight and frontier labs, and warns that his do
   <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash" target="_blank" rel="noopener">
     <span class="t-ranking">#01</span>
     <span class="t-name">deepseek-ai/DeepSeek-V4.1-Flash</span>
-    <span class="t-meta">763B multimodal MoE, MIT open weights, released Sep 10</span>
+    <span class="t-meta">KV-cache-compression Flash model leading the open-source leaderboard; text+image generation</span>
   </a>
 </li>
 
@@ -341,39 +361,39 @@ Tan wants a balance between open-weight and frontier labs, and warns that his do
   <a href="https://huggingface.co/openbmb/MiniCPM5-2B" target="_blank" rel="noopener">
     <span class="t-ranking">#02</span>
     <span class="t-name">openbmb/MiniCPM5-2B</span>
-    <span class="t-meta">2.5B text generation, updated Sep 12</span>
-  </a>
-</li>
-
-<li>
-  <a href="https://huggingface.co/XHToken/Spark-X2.5-4B" target="_blank" rel="noopener">
-    <span class="t-ranking">#03</span>
-    <span class="t-name">XHToken/Spark-X2.5-4B</span>
-    <span class="t-meta">4.1B text generation</span>
+    <span class="t-meta">On-device 2B edge-ai LLM with long-context and tool-calling</span>
   </a>
 </li>
 
 <li>
   <a href="https://huggingface.co/nex-agi/Nex-N2.5-mini" target="_blank" rel="noopener">
-    <span class="t-ranking">#04</span>
+    <span class="t-ranking">#03</span>
     <span class="t-name">nex-agi/Nex-N2.5-mini</span>
-    <span class="t-meta">35B text generation mini</span>
+    <span class="t-meta">Qwen3.5-MoE-based mini multimodal model (image-text-to-text)</span>
   </a>
 </li>
 
 <li>
   <a href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener">
-    <span class="t-ranking">#05</span>
+    <span class="t-ranking">#04</span>
     <span class="t-name">Qwen/Qwen3.8-27B</span>
-    <span class="t-meta">28B image-text-to-text, multimodal frontier</span>
+    <span class="t-meta">Qwen3.8 post-trained 27B, image-text-to-text, 7.7M downloads</span>
   </a>
 </li>
 
 <li>
-  <a href="https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF" target="_blank" rel="noopener">
+  <a href="https://huggingface.co/Edge0/Edge0-35B-A3B-preview" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Edge0/Edge0-35B-A3B-preview</span>
+    <span class="t-meta">35B MoE (3B active), edge-inference with prerouter, LoRA and SSD offload</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/XHToken/Spark-X2.5-4B" target="_blank" rel="noopener">
     <span class="t-ranking">#06</span>
-    <span class="t-name">ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF</span>
-    <span class="t-meta">GGUF quant of Qwen3.8-27B</span>
+    <span class="t-name">XHToken/Spark-X2.5-4B</span>
+    <span class="t-meta">Spark-X2.5 4B conversational LLM</span>
   </a>
 </li>
 
@@ -381,31 +401,31 @@ Tan wants a balance between open-weight and frontier labs, and warns that his do
   <a href="https://huggingface.co/nex-agi/Nex-N2.5-Pro" target="_blank" rel="noopener">
     <span class="t-ranking">#07</span>
     <span class="t-name">nex-agi/Nex-N2.5-Pro</span>
-    <span class="t-meta">397B text generation, updated Sep 11</span>
+    <span class="t-meta">Qwen3.5-MoE-based Pro model with compressed-tensors, multimodal</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF</span>
+    <span class="t-meta">Qwen3.8-27B GGUF with GSQ/RCO mixed-precision quantization for vision</span>
   </a>
 </li>
 
 <li>
   <a href="https://huggingface.co/Lightricks/LTX-2.5" target="_blank" rel="noopener">
-    <span class="t-ranking">#08</span>
+    <span class="t-ranking">#09</span>
     <span class="t-name">Lightricks/LTX-2.5</span>
-    <span class="t-meta">image-to-video generation</span>
+    <span class="t-meta">Open video generation: text/image/audio-to-video, LTX-Video, ComfyUI</span>
   </a>
 </li>
 
 <li>
   <a href="https://huggingface.co/unsloth/Qwen3.8-27B-GGUF" target="_blank" rel="noopener">
-    <span class="t-ranking">#09</span>
-    <span class="t-name">unsloth/Qwen3.8-27B-GGUF</span>
-    <span class="t-meta">popular GGUF quant of Qwen3.8-27B for local inference</span>
-  </a>
-</li>
-
-<li>
-  <a href="https://huggingface.co/WarmBloodAban/Minimax-h3_Singularity" target="_blank" rel="noopener">
     <span class="t-ranking">#10</span>
-    <span class="t-name">WarmBloodAban/Minimax-h3_Singularity</span>
-    <span class="t-meta">image-to-video, updated Sep 12</span>
+    <span class="t-name">unsloth/Qwen3.8-27B-GGUF</span>
+    <span class="t-meta">Unsloth GGUF quants of Qwen3.8-27B with imatrix, for local inference</span>
   </a>
 </li>
 
@@ -651,32 +671,30 @@ Tan wants a balance between open-weight and frontier labs, and warns that his do
   <div class="section-head">
     <h2>In Brief</h2>
     <span class="line"></span>
-    <span class="n">12</span>
+    <span class="n">11</span>
   </div>
   <ul class="qh-list">
-    <li><a href="https://siliconangle.com/2026/09/11/chinese-ai-chip-developer-enflame-raises-912m-in-ipo" target="_blank" rel="noopener"><span class="qh-title">Enflame raises $912M in IPO, shares surge 179%</span><span class="qh-src">SiliconAngle</span></a></li>
+    <li><a href="https://www.reddit.com/r/LocalLLaMA/comments/1v2c341/today_i_learnt_the_power_of_localllama" target="_blank" rel="noopener"><span class="qh-title">A local 27B Qwen model fixed a friend's laptop remotely through Pi.dev</span><span class="qh-src">r/LocalLLaMA</span></a></li>
 
-    <li><a href="https://news.crunchbase.com/venture/biggest-funding-rounds-boring-co-cognition-massive-week/" target="_blank" rel="noopener"><span class="qh-title">Motive raises $1.3B in AI fleet-management financing</span><span class="qh-src">Crunchbase News</span></a></li>
+    <li><a href="https://huggingface.co/blog/NILKNARFGonzo/we-got-here" target="_blank" rel="noopener"><span class="qh-title">Hugging Face: 'How Did We Get Here?' — a community essay on moving to open weights</span><span class="qh-src">Hugging Face</span></a></li>
 
-    <li><a href="https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/" target="_blank" rel="noopener"><span class="qh-title">Mecka AI nears $500M valuation in a Sequoia-led round for robot training data</span><span class="qh-src">TechCrunch</span></a></li>
+    <li><a href="https://arxiv.org/abs/2609.10656" target="_blank" rel="noopener"><span class="qh-title">Understanding LoRA rank trade-offs in diffusion model fine-tuning</span><span class="qh-src">arXiv</span></a></li>
 
-    <li><a href="https://techstartups.com/2026/09/11/startup-funding-news-today-september-11-2026-kinetix-ai-aidin-robotics-enigmata-more" target="_blank" rel="noopener"><span class="qh-title">AIDIN Robotics closes a ~$120M strategic round with Hyundai and Samsung</span><span class="qh-src">TechStartups</span></a></li>
+    <li><a href="https://arxiv.org/abs/2609.10712" target="_blank" rel="noopener"><span class="qh-title">An Open Recipe for IMO Gold: training Nemotron for olympiad mathematics</span><span class="qh-src">arXiv</span></a></li>
 
-    <li><a href="https://techstartups.com/2026/09/11/pentagon-in-talks-to-lend-5-billion-to-ai-cloud-startup-fluidstack-to-shore-up-us-data-center-supply-chain" target="_blank" rel="noopener"><span class="qh-title">Pentagon in talks to lend $5B to AI cloud startup Fluidstack</span><span class="qh-src">TechStartups</span></a></li>
+    <li><a href="https://arxiv.org/abs/2609.11127" target="_blank" rel="noopener"><span class="qh-title">KuaiRP Series role-playing models: technical report</span><span class="qh-src">arXiv</span></a></li>
 
-    <li><a href="https://www.youtube.com/watch?v=DmEJQB_p-nM" target="_blank" rel="noopener"><span class="qh-title">OpenAI's Altman may slow down AI development</span><span class="qh-src">YouTube — Bloomberg Technology</span></a></li>
+    <li><a href="https://www.ai-market-watch.com/news/deep-cogito-raises-43m-series-a-led-by-tq-ventures-for-enterprise-ai-post-traini-i7pw35" target="_blank" rel="noopener"><span class="qh-title">Deep Cogito closes $43M Series A for post-training research</span><span class="qh-src">AI Market Watch</span></a></li>
 
-    <li><a href="https://www.youtube.com/watch?v=Ckl7jX8vKzs" target="_blank" rel="noopener"><span class="qh-title">Meta launches Muse; new ChatGPT and Gemini image tools debut</span><span class="qh-src">YouTube — AI Tool Report</span></a></li>
+    <li><a href="https://www.ai-market-watch.com/news/antioch-raises-32m-series-a-led-by-greylock-for-physical-ai-simulation-rio2s2" target="_blank" rel="noopener"><span class="qh-title">Antioch closes $32M Series A to scale simulation for physical AI</span><span class="qh-src">AI Market Watch</span></a></li>
 
-    <li><a href="https://www.youtube.com/watch?v=9Oq7clr7bTs" target="_blank" rel="noopener"><span class="qh-title">Microsoft's data center plans face rising costs</span><span class="qh-src">YouTube — Bloomberg Technology</span></a></li>
+    <li><a href="https://www.ai-market-watch.com/news/vecna-robotics-raises-31m-to-expand-autonomous-mobile-robot-warehouse-automation-t4635r" target="_blank" rel="noopener"><span class="qh-title">Vecna Robotics raises $31M to expand autonomous warehouse automation</span><span class="qh-src">AI Market Watch</span></a></li>
 
-    <li><a href="https://github.com/mukundzha/hazzel" target="_blank" rel="noopener"><span class="qh-title">Hazzel: tiny open-source Git-native terminal coding agent</span><span class="qh-src">GitHub</span></a></li>
+    <li><a href="https://www.ai-market-watch.com/news/insight-partners-leads-133m-series-a-for-pharma-ai-startup-graph-ai-m0yo7e" target="_blank" rel="noopener"><span class="qh-title">Graph AI raises $13.3M Series A for pharma AI workflows</span><span class="qh-src">AI Market Watch</span></a></li>
 
-    <li><a href="https://kytto.jakubhecht.sk/" target="_blank" rel="noopener"><span class="qh-title">KyttoMCP: local MCP server manager for macOS and Windows</span><span class="qh-src">KyttoMCP</span></a></li>
+    <li><a href="https://www.ai-market-watch.com/news/pixeom-raises-seed-round-from-lifetime-ventures-for-ai-powered-molecular-structu-15j3q8" target="_blank" rel="noopener"><span class="qh-title">Pixeom raises an undisclosed seed round for AI molecular analysis</span><span class="qh-src">AI Market Watch</span></a></li>
 
-    <li><a href="https://github.com/skywinder/osm-edit-mcp" target="_blank" rel="noopener"><span class="qh-title">OSM Edit MCP: review-first MCP server for OpenStreetMap edits</span><span class="qh-src">GitHub</span></a></li>
-
-    <li><a href="https://www.npmjs.com/package/clone-voice" target="_blank" rel="noopener"><span class="qh-title">clone-voice: client-side voice cloning SDK for browser and Node</span><span class="qh-src">npm</span></a></li>
+    <li><a href="https://www.latechmadeinitaly.com/e-se-litalia-smettesse-di-vendere-le-sue-tech-e-iniziasse-a-comprare-quelle-degli-altri/" target="_blank" rel="noopener"><span class="qh-title">What If Italian Tech Stopped Being Sold and Started Buying Global Platforms?</span><span class="qh-src">La Tech Made in Italy</span></a></li>
 
   </ul>
 </section>
@@ -684,7 +702,7 @@ Tan wants a balance between open-weight and frontier labs, and warns that his do
 
     <footer class="colophon">
       <p class="mark">Per aspera ad astra</p>
-      <p class="meta">Compiled by Hermes Agent · 2026-09-12 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Compiled by Hermes Agent · 2026-09-13 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
       <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
     </footer>
 

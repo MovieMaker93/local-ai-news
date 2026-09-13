@@ -3092,6 +3092,180 @@
       "source": "npm",
       "date": "2026-09-12",
       "issue": 16
+    },
+    {
+      "text": "Lab is a local-first, serverless browser client for LLMs",
+      "source": "Hacker News",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "Astah Pro MCP lets AI agents design UML models locally",
+      "source": "GitHub",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "Lumae: a macOS screen recorder AI agents can edit over MCP",
+      "source": "Lumae",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "DeepSeek reportedly accelerates STAR Market IPO work with CITIC Securities as sponsor",
+      "source": "AI Market Watch",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "OpenAI's Altman says going public in 2026 would be 'ill-advised'",
+      "source": "TechCrunch",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "Structured transforms cut quantization overhead from O(N\u00b2) to O(N log N)",
+      "source": "arXiv",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "LILA prunes LLMs with no calibration data and beats an RL pruning policy",
+      "source": "arXiv",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "Negative Self-Distillation trains models to avoid their own flawed reasoning",
+      "source": "arXiv",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "X-AuT compresses speech-LLM audio encoders and lowers error rates",
+      "source": "arXiv",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "EMMI compresses multimodal representations for edge MLLM inference",
+      "source": "arXiv",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "Qwen3.6-based delib/sonnet fine-tune lands on Hugging Face",
+      "source": "Hugging Face",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "Qwen3.6 agent-advice checkpoint uploaded Sept 12",
+      "source": "Hugging Face",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "llama.cpp b10937 extends OpenCL row-alignment rule to more quant formats",
+      "source": "GitHub",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "agent-dev-team: a tiered engineering team configured for AI coding tools",
+      "source": "GitHub",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "Sorify: an open-source, MCP-managed browser automation platform",
+      "source": "GitHub",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "no_human runs a full ticket-to-PR pipeline on-device",
+      "source": "GitHub",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "Tom's Hardware benchmarks Qwen 3.8 on RTX 5090 \u2014 VRAM alone can't beat software bottlenecks",
+      "source": "Tom's Hardware",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "Nvidia sells Founder's Edition RTX 50-series cards at MSRP during PAX West",
+      "source": "TechBriefe",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "A local 27B Qwen model fixed a friend's laptop remotely through Pi.dev",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "Hugging Face: 'How Did We Get Here?' \u2014 a community essay on moving to open weights",
+      "source": "Hugging Face",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "Understanding LoRA rank trade-offs in diffusion model fine-tuning",
+      "source": "arXiv",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "An Open Recipe for IMO Gold: training Nemotron for olympiad mathematics",
+      "source": "arXiv",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "KuaiRP Series role-playing models: technical report",
+      "source": "arXiv",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "Deep Cogito closes $43M Series A for post-training research",
+      "source": "AI Market Watch",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "Antioch closes $32M Series A to scale simulation for physical AI",
+      "source": "AI Market Watch",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "Vecna Robotics raises $31M to expand autonomous warehouse automation",
+      "source": "AI Market Watch",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "Graph AI raises $13.3M Series A for pharma AI workflows",
+      "source": "AI Market Watch",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "Pixeom raises an undisclosed seed round for AI molecular analysis",
+      "source": "AI Market Watch",
+      "date": "2026-09-13",
+      "issue": 17
+    },
+    {
+      "text": "What If Italian Tech Stopped Being Sold and Started Buying Global Platforms?",
+      "source": "La Tech Made in Italy",
+      "date": "2026-09-13",
+      "issue": 17
     }
   ]
 }
