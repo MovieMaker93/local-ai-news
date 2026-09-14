@@ -3266,6 +3266,144 @@
       "source": "La Tech Made in Italy",
       "date": "2026-09-13",
       "issue": 17
+    },
+    {
+      "text": "The AI boom is now a line item on your next laptop receipt",
+      "source": "Bubble",
+      "date": "2026-09-14",
+      "issue": 18
+    },
+    {
+      "text": "vLLM AOT config pushes Qwen3.8-27B INT4 to a 147K-token window on one 24GB card",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-14",
+      "issue": 18
+    },
+    {
+      "text": "llama.cpp b10946-b10951 add a CUDA F32 fallback and NEMOTRON/MTP load fixes",
+      "source": "GitHub",
+      "date": "2026-09-14",
+      "issue": 18
+    },
+    {
+      "text": "SutraDB v2.1 ships a pure-Python hybrid vector store with IVF-FLAT ANN for local RAG",
+      "source": "PyPI",
+      "date": "2026-09-14",
+      "issue": 18
+    },
+    {
+      "text": "AMD's best gaming CPU drops below launch price at $484 with a free 240mm AIO",
+      "source": "Tom's Hardware",
+      "date": "2026-09-14",
+      "issue": 18
+    },
+    {
+      "text": "DeepSeek V4 Flash Vision Exp arrives as open weights",
+      "source": "NVIDIA Developer Forums",
+      "date": "2026-09-14",
+      "issue": 18
+    },
+    {
+      "text": "VibeVoice-ASR-Streaming (1.5B / 7B) keeps climbing the trending charts",
+      "source": "GitHub",
+      "date": "2026-09-14",
+      "issue": 18
+    },
+    {
+      "text": "huawei-bayerlab/marigold-v2-0 initial release mirrored to ModelScope",
+      "source": "HuggingFace",
+      "date": "2026-09-14",
+      "issue": 18
+    },
+    {
+      "text": "alibaba/open-code-review open-sources a hybrid deterministic pipeline plus LLM agent",
+      "source": "GitHub",
+      "date": "2026-09-14",
+      "issue": 18
+    },
+    {
+      "text": "Kairo routes LLM inference with a fail-closed layer calibrated on RTX 5090 measurements",
+      "source": "GitHub",
+      "date": "2026-09-14",
+      "issue": 18
+    },
+    {
+      "text": "MoE / Engram microscope visualises sparse expert activations in the browser",
+      "source": "GitHub Pages",
+      "date": "2026-09-14",
+      "issue": 18
+    },
+    {
+      "text": "A local-first interactive LaTeX scratchpad under 15 MB, no server",
+      "source": "Telox",
+      "date": "2026-09-14",
+      "issue": 18
+    },
+    {
+      "text": "High-end AMD gaming bundle lands under $1,110 for a complete local-inference desktop",
+      "source": "Tom's Hardware",
+      "date": "2026-09-14",
+      "issue": 18
+    },
+    {
+      "text": "Mexican cartel crypto farm seized with 300 GPUs in Puebla",
+      "source": "Tom's Hardware",
+      "date": "2026-09-14",
+      "issue": 18
+    },
+    {
+      "text": "Tomb Raider runs on a 1-watt ESP32-P4 board for $25",
+      "source": "Tom's Hardware",
+      "date": "2026-09-14",
+      "issue": 18
+    },
+    {
+      "text": "AZZA PSAZ-750G reviewed as a budget ATX 3.1 supply for single-GPU inference boxes",
+      "source": "Tom's Hardware",
+      "date": "2026-09-14",
+      "issue": 18
+    },
+    {
+      "text": "VCs pick the 9 buzziest startups from Y Combinator's latest Demo Day",
+      "source": "TechCrunch",
+      "date": "2026-09-14",
+      "issue": 18
+    },
+    {
+      "text": "Insight Partners' Deven Parekh on diversifying beyond OpenAI and Anthropic",
+      "source": "TechCrunch",
+      "date": "2026-09-14",
+      "issue": 18
+    },
+    {
+      "text": "Larry Ellison cancels $7.5 billion sale of Oracle stock",
+      "source": "TechCrunch",
+      "date": "2026-09-14",
+      "issue": 18
+    },
+    {
+      "text": "Fusion power startups find new partners in the defense world",
+      "source": "TechCrunch",
+      "date": "2026-09-14",
+      "issue": 18
+    },
+    {
+      "text": "US-listed Ciena acquires 100% of PhotonPath, the Politecnico di Milano photonics spin-off",
+      "source": "Startupbusiness.it",
+      "date": "2026-09-14",
+      "issue": 18
+    },
+    {
+      "text": "Beyond AI News briefs the arrival of self-improving AI systems",
+      "source": "YouTube \u2014 Beyond AI News",
+      "date": "2026-09-14",
+      "issue": 18
+    },
+    {
+      "text": "Theo (t3.gg) assesses the latest AI release as a decisive one",
+      "source": "YouTube \u2014 Theo - t3.gg",
+      "date": "2026-09-14",
+      "issue": 18
     }
   ]
 }
