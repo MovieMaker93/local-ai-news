@@ -3404,6 +3404,210 @@
       "source": "YouTube \u2014 Theo - t3.gg",
       "date": "2026-09-14",
       "issue": 18
+    },
+    {
+      "text": "RTX Pro 5500 Blackwell lands with 84GB of GDDR7 for one-pool local LLMs",
+      "source": "hothardware.com",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "llama.cpp 0.4.1 adds Maple 20B-A1B, Tencent Hy 4 and Spark2.5 support",
+      "source": "GitHub",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "Ollama 0.34.0 serves local models straight inside ChatGPT Desktop",
+      "source": "Releasebot",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "Temporal raises $550M Series E at a $12.55B valuation",
+      "source": "Unite.ai",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "NVIDIA open-sources OSMO, one YAML across RTX, GB200 and Jetson AGX Thor",
+      "source": "marktechpost.com",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "When agents slow down: an Elo-per-token read on test-time strategies",
+      "source": "HuggingFace",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "Creative exploration for vibe-design agents gets its own scaffold",
+      "source": "HuggingFace",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "Omni-Streaming Thinking fixes premature cross-modal commitment",
+      "source": "HuggingFace",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "Learned poison-set selection strengthens LLM backdoors",
+      "source": "HuggingFace",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "Atria Dawn previews an agentic foundation model for research work",
+      "source": "HuggingFace",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "Edge0-35B-A3B-preview: 35B MoE in under 3 GiB via SSD expert streaming",
+      "source": "HuggingFace",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "colibri: a pure-C inference engine for frontier MoE models",
+      "source": "GitHub",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "Agnes-3.0-Flash lands on the Hub as a 33B multimodal checkpoint",
+      "source": "HuggingFace",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "VoiceStudio: a fully-local ElevenLabs-style voice stack",
+      "source": "GitHub",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "Pi-box ships a coding agent as a VM inside WASM inside Electron",
+      "source": "GitHub",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "AgenticOS is an open-source control plane for company AI agents",
+      "source": "GitHub",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "VideoHighlighter analyzes video offline and self-hosted",
+      "source": "GitHub",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "n8n Assistant is live for Cloud and self-hosted Docker installs",
+      "source": "Unroll Now",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "n8n idempotency keys: which primitives actually dedupe retries",
+      "source": "apis.io",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "Perplexity Portable Computer reaches Windows on 24GB-plus RTX cards",
+      "source": "pcguide.com",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "Arm opens an AI Portal for on-device agentic AI across CPUs, GPUs and NPUs",
+      "source": "design-reuse.com",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "NVIDIA and Palantir ship a sovereign AI stack that runs on-premises",
+      "source": "eenewseurope.com",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "Ollama v0.34.1-rc2 tightens MLX prefix-cache eviction and free-memory checks",
+      "source": "GitHub",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "RTX 5090 nears $5,000 as AI buyers take the cards by the pallet",
+      "source": "eteknix.com",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "Fujitsu's 144-core Arm MONAKA ships in November with cache on a separate die",
+      "source": "hwbusters.com",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "Cornelis raises $205M to chip away at Nvidia's data-center networking dominance",
+      "source": "TechCrunch",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "Gimlet Labs raises $300M Series B at $3B for multi-silicon AI inference",
+      "source": "GCN",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "OpenAI reportedly has a new scaling law behind its new internal model",
+      "source": "X (prinz)",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "GlossoGen framework proposed for studying emergent languages in LLM agents",
+      "source": "X (Elias Stengel-Eskin)",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "EVMbench tests AI agents on smart-contract security",
+      "source": "X (jabu.sol)",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "Grok Build 1.0.32 fixes plugin and skill listings and Windows ARM64 crashes",
+      "source": "X (DogeDesigner)",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "Not all prompts are equal: exploration-guided scaffolding for multimodal post-training",
+      "source": "HuggingFace",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "Dream-RSI tackles the exploration bottleneck in recursive self-improving agents",
+      "source": "HuggingFace",
+      "date": "2026-09-15",
+      "issue": 19
+    },
+    {
+      "text": "GPT-6 system builds entire 3D worlds with high fidelity",
+      "source": "YouTube \u2014 Beyond AI News",
+      "date": "2026-09-15",
+      "issue": 19
     }
   ]
 }

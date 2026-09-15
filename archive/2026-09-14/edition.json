@@ -1,0 +1,473 @@
+{
+  "issue_no": 18,
+  "date_iso": "2026-09-14",
+  "date_human": "September 14, 2026",
+  "notice": null,
+  "lead": {
+    "kicker": "Memory squeeze",
+    "title": "The AI boom is now a line item on your next laptop receipt",
+    "summary": "Memory price trackers show the HBM4 ramp starving commodity DRAM: Samsung and SK Hynix fell below 10 days of finished DRAM inventory on September 7, and HBM3E 36GB 12-Hi stacks listed at $300.87 (+14% year on year) on September 13. A 32GB DDR5 kit that cost $80-120 in early 2025 was near $529 by mid-2026. New fab output from Samsung, SK Hynix and Micron is not expected to bring meaningful relief before mid-2027 or 2028, so plan a local rig budget around sustained memory inflation.",
+    "source": "Bubble",
+    "date": "2026-09-13",
+    "url": "https://bubble.ro/2026-09-13/the-ai-boom-has-a-line-item-on-your-next-laptop-receipt/",
+    "image": "images/lead_2026-09-14.jpg"
+  },
+  "top_stories": [
+    {
+      "title": "vLLM AOT config pushes Qwen3.8-27B INT4 to a 147K-token window on one 24GB card",
+      "summary": "A measured recipe posts Qwen3.8-27B (INT4 AutoRound) on vLLM 0.27.1 with an FP8 E4M3 KV cache at a 147,456-token window on a single RTX 3090, hitting about 872 tok/s prefill and 38 tok/s decode against roughly 25-30 tok/s from llama.cpp with MTP. The author notes AOT compilation resolves Inductor/Triton first-startup OOMs, and that GDN linear-attention state pools make vLLM's VRAM estimates unreliable.",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-13",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wfdtm7/dear_24g_owners_try_vllm_you_might_be_able_to_run/",
+      "scout_source": "selfhost"
+    },
+    {
+      "title": "llama.cpp b10946-b10951 add a CUDA F32 fallback and NEMOTRON/MTP load fixes",
+      "summary": "The daily builds in this window make ggml-cuda fall back to F32 on devices without BF16 hardware acceleration (NVIDIA Ampere+, AMD RDNA3/CDNA) and add a zero-divisor guard for the NEMOTRON expert FFN metadata path at load time.",
+      "source": "GitHub",
+      "date": "2026-09-14",
+      "url": "https://github.com/ggml-org/llama.cpp/releases",
+      "scout_source": "tools"
+    },
+    {
+      "title": "SutraDB v2.1 ships a pure-Python hybrid vector store with IVF-FLAT ANN for local RAG",
+      "summary": "Version 2.1 is a dependency-light, NumPy-BLAS-accelerated hybrid vector store for on-machine RAG pipelines, adding NumPy acceleration and IVF-FLAT approximate nearest-neighbour search, packaged for Python 3.10-3.12 under MIT.",
+      "source": "PyPI",
+      "date": "2026-09-14",
+      "url": "https://pypi.org/project/sutradb-core/",
+      "scout_source": "tools"
+    },
+    {
+      "title": "AMD's best gaming CPU drops below launch price at $484 with a free 240mm AIO",
+      "summary": "The AMD Ryzen 7 9850X3D landed at $484, under its launch MSRP, in a mid-September deal roundup. The 9800X3D/9850X3D class remains the value pick for CPU-plus-iGPU local inference setups where unified GPU memory is limited.",
+      "source": "Tom's Hardware",
+      "date": "2026-09-13",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amds-best-gaming-cpu-drops-below-launch-price-and-includes-free-240mm-aio-cooler-and-onimusha-way-of-the-sword-grab-the-ryzen-7-9850x3d-for-usd484",
+      "scout_source": "hardware"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Open Weights & Models",
+      "items": [
+        {
+          "title": "DeepSeek V4 Flash Vision Exp arrives as open weights",
+          "summary": "The vision-expert variant of the V4 Flash line is published as open weights (tags: transformers, safetensors, deepseek_v4, image-text-to-text), giving local stacks a multimodal companion to the text-only V4.1-Flash release.",
+          "source": "NVIDIA Developer Forums",
+          "date": "2026-09-13",
+          "url": "https://forums.developer.nvidia.com/t/deepseek-v4-flash-vision-exp-is-released-as-open-weights/381911",
+          "image": "images/section_open_weights_models_2026-09-14.jpg",
+          "scout_source": "opensource"
+        },
+        {
+          "title": "VibeVoice-ASR-Streaming (1.5B / 7B) keeps climbing the trending charts",
+          "summary": "Microsoft's MIT-licensed streaming ASR family ships open weights with speaker-attributed transcription for 10 languages and custom hotwords, scoring best or tied-best on 12 of 13 attribution benchmarks.",
+          "source": "GitHub",
+          "date": "2026-09-13",
+          "url": "https://github.com/microsoft/VibeVoice",
+          "scout_source": "opensource"
+        },
+        {
+          "title": "huawei-bayerlab/marigold-v2-0 initial release mirrored to ModelScope",
+          "summary": "The model card notes the 2026-09-13 ModelScope mirror of the initial Marigold v2.0 release, covering inference, evaluation and training code, the released checkpoints and the demo.",
+          "source": "HuggingFace",
+          "date": "2026-09-13",
+          "url": "https://huggingface.co/huawei-bayerlab/marigold-v2-0",
+          "scout_source": "opensource"
+        },
+        {
+          "title": "alibaba/open-code-review open-sources a hybrid deterministic pipeline plus LLM agent",
+          "summary": "The former Alibaba-internal code review assistant arrives with deterministic pipelines plus an LLM agent for line-level comments, multi-language rulesets (NPE, thread-safety, XSS, SQL injection) and OpenAI/Anthropic-compatible endpoints.",
+          "source": "GitHub",
+          "date": "2026-09-14",
+          "url": "https://github.com/alibaba/open-code-review",
+          "scout_source": "opensource"
+        }
+      ]
+    },
+    {
+      "title": "Tools & Runtimes",
+      "items": [
+        {
+          "title": "Kairo routes LLM inference with a fail-closed layer calibrated on RTX 5090 measurements",
+          "summary": "An open-source inference routing layer that fails closed and uses measured RTX 5090 throughput data to route requests, aimed at self-hosted serving stacks such as llama.cpp, vLLM and Ollama.",
+          "source": "GitHub",
+          "date": "2026-09-14",
+          "url": "https://github.com/peter941221/Kairo",
+          "image": "images/section_tools_runtimes_2026-09-14.jpg",
+          "scout_source": "tools"
+        },
+        {
+          "title": "MoE / Engram microscope visualises sparse expert activations in the browser",
+          "summary": "A small, local-first visualiser renders expert activation patterns for mixture-of-experts and Engram architectures, letting you inspect sparse-capacity behaviour of local checkpoints without a cloud notebook.",
+          "source": "GitHub Pages",
+          "date": "2026-09-14",
+          "url": "https://sw-ml-study.github.io/moe-microscope/",
+          "scout_source": "tools"
+        },
+        {
+          "title": "A local-first interactive LaTeX scratchpad under 15 MB, no server",
+          "summary": "The scratchpad runs entirely in the browser with no backend, fitting offline notebook-style workflows next to locally served models.",
+          "source": "Telox",
+          "date": "2026-09-13",
+          "url": "https://telox.dev/app/scratchpad/",
+          "scout_source": "tools"
+        }
+      ]
+    },
+    {
+      "title": "Hardware & Edge",
+      "items": [
+        {
+          "title": "High-end AMD gaming bundle lands under $1,110 for a complete local-inference desktop",
+          "summary": "A 9800X3D bundle pairing an X870E motherboard, 32GB of DDR5, an AIO cooler and a game is listed at $1,109.99 despite ongoing memory inflation. The 32GB DDR5 allotment is the practical starting point for quantized 7B-20B model work on an add-in GPU.",
+          "source": "Tom's Hardware",
+          "date": "2026-09-13",
+          "url": "https://www.tomshardware.com/pc-components/build-a-high-end-amd-gaming-pc-for-less-ryzen-7-9800x3d-bundle-includes-an-x870e-motherboard-32gb-ddr5-aio-cooler-and-a-game-for-usd1-109-99",
+          "image": "images/section_hardware_edge_2026-09-14.jpg",
+          "scout_source": "hardware"
+        },
+        {
+          "title": "Mexican cartel crypto farm seized with 300 GPUs in Puebla",
+          "summary": "Federal authorities, the Navy and state police seized roughly 300 GPUs, 80 medium-voltage terminations, a transformer and eight satellite antennas at a clandestine farm in Tlaola, the fourth bust in the region since early last year. Second-hand GPU stock from the 2022 mining era continues to circulate in the used market.",
+          "source": "Tom's Hardware",
+          "date": "2026-09-13",
+          "url": "https://www.tomshardware.com/tech-industry/cryptomining/mexican-cartel-crypto-farm-seized-in-mountain-raid-300-gpus-satellite-links-and-industrial-transformers-tapped-hydroelectric-power",
+          "scout_source": "hardware"
+        },
+        {
+          "title": "Tomb Raider runs on a 1-watt ESP32-P4 board for $25",
+          "summary": "An OpenLara port scales to 1,024 x 600 playable pixels on a dual-core 400 MHz ESP32-P4 board drawing about 1 W, showing how little raw compute sub-1B-parameter and vision-class pipelines need at the very low edge.",
+          "source": "Tom's Hardware",
+          "date": "2026-09-13",
+          "url": "https://www.tomshardware.com/software/programming/playable-tomb-raider-runs-on-a-humble-1-watt-chip-usd25-board-with-dual-core-400-mhz-esp32-p4-mcu-scales-openlara-up-to-1-024-x-600-playable-pixels",
+          "scout_source": "hardware"
+        },
+        {
+          "title": "AZZA PSAZ-750G reviewed as a budget ATX 3.1 supply for single-GPU inference boxes",
+          "summary": "The 750W ATX 3.1 unit is called adequate for budget builds, relevant where peak-wattage headroom and 12VHPWR4 connector support matter. The review keeps ATX 3.1 as the baseline spec for Blackwell-class cards.",
+          "source": "Tom's Hardware",
+          "date": "2026-09-13",
+          "url": "https://www.tomshardware.com/pc-components/power-supplies/azza-psaz-750g-atx-3-1-power-supply-review",
+          "scout_source": "hardware"
+        }
+      ]
+    }
+  ],
+  "trending": {
+    "github": {
+      "title": "GitHub Trending · AI",
+      "url": "https://github.com/trending",
+      "link_label": "github.com/trending",
+      "date": "2026-09-14",
+      "items": [
+        {
+          "name": "debpalash/VoiceStudio",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "meta": "Python · 19.3k ★ · +846 today"
+        },
+        {
+          "name": "tonhowtf/omniget",
+          "url": "https://github.com/tonhowtf/omniget",
+          "meta": "Rust · 11.1k ★ · +507 today"
+        },
+        {
+          "name": "multimodal-art-projection/YuE",
+          "url": "https://github.com/multimodal-art-projection/YuE",
+          "meta": "Python · 7.6k ★ · +500 today"
+        },
+        {
+          "name": "alibaba/open-code-review",
+          "url": "https://github.com/alibaba/open-code-review",
+          "meta": "23.7k ★ · +443 today"
+        },
+        {
+          "name": "alphaXiv/OpenResearch",
+          "url": "https://github.com/alphaXiv/OpenResearch",
+          "meta": "Rust · 2.2k ★ · +289 today"
+        },
+        {
+          "name": "jihe520/MathModelAgent",
+          "url": "https://github.com/jihe520/MathModelAgent",
+          "meta": "Python · 5.3k ★ · +268 today"
+        },
+        {
+          "name": "tech-leads-club/agent-skills",
+          "url": "https://github.com/tech-leads-club/agent-skills",
+          "meta": "TypeScript · 5.4k ★ · +215 today"
+        },
+        {
+          "name": "SnailSploit/Claude-Red",
+          "url": "https://github.com/SnailSploit/Claude-Red",
+          "meta": "Python · 4.6k ★ · +58 today"
+        },
+        {
+          "name": "calesthio/OpenMontage",
+          "url": "https://github.com/calesthio/OpenMontage",
+          "meta": "Python · 58.6k ★ · agentic video production system"
+        },
+        {
+          "name": "bilawalsidhu/gods-eye-view",
+          "url": "https://github.com/bilawalsidhu/gods-eye-view",
+          "meta": "JavaScript · photorealistic 3D globe with realtime AI-agent voice control"
+        }
+      ]
+    },
+    "huggingface": {
+      "title": "Models Trending (Hugging Face)",
+      "url": "https://huggingface.co/models?sort=trending",
+      "link_label": "huggingface.co/models",
+      "date": "2026-09-14",
+      "items": [
+        {
+          "name": "deepseek-ai/DeepSeek-V4.1-Flash",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+          "meta": "763B MoE vision-language model, 1M context, MIT"
+        },
+        {
+          "name": "openbmb/MiniCPM5-2B",
+          "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
+          "meta": "3B compact text-generation LLM, updated 1 day ago"
+        },
+        {
+          "name": "Edge0/Edge0-35B-A3B-preview",
+          "url": "https://huggingface.co/Edge0/Edge0-35B-A3B-preview",
+          "meta": "35B A3B MoE, MLX build for edge inference"
+        },
+        {
+          "name": "nex-agi/Nex-N2.5-mini",
+          "url": "https://huggingface.co/nex-agi/Nex-N2.5-mini",
+          "meta": "35B MoE text-generation model"
+        },
+        {
+          "name": "Qwen/Qwen3.8-27B",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+          "meta": "27B vision-language model, 7.77M downloads"
+        },
+        {
+          "name": "XHToken/Spark-X2.5-4B",
+          "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
+          "meta": "4B text-generation LLM"
+        },
+        {
+          "name": "nex-agi/Nex-N2.5-Pro",
+          "url": "https://huggingface.co/nex-agi/Nex-N2.5-Pro",
+          "meta": "397B MoE text-generation model"
+        },
+        {
+          "name": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+          "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+          "meta": "27B quantized GGUF build of Qwen3.8 vision model"
+        },
+        {
+          "name": "m-a-p/YuE2-3B",
+          "url": "https://huggingface.co/m-a-p/YuE2-3B",
+          "meta": "3B music generation model, symbolic planning"
+        },
+        {
+          "name": "Lightricks/LTX-2.5",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5",
+          "meta": "image-to-video generation model"
+        }
+      ]
+    }
+  },
+  "free_models": {
+    "openrouter": {
+      "title": "Free on OpenRouter",
+      "url": "https://openrouter.ai/models?max_price=0",
+      "link_label": "Browse free models on OpenRouter →",
+      "date": "2026-09-14",
+      "items": [
+        {
+          "name": "Cohere: North Mini Code (free)",
+          "url": "https://openrouter.ai/cohere/north-mini-code:free",
+          "meta": "256K ctx"
+        },
+        {
+          "name": "Dots Studio: Dots3-Note Preview (free)",
+          "url": "https://openrouter.ai/dots-studio/dots-3-note-preview:free",
+          "meta": "512K ctx"
+        },
+        {
+          "name": "Google: Gemma 4 26B A4B (free)",
+          "url": "https://openrouter.ai/google/gemma-4-26b-a4b-it:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "Google: Gemma 4 31B (free)",
+          "url": "https://openrouter.ai/google/gemma-4-31b-it:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "inclusionAI: Ling 3.0 Flash Fin (free)",
+          "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-fin:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
+          "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-sante:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "inclusionAI: Ling 3.0 Flash VL (free)",
+          "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-vl:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "LiquidAI: LFM2.5-2.6B (free)",
+          "url": "https://openrouter.ai/liquid/lfm-2.5-2.6b:free",
+          "meta": "65K ctx"
+        },
+        {
+          "name": "Nex AGI: Nex-N2.5-Mini (free)",
+          "url": "https://openrouter.ai/nex-agi/nex-n2.5-mini:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "Nex AGI: Nex-N2.5-Pro (free)",
+          "url": "https://openrouter.ai/nex-agi/nex-n2.5-pro:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+          "meta": "256K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3 Super (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3 Ultra (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free",
+          "meta": "1M ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free",
+          "meta": "128K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3.5-lightning:free",
+          "meta": "1M ctx"
+        },
+        {
+          "name": "Poolside: Laguna S 2.1 (free)",
+          "url": "https://openrouter.ai/poolside/laguna-s-2.1:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "Poolside: Laguna XS 2.1 (free)",
+          "url": "https://openrouter.ai/poolside/laguna-xs-2.1:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "Thinking Machines: Inkling (free)",
+          "url": "https://openrouter.ai/thinkingmachines/inkling:free",
+          "meta": "1.04858M ctx"
+        },
+        {
+          "name": "Thinking Machines: Inkling Small (free)",
+          "url": "https://openrouter.ai/thinkingmachines/inkling-small:free",
+          "meta": "1.04858M ctx"
+        }
+      ]
+    },
+    "opencode_zen": {
+      "title": "Free on OpenCode Zen",
+      "url": "https://opencode.ai/docs/zen/",
+      "link_label": "See the full Zen catalog →",
+      "date": "2026-09-14",
+      "items": [
+        {
+          "name": "Big Pickle",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "big-pickle"
+        },
+        {
+          "name": "MiMo-V2.5 Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "mimo-v2.5-free"
+        },
+        {
+          "name": "Ling 3.0 Flash Fin Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "ling-3.0-flash-fin-free"
+        },
+        {
+          "name": "Nemotron 3 Ultra Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "nemotron-3-ultra-free"
+        },
+        {
+          "name": "Nemotron 3.5 Lightning Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "nemotron-3.5-lightning-free"
+        },
+        {
+          "name": "Muse Spark 1.3 Contributor Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "muse-spark-1.3-contributor-free"
+        }
+      ]
+    }
+  },
+  "quick_hits": [
+    {
+      "title": "VCs pick the 9 buzziest startups from Y Combinator's latest Demo Day",
+      "source": "TechCrunch",
+      "date": "2026-09-13",
+      "url": "https://techcrunch.com/2026-09-13/the-9-buzziest-startups-from-y-combinators-latest-demo-day-according-to-vcs/",
+      "scout_source": "funding"
+    },
+    {
+      "title": "Insight Partners' Deven Parekh on diversifying beyond OpenAI and Anthropic",
+      "source": "TechCrunch",
+      "date": "2026-09-13",
+      "url": "https://techcrunch.com/2026-09-13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic/",
+      "scout_source": "funding"
+    },
+    {
+      "title": "Larry Ellison cancels $7.5 billion sale of Oracle stock",
+      "source": "TechCrunch",
+      "date": "2026-09-13",
+      "url": "https://techcrunch.com/2026-09-13/larry-ellison-cancels-7-5-billion-sale-of-oracle-stock/",
+      "scout_source": "funding"
+    },
+    {
+      "title": "Fusion power startups find new partners in the defense world",
+      "source": "TechCrunch",
+      "date": "2026-09-13",
+      "url": "https://techcrunch.com/2026-09-13/fusion-power-startups-find-new-partners-in-the-defense-world/",
+      "scout_source": "funding"
+    },
+    {
+      "title": "US-listed Ciena acquires 100% of PhotonPath, the Politecnico di Milano photonics spin-off",
+      "source": "Startupbusiness.it",
+      "date": "2026-09-13",
+      "url": "https://www.startupbusiness.it/la-statunitense-ciena-acquisisce-il-100-di-photonpath/196679/",
+      "scout_source": "italia"
+    },
+    {
+      "title": "Beyond AI News briefs the arrival of self-improving AI systems",
+      "source": "YouTube — Beyond AI News",
+      "date": "2026-09-13",
+      "url": "https://www.youtube.com/watch?v=L3qK7nerx1w",
+      "scout_source": "youtube"
+    },
+    {
+      "title": "Theo (t3.gg) assesses the latest AI release as a decisive one",
+      "source": "YouTube — Theo - t3.gg",
+      "date": "2026-09-13",
+      "url": "https://www.youtube.com/watch?v=DlNTmbARUTA",
+      "scout_source": "youtube"
+    }
+  ],
+  "spiked": {
+    "out of window": 16,
+    "already ran": 2
+  }
+}
