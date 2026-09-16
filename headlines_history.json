@@ -3608,6 +3608,228 @@
       "source": "YouTube \u2014 Beyond AI News",
       "date": "2026-09-15",
       "issue": 19
+    },
+    {
+      "text": "MediaTek Dimensity 9600 Pro pushes on-device LLMs to 30 billion parameters",
+      "source": "PR Newswire",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "Google ships Gemini 3.8 Live with extended thinking for streaming voice apps",
+      "source": "Google DeepMind",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "Micron demonstrates the first 512GB DDR5 RDIMM for next-gen servers",
+      "source": "Finviz",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "Ambarella launches X7, a host-agnostic edge AI co-processor",
+      "source": "Finviz",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "n8n 2.40.0 adds an AI-node reliability pass for self-hosted instances",
+      "source": "n8n",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "Reward-compatible temporal credit assignment for on-policy distillation",
+      "source": "arXiv",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "Early-Bird Decoding speeds diffusion LLMs with learnable block sizes",
+      "source": "arXiv",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "Coupled calibration and learning mitigates teacher bias in distillation",
+      "source": "arXiv",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "OPD-Aha brings visual reflection to multimodal on-policy distillation",
+      "source": "arXiv",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "TAME localizes emergent misalignment token by token",
+      "source": "arXiv",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "Qwen3.8-Flash-Next opens the door to the Qwen4 architecture",
+      "source": "Qwen",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "September tally: 13 model releases so far, led by DeepSeek-V4.1-Flash",
+      "source": "LLM Gateway",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "Salesforce's Koa shows the open-weight-to-closed-product pattern",
+      "source": "TechAIWire",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "Release cadence data: Qwen derivatives now dominate the Hub",
+      "source": "Hugging Face",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "Show HN: Thurbox, a tmux-based TUI for local agent orchestration",
+      "source": "GitHub",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "Show HN: Graft, local-first persistent memory for coding agents",
+      "source": "GitHub",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "Ollama v0.34.2-rc0 ships refreshed llama.cpp engine builds",
+      "source": "GitHub",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "llama.cpp pushes builds b10989-b10991 in a single day",
+      "source": "GitHub",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "Cloudflare's Disallow AI Training setting goes live on all plans",
+      "source": "Cloudflare",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "DeepSeek V4-Flash 284B MoE run on 2x RTX 3090 + quad-Xeon",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "Google drops out of the top 15 on the local-LLM leaderboard",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "Astera Labs expands the Leo Smart Memory Controller for agentic AI",
+      "source": "Finviz",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "AnalogAI picks memBrain SAGE IP for ultra-low-power edge processors",
+      "source": "Microchip Technology",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "Memory chips stay in short supply as the AI buildout squeezes DRAM",
+      "source": "IndustryWeek",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "QBit targets Physical AI and drones with the QB88XX series",
+      "source": "Kyodo News",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "Emergence World: adversarial stress-testing of long-horizon multi-agent systems",
+      "source": "HuggingFace",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "Modality-Autoregressive World-Action Models combine RGB, depth and point tracks",
+      "source": "HuggingFace",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "Verbalizing subliminal learning effects using text optimization",
+      "source": "arXiv",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "Launch cadence by lab: a 200-release statistics cross-check",
+      "source": "BenchLM",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "Show HN: Context Freshness Ledger, a tiny schema for reviewable agent memory",
+      "source": "GitHub",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "Show HN: reviewer, inspect agent diffs locally before pushing",
+      "source": "GitHub",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "Show HN: Biom, a visual workspace where AI agents' work lands",
+      "source": "Biom",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "Show HN: Plurnk, an open-source harness for local model workflows",
+      "source": "GitHub",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "Show HN: Agenttik runs several projects in parallel with AI agents",
+      "source": "GitHub",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "New Italian unicorn Exein rides the physical AI wave",
+      "source": "TechCrunch",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "AEO startup Profound hits unicorn valuation with a $180M Series D",
+      "source": "TechCrunch",
+      "date": "2026-09-16",
+      "issue": 20
+    },
+    {
+      "text": "Mama Insurance closes a round led by Fastweb+Vodafone",
+      "source": "ImpresaCity",
+      "date": "2026-09-16",
+      "issue": 20
     }
   ]
 }

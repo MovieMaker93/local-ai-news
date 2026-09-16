@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOCAL AI NEWS — open-weight intelligence · September 15, 2026</title>
+  <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
+  <link rel="stylesheet" href="style.css">
+  <style>.wt{display:flex;align-items:center;height:38px;background:var(--ink);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);margin:14px 0 0;overflow:hidden}.wtt{display:flex;align-items:center;white-space:nowrap;padding-left:20px;animation:ws 90s linear infinite}.wtt:hover{animation-play-state:paused}@keyframes ws{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.ti{display:inline-flex;align-items:center;gap:7px;padding:0 22px;cursor:pointer;border-right:1px solid var(--rule);height:38px}.ti:hover{background:rgba(240,162,60,.05)}.tih{font-family:var(--serif);font-size:13px;color:var(--type)}.tis{font-family:var(--sans);font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.mo{display:none;position:fixed;inset:0;background:rgba(10,10,12,.88);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(8px)}.mo.a{display:flex}.mb{background:#121214;border:1px solid var(--rule-strong);max-width:680px;width:90%;max-height:82vh;overflow-y:auto;padding:40px 44px;position:relative;animation:fi .2s ease}@keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.mc{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:var(--sans);padding:4px 8px}.mh{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;letter-spacing:-.01em;color:var(--type);margin:0 0 14px;padding-right:32px}.mm{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}.mm a{color:var(--lux)}.mm a:hover{text-decoration:underline}.mbd{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--type-dim)}.mbd .en{display:block;color:var(--lux-soft);font-style:italic;font-size:15px;margin-top:14px;padding-left:12px;border-left:2px solid var(--rule-strong)}.mbd .as{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.5}.mbd .as .al{color:var(--lux-soft);font-weight:600;font-family:var(--sans);font-size:10px;letter-spacing:.06em;text-transform:uppercase}</style></head>
+  <body>
+  <div class="container">
+
+  <header class="masthead">
+    <div class="topline"></div>
+    <div class="ears">
+      <span class="left">Est. MMXXVI</span>
+      <span class="right">No. 19 <a href="/archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+    </div>
+    <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
+      <hr class="rule-double">
+      <div class="dateline">
+        <span>September 15, 2026</span>
+        <span class="dot">◆</span>
+        <span class="tag">open weights, on your metal</span>
+        <span class="dot">◆</span>
+        <span>79 stories</span>
+      </div>
+      <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
+      <hr class="rule-thin">
+    </header>
+
+    
+
+    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="Trump Joins All-In Summit by Speakerphone to Say Robots Won&#x27;t Take Over" data-b="According to The Verge, Nvidia CEO Jensen Huang took a call from President Trump on Monday while onstage at the All-In Podcast&#x27;s All-In Summit and placed the phone on speakerphone so the crowd could listen. It was not Huang&#x27;s first presidential call during work, but this one reached a large audience directly. Trump told attendees that the worries around artificial intelligence are a &quot;hoax&quot; and that &quot;the robots will not be taking over.&quot; He added that data centers had turned communities once described as &quot;dying&quot; into &quot;really wealthy&quot; places, without offering specifics.
+
+The moment landed in a crowded week for the sector. Anthropic CEO Dario Amodei had published an essay that weekend, &quot;We Must Pace the Frontier,&quot; arguing for a slower pace of AI development and coordination between governments, and other executives largely echoed him. Trump disagreed in Truth Social posts on Monday and reused some of those points in the remarks heard onstage.
+
+Huang did not push back. He said, &quot;We&#x27;re going to make sure that everybody wins in the AI race in America. Every industry, every company, every state, every people,&quot; and told Trump he was speaking to &quot;thousands&quot; of listeners.
+
+*The exchange shows how compressed the current AI debate has become: short declarative lines from powerful voices, with little detail behind them.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit"><span class="tih">Trump Joins All-In Summit by Speakerphone to Say Robots Won&#x27;t Take Over</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia&#x27;s Huang and Trump align on AI pace at All-In Summit" data-b="Speaking at the All-In Summit in Los Angeles on Monday morning, Nvidia chief executive Jensen Huang took an on-stage phone call from President Donald Trump, according to TechCrunch. Huang put the call on speaker so the audience could hear it.
+
+The exchange centered on how quickly AI capabilities should advance. Anthropic&#x27;s Dario Amodei has urged a slower pace, a view shared by Elon Musk and Sam Altman, while Huang&#x27;s position diverges. Trump called the skepticism a hoax, saying the doubts could come from political figures or from China, and that the United States would not let the sector stall. Huang agreed, and the room applauded.
+
+Both men also backed the data-center buildout. Trump and allies such as Y Combinator&#x27;s Garry Tan treat growing opposition to these facilities as an international effort to hold back American growth, the report states. Gallup figures cited in the piece put it more plainly: seven in 10 Americans reject new data centers in their area, with more than half pointing to environmental strain and roughly a fifth to cost-of-living and quality-of-life worries. The conversation closed with Trump&#x27;s pledge that America would lead.
+
+*A phone call from the president straight into a tech summit neatly shows how tightly US policy now tracks a handful of AI leaders.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/"><span class="tih">Nvidia&#x27;s Huang and Trump align on AI pace at All-In Summit</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Cornelis secures $205M to challenge Nvidia&#x27;s grip on AI networking infrastructure" data-b="AI infrastructure firm Cornelis announced on Monday, September 14, 2026, that it has closed a $205 million funding round led by IAG Capital Partners, according to TechCrunch. The company specializes in networking technology designed to improve how AI chips exchange data with one another.
+
+Alongside the funding news, Cornelis unveiled its Active Compute Fabric product. This networking layer addresses a persistent inefficiency in AI workloads: GPUs frequently sit idle while awaiting incoming data. The fabric allows chips to simultaneously process and transmit information, cutting down on dead time in the pipeline.
+
+Cornelis originated as an Intel spin-off in 2020 and positions itself as a direct competitor to Nvidia through an open architecture approach. This means customers can mix and match GPU and accelerator hardware from multiple vendors on top of Cornelis&#x27; networking layer. Nvidia&#x27;s own chips do function with third-party fabrics, yet they are tuned primarily for Nvidia&#x27;s proprietary software stack, which keeps many buyers locked into that ecosystem.
+
+As reported by TechCrunch, Cornelis represents one node in a broader wave of infrastructure startups methodically eroding Nvidia&#x27;s market lead, component by component. The company has begun shipping its initial product and is developing a next-generation version slated for release later in 2026.
+
+*The open-architecture angle gives Cornelis a credible wedge against Nvidia&#x27;s otherwise formidable stack lock-in.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance/"><span class="tih">Cornelis secures $205M to challenge Nvidia&#x27;s grip on AI networking infrastructure</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Valve Steam Frame price settles at $1,059 as component costs squeeze margins" data-b="Valve has confirmed the final price of its new Steam Frame virtual-reality headset at $1,059, a figure the company acknowledges is higher than originally planned. According to The Verge, developer Jeremy Selan explained that the global memory and storage markets drove the cost upward, mirroring pressures felt across the broader hardware sector. Selan stated the team &quot;fought hard&quot; to keep the price at its current level.
+
+The wireless headset connects to a PC via Wi-Fi or a bundled 6GHz USB dongle. It also runs lighter titles independently using a Qualcomm Snapdragon 8 Gen 3 processor paired with 16GB of RAM. That memory allocation proved essential for porting Half-Life: Alyx to run natively on the device, which ships bundled at no extra cost.
+
+Developer Pierre-Loup Griffais indicated the pricing roughly tracks the raw parts bill, with minimal markup distortion. When asked why Valve did not simply cut RAM to lower the price, Griffais told the outlet the product was too far into development for a full rethink. He added that computing hardware broadly is trending upward in cost simultaneously, so the Frame remains competitive relative to comparable PCs in the same market tier.
+
+*The near-at-cost pricing strategy suggests Valve is treating these machines as long-term platform investments rather than profit centers.*
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/tech/995055/valve-steam-frame-price-ram-impact"><span class="tih">Valve Steam Frame price settles at $1,059 as component costs squeeze margins</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Mushroom Coffee Roundup: Wired Names Atlas Latte Superblend the Top Pick" data-b="Wired tested several of the most popular mushroom coffee products in a hands-on tasting that gave each brand one week in a morning slot. According to the magazine, these blends generally rest on dried functional mushrooms, usually a mix of lion&#x27;s mane, chaga, and cordyceps, lifted by add-ons such as probiotics and nootropics. The reviewer replaced the usual coffee with each brand&#x27;s recommended dose of powder and hot water, introducing sweeteners and milks only after day five.
+
+Atlas Coffee Club, a subscription-based mail-order service, took Best Overall with its Atlas+ Latte Superblend ($26), scoring 9.5 out of 10. Wired cited a strong toasted coconut aroma on opening, easy emulsification in hot water without a frother, and minimal silty residue. The finished cup carried earthy spice and a soft acidic tang comparable to an espresso shot pulled from Kenyan or Ethiopian beans, at 45 milligrams of caffeine per 8-ounce serving. The probiotics unsettled the stomach on the two final days of that trial.
+
+Bones Coffee Company&#x27;s Better Brain Mushroom Coffee ($18) won Best Brew for Light-Roast Lovers, delivering a notably dynamic profile without the smoky bitterness typical of medium or dark roasts. Heady Cup&#x27;s Bloom Shroomery Blend ($33) took Smoothest Cup, and Bulletproof&#x27;s Mood Booster Enhanced Instant Latte ($18) was named Best Instant Latte Blend. A September 2026 update added Wunderground, Bullet Proof, and Vahdam entries and moved some prior picks to honorable mentions.
+
+*The standout detail here is how consistently the probiotics shifted the digestive results day to day, which makes the per-brand scores feel genuinely observed rather than simply transcribed from labels.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/gallery/best-mushroom-coffee/"><span class="tih">Mushroom Coffee Roundup: Wired Names Atlas Latte Superblend the Top Pick</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Trump Joins All-In Summit by Speakerphone to Say Robots Won&#x27;t Take Over" data-b="According to The Verge, Nvidia CEO Jensen Huang took a call from President Trump on Monday while onstage at the All-In Podcast&#x27;s All-In Summit and placed the phone on speakerphone so the crowd could listen. It was not Huang&#x27;s first presidential call during work, but this one reached a large audience directly. Trump told attendees that the worries around artificial intelligence are a &quot;hoax&quot; and that &quot;the robots will not be taking over.&quot; He added that data centers had turned communities once described as &quot;dying&quot; into &quot;really wealthy&quot; places, without offering specifics.
+
+The moment landed in a crowded week for the sector. Anthropic CEO Dario Amodei had published an essay that weekend, &quot;We Must Pace the Frontier,&quot; arguing for a slower pace of AI development and coordination between governments, and other executives largely echoed him. Trump disagreed in Truth Social posts on Monday and reused some of those points in the remarks heard onstage.
+
+Huang did not push back. He said, &quot;We&#x27;re going to make sure that everybody wins in the AI race in America. Every industry, every company, every state, every people,&quot; and told Trump he was speaking to &quot;thousands&quot; of listeners.
+
+*The exchange shows how compressed the current AI debate has become: short declarative lines from powerful voices, with little detail behind them.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit"><span class="tih">Trump Joins All-In Summit by Speakerphone to Say Robots Won&#x27;t Take Over</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia&#x27;s Huang and Trump align on AI pace at All-In Summit" data-b="Speaking at the All-In Summit in Los Angeles on Monday morning, Nvidia chief executive Jensen Huang took an on-stage phone call from President Donald Trump, according to TechCrunch. Huang put the call on speaker so the audience could hear it.
+
+The exchange centered on how quickly AI capabilities should advance. Anthropic&#x27;s Dario Amodei has urged a slower pace, a view shared by Elon Musk and Sam Altman, while Huang&#x27;s position diverges. Trump called the skepticism a hoax, saying the doubts could come from political figures or from China, and that the United States would not let the sector stall. Huang agreed, and the room applauded.
+
+Both men also backed the data-center buildout. Trump and allies such as Y Combinator&#x27;s Garry Tan treat growing opposition to these facilities as an international effort to hold back American growth, the report states. Gallup figures cited in the piece put it more plainly: seven in 10 Americans reject new data centers in their area, with more than half pointing to environmental strain and roughly a fifth to cost-of-living and quality-of-life worries. The conversation closed with Trump&#x27;s pledge that America would lead.
+
+*A phone call from the president straight into a tech summit neatly shows how tightly US policy now tracks a handful of AI leaders.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/"><span class="tih">Nvidia&#x27;s Huang and Trump align on AI pace at All-In Summit</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Cornelis secures $205M to challenge Nvidia&#x27;s grip on AI networking infrastructure" data-b="AI infrastructure firm Cornelis announced on Monday, September 14, 2026, that it has closed a $205 million funding round led by IAG Capital Partners, according to TechCrunch. The company specializes in networking technology designed to improve how AI chips exchange data with one another.
+
+Alongside the funding news, Cornelis unveiled its Active Compute Fabric product. This networking layer addresses a persistent inefficiency in AI workloads: GPUs frequently sit idle while awaiting incoming data. The fabric allows chips to simultaneously process and transmit information, cutting down on dead time in the pipeline.
+
+Cornelis originated as an Intel spin-off in 2020 and positions itself as a direct competitor to Nvidia through an open architecture approach. This means customers can mix and match GPU and accelerator hardware from multiple vendors on top of Cornelis&#x27; networking layer. Nvidia&#x27;s own chips do function with third-party fabrics, yet they are tuned primarily for Nvidia&#x27;s proprietary software stack, which keeps many buyers locked into that ecosystem.
+
+As reported by TechCrunch, Cornelis represents one node in a broader wave of infrastructure startups methodically eroding Nvidia&#x27;s market lead, component by component. The company has begun shipping its initial product and is developing a next-generation version slated for release later in 2026.
+
+*The open-architecture angle gives Cornelis a credible wedge against Nvidia&#x27;s otherwise formidable stack lock-in.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance/"><span class="tih">Cornelis secures $205M to challenge Nvidia&#x27;s grip on AI networking infrastructure</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Valve Steam Frame price settles at $1,059 as component costs squeeze margins" data-b="Valve has confirmed the final price of its new Steam Frame virtual-reality headset at $1,059, a figure the company acknowledges is higher than originally planned. According to The Verge, developer Jeremy Selan explained that the global memory and storage markets drove the cost upward, mirroring pressures felt across the broader hardware sector. Selan stated the team &quot;fought hard&quot; to keep the price at its current level.
+
+The wireless headset connects to a PC via Wi-Fi or a bundled 6GHz USB dongle. It also runs lighter titles independently using a Qualcomm Snapdragon 8 Gen 3 processor paired with 16GB of RAM. That memory allocation proved essential for porting Half-Life: Alyx to run natively on the device, which ships bundled at no extra cost.
+
+Developer Pierre-Loup Griffais indicated the pricing roughly tracks the raw parts bill, with minimal markup distortion. When asked why Valve did not simply cut RAM to lower the price, Griffais told the outlet the product was too far into development for a full rethink. He added that computing hardware broadly is trending upward in cost simultaneously, so the Frame remains competitive relative to comparable PCs in the same market tier.
+
+*The near-at-cost pricing strategy suggests Valve is treating these machines as long-term platform investments rather than profit centers.*
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/tech/995055/valve-steam-frame-price-ram-impact"><span class="tih">Valve Steam Frame price settles at $1,059 as component costs squeeze margins</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Mushroom Coffee Roundup: Wired Names Atlas Latte Superblend the Top Pick" data-b="Wired tested several of the most popular mushroom coffee products in a hands-on tasting that gave each brand one week in a morning slot. According to the magazine, these blends generally rest on dried functional mushrooms, usually a mix of lion&#x27;s mane, chaga, and cordyceps, lifted by add-ons such as probiotics and nootropics. The reviewer replaced the usual coffee with each brand&#x27;s recommended dose of powder and hot water, introducing sweeteners and milks only after day five.
+
+Atlas Coffee Club, a subscription-based mail-order service, took Best Overall with its Atlas+ Latte Superblend ($26), scoring 9.5 out of 10. Wired cited a strong toasted coconut aroma on opening, easy emulsification in hot water without a frother, and minimal silty residue. The finished cup carried earthy spice and a soft acidic tang comparable to an espresso shot pulled from Kenyan or Ethiopian beans, at 45 milligrams of caffeine per 8-ounce serving. The probiotics unsettled the stomach on the two final days of that trial.
+
+Bones Coffee Company&#x27;s Better Brain Mushroom Coffee ($18) won Best Brew for Light-Roast Lovers, delivering a notably dynamic profile without the smoky bitterness typical of medium or dark roasts. Heady Cup&#x27;s Bloom Shroomery Blend ($33) took Smoothest Cup, and Bulletproof&#x27;s Mood Booster Enhanced Instant Latte ($18) was named Best Instant Latte Blend. A September 2026 update added Wunderground, Bullet Proof, and Vahdam entries and moved some prior picks to honorable mentions.
+
+*The standout detail here is how consistently the probiotics shifted the digestive results day to day, which makes the per-brand scores feel genuinely observed rather than simply transcribed from labels.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/gallery/best-mushroom-coffee/"><span class="tih">Mushroom Coffee Roundup: Wired Names Atlas Latte Superblend the Top Pick</span> <span class="tis">— wired.com</span></div></div></div>
+<div class="lead-zone">
+      <article class="lead">
+  <a href="https://hothardware.com/news/nvidia-unveils-rtx-pro-5500-blackwell-84gb-gddr7" target="_blank" rel="noopener">
+    <img src="images/lead_2026-09-15.jpg" alt="" class="lead-image">
+    <div class="lead-grid">
+      <div class="lead-head">
+        <p class="kicker">Hardware</p>
+        <h1>RTX Pro 5500 Blackwell lands with 84GB of GDDR7 for one-pool local LLMs</h1>
+      </div>
+      <div class="lead-body">
+        <p class="deck">NVIDIA listed the RTX Pro 5500 Blackwell Workstation Edition with 21,760 CUDA cores - the same GB202 core count as the GeForce RTX 5090 - plus 84GB of ECC GDDR7 at roughly 1,400 GB/s on a 448-bit interface. The trade is capacity over bandwidth: 28 clamshell GDDR7 chips double the memory of the 5090, which keeps 1,790 GB/s on 512-bit. MIG support means the 84GB can run as one pool for 70B-plus models or split into two isolated 42GB instances.</p>
+        <p class="byline"><span class="src">hothardware.com</span> · <span>2026-09-14</span> · <span class="more">Read the dispatch →</span></p>
+      </div>
+    </div>
+  </a>
+</article>
+
+    </div>
+
+    <div class="topstories">
+<article class="story">
+  <a href="https://github.com/ggml-org/llama.cpp/releases/tag/v0.4.1" target="_blank" rel="noopener">
+    <h3>llama.cpp 0.4.1 adds Maple 20B-A1B, Tencent Hy 4 and Spark2.5 support</h3>
+    <p>Stable release with better JSON-schema handling, chat parsing and server child-process management, a ggml bump to v0.24.0, and a new --fuse-qkv flag in nightlies b10969/b10970.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-14</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://releasebot.io/updates/ollama" target="_blank" rel="noopener">
+    <h3>Ollama 0.34.0 serves local models straight inside ChatGPT Desktop</h3>
+    <p>Adds OpenAI-compatible client tool search, response compaction and faster structured output on Apple Silicon, with no breaking steps for existing Compose or Modelfile setups.</p>
+    <p class="byline"><span class="src">Releasebot</span> · 2026-09-14</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://unite.ai/temporal-raises-550m-series-e-at-12-55b-valuation-to-expand-operations" target="_blank" rel="noopener">
+    <h3>Temporal raises $550M Series E at a $12.55B valuation</h3>
+    <p>Lightspeed-led round with Wellington, Goldman Sachs Alternatives and Tiger Global co-leading; durable execution infrastructure for agentic workloads, with OpenAI, Snap, Nvidia and JPMorgan Chase as customers.</p>
+    <p class="byline"><span class="src">Unite.ai</span> · 2026-09-14</p>
+  </a>
+</article>
+
+</div>
+
+
+    <div class="sections">
+      <section class="section">
+  <div class="section-head">
+    <h2>Research &amp; Papers</h2>
+    <span class="line"></span>
+    <span class="n">05</span>
+  </div>
+  <div class="section-hero"><img src="images/section_research_papers_2026-09-15.jpg" alt="" class="section-hero-img"></div>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://huggingface.co/papers/2609.15309" target="_blank" rel="noopener">
+    <h4>When agents slow down: an Elo-per-token read on test-time strategies</h4>
+    <p>Normalises agent accuracy by tokens spent across revision, tool use and stop decisions, giving a directly usable efficiency measure for latency- and VRAM-constrained local agent setups.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-14</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/papers/2609.15078" target="_blank" rel="noopener">
+    <h4>Creative exploration for vibe-design agents gets its own scaffold</h4>
+    <p>Separates exploration from implementation in natural-language-to-UI agents so candidate interfaces diversify without the blunt effect of raising token-level temperature, while syntax-sensitive code stays stable.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-14</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/papers/2609.15128" target="_blank" rel="noopener">
+    <h4>Omni-Streaming Thinking fixes premature cross-modal commitment</h4>
+    <p>Identifies a failure mode where an early visual interpretation persists after contradicting audio arrives, and updates commitments as video chunks and synchronized audio are processed.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-14</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/papers/2609.15029" target="_blank" rel="noopener">
+    <h4>Learned poison-set selection strengthens LLM backdoors</h4>
+    <p>Random sampling of a fixed number of poisoned examples underestimates worst-case vulnerability; across three LLaMA-3-8B settings, learned selection beats random at equal budget.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-14</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/papers/2609.15818" target="_blank" rel="noopener">
+    <h4>Atria Dawn previews an agentic foundation model for research work</h4>
+    <p>A foundation agentic language model trained through a verified pipeline for scientific and engineering workflows, where agents also take part in developing their successors.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-14</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Open Weights &amp; Models</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  <div class="section-hero"><img src="images/section_open_weights_models_2026-09-15.jpg" alt="" class="section-hero-img"></div>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://huggingface.co/Edge0/Edge0-35B-A3B-preview" target="_blank" rel="noopener">
+    <h4>Edge0-35B-A3B-preview: 35B MoE in under 3 GiB via SSD expert streaming</h4>
+    <p>A 35B mixture-of-experts checkpoint (~3B active per token) shipped as 4-bit with LoRA and prerouter adapters; weights stay on disk and only the needed experts are streamed, so the full model fits phone-class memory budgets. Apache-2.0 safetensors on the Qwen3.5 MoE line.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-14</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/JustVugg/colibri" target="_blank" rel="noopener">
+    <h4>colibri: a pure-C inference engine for frontier MoE models</h4>
+    <p>Number one on GitHub trending today: a dependency-free C engine that runs 744B to 2.8T parameter MoE models on consumer and heterogeneous hardware by treating storage, RAM and VRAM as one inference hierarchy and streaming experts from disk.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-15</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/Agnes-AI/Agnes-3.0-Flash" target="_blank" rel="noopener">
+    <h4>Agnes-3.0-Flash lands on the Hub as a 33B multimodal checkpoint</h4>
+    <p>Image-text-to-text open-weight release added to the trending list on 2026-09-14.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-14</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/debpalash/VoiceStudio" target="_blank" rel="noopener">
+    <h4>VoiceStudio: a fully-local ElevenLabs-style voice stack</h4>
+    <p>Open-source alternative covering voice cloning, voice design, video dubbing, dictation and transcription; +2,776 stars today.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-15</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Tools &amp; Runtimes</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  <div class="section-hero"><img src="images/section_tools_runtimes_2026-09-15.jpg" alt="" class="section-hero-img"></div>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://github.com/deepclause/pi-box" target="_blank" rel="noopener">
+    <h4>Pi-box ships a coding agent as a VM inside WASM inside Electron</h4>
+    <p>Self-contained local coding agent packaged as an Electron app, with the agent running in a WASM-hosted VM; repository is open source.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-15</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/vstorm-co/agenticos" target="_blank" rel="noopener">
+    <h4>AgenticOS is an open-source control plane for company AI agents</h4>
+    <p>Show HN launch of a control plane for coordinating multiple AI agents, with the code published on GitHub.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-14</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/Aseiel/VideoHighlighter" target="_blank" rel="noopener">
+    <h4>VideoHighlighter analyzes video offline and self-hosted</h4>
+    <p>Show HN utility that runs without external API dependencies.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-14</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Self-Hosted Stack</h2>
+    <span class="line"></span>
+    <span class="n">02</span>
+  </div>
+  <div class="section-hero"><img src="images/section_self_hosted_stack_2026-09-15.jpg" alt="" class="section-hero-img"></div>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://unrollnow.com/status/2097996363426300013" target="_blank" rel="noopener">
+    <h4>n8n Assistant is live for Cloud and self-hosted Docker installs</h4>
+    <p>The Assistant plans, builds, runs and debugs workflows from plain-language prompts on the canvas, asks for credentials only when needed and gates activation behind user approval; still in preview, with plan AI credits separate from Gateway credits.</p>
+    <p class="byline"><span class="src">Unroll Now</span> · 2026-09-14</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://apis.io/2026-09-14/n8n-tells-you-to-check-for-idempotency-keys" target="_blank" rel="noopener">
+    <h4>n8n idempotency keys: which primitives actually dedupe retries</h4>
+    <p>Keys are effectively undeclared, so operators should reuse one key per retried operation, cap retries and verify a webhook delivery ID first; the practical primitives are execution.id as stable identifier, the Data table node as a dedup log and Error Trigger for failed runs.</p>
+    <p class="byline"><span class="src">apis.io</span> · 2026-09-14</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Hardware &amp; Edge</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  <div class="section-hero"><img src="images/section_hardware_edge_2026-09-15.jpg" alt="" class="section-hero-img"></div>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://www.pcguide.com/pro/news-pro/nvidia-partners-with-perplexity-to-bring-portable-computer-ai-to-windows-pcs-on-high-end-rtx-gpus/" target="_blank" rel="noopener">
+    <h4>Perplexity Portable Computer reaches Windows on 24GB-plus RTX cards</h4>
+    <p>The local-first agentic Portable Computer now runs on GeForce RTX and RTX PRO hardware after Linux and DGX Spark, with acceleration requiring at least 24GB of VRAM.</p>
+    <p class="byline"><span class="src">pcguide.com</span> · 2026-09-14</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.design-reuse.com/news/202531125-arm-introduces-new-ai-native-compute-platform-built-for-agentic-ai-and-mobile-graphics-/" target="_blank" rel="noopener">
+    <h4>Arm opens an AI Portal for on-device agentic AI across CPUs, GPUs and NPUs</h4>
+    <p>The portal publishes pre-optimized Qwen, Gemma and YOLO builds with latency, memory and size data for ExecuTorch, LiteRT and ONNX-RT, and points to Arm CSS for Mobile 2 running models on SME2 and GPU neural accelerators.</p>
+    <p class="byline"><span class="src">design-reuse.com</span> · 2026-09-14</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.eenewseurope.com/en/nvidia-and-palantir-bring-sovereign-ai-to-supply-chains/" target="_blank" rel="noopener">
+    <h4>NVIDIA and Palantir ship a sovereign AI stack that runs on-premises</h4>
+    <p>Pairs NVIDIA Nemotron open models with Palantir Foundry, AIP and Ontology for on-prem, colocation or cloud deployment, using cuOpt, NeMo Data Libraries and NeMo AutoModel for optimization and scenario planning.</p>
+    <p class="byline"><span class="src">eenewseurope.com</span> · 2026-09-14</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+    </div>
+
+    <div class="trending-wrap">
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Repos on GitHub</h1>
+      <div class="t-line"></div>
+      <a href="https://github.com/trending" target="_blank" rel="noopener" class="t-link">Go to GitHub trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://github.com/JustVugg/colibri" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">JustVugg/colibri</span>
+    <span class="t-meta">C · 32.4k ★ · +2173 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/alibaba/open-code-review" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">alibaba/open-code-review</span>
+    <span class="t-meta">Go · 26.2k ★ · +1571 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/multimodal-art-projection/YuE" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">multimodal-art-projection/YuE</span>
+    <span class="t-meta">Python · 8.6k ★ · +559 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/debpalash/VoiceStudio" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">debpalash/VoiceStudio</span>
+    <span class="t-meta">Python · 29.6k ★ · +2776 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/666ghj/MiroFish" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">666ghj/MiroFish</span>
+    <span class="t-meta">Python · 73.4k ★ · +560 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/Panniantong/Agent-Reach" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">Panniantong/Agent-Reach</span>
+    <span class="t-meta">Python · 81.5k ★ · +651 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/asgeirtj/system_prompts_leaks" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">asgeirtj/system_prompts_leaks</span>
+    <span class="t-meta">JavaScript · 66.9k ★ · +764 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/rlaope/oh-my-hermes" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">rlaope/oh-my-hermes</span>
+    <span class="t-meta">Python · 2.2k ★ · +77 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/TauricResearch/TradingAgents" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">TauricResearch/TradingAgents</span>
+    <span class="t-meta">Python · 106.3k ★ · +745 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/ruvnet/RuView" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">ruvnet/RuView</span>
+    <span class="t-meta">Rust · 94.0k ★ · +383 today</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+  
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Trending on HF</h1>
+      <div class="t-line"></div>
+      <a href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener" class="t-link">Go to Hugging Face trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">deepseek-ai/DeepSeek-V4.1-Flash</span>
+    <span class="t-meta">763B, image-text-to-text</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Edge0/Edge0-35B-A3B-preview" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Edge0/Edge0-35B-A3B-preview</span>
+    <span class="t-meta">35B MoE, ~3B active, 4-bit with SSD expert offload</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/openbmb/MiniCPM5-2B" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">openbmb/MiniCPM5-2B</span>
+    <span class="t-meta">2.5B text generation</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/nex-agi/Nex-N2.5-mini" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">nex-agi/Nex-N2.5-mini</span>
+    <span class="t-meta">35B text generation</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Qwen/Qwen3.8-27B</span>
+    <span class="t-meta">27.8B multimodal (image-text-to-text)</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/nex-agi/Nex-N2.5-Pro" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">nex-agi/Nex-N2.5-Pro</span>
+    <span class="t-meta">396.8B text generation</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF</span>
+    <span class="t-meta">26.9B GGUF quant of Qwen3.8-27B</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/m-a-p/YuE2-3B" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">m-a-p/YuE2-3B</span>
+    <span class="t-meta">3.6B text-to-audio music generation</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Lightricks/LTX-2.5" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">Lightricks/LTX-2.5</span>
+    <span class="t-meta">4.1B image-to-video</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/unsloth/Qwen3.8-27B-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">unsloth/Qwen3.8-27B-GGUF</span>
+    <span class="t-meta">26.9B GGUF quantized build for local inference</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+</div>
+
+
+    <section class="section" id="free-models">
+  <div class="section-head">
+    <h2>Free Models</h2>
+    <span class="line"></span>
+    <span class="n">25</span>
+  </div>
+
+  <p class="section-note">Free means $0 per token today, not unlimited or unconditional: both platforms rate-limit free use and require a free API key, some OpenRouter free endpoints may train on your prompts unless you opt out in account settings, and the roster changes daily. Verified against each provider's own pricing data at generation time — but pricing changes without notice, so confirm it's still free on the provider's own page before you rely on it.</p>
+
+  <div class="trending-wrap trending-wrap--in-section">
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenRouter</h1>
+        <div class="t-line"></div>
+        <a href="https://openrouter.ai/models?max_price=0" target="_blank" rel="noopener" class="t-link">Browse free models →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://openrouter.ai/cohere/north-mini-code:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Cohere: North Mini Code (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/dots-studio/dots-3-note-preview:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Dots Studio: Dots3-Note Preview (free)</span>
+    <span class="t-meta">512K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-26b-a4b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Google: Gemma 4 26B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-31b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Google: Gemma 4 31B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.0-flash-fin:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">inclusionAI: Ling 3.0 Flash Fin (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.0-flash-sante:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">inclusionAI: Ling 3.0 Flash Sante (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.0-flash-vl:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">inclusionAI: Ling 3.0 Flash VL (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/liquid/lfm-2.5-2.6b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">LiquidAI: LFM2.5-2.6B (free)</span>
+    <span class="t-meta">65K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nex-agi/nex-n2.5-mini:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">Nex AGI: Nex-N2.5-Mini (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nex-agi/nex-n2.5-pro:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">Nex AGI: Nex-N2.5-Pro (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Nano Omni (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Super (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#13</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Ultra (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#14</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Content Safety (free)</span>
+    <span class="t-meta">128K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-lightning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#15</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Lightning (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-s-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#16</span>
+    <span class="t-name">Poolside: Laguna S 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-xs-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#17</span>
+    <span class="t-name">Poolside: Laguna XS 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#18</span>
+    <span class="t-name">Thinking Machines: Inkling (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling-small:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#19</span>
+    <span class="t-name">Thinking Machines: Inkling Small (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenCode Zen</h1>
+        <div class="t-line"></div>
+        <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener" class="t-link">See the full Zen catalog →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Big Pickle</span>
+    <span class="t-meta">big-pickle</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">MiMo-V2.5 Free</span>
+    <span class="t-meta">mimo-v2.5-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Ling 3.0 Flash Fin Free</span>
+    <span class="t-meta">ling-3.0-flash-fin-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Nemotron 3 Ultra Free</span>
+    <span class="t-meta">nemotron-3-ultra-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Nemotron 3.5 Lightning Free</span>
+    <span class="t-meta">nemotron-3.5-lightning-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">Muse Spark 1.3 Contributor Free</span>
+    <span class="t-meta">muse-spark-1.3-contributor-free</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <section class="inbrief">
+  <div class="section-head">
+    <h2>In Brief</h2>
+    <span class="line"></span>
+    <span class="n">12</span>
+  </div>
+  <ul class="qh-list">
+    <li><a href="https://github.com/ollama/ollama/releases/tag/v0.34.1-rc2" target="_blank" rel="noopener"><span class="qh-title">Ollama v0.34.1-rc2 tightens MLX prefix-cache eviction and free-memory checks</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://www.eteknix.com/rtx-5090-nears-5000-as-ai-companies-buy-graphics-cards-by-the-pallet/" target="_blank" rel="noopener"><span class="qh-title">RTX 5090 nears $5,000 as AI buyers take the cards by the pallet</span><span class="qh-src">eteknix.com</span></a></li>
+
+    <li><a href="https://hwbusters.com/news/the-144-core-fujitsu-monaka-goes-on-sale-in-november-and-its-entire-cache-sits-on-a-separate-die/" target="_blank" rel="noopener"><span class="qh-title">Fujitsu's 144-core Arm MONAKA ships in November with cache on a separate die</span><span class="qh-src">hwbusters.com</span></a></li>
+
+    <li><a href="https://techcrunch.com/2026-09-14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance/" target="_blank" rel="noopener"><span class="qh-title">Cornelis raises $205M to chip away at Nvidia's data-center networking dominance</span><span class="qh-src">TechCrunch</span></a></li>
+
+    <li><a href="https://gcn.com/san-francisco-startup-valued-billion-raised/21640" target="_blank" rel="noopener"><span class="qh-title">Gimlet Labs raises $300M Series B at $3B for multi-silicon AI inference</span><span class="qh-src">GCN</span></a></li>
+
+    <li><a href="https://x.com/deredleritt3r/status/2099720642807382262" target="_blank" rel="noopener"><span class="qh-title">OpenAI reportedly has a new scaling law behind its new internal model</span><span class="qh-src">X (prinz)</span></a></li>
+
+    <li><a href="https://x.com/EliasEskin/status/2099558501894832142" target="_blank" rel="noopener"><span class="qh-title">GlossoGen framework proposed for studying emergent languages in LLM agents</span><span class="qh-src">X (Elias Stengel-Eskin)</span></a></li>
+
+    <li><a href="https://x.com/jab_sol/status/2099667221358260415" target="_blank" rel="noopener"><span class="qh-title">EVMbench tests AI agents on smart-contract security</span><span class="qh-src">X (jabu.sol)</span></a></li>
+
+    <li><a href="https://x.com/cb_doge/status/2099659774224928826" target="_blank" rel="noopener"><span class="qh-title">Grok Build 1.0.32 fixes plugin and skill listings and Windows ARM64 crashes</span><span class="qh-src">X (DogeDesigner)</span></a></li>
+
+    <li><a href="https://huggingface.co/papers/2609.15051" target="_blank" rel="noopener"><span class="qh-title">Not all prompts are equal: exploration-guided scaffolding for multimodal post-training</span><span class="qh-src">HuggingFace</span></a></li>
+
+    <li><a href="https://huggingface.co/papers/2609.14858" target="_blank" rel="noopener"><span class="qh-title">Dream-RSI tackles the exploration bottleneck in recursive self-improving agents</span><span class="qh-src">HuggingFace</span></a></li>
+
+    <li><a href="https://www.youtube.com/watch?v=L4lKXCj6oSY" target="_blank" rel="noopener"><span class="qh-title">GPT-6 system builds entire 3D worlds with high fidelity</span><span class="qh-src">YouTube — Beyond AI News</span></a></li>
+
+  </ul>
+</section>
+
+
+    <footer class="colophon">
+      <p class="mark">Per aspera ad astra</p>
+      <p class="meta">Compiled by Hermes Agent · 2026-09-15 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
+    </footer>
+
+  </div>
+<div class="mo" id="mo" onclick="cm(event)"><div class="mb"><button class="mc" onclick="cm()">✕</button><h2 class="mh" id="mh"></h2><p class="mm">Source: <span id="ms"></span></p><div class="mbd" id="mbd"></div></div></div>
+<script>function openArt(el){var h=el.getAttribute('data-h'),b=el.getAttribute('data-b'),s=el.getAttribute('data-s'),u=el.getAttribute('data-u');document.getElementById('mh').textContent=h;var sl=document.getElementById('ms');if(u&&u!=='#'&&u!==''){sl.innerHTML='<a href="'+u+'" target="_blank" rel="noopener">'+s+'</a>';}else{sl.textContent=s;}var aiS='*— Written by AI (';var i=b.indexOf(aiS);if(i>=0){var bf=b.substring(0,i);var af=b.substring(i+aiS.length);var mdl=af.split(')')[0];bf=bf.split('\n').join('<br>');bf=bf.replace(/\*([^*]+)\*/g,'<em class="en">$1</em>');var sg='<div class="as"><span class="al">⬥ AI-GENERATED</span><br>Model: '+mdl+'</div>';document.getElementById('mbd').innerHTML=bf+sg;}else{document.getElementById('mbd').innerHTML=b.split('\n').join('<br>');}document.getElementById('mo').classList.add('a');document.body.style.overflow='hidden';}function cm(e){if(e&&e.target!=document.getElementById('mo'))return;document.getElementById('mo').classList.remove('a');document.body.style.overflow='';}document.addEventListener('keydown',function(e){if(e.key==='Escape')cm()});</script></body>
+</html>
