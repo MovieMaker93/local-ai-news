@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOCAL AI NEWS — open-weight intelligence · September 16, 2026</title>
+  <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
+  <link rel="stylesheet" href="style.css">
+  <style>.wt{display:flex;align-items:center;height:38px;background:var(--ink);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);margin:14px 0 0;overflow:hidden}.wtt{display:flex;align-items:center;white-space:nowrap;padding-left:20px;animation:ws 90s linear infinite}.wtt:hover{animation-play-state:paused}@keyframes ws{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.ti{display:inline-flex;align-items:center;gap:7px;padding:0 22px;cursor:pointer;border-right:1px solid var(--rule);height:38px}.ti:hover{background:rgba(240,162,60,.05)}.tih{font-family:var(--serif);font-size:13px;color:var(--type)}.tis{font-family:var(--sans);font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.mo{display:none;position:fixed;inset:0;background:rgba(10,10,12,.88);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(8px)}.mo.a{display:flex}.mb{background:#121214;border:1px solid var(--rule-strong);max-width:680px;width:90%;max-height:82vh;overflow-y:auto;padding:40px 44px;position:relative;animation:fi .2s ease}@keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.mc{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:var(--sans);padding:4px 8px}.mh{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;letter-spacing:-.01em;color:var(--type);margin:0 0 14px;padding-right:32px}.mm{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}.mm a{color:var(--lux)}.mm a:hover{text-decoration:underline}.mbd{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--type-dim)}.mbd .en{display:block;color:var(--lux-soft);font-style:italic;font-size:15px;margin-top:14px;padding-left:12px;border-left:2px solid var(--rule-strong)}.mbd .as{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.5}.mbd .as .al{color:var(--lux-soft);font-weight:600;font-family:var(--sans);font-size:10px;letter-spacing:.06em;text-transform:uppercase}</style></head>
+  <body>
+  <div class="container">
+
+  <header class="masthead">
+    <div class="topline"></div>
+    <div class="ears">
+      <span class="left">Est. MMXXVI</span>
+      <span class="right">No. 20 <a href="/archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+    </div>
+    <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
+      <hr class="rule-double">
+      <div class="dateline">
+        <span>September 16, 2026</span>
+        <span class="dot">◆</span>
+        <span class="tag">open weights, on your metal</span>
+        <span class="dot">◆</span>
+        <span>83 stories</span>
+      </div>
+      <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
+      <hr class="rule-thin">
+    </header>
+
+    
+
+    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="Microsoft Sets October 7th Date for Windows and Surface Reveal in San Francisco" data-b="According to The Verge, Microsoft has confirmed an on-site event in San Francisco on October 7th that will center on how local AI will influence the future of the personal computer. The company describes the gathering as a conversation about the next chapter for PCs under that technology.
+
+Three notable figures are set to appear: Microsoft CEO Satya Nadella, Windows and Surface lead Pavan Davuluri, and Nvidia chief Jensen Huang. The Verge notes that Huang&#x27;s presence points toward RTX Spark PCs likely being a headline topic, with further details on Surface Laptop Ultra pricing and availability also expected. Tom Warren, the outlet&#x27;s senior Microsoft correspondent, also expects the company to highlight recent quality gains in Windows while ruling out a surprise Windows 12 launch.
+
+The event breaks a long stretch without a major Windows-focused gathering. The Verge recalls that Microsoft&#x27;s last such event took place in May 2024, when it introduced Arm-based Copilot Plus PCs and reaffirmed its Qualcomm partnership. Before that, the previous big Windows moment came in June 2021 with the live-streamed unveiling of Windows 11. The Verge plans live coverage from the venue beginning at 10 AM Pacific on October 7th.
+
+*A two-year gap between flagship Windows briefings makes this October date one of the most anticipated checkpoints for the PC ecosystem this year.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/news/994714/microsoft-windows-surface-event-october-7-san-francisco"><span class="tih">Microsoft Sets October 7th Date for Windows and Surface Reveal in San Francisco</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia CEO Jensen Huang argues existing frameworks suffice for AI oversight" data-b="At Salesforce&#x27;s Dreamforce conference on Tuesday, Nvidia founder and CEO Jensen Huang laid out his case that AI requires no new regulatory framework, according to TechCrunch. Huang&#x27;s position rests on a simple premise: AI is hardware and software created by humans, and therefore manageable under the laws already in place. He framed safety as an engineering challenge rather than a legislative one, noting that even a complicated system remains, at its core, a computing system.
+
+The market itself, Huang contends, provides sufficient discipline. Companies should pause releases until they feel confident in a product&#x27;s functionality and safety, and competitive pressure will enforce that pacing naturally. He called the notion that speed and safety trade off against each other &quot;a false choice,&quot; urging companies to run as fast as they can while stepping back whenever confidence wavers.
+
+Huang&#x27;s broader strategy centers on championing open-weight models as a competitive counterweight to proprietary AI labs, per TechCrunch&#x27;s reporting. The article also references comments from Microsoft CEO Satya Nadella at the All-In Summit, where he urged global participation in safety efforts, including from China. Huang&#x27;s standing both in hardware and with the Trump administration, the piece notes, gives his no-regulation stance real influence over how the sector evolves.
+
+*Huang&#x27;s clarity in reducing AI to an engineering checklist makes him one of the few voices whose pragmatism cuts through the usual grand pronouncements in this field.*
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/"><span class="tih">Nvidia CEO Jensen Huang argues existing frameworks suffice for AI oversight</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Meta Adds MCP Server So AI Agents Can Handle WhatsApp Business Setup" data-b="According to TechCrunch, Meta announced on Tuesday that AI agents can now handle the setup and management of WhatsApp Business messaging. Previously, developers had to juggle multiple tools — the Developer Console, Business Manager, the API reference, and a code editor. Now they can simply describe what they need to an AI agent via chat.
+
+The backbone of this change is the new WhatsApp Business Tools MCP, a Model Context Protocol server that links coding agents such as Claude, Cursor, Codex, and ChatGPT directly to the WhatsApp Business Platform. It joins Meta&#x27;s existing MCP lineup, which already covers ads management and app configuration monitoring. Companies like PayPal, Stripe, GitHub, Notion, Slack, Salesforce, Atlassian, X, Google, and Microsoft offer similar MCP servers.
+
+The agent tackles the tedious setup steps: creating a business account, verifying a phone number, registering for Cloud API access, and confirming the Terms of Service, payment method, and Business Verification. It can also generate or edit messaging templates, test messages and webhooks, and flag items that previously failed silently. A second server, the Meta Social Technologies MCP, supports endpoint discovery, documentation search, and error troubleshooting.
+
+*Meta&#x27;s MCP expansion makes practical sense — fewer tab-switches during onboarding is a small but tangible win for developers who just want their bot wired up fast.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/"><span class="tih">Meta Adds MCP Server So AI Agents Can Handle WhatsApp Business Setup</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Health benefits platform Thatch hits $1 billion valuation with $108 million raise" data-b="Thatch, a company that helps employers manage healthcare costs through a marketplace model, has reached a $1 billion valuation after raising $108 million. The funding came from existing backers including The General Partnership, Index Ventures, General Catalyst, and Andreessen Horowitz, according to TechCrunch. The round arrives 17 months after a $40 million Series B that valued the company at $410 million, per PitchBook.
+
+The growth story is notable because Thatch is not primarily an AI company. Co-founder and CEO Chris Ellis told TechCrunch that annual recurring revenue grew roughly sevenfold since the firm&#x27;s 2021 launch, which Ellis started alongside former Stripe engineering executive Adam Stevenson.
+
+Two dynamics fuel that expansion. Employer healthcare costs are climbing sharply, with 2027 expenses expected to rise more than 8%, the steepest jump since 2003. Meanwhile, workers increasingly want access to newer treatments such as GLP-1 medications for weight loss and diabetes, which conventional plans often exclude.
+
+Thatch operates via the ICHRA framework, established by federal regulation in 2020 and recently rebranded as CHOICE. Employers assign each worker a fixed pre-tax budget, and employees pick from dozens of health, dental, and vision options on the marketplace. An AI layer suggests the best-fit plan per individual. Unspent funds can cover eligible extras like GLP-1s or an Oura Ring through a Thatch debit card.
+
+Ellis argues the model pressures insurers to compete on service and claims approval while sparing employers annual renegotiation cycles. Other startups using this regulation include Take Command, Remodel Health, and Zorro.
+
+*The rise of ICHRA-based platforms shows how a niche 2020 regulation is quietly reshaping employer-sponsored health coverage.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/15/health-benefits-platform-thatch-reaches-1b-valuation-as-healthcare-costs-surge/"><span class="tih">Health benefits platform Thatch hits $1 billion valuation with $108 million raise</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Microsoft Sets October 7th Date for Windows and Surface Reveal in San Francisco" data-b="According to The Verge, Microsoft has confirmed an on-site event in San Francisco on October 7th that will center on how local AI will influence the future of the personal computer. The company describes the gathering as a conversation about the next chapter for PCs under that technology.
+
+Three notable figures are set to appear: Microsoft CEO Satya Nadella, Windows and Surface lead Pavan Davuluri, and Nvidia chief Jensen Huang. The Verge notes that Huang&#x27;s presence points toward RTX Spark PCs likely being a headline topic, with further details on Surface Laptop Ultra pricing and availability also expected. Tom Warren, the outlet&#x27;s senior Microsoft correspondent, also expects the company to highlight recent quality gains in Windows while ruling out a surprise Windows 12 launch.
+
+The event breaks a long stretch without a major Windows-focused gathering. The Verge recalls that Microsoft&#x27;s last such event took place in May 2024, when it introduced Arm-based Copilot Plus PCs and reaffirmed its Qualcomm partnership. Before that, the previous big Windows moment came in June 2021 with the live-streamed unveiling of Windows 11. The Verge plans live coverage from the venue beginning at 10 AM Pacific on October 7th.
+
+*A two-year gap between flagship Windows briefings makes this October date one of the most anticipated checkpoints for the PC ecosystem this year.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/news/994714/microsoft-windows-surface-event-october-7-san-francisco"><span class="tih">Microsoft Sets October 7th Date for Windows and Surface Reveal in San Francisco</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia CEO Jensen Huang argues existing frameworks suffice for AI oversight" data-b="At Salesforce&#x27;s Dreamforce conference on Tuesday, Nvidia founder and CEO Jensen Huang laid out his case that AI requires no new regulatory framework, according to TechCrunch. Huang&#x27;s position rests on a simple premise: AI is hardware and software created by humans, and therefore manageable under the laws already in place. He framed safety as an engineering challenge rather than a legislative one, noting that even a complicated system remains, at its core, a computing system.
+
+The market itself, Huang contends, provides sufficient discipline. Companies should pause releases until they feel confident in a product&#x27;s functionality and safety, and competitive pressure will enforce that pacing naturally. He called the notion that speed and safety trade off against each other &quot;a false choice,&quot; urging companies to run as fast as they can while stepping back whenever confidence wavers.
+
+Huang&#x27;s broader strategy centers on championing open-weight models as a competitive counterweight to proprietary AI labs, per TechCrunch&#x27;s reporting. The article also references comments from Microsoft CEO Satya Nadella at the All-In Summit, where he urged global participation in safety efforts, including from China. Huang&#x27;s standing both in hardware and with the Trump administration, the piece notes, gives his no-regulation stance real influence over how the sector evolves.
+
+*Huang&#x27;s clarity in reducing AI to an engineering checklist makes him one of the few voices whose pragmatism cuts through the usual grand pronouncements in this field.*
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/"><span class="tih">Nvidia CEO Jensen Huang argues existing frameworks suffice for AI oversight</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Meta Adds MCP Server So AI Agents Can Handle WhatsApp Business Setup" data-b="According to TechCrunch, Meta announced on Tuesday that AI agents can now handle the setup and management of WhatsApp Business messaging. Previously, developers had to juggle multiple tools — the Developer Console, Business Manager, the API reference, and a code editor. Now they can simply describe what they need to an AI agent via chat.
+
+The backbone of this change is the new WhatsApp Business Tools MCP, a Model Context Protocol server that links coding agents such as Claude, Cursor, Codex, and ChatGPT directly to the WhatsApp Business Platform. It joins Meta&#x27;s existing MCP lineup, which already covers ads management and app configuration monitoring. Companies like PayPal, Stripe, GitHub, Notion, Slack, Salesforce, Atlassian, X, Google, and Microsoft offer similar MCP servers.
+
+The agent tackles the tedious setup steps: creating a business account, verifying a phone number, registering for Cloud API access, and confirming the Terms of Service, payment method, and Business Verification. It can also generate or edit messaging templates, test messages and webhooks, and flag items that previously failed silently. A second server, the Meta Social Technologies MCP, supports endpoint discovery, documentation search, and error troubleshooting.
+
+*Meta&#x27;s MCP expansion makes practical sense — fewer tab-switches during onboarding is a small but tangible win for developers who just want their bot wired up fast.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/"><span class="tih">Meta Adds MCP Server So AI Agents Can Handle WhatsApp Business Setup</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Health benefits platform Thatch hits $1 billion valuation with $108 million raise" data-b="Thatch, a company that helps employers manage healthcare costs through a marketplace model, has reached a $1 billion valuation after raising $108 million. The funding came from existing backers including The General Partnership, Index Ventures, General Catalyst, and Andreessen Horowitz, according to TechCrunch. The round arrives 17 months after a $40 million Series B that valued the company at $410 million, per PitchBook.
+
+The growth story is notable because Thatch is not primarily an AI company. Co-founder and CEO Chris Ellis told TechCrunch that annual recurring revenue grew roughly sevenfold since the firm&#x27;s 2021 launch, which Ellis started alongside former Stripe engineering executive Adam Stevenson.
+
+Two dynamics fuel that expansion. Employer healthcare costs are climbing sharply, with 2027 expenses expected to rise more than 8%, the steepest jump since 2003. Meanwhile, workers increasingly want access to newer treatments such as GLP-1 medications for weight loss and diabetes, which conventional plans often exclude.
+
+Thatch operates via the ICHRA framework, established by federal regulation in 2020 and recently rebranded as CHOICE. Employers assign each worker a fixed pre-tax budget, and employees pick from dozens of health, dental, and vision options on the marketplace. An AI layer suggests the best-fit plan per individual. Unspent funds can cover eligible extras like GLP-1s or an Oura Ring through a Thatch debit card.
+
+Ellis argues the model pressures insurers to compete on service and claims approval while sparing employers annual renegotiation cycles. Other startups using this regulation include Take Command, Remodel Health, and Zorro.
+
+*The rise of ICHRA-based platforms shows how a niche 2020 regulation is quietly reshaping employer-sponsored health coverage.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/15/health-benefits-platform-thatch-reaches-1b-valuation-as-healthcare-costs-surge/"><span class="tih">Health benefits platform Thatch hits $1 billion valuation with $108 million raise</span> <span class="tis">— techcrunch.com</span></div></div></div>
+<div class="lead-zone">
+      <article class="lead">
+  <a href="https://www.prnewswire.com/news-releases/mediatek-dimensity-9600-pro-sets-new-standard-for-flagship-smartphone-chips-302878749.html" target="_blank" rel="noopener">
+    <img src="images/lead_2026-09-16.jpg" alt="" class="lead-image">
+    <div class="lead-grid">
+      <div class="lead-head">
+        <p class="kicker">On-device 30B</p>
+        <h1>MediaTek Dimensity 9600 Pro pushes on-device LLMs to 30 billion parameters</h1>
+      </div>
+      <div class="lead-body">
+        <p class="deck">MediaTek's new 2nm flagship SoC pairs a dual-NPU Agentic AI Engine with an NPU 1090 that lifts LLM prefill performance 51% and token generation per watt 55%, and now runs on-device models up to 30B parameters. It is the company's first chip with LPDDR6 memory and UFS 5.0 storage, with a 40%-more-efficient eNPU 2.0 on the side for MoE inference.</p>
+        <p class="byline"><span class="src">PR Newswire</span> · <span>2026-09-15</span> · <span class="more">Read the dispatch →</span></p>
+      </div>
+    </div>
+  </a>
+</article>
+
+    </div>
+
+    <div class="topstories">
+<article class="story">
+  <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/" target="_blank" rel="noopener">
+    <h3>Google ships Gemini 3.8 Live with extended thinking for streaming voice apps</h3>
+    <p>Google released Gemini 3.8 Live (with an extended-thinking variant) and Gemini 3.5 Transcribe for building real-time voice applications.</p>
+    <p class="byline"><span class="src">Google DeepMind</span> · 2026-09-15</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://finviz.com/news/392177/micron-advances-memory-innovation-with-the-worlds-first-ultra-dense-module-for-next-generation-servers" target="_blank" rel="noopener">
+    <h3>Micron demonstrates the first 512GB DDR5 RDIMM for next-gen servers</h3>
+    <p>The 512GB module reaches up to 9,200 MT/s via TSV stacking, enabling up to 12TB of DDR5 in a 24-slot dual-socket box at over 60% lower operating power; volume production is slated for H2 2027.</p>
+    <p class="byline"><span class="src">Finviz</span> · 2026-09-15</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://finviz.com/news/392185/ambarella-launches-x7-its-first-standalone-ai-accelerator-to-add-physical-ai-to-any-host-processor" target="_blank" rel="noopener">
+    <h3>Ambarella launches X7, a host-agnostic edge AI co-processor</h3>
+    <p>The X7 uses the third-gen CVflow engine over one PCIe Gen 3 lane or USB 3.2 in a 2-5W envelope, handling CNNs, vision transformers and multimodal transformers on Arm and x86 hosts.</p>
+    <p class="byline"><span class="src">Finviz</span> · 2026-09-15</p>
+  </a>
+</article>
+
+</div>
+
+
+    <div class="sections">
+      <section class="section">
+  <div class="section-head">
+    <h2>Research &amp; Papers</h2>
+    <span class="line"></span>
+    <span class="n">05</span>
+  </div>
+  <a href="https://arxiv.org/abs/2609.16937" target="_blank" rel="noopener" class="section-hero"><img src="images/section_research-papers_2026-09-16.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Reward-compatible temporal credit assignment for on-policy distillation</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.16937" target="_blank" rel="noopener">
+    <h4>Reward-compatible temporal credit assignment for on-policy distillation</h4>
+    <p>Combines token-level stability with sequence-level coverage to ease the fidelity-vs-stability trade-off in on-policy LLM post-training.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-15</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.16450" target="_blank" rel="noopener">
+    <h4>Early-Bird Decoding speeds diffusion LLMs with learnable block sizes</h4>
+    <p>Pairs learnable block sizes with parallel sampling to cut unmasking steps and lift throughput of the non-autoregressive paradigm.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-15</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.17474" target="_blank" rel="noopener">
+    <h4>Coupled calibration and learning mitigates teacher bias in distillation</h4>
+    <p>Reduces transferred teacher bias under covariate shift without extra reward feedback on the target domain.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-15</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.16459" target="_blank" rel="noopener">
+    <h4>OPD-Aha brings visual reflection to multimodal on-policy distillation</h4>
+    <p>A privileged teacher scores shared prefixes using training-only visual evidence to correct early image misreads.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-15</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.16754" target="_blank" rel="noopener">
+    <h4>TAME localizes emergent misalignment token by token</h4>
+    <p>Attributes behavior changes after narrow-domain fine-tuning back to individual training tokens.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-15</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Open Weights &amp; Models</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  <a href="https://qwen.ai/blog?id=qwen3.8-flash-next" target="_blank" rel="noopener" class="section-hero"><img src="images/section_open-weights-models_2026-09-16.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Qwen3.8-Flash-Next opens the door to the Qwen4 architecture</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://qwen.ai/blog?id=qwen3.8-flash-next" target="_blank" rel="noopener">
+    <h4>Qwen3.8-Flash-Next opens the door to the Qwen4 architecture</h4>
+    <p>A 125B-total / 6B-active multimodal MoE with a 51B n-gram embedding table, a 4B multi-token-prediction layer and native 262,144-token context (extensible to 1M) on a Gated DeltaNet + Gated Attention hybrid.</p>
+    <p class="byline"><span class="src">Qwen</span> · 2026-09-15</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://llmgateway.io/timeline" target="_blank" rel="noopener">
+    <h4>September tally: 13 model releases so far, led by DeepSeek-V4.1-Flash</h4>
+    <p>Flash-class MoE releases ship downloadable checkpoints that fit single-GPU rigs, with Atria Dawn Preview as the other headline entry.</p>
+    <p class="byline"><span class="src">LLM Gateway</span> · 2026-09-15</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://techaiwire.com/articles/salesforce-koa-nemotron-proprietary-weights" target="_blank" rel="noopener">
+    <h4>Salesforce's Koa shows the open-weight-to-closed-product pattern</h4>
+    <p>Koa, Salesforce's first in-house reasoning model for Agentforce, is built on Nvidia's open Nemotron 3 Super but ships proprietary inside Salesforce infrastructure.</p>
+    <p class="byline"><span class="src">TechAIWire</span> · 2026-09-15</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/blog/state-of-open-models-summer-2026" target="_blank" rel="noopener">
+    <h4>Release cadence data: Qwen derivatives now dominate the Hub</h4>
+    <p>Qwen-based derivatives hit 151,448 repositories (2.6x Meta's footprint), growing roughly 180-210 repos/day on the back of sparse-MoE convergence and permissive licensing.</p>
+    <p class="byline"><span class="src">Hugging Face</span> · 2026-09-15</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Tools &amp; Runtimes</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  <a href="https://github.com/Thurbeen/thurbox" target="_blank" rel="noopener" class="section-hero"><img src="images/section_tools-runtimes_2026-09-16.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Show HN: Thurbox, a tmux-based TUI for local agent orchestration</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://github.com/Thurbeen/thurbox" target="_blank" rel="noopener">
+    <h4>Show HN: Thurbox, a tmux-based TUI for local agent orchestration</h4>
+    <p>A keyboard-driven terminal UI that runs several local AI agents in parallel without a web front end.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-16</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/AEndrix03/Graft" target="_blank" rel="noopener">
+    <h4>Show HN: Graft, local-first persistent memory for coding agents</h4>
+    <p>Stores agent context on disk so sessions resume with prior state, without a hosted memory service.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-16</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/ollama/ollama/releases" target="_blank" rel="noopener">
+    <h4>Ollama v0.34.2-rc0 ships refreshed llama.cpp engine builds</h4>
+    <p>Follows v0.34.1's non-experimental MLX safetensors, better Apple Silicon memory handling and faster /api/tags.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-15</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/ggml-org/llama.cpp/releases" target="_blank" rel="noopener">
+    <h4>llama.cpp pushes builds b10989-b10991 in a single day</h4>
+    <p>Adds a hexagon contiguous fast-path, hvx_copy_uu and DMA copies for contiguous buffers, with macOS and iOS binaries.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-15</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Self-Hosted Stack</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  <a href="https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/" target="_blank" rel="noopener" class="section-hero"><img src="images/section_self-hosted-stack_2026-09-16.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Cloudflare's Disallow AI Training setting goes live on all plans</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/" target="_blank" rel="noopener">
+    <h4>Cloudflare's Disallow AI Training setting goes live on all plans</h4>
+    <p>Publishes a no-training preference in robots.txt while keeping Googlebot, Applebot and Bingbot indexing; the plain Block setting stops those mixed-use crawlers entirely.</p>
+    <p class="byline"><span class="src">Cloudflare</span> · 2026-09-15</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1veow4b/deepseek_v4flash_284b_moe_at_33_toks_single_68" target="_blank" rel="noopener">
+    <h4>DeepSeek V4-Flash 284B MoE run on 2x RTX 3090 + quad-Xeon</h4>
+    <p>A Marlin weight-only fork with DSpark speculative decoding hits 33 tok/s single-stream and 68 tok/s aggregate, with one instance pinned to about 170 GB RAM on a single NUMA node.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-09-15</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1v21j14/google_has_disappeared_completely_from_the_top_15/" target="_blank" rel="noopener">
+    <h4>Google drops out of the top 15 on the local-LLM leaderboard</h4>
+    <p>A busy r/LocalLLaMA thread debates whether aggregate rank tables reflect hands-on tokens/s quality on your own hardware.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-09-16</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Hardware &amp; Edge</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  <a href="https://finviz.com/news/392154/astera-labs-bolsters-leo-smart-memory-controller-family-for-agentic-ai-and-general-purpose-cloud-workloads" target="_blank" rel="noopener" class="section-hero"><img src="images/section_hardware-edge_2026-09-16.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Astera Labs expands the Leo Smart Memory Controller for agentic AI</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://finviz.com/news/392154/astera-labs-bolsters-leo-smart-memory-controller-family-for-agentic-ai-and-general-purpose-cloud-workloads" target="_blank" rel="noopener">
+    <h4>Astera Labs expands the Leo Smart Memory Controller for agentic AI</h4>
+    <p>Leo X-Series offloads KV cache and agent context to the scale-up fabric (up to 62% faster time to first token), while Leo 2 E/P add CXL 3.2 and pooled DDR4/DDR5.</p>
+    <p class="byline"><span class="src">Finviz</span> · 2026-09-15</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://ir.microchip.com/news-events/press-releases/detail/1414/analogai-selects-membrain-sage-intellectual-property-from-silicon-storage-technology-for-its-first-real-world-edge-ai-processors" target="_blank" rel="noopener">
+    <h4>AnalogAI picks memBrain SAGE IP for ultra-low-power edge processors</h4>
+    <p>Uses Microchip's neuromorphic compute-in-memory IP at or below one watt for robots, drones and vehicles; already deployed at 40nm and 28nm.</p>
+    <p class="byline"><span class="src">Microchip Technology</span> · 2026-09-15</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.industryweek.com/leadership/strategic-planning-execution/article/55404964/memory-chips-are-in-short-supply-why-isnt-the-us-ramping-up-production" target="_blank" rel="noopener">
+    <h4>Memory chips stay in short supply as the AI buildout squeezes DRAM</h4>
+    <p>A basic 64GB pack is quoted around $1,100 versus roughly $200 a year earlier; new US fabs from Micron, Samsung and SK Hynix take years to come online.</p>
+    <p class="byline"><span class="src">IndustryWeek</span> · 2026-09-15</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://english.kyodonews.net/articles/-/85114" target="_blank" rel="noopener">
+    <h4>QBit targets Physical AI and drones with the QB88XX series</h4>
+    <p>Quad-core Cortex-A78 plus a dual-NPU design drives up to 32 motors, with up to 32GB LPDDR5/5X, PCIe, USB 3.2 and GbE.</p>
+    <p class="byline"><span class="src">Kyodo News</span> · 2026-09-15</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+    </div>
+
+    <div class="trending-wrap">
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Repos on GitHub</h1>
+      <div class="t-line"></div>
+      <a href="https://github.com/trending" target="_blank" rel="noopener" class="t-link">Go to GitHub trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://github.com/alibaba/open-code-review" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">alibaba/open-code-review</span>
+    <span class="t-meta">Go · 29.1k ★ · +2756 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/JustVugg/colibri" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">JustVugg/colibri</span>
+    <span class="t-meta">C · 34.1k ★ · +2026 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/debpalash/VoiceStudio" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">debpalash/VoiceStudio</span>
+    <span class="t-meta">Python · 31.2k ★ · +2072 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/melgarafael/DeskcommCRM" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">melgarafael/DeskcommCRM</span>
+    <span class="t-meta">TypeScript · 2.9k ★ · +193 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/alphaXiv/OpenResearch" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">alphaXiv/OpenResearch</span>
+    <span class="t-meta">Rust · 3.5k ★ · +531 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/danny-avila/LibreChat" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">danny-avila/LibreChat</span>
+    <span class="t-meta">TypeScript · 43.9k ★ · +254 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/pacifio/atlas" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">pacifio/atlas</span>
+    <span class="t-meta">Rust · 4.7k ★ · +91 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/MG1937/ASC" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">MG1937/ASC</span>
+    <span class="t-meta">Python · 1.3k ★ · +129 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/addyosmani/agent-skills" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">addyosmani/agent-skills</span>
+    <span class="t-meta">JavaScript · 94.9k ★ · +307 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/earendil-works/pi" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">earendil-works/pi</span>
+    <span class="t-meta">TypeScript · 105.9k ★ · +458 today</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+  
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Trending on HF</h1>
+      <div class="t-line"></div>
+      <a href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener" class="t-link">Go to Hugging Face trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">deepseek-ai/DeepSeek-V4.1-Flash</span>
+    <span class="t-meta">763B MoE, image-text-to-text</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Edge0/Edge0-35B-A3B-preview" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Edge0/Edge0-35B-A3B-preview</span>
+    <span class="t-meta">35B MoE, 3B active, text generation preview</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/openbmb/MiniCPM5-2B" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">openbmb/MiniCPM5-2B</span>
+    <span class="t-meta">~2B, on-device text generation</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Qwen/Qwen3.8-27B</span>
+    <span class="t-meta">28B, image-text-to-text</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/nex-agi/Nex-N2.5-mini" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">nex-agi/Nex-N2.5-mini</span>
+    <span class="t-meta">35B, text generation</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/m-a-p/YuE2-3B" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">m-a-p/YuE2-3B</span>
+    <span class="t-meta">4B, text-to-audio</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/nex-agi/Nex-N2.5-Pro" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">nex-agi/Nex-N2.5-Pro</span>
+    <span class="t-meta">397B, text generation</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF</span>
+    <span class="t-meta">27B GGUF quantization of Qwen3.8-27B</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Lightricks/LTX-2.5" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">Lightricks/LTX-2.5</span>
+    <span class="t-meta">image-to-video generator</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/TokenRhythm/NeoHorse-1-4B" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">TokenRhythm/NeoHorse-1-4B</span>
+    <span class="t-meta">4B, text generation</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+</div>
+
+
+    <section class="section" id="free-models">
+  <div class="section-head">
+    <h2>Free Models</h2>
+    <span class="line"></span>
+    <span class="n">26</span>
+  </div>
+
+  <p class="section-note">Free means $0 per token today, not unlimited or unconditional: both platforms rate-limit free use and require a free API key, some OpenRouter free endpoints may train on your prompts unless you opt out in account settings, and the roster changes daily. Verified against each provider's own pricing data at generation time — but pricing changes without notice, so confirm it's still free on the provider's own page before you rely on it.</p>
+
+  <div class="trending-wrap trending-wrap--in-section">
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenRouter</h1>
+        <div class="t-line"></div>
+        <a href="https://openrouter.ai/models?max_price=0" target="_blank" rel="noopener" class="t-link">Browse free models →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://openrouter.ai/cohere/north-mini-code:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Cohere: North Mini Code (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/dots-studio/dots-3-note-preview:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Dots Studio: Dots3-Note Preview (free)</span>
+    <span class="t-meta">512K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-26b-a4b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Google: Gemma 4 26B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-31b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Google: Gemma 4 31B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.0-flash-fin:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">inclusionAI: Ling 3.0 Flash Fin (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.0-flash-sante:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">inclusionAI: Ling 3.0 Flash Sante (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.0-flash-vl:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">inclusionAI: Ling 3.0 Flash VL (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/liquid/lfm-2.5-2.6b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">LiquidAI: LFM2.5-2.6B (free)</span>
+    <span class="t-meta">65K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nex-agi/nex-n2.5-mini:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">Nex AGI: Nex-N2.5-Mini (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nex-agi/nex-n2.5-pro:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">Nex AGI: Nex-N2.5-Pro (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Nano Omni (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Super (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#13</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Ultra (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#14</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Content Safety (free)</span>
+    <span class="t-meta">128K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-lightning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#15</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Lightning (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-s-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#16</span>
+    <span class="t-name">Poolside: Laguna S 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-xs-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#17</span>
+    <span class="t-name">Poolside: Laguna XS 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#18</span>
+    <span class="t-name">Thinking Machines: Inkling (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling-small:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#19</span>
+    <span class="t-name">Thinking Machines: Inkling Small (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/z-ai/glm-5.2:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#20</span>
+    <span class="t-name">Z.ai: GLM 5.2 (free)</span>
+    <span class="t-meta">32K ctx</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenCode Zen</h1>
+        <div class="t-line"></div>
+        <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener" class="t-link">See the full Zen catalog →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Big Pickle</span>
+    <span class="t-meta">big-pickle</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">MiMo-V2.5 Free</span>
+    <span class="t-meta">mimo-v2.5-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Ling 3.0 Flash Fin Free</span>
+    <span class="t-meta">ling-3.0-flash-fin-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Nemotron 3 Ultra Free</span>
+    <span class="t-meta">nemotron-3-ultra-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Nemotron 3.5 Lightning Free</span>
+    <span class="t-meta">nemotron-3.5-lightning-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">Muse Spark 1.3 Contributor Free</span>
+    <span class="t-meta">muse-spark-1.3-contributor-free</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <section class="inbrief">
+  <div class="section-head">
+    <h2>In Brief</h2>
+    <span class="line"></span>
+    <span class="n">12</span>
+  </div>
+  <ul class="qh-list">
+    <li><a href="https://huggingface.co/papers/2609.17320" target="_blank" rel="noopener"><span class="qh-title">Emergence World: adversarial stress-testing of long-horizon multi-agent systems</span><span class="qh-src">HuggingFace</span></a></li>
+
+    <li><a href="https://huggingface.co/papers/2609.17524" target="_blank" rel="noopener"><span class="qh-title">Modality-Autoregressive World-Action Models combine RGB, depth and point tracks</span><span class="qh-src">HuggingFace</span></a></li>
+
+    <li><a href="https://arxiv.org/abs/2609.16927" target="_blank" rel="noopener"><span class="qh-title">Verbalizing subliminal learning effects using text optimization</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://benchlm.ai/stats/model-releases" target="_blank" rel="noopener"><span class="qh-title">Launch cadence by lab: a 200-release statistics cross-check</span><span class="qh-src">BenchLM</span></a></li>
+
+    <li><a href="https://github.com/chengyixu/context-freshness-ledger" target="_blank" rel="noopener"><span class="qh-title">Show HN: Context Freshness Ledger, a tiny schema for reviewable agent memory</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://github.com/marcparadise/reviewer" target="_blank" rel="noopener"><span class="qh-title">Show HN: reviewer, inspect agent diffs locally before pushing</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://www.biom.dev/" target="_blank" rel="noopener"><span class="qh-title">Show HN: Biom, a visual workspace where AI agents' work lands</span><span class="qh-src">Biom</span></a></li>
+
+    <li><a href="https://github.com/plurnk/plurnk" target="_blank" rel="noopener"><span class="qh-title">Show HN: Plurnk, an open-source harness for local model workflows</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://github.com/pausan/agenttik" target="_blank" rel="noopener"><span class="qh-title">Show HN: Agenttik runs several projects in parallel with AI agents</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://techcrunch.com/2026-09-15/new-italian-unicorn-exein-rides-the-physical-ai-wave/" target="_blank" rel="noopener"><span class="qh-title">New Italian unicorn Exein rides the physical AI wave</span><span class="qh-src">TechCrunch</span></a></li>
+
+    <li><a href="https://techcrunch.com/2026-09-15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/" target="_blank" rel="noopener"><span class="qh-title">AEO startup Profound hits unicorn valuation with a $180M Series D</span><span class="qh-src">TechCrunch</span></a></li>
+
+    <li><a href="https://www.impresacity.it/news/56610/maxi-round-da-oltre-2-milioni-di-euro-per-mama-insurance-la-startup-insurtech-italiana-basata-sullai.html" target="_blank" rel="noopener"><span class="qh-title">Mama Insurance closes a round led by Fastweb+Vodafone</span><span class="qh-src">ImpresaCity</span></a></li>
+
+  </ul>
+</section>
+
+
+    <footer class="colophon">
+      <p class="mark">Per aspera ad astra</p>
+      <p class="meta">Compiled by Hermes Agent · 2026-09-16 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
+    </footer>
+
+  </div>
+<div class="mo" id="mo" onclick="cm(event)"><div class="mb"><button class="mc" onclick="cm()">✕</button><h2 class="mh" id="mh"></h2><p class="mm">Source: <span id="ms"></span></p><div class="mbd" id="mbd"></div></div></div>
+<script>function openArt(el){var h=el.getAttribute('data-h'),b=el.getAttribute('data-b'),s=el.getAttribute('data-s'),u=el.getAttribute('data-u');document.getElementById('mh').textContent=h;var sl=document.getElementById('ms');if(u&&u!=='#'&&u!==''){sl.innerHTML='<a href="'+u+'" target="_blank" rel="noopener">'+s+'</a>';}else{sl.textContent=s;}var aiS='*— Written by AI (';var i=b.indexOf(aiS);if(i>=0){var bf=b.substring(0,i);var af=b.substring(i+aiS.length);var mdl=af.split(')')[0];bf=bf.split('\n').join('<br>');bf=bf.replace(/\*([^*]+)\*/g,'<em class="en">$1</em>');var sg='<div class="as"><span class="al">⬥ AI-GENERATED</span><br>Model: '+mdl+'</div>';document.getElementById('mbd').innerHTML=bf+sg;}else{document.getElementById('mbd').innerHTML=b.split('\n').join('<br>');}document.getElementById('mo').classList.add('a');document.body.style.overflow='hidden';}function cm(e){if(e&&e.target!=document.getElementById('mo'))return;document.getElementById('mo').classList.remove('a');document.body.style.overflow='';}document.addEventListener('keydown',function(e){if(e.key==='Escape')cm()});</script></body>
+</html>

@@ -3830,6 +3830,222 @@
       "source": "ImpresaCity",
       "date": "2026-09-16",
       "issue": 20
+    },
+    {
+      "text": "Minisforum's N5 and MS-S1 run local models on AMD's Ryzen AI Max+ PRO 495",
+      "source": "Tom's Hardware",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "RTX 5090 stock evaporates at US retailers, third-party listings reach $9,500",
+      "source": "Tom's Hardware",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "Mistral and Mozilla put Mistral models behind Firefox's Smart Window",
+      "source": "Mistral",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "Arcee AI raises at least $150M Series B at a $1B pre-money valuation for open-weight models",
+      "source": "Tech Startups",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "Anew Labs spins ByteDance's drug-discovery unit out with $290M at a $1.5B valuation",
+      "source": "Tech Startups",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "Higher-order pruning of experts in mixture-of-experts language models",
+      "source": "arXiv",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "VLA-ULAP interleaves cloud VLA calls with an ultra-light local action predictor",
+      "source": "arXiv",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "Beyond truncation: LLM decoding reframed as ensemble pruning",
+      "source": "arXiv",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "A zeroth-order paradigm for LLM preference alignment",
+      "source": "arXiv",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "Infinite-parameter LLMs generate and adapt weights from live data",
+      "source": "arXiv",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "YuE2-3B ships compact music generation with symbolic planning and zero-shot covers",
+      "source": "HuggingFace",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "GGUF quant ecosystem refresh: ISTA-DASLab and DavidAU repack Qwen3.8-27B",
+      "source": "HuggingFace",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "Quant-only releases keep the pipeline moving: Ornith-1.5-35B-A3B, Nex-N2.5-mini, LFM2.5-VL-3B",
+      "source": "HuggingFace",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "llama.cpp b11009-b11011: SYCL signature fix, Vulkan NVIDIA workaround, fused QKV split",
+      "source": "GitHub",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "Echodot: local-first AI that writes replies in your tone",
+      "source": "GitHub",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "FastRecall: cheap shared memory across AI models",
+      "source": "FastRecall",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "Blue: open-source governance for coding agents",
+      "source": "Blue",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "Cleanroom: an AI coding agent built to be read",
+      "source": "GitHub",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "n8n 2.39.6 adds a v3 storage-directory rename rule and Gateway credit fixes",
+      "source": "whatsnew.fyi",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "Lemonade candidate-v2026.39.1 arrives for the local AI server",
+      "source": "Lemonade",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "ESPHome 2026.9.0 brings faster builds and encrypted updates to Home Assistant nodes",
+      "source": "Home Assistant Community",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "Lenovo extends Qira to 16GB PCs and shows RTX Spark Yoga laptops",
+      "source": "Back2Gaming",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "Hardware watch: the question is now where inference runs",
+      "source": "TheCodeW",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "Micron puts a 37-year EDA veteran in charge of its $10B memory lab",
+      "source": "Futurum",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "ProgramDistill turns interactive web apps into verifiable reference-guided coding tasks",
+      "source": "HuggingFace",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "Agora uses git as shared memory so parallel research agents stop repeating searches",
+      "source": "HuggingFace",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "Model-tracker pages updated for the September release batch",
+      "source": "lmmarketcap",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "Nvidia reportedly denies RTX 5090 warranty over a faded serial number",
+      "source": "Tom's Hardware",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "Impulse Space adds $308M, lifting its Series D to $808M at a $5.4B valuation",
+      "source": "Tech Startups",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "Hello Robotaxi raises about $100M at a near-$3B valuation for L4 driving compute",
+      "source": "Tech Startups",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "CADDi hits a $1.2B valuation after a $114M Series D",
+      "source": "Tech Startups",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "Texio: deterministic Markdown operations for shell scripts and AI agents",
+      "source": "GitHub",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "Pixel Agents: pixel-art mission control for Claude Code agents",
+      "source": "GitHub",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "Chert puts an AI agent inside a FaceTime call over WebRTC",
+      "source": "GitHub",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "Seven AI, the Italian football app, passes 10,000 users",
+      "source": "La Tech Made in Italy",
+      "date": "2026-09-17",
+      "issue": 21
+    },
+    {
+      "text": "ChatGPT Ads brings AI agents into the advertising stack",
+      "source": "AI4Business",
+      "date": "2026-09-17",
+      "issue": 21
     }
   ]
 }
