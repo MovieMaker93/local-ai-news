@@ -4046,6 +4046,228 @@
       "source": "AI4Business",
       "date": "2026-09-17",
       "issue": 21
+    },
+    {
+      "text": "PrismML ships Ternary Bonsai 2 27B at a 5.9 GB footprint, up to 143 tok/s on an RTX 5090",
+      "source": "PR Newswire",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "llama.cpp b11040 adds ggml allocation-failure checks after a week of nightly churn",
+      "source": "GitHub",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "Anthropic stands up a Bay Area wet lab to push Claude into drug development",
+      "source": "DeItaone",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "U.S. agencies say China's AI surge rests on industrial-scale distillation of American frontier models",
+      "source": "CNBC",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "TypeSafe launches Jev, a decision-first model that skips token-by-token generation",
+      "source": "chddaniel",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "What does privileged information add to on-policy self-distillation?",
+      "source": "HuggingFace",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "QVAC Genesis III: a large open STEM corpus for small-model pre-training",
+      "source": "arXiv",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "SoL-Pi recursively scales auto-research loops for an efficient agent harness",
+      "source": "HuggingFace",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "QUALS: corpus equilibrium for universal time-series forecasting",
+      "source": "arXiv",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "Don't mask the environment: observation supervision changes agent exploration under RL",
+      "source": "arXiv",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "Cactus Needle 3: 8-29 MB automation models claimed near DeepSeek V4 Flash on tool calling",
+      "source": "Hacker News",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "MCPJam arrives as an inspector and CI gate for MCP servers",
+      "source": "Product Hunt",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "Forcefield: a fast, lightweight local-first agent harness in Go",
+      "source": "GitHub",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "Fouine: local full-text and semantic search for scanned PDFs on macOS",
+      "source": "GitHub",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "Talos: a personal agent whose kernel gates every tool call",
+      "source": "GitHub",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "Three-line FP16 fix restores precision on Tesla P100/P40 in the TurboQuant llama.cpp fork",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "n8n Gateway credits pool model providers behind one prepaid balance",
+      "source": "n8n Blog",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "n8n source-control push CVE patched in 1.123.76, 2.37.7 and 2.38.2",
+      "source": "NotCVE",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "n8n 2.39.7 fixes breaking-change detection and numeric credential inputs",
+      "source": "n8n GitHub releases",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "Home Assistant 2026.9.3 patch lands September 18",
+      "source": "Home Assistant",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "TensorRT Edge-LLM posts an MLPerf Edge Agentic result on Jetson AGX Thor",
+      "source": "Local Model Watch",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "Apple plans M8 Ultra AI servers; Huawei shows off Atlas 960 SuperPoD",
+      "source": "TechStartups",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "Memory wall dominates the hardware brief: server memory spend headed for $175-190B by 2027",
+      "source": "SiliconANGLE",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "RPCS3 workaround for an NVIDIA driver bug lifts GeForce performance 20-25%",
+      "source": "TechPowerUp",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "Leak: RTX 60 series slips to 2028, AMD may ship one RDNA 5 chip next year",
+      "source": "PCGuIDE",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "Quantifying overclaiming propensity in frontier LLM coding agents",
+      "source": "arXiv",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "Paint-Anything unifies any-color control with 24-bit hex input for generation and editing",
+      "source": "arXiv",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "Skillmem: local agent memory that stores how, not what",
+      "source": "GitHub",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "New on the Hub this window: Edge0-35B-A3B-preview, Ternary-Bonsai-2-27B GGUF, Xing4.0-29B-A4B",
+      "source": "HuggingFace",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "TesserAI climbs from 0.13 to 0.38 on a brute-force-resistant benchmark using a few hundred CPU cores",
+      "source": "usetesserai",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "Palantir CEO Karpathy on why open-weight models keep proprietary knowledge in-house",
+      "source": "perksverse",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "Azure AI Foundry ships with a CVSS 10.0 privilege-escalation flaw from missing authentication",
+      "source": "TheHackersNews",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "Jet HR's Recupero AI finds 33 billion euros of untapped reliefs for Italian businesses",
+      "source": "La Tech Made in Italy",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "Health Force raises 4.2 million euros for agentic automation in hospitals",
+      "source": "Finanza Flash",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "MIMIT allocates a further 140.2 million euros for innovation and digital infrastructure",
+      "source": "MIMIT",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "Two Minute Papers breaks down DeepSeek's new model architecture",
+      "source": "YouTube \u2014 Two Minute Papers",
+      "date": "2026-09-18",
+      "issue": 22
+    },
+    {
+      "text": "Bloomberg: Snap pitches its face-worn computer for everyday AI use",
+      "source": "YouTube \u2014 Bloomberg Technology",
+      "date": "2026-09-18",
+      "issue": 22
     }
   ]
 }
