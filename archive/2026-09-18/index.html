@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOCAL AI NEWS — open-weight intelligence · September 18, 2026</title>
+  <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
+  <link rel="stylesheet" href="style.css">
+  <style>.wt{display:flex;align-items:center;height:38px;background:var(--ink);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);margin:14px 0 0;overflow:hidden}.wtt{display:flex;align-items:center;white-space:nowrap;padding-left:20px;animation:ws 90s linear infinite}.wtt:hover{animation-play-state:paused}@keyframes ws{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.ti{display:inline-flex;align-items:center;gap:7px;padding:0 22px;cursor:pointer;border-right:1px solid var(--rule);height:38px}.ti:hover{background:rgba(240,162,60,.05)}.tih{font-family:var(--serif);font-size:13px;color:var(--type)}.tis{font-family:var(--sans);font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.mo{display:none;position:fixed;inset:0;background:rgba(10,10,12,.88);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(8px)}.mo.a{display:flex}.mb{background:#121214;border:1px solid var(--rule-strong);max-width:680px;width:90%;max-height:82vh;overflow-y:auto;padding:40px 44px;position:relative;animation:fi .2s ease}@keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.mc{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:var(--sans);padding:4px 8px}.mh{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;letter-spacing:-.01em;color:var(--type);margin:0 0 14px;padding-right:32px}.mm{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}.mm a{color:var(--lux)}.mm a:hover{text-decoration:underline}.mbd{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--type-dim)}.mbd .en{display:block;color:var(--lux-soft);font-style:italic;font-size:15px;margin-top:14px;padding-left:12px;border-left:2px solid var(--rule-strong)}.mbd .as{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.5}.mbd .as .al{color:var(--lux-soft);font-weight:600;font-family:var(--sans);font-size:10px;letter-spacing:.06em;text-transform:uppercase}</style></head>
+  <body>
+  <div class="container">
+
+  <header class="masthead">
+    <div class="topline"></div>
+    <div class="ears">
+      <span class="left">Est. MMXXVI</span>
+      <span class="right">No. 22 <a href="/archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+    </div>
+    <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
+      <hr class="rule-double">
+      <div class="dateline">
+        <span>September 18, 2026</span>
+        <span class="dot">◆</span>
+        <span class="tag">open weights, on your metal</span>
+        <span class="dot">◆</span>
+        <span>85 stories</span>
+      </div>
+      <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
+      <hr class="rule-thin">
+    </header>
+
+    
+
+    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="Anthropic CEO Amodei Outlines Pacing Plan for AI Frontier Amid Industry Debate" data-b="Anthropic CEO Dario Amodei has put forward a framework for controlling the speed of artificial intelligence development, according to TechCrunch&#x27;s Equity podcast coverage. The proposal, published a week after an Anthropic researcher issued a doomsday warning about the state of AI, rests on two pillars: independent safety evaluators and structured coordination among AI labs operating in democratic countries. The approach has drawn partial backing from within the sector, though Nvidia&#x27;s Jensen Huang has raised pointed objections to its details.
+
+The Equity podcast team — Kirsten Korosec, Anthony Ha, and Sean O&#x27;Kane — unpacked whether competing companies can even agree on what &quot;slowing down&quot; means in practice and who holds authority to enforce such an agreement. The episode also covered Automattic&#x27;s boardroom shake-up and several of the week&#x27;s largest deal announcements in the tech sector.
+
+Amodei&#x27;s plan signals that Anthropic sees a multilateral structure as the most viable path toward a managed AI rollout. The open question, as the podcast noted, remains whether the key players in the field will converge on a shared definition of progress fast enough to make the framework matter before the next wave of model releases lands.
+
+*The frontier-pacing debate shows that even among leaders who agree on the destination, the map to get there remains stubbornly contested.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/video/dario-amodei-and-other-ai-leaders-want-to-pace-the-frontier-buthow/"><span class="tih">Anthropic CEO Amodei Outlines Pacing Plan for AI Frontier Amid Industry Debate</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="The Open-versus-Closed Choice Gets a Builder&#x27;s View at TechCrunch Disrupt 2026" data-b="At TechCrunch Disrupt 2026, the Builders Stage hosts a session titled &quot;The Open vs. Closed AI Debate Is Just Getting Started,&quot; according to TechCrunch. Nvidia&#x27;s Nader Khalil, Director of Developer Tech, and Sydney Sykes, Global Head of VC Partnerships, lead the discussion on the trade-offs between open and proprietary models and whether either can deliver a lasting competitive advantage. The event takes place October 13–15 in San Francisco.
+
+The article frames the choice as a practical business decision already being made inside startups of every size, since cost, infrastructure, margins, speed and control all follow from it. Open models have moved quickly: Nvidia said in July that 145 papers accepted at ICML 2026 cited its Nemotron open models and datasets, with additional research using other Nvidia open model families across robotics, autonomous vehicles and biomedical work. Proprietary frontier labs keep extending capability, so the question shifts from whether open models are useful to where each approach makes commercial sense. Nvidia itself, per CEO Jensen Huang at GTC, sees the future as proprietary and open rather than one or the other.
+
+The two speakers bring different angles: Khalil co-founded Brev.dev, the GPU-infrastructure company Nvidia acquired in July 2024, while Sykes represents the venture ecosystem. Behind it sits the moat question. Nemotron 3 Super, an open 120-billion-parameter model for agentic workloads launched in March, is already being combined with proprietary models, which the article calls the most interesting part of the debate.
+
+*The hybrid outcome feels less like a compromise and more like a description of how working systems are actually assembled.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/18/open-or-closed-ai-nvidias-nader-khalil-and-sydney-sykes-take-on-one-of-the-decisions-shaping-next-gen-startups-at-techcrunch-disrupt-2026/"><span class="tih">The Open-versus-Closed Choice Gets a Builder&#x27;s View at TechCrunch Disrupt 2026</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Lenovo Yoga Slim 7X Delivers Premium Specs at the 1,000-Dollar Mark" data-b="According to The Verge, the Lenovo Yoga Slim 7X currently stands as the strongest laptop available for a 1,000-dollar budget. The slim 14-inch machine pairs a 2K 16:10 OLED touchscreen with Qualcomm&#x27;s high-end Snapdragon X2 Elite processor, packing 12 cores. Memory and storage come in at 16 GB of DDR5 RAM and a 1 TB solid-state drive. The Verge notes these specifications represent roughly the ceiling of what that price point offers during the ongoing &quot;RAMageddon,&quot; a period when meaningful laptop discounts are scarce.
+
+Buyers can grab the unit at Best Buy for 1,000 dollars, down from a listed 1,650-dollar tag, reflecting a 39-percent cut. The Verge positions it as a smart alternative to Microsoft&#x27;s comparable Surface Laptop, which costs 1,549 dollars yet ships with only half the storage. Connectivity includes three USB-C ports, Wi-Fi 7, and Bluetooth 5.3, alongside a physical webcam-kill switch. The Arm-based chip handles most Windows applications smoothly and outlasts x86 rivals on battery, making the machine well suited to office work, media streaming, and lighter gaming.
+
+*The combination of OLED, 12-core Arm silicon, and a terabyte of storage at this price makes the Yoga Slim 7X one of the few clear-cut value wins this season.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/gadgets/997388/lenovo-yoga-slim-7x-laptop-fire-emblem-switch-2-deal-sale"><span class="tih">Lenovo Yoga Slim 7X Delivers Premium Specs at the 1,000-Dollar Mark</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="PrismML Shrinks Reasoning Models for On-Device AI" data-b="PrismML, a startup founded by Caltech researchers, released Bonsai 2 27B, a compressed version of the open-source Qwen3.8 27B model. The result is 5.9 GB, roughly 9 to 10 times smaller than the original, small enough to run on PCs and possibly high-end smartphones.
+
+According to TechCrunch, CEO Babak Hassibi — a Caltech professor specializing in compression — says the model preserves 98% of Qwen&#x27;s aggregate benchmark scores, up from 95% achieved by the original Bonsai released in March. That first model has already passed 11 million downloads, with the company&#x27;s smaller variants adding another 2.6 million.
+
+The compression works by replacing standard 16-bit weight values with a &quot;ternary&quot; scheme using only three states: +1, -1, or 0. This drastically reduces storage per weight. The startup counts Khosla Ventures, Cerberus Capital, and Caltech among its backers, and has raised a $22.25 million seed round. Adviser Ion Stoica, co-founder of Databricks and director of Berkeley&#x27;s Sky Computing Lab, highlighted that on-device models would be both free and private.
+
+Hassibi told TechCrunch that next releases will target several-hundred-billion-parameter models, noting that larger models offer more compression headroom. He expects benchmark parity to improve as scale grows.
+
+*PrismML&#x27;s stepwise gains suggest that aggressive compression may close the gap between cloud and local inference faster than expected.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai/"><span class="tih">PrismML Shrinks Reasoning Models for On-Device AI</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Health Secretary Robert F. Kennedy Jr. has appointed eight new members to the US Preventive Services Task Force, a 16-member federal panel responsible for issuing graded, evidence-based recommendations on preventive medicine services such as depression screening, statin use, colonoscopies, and mammograms. According to Ars Technica, these recommendations are consequential because insurance providers must cover, at no cost, any preventive service carrying an A or B grade." data-b="Kennedy had set the task force aside for over a year by canceling meetings and declining to fill expired seats, and in May he removed two of its leaders. The newly named members include five specialists — a cardiologist, a gastroenterologist, and a radiologist among them — which marks a shift from the panel&#x27;s earlier reliance on generalist and primary care physicians. The new slate also includes a health economist from the University of Minnesota who served in the Trump White House, and several members have expressed views aligned with Kennedy and the Trump administration, including criticism of COVID-19 vaccines and gender-affirming care.
+
+The American Medical Association&#x27;s president, Willie Underwood, called the appointments &quot;a significant departure&quot; from the task force&#x27;s traditional membership. Ars Technica also reported that the nomination materials remain unavailable despite Freedom of Information Act requests and a lawsuit filed by the New York Times in August.
+
+*The reshuffling of this panel signals a tightening of ideological control over otherwise independent scientific guidance.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="arstechnica.com" data-u="https://arstechnica.com/health/2026/09/rfk-jr-stacks-another-influential-federal-panel-with-questionable-picks/"><span class="tih">Health Secretary Robert F. Kennedy Jr. has appointed eight new members to the US Preventive Services Task Force, a 16-member federal panel responsible for issuing graded, evidence-based recommendations on preventive medicine services such as depression screening, statin use, colonoscopies, and mammograms. According to Ars Technica, these recommendations are consequential because insurance providers must cover, at no cost, any preventive service carrying an A or B grade.</span> <span class="tis">— arstechnica.com</span></div><div class="ti" onclick="openArt(this)" data-h="Anthropic CEO Amodei Outlines Pacing Plan for AI Frontier Amid Industry Debate" data-b="Anthropic CEO Dario Amodei has put forward a framework for controlling the speed of artificial intelligence development, according to TechCrunch&#x27;s Equity podcast coverage. The proposal, published a week after an Anthropic researcher issued a doomsday warning about the state of AI, rests on two pillars: independent safety evaluators and structured coordination among AI labs operating in democratic countries. The approach has drawn partial backing from within the sector, though Nvidia&#x27;s Jensen Huang has raised pointed objections to its details.
+
+The Equity podcast team — Kirsten Korosec, Anthony Ha, and Sean O&#x27;Kane — unpacked whether competing companies can even agree on what &quot;slowing down&quot; means in practice and who holds authority to enforce such an agreement. The episode also covered Automattic&#x27;s boardroom shake-up and several of the week&#x27;s largest deal announcements in the tech sector.
+
+Amodei&#x27;s plan signals that Anthropic sees a multilateral structure as the most viable path toward a managed AI rollout. The open question, as the podcast noted, remains whether the key players in the field will converge on a shared definition of progress fast enough to make the framework matter before the next wave of model releases lands.
+
+*The frontier-pacing debate shows that even among leaders who agree on the destination, the map to get there remains stubbornly contested.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/video/dario-amodei-and-other-ai-leaders-want-to-pace-the-frontier-buthow/"><span class="tih">Anthropic CEO Amodei Outlines Pacing Plan for AI Frontier Amid Industry Debate</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="The Open-versus-Closed Choice Gets a Builder&#x27;s View at TechCrunch Disrupt 2026" data-b="At TechCrunch Disrupt 2026, the Builders Stage hosts a session titled &quot;The Open vs. Closed AI Debate Is Just Getting Started,&quot; according to TechCrunch. Nvidia&#x27;s Nader Khalil, Director of Developer Tech, and Sydney Sykes, Global Head of VC Partnerships, lead the discussion on the trade-offs between open and proprietary models and whether either can deliver a lasting competitive advantage. The event takes place October 13–15 in San Francisco.
+
+The article frames the choice as a practical business decision already being made inside startups of every size, since cost, infrastructure, margins, speed and control all follow from it. Open models have moved quickly: Nvidia said in July that 145 papers accepted at ICML 2026 cited its Nemotron open models and datasets, with additional research using other Nvidia open model families across robotics, autonomous vehicles and biomedical work. Proprietary frontier labs keep extending capability, so the question shifts from whether open models are useful to where each approach makes commercial sense. Nvidia itself, per CEO Jensen Huang at GTC, sees the future as proprietary and open rather than one or the other.
+
+The two speakers bring different angles: Khalil co-founded Brev.dev, the GPU-infrastructure company Nvidia acquired in July 2024, while Sykes represents the venture ecosystem. Behind it sits the moat question. Nemotron 3 Super, an open 120-billion-parameter model for agentic workloads launched in March, is already being combined with proprietary models, which the article calls the most interesting part of the debate.
+
+*The hybrid outcome feels less like a compromise and more like a description of how working systems are actually assembled.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/18/open-or-closed-ai-nvidias-nader-khalil-and-sydney-sykes-take-on-one-of-the-decisions-shaping-next-gen-startups-at-techcrunch-disrupt-2026/"><span class="tih">The Open-versus-Closed Choice Gets a Builder&#x27;s View at TechCrunch Disrupt 2026</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Lenovo Yoga Slim 7X Delivers Premium Specs at the 1,000-Dollar Mark" data-b="According to The Verge, the Lenovo Yoga Slim 7X currently stands as the strongest laptop available for a 1,000-dollar budget. The slim 14-inch machine pairs a 2K 16:10 OLED touchscreen with Qualcomm&#x27;s high-end Snapdragon X2 Elite processor, packing 12 cores. Memory and storage come in at 16 GB of DDR5 RAM and a 1 TB solid-state drive. The Verge notes these specifications represent roughly the ceiling of what that price point offers during the ongoing &quot;RAMageddon,&quot; a period when meaningful laptop discounts are scarce.
+
+Buyers can grab the unit at Best Buy for 1,000 dollars, down from a listed 1,650-dollar tag, reflecting a 39-percent cut. The Verge positions it as a smart alternative to Microsoft&#x27;s comparable Surface Laptop, which costs 1,549 dollars yet ships with only half the storage. Connectivity includes three USB-C ports, Wi-Fi 7, and Bluetooth 5.3, alongside a physical webcam-kill switch. The Arm-based chip handles most Windows applications smoothly and outlasts x86 rivals on battery, making the machine well suited to office work, media streaming, and lighter gaming.
+
+*The combination of OLED, 12-core Arm silicon, and a terabyte of storage at this price makes the Yoga Slim 7X one of the few clear-cut value wins this season.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/gadgets/997388/lenovo-yoga-slim-7x-laptop-fire-emblem-switch-2-deal-sale"><span class="tih">Lenovo Yoga Slim 7X Delivers Premium Specs at the 1,000-Dollar Mark</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="PrismML Shrinks Reasoning Models for On-Device AI" data-b="PrismML, a startup founded by Caltech researchers, released Bonsai 2 27B, a compressed version of the open-source Qwen3.8 27B model. The result is 5.9 GB, roughly 9 to 10 times smaller than the original, small enough to run on PCs and possibly high-end smartphones.
+
+According to TechCrunch, CEO Babak Hassibi — a Caltech professor specializing in compression — says the model preserves 98% of Qwen&#x27;s aggregate benchmark scores, up from 95% achieved by the original Bonsai released in March. That first model has already passed 11 million downloads, with the company&#x27;s smaller variants adding another 2.6 million.
+
+The compression works by replacing standard 16-bit weight values with a &quot;ternary&quot; scheme using only three states: +1, -1, or 0. This drastically reduces storage per weight. The startup counts Khosla Ventures, Cerberus Capital, and Caltech among its backers, and has raised a $22.25 million seed round. Adviser Ion Stoica, co-founder of Databricks and director of Berkeley&#x27;s Sky Computing Lab, highlighted that on-device models would be both free and private.
+
+Hassibi told TechCrunch that next releases will target several-hundred-billion-parameter models, noting that larger models offer more compression headroom. He expects benchmark parity to improve as scale grows.
+
+*PrismML&#x27;s stepwise gains suggest that aggressive compression may close the gap between cloud and local inference faster than expected.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai/"><span class="tih">PrismML Shrinks Reasoning Models for On-Device AI</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Health Secretary Robert F. Kennedy Jr. has appointed eight new members to the US Preventive Services Task Force, a 16-member federal panel responsible for issuing graded, evidence-based recommendations on preventive medicine services such as depression screening, statin use, colonoscopies, and mammograms. According to Ars Technica, these recommendations are consequential because insurance providers must cover, at no cost, any preventive service carrying an A or B grade." data-b="Kennedy had set the task force aside for over a year by canceling meetings and declining to fill expired seats, and in May he removed two of its leaders. The newly named members include five specialists — a cardiologist, a gastroenterologist, and a radiologist among them — which marks a shift from the panel&#x27;s earlier reliance on generalist and primary care physicians. The new slate also includes a health economist from the University of Minnesota who served in the Trump White House, and several members have expressed views aligned with Kennedy and the Trump administration, including criticism of COVID-19 vaccines and gender-affirming care.
+
+The American Medical Association&#x27;s president, Willie Underwood, called the appointments &quot;a significant departure&quot; from the task force&#x27;s traditional membership. Ars Technica also reported that the nomination materials remain unavailable despite Freedom of Information Act requests and a lawsuit filed by the New York Times in August.
+
+*The reshuffling of this panel signals a tightening of ideological control over otherwise independent scientific guidance.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="arstechnica.com" data-u="https://arstechnica.com/health/2026/09/rfk-jr-stacks-another-influential-federal-panel-with-questionable-picks/"><span class="tih">Health Secretary Robert F. Kennedy Jr. has appointed eight new members to the US Preventive Services Task Force, a 16-member federal panel responsible for issuing graded, evidence-based recommendations on preventive medicine services such as depression screening, statin use, colonoscopies, and mammograms. According to Ars Technica, these recommendations are consequential because insurance providers must cover, at no cost, any preventive service carrying an A or B grade.</span> <span class="tis">— arstechnica.com</span></div></div></div>
+<div class="lead-zone">
+      <article class="lead">
+  <a href="https://www.prnewswire.com/news-releases/prismml-launches-bonsai-2-27b-its-most-capable-model-yet-302882228.html" target="_blank" rel="noopener">
+    <img src="images/lead_2026-09-18.jpg" alt="" class="lead-image">
+    <div class="lead-grid">
+      <div class="lead-head">
+        <p class="kicker">Model release</p>
+        <h1>PrismML ships Ternary Bonsai 2 27B at a 5.9 GB footprint, up to 143 tok/s on an RTX 5090</h1>
+      </div>
+      <div class="lead-body">
+        <p class="deck">The 27.8B multimodal model, built on Qwen3.8 27B, compresses to a 5.9 GB memory footprint, over 9x smaller than its full-precision form, and scores 83.9 on a 20-benchmark suite, 98.2% of the full-precision 85.4. PrismML reports up to 143 tokens/s on an NVIDIA GeForce RTX 5090 and 46.8 tokens/s on an M5 Max, with Apache 2.0 downloads open since September 17.</p>
+        <p class="byline"><span class="src">PR Newswire</span> · <span>2026-09-17</span> · <span class="more">Read the dispatch →</span></p>
+      </div>
+    </div>
+  </a>
+</article>
+
+    </div>
+
+    <div class="topstories">
+<article class="story">
+  <a href="https://github.com/ggml-org/llama.cpp/releases/tag/b11040" target="_blank" rel="noopener">
+    <h3>llama.cpp b11040 adds ggml allocation-failure checks after a week of nightly churn</h3>
+    <p>Build b11040 landed on September 18 with allocation-failure checks in ggml, alongside same-day builds b11034-b11039 that bring SWA pattern roundtripping for 15 more architectures, WebGPU get_rows fixes, Vulkan IQ3_S MMQ kernels and the ufakzeka pre-tokenizer.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-18</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://x.com/DeItaone/status/2100889764740182424" target="_blank" rel="noopener">
+    <h3>Anthropic stands up a Bay Area wet lab to push Claude into drug development</h3>
+    <p>The new lab extends Anthropic's life-sciences work beyond computer simulation into physical biological experiments, letting Claude direct laboratory robots with limited human intervention.</p>
+    <p class="byline"><span class="src">DeItaone</span> · 2026-09-18</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://x.com/CNBC/status/2100936414850437572" target="_blank" rel="noopener">
+    <h3>U.S. agencies say China's AI surge rests on industrial-scale distillation of American frontier models</h3>
+    <p>The finding sharpens the debate over how to measure and rank open-weight progress, since cheaper systems are reportedly trained on outputs of U.S. frontier models.</p>
+    <p class="byline"><span class="src">CNBC</span> · 2026-09-18</p>
+  </a>
+</article>
+
+</div>
+
+
+    <div class="sections">
+      <section class="section">
+  <div class="section-head">
+    <h2>Research &amp; Papers</h2>
+    <span class="line"></span>
+    <span class="n">05</span>
+  </div>
+  <a href="https://huggingface.co/papers/2609.20612" target="_blank" rel="noopener" class="section-hero"><img src="images/section_research_papers_2026-09-18.jpg" alt="" class="section-hero-img"><h4 class="hero-title">What does privileged information add to on-policy self-distillation?</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://huggingface.co/papers/2609.20612" target="_blank" rel="noopener">
+    <h4>What does privileged information add to on-policy self-distillation?</h4>
+    <p>Isolates the contribution of privileged teacher information in on-policy self-distillation for language models, quantifying how much the extra answer/worked-solution signal adds beyond the distillation mechanism itself.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-17</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.19513" target="_blank" rel="noopener">
+    <h4>QVAC Genesis III: a large open STEM corpus for small-model pre-training</h4>
+    <p>Releases an open STEM-focused pre-training corpus aimed at small language models for on-device and edge deployment under tight token budgets, evaluated against baseline SLM pre-training setups.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-17</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/papers/2609.20519" target="_blank" rel="noopener">
+    <h4>SoL-Pi recursively scales auto-research loops for an efficient agent harness</h4>
+    <p>Introduces a token-efficient recursive self-improvement harness for coding agents, targeting long trajectories of reasoning, tool use and feedback with improved token efficiency.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-17</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.20156" target="_blank" rel="noopener">
+    <h4>QUALS: corpus equilibrium for universal time-series forecasting</h4>
+    <p>Combines pattern quantization with learnability synchronization to train universal forecasting foundation models on heterogeneous corpora, improving zero-shot accuracy versus baselines.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-17</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.20715" target="_blank" rel="noopener">
+    <h4>Don't mask the environment: observation supervision changes agent exploration under RL</h4>
+    <p>Shows that including environment observations as prediction targets, not only agent action tokens, in SFT yields better-initialized agents for downstream RL and alters exploration behaviour.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-17</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Tools &amp; Runtimes</h2>
+    <span class="line"></span>
+    <span class="n">05</span>
+  </div>
+  <a href="https://news.ycombinator.com/item?id=49748553" target="_blank" rel="noopener" class="section-hero"><img src="images/section_tools_runtimes_2026-09-18.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Cactus Needle 3: 8-29 MB automation models claimed near DeepSeek V4 Flash on tool calling</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://news.ycombinator.com/item?id=49748553" target="_blank" rel="noopener">
+    <h4>Cactus Needle 3: 8-29 MB automation models claimed near DeepSeek V4 Flash on tool calling</h4>
+    <p>Cactus Compute's Needle 3 line covers very small on-device automation models with a claimed parity against DeepSeek V4 Flash on agentic tool-calling tasks, aimed at phones and single-board machines.</p>
+    <p class="byline"><span class="src">Hacker News</span> · 2026-09-18</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.producthunt.com/products/mcpjam-inspector" target="_blank" rel="noopener">
+    <h4>MCPJam arrives as an inspector and CI gate for MCP servers</h4>
+    <p>An open-source inspector plus CI/CD gate for Model Context Protocol servers: local playground, JSON-RPC waterfall traces, OAuth debugger and cross-client parity checks across roughly 16 AI client configurations, runnable offline via npx @mcpjam/inspector.</p>
+    <p class="byline"><span class="src">Product Hunt</span> · 2026-09-17</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/fabledruns/forcefield" target="_blank" rel="noopener">
+    <h4>Forcefield: a fast, lightweight local-first agent harness in Go</h4>
+    <p>A Go agent harness built to make local models easier to drive than with Claude Code-style tooling, with simpler configuration for pointing at on-device inference.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-18</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/basedpolymer/fouine" target="_blank" rel="noopener">
+    <h4>Fouine: local full-text and semantic search for scanned PDFs on macOS</h4>
+    <p>Combines full-text and semantic search over scanned PDFs entirely on the machine, an offline RAG-style retrieval utility for macOS users running local models.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-18</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/talos-kernel/Talos" target="_blank" rel="noopener">
+    <h4>Talos: a personal agent whose kernel gates every tool call</h4>
+    <p>A personal agent framework whose kernel mediates and gates each tool call explicitly, aimed at deterministic, auditable local agent runs.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-18</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Self-Hosted Stack</h2>
+    <span class="line"></span>
+    <span class="n">05</span>
+  </div>
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1uu6p9o/your_80_tesla_p100_has_been_doing_silently_noisy" target="_blank" rel="noopener" class="section-hero"><img src="images/section_self_hosted_stack_2026-09-18.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Three-line FP16 fix restores precision on Tesla P100/P40 in the TurboQuant llama.cpp fork</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1uu6p9o/your_80_tesla_p100_has_been_doing_silently_noisy" target="_blank" rel="noopener">
+    <h4>Three-line FP16 fix restores precision on Tesla P100/P40 in the TurboQuant llama.cpp fork</h4>
+    <p>The sm_61 exemption from the FP16 fast-path flag is fixed in TurboQuant v0.3.0, so the ~80 USD P100 (16 GB HBM2, 732 GB/s) again accumulates in FP32 with cleaner outputs, narrowing the old gap against the P40 on budget homelab rigs.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-09-17</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://blog.n8n.io/gateway-credits/" target="_blank" rel="noopener">
+    <h4>n8n Gateway credits pool model providers behind one prepaid balance</h4>
+    <p>From n8n v2.36, Cloud plans can reach six model providers and five tool services through a shared prepaid Gateway credit balance instead of per-provider accounts and keys, with per-workflow usage in the admin panel; self-host support is still pending.</p>
+    <p class="byline"><span class="src">n8n Blog</span> · 2026-09-17</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://notcve.org/cve/CVE-2026-92588" target="_blank" rel="noopener">
+    <h4>n8n source-control push CVE patched in 1.123.76, 2.37.7 and 2.38.2</h4>
+    <p>CVE-2026-92588 (medium, 5.9) covers cross-project data destruction via the source control push endpoint, which trusted client-supplied file paths; operators with Environments enabled should upgrade.</p>
+    <p class="byline"><span class="src">NotCVE</span> · 2026-09-17</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/n8n-io/n8n/releases" target="_blank" rel="noopener">
+    <h4>n8n 2.39.7 fixes breaking-change detection and numeric credential inputs</h4>
+    <p>The stable patch keeps breaking-change detection running when a rule throws (#38790) and sends number values correctly in credential inputs (#38881); the 1.x LTS line separately got 1.123.81 with credential-scope handling plus undici 7.29.1, vm2 3.12.2 and Snowflake SDK 3.3.0 bumps for pinned deployments.</p>
+    <p class="byline"><span class="src">n8n GitHub releases</span> · 2026-09-17</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.home-assistant.io/blog/2026/09/02/release-20269/" target="_blank" rel="noopener">
+    <h4>Home Assistant 2026.9.3 patch lands September 18</h4>
+    <p>The patch follows 2026.9.1 (Sep 5) and 2026.9.2 (Sep 11) on top of a September core release that consolidated Modbus device connections under a single shared connection.</p>
+    <p class="byline"><span class="src">Home Assistant</span> · 2026-09-18</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Hardware &amp; Edge</h2>
+    <span class="line"></span>
+    <span class="n">05</span>
+  </div>
+  <a href="https://localmodelwatch.tsuchitsuchi.com/en/2026-09-17/tensorrt-edge-llm-mlperf-edge-agentic-jetson-thor/" target="_blank" rel="noopener" class="section-hero"><img src="images/section_hardware_edge_2026-09-18.jpg" alt="" class="section-hero-img"><h4 class="hero-title">TensorRT Edge-LLM posts an MLPerf Edge Agentic result on Jetson AGX Thor</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://localmodelwatch.tsuchitsuchi.com/en/2026-09-17/tensorrt-edge-llm-mlperf-edge-agentic-jetson-thor/" target="_blank" rel="noopener">
+    <h4>TensorRT Edge-LLM posts an MLPerf Edge Agentic result on Jetson AGX Thor</h4>
+    <p>On the MLPerf Inference v6.1 Edge Agentic benchmark, Qwen3.6-27B on a single Jetson AGX Thor Developer Kit (128 GB unified memory, MAXN power mode) hit 52.33 tokens/s output and completed 1,007 workload turns in 24 minutes 36 seconds, leaning on NVFP4 weights/activations, an FP8 KV cache and a 16-node speculative decoding tree worth roughly 40% more decoding speed than linear MTP.</p>
+    <p class="byline"><span class="src">Local Model Watch</span> · 2026-09-17</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://techstartups.com/2026-09-17/top-tech-news-today-september-17-2026-apple-ai-server-huaweis-ai-push-openai-misalignment-robotaxis-quantum-computing-snap-specs-more/" target="_blank" rel="noopener">
+    <h4>Apple plans M8 Ultra AI servers; Huawei shows off Atlas 960 SuperPoD</h4>
+    <p>Apple is developing dedicated AI servers around future M8 Ultra processors in two- and four-chip configurations for developers, enterprises and governments with no arrival before 2029, and is studying Nvidia NVLink Fusion; Huawei's Atlas 960 SuperPoD and Peerium architecture link up to a million processors as one computer via nested parallelism, unified memory addressing and peer interconnect.</p>
+    <p class="byline"><span class="src">TechStartups</span> · 2026-09-17</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://siliconangle.com/2026-09-17/full-speed-ahead-despite-calls-to-slow-ai-down-its-support-structure-is-on-the-fast-track/" target="_blank" rel="noopener">
+    <h4>Memory wall dominates the hardware brief: server memory spend headed for $175-190B by 2027</h4>
+    <p>A typical AI server uses roughly eight times more memory than a traditional one, and AI server memory spend is projected to jump from $35 billion in 2025 to $175-190 billion by 2027, with Qualcomm moving from HBM to a proprietary high-bandwidth layout and d-Matrix's Raptor chip on higher-throughput 3D DRAM as competing answers.</p>
+    <p class="byline"><span class="src">SiliconANGLE</span> · 2026-09-17</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.techpowerup.com/352827/ps3-emulator-rpcs3-gets-major-fps-boost-after-nvidia-driver-bug-fix" target="_blank" rel="noopener">
+    <h4>RPCS3 workaround for an NVIDIA driver bug lifts GeForce performance 20-25%</h4>
+    <p>Measured gains of 20% on an RTX 3080 and 25% on an RTX 5090 follow the PS3 emulator's fix for a driver bug that had suppressed performance across most PlayStation 3 titles on GeForce hardware.</p>
+    <p class="byline"><span class="src">TechPowerUp</span> · 2026-09-17</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.pcguide.com/news/rtx-60-series-faces-massive-delay-says-leak-and-amd-might-only-launch-one-rdna-5-gpu-next-year/" target="_blank" rel="noopener">
+    <h4>Leak: RTX 60 series slips to 2028, AMD may ship one RDNA 5 chip next year</h4>
+    <p>An AnandTech-affiliated leak claims Nvidia's RTX 60-series holds until 2028 while AMD launches only the mid-range AT2 in 2027; neither company has confirmed, and memory-driven prices are expected to stay high.</p>
+    <p class="byline"><span class="src">PCGuIDE</span> · 2026-09-17</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+    </div>
+
+    <div class="trending-wrap">
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Repos on GitHub</h1>
+      <div class="t-line"></div>
+      <a href="https://github.com/trending" target="_blank" rel="noopener" class="t-link">Go to GitHub trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://github.com/anthropics/claude-code" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">anthropics/claude-code</span>
+    <span class="t-meta">TypeScript · 146.1k ★ · +442 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">affaan-m/ECC</span>
+    <span class="t-meta">JavaScript · 261.7k ★ · +965 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/addyosmani/agent-skills" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">addyosmani/agent-skills</span>
+    <span class="t-meta">JavaScript · 96.2k ★ · +677 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/Fission-AI/OpenSpec" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Fission-AI/OpenSpec</span>
+    <span class="t-meta">TypeScript · 69.2k ★ · +298 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/alibaba/open-code-review" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">alibaba/open-code-review</span>
+    <span class="t-meta">Go · 36.4k ★ · +2,724 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/supermemoryai/supermemory" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">supermemoryai/supermemory</span>
+    <span class="t-meta">TypeScript · 30.1k ★ · +140 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/anthropics/knowledge-work-plugins" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">anthropics/knowledge-work-plugins</span>
+    <span class="t-meta">Python · 24.8k ★ · +300 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/cloudflare/security-audit-skill" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">cloudflare/security-audit-skill</span>
+    <span class="t-meta">JavaScript · 12.6k ★ · +679 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/Tencent/BrowserSkill" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">Tencent/BrowserSkill</span>
+    <span class="t-meta">TypeScript · 5.1k ★ · +1,319 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/TencentCloud/Octop" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">TencentCloud/Octop</span>
+    <span class="t-meta">Python · 3.9k ★ · +571 today</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+  
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Trending on HF</h1>
+      <div class="t-line"></div>
+      <a href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener" class="t-link">Go to Hugging Face trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://huggingface.co/Edge0/Edge0-35B-A3B-preview" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Edge0/Edge0-35B-A3B-preview</span>
+    <span class="t-meta">35B MoE (A3B), text generation preview, 3.4k likes</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">deepseek-ai/DeepSeek-V4.1-Flash</span>
+    <span class="t-meta">763B multimodal image-text-to-text, live on 5 inference providers</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">prism-ml/Ternary-Bonsai-2-27B-gguf</span>
+    <span class="t-meta">27B ternary-quantized GGUF build for local runtimes</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Qwen/Qwen3.8-27B</span>
+    <span class="t-meta">28B multimodal, 15.6k likes · 7.4M downloads</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/m-a-p/YuE2-3B" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">m-a-p/YuE2-3B</span>
+    <span class="t-meta">3.6B text-to-audio model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/TokenRhythm/NeoHorse-1-4B" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">TokenRhythm/NeoHorse-1-4B</span>
+    <span class="t-meta">4.2B compact text-generation model, 2.4k likes</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF</span>
+    <span class="t-meta">GGUF quant of Qwen3.8-27B with GSQ/RCO recipe, 1.1M downloads</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Lightricks/LTX-2.5" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">Lightricks/LTX-2.5</span>
+    <span class="t-meta">Image-to-video generation model, 1.6M downloads</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/ukisai/Swift-Qwen3.8-27b" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">ukisai/Swift-Qwen3.8-27b</span>
+    <span class="t-meta">Swift-optimized 27B multimodal derivative of Qwen3.8-27B</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</span>
+    <span class="t-meta">Community GGUF fusion of Qwen3.8-27B (coder/max, MTP), 1.2M downloads</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+</div>
+
+
+    <section class="section" id="free-models">
+  <div class="section-head">
+    <h2>Free Models</h2>
+    <span class="line"></span>
+    <span class="n">26</span>
+  </div>
+
+  <p class="section-note">Free means $0 per token today, not unlimited or unconditional: both platforms rate-limit free use and require a free API key, some OpenRouter free endpoints may train on your prompts unless you opt out in account settings, and the roster changes daily. Verified against each provider's own pricing data at generation time — but pricing changes without notice, so confirm it's still free on the provider's own page before you rely on it.</p>
+
+  <div class="trending-wrap trending-wrap--in-section">
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenRouter</h1>
+        <div class="t-line"></div>
+        <a href="https://openrouter.ai/models?max_price=0" target="_blank" rel="noopener" class="t-link">Browse free models →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://openrouter.ai/cohere/north-mini-code:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Cohere: North Mini Code (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/deepseek/deepseek-v4-flash-0731:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">DeepSeek: DeepSeek V4 Flash 0731 (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/dots-studio/dots-3-note-preview:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Dots Studio: Dots3-Note Preview (free)</span>
+    <span class="t-meta">512K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-26b-a4b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Google: Gemma 4 26B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-31b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Google: Gemma 4 31B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.0-flash-fin:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">inclusionAI: Ling 3.0 Flash Fin (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.0-flash-sante:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">inclusionAI: Ling 3.0 Flash Sante (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.0-flash-vl:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">inclusionAI: Ling 3.0 Flash VL (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/liquid/lfm-2.5-2.6b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">LiquidAI: LFM2.5-2.6B (free)</span>
+    <span class="t-meta">65K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nex-agi/nex-n2.5-mini:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">Nex AGI: Nex-N2.5-Mini (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nex-agi/nex-n2.5-pro:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">Nex AGI: Nex-N2.5-Pro (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Nano Omni (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#13</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Super (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#14</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Ultra (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#15</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Content Safety (free)</span>
+    <span class="t-meta">128K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-lightning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#16</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Lightning (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-s-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#17</span>
+    <span class="t-name">Poolside: Laguna S 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-xs-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#18</span>
+    <span class="t-name">Poolside: Laguna XS 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/qwen/qwen3.8-27b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#19</span>
+    <span class="t-name">Qwen: Qwen3.8 27B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#20</span>
+    <span class="t-name">Thinking Machines: Inkling (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenCode Zen</h1>
+        <div class="t-line"></div>
+        <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener" class="t-link">See the full Zen catalog →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Big Pickle</span>
+    <span class="t-meta">big-pickle</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">MiMo-V2.5 Free</span>
+    <span class="t-meta">mimo-v2.5-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Ling 3.0 Flash Fin Free</span>
+    <span class="t-meta">ling-3.0-flash-fin-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Nemotron 3 Ultra Free</span>
+    <span class="t-meta">nemotron-3-ultra-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Nemotron 3.5 Lightning Free</span>
+    <span class="t-meta">nemotron-3.5-lightning-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">Muse Spark 1.3 Contributor Free</span>
+    <span class="t-meta">muse-spark-1.3-contributor-free</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <section class="inbrief">
+  <div class="section-head">
+    <h2>In Brief</h2>
+    <span class="line"></span>
+    <span class="n">12</span>
+  </div>
+  <ul class="qh-list">
+    <li><a href="https://arxiv.org/abs/2609.20812" target="_blank" rel="noopener"><span class="qh-title">Quantifying overclaiming propensity in frontier LLM coding agents</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://arxiv.org/abs/2609.20816" target="_blank" rel="noopener"><span class="qh-title">Paint-Anything unifies any-color control with 24-bit hex input for generation and editing</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://github.com/liza-studio/skillmem" target="_blank" rel="noopener"><span class="qh-title">Skillmem: local agent memory that stores how, not what</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://huggingface.co/Edge0/Edge0-35B-A3B-preview" target="_blank" rel="noopener"><span class="qh-title">New on the Hub this window: Edge0-35B-A3B-preview, Ternary-Bonsai-2-27B GGUF, Xing4.0-29B-A4B</span><span class="qh-src">HuggingFace</span></a></li>
+
+    <li><a href="https://x.com/usetesserai/status/2100500145846485256" target="_blank" rel="noopener"><span class="qh-title">TesserAI climbs from 0.13 to 0.38 on a brute-force-resistant benchmark using a few hundred CPU cores</span><span class="qh-src">usetesserai</span></a></li>
+
+    <li><a href="https://x.com/perksverse/status/2100939002539073689" target="_blank" rel="noopener"><span class="qh-title">Palantir CEO Karpathy on why open-weight models keep proprietary knowledge in-house</span><span class="qh-src">perksverse</span></a></li>
+
+    <li><a href="https://x.com/TheHackersNews/status/2100930359164838031" target="_blank" rel="noopener"><span class="qh-title">Azure AI Foundry ships with a CVSS 10.0 privilege-escalation flaw from missing authentication</span><span class="qh-src">TheHackersNews</span></a></li>
+
+    <li><a href="https://www.latechmadeinitaly.com/jet-hr-trovati-33-milioni-per-le-imprese-made-in-italy/" target="_blank" rel="noopener"><span class="qh-title">Jet HR's Recupero AI finds 33 billion euros of untapped reliefs for Italian businesses</span><span class="qh-src">La Tech Made in Italy</span></a></li>
+
+    <li><a href="https://finanzaflash.com/2026-09-17/health-force-raccoglie-42-milioni-per-gli-agenti-ai-negli-ospedali-litalia-e-il-primo-mercato/" target="_blank" rel="noopener"><span class="qh-title">Health Force raises 4.2 million euros for agentic automation in hospitals</span><span class="qh-src">Finanza Flash</span></a></li>
+
+    <li><a href="https://www.mimit.gov.it/it/notizie-stampa/mimit-altri-140-milioni-di-euro-per-innovazione-e-infrastrutture-digitali" target="_blank" rel="noopener"><span class="qh-title">MIMIT allocates a further 140.2 million euros for innovation and digital infrastructure</span><span class="qh-src">MIMIT</span></a></li>
+
+    <li><a href="https://www.youtube.com/watch?v=vIHw_2VjSUw" target="_blank" rel="noopener"><span class="qh-title">Two Minute Papers breaks down DeepSeek's new model architecture</span><span class="qh-src">YouTube — Two Minute Papers</span></a></li>
+
+    <li><a href="https://www.youtube.com/watch?v=nMk2KczyujU" target="_blank" rel="noopener"><span class="qh-title">Bloomberg: Snap pitches its face-worn computer for everyday AI use</span><span class="qh-src">YouTube — Bloomberg Technology</span></a></li>
+
+  </ul>
+</section>
+
+
+    <footer class="colophon">
+      <p class="mark">Per aspera ad astra</p>
+      <p class="meta">Compiled by Hermes Agent · 2026-09-18 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
+    </footer>
+
+  </div>
+<div class="mo" id="mo" onclick="cm(event)"><div class="mb"><button class="mc" onclick="cm()">✕</button><h2 class="mh" id="mh"></h2><p class="mm">Source: <span id="ms"></span></p><div class="mbd" id="mbd"></div></div></div>
+<script>function openArt(el){var h=el.getAttribute('data-h'),b=el.getAttribute('data-b'),s=el.getAttribute('data-s'),u=el.getAttribute('data-u');document.getElementById('mh').textContent=h;var sl=document.getElementById('ms');if(u&&u!=='#'&&u!==''){sl.innerHTML='<a href="'+u+'" target="_blank" rel="noopener">'+s+'</a>';}else{sl.textContent=s;}var aiS='*— Written by AI (';var i=b.indexOf(aiS);if(i>=0){var bf=b.substring(0,i);var af=b.substring(i+aiS.length);var mdl=af.split(')')[0];bf=bf.split('\n').join('<br>');bf=bf.replace(/\*([^*]+)\*/g,'<em class="en">$1</em>');var sg='<div class="as"><span class="al">⬥ AI-GENERATED</span><br>Model: '+mdl+'</div>';document.getElementById('mbd').innerHTML=bf+sg;}else{document.getElementById('mbd').innerHTML=b.split('\n').join('<br>');}document.getElementById('mo').classList.add('a');document.body.style.overflow='hidden';}function cm(e){if(e&&e.target!=document.getElementById('mo'))return;document.getElementById('mo').classList.remove('a');document.body.style.overflow='';}document.addEventListener('keydown',function(e){if(e.key==='Escape')cm()});</script></body>
+</html>
