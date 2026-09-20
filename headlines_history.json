@@ -4472,6 +4472,156 @@
       "source": "La Tech Made in Italy",
       "date": "2026-09-19",
       "issue": 23
+    },
+    {
+      "text": "AI demand pushes NOR flash and SLC NAND into 'severe undersupply'",
+      "source": "Tom's Hardware",
+      "date": "2026-09-20",
+      "issue": 24
+    },
+    {
+      "text": "OpenAI weighs a private pre-IPO round at about a $1.2 trillion valuation",
+      "source": "Embers News",
+      "date": "2026-09-20",
+      "issue": 24
+    },
+    {
+      "text": "CUA-S1: a system-one model for computer use joins an open driver stack",
+      "source": "Hacker News",
+      "date": "2026-09-20",
+      "issue": 24
+    },
+    {
+      "text": "D-Quant: drifttable entropy coding for KV cache quantization",
+      "source": "arXiv",
+      "date": "2026-09-20",
+      "issue": 24
+    },
+    {
+      "text": "On-demand attention: language models know when to recall",
+      "source": "arXiv",
+      "date": "2026-09-20",
+      "issue": 24
+    },
+    {
+      "text": "dQwen3.5: hybrid-attention backbones adapted into diffusion language models",
+      "source": "arXiv",
+      "date": "2026-09-20",
+      "issue": 24
+    },
+    {
+      "text": "To copy or not to copy: controlling speculative decoding via intrinsic model signals",
+      "source": "arXiv",
+      "date": "2026-09-20",
+      "issue": 24
+    },
+    {
+      "text": "MiX: micro-inverted scaling for end-to-end low-bit vision-language acceleration",
+      "source": "arXiv",
+      "date": "2026-09-20",
+      "issue": 24
+    },
+    {
+      "text": "Show HN: ENZO, an open-source self-hosted AI platform",
+      "source": "Hacker News",
+      "date": "2026-09-20",
+      "issue": 24
+    },
+    {
+      "text": "Show HN: GGG, a local-first, zero-telemetry proxy daemon for AI tools",
+      "source": "Hacker News",
+      "date": "2026-09-20",
+      "issue": 24
+    },
+    {
+      "text": "CyberTiel 35B-A3B: uncensored 4-bit quant claims wins on real codebase issues",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-20",
+      "issue": 24
+    },
+    {
+      "text": "New tensor-type layouts for a popular GGUF quant's uploads",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-20",
+      "issue": 24
+    },
+    {
+      "text": "Snippbot: a self-hosted platform for autonomous AI agents on local models",
+      "source": "r/selfhosted",
+      "date": "2026-09-20",
+      "issue": 24
+    },
+    {
+      "text": "KV cache size: how much VRAM it uses and how to cut it",
+      "source": "AgenticWire",
+      "date": "2026-09-20",
+      "issue": 24
+    },
+    {
+      "text": "Huawei pulls in the Ascend 960 roadmap: 960DT in Q1 2027, 960PR with double the expected FP4 performance",
+      "source": "Tom's Hardware",
+      "date": "2026-09-20",
+      "issue": 24
+    },
+    {
+      "text": "Qualcomm/HUMAIN Horizon Ultra AI PC opens for enterprise purchase today on Snapdragon X2 Elite",
+      "source": "Electronics Journal",
+      "date": "2026-09-20",
+      "issue": 24
+    },
+    {
+      "text": "WSTS forecasts a 135% semiconductor surge as memory prices inflate the 2026 market",
+      "source": "Asia AI FYI",
+      "date": "2026-09-20",
+      "issue": 24
+    },
+    {
+      "text": "Tencent ships WeVisDoc-2B and WeVisDoc-4B: page-image-to-Markdown parsers fine-tuned from Qwen3-VL",
+      "source": "Hugging Face",
+      "date": "2026-09-20",
+      "issue": 24
+    },
+    {
+      "text": "PrefixBench-H100 maps where prefix/KV-cache reuse cuts time-to-first-token in vLLM and TensorRT-LLM",
+      "source": "arXiv",
+      "date": "2026-09-20",
+      "issue": 24
+    },
+    {
+      "text": "Sample count is not enough: candidate-generation strategy shapes the energy and latency of test-time scaling",
+      "source": "HuggingFace",
+      "date": "2026-09-20",
+      "issue": 24
+    },
+    {
+      "text": "MeshKV: a network-on-chip KV cache fabric for scalable decoding accelerators",
+      "source": "arXiv",
+      "date": "2026-09-20",
+      "issue": 24
+    },
+    {
+      "text": "Chinese AI-agent startup Manus seeks $500M at a ~$4B valuation, weighs Hong Kong IPO",
+      "source": "Tekedia",
+      "date": "2026-09-20",
+      "issue": 24
+    },
+    {
+      "text": "Beijing embodied-AI startup GigaAI nears a Pre-IPO round at ~RMB 20B ahead of a Hong Kong 18C listing",
+      "source": "AI Market Watch",
+      "date": "2026-09-20",
+      "issue": 24
+    },
+    {
+      "text": "UK Sovereign AI Investment Fund said in talks to anchor a \u00a3500M AI drug-discovery round for Potential Sciences",
+      "source": "AI Market Watch",
+      "date": "2026-09-20",
+      "issue": 24
+    },
+    {
+      "text": "a16z-backed Vals discloses a $40M Series A, pitching private industry-specific benchmarks as AI's gold standard",
+      "source": "TechCrunch",
+      "date": "2026-09-20",
+      "issue": 24
     }
   ]
 }

@@ -1,0 +1,555 @@
+{
+  "issue_no": 23,
+  "date_iso": "2026-09-19",
+  "date_human": "September 19, 2026",
+  "notice": null,
+  "lead": {
+    "kicker": "First 300B offline",
+    "title": "GMKtec EVO-X5 Pro unveiled at IFA 2026: 192GB unified memory, first desktop to run a 300B LLM fully offline",
+    "summary": "GMKtec's EVO-X5 Pro pairs AMD's Ryzen AI Max+ PRO 495 (16 Zen 5 cores, up to 5.2 GHz, NPU at up to 55 TOPS) with up to 192GB of LPDDR5X-8533 unified memory at about 273 GB/s, of which up to 160GB can be dynamically allocated as graphics memory — enough to hold a 300-billion-parameter model entirely on-device. The box took two 'Best of IFA 2026' innovation awards and launches on September 28.",
+    "source": "Newsfile Corp",
+    "date": "2026-09-18",
+    "url": "https://www.newsfilecorp.com/release/313597/GMKtec-Unveils-EVOX5-Pro-at-IFA-2026-with-AMD-Ryzen(TM)-AI-Max-Processors-Introducing-the-Worlds-First-Desktop-AI-Supercomputer-Capable-of-Running-a-300BParameter-LLM-Fully-Offline",
+    "image": "images/lead_2026-09-19.jpg"
+  },
+  "top_stories": [
+    {
+      "title": "Samsung's stacked zHBM targets a ten-fold jump in AI response speed",
+      "summary": "Samsung's zHBM, which stacks HBM directly on the AI accelerator, is rated at about 8x performance and 3x power efficiency versus HBM, lifting agentic response from roughly 100 toward 1,000 tokens per second per user (presented Sept 16, Santa Clara).",
+      "source": "Seoul Economic Daily",
+      "date": "2026-09-18",
+      "url": "https://en.sedaily.com/international/2026-09-18/samsung-touts-10-fold-ai-speed-gain-with-stacked-zhbm-memory"
+    },
+    {
+      "title": "AMD passes TSMC's ~10% wafer increase to customers from Q4 across AI accelerators, Radeon GPUs and chipsets",
+      "summary": "AMD notified partners of a roughly 10% price increase from Q4 2026, fully passing through TSMC's wafer quote, with Intel planning a parallel ~10% PC CPU hike; DRAM contract prices are projected up 13-18% quarter-over-quarter as capacity shifts to HBM.",
+      "source": "Edgen",
+      "date": "2026-09-18",
+      "url": "https://edgen.tech/es/news/post/amd-passes-tsmcs-10-wafer-hike-to-customers-from-q4"
+    },
+    {
+      "title": "RTX 5090 price tracker: $1,999 list, about $4,400 and sold out as memory drives the GPU market",
+      "summary": "As of September 18, 2026 the RTX 5090 sat near $4,400 and marked sold out at Best Buy (a 5060 Ti 16GB 84% above launch price), driven by memory costs — one graphics memory chip moved from $2.61 to $11.84 in a year, and Nvidia's supply commitments jumped from $119B to $279B in a quarter, primarily for memory.",
+      "source": "Unhypers",
+      "date": "2026-09-19",
+      "url": "https://unhypers.com/rtx-5090-price/"
+    },
+    {
+      "title": "Bananami 2 Pro: nearly matches SmolLM2 at 20x fewer tokens, trained on a 5070 Ti",
+      "summary": "The ~139M-parameter model was pretrained on 100B tokens (20x fewer than SmolLM2-135M) and retains 96.08% of its average benchmark score across ARC, PIQA, HellaSwag, ArithMark and code suites, trained on consumer hardware (RTX 5070 Ti 16GB) as a practical locally runnable open-weight release.",
+      "source": "Hugging Face",
+      "date": "2026-09-18",
+      "url": "https://huggingface.co/blog/Banaxi-Tech/bananamind-2-pro-weve-almost-matched-smollm2-at-20"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Research & Papers",
+      "items": [
+        {
+          "title": "DeepSeek-V4.1-Flash: pushing the limits of KV cache compression",
+          "summary": "Combines aggressive KV-cache compression with the streamlined DeepSeek-V4 architecture and a 45T-token multimodal pretraining run; the smaller cache footprint beats the baseline and eases HBM/SSD bandwidth pressure in long-context agent workloads.",
+          "source": "HuggingFace",
+          "date": "2026-09-17",
+          "url": "https://huggingface.co/papers/2609.19969",
+          "image": "images/section_research_papers_2026-09-19.jpg"
+        },
+        {
+          "title": "RetireOPD: self-retiring on-policy distillation for agentic reinforcement learning",
+          "summary": "Adaptive Retirement lets the student drop the teacher once the discrepancy stops shrinking, after which training continues with RL alone; on Qwen2.5 models from 1.5B to 7B it lifts ALFWorld success by 14.1% over the RL baseline.",
+          "source": "HuggingFace",
+          "date": "2026-09-17",
+          "url": "https://huggingface.co/papers/2609.20784"
+        },
+        {
+          "title": "When2Think: difficulty-aware length control for efficient hybrid reasoning models",
+          "summary": "Learns when to use no-think versus think modes per instance; on AIME24, Pass@3 rises 10.0% while token usage drops 27.9% versus the base model, improving the accuracy-efficiency trade-off.",
+          "source": "HuggingFace",
+          "date": "2026-09-17",
+          "url": "https://huggingface.co/papers/2609.19671"
+        },
+        {
+          "title": "When EOS tokens disagree: length inflation in on-policy distillation",
+          "summary": "Identifies termination-token mismatch between base students and post-trained teachers as a key source of length inflation in on-policy distillation across Qwen3, Llama and Gemma, and ships an implementation with corrected termination handling.",
+          "source": "HuggingFace",
+          "date": "2026-09-17",
+          "url": "https://huggingface.co/papers/2609.20511"
+        }
+      ]
+    },
+    {
+      "title": "Open Weights & Models",
+      "items": [
+        {
+          "title": "Laya: a freshly uploaded 0.4B text-classification model",
+          "summary": "Compact 0.4B-parameter text-classification model updated hours ago — small but genuinely new weights suited to constrained local and edge setups.",
+          "source": "HuggingFace",
+          "date": "2026-09-19",
+          "url": "https://huggingface.co/convaiinnovations/laya",
+          "image": "images/section_open_weights_models_2026-09-19.jpg"
+        },
+        {
+          "title": "Minimax-h3 Singularity: image-to-video variant surfaces in trending",
+          "summary": "Image-to-video Singularity variant of the MiniMax-H3 line, 231k downloads in roughly a day — notable for local multimodal video pipelines.",
+          "source": "HuggingFace",
+          "date": "2026-09-19",
+          "url": "https://huggingface.co/WarmBloodAban/Minimax-h3_Singularity"
+        }
+      ]
+    },
+    {
+      "title": "Tools & Runtimes",
+      "items": [
+        {
+          "title": "Fentaris: an open-source proxy for managing multiple MCP servers",
+          "summary": "A new open-source proxy tool for coordinating and managing multiple Model Context Protocol servers, introduced via Show HN.",
+          "source": "GitHub",
+          "date": "2026-09-19",
+          "url": "https://github.com/Fentaris/fentaris",
+          "image": "images/section_tools_runtimes_2026-09-19.jpg"
+        },
+        {
+          "title": "Oh-my-subagents: local subagent orchestration for Codex and Claude",
+          "summary": "A lightweight framework for orchestrating subagents locally alongside coding agents such as Codex and Claude.",
+          "source": "GitHub",
+          "date": "2026-09-19",
+          "url": "https://github.com/ringlochid/oh-my-subagents"
+        },
+        {
+          "title": "OnPanda: steer LLMs and agents at the token level",
+          "summary": "Fine-grained control over LLM outputs by steering token-level generation inside local agents.",
+          "source": "OnPanda",
+          "date": "2026-09-18",
+          "url": "https://onpanda.diyer22.com/"
+        },
+        {
+          "title": "Turnpanel: a local-first AI workspace",
+          "summary": "A local-first AI workspace designed to run entirely on-device for privacy-preserving workflows (Show HN).",
+          "source": "Show HN",
+          "date": "2026-09-18",
+          "url": "https://turnpanel.com"
+        }
+      ]
+    },
+    {
+      "title": "Self-Hosted Stack",
+      "items": [
+        {
+          "title": "Llama.cpp now has full MCP support",
+          "summary": "The llama.cpp inference engine gained full Model Context Protocol support, giving locally run GGUF models standardized tool integration without a third-party bridge; the thread covers how the bundled web UI and Ollama-style setups pick up the new client behaviour.",
+          "source": "r/LocalLLaMA",
+          "date": "2026-09-18",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v6n33i/llamacpp_now_has_full_mcp_support/",
+          "image": "images/section_self_hosted_stack_2026-09-19.jpg"
+        },
+        {
+          "title": "n8n: reducing AI workflow latency with patterns that actually work",
+          "summary": "A measure-first order for cutting latency — profile model inference, tool calls and orchestration overhead, then apply routing, caching, parallel fan-out/fan-in, timeouts and budgets, each paired with ready-made templates for local GPU and OpenAI-compatible endpoints.",
+          "source": "n8n Blog",
+          "date": "2026-09-19",
+          "url": "https://blog.n8n.io/reducing-ai-workflow-latency/"
+        },
+        {
+          "title": "Savespace shuts down: the hunt for a lightweight self-hosted alternative",
+          "summary": "A comparison of minimal self-hosted link-collection and summarizing stacks for the share-then-summarize flow, including keeping an on-device LLM in the loop for offline summaries in a no-telemetry setup.",
+          "source": "r/selfhosted",
+          "date": "2026-09-18",
+          "url": "https://www.reddit.com/r/selfhosted/comments/1vr7zxf/thanks_a_lot_savespace_looking_for_an_alternative/"
+        },
+        {
+          "title": "Universal Snapshot Explorer 2.0.0 adds native Btrfs and Snapper support",
+          "summary": "A read-only snapshot browser (FastAPI plus vanilla-JavaScript web UI) renders an interactive timeline of snapshots — practical for homelabs relying on Btrfs/Snapper rollbacks alongside model and knowledge-base backups.",
+          "source": "r/selfhosted",
+          "date": "2026-09-18",
+          "url": "https://www.reddit.com/r/selfhosted/comments/1w1mmbi/universal_snapshot_explorer_use_200_added_native/"
+        }
+      ]
+    },
+    {
+      "title": "Hardware & Edge",
+      "items": [
+        {
+          "title": "ASUS launches Ascent QN10, an 80-TOPS Snapdragon X2 Elite mini PC for on-device AI",
+          "summary": "The QN10 pairs the Snapdragon X2 Elite (18-core Oryon CPU) with an Adreno X2-90 GPU and a Hexagon NPU rated up to 80 TOPS, up to 32GB LPDDR5X and up to 2TB storage in a 1.6-pound chassis with Wi-Fi 7 and Bluetooth 6.0, plus access to Qualcomm's AI Hub with more than 175 pre-optimized models.",
+          "source": "Nanobyte",
+          "date": "2026-09-18",
+          "url": "https://nanobyte.site/2026-09-18/asus-launches-80tops-ai-mini-computer-ascent-qn10-equipped-with-snapdragon-x2-elite",
+          "image": "images/section_hardware_edge_2026-09-19.jpg"
+        },
+        {
+          "title": "Nota AI runs a VLA without a GPU, cutting latency from 1.6s to 230ms on a Qualcomm NPU",
+          "summary": "Nota built its own runtime for on-device vision-language-action models, benchmarked five backbones on the same board and drove an SO-101 robot arm with GR00T N1.7; it notes published guidance for moving VLAs onto NPUs is still largely GPU-centric.",
+          "source": "Nota AI",
+          "date": "2026-09-18",
+          "url": "https://blog.nota.ai/insights/vla-edge-npu-optimization"
+        },
+        {
+          "title": "Gigabyte AI TOP review: 128GB coherent memory in a 1.2-litre, 50W Arm box",
+          "summary": "The AI TOP ATOM carries the same GB10 Grace Blackwell superchip as the DGX Spark — a 20-core Arm CPU coherently stitched to a Blackwell GPU with 6,144 CUDA cores sharing 128GB LPDDR5X; 273 GB/s caps output at roughly 35-40 tok/s on gpt-oss-120B-class models, with Arm Linux binary gaps the main friction.",
+          "source": "Peter Falkingham",
+          "date": "2026-09-18",
+          "url": "https://peterfalkingham.com/2026-09-18/academic-tech-gigabyte-ai-top-nvidia-dgx-spark-review/"
+        }
+      ]
+    }
+  ],
+  "quick_hits": [
+    {
+      "title": "Ollama v0.34.3-rc1 ships with minor runtime fixes",
+      "source": "GitHub",
+      "date": "2026-09-19",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.3-rc1"
+    },
+    {
+      "title": "llama.cpp build b11053 lands with continued performance and stability work",
+      "source": "GitHub",
+      "date": "2026-09-19",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11053"
+    },
+    {
+      "title": "Gemini 4 RSI leak tops benchmarks, outpacing Astra and Fable",
+      "source": "YouTube — Beyond AI News",
+      "date": "2026-09-18",
+      "url": "https://www.youtube.com/watch?v=Pic4NLTjx6w"
+    },
+    {
+      "title": "Former FTC technologist flags potential AI 'cartel' formation",
+      "source": "YouTube — Bloomberg Technology",
+      "date": "2026-09-18",
+      "url": "https://www.youtube.com/watch?v=PnTw998Tz7o"
+    },
+    {
+      "title": "Trump opposes AI guardrails as chip sell-off continues",
+      "source": "YouTube — Bloomberg Technology",
+      "date": "2026-09-18",
+      "url": "https://www.youtube.com/watch?v=MRmnIuyQpnM"
+    },
+    {
+      "title": "Franklin: safety concerns won't deter AI spending",
+      "source": "YouTube — Bloomberg Technology",
+      "date": "2026-09-18",
+      "url": "https://www.youtube.com/watch?v=cXv57P3gsPY"
+    },
+    {
+      "title": "Anthropic's Claude expands its role across the AI development stack",
+      "source": "YouTube — Bloomberg Technology",
+      "date": "2026-09-18",
+      "url": "https://www.youtube.com/watch?v=u3bX7W6haes"
+    },
+    {
+      "title": "Personal AI agents drive heightened industry interest",
+      "source": "YouTube — The AI Daily Brief",
+      "date": "2026-09-18",
+      "url": "https://www.youtube.com/watch?v=NmXhFS39ad0"
+    },
+    {
+      "title": "Google Cloud's Gemini enters Unieuro physical stores with an in-store AI agent",
+      "source": "AI4Business",
+      "date": "2026-09-18",
+      "url": "https://www.ai4business.it/intelligenza-artificiale/gemini-entra-nei-negozi-fisici-unieuro-e-google-cloud-lanciano-lai-agent-in-store/"
+    },
+    {
+      "title": "GPT-6 Astra put to the test: 17 minutes to build, 83 seconds to fix",
+      "source": "AI4Business",
+      "date": "2026-09-18",
+      "url": "https://www.ai4business.it/intelligenza-artificiale/gpt-6-astra-alla-prova-17-minuti-per-costruire-83-secondi-per-correggere/"
+    },
+    {
+      "title": "Transparency obligations in the AI Act: what Article 50 provides",
+      "source": "AI4Business",
+      "date": "2026-09-18",
+      "url": "https://www.ai4business.it/intelligenza-artificiale/obblighi-di-trasparenza-nellai-act-cosa-prevede-larticolo-50/"
+    },
+    {
+      "title": "Could Italy's tech ecosystem reach 20 unicorns within 1-3 years?",
+      "source": "La Tech Made in Italy",
+      "date": "2026-09-19",
+      "url": "https://www.latechmadeinitaly.com/e-se-la-tech-made-in-italy-avessi-20-unicorni-fra-1-3-anni/"
+    }
+  ],
+  "trending": {
+    "github": {
+      "title": "GitHub Trending · AI",
+      "url": "https://github.com/trending",
+      "link_label": "github.com/trending",
+      "date": "2026-09-19",
+      "items": [
+        {
+          "name": "cloudflare/security-audit-skill",
+          "url": "https://github.com/cloudflare/security-audit-skill",
+          "meta": "JavaScript · 15.2k ★ · +3162 today"
+        },
+        {
+          "name": "trycua/cua",
+          "url": "https://github.com/trycua/cua",
+          "meta": "HTML · 23.9k ★ · +383 today"
+        },
+        {
+          "name": "addyosmani/agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "meta": "JavaScript · 96.7k ★ · +547 today"
+        },
+        {
+          "name": "coder/coder",
+          "url": "https://github.com/coder/coder",
+          "meta": "Go · 15.5k ★ · +406 today"
+        },
+        {
+          "name": "anthropics/claude-code",
+          "url": "https://github.com/anthropics/claude-code",
+          "meta": "TypeScript · 146.5k ★ · +482 today"
+        },
+        {
+          "name": "higgsfield-ai/higgsfield",
+          "url": "https://github.com/higgsfield-ai/higgsfield",
+          "meta": "Jupyter Notebook · 4.7k ★ · +325 today"
+        },
+        {
+          "name": "docling-project/docling",
+          "url": "https://github.com/docling-project/docling",
+          "meta": "Python · 66.8k ★ · +94 today"
+        },
+        {
+          "name": "anthropics/knowledge-work-plugins",
+          "url": "https://github.com/anthropics/knowledge-work-plugins",
+          "meta": "Python · 25.0k ★ · +280 today"
+        },
+        {
+          "name": "cactus-compute/needle",
+          "url": "https://github.com/cactus-compute/needle",
+          "meta": "Python · 11.4k ★ · +207 today"
+        },
+        {
+          "name": "yynxxxxx/Codex-X",
+          "url": "https://github.com/yynxxxxx/Codex-X",
+          "meta": "Rust · 3.3k ★ · +64 today"
+        }
+      ]
+    },
+    "huggingface": {
+      "title": "Models Trending (Hugging Face)",
+      "url": "https://huggingface.co/models?sort=trending",
+      "link_label": "huggingface.co/models",
+      "date": "2026-09-19",
+      "items": [
+        {
+          "name": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+          "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+          "meta": "27B, ternary-quantized GGUF build for local inference"
+        },
+        {
+          "name": "deepseek-ai/DeepSeek-V4.1-Flash",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+          "meta": "763B image-text-to-text multimodal model"
+        },
+        {
+          "name": "Qwen/Qwen3.8-27B",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+          "meta": "28B image-text-to-text, Apache-licensed Qwen line"
+        },
+        {
+          "name": "m-a-p/YuE2-3B",
+          "url": "https://huggingface.co/m-a-p/YuE2-3B",
+          "meta": "4B text-to-audio model"
+        },
+        {
+          "name": "XingChen-AGI/Xing4.0-29B-A4B",
+          "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
+          "meta": "31B MoE, A4B active-parameter text generation"
+        },
+        {
+          "name": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+          "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+          "meta": "27B, GGUF quant (GSQ+RCO) of Qwen3.8-27B"
+        },
+        {
+          "name": "ukisai/Swift-Qwen3.8-27b",
+          "url": "https://huggingface.co/ukisai/Swift-Qwen3.8-27b",
+          "meta": "28B image-text-to-text, Swift-optimized build"
+        },
+        {
+          "name": "Lightricks/LTX-2.5",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5",
+          "meta": "Image-to-video generation model"
+        },
+        {
+          "name": "harshatheg/Qwen-2.5-1B-RLCD",
+          "url": "https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD",
+          "meta": "1B text generation, RLCD-trained compact model"
+        },
+        {
+          "name": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+          "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+          "meta": "27B, fused/merged GGUF build of Qwen3.8-27B"
+        }
+      ]
+    }
+  },
+  "free_models": {
+    "openrouter": {
+      "title": "Free on OpenRouter",
+      "url": "https://openrouter.ai/models?max_price=0",
+      "link_label": "Browse free models on OpenRouter →",
+      "date": "2026-09-19",
+      "items": [
+        {
+          "name": "Cohere: North Mini Code (free)",
+          "url": "https://openrouter.ai/cohere/north-mini-code:free",
+          "meta": "256K ctx"
+        },
+        {
+          "name": "DeepSeek: DeepSeek V4 Flash 0731 (free)",
+          "url": "https://openrouter.ai/deepseek/deepseek-v4-flash-0731:free",
+          "meta": "1.04858M ctx"
+        },
+        {
+          "name": "Dots Studio: Dots3-Note Preview (free)",
+          "url": "https://openrouter.ai/dots-studio/dots-3-note-preview:free",
+          "meta": "512K ctx"
+        },
+        {
+          "name": "Google: Gemma 4 26B A4B (free)",
+          "url": "https://openrouter.ai/google/gemma-4-26b-a4b-it:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "Google: Gemma 4 31B (free)",
+          "url": "https://openrouter.ai/google/gemma-4-31b-it:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "inclusionAI: Ling 3.0 Flash Fin (free)",
+          "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-fin:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
+          "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-sante:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "inclusionAI: Ling 3.0 Flash VL (free)",
+          "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-vl:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "LiquidAI: LFM2.5-2.6B (free)",
+          "url": "https://openrouter.ai/liquid/lfm-2.5-2.6b:free",
+          "meta": "65K ctx"
+        },
+        {
+          "name": "Nex AGI: Nex-N2.5-Mini (free)",
+          "url": "https://openrouter.ai/nex-agi/nex-n2.5-mini:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "Nex AGI: Nex-N2.5-Pro (free)",
+          "url": "https://openrouter.ai/nex-agi/nex-n2.5-pro:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+          "meta": "256K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3 Super (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3 Ultra (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free",
+          "meta": "1M ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free",
+          "meta": "128K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3.5-lightning:free",
+          "meta": "1M ctx"
+        },
+        {
+          "name": "Poolside: Laguna S 2.1 (free)",
+          "url": "https://openrouter.ai/poolside/laguna-s-2.1:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "Poolside: Laguna XS 2.1 (free)",
+          "url": "https://openrouter.ai/poolside/laguna-xs-2.1:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "Qwen: Qwen3.8 27B (free)",
+          "url": "https://openrouter.ai/qwen/qwen3.8-27b:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "Thinking Machines: Inkling (free)",
+          "url": "https://openrouter.ai/thinkingmachines/inkling:free",
+          "meta": "1.04858M ctx"
+        },
+        {
+          "name": "Thinking Machines: Inkling Small (free)",
+          "url": "https://openrouter.ai/thinkingmachines/inkling-small:free",
+          "meta": "1.04858M ctx"
+        },
+        {
+          "name": "Z.ai: GLM 5.2 (free)",
+          "url": "https://openrouter.ai/z-ai/glm-5.2:free",
+          "meta": "32K ctx"
+        }
+      ]
+    },
+    "opencode_zen": {
+      "title": "Free on OpenCode Zen",
+      "url": "https://opencode.ai/docs/zen/",
+      "link_label": "See the full Zen catalog →",
+      "date": "2026-09-19",
+      "items": [
+        {
+          "name": "Big Pickle",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "big-pickle"
+        },
+        {
+          "name": "MiMo-V2.5 Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "mimo-v2.5-free"
+        },
+        {
+          "name": "Ling 3.0 Flash Fin Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "ling-3.0-flash-fin-free"
+        },
+        {
+          "name": "Nemotron 3 Ultra Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "nemotron-3-ultra-free"
+        },
+        {
+          "name": "Nemotron 3.5 Lightning Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "nemotron-3.5-lightning-free"
+        },
+        {
+          "name": "Muse Spark 1.3 Contributor Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "muse-spark-1.3-contributor-free"
+        },
+        {
+          "name": "Jev 1.13 Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "jev-1.13-free"
+        }
+      ]
+    }
+  },
+  "spiked": {
+    "low signal": 10,
+    "already ran": 18
+  }
+}

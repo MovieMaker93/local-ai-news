@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOCAL AI NEWS — open-weight intelligence · September 19, 2026</title>
+  <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
+  <link rel="stylesheet" href="style.css">
+  <style>.wt{display:flex;align-items:center;height:38px;background:var(--ink);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);margin:14px 0 0;overflow:hidden}.wtt{display:flex;align-items:center;white-space:nowrap;padding-left:20px;animation:ws 90s linear infinite}.wtt:hover{animation-play-state:paused}@keyframes ws{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.ti{display:inline-flex;align-items:center;gap:7px;padding:0 22px;cursor:pointer;border-right:1px solid var(--rule);height:38px}.ti:hover{background:rgba(240,162,60,.05)}.tih{font-family:var(--serif);font-size:13px;color:var(--type)}.tis{font-family:var(--sans);font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.mo{display:none;position:fixed;inset:0;background:rgba(10,10,12,.88);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(8px)}.mo.a{display:flex}.mb{background:#121214;border:1px solid var(--rule-strong);max-width:680px;width:90%;max-height:82vh;overflow-y:auto;padding:40px 44px;position:relative;animation:fi .2s ease}@keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.mc{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:var(--sans);padding:4px 8px}.mh{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;letter-spacing:-.01em;color:var(--type);margin:0 0 14px;padding-right:32px}.mm{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}.mm a{color:var(--lux)}.mm a:hover{text-decoration:underline}.mbd{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--type-dim)}.mbd .en{display:block;color:var(--lux-soft);font-style:italic;font-size:15px;margin-top:14px;padding-left:12px;border-left:2px solid var(--rule-strong)}.mbd .as{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.5}.mbd .as .al{color:var(--lux-soft);font-weight:600;font-family:var(--sans);font-size:10px;letter-spacing:.06em;text-transform:uppercase}</style></head>
+  <body>
+  <div class="container">
+
+  <header class="masthead">
+    <div class="topline"></div>
+    <div class="ears">
+      <span class="left">Est. MMXXVI</span>
+      <span class="right">No. 23 <a href="/archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+    </div>
+    <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
+      <hr class="rule-double">
+      <div class="dateline">
+        <span>September 19, 2026</span>
+        <span class="dot">◆</span>
+        <span class="tag">open weights, on your metal</span>
+        <span class="dot">◆</span>
+        <span>83 stories</span>
+      </div>
+      <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
+      <hr class="rule-thin">
+    </header>
+
+    
+
+    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="AI Hallucinations Come Close to Disrupting US Military Operation in China Standoff" data-b="A single AI-generated error almost upended a live military operation this spring, according to TechCrunch. While military aircraft were already airborne, US officials realized the intelligence underpinning an armed operation against a Chinese vessel had been hallucinated by an AI chatbot. The mission was scrapped at the final moment, narrowly averting a potential conflict with China.
+
+The underlying intelligence report, circulated during the war with Iran, claimed the vessel carried components for a nuclear weapons program. That claim traced back to a Special Operations Command analyst who had asked an AI chatbot to merge open-source data with classified signals intelligence. The chatbot misidentified the ship&#x27;s cargo manifest, and the analyst ran the tool a second time to format those erroneous findings into an official-looking summary that spread through command channels.
+
+The Pentagon has credited AI with speeding its kill chain, yet that same speed can amplify unreviewed hallucinations. Jake Steckler, research scholar at GovAI and a veteran US Army officer, told TechCrunch that service members must grasp the uncertainty inherent to LLMs, particularly in targeting, intelligence analysis, and operational planning. He added that the episode calls for stronger safeguards rather than abandonment of these tools, noting that prioritizing adoption speed over oversight will erode trust and slow progress.
+
+*This episode shows how quickly an unreviewed LLM output can cascade into a near-crisis, making human verification a practical necessity.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/"><span class="tih">AI Hallucinations Come Close to Disrupting US Military Operation in China Standoff</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Anthropic CEO Dario Amodei Proposes Pace-Setting Framework for AI Development" data-b="Anthropic CEO Dario Amodei has presented a plan called &quot;Pace the Frontier&quot; for steering the course of AI development, roughly one week after a doomsday warning from an Anthropic researcher stirred discussion across the sector. The proposal, as reported by TechCrunch, rests on two pillars: deploying independent safety evaluators and fostering coordination among AI research labs based in democratic nations. The initiative has drawn a measure of backing from industry participants, though Nvidia&#x27;s Jensen Huang offered pointed resistance to the approach.
+
+The Equity podcast, hosted by Kirsten Korosec, Anthony Ha, and Sean O&#x27;Kane, examined whether competing companies could reach consensus on the practical meaning of &quot;slowing down&quot; and which body would hold authority to enforce that pace. The episode also touched on Automattic — the parent company behind WordPress — which saw its own boardroom leadership shake-up, along with a handful of the week&#x27;s largest acquisition and funding deals.
+
+The discussion lands amid a broader industry reckoning over how transparently and collaboratively the leading AI labs should manage their technological roadmap, and whether the pace-setting model can be sustained when labs operate under differing commercial pressures and national frameworks.
+
+*The tension between speed and caution in AI is a story still writing itself in real time.*
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/video/dario-amodei-and-other-ai-leaders-want-to-pace-the-frontier-buthow/"><span class="tih">Anthropic CEO Dario Amodei Proposes Pace-Setting Framework for AI Development</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia&#x27;s Two Lenses on the Open vs Closed Model Question at Disrupt 2026" data-b="At TechCrunch Disrupt 2026, happening October 13-15 in San Francisco, Nvidia&#x27;s Nader Khalil and Sydney Sykes will lead a Builders Stage session on one of the defining choices confronting startups today: whether to build on open or proprietary AI models.
+
+According to TechCrunch, the session titled &quot;The Open vs. Closed AI Debate Is Just Getting Started&quot; will walk through trade-offs across cost, infrastructure, margins, differentiation, speed, and control — dimensions that ripple through nearly every downstream decision a young company makes.
+
+Khalil, Nvidia&#x27;s Director of Developer Tech, comes from the builder and infrastructure side. He previously co-founded Brev.dev, an AI infrastructure company Nvidia acquired in July 2024, and now leads open source and local AI efforts. Sykes joins as Nvidia&#x27;s Global Head of VC Partnerships, bringing the investor lens on what makes a company genuinely investable and scalable.
+
+Nvidia&#x27;s own position, as noted in the source, resists a binary framing. CEO Jensen Huang argued earlier this year at GTC that the path forward combines proprietary and open approaches. A concrete example is Nemotron 3 Super, an open 120-billion-parameter model for agentic workloads launched in March, which companies are pairing with proprietary systems rather than choosing one over the other.
+
+The takeaway the session underscores: the open-versus-closed question is not merely philosophical. It shapes margins, fundraising narratives, product roadmaps, and how tightly a product should couple to any single model in a landscape where capabilities shift every few months.
+
+*The hybrid reality — combining open and proprietary models per workload — feels like the most practical insight here, since real products rarely fit a single archetype.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/18/open-or-closed-ai-nvidias-nader-khalil-and-sydney-sykes-take-on-one-of-the-decisions-shaping-next-gen-startups-at-techcrunch-disrupt-2026/"><span class="tih">Nvidia&#x27;s Two Lenses on the Open vs Closed Model Question at Disrupt 2026</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Kennedy Appoints Eight New Members to Federal Preventive Medicine Task Force" data-b="Health Secretary Robert F. Kennedy Jr. has announced eight new members for the US Preventive Services Task Force, a 16-member federal panel responsible for issuing evidence-based recommendations on preventive medicine services including depression screening, statin use, colonoscopies, and mammograms. According to Ars Technica, the panel grades its recommendations on an A to D scale, and insurance providers must cover A and B grade services at no cost to patients.
+
+Kennedy had sidelined the USPSTF for more than a year, canceling meetings and leaving expired terms unfilled, while dismissing two leaders in May. The newly named members are Seth Corey, Patrick Hunter, Ronald Karlsberg, Venkatesh Murthy, Stephen Parente, Goldie Stands-Over-Bull, Louis Wilson, and Dennis Wulfeck. Five of the eight are specialists, a notable shift from the panel&#x27;s prior reliance on generalist and primary care providers.
+
+Willie Underwood, president of the American Medical Association, called the slate &quot;a significant departure&quot; from the task force&#x27;s traditional membership and urged that its recommendations continue to rest on a transparent, rigorous, independent scientific process. The New York Times reported that nomination materials for the new members remain unavailable despite repeated requests and a filed lawsuit.
+
+*The reshaping of the USPSTF&#x27;s membership signals a clear ideological reorientation in how preventive medicine guidance will reach Americans.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="arstechnica.com" data-u="https://arstechnica.com/health/2026/09/rfk-jr-stacks-another-influential-federal-panel-with-questionable-picks/"><span class="tih">Kennedy Appoints Eight New Members to Federal Preventive Medicine Task Force</span> <span class="tis">— arstechnica.com</span></div><div class="ti" onclick="openArt(this)" data-h="The AI Slowdown Debate Crashed Salesforce&#x27;s Party" data-b="At Salesforce&#x27;s Dreamforce conference in San Francisco on Tuesday, CEO Marc Benioff showcased a revenue projection topping $46 billion in 2027, driven partly by AI demand, according to Wired. Yet the event&#x27;s central discussion turned on how the AI field should mature.
+
+The debate centers on whether development should continue at full speed or receive guided pacing from government. Anthropic CEO Dario Amodei urged world leaders to &quot;pace the frontier,&quot; a view backed by OpenAI&#x27;s Sam Altman, after researcher Jacob Coxon resigned and warned that racing toward self-improving systems amounted to &quot;gambling with our lives.&quot; White House adviser David Sacks dismissed these concerns as &quot;just another bid for regulatory capture,&quot; while President Trump called the existential fears &quot;a hoax,&quot; per the report. Congress is advancing regulatory legislation regardless.
+
+Nvidia CEO Jensen Huang offered a lighter read, framing AI safety as &quot;an engineering problem&quot; solvable by self-policing firms without new laws.
+
+Commentator Sayash Kapoor, an incoming UC Berkeley professor and coauthor of AI Snake Oil, argued in a recent essay that loss-of-control events, like OpenAI&#x27;s Hugging Face incident, stem from weak cybersecurity and low organizational maturity, and urged making labs liable for harms. He found both the alignment and control perspectives hold some truth.
+
+*A measured, human-paced synthesis that captures a genuinely lively week in AI.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/are-rogue-ai-agents-really-just-a-cybersecurity-problem/"><span class="tih">The AI Slowdown Debate Crashed Salesforce&#x27;s Party</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="AI Hallucinations Come Close to Disrupting US Military Operation in China Standoff" data-b="A single AI-generated error almost upended a live military operation this spring, according to TechCrunch. While military aircraft were already airborne, US officials realized the intelligence underpinning an armed operation against a Chinese vessel had been hallucinated by an AI chatbot. The mission was scrapped at the final moment, narrowly averting a potential conflict with China.
+
+The underlying intelligence report, circulated during the war with Iran, claimed the vessel carried components for a nuclear weapons program. That claim traced back to a Special Operations Command analyst who had asked an AI chatbot to merge open-source data with classified signals intelligence. The chatbot misidentified the ship&#x27;s cargo manifest, and the analyst ran the tool a second time to format those erroneous findings into an official-looking summary that spread through command channels.
+
+The Pentagon has credited AI with speeding its kill chain, yet that same speed can amplify unreviewed hallucinations. Jake Steckler, research scholar at GovAI and a veteran US Army officer, told TechCrunch that service members must grasp the uncertainty inherent to LLMs, particularly in targeting, intelligence analysis, and operational planning. He added that the episode calls for stronger safeguards rather than abandonment of these tools, noting that prioritizing adoption speed over oversight will erode trust and slow progress.
+
+*This episode shows how quickly an unreviewed LLM output can cascade into a near-crisis, making human verification a practical necessity.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/"><span class="tih">AI Hallucinations Come Close to Disrupting US Military Operation in China Standoff</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Anthropic CEO Dario Amodei Proposes Pace-Setting Framework for AI Development" data-b="Anthropic CEO Dario Amodei has presented a plan called &quot;Pace the Frontier&quot; for steering the course of AI development, roughly one week after a doomsday warning from an Anthropic researcher stirred discussion across the sector. The proposal, as reported by TechCrunch, rests on two pillars: deploying independent safety evaluators and fostering coordination among AI research labs based in democratic nations. The initiative has drawn a measure of backing from industry participants, though Nvidia&#x27;s Jensen Huang offered pointed resistance to the approach.
+
+The Equity podcast, hosted by Kirsten Korosec, Anthony Ha, and Sean O&#x27;Kane, examined whether competing companies could reach consensus on the practical meaning of &quot;slowing down&quot; and which body would hold authority to enforce that pace. The episode also touched on Automattic — the parent company behind WordPress — which saw its own boardroom leadership shake-up, along with a handful of the week&#x27;s largest acquisition and funding deals.
+
+The discussion lands amid a broader industry reckoning over how transparently and collaboratively the leading AI labs should manage their technological roadmap, and whether the pace-setting model can be sustained when labs operate under differing commercial pressures and national frameworks.
+
+*The tension between speed and caution in AI is a story still writing itself in real time.*
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/video/dario-amodei-and-other-ai-leaders-want-to-pace-the-frontier-buthow/"><span class="tih">Anthropic CEO Dario Amodei Proposes Pace-Setting Framework for AI Development</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia&#x27;s Two Lenses on the Open vs Closed Model Question at Disrupt 2026" data-b="At TechCrunch Disrupt 2026, happening October 13-15 in San Francisco, Nvidia&#x27;s Nader Khalil and Sydney Sykes will lead a Builders Stage session on one of the defining choices confronting startups today: whether to build on open or proprietary AI models.
+
+According to TechCrunch, the session titled &quot;The Open vs. Closed AI Debate Is Just Getting Started&quot; will walk through trade-offs across cost, infrastructure, margins, differentiation, speed, and control — dimensions that ripple through nearly every downstream decision a young company makes.
+
+Khalil, Nvidia&#x27;s Director of Developer Tech, comes from the builder and infrastructure side. He previously co-founded Brev.dev, an AI infrastructure company Nvidia acquired in July 2024, and now leads open source and local AI efforts. Sykes joins as Nvidia&#x27;s Global Head of VC Partnerships, bringing the investor lens on what makes a company genuinely investable and scalable.
+
+Nvidia&#x27;s own position, as noted in the source, resists a binary framing. CEO Jensen Huang argued earlier this year at GTC that the path forward combines proprietary and open approaches. A concrete example is Nemotron 3 Super, an open 120-billion-parameter model for agentic workloads launched in March, which companies are pairing with proprietary systems rather than choosing one over the other.
+
+The takeaway the session underscores: the open-versus-closed question is not merely philosophical. It shapes margins, fundraising narratives, product roadmaps, and how tightly a product should couple to any single model in a landscape where capabilities shift every few months.
+
+*The hybrid reality — combining open and proprietary models per workload — feels like the most practical insight here, since real products rarely fit a single archetype.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/09/18/open-or-closed-ai-nvidias-nader-khalil-and-sydney-sykes-take-on-one-of-the-decisions-shaping-next-gen-startups-at-techcrunch-disrupt-2026/"><span class="tih">Nvidia&#x27;s Two Lenses on the Open vs Closed Model Question at Disrupt 2026</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Kennedy Appoints Eight New Members to Federal Preventive Medicine Task Force" data-b="Health Secretary Robert F. Kennedy Jr. has announced eight new members for the US Preventive Services Task Force, a 16-member federal panel responsible for issuing evidence-based recommendations on preventive medicine services including depression screening, statin use, colonoscopies, and mammograms. According to Ars Technica, the panel grades its recommendations on an A to D scale, and insurance providers must cover A and B grade services at no cost to patients.
+
+Kennedy had sidelined the USPSTF for more than a year, canceling meetings and leaving expired terms unfilled, while dismissing two leaders in May. The newly named members are Seth Corey, Patrick Hunter, Ronald Karlsberg, Venkatesh Murthy, Stephen Parente, Goldie Stands-Over-Bull, Louis Wilson, and Dennis Wulfeck. Five of the eight are specialists, a notable shift from the panel&#x27;s prior reliance on generalist and primary care providers.
+
+Willie Underwood, president of the American Medical Association, called the slate &quot;a significant departure&quot; from the task force&#x27;s traditional membership and urged that its recommendations continue to rest on a transparent, rigorous, independent scientific process. The New York Times reported that nomination materials for the new members remain unavailable despite repeated requests and a filed lawsuit.
+
+*The reshaping of the USPSTF&#x27;s membership signals a clear ideological reorientation in how preventive medicine guidance will reach Americans.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="arstechnica.com" data-u="https://arstechnica.com/health/2026/09/rfk-jr-stacks-another-influential-federal-panel-with-questionable-picks/"><span class="tih">Kennedy Appoints Eight New Members to Federal Preventive Medicine Task Force</span> <span class="tis">— arstechnica.com</span></div><div class="ti" onclick="openArt(this)" data-h="The AI Slowdown Debate Crashed Salesforce&#x27;s Party" data-b="At Salesforce&#x27;s Dreamforce conference in San Francisco on Tuesday, CEO Marc Benioff showcased a revenue projection topping $46 billion in 2027, driven partly by AI demand, according to Wired. Yet the event&#x27;s central discussion turned on how the AI field should mature.
+
+The debate centers on whether development should continue at full speed or receive guided pacing from government. Anthropic CEO Dario Amodei urged world leaders to &quot;pace the frontier,&quot; a view backed by OpenAI&#x27;s Sam Altman, after researcher Jacob Coxon resigned and warned that racing toward self-improving systems amounted to &quot;gambling with our lives.&quot; White House adviser David Sacks dismissed these concerns as &quot;just another bid for regulatory capture,&quot; while President Trump called the existential fears &quot;a hoax,&quot; per the report. Congress is advancing regulatory legislation regardless.
+
+Nvidia CEO Jensen Huang offered a lighter read, framing AI safety as &quot;an engineering problem&quot; solvable by self-policing firms without new laws.
+
+Commentator Sayash Kapoor, an incoming UC Berkeley professor and coauthor of AI Snake Oil, argued in a recent essay that loss-of-control events, like OpenAI&#x27;s Hugging Face incident, stem from weak cybersecurity and low organizational maturity, and urged making labs liable for harms. He found both the alignment and control perspectives hold some truth.
+
+*A measured, human-paced synthesis that captures a genuinely lively week in AI.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/are-rogue-ai-agents-really-just-a-cybersecurity-problem/"><span class="tih">The AI Slowdown Debate Crashed Salesforce&#x27;s Party</span> <span class="tis">— wired.com</span></div></div></div>
+<div class="lead-zone">
+      <article class="lead">
+  <a href="https://www.newsfilecorp.com/release/313597/GMKtec-Unveils-EVOX5-Pro-at-IFA-2026-with-AMD-Ryzen(TM)-AI-Max-Processors-Introducing-the-Worlds-First-Desktop-AI-Supercomputer-Capable-of-Running-a-300BParameter-LLM-Fully-Offline" target="_blank" rel="noopener">
+    <img src="images/lead_2026-09-19.jpg" alt="" class="lead-image">
+    <div class="lead-grid">
+      <div class="lead-head">
+        <p class="kicker">First 300B offline</p>
+        <h1>GMKtec EVO-X5 Pro unveiled at IFA 2026: 192GB unified memory, first desktop to run a 300B LLM fully offline</h1>
+      </div>
+      <div class="lead-body">
+        <p class="deck">GMKtec's EVO-X5 Pro pairs AMD's Ryzen AI Max+ PRO 495 (16 Zen 5 cores, up to 5.2 GHz, NPU at up to 55 TOPS) with up to 192GB of LPDDR5X-8533 unified memory at about 273 GB/s, of which up to 160GB can be dynamically allocated as graphics memory — enough to hold a 300-billion-parameter model entirely on-device. The box took two 'Best of IFA 2026' innovation awards and launches on September 28.</p>
+        <p class="byline"><span class="src">Newsfile Corp</span> · <span>2026-09-18</span> · <span class="more">Read the dispatch →</span></p>
+      </div>
+    </div>
+  </a>
+</article>
+
+    </div>
+
+    <div class="topstories">
+<article class="story">
+  <a href="https://en.sedaily.com/international/2026-09-18/samsung-touts-10-fold-ai-speed-gain-with-stacked-zhbm-memory" target="_blank" rel="noopener">
+    <h3>Samsung's stacked zHBM targets a ten-fold jump in AI response speed</h3>
+    <p>Samsung's zHBM, which stacks HBM directly on the AI accelerator, is rated at about 8x performance and 3x power efficiency versus HBM, lifting agentic response from roughly 100 toward 1,000 tokens per second per user (presented Sept 16, Santa Clara).</p>
+    <p class="byline"><span class="src">Seoul Economic Daily</span> · 2026-09-18</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://edgen.tech/es/news/post/amd-passes-tsmcs-10-wafer-hike-to-customers-from-q4" target="_blank" rel="noopener">
+    <h3>AMD passes TSMC's ~10% wafer increase to customers from Q4 across AI accelerators, Radeon GPUs and chipsets</h3>
+    <p>AMD notified partners of a roughly 10% price increase from Q4 2026, fully passing through TSMC's wafer quote, with Intel planning a parallel ~10% PC CPU hike; DRAM contract prices are projected up 13-18% quarter-over-quarter as capacity shifts to HBM.</p>
+    <p class="byline"><span class="src">Edgen</span> · 2026-09-18</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://unhypers.com/rtx-5090-price/" target="_blank" rel="noopener">
+    <h3>RTX 5090 price tracker: $1,999 list, about $4,400 and sold out as memory drives the GPU market</h3>
+    <p>As of September 18, 2026 the RTX 5090 sat near $4,400 and marked sold out at Best Buy (a 5060 Ti 16GB 84% above launch price), driven by memory costs — one graphics memory chip moved from $2.61 to $11.84 in a year, and Nvidia's supply commitments jumped from $119B to $279B in a quarter, primarily for memory.</p>
+    <p class="byline"><span class="src">Unhypers</span> · 2026-09-19</p>
+  </a>
+</article>
+
+</div>
+
+
+    <div class="sections">
+      <section class="section">
+  <div class="section-head">
+    <h2>Research &amp; Papers</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  <a href="https://huggingface.co/papers/2609.19969" target="_blank" rel="noopener" class="section-hero"><img src="images/section_research_papers_2026-09-19.jpg" alt="" class="section-hero-img"><h4 class="hero-title">DeepSeek-V4.1-Flash: pushing the limits of KV cache compression</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://huggingface.co/papers/2609.19969" target="_blank" rel="noopener">
+    <h4>DeepSeek-V4.1-Flash: pushing the limits of KV cache compression</h4>
+    <p>Combines aggressive KV-cache compression with the streamlined DeepSeek-V4 architecture and a 45T-token multimodal pretraining run; the smaller cache footprint beats the baseline and eases HBM/SSD bandwidth pressure in long-context agent workloads.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-17</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/papers/2609.20784" target="_blank" rel="noopener">
+    <h4>RetireOPD: self-retiring on-policy distillation for agentic reinforcement learning</h4>
+    <p>Adaptive Retirement lets the student drop the teacher once the discrepancy stops shrinking, after which training continues with RL alone; on Qwen2.5 models from 1.5B to 7B it lifts ALFWorld success by 14.1% over the RL baseline.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-17</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/papers/2609.19671" target="_blank" rel="noopener">
+    <h4>When2Think: difficulty-aware length control for efficient hybrid reasoning models</h4>
+    <p>Learns when to use no-think versus think modes per instance; on AIME24, Pass@3 rises 10.0% while token usage drops 27.9% versus the base model, improving the accuracy-efficiency trade-off.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-17</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/papers/2609.20511" target="_blank" rel="noopener">
+    <h4>When EOS tokens disagree: length inflation in on-policy distillation</h4>
+    <p>Identifies termination-token mismatch between base students and post-trained teachers as a key source of length inflation in on-policy distillation across Qwen3, Llama and Gemma, and ships an implementation with corrected termination handling.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-17</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Open Weights &amp; Models</h2>
+    <span class="line"></span>
+    <span class="n">02</span>
+  </div>
+  <a href="https://huggingface.co/convaiinnovations/laya" target="_blank" rel="noopener" class="section-hero"><img src="images/section_open_weights_models_2026-09-19.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Laya: a freshly uploaded 0.4B text-classification model</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://huggingface.co/convaiinnovations/laya" target="_blank" rel="noopener">
+    <h4>Laya: a freshly uploaded 0.4B text-classification model</h4>
+    <p>Compact 0.4B-parameter text-classification model updated hours ago — small but genuinely new weights suited to constrained local and edge setups.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-19</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/WarmBloodAban/Minimax-h3_Singularity" target="_blank" rel="noopener">
+    <h4>Minimax-h3 Singularity: image-to-video variant surfaces in trending</h4>
+    <p>Image-to-video Singularity variant of the MiniMax-H3 line, 231k downloads in roughly a day — notable for local multimodal video pipelines.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-09-19</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Tools &amp; Runtimes</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  <a href="https://github.com/Fentaris/fentaris" target="_blank" rel="noopener" class="section-hero"><img src="images/section_tools_runtimes_2026-09-19.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Fentaris: an open-source proxy for managing multiple MCP servers</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://github.com/Fentaris/fentaris" target="_blank" rel="noopener">
+    <h4>Fentaris: an open-source proxy for managing multiple MCP servers</h4>
+    <p>A new open-source proxy tool for coordinating and managing multiple Model Context Protocol servers, introduced via Show HN.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-19</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/ringlochid/oh-my-subagents" target="_blank" rel="noopener">
+    <h4>Oh-my-subagents: local subagent orchestration for Codex and Claude</h4>
+    <p>A lightweight framework for orchestrating subagents locally alongside coding agents such as Codex and Claude.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-19</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://onpanda.diyer22.com/" target="_blank" rel="noopener">
+    <h4>OnPanda: steer LLMs and agents at the token level</h4>
+    <p>Fine-grained control over LLM outputs by steering token-level generation inside local agents.</p>
+    <p class="byline"><span class="src">OnPanda</span> · 2026-09-18</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://turnpanel.com" target="_blank" rel="noopener">
+    <h4>Turnpanel: a local-first AI workspace</h4>
+    <p>A local-first AI workspace designed to run entirely on-device for privacy-preserving workflows (Show HN).</p>
+    <p class="byline"><span class="src">Show HN</span> · 2026-09-18</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Self-Hosted Stack</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1v6n33i/llamacpp_now_has_full_mcp_support/" target="_blank" rel="noopener" class="section-hero"><img src="images/section_self_hosted_stack_2026-09-19.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Llama.cpp now has full MCP support</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1v6n33i/llamacpp_now_has_full_mcp_support/" target="_blank" rel="noopener">
+    <h4>Llama.cpp now has full MCP support</h4>
+    <p>The llama.cpp inference engine gained full Model Context Protocol support, giving locally run GGUF models standardized tool integration without a third-party bridge; the thread covers how the bundled web UI and Ollama-style setups pick up the new client behaviour.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-09-18</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://blog.n8n.io/reducing-ai-workflow-latency/" target="_blank" rel="noopener">
+    <h4>n8n: reducing AI workflow latency with patterns that actually work</h4>
+    <p>A measure-first order for cutting latency — profile model inference, tool calls and orchestration overhead, then apply routing, caching, parallel fan-out/fan-in, timeouts and budgets, each paired with ready-made templates for local GPU and OpenAI-compatible endpoints.</p>
+    <p class="byline"><span class="src">n8n Blog</span> · 2026-09-19</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.reddit.com/r/selfhosted/comments/1vr7zxf/thanks_a_lot_savespace_looking_for_an_alternative/" target="_blank" rel="noopener">
+    <h4>Savespace shuts down: the hunt for a lightweight self-hosted alternative</h4>
+    <p>A comparison of minimal self-hosted link-collection and summarizing stacks for the share-then-summarize flow, including keeping an on-device LLM in the loop for offline summaries in a no-telemetry setup.</p>
+    <p class="byline"><span class="src">r/selfhosted</span> · 2026-09-18</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.reddit.com/r/selfhosted/comments/1w1mmbi/universal_snapshot_explorer_use_200_added_native/" target="_blank" rel="noopener">
+    <h4>Universal Snapshot Explorer 2.0.0 adds native Btrfs and Snapper support</h4>
+    <p>A read-only snapshot browser (FastAPI plus vanilla-JavaScript web UI) renders an interactive timeline of snapshots — practical for homelabs relying on Btrfs/Snapper rollbacks alongside model and knowledge-base backups.</p>
+    <p class="byline"><span class="src">r/selfhosted</span> · 2026-09-18</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Hardware &amp; Edge</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  <a href="https://nanobyte.site/2026-09-18/asus-launches-80tops-ai-mini-computer-ascent-qn10-equipped-with-snapdragon-x2-elite" target="_blank" rel="noopener" class="section-hero"><img src="images/section_hardware_edge_2026-09-19.jpg" alt="" class="section-hero-img"><h4 class="hero-title">ASUS launches Ascent QN10, an 80-TOPS Snapdragon X2 Elite mini PC for on-device AI</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://nanobyte.site/2026-09-18/asus-launches-80tops-ai-mini-computer-ascent-qn10-equipped-with-snapdragon-x2-elite" target="_blank" rel="noopener">
+    <h4>ASUS launches Ascent QN10, an 80-TOPS Snapdragon X2 Elite mini PC for on-device AI</h4>
+    <p>The QN10 pairs the Snapdragon X2 Elite (18-core Oryon CPU) with an Adreno X2-90 GPU and a Hexagon NPU rated up to 80 TOPS, up to 32GB LPDDR5X and up to 2TB storage in a 1.6-pound chassis with Wi-Fi 7 and Bluetooth 6.0, plus access to Qualcomm's AI Hub with more than 175 pre-optimized models.</p>
+    <p class="byline"><span class="src">Nanobyte</span> · 2026-09-18</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://blog.nota.ai/insights/vla-edge-npu-optimization" target="_blank" rel="noopener">
+    <h4>Nota AI runs a VLA without a GPU, cutting latency from 1.6s to 230ms on a Qualcomm NPU</h4>
+    <p>Nota built its own runtime for on-device vision-language-action models, benchmarked five backbones on the same board and drove an SO-101 robot arm with GR00T N1.7; it notes published guidance for moving VLAs onto NPUs is still largely GPU-centric.</p>
+    <p class="byline"><span class="src">Nota AI</span> · 2026-09-18</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://peterfalkingham.com/2026-09-18/academic-tech-gigabyte-ai-top-nvidia-dgx-spark-review/" target="_blank" rel="noopener">
+    <h4>Gigabyte AI TOP review: 128GB coherent memory in a 1.2-litre, 50W Arm box</h4>
+    <p>The AI TOP ATOM carries the same GB10 Grace Blackwell superchip as the DGX Spark — a 20-core Arm CPU coherently stitched to a Blackwell GPU with 6,144 CUDA cores sharing 128GB LPDDR5X; 273 GB/s caps output at roughly 35-40 tok/s on gpt-oss-120B-class models, with Arm Linux binary gaps the main friction.</p>
+    <p class="byline"><span class="src">Peter Falkingham</span> · 2026-09-18</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+    </div>
+
+    <div class="trending-wrap">
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Repos on GitHub</h1>
+      <div class="t-line"></div>
+      <a href="https://github.com/trending" target="_blank" rel="noopener" class="t-link">Go to GitHub trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://github.com/cloudflare/security-audit-skill" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">cloudflare/security-audit-skill</span>
+    <span class="t-meta">JavaScript · 15.2k ★ · +3162 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/trycua/cua" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">trycua/cua</span>
+    <span class="t-meta">HTML · 23.9k ★ · +383 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/addyosmani/agent-skills" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">addyosmani/agent-skills</span>
+    <span class="t-meta">JavaScript · 96.7k ★ · +547 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/coder/coder" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">coder/coder</span>
+    <span class="t-meta">Go · 15.5k ★ · +406 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/anthropics/claude-code" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">anthropics/claude-code</span>
+    <span class="t-meta">TypeScript · 146.5k ★ · +482 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/higgsfield-ai/higgsfield" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">higgsfield-ai/higgsfield</span>
+    <span class="t-meta">Jupyter Notebook · 4.7k ★ · +325 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/docling-project/docling" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">docling-project/docling</span>
+    <span class="t-meta">Python · 66.8k ★ · +94 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/anthropics/knowledge-work-plugins" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">anthropics/knowledge-work-plugins</span>
+    <span class="t-meta">Python · 25.0k ★ · +280 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/cactus-compute/needle" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">cactus-compute/needle</span>
+    <span class="t-meta">Python · 11.4k ★ · +207 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/yynxxxxx/Codex-X" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">yynxxxxx/Codex-X</span>
+    <span class="t-meta">Rust · 3.3k ★ · +64 today</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+  
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Trending on HF</h1>
+      <div class="t-line"></div>
+      <a href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener" class="t-link">Go to Hugging Face trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">prism-ml/Ternary-Bonsai-2-27B-gguf</span>
+    <span class="t-meta">27B, ternary-quantized GGUF build for local inference</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">deepseek-ai/DeepSeek-V4.1-Flash</span>
+    <span class="t-meta">763B image-text-to-text multimodal model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Qwen/Qwen3.8-27B</span>
+    <span class="t-meta">28B image-text-to-text, Apache-licensed Qwen line</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/m-a-p/YuE2-3B" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">m-a-p/YuE2-3B</span>
+    <span class="t-meta">4B text-to-audio model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">XingChen-AGI/Xing4.0-29B-A4B</span>
+    <span class="t-meta">31B MoE, A4B active-parameter text generation</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF</span>
+    <span class="t-meta">27B, GGUF quant (GSQ+RCO) of Qwen3.8-27B</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/ukisai/Swift-Qwen3.8-27b" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">ukisai/Swift-Qwen3.8-27b</span>
+    <span class="t-meta">28B image-text-to-text, Swift-optimized build</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Lightricks/LTX-2.5" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">Lightricks/LTX-2.5</span>
+    <span class="t-meta">Image-to-video generation model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">harshatheg/Qwen-2.5-1B-RLCD</span>
+    <span class="t-meta">1B text generation, RLCD-trained compact model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF</span>
+    <span class="t-meta">27B, fused/merged GGUF build of Qwen3.8-27B</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+</div>
+
+
+    <section class="section" id="free-models">
+  <div class="section-head">
+    <h2>Free Models</h2>
+    <span class="line"></span>
+    <span class="n">27</span>
+  </div>
+
+  <p class="section-note">Free means $0 per token today, not unlimited or unconditional: both platforms rate-limit free use and require a free API key, some OpenRouter free endpoints may train on your prompts unless you opt out in account settings, and the roster changes daily. Verified against each provider's own pricing data at generation time — but pricing changes without notice, so confirm it's still free on the provider's own page before you rely on it.</p>
+
+  <div class="trending-wrap trending-wrap--in-section">
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenRouter</h1>
+        <div class="t-line"></div>
+        <a href="https://openrouter.ai/models?max_price=0" target="_blank" rel="noopener" class="t-link">Browse free models →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://openrouter.ai/cohere/north-mini-code:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Cohere: North Mini Code (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/deepseek/deepseek-v4-flash-0731:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">DeepSeek: DeepSeek V4 Flash 0731 (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/dots-studio/dots-3-note-preview:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Dots Studio: Dots3-Note Preview (free)</span>
+    <span class="t-meta">512K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-26b-a4b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Google: Gemma 4 26B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-31b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Google: Gemma 4 31B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.0-flash-fin:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">inclusionAI: Ling 3.0 Flash Fin (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.0-flash-sante:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">inclusionAI: Ling 3.0 Flash Sante (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.0-flash-vl:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">inclusionAI: Ling 3.0 Flash VL (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/liquid/lfm-2.5-2.6b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">LiquidAI: LFM2.5-2.6B (free)</span>
+    <span class="t-meta">65K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nex-agi/nex-n2.5-mini:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">Nex AGI: Nex-N2.5-Mini (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nex-agi/nex-n2.5-pro:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">Nex AGI: Nex-N2.5-Pro (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Nano Omni (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#13</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Super (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#14</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Ultra (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#15</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Content Safety (free)</span>
+    <span class="t-meta">128K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-lightning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#16</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Lightning (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-s-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#17</span>
+    <span class="t-name">Poolside: Laguna S 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-xs-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#18</span>
+    <span class="t-name">Poolside: Laguna XS 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/qwen/qwen3.8-27b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#19</span>
+    <span class="t-name">Qwen: Qwen3.8 27B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#20</span>
+    <span class="t-name">Thinking Machines: Inkling (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenCode Zen</h1>
+        <div class="t-line"></div>
+        <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener" class="t-link">See the full Zen catalog →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Big Pickle</span>
+    <span class="t-meta">big-pickle</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">MiMo-V2.5 Free</span>
+    <span class="t-meta">mimo-v2.5-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Ling 3.0 Flash Fin Free</span>
+    <span class="t-meta">ling-3.0-flash-fin-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Nemotron 3 Ultra Free</span>
+    <span class="t-meta">nemotron-3-ultra-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Nemotron 3.5 Lightning Free</span>
+    <span class="t-meta">nemotron-3.5-lightning-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">Muse Spark 1.3 Contributor Free</span>
+    <span class="t-meta">muse-spark-1.3-contributor-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">Jev 1.13 Free</span>
+    <span class="t-meta">jev-1.13-free</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <section class="inbrief">
+  <div class="section-head">
+    <h2>In Brief</h2>
+    <span class="line"></span>
+    <span class="n">12</span>
+  </div>
+  <ul class="qh-list">
+    <li><a href="https://github.com/ollama/ollama/releases/tag/v0.34.3-rc1" target="_blank" rel="noopener"><span class="qh-title">Ollama v0.34.3-rc1 ships with minor runtime fixes</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://github.com/ggml-org/llama.cpp/releases/tag/b11053" target="_blank" rel="noopener"><span class="qh-title">llama.cpp build b11053 lands with continued performance and stability work</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://www.youtube.com/watch?v=Pic4NLTjx6w" target="_blank" rel="noopener"><span class="qh-title">Gemini 4 RSI leak tops benchmarks, outpacing Astra and Fable</span><span class="qh-src">YouTube — Beyond AI News</span></a></li>
+
+    <li><a href="https://www.youtube.com/watch?v=PnTw998Tz7o" target="_blank" rel="noopener"><span class="qh-title">Former FTC technologist flags potential AI 'cartel' formation</span><span class="qh-src">YouTube — Bloomberg Technology</span></a></li>
+
+    <li><a href="https://www.youtube.com/watch?v=MRmnIuyQpnM" target="_blank" rel="noopener"><span class="qh-title">Trump opposes AI guardrails as chip sell-off continues</span><span class="qh-src">YouTube — Bloomberg Technology</span></a></li>
+
+    <li><a href="https://www.youtube.com/watch?v=cXv57P3gsPY" target="_blank" rel="noopener"><span class="qh-title">Franklin: safety concerns won't deter AI spending</span><span class="qh-src">YouTube — Bloomberg Technology</span></a></li>
+
+    <li><a href="https://www.youtube.com/watch?v=u3bX7W6haes" target="_blank" rel="noopener"><span class="qh-title">Anthropic's Claude expands its role across the AI development stack</span><span class="qh-src">YouTube — Bloomberg Technology</span></a></li>
+
+    <li><a href="https://www.youtube.com/watch?v=NmXhFS39ad0" target="_blank" rel="noopener"><span class="qh-title">Personal AI agents drive heightened industry interest</span><span class="qh-src">YouTube — The AI Daily Brief</span></a></li>
+
+    <li><a href="https://www.ai4business.it/intelligenza-artificiale/gemini-entra-nei-negozi-fisici-unieuro-e-google-cloud-lanciano-lai-agent-in-store/" target="_blank" rel="noopener"><span class="qh-title">Google Cloud's Gemini enters Unieuro physical stores with an in-store AI agent</span><span class="qh-src">AI4Business</span></a></li>
+
+    <li><a href="https://www.ai4business.it/intelligenza-artificiale/gpt-6-astra-alla-prova-17-minuti-per-costruire-83-secondi-per-correggere/" target="_blank" rel="noopener"><span class="qh-title">GPT-6 Astra put to the test: 17 minutes to build, 83 seconds to fix</span><span class="qh-src">AI4Business</span></a></li>
+
+    <li><a href="https://www.ai4business.it/intelligenza-artificiale/obblighi-di-trasparenza-nellai-act-cosa-prevede-larticolo-50/" target="_blank" rel="noopener"><span class="qh-title">Transparency obligations in the AI Act: what Article 50 provides</span><span class="qh-src">AI4Business</span></a></li>
+
+    <li><a href="https://www.latechmadeinitaly.com/e-se-la-tech-made-in-italy-avessi-20-unicorni-fra-1-3-anni/" target="_blank" rel="noopener"><span class="qh-title">Could Italy's tech ecosystem reach 20 unicorns within 1-3 years?</span><span class="qh-src">La Tech Made in Italy</span></a></li>
+
+  </ul>
+</section>
+
+
+    <footer class="colophon">
+      <p class="mark">Per aspera ad astra</p>
+      <p class="meta">Compiled by Hermes Agent · 2026-09-19 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
+    </footer>
+
+  </div>
+<div class="mo" id="mo" onclick="cm(event)"><div class="mb"><button class="mc" onclick="cm()">✕</button><h2 class="mh" id="mh"></h2><p class="mm">Source: <span id="ms"></span></p><div class="mbd" id="mbd"></div></div></div>
+<script>function openArt(el){var h=el.getAttribute('data-h'),b=el.getAttribute('data-b'),s=el.getAttribute('data-s'),u=el.getAttribute('data-u');document.getElementById('mh').textContent=h;var sl=document.getElementById('ms');if(u&&u!=='#'&&u!==''){sl.innerHTML='<a href="'+u+'" target="_blank" rel="noopener">'+s+'</a>';}else{sl.textContent=s;}var aiS='*— Written by AI (';var i=b.indexOf(aiS);if(i>=0){var bf=b.substring(0,i);var af=b.substring(i+aiS.length);var mdl=af.split(')')[0];bf=bf.split('\n').join('<br>');bf=bf.replace(/\*([^*]+)\*/g,'<em class="en">$1</em>');var sg='<div class="as"><span class="al">⬥ AI-GENERATED</span><br>Model: '+mdl+'</div>';document.getElementById('mbd').innerHTML=bf+sg;}else{document.getElementById('mbd').innerHTML=b.split('\n').join('<br>');}document.getElementById('mo').classList.add('a');document.body.style.overflow='hidden';}function cm(e){if(e&&e.target!=document.getElementById('mo'))return;document.getElementById('mo').classList.remove('a');document.body.style.overflow='';}document.addEventListener('keydown',function(e){if(e.key==='Escape')cm()});</script></body>
+</html>
