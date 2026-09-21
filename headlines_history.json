@@ -4622,6 +4622,156 @@
       "source": "TechCrunch",
       "date": "2026-09-20",
       "issue": 24
+    },
+    {
+      "text": "Alibaba ships Qwen-Image-2.1: a 7B open-weight model that draws in true RGBA",
+      "source": "Qwen (GitHub)",
+      "date": "2026-09-21",
+      "issue": 25
+    },
+    {
+      "text": "Acer warns PC prices could rise up to 20% in Q4 2026 despite improving memory supply",
+      "source": "TweakTown",
+      "date": "2026-09-21",
+      "issue": 25
+    },
+    {
+      "text": "No GPU, no problem: flagship LLMs run on a 14-year-old Xeon server with 348GB of DDR3",
+      "source": "Hackaday",
+      "date": "2026-09-21",
+      "issue": 25
+    },
+    {
+      "text": "Fluentry brings open-source local voice dictation to Linux, Wayland included",
+      "source": "Fluentry",
+      "date": "2026-09-21",
+      "issue": 25
+    },
+    {
+      "text": "NemotronLabs VoiceChat: an open full-duplex speech-to-speech model that calls tools",
+      "source": "arXiv",
+      "date": "2026-09-21",
+      "issue": 25
+    },
+    {
+      "text": "TierKV: predictive multi-tier KV caching puts on-device long context on a budget",
+      "source": "arXiv",
+      "date": "2026-09-21",
+      "issue": 25
+    },
+    {
+      "text": "SpecQuant: one base model, three quantizations, speculative decoding that routes by difficulty",
+      "source": "arXiv",
+      "date": "2026-09-21",
+      "issue": 25
+    },
+    {
+      "text": "An exact error decomposition for W4A4 quantization guides rotations and scaling rules",
+      "source": "arXiv",
+      "date": "2026-09-21",
+      "issue": 25
+    },
+    {
+      "text": "spark-image-lab: local Qwen-Image-2.1 generation and editing for NVIDIA DGX Spark",
+      "source": "GitHub",
+      "date": "2026-09-21",
+      "issue": 25
+    },
+    {
+      "text": "SwarmLLM pushes alpha builds of its peer-to-peer LLM inference network",
+      "source": "GitHub",
+      "date": "2026-09-21",
+      "issue": 25
+    },
+    {
+      "text": "A current map of self-hosted inference orchestrators: LocalAI, exo, GPUStack, vLLM",
+      "source": "NexLab",
+      "date": "2026-09-21",
+      "issue": 25
+    },
+    {
+      "text": "GPU street-price watch: 96GB RTX PRO 6000 tops $16,900, cheapest 16GB card now an RX 9060 XT at $519",
+      "source": "videocardprices.com",
+      "date": "2026-09-21",
+      "issue": 25
+    },
+    {
+      "text": "AMD Radeon RX 10800 XT remains unconfirmed; gaming was only ~7% of AMD's Q2 revenue",
+      "source": "TS2 Tech",
+      "date": "2026-09-21",
+      "issue": 25
+    },
+    {
+      "text": "The Weight Is Over: an on-device diffusion stack with sub-second time-to-first-image on consumer GPUs",
+      "source": "arXiv",
+      "date": "2026-09-21",
+      "issue": 25
+    },
+    {
+      "text": "RheoSampling resolves the one-hot dilemma in dynamic-tree speculative decoding at temperature > 0",
+      "source": "arXiv",
+      "date": "2026-09-21",
+      "issue": 25
+    },
+    {
+      "text": "jevals replaces LLM-as-judge scoring with typed decisions from small Jev models",
+      "source": "GitHub",
+      "date": "2026-09-21",
+      "issue": 25
+    },
+    {
+      "text": "WTF: a CLI that reports what your coding agent actually changed",
+      "source": "GitHub",
+      "date": "2026-09-21",
+      "issue": 25
+    },
+    {
+      "text": "Umami ships an MCP server for its self-hosted analytics",
+      "source": "Umami Analytics",
+      "date": "2026-09-21",
+      "issue": 25
+    },
+    {
+      "text": "AMD's tetrahedral-cage demo cuts ray-tracing acceleration memory from 80 GB to 1.7 GB on an RX 9070 XT",
+      "source": "WindowsForum",
+      "date": "2026-09-21",
+      "issue": 25
+    },
+    {
+      "text": "Terence Tao's call to slow down AI development goes viral at 4.5M views",
+      "source": "X (@AGTPinsights)",
+      "date": "2026-09-21",
+      "issue": 25
+    },
+    {
+      "text": "Jensen Huang says AI firms could be seeking liability protections",
+      "source": "X (@TheChiefNerd)",
+      "date": "2026-09-21",
+      "issue": 25
+    },
+    {
+      "text": "SanDisk revenue surges 372% YoY on the AI storage boom",
+      "source": "X (@stonkvalue)",
+      "date": "2026-09-21",
+      "issue": 25
+    },
+    {
+      "text": "Indian AI startup MindTron secures $45M Series B to expand rural healthcare diagnostics",
+      "source": "af.net",
+      "date": "2026-09-21",
+      "issue": 25
+    },
+    {
+      "text": "SIMEST opens a 200-million-euro credit line for AI investments by Italian SMEs",
+      "source": "SIMEST",
+      "date": "2026-09-21",
+      "issue": 25
+    },
+    {
+      "text": "EU-GENIA Academy born in Naples: Federico II and DXC Technology train generative-AI professionals",
+      "source": "Cinque Colonne Magazine",
+      "date": "2026-09-21",
+      "issue": 25
     }
   ]
 }
