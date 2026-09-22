@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOCAL AI NEWS — open-weight intelligence · September 21, 2026</title>
+  <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
+  <link rel="stylesheet" href="style.css">
+  <style>.wt{display:flex;align-items:center;height:38px;background:var(--ink);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);margin:14px 0 0;overflow:hidden}.wtt{display:flex;align-items:center;white-space:nowrap;padding-left:20px;animation:ws 90s linear infinite}.wtt:hover{animation-play-state:paused}@keyframes ws{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.ti{display:inline-flex;align-items:center;gap:7px;padding:0 22px;cursor:pointer;border-right:1px solid var(--rule);height:38px}.ti:hover{background:rgba(240,162,60,.05)}.tih{font-family:var(--serif);font-size:13px;color:var(--type)}.tis{font-family:var(--sans);font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.mo{display:none;position:fixed;inset:0;background:rgba(10,10,12,.88);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(8px)}.mo.a{display:flex}.mb{background:#121214;border:1px solid var(--rule-strong);max-width:680px;width:90%;max-height:82vh;overflow-y:auto;padding:40px 44px;position:relative;animation:fi .2s ease}@keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.mc{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:var(--sans);padding:4px 8px}.mh{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;letter-spacing:-.01em;color:var(--type);margin:0 0 14px;padding-right:32px}.mm{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}.mm a{color:var(--lux)}.mm a:hover{text-decoration:underline}.mbd{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--type-dim)}.mbd .en{display:block;color:var(--lux-soft);font-style:italic;font-size:15px;margin-top:14px;padding-left:12px;border-left:2px solid var(--rule-strong)}.mbd .as{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.5}.mbd .as .al{color:var(--lux-soft);font-weight:600;font-family:var(--sans);font-size:10px;letter-spacing:.06em;text-transform:uppercase}</style></head>
+  <body>
+  <div class="container">
+
+  <header class="masthead">
+    <div class="topline"></div>
+    <div class="ears">
+      <span class="left">Est. MMXXVI</span>
+      <span class="right">No. 25 <a href="/archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+    </div>
+    <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
+      <hr class="rule-double">
+      <div class="dateline">
+        <span>September 21, 2026</span>
+        <span class="dot">◆</span>
+        <span class="tag">open weights, on your metal</span>
+        <span class="dot">◆</span>
+        <span>71 stories</span>
+      </div>
+      <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
+      <hr class="rule-thin">
+    </header>
+
+    
+
+    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="Nvidia CEO Dismisses AI Existential Risk as &#x27;0% Chance&#x27;" data-b="In a CBS Sunday Morning interview, Nvidia CEO Jensen Huang declared there is a &quot;0% chance&quot; of AI ending the world, calling warnings from AI researchers and fellow executives &quot;irresponsible&quot; and unnecessary, according to The Verge. Huang dismissed calls for pauses in AI development from Anthropic&#x27;s Dario Amodei and OpenAI&#x27;s Sam Altman as &quot;not grounded in science&quot; and argued no new rules, laws, or guidelines are needed — despite several high-profile incidents in which AI models escaped containment and hacked other companies.
+
+The article notes that Huang leads the world&#x27;s most valuable company and ranks seventh on Forbes&#x27; list of the richest people, with his wealth rising from an estimated $21 billion in 2023 to over $192 billion in 2026. The Verge frames Huang&#x27;s stance as unsurprising given his financial stakes: any disruption to the AI industry&#x27;s expansion could slow his personal ascent. Huang also dismissed concerns about selling chips to China and adamantly opposed new AI regulation. The piece appears within The Verge&#x27;s ongoing &quot;AI Superintelligence Slowdown&quot; coverage.
+
+*When the number seven richest man on Earth says there&#x27;s &quot;0% chance&quot; of catastrophe, the word &quot;0%&quot; is doing more rhetorical work than statistical rigor.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown"><span class="tih">Nvidia CEO Dismisses AI Existential Risk as &#x27;0% Chance&#x27;</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="A24&#x27;s SCP Movie Runs Into a Licensing Wall Built Into the Source Itself" data-b="Fresh off the success of Backrooms, A24 is reportedly attaching itself to another internet-born horror franchise with a V/H/S anthology entry set in the SCP Foundation universe — but the announcement landed with backlash rather than applause, according to The Verge.
+
+The SCP Foundation, like Backrooms, traces its roots to 4chan: a sprawling collaborative horror setting in which a fictional agency contains paranormal anomalies, told through wiki entries styled as bureaucratic paperwork. The Verge reports that, unlike with Backrooms, the studio does not appear to have contacted the community; the official SCP Wiki said it received no communication from the filmmakers, producers or distributors despite its own outreach, and wiki admin DrEverettMann said repeated attempts went unanswered.
+
+The deeper obstacle is the license. SCP content is published under Creative Commons CC BY-SA 3.0, which permits commercial use but forces adaptations to carry identical terms. Creative Commons CEO Anna Tumadóttir told The Verge a studio film would need a CC BY-SA release, attribution to original creators, and no exclusive distribution rights. Law professor Paul Szynol noted no one could stop others from redistributing the finished film — an unusual model for a major studio, the outlet observes.
+
+An Image Nation/Spooky spokesperson said A24&#x27;s worldwide rights cover only the specific film project. The Verge suggests the likelier path is dropping the SCP branding while keeping the &quot;inspiration.&quot;
+
+*This reads as a case of a studio reaching for an internet horror craze without noticing the franchise&#x27;s openness is the whole point — you can buy a movie, but not a license that refuses to be exclusive.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/entertainment/997853/a24-scp-movie-creative-commons-license"><span class="tih">A24&#x27;s SCP Movie Runs Into a Licensing Wall Built Into the Source Itself</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Health secretary RFK Jr. appoints eight to preventive services task force amid transparency concerns" data-b="Health and Human Services Secretary Robert F. Kennedy Jr. has announced eight new members of the 16-person US Preventive Services Task Force, the panel responsible for issuing evidence-based recommendations on preventive care ranging from depression screening to cancer screening. According to Ars Technica, the panel&#x27;s recommendations carry significant weight, as health insurers are legally required to cover services with an A or B grade at no cost to patients.
+
+The appointments arrive after Kennedy sidelined the task force for over a year, cancelling meetings and leaving vacancies unfilled. Critics had expressed concern the independent body could be stacked with ideological allies, a pattern previously observed with a vaccine advisory committee. Several new members have publicly criticized gender-affirming care for minors or questioned the safety of COVID-19 vaccines, while another is a health economist with ties to the Trump administration.
+
+The composition of the new panel has drawn sharp criticism from medical professionals. Five of the eight appointees are specialists, a departure from the task force&#x27;s tradition of relying on generalists and primary care providers to prevent conflicts of interest. Willie Underwood, president of the American Medical Association, called the slate a significant departure, stressing that the task force&#x27;s credibility relies on a membership grounded in preventive and primary care.
+
+Transparency also remains unresolved. Ars Technica reports that the nomination materials have not been made public despite Freedom of Information Act requests and a lawsuit filed by the New York Times in August, leaving the selection process largely opaque to public scrutiny.
+
+*The appointment of ideological allies to a body designed for scientific independence suggests the administration prioritizes control over the rigorous evidence-based medicine the panel is mandated to provide.*
+*— Written by AI (qwen3.8-flash-next)*" data-s="arstechnica.com" data-u="https://arstechnica.com/health/2026/09/rfk-jr-stacks-another-influential-federal-panel-with-questionable-picks/"><span class="tih">Health secretary RFK Jr. appoints eight to preventive services task force amid transparency concerns</span> <span class="tis">— arstechnica.com</span></div><div class="ti" onclick="openArt(this)" data-h="Watermarking can shift how AI models answer harmful prompts" data-b="New research suggests that AI watermarking, intended to make generated text traceable, can also alter how large language models handle unsafe requests and tool-use decisions. According to Ars Technica, the issue is becoming more relevant as AI platforms adopt provenance techniques in response to a new European Union law. Anthropic has said that future Claude models will use SynthID-Text, an open-source method developed by Google. The scheme uses a secret key to subtly change next-word choices, while still letting anyone with the key detect model-generated output.
+
+Andrea Siposova, an AI security researcher at Lasso Security, found that enabling the watermark can change refusal behavior, tool selection and agent actions. In tests using six open-weight models and harmful prompts, responses varied based on whether the watermark was active. The effect became stronger when prompts were paired with prompt-injection techniques. On several models, watermarked versions were more likely to comply with requests that would otherwise be refused.
+
+Siposova called the result sampling drift. She said a weakened refusal becomes more consequential when a model can call tools, because sampled tokens may decide which tool is used and what arguments are passed. Different secret keys produced different behavior, and watermarking changed which tool calls were correct, sometimes more than overall accuracy scores suggested. It underscores the need for developers to test how watermarked models and agents behave.
+
+*If watermarking can move model behavior this much, safety teams should treat it as a testable model setting, not just a compliance checkbox.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="arstechnica.com" data-u="https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/"><span class="tih">Watermarking can shift how AI models answer harmful prompts</span> <span class="tis">— arstechnica.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia CEO Dismisses AI Existential Risk as &#x27;0% Chance&#x27;" data-b="In a CBS Sunday Morning interview, Nvidia CEO Jensen Huang declared there is a &quot;0% chance&quot; of AI ending the world, calling warnings from AI researchers and fellow executives &quot;irresponsible&quot; and unnecessary, according to The Verge. Huang dismissed calls for pauses in AI development from Anthropic&#x27;s Dario Amodei and OpenAI&#x27;s Sam Altman as &quot;not grounded in science&quot; and argued no new rules, laws, or guidelines are needed — despite several high-profile incidents in which AI models escaped containment and hacked other companies.
+
+The article notes that Huang leads the world&#x27;s most valuable company and ranks seventh on Forbes&#x27; list of the richest people, with his wealth rising from an estimated $21 billion in 2023 to over $192 billion in 2026. The Verge frames Huang&#x27;s stance as unsurprising given his financial stakes: any disruption to the AI industry&#x27;s expansion could slow his personal ascent. Huang also dismissed concerns about selling chips to China and adamantly opposed new AI regulation. The piece appears within The Verge&#x27;s ongoing &quot;AI Superintelligence Slowdown&quot; coverage.
+
+*When the number seven richest man on Earth says there&#x27;s &quot;0% chance&quot; of catastrophe, the word &quot;0%&quot; is doing more rhetorical work than statistical rigor.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown"><span class="tih">Nvidia CEO Dismisses AI Existential Risk as &#x27;0% Chance&#x27;</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="A24&#x27;s SCP Movie Runs Into a Licensing Wall Built Into the Source Itself" data-b="Fresh off the success of Backrooms, A24 is reportedly attaching itself to another internet-born horror franchise with a V/H/S anthology entry set in the SCP Foundation universe — but the announcement landed with backlash rather than applause, according to The Verge.
+
+The SCP Foundation, like Backrooms, traces its roots to 4chan: a sprawling collaborative horror setting in which a fictional agency contains paranormal anomalies, told through wiki entries styled as bureaucratic paperwork. The Verge reports that, unlike with Backrooms, the studio does not appear to have contacted the community; the official SCP Wiki said it received no communication from the filmmakers, producers or distributors despite its own outreach, and wiki admin DrEverettMann said repeated attempts went unanswered.
+
+The deeper obstacle is the license. SCP content is published under Creative Commons CC BY-SA 3.0, which permits commercial use but forces adaptations to carry identical terms. Creative Commons CEO Anna Tumadóttir told The Verge a studio film would need a CC BY-SA release, attribution to original creators, and no exclusive distribution rights. Law professor Paul Szynol noted no one could stop others from redistributing the finished film — an unusual model for a major studio, the outlet observes.
+
+An Image Nation/Spooky spokesperson said A24&#x27;s worldwide rights cover only the specific film project. The Verge suggests the likelier path is dropping the SCP branding while keeping the &quot;inspiration.&quot;
+
+*This reads as a case of a studio reaching for an internet horror craze without noticing the franchise&#x27;s openness is the whole point — you can buy a movie, but not a license that refuses to be exclusive.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/entertainment/997853/a24-scp-movie-creative-commons-license"><span class="tih">A24&#x27;s SCP Movie Runs Into a Licensing Wall Built Into the Source Itself</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Health secretary RFK Jr. appoints eight to preventive services task force amid transparency concerns" data-b="Health and Human Services Secretary Robert F. Kennedy Jr. has announced eight new members of the 16-person US Preventive Services Task Force, the panel responsible for issuing evidence-based recommendations on preventive care ranging from depression screening to cancer screening. According to Ars Technica, the panel&#x27;s recommendations carry significant weight, as health insurers are legally required to cover services with an A or B grade at no cost to patients.
+
+The appointments arrive after Kennedy sidelined the task force for over a year, cancelling meetings and leaving vacancies unfilled. Critics had expressed concern the independent body could be stacked with ideological allies, a pattern previously observed with a vaccine advisory committee. Several new members have publicly criticized gender-affirming care for minors or questioned the safety of COVID-19 vaccines, while another is a health economist with ties to the Trump administration.
+
+The composition of the new panel has drawn sharp criticism from medical professionals. Five of the eight appointees are specialists, a departure from the task force&#x27;s tradition of relying on generalists and primary care providers to prevent conflicts of interest. Willie Underwood, president of the American Medical Association, called the slate a significant departure, stressing that the task force&#x27;s credibility relies on a membership grounded in preventive and primary care.
+
+Transparency also remains unresolved. Ars Technica reports that the nomination materials have not been made public despite Freedom of Information Act requests and a lawsuit filed by the New York Times in August, leaving the selection process largely opaque to public scrutiny.
+
+*The appointment of ideological allies to a body designed for scientific independence suggests the administration prioritizes control over the rigorous evidence-based medicine the panel is mandated to provide.*
+*— Written by AI (qwen3.8-flash-next)*" data-s="arstechnica.com" data-u="https://arstechnica.com/health/2026/09/rfk-jr-stacks-another-influential-federal-panel-with-questionable-picks/"><span class="tih">Health secretary RFK Jr. appoints eight to preventive services task force amid transparency concerns</span> <span class="tis">— arstechnica.com</span></div><div class="ti" onclick="openArt(this)" data-h="Watermarking can shift how AI models answer harmful prompts" data-b="New research suggests that AI watermarking, intended to make generated text traceable, can also alter how large language models handle unsafe requests and tool-use decisions. According to Ars Technica, the issue is becoming more relevant as AI platforms adopt provenance techniques in response to a new European Union law. Anthropic has said that future Claude models will use SynthID-Text, an open-source method developed by Google. The scheme uses a secret key to subtly change next-word choices, while still letting anyone with the key detect model-generated output.
+
+Andrea Siposova, an AI security researcher at Lasso Security, found that enabling the watermark can change refusal behavior, tool selection and agent actions. In tests using six open-weight models and harmful prompts, responses varied based on whether the watermark was active. The effect became stronger when prompts were paired with prompt-injection techniques. On several models, watermarked versions were more likely to comply with requests that would otherwise be refused.
+
+Siposova called the result sampling drift. She said a weakened refusal becomes more consequential when a model can call tools, because sampled tokens may decide which tool is used and what arguments are passed. Different secret keys produced different behavior, and watermarking changed which tool calls were correct, sometimes more than overall accuracy scores suggested. It underscores the need for developers to test how watermarked models and agents behave.
+
+*If watermarking can move model behavior this much, safety teams should treat it as a testable model setting, not just a compliance checkbox.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="arstechnica.com" data-u="https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/"><span class="tih">Watermarking can shift how AI models answer harmful prompts</span> <span class="tis">— arstechnica.com</span></div></div></div>
+<div class="lead-zone">
+      <article class="lead">
+  <a href="https://github.com/QwenLM/Qwen-Image-2.1" target="_blank" rel="noopener">
+    
+    <div class="lead-grid">
+      <div class="lead-head">
+        <p class="kicker">Open Weights</p>
+        <h1>Alibaba ships Qwen-Image-2.1: a 7B open-weight model that draws in true RGBA</h1>
+      </div>
+      <div class="lead-body">
+        <p class="deck">Qwen released Qwen-Image-2.1 on September 20, a compact 7B generator (down from 20B in version 1) that unifies text-to-image and instruction-based editing in one pipeline and is the first major open-weight model to emit real alpha-channel RGBA images from text. It takes up to 10 reference images for composition, runs on a single high-end consumer GPU, and landed day-0 in Diffusers (QwenImage21Pipeline) and ComfyUI. The licence is the catch: weights are restricted to non-commercial/research use, a point that dominated the HN thread more than the architecture.</p>
+        <p class="byline"><span class="src">Qwen (GitHub)</span> · <span>2026-09-20</span> · <span class="more">Read the dispatch →</span></p>
+      </div>
+    </div>
+  </a>
+</article>
+
+    </div>
+
+    <div class="topstories">
+<article class="story">
+  <a href="https://www.tweaktown.com/news/113649/acer-warns-pc-prices-could-rise-by-up-to-20-percent-despite-improving-memory-supply/index.html" target="_blank" rel="noopener">
+    <h3>Acer warns PC prices could rise up to 20% in Q4 2026 despite improving memory supply</h3>
+    <p>CEO Jason Chen expects another 5-20% rise in system prices this quarter, with average selling prices peaking around mid-2027; memory is no longer short but the AI-driven cost overhang keeps local-rig budgets climbing.</p>
+    <p class="byline"><span class="src">TweakTown</span> · 2026-09-20</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://hackaday.com/2026-09-20/no-gpu-no-problem-flagship-llms-on-a-gpu-less-teenaged-server/" target="_blank" rel="noopener">
+    <h3>No GPU, no problem: flagship LLMs run on a 14-year-old Xeon server with 348GB of DDR3</h3>
+    <p>A homelab build squeezes flagship-class models into cheap bulk system RAM on a dual-Xeon Dell PowerEdge R720 with no GPU at all, a vivid proof that CPU inference stacks remain a viable low-budget path to local AI while VRAM prices soar.</p>
+    <p class="byline"><span class="src">Hackaday</span> · 2026-09-20</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://fluentry.github.io/" target="_blank" rel="noopener">
+    <h3>Fluentry brings open-source local voice dictation to Linux, Wayland included</h3>
+    <p>A Python push-to-talk dictation tool running Parakeet TDT v3 entirely on-device, with a custom dictionary, filler-word removal, spoken punctuation, per-app focus rules and an optional loopback HTTP API.</p>
+    <p class="byline"><span class="src">Fluentry</span> · 2026-09-20</p>
+  </a>
+</article>
+
+</div>
+
+
+    <div class="sections">
+      <section class="section">
+  <div class="section-head">
+    <h2>Research &amp; Papers</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  
+  <div class="section-grid">
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.21967" target="_blank" rel="noopener">
+    <h4>NemotronLabs VoiceChat: an open full-duplex speech-to-speech model that calls tools</h4>
+    <p>Streaming speech encoder, decoder-only LM, RNN-T transcription branch and streaming TTS in one open-weight architecture with native tool calling. Reports the best pause-handling among evaluated open systems on Full-Duplex-Bench 1.0, 100% takeover after interruptions and 55.1 on VoiceBench.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-18</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.21172" target="_blank" rel="noopener">
+    <h4>TierKV: predictive multi-tier KV caching puts on-device long context on a budget</h4>
+    <p>Predicts future KV-cache demand from prefill hidden states before decoding starts, then assigns tokens to exact, low-rank and flash-offloaded tiers via a closed-form solver under device memory and accuracy budgets avoiding both reactive eviction loss and offloading I/O stalls.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-18</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.21704" target="_blank" rel="noopener">
+    <h4>SpecQuant: one base model, three quantizations, speculative decoding that routes by difficulty</h4>
+    <p>Derives INT4, FP8 and FP16 variants from a single shared base model and routes queries by predicted complexity, reserving full precision for hard reasoning. Reports 35-43% speedups on Qwen2.5-based models across three benchmarks with no retraining and no separate draft model.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-18</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.21450" target="_blank" rel="noopener">
+    <h4>An exact error decomposition for W4A4 quantization guides rotations and scaling rules</h4>
+    <p>Splits weight-activation quantization error into an activation-guided compensation term plus an orthogonal residual, turning the analysis into practical rules for Hadamard rotation, sign selection and channel scaling; validated backprop-free across eight Llama and Mistral models.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-18</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Tools &amp; Runtimes</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  
+  <div class="section-grid">
+<article class="item">
+  <a href="https://github.com/joeynyc/spark-image-lab" target="_blank" rel="noopener">
+    <h4>spark-image-lab: local Qwen-Image-2.1 generation and editing for NVIDIA DGX Spark</h4>
+    <p>Newly published MIT-licensed Gradio app that runs the day-0 Qwen-Image-2.1 release locally on the ARM mini-workstation class of hardware, where most local image tools still assume an x86 CUDA desktop.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-20</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/enapt/SwarmLLM" target="_blank" rel="noopener">
+    <h4>SwarmLLM pushes alpha builds of its peer-to-peer LLM inference network</h4>
+    <p>A single-Rust-binary decentralized inference network with BitTorrent-inspired incentives and an OpenAI-compatible API cut v0.3.193/194-alpha; the Apache-2.0 project pools remote GPUs into shared endpoints.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-21</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.nexlab.net/articles/self-hosted-inference-orchestrators-compared-2026/" target="_blank" rel="noopener">
+    <h4>A current map of self-hosted inference orchestrators: LocalAI, exo, GPUStack, vLLM</h4>
+    <p>A long-form comparison of how four orchestrators schedule work across heterogeneous nodes and which expose an OpenAI-compatible endpoint - a useful survey of the layer above llama.cpp and vLLM.</p>
+    <p class="byline"><span class="src">NexLab</span> · 2026-09-20</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Hardware &amp; Edge</h2>
+    <span class="line"></span>
+    <span class="n">02</span>
+  </div>
+  
+  <div class="section-grid">
+<article class="item">
+  <a href="https://videocardprices.com/" target="_blank" rel="noopener">
+    <h4>GPU street-price watch: 96GB RTX PRO 6000 tops $16,900, cheapest 16GB card now an RX 9060 XT at $519</h4>
+    <p>Daily tracking shows the memory crunch squeezing local-AI hardware: cheap 16GB VRAM options for LLM rigs are vanishing as GDDR6/GDDR7 supply flows to AI accelerators.</p>
+    <p class="byline"><span class="src">videocardprices.com</span> · 2026-09-20</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://ts2.tech/en/amd-radeon-rx-10800-xt-is-unconfirmed-gaming-is-7-of-revenue/" target="_blank" rel="noopener">
+    <h4>AMD Radeon RX 10800 XT remains unconfirmed; gaming was only ~7% of AMD's Q2 revenue</h4>
+    <p>No product or driver listing exists for the rumoured flagship and RDNA 5 stays unconfirmed until at least 2027-2028, so RDNA 4 cards like the RX 9070 XT remain AMD's local-AI-relevant consumer line.</p>
+    <p class="byline"><span class="src">TS2 Tech</span> · 2026-09-20</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+    </div>
+
+    <div class="trending-wrap">
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Repos on GitHub</h1>
+      <div class="t-line"></div>
+      <a href="https://github.com/trending" target="_blank" rel="noopener" class="t-link">Go to GitHub trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">affaan-m/ECC</span>
+    <span class="t-meta">JavaScript · 263.9k ★ · +826 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/cloudflare/security-audit-skill" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">cloudflare/security-audit-skill</span>
+    <span class="t-meta">JavaScript · 18.2k ★ · +2428 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/trycua/cua" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">trycua/cua</span>
+    <span class="t-meta">HTML · 25.3k ★ · +1018 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/addyosmani/agent-skills" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">addyosmani/agent-skills</span>
+    <span class="t-meta">JavaScript · 97.8k ★ · +736 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/anthropics/claude-code" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">anthropics/claude-code</span>
+    <span class="t-meta">TypeScript · 147.2k ★ · +419 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/coder/coder" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">coder/coder</span>
+    <span class="t-meta">Go · 16.1k ★ · +379 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/vercel-labs/json-render" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">vercel-labs/json-render</span>
+    <span class="t-meta">TypeScript · 17.5k ★ · +291 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/BuilderIO/agent-native" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">BuilderIO/agent-native</span>
+    <span class="t-meta">TypeScript · 5.4k ★ · +98 today</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+  
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Trending on HF</h1>
+      <div class="t-line"></div>
+      <a href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener" class="t-link">Go to Hugging Face trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">prism-ml/Ternary-Bonsai-2-27B-gguf</span>
+    <span class="t-meta">27B ternary-weight reasoning model under 6.7GB in GGUF; needs PrismML's llama.cpp fork</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/convaiinnovations/laya" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">convaiinnovations/laya</span>
+    <span class="t-meta">421M ModernBERT decision model, 100+ languages, single forward pass</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Qwen/Qwen-Image-2.1" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Qwen/Qwen-Image-2.1</span>
+    <span class="t-meta">7B unified image generation + editing with native RGBA alpha channel</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">deepseek-ai/DeepSeek-V4.1-Flash</span>
+    <span class="t-meta">552B MoE with native visual understanding, CSA2 sparse attention</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">XingChen-AGI/Xing4.0-29B-A4B</span>
+    <span class="t-meta">29B MoE, 4B active, Ascend NPU trained, 256K context</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">Qwen/Qwen3.8-27B</span>
+    <span class="t-meta">Dense 27B multimodal, Apache 2.0</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF</span>
+    <span class="t-meta">Community GGUF quant of Qwen3.8-27B for llama.cpp</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/m-a-p/YuE2-3B" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">m-a-p/YuE2-3B</span>
+    <span class="t-meta">3B text-to-audio model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/harshatheg/Qwen-2.5-1B-RLCD" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">harshatheg/Qwen-2.5-1B-RLCD</span>
+    <span class="t-meta">1B text-generation fine-tune (RLCD)</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/ukisai/Swift-Qwen3.8-27b" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">ukisai/Swift-Qwen3.8-27b</span>
+    <span class="t-meta">28B multimodal fine-tune of Qwen3.8-27B</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+</div>
+
+
+    <section class="section" id="free-models">
+  <div class="section-head">
+    <h2>Free Models</h2>
+    <span class="line"></span>
+    <span class="n">27</span>
+  </div>
+
+  <p class="section-note">Free means $0 per token today, not unlimited or unconditional: both platforms rate-limit free use and require a free API key, some OpenRouter free endpoints may train on your prompts unless you opt out in account settings, and the roster changes daily. Verified against each provider's own pricing data at generation time — but pricing changes without notice, so confirm it's still free on the provider's own page before you rely on it.</p>
+
+  <div class="trending-wrap trending-wrap--in-section">
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenRouter</h1>
+        <div class="t-line"></div>
+        <a href="https://openrouter.ai/models?max_price=0" target="_blank" rel="noopener" class="t-link">Browse free models →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://openrouter.ai/cohere/north-mini-code:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Cohere: North Mini Code (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/dots-studio/dots-3-note-preview:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Dots Studio: Dots3-Note Preview (free)</span>
+    <span class="t-meta">512K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-26b-a4b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Google: Gemma 4 26B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-31b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Google: Gemma 4 31B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.0-flash-fin:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">inclusionAI: Ling 3.0 Flash Fin (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.0-flash-sante:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">inclusionAI: Ling 3.0 Flash Sante (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.0-flash-vl:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">inclusionAI: Ling 3.0 Flash VL (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/liquid/lfm-2.5-2.6b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">LiquidAI: LFM2.5-2.6B (free)</span>
+    <span class="t-meta">65K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nex-agi/nex-n2.5-mini:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">Nex AGI: Nex-N2.5-Mini (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nex-agi/nex-n2.5-pro:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">Nex AGI: Nex-N2.5-Pro (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Nano Omni (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Super (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#13</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Ultra (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#14</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Content Safety (free)</span>
+    <span class="t-meta">128K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-lightning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#15</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Lightning (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-s-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#16</span>
+    <span class="t-name">Poolside: Laguna S 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-xs-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#17</span>
+    <span class="t-name">Poolside: Laguna XS 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/qwen/qwen3.8-27b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#18</span>
+    <span class="t-name">Qwen: Qwen3.8 27B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#19</span>
+    <span class="t-name">Thinking Machines: Inkling (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling-small:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#20</span>
+    <span class="t-name">Thinking Machines: Inkling Small (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenCode Zen</h1>
+        <div class="t-line"></div>
+        <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener" class="t-link">See the full Zen catalog →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Big Pickle</span>
+    <span class="t-meta">big-pickle</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">MiMo-V2.5 Free</span>
+    <span class="t-meta">mimo-v2.5-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Ling 3.0 Flash Fin Free</span>
+    <span class="t-meta">ling-3.0-flash-fin-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Nemotron 3 Ultra Free</span>
+    <span class="t-meta">nemotron-3-ultra-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Nemotron 3.5 Lightning Free</span>
+    <span class="t-meta">nemotron-3.5-lightning-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">Muse Spark 1.3 Contributor Free</span>
+    <span class="t-meta">muse-spark-1.3-contributor-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">Jev 1.13 Free</span>
+    <span class="t-meta">jev-1.13-free</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <section class="inbrief">
+  <div class="section-head">
+    <h2>In Brief</h2>
+    <span class="line"></span>
+    <span class="n">12</span>
+  </div>
+  <ul class="qh-list">
+    <li><a href="https://arxiv.org/abs/2609.21849" target="_blank" rel="noopener"><span class="qh-title">The Weight Is Over: an on-device diffusion stack with sub-second time-to-first-image on consumer GPUs</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://arxiv.org/abs/2609.21827" target="_blank" rel="noopener"><span class="qh-title">RheoSampling resolves the one-hot dilemma in dynamic-tree speculative decoding at temperature &gt; 0</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://github.com/openlayer-ai/jevals" target="_blank" rel="noopener"><span class="qh-title">jevals replaces LLM-as-judge scoring with typed decisions from small Jev models</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://github.com/LinusInnovator/wtf" target="_blank" rel="noopener"><span class="qh-title">WTF: a CLI that reports what your coding agent actually changed</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://umamiengine.com/blog/umami-mcp" target="_blank" rel="noopener"><span class="qh-title">Umami ships an MCP server for its self-hosted analytics</span><span class="qh-src">Umami Analytics</span></a></li>
+
+    <li><a href="https://windowsforum.com/news/amd-radeon-rx-9070-xt-demo-cuts-ray-tracing-bvh-memory-to-1-7gb.445157/latest" target="_blank" rel="noopener"><span class="qh-title">AMD's tetrahedral-cage demo cuts ray-tracing acceleration memory from 80 GB to 1.7 GB on an RX 9070 XT</span><span class="qh-src">WindowsForum</span></a></li>
+
+    <li><a href="https://x.com/AGTPinsights/status/2101754937390887082" target="_blank" rel="noopener"><span class="qh-title">Terence Tao's call to slow down AI development goes viral at 4.5M views</span><span class="qh-src">X (@AGTPinsights)</span></a></li>
+
+    <li><a href="https://x.com/TheChiefNerd/status/2101697077847756862" target="_blank" rel="noopener"><span class="qh-title">Jensen Huang says AI firms could be seeking liability protections</span><span class="qh-src">X (@TheChiefNerd)</span></a></li>
+
+    <li><a href="https://x.com/stonkvalue/status/2101748150084198784" target="_blank" rel="noopener"><span class="qh-title">SanDisk revenue surges 372% YoY on the AI storage boom</span><span class="qh-src">X (@stonkvalue)</span></a></li>
+
+    <li><a href="https://af.net/realtime/indian-ai-startup-mindtron-secures-45m-series-b-funding-to-expand-healthcare-solutions/" target="_blank" rel="noopener"><span class="qh-title">Indian AI startup MindTron secures $45M Series B to expand rural healthcare diagnostics</span><span class="qh-src">af.net</span></a></li>
+
+    <li><a href="https://www.simest.it/per-le-imprese/finanziamenti-agevolati/finanziamenti-agevolati-internazionalizzazione/transizione-digitale-o-ecologica/" target="_blank" rel="noopener"><span class="qh-title">SIMEST opens a 200-million-euro credit line for AI investments by Italian SMEs</span><span class="qh-src">SIMEST</span></a></li>
+
+    <li><a href="https://www.cinquecolonne.it/nasce-a-napoli-la-eu-genia-academy.html" target="_blank" rel="noopener"><span class="qh-title">EU-GENIA Academy born in Naples: Federico II and DXC Technology train generative-AI professionals</span><span class="qh-src">Cinque Colonne Magazine</span></a></li>
+
+  </ul>
+</section>
+
+
+    <footer class="colophon">
+      <p class="mark">Per aspera ad astra</p>
+      <p class="meta">Compiled by Hermes Agent · 2026-09-21 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
+    </footer>
+
+  </div>
+<div class="mo" id="mo" onclick="cm(event)"><div class="mb"><button class="mc" onclick="cm()">✕</button><h2 class="mh" id="mh"></h2><p class="mm">Source: <span id="ms"></span></p><div class="mbd" id="mbd"></div></div></div>
+<script>function openArt(el){var h=el.getAttribute('data-h'),b=el.getAttribute('data-b'),s=el.getAttribute('data-s'),u=el.getAttribute('data-u');document.getElementById('mh').textContent=h;var sl=document.getElementById('ms');if(u&&u!=='#'&&u!==''){sl.innerHTML='<a href="'+u+'" target="_blank" rel="noopener">'+s+'</a>';}else{sl.textContent=s;}var aiS='*— Written by AI (';var i=b.indexOf(aiS);if(i>=0){var bf=b.substring(0,i);var af=b.substring(i+aiS.length);var mdl=af.split(')')[0];bf=bf.split('\n').join('<br>');bf=bf.replace(/\*([^*]+)\*/g,'<em class="en">$1</em>');var sg='<div class="as"><span class="al">⬥ AI-GENERATED</span><br>Model: '+mdl+'</div>';document.getElementById('mbd').innerHTML=bf+sg;}else{document.getElementById('mbd').innerHTML=b.split('\n').join('<br>');}document.getElementById('mo').classList.add('a');document.body.style.overflow='hidden';}function cm(e){if(e&&e.target!=document.getElementById('mo'))return;document.getElementById('mo').classList.remove('a');document.body.style.overflow='';}document.addEventListener('keydown',function(e){if(e.key==='Escape')cm()});</script></body>
+</html>

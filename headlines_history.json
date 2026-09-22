@@ -4772,6 +4772,216 @@
       "source": "Cinque Colonne Magazine",
       "date": "2026-09-21",
       "issue": 25
+    },
+    {
+      "text": "Open WebUI v0.11.4 cuts its slim container by ~89% and adds terminal skills plus AGENTS.md support",
+      "source": "GitHub",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "M5 Ultra Mac Studio review roundups frame Apple's quad-die desktop as a local AI machine",
+      "source": "9to5Mac",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "Google's Googlebook line mandates a 40+ TOPS NPU and 16GB RAM for on-device Gemini",
+      "source": "Image Matrix Tech",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "ComfyUI v0.37.0 adds MoGe-3 support and faster-disk auto-detection",
+      "source": "GitHub",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "Qualcomm previews the next Hexagon NPU for Snapdragon 8 Elite Gen 6 ahead of Snapdragon Summit",
+      "source": "Hackware News",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "SPECTRA adaptively schedules speculative decoding on a runtime-reconfigurable tiled architecture",
+      "source": "arXiv",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "SPHQuant pushes vision-language models to extreme low-bit weight-only quantization",
+      "source": "arXiv",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "Hypernetworks generate per-user LoRA adapters for on-device LLM personalization",
+      "source": "arXiv",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "KV-COBRA co-optimizes bit and rank budgets per attention head",
+      "source": "arXiv",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "H-Spec drops the drafter-side KV cache in block-diffusion speculative decoding",
+      "source": "arXiv",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "Yandex open-sources AliceAI-Foundation-80B-A3B: an 80B MoE trained from scratch, Apache 2.0",
+      "source": "HuggingFace",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "Xiaomi open-sources the MiMo-V2.6 omnimodal models \u2014 and the RL machinery behind them",
+      "source": "HuggingFace",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "DSpark draft models for Liquid AI's LFM2.5 series claim a 3.18x speculative-decoding speedup",
+      "source": "xix.ai",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "tokenizers v1: Hugging Face rewrites its tokenizer pipeline around bitstreams",
+      "source": "Hugging Face",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "llama.cpp builds b11090\u2013b11095 ship HMX-optimized gated delta-net kernels for Hexagon",
+      "source": "GitHub",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "Nanosamurai.ai is an Ollama-style local speech-to-text platform for sensitive audio",
+      "source": "GitHub",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "Motif gives coding-agent teams one shared working memory over MCP",
+      "source": "GitHub",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "Foremerge catches intent conflicts between parallel coding agents before they become merge conflicts",
+      "source": "GitHub",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "AWS open-sources Strands Harness, a deploy-anywhere agent that runs against your own model endpoint",
+      "source": "SiliconANGLE",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "Helical Insight hits 1,000 stars: open-source BI with bring-your-own-LLM via local Ollama",
+      "source": "Punjab Kesari English",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "Runtime patch wave: Ollama v0.34.2, llama.cpp v0.4.1, ggml v0.24.0, SGLang v0.5.20",
+      "source": "Local Model Watch",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "MSI EdgeMesa N AI+ mini PC surfaces: 20-core Nvidia RTX Spark SoC, 128GB LPDDR5x",
+      "source": "LavX News",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "MediaTek Dimensity CX C10 Max debuts a 55-TOPS NPU for AI-first laptops",
+      "source": "PR Newswire APAC (MediaTek)",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "BrainChip ships the AKD1500 PCIe card for ultra-low-power edge AI",
+      "source": "Design And Reuse",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "relore gives coding and CI agents repository memory so they stop duplicating fixes in flight",
+      "source": "Hugging Face",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "Maki: an open-source multi-agent LLM framework for local or hosted models",
+      "source": "GitHub",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "Fusion-runtime streams STT, LLM and TTS into each other in one self-hosted process",
+      "source": "GitHub",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "Local-coder turns local models into a private team of coding agents",
+      "source": "GitHub",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "Quantization preserves the answer but flips 14-46% of top-1 retrieval results",
+      "source": "arXiv",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "Explanation-aware PTQ stops quantized medical LLMs silently degrading their rationales",
+      "source": "arXiv",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "SoftBank launches an $11B bond sale to fund its OpenAI position",
+      "source": "TechStartups",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "Xingyun Integrated Circuit raises about $110M to expand China's domestic AI-chip capacity",
+      "source": "TechStartups",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "Samsung group commits up to $100M to Kairos Power's 50 MW nuclear reactor for Google's AI power plan",
+      "source": "TechCrunch",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "Feldera raises $21.5M to cut database compute costs by 95% for AI workloads",
+      "source": "TechStartups",
+      "date": "2026-09-22",
+      "issue": 26
+    },
+    {
+      "text": "Rozes, the Italian AI that flags corporate-crime risk, is summoned to Parliament on September 30",
+      "source": "ANSA",
+      "date": "2026-09-22",
+      "issue": 26
     }
   ]
 }
