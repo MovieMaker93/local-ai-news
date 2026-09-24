@@ -4982,6 +4982,186 @@
       "source": "ANSA",
       "date": "2026-09-22",
       "issue": 26
+    },
+    {
+      "text": "Qualcomm's Snapdragon 8 Elite Extreme Gen 6 runs 30B-parameter MoE models fully on-device",
+      "source": "TechTimes",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "Black Forest Labs releases FLUX 3 Action, an open-weights 7B world action model you can fine-tune",
+      "source": "Hugging Face",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "llama.cpp v0.5.0 lands with HRM-Text support, CUDA conv2d acceleration and Metal MoE fusions",
+      "source": "GitHub",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "TrendForce: Micron's 2GB GDDR7 exit narrows supply options for NVIDIA's RTX 50 series",
+      "source": "TrendForce",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "UECR-GRPO unifies on-policy distillation and GRPO through entropy-calibrated credit",
+      "source": "arXiv",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "RAMP: adaptive mixed-precision quantization for edge CPU vision models, no GPU needed",
+      "source": "arXiv",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "MicroQonv reshapes convolution tensors for efficient microscaling in training and inference",
+      "source": "arXiv",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "Curvature-priced 'quantization price' tables select PTQ configurations before deployment",
+      "source": "arXiv",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "Small-lab drop: Altworld's Hemmingway-1, a 27B Apache-2.0 Qwen3.8 fine-tune that writes like a human",
+      "source": "Hugging Face",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "NVIDIA releases Nemotron 3 Diarization, an open-weight 100M speaker-diarization model",
+      "source": "Hugging Face",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "Basis AI releases Conversations 1500: 1,500 hours of full-duplex speech, free for commercial use",
+      "source": "Hugging Face",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "Ollama v0.34.4 fixes 'model not found' errors and speeds up Qwen 3.8 on Apple Silicon",
+      "source": "GitHub",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "Unsloth v0.1.815-beta runs FP8 Qwen-Image-2.1 locally, with 2x faster reasoning blocks",
+      "source": "GitHub",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "llama.cpp b11117 optimizes HIP quantization kernels for AMD GPUs",
+      "source": "Freedom.Tech (llama.cpp release notes)",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "Serving-stack digest: vLLM v0.30.0 stable, llama.cpp b11115, LiteLLM v1.102.0 security release",
+      "source": "GitHub (agents-radar issue digest)",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "On Apple Silicon, Ollama is MLX under the hood on 32GB+ Macs",
+      "source": "DEV Community",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "4GB and 6GB GDDR7 chips planned for 2027-2028, promising denser VRAM on narrower buses",
+      "source": "Overclock3D",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "Next-gen AMD RDNA 5 'AT2' GPU specs leak: 70 compute units targeting 3.1-3.4 GHz",
+      "source": "Overclock3D",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "Banma unveils AutoOmni 2.0-23B-A3B, a 23B omni-modal on-device cockpit LLM",
+      "source": "PR Newswire (via Yahoo Finance)",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "Mizar: a 159M-parameter audio-language model that answers locally on a single CPU",
+      "source": "arXiv",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "'RL starts before RL': on-policy distillation as a pre-RL preparation stage lifts final scores",
+      "source": "arXiv",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "ggml v0.25.1 maintenance release lands alongside llama.cpp v0.5.0",
+      "source": "GitHub",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "Show HN: AgentRun \u2014 a DSL to turn coding-agent runs into reproducible workflows",
+      "source": "GitHub",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "Show HN: RondoFlow \u2014 local-first visual orchestration of Claude Code agents",
+      "source": "GitHub",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "Show HN: Ax \u2014 a local exchange where coding agents talk to each other",
+      "source": "Ax",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "Google DeepMind adds fine-tunable delivery control to Gemini TTS, all audio watermarked with SynthID",
+      "source": "GoogleDeepMind (X)",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "Bessemer Venture Partners raises $5.75B across two funds for the AI stack",
+      "source": "TechCrunch",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "Enveda secures $311M Series E at a $2B valuation for nature-derived AI drug discovery",
+      "source": "TechCrunch",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "Ema raises $77M Series B as 'AI employees' eat into enterprise software and services",
+      "source": "TechCrunch",
+      "date": "2026-09-24",
+      "issue": 27
+    },
+    {
+      "text": "SophIA launches: 27.5 million euros for Italian AI, startups and deep tech",
+      "source": "AI4Business",
+      "date": "2026-09-24",
+      "issue": 27
     }
   ]
 }
