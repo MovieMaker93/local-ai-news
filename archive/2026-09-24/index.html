@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOCAL AI NEWS — open-weight intelligence · September 24, 2026</title>
+  <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
+  <link rel="stylesheet" href="style.css">
+  <style>.wt{display:flex;align-items:center;height:38px;background:var(--ink);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);margin:14px 0 0;overflow:hidden}.wtt{display:flex;align-items:center;white-space:nowrap;padding-left:20px;animation:ws 90s linear infinite}.wtt:hover{animation-play-state:paused}@keyframes ws{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.ti{display:inline-flex;align-items:center;gap:7px;padding:0 22px;cursor:pointer;border-right:1px solid var(--rule);height:38px}.ti:hover{background:rgba(240,162,60,.05)}.tih{font-family:var(--serif);font-size:13px;color:var(--type)}.tis{font-family:var(--sans);font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.mo{display:none;position:fixed;inset:0;background:rgba(10,10,12,.88);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(8px)}.mo.a{display:flex}.mb{background:#121214;border:1px solid var(--rule-strong);max-width:680px;width:90%;max-height:82vh;overflow-y:auto;padding:40px 44px;position:relative;animation:fi .2s ease}@keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.mc{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:var(--sans);padding:4px 8px}.mh{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;letter-spacing:-.01em;color:var(--type);margin:0 0 14px;padding-right:32px}.mm{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}.mm a{color:var(--lux)}.mm a:hover{text-decoration:underline}.mbd{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--type-dim)}.mbd .en{display:block;color:var(--lux-soft);font-style:italic;font-size:15px;margin-top:14px;padding-left:12px;border-left:2px solid var(--rule-strong)}.mbd .as{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.5}.mbd .as .al{color:var(--lux-soft);font-weight:600;font-family:var(--sans);font-size:10px;letter-spacing:.06em;text-transform:uppercase}</style></head>
+  <body>
+  <div class="container">
+
+  <header class="masthead">
+    <div class="topline"></div>
+    <div class="ears">
+      <span class="left">Est. MMXXVI</span>
+      <span class="right">No. 27 <a href="/archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+    </div>
+    <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
+      <hr class="rule-double">
+      <div class="dateline">
+        <span>September 24, 2026</span>
+        <span class="dot">◆</span>
+        <span class="tag">open weights, on your metal</span>
+        <span class="dot">◆</span>
+        <span>80 stories</span>
+      </div>
+      <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
+      <hr class="rule-thin">
+    </header>
+
+    
+
+    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="Microsoft&#x27;s Smallest Surface Devices Get Snapdragon X2 Plus Upgrades and Sharper Price Tags" data-b="Microsoft has refreshed its entry-level Surface Pro 12-inch and Surface Laptop 13-inch with Qualcomm&#x27;s six-core Snapdragon X2 Plus processor, retaining last year&#x27;s chassis, ports and screen specs while pushing starting prices sharply higher. According to The Verge, the Surface Pro 12-inch Second Edition debuts on October 13 at $1,149.99, up from $799.99 at its original launch, while the Surface Laptop 13-inch Second Edition climbs from $899.99 to $1,199.99. Part of that jump comes from dropping the 8GB tier: both models now ship with a minimum of 16GB of RAM, configurable up to 24GB.
+
+Microsoft says the new silicon brings up to 18 percent better battery efficiency, more than 60 percent faster graphics, and up to 95 percent faster local AI inference on the integrated NPU. Concretely, the Surface Pro gains an hour of web browsing, reaching 13 hours, and the Laptop gains two hours, reaching 18. Both displays stay at their previous resolutions and refresh rates — 2196 x 1464 at up to 90Hz on the Pro, 1920 x 1280 at 60Hz on the Laptop — but brightness improves from 400 to 500 nits. Each device keeps two USB-C 3.2 ports; the Laptop adds USB-A and a headphone jack, and both support Wi-Fi 7 and Bluetooth 5.4. Black returns as a finish alongside platinum silver and violet, and the Surface Pro offers an optional 5G configuration for commercial buyers.
+
+*A 44 percent price bump for an internal chip swap, with identical screens and ports, makes these &quot;Second Editions&quot; feel more like a memory-market casualty than a true refresh.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/news/999195/microsoft-surface-pro-12-inch-surface-laptop-13-inch-qualcomm-x2-plus"><span class="tih">Microsoft&#x27;s Smallest Surface Devices Get Snapdragon X2 Plus Upgrades and Sharper Price Tags</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Former NASA chief sounds alarm on China&#x27;s lunar &quot;exploration&quot; plans" data-b="Former NASA Administrator Bill Nelson is set to publish a memoir in which he warns that the United States must fight to keep its lead in space exploration, according to Ars Technica. The book, titled Space Odyssey and due from Harper Horizon in January 2027, argues Beijing aims to control what Nelson calls the &quot;high ground&quot; of the twenty-first century.
+
+Nelson, who flew on a shuttle mission in 1986 and led NASA from May 2021 to January 2025 under President Biden, points to the early-2023 Chinese spy balloon incident as evidence of an escalating rivalry. He helped NASA support the military by advising how to down the balloon without endangering people on the ground.
+
+On the Moon, Nelson writes that America is &quot;not the obvious favorite,&quot; describing China as building infrastructure for permanent presence at the resource-rich South Pole. Current NASA Administrator Jared Isaacman echoed similar urgency at a Washington conference, warning that China&#x27;s plans — including a nuclear reactor and Russian partnership — could deny the United States access to key lunar sites.
+
+Nelson urges readers not to mistake Beijing&#x27;s program for mere exploration, calling it a struggle for space supremacy that will decide who sets the rules for humanity&#x27;s expansion beyond Earth.
+
+*Nelson&#x27;s framing strips away the diplomatic polish around lunar exploration and names the competition plainly — which may finally shake loose complacency in Washington.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="arstechnica.com" data-u="https://arstechnica.com/space/2026/09/former-nasa-chief-sounds-alarm-on-chinas-lunar-exploration-plans/"><span class="tih">Former NASA chief sounds alarm on China&#x27;s lunar &quot;exploration&quot; plans</span> <span class="tis">— arstechnica.com</span></div><div class="ti" onclick="openArt(this)" data-h="Microsoft&#x27;s Smallest Surface Devices Get Snapdragon X2 Plus Upgrades and Sharper Price Tags" data-b="Microsoft has refreshed its entry-level Surface Pro 12-inch and Surface Laptop 13-inch with Qualcomm&#x27;s six-core Snapdragon X2 Plus processor, retaining last year&#x27;s chassis, ports and screen specs while pushing starting prices sharply higher. According to The Verge, the Surface Pro 12-inch Second Edition debuts on October 13 at $1,149.99, up from $799.99 at its original launch, while the Surface Laptop 13-inch Second Edition climbs from $899.99 to $1,199.99. Part of that jump comes from dropping the 8GB tier: both models now ship with a minimum of 16GB of RAM, configurable up to 24GB.
+
+Microsoft says the new silicon brings up to 18 percent better battery efficiency, more than 60 percent faster graphics, and up to 95 percent faster local AI inference on the integrated NPU. Concretely, the Surface Pro gains an hour of web browsing, reaching 13 hours, and the Laptop gains two hours, reaching 18. Both displays stay at their previous resolutions and refresh rates — 2196 x 1464 at up to 90Hz on the Pro, 1920 x 1280 at 60Hz on the Laptop — but brightness improves from 400 to 500 nits. Each device keeps two USB-C 3.2 ports; the Laptop adds USB-A and a headphone jack, and both support Wi-Fi 7 and Bluetooth 5.4. Black returns as a finish alongside platinum silver and violet, and the Surface Pro offers an optional 5G configuration for commercial buyers.
+
+*A 44 percent price bump for an internal chip swap, with identical screens and ports, makes these &quot;Second Editions&quot; feel more like a memory-market casualty than a true refresh.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/news/999195/microsoft-surface-pro-12-inch-surface-laptop-13-inch-qualcomm-x2-plus"><span class="tih">Microsoft&#x27;s Smallest Surface Devices Get Snapdragon X2 Plus Upgrades and Sharper Price Tags</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Former NASA chief sounds alarm on China&#x27;s lunar &quot;exploration&quot; plans" data-b="Former NASA Administrator Bill Nelson is set to publish a memoir in which he warns that the United States must fight to keep its lead in space exploration, according to Ars Technica. The book, titled Space Odyssey and due from Harper Horizon in January 2027, argues Beijing aims to control what Nelson calls the &quot;high ground&quot; of the twenty-first century.
+
+Nelson, who flew on a shuttle mission in 1986 and led NASA from May 2021 to January 2025 under President Biden, points to the early-2023 Chinese spy balloon incident as evidence of an escalating rivalry. He helped NASA support the military by advising how to down the balloon without endangering people on the ground.
+
+On the Moon, Nelson writes that America is &quot;not the obvious favorite,&quot; describing China as building infrastructure for permanent presence at the resource-rich South Pole. Current NASA Administrator Jared Isaacman echoed similar urgency at a Washington conference, warning that China&#x27;s plans — including a nuclear reactor and Russian partnership — could deny the United States access to key lunar sites.
+
+Nelson urges readers not to mistake Beijing&#x27;s program for mere exploration, calling it a struggle for space supremacy that will decide who sets the rules for humanity&#x27;s expansion beyond Earth.
+
+*Nelson&#x27;s framing strips away the diplomatic polish around lunar exploration and names the competition plainly — which may finally shake loose complacency in Washington.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="arstechnica.com" data-u="https://arstechnica.com/space/2026/09/former-nasa-chief-sounds-alarm-on-chinas-lunar-exploration-plans/"><span class="tih">Former NASA chief sounds alarm on China&#x27;s lunar &quot;exploration&quot; plans</span> <span class="tis">— arstechnica.com</span></div></div></div>
+<div class="lead-zone">
+      <article class="lead">
+  <a href="https://techtimes.com/articles/327920/20260923/qualcomm-snapdragon-summit-debuts-dual-2nm-chips-extreme-gen-6-runs-30b-ai-models-offline.htm" target="_blank" rel="noopener">
+    
+    <div class="lead-grid">
+      <div class="lead-head">
+        <p class="kicker">Snapdragon Summit</p>
+        <h1>Qualcomm's Snapdragon 8 Elite Extreme Gen 6 runs 30B-parameter MoE models fully on-device</h1>
+      </div>
+      <div class="lead-body">
+        <p class="deck">The 2nm SM8975 unveiled at Snapdragon Summit pairs a 5GHz Oryon CPU with a Hexagon NPU whose new Element Accelerator speeds up prefill by up to ~80% on 3B models, and a 50% larger shared-memory pool enables 30B+ MoE inference locally with a 32,000-token context. Always-on sensing-hub micro-NPUs run 200M-parameter models continuously for transcription and personal memory, out-specing Apple's 20B on-device MoE announced at WWDC.</p>
+        <p class="byline"><span class="src">TechTimes</span> · <span>2026-09-23</span> · <span class="more">Read the dispatch →</span></p>
+      </div>
+    </div>
+  </a>
+</article>
+
+    </div>
+
+    <div class="topstories">
+<article class="story">
+  <a href="https://huggingface.co/blog/black-forest-labs/flux-3-action" target="_blank" rel="noopener">
+    <h3>Black Forest Labs releases FLUX 3 Action, an open-weights 7B world action model you can fine-tune</h3>
+    <p>The model takes a camera frame plus a text instruction and predicts the next two seconds of robot actions; fine-tuned on DROID it reports first place on RoboLab at 42.92% success, ahead of the 16B Cosmos 3 Nano policy, and its checkpoints are already integrated into LeRobot.</p>
+    <p class="byline"><span class="src">Hugging Face</span> · 2026-09-23</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://github.com/ggml-org/llama.cpp/releases/tag/v0.5.0" target="_blank" rel="noopener">
+    <h3>llama.cpp v0.5.0 lands with HRM-Text support, CUDA conv2d acceleration and Metal MoE fusions</h3>
+    <p>The major release of the inference engine adds HRM-Text (DFM Mimir 1B), MiMo-V2.6 and HunyuanOCR conversions, implicit-GEMM CUDA conv2d speedups, Metal MoE/SSM_CONV fusion optimizations and multi-address HTTP binding for the server.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-23</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://trendforce.com/news/2026/09/24/news-micron-reportedly-ends-2gb-gddr7-narrowing-supply-options-for-nvidias-rtx-50-series" target="_blank" rel="noopener">
+    <h3>TrendForce: Micron's 2GB GDDR7 exit narrows supply options for NVIDIA's RTX 50 series</h3>
+    <p>With Micron phasing out its 2GB GDDR7 chips, only costlier 3GB modules remain in its lineup and map poorly onto existing RTX 50 memory bus configurations; the report ties the move to the broader memory crunch and says the RTX 50 Super refresh is reportedly on hold over 3GB GDDR7 pricing.</p>
+    <p class="byline"><span class="src">TrendForce</span> · 2026-09-24</p>
+  </a>
+</article>
+
+</div>
+
+
+    <div class="sections">
+      <section class="section">
+  <div class="section-head">
+    <h2>Research &amp; Papers</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  
+  <div class="section-grid">
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.28385" target="_blank" rel="noopener">
+    <h4>UECR-GRPO unifies on-policy distillation and GRPO through entropy-calibrated credit</h4>
+    <p>Integrating verifier and teacher signals in a single GRPO-style update with entropy-calibrated token credit redistribution, the method reaches Avg@12 of 17.21% and 65.09% with Qwen3-1.7B and Qwen3-4B students on five math reasoning benchmarks, beating the strongest baselines at each scale.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-23</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.28262" target="_blank" rel="noopener">
+    <h4>RAMP: adaptive mixed-precision quantization for edge CPU vision models, no GPU needed</h4>
+    <p>Benchmarking 13 layer-sensitivity metrics for INT8 across four networks on two ARM64 platforms, Jensen-Shannon Divergence shows zero catastrophic failures where gradient and weight-statistic metrics fail on up to half of configurations; with K-Means policy allocation it is near-lossless at a 1.81x mean speedup.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-23</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.28358" target="_blank" rel="noopener">
+    <h4>MicroQonv reshapes convolution tensors for efficient microscaling in training and inference</h4>
+    <p>Combining MX quantization with convolution forward/backward passes via channel-batch-first im2col, it cuts activation quantization overhead up to 9x and memory movement up to 7.53x, and enables 4-bit MX latent replay for continual learning at the edge (+5.7% to +11% accuracy).</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-23</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2609.28270" target="_blank" rel="noopener">
+    <h4>Curvature-priced 'quantization price' tables select PTQ configurations before deployment</h4>
+    <p>Formulating weight-space post-training quantization as pre-deployment configuration selection, the work produces a calibration-time price table and a budgeted price-guided selector, making fixed-geometry bit allocation a special case rather than the organizing problem.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-09-23</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Open Weights &amp; Models</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  
+  <div class="section-grid">
+<article class="item">
+  <a href="https://huggingface.co/Altworld/Hemmingway-1" target="_blank" rel="noopener">
+    <h4>Small-lab drop: Altworld's Hemmingway-1, a 27B Apache-2.0 Qwen3.8 fine-tune that writes like a human</h4>
+    <p>A two-continent micro-lab open-sourced its first model, purpose-built for short, tone-sensitive personal text without the three-option preamble; plain BF16 weights are vLLM-compatible with the MTP layer included, and it takes third place on the independent EQ-Bench 4 leaderboard.</p>
+    <p class="byline"><span class="src">Hugging Face</span> · 2026-09-23</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/blog/nvidia/nemotron-diarization" target="_blank" rel="noopener">
+    <h4>NVIDIA releases Nemotron 3 Diarization, an open-weight 100M speaker-diarization model</h4>
+    <p>A single 100M-parameter model for offline and streaming multi-speaker diarization that NVIDIA ranks first on VoiceArena's diarization leaderboard at a 14.72% Diarization Error Rate, with guidance for speaker-attributed ASR and latency/accuracy trade-offs.</p>
+    <p class="byline"><span class="src">Hugging Face</span> · 2026-09-23</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/blog/basis-ai/conversations-1500" target="_blank" rel="noopener">
+    <h4>Basis AI releases Conversations 1500: 1,500 hours of full-duplex speech, free for commercial use</h4>
+    <p>The corpus covers full-duplex conversations with 2-4 simultaneous speakers across 22 languages and 2,645 unique speakers, delivered as channel-separated 48 kHz 16-bit mono FLAC, and is free for both commercial and research use.</p>
+    <p class="byline"><span class="src">Hugging Face</span> · 2026-09-23</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Tools &amp; Runtimes</h2>
+    <span class="line"></span>
+    <span class="n">02</span>
+  </div>
+  
+  <div class="section-grid">
+<article class="item">
+  <a href="https://github.com/ollama/ollama/releases/tag/v0.34.4" target="_blank" rel="noopener">
+    <h4>Ollama v0.34.4 fixes 'model not found' errors and speeds up Qwen 3.8 on Apple Silicon</h4>
+    <p>The patch to the most popular local-model runner applies structured outputs in a single pass on thinking models, fixes intermittent lookup errors with large local libraries, and bumps llama.cpp, MLX and XGrammar.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-23</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/unslothai/unsloth/releases/tag/v0.1.815-beta" target="_blank" rel="noopener">
+    <h4>Unsloth v0.1.815-beta runs FP8 Qwen-Image-2.1 locally, with 2x faster reasoning blocks</h4>
+    <p>The local run/fine-tune UI adds fast FP8 Qwen-Image-2.1 generation and editing, custom Agent Skills, 60 FPS reasoning blocks, in-app updates on Debian, an ARM64 .deb installer and an AMD ROCm Docker image.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-09-23</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Self-Hosted Stack</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  
+  <div class="section-grid">
+<article class="item">
+  <a href="https://freedom.tech/posts/2026-09-23-llama-cpp/" target="_blank" rel="noopener">
+    <h4>llama.cpp b11117 optimizes HIP quantization kernels for AMD GPUs</h4>
+    <p>The build reworks IQ2/IQ3 quant kernels on the HIP backend with SWAR and bit manipulation on __vsub4/__vcmpne4 primitives — relevant to anyone running low-bit GGUF quants on AMD — following b11114's llama-server router-eviction fix and b11113's --no-log flag.</p>
+    <p class="byline"><span class="src">Freedom.Tech (llama.cpp release notes)</span> · 2026-09-23</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://github.com/duanyytop/agents-radar/issues/3442" target="_blank" rel="noopener">
+    <h4>Serving-stack digest: vLLM v0.30.0 stable, llama.cpp b11115, LiteLLM v1.102.0 security release</h4>
+    <p>The daily infrastructure digest advises building llama-server from b11114 or newer for stable routing, using --no-log to avoid child-process log inheritance, and reports no breaking API changes in recent server patches.</p>
+    <p class="byline"><span class="src">GitHub (agents-radar issue digest)</span> · 2026-09-23</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://dev.to/wango/how-to-run-local-llms-on-apple-silicon-3m9e" target="_blank" rel="noopener">
+    <h4>On Apple Silicon, Ollama is MLX under the hood on 32GB+ Macs</h4>
+    <p>Since Ollama 0.19, Macs with 32GB or more unified memory run Apple's MLX framework rather than the Metal llama.cpp path, so older MLX-versus-Ollama comparisons no longer describe the same engine; the explainer maps which of llama.cpp, MLX, Ollama and LM Studio to pick and notes both expose OpenAI-compatible local endpoints.</p>
+    <p class="byline"><span class="src">DEV Community</span> · 2026-09-23</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Hardware &amp; Edge</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  
+  <div class="section-grid">
+<article class="item">
+  <a href="https://overclock3d.net/news/gpu-displays/gddr7-expansion-incoming-4gb-and-6gb-chips-planned/" target="_blank" rel="noopener">
+    <h4>4GB and 6GB GDDR7 chips planned for 2027-2028, promising denser VRAM on narrower buses</h4>
+    <p>A Videocardz-cited report says new 4GB and 6GB GDDR7 capacities are in development, which would let future GPUs pack substantially more memory per card; today only 2GB and 3GB chips exist, constraining mainstream and workstation card configurations relevant to local LLM workloads.</p>
+    <p class="byline"><span class="src">Overclock3D</span> · 2026-09-23</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://overclock3d.net/news/gpu-displays/next-gen-amd-rdna-5-at2-gpu-specs-leak-much-faster-than-rx-9070-xt/" target="_blank" rel="noopener">
+    <h4>Next-gen AMD RDNA 5 'AT2' GPU specs leak: 70 compute units targeting 3.1-3.4 GHz</h4>
+    <p>Leaked specs claim a significant step up from the RX 9070 XT with retail cards targeted for 2027; if it lands on GDDR7 it would close much of the memory-bandwidth gap that currently favors NVIDIA's Blackwell cards for inference.</p>
+    <p class="byline"><span class="src">Overclock3D</span> · 2026-09-23</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://finance.yahoo.com/technology/ai/articles/banma-intelligence-unveils-autoomni-2-023500473.html" target="_blank" rel="noopener">
+    <h4>Banma unveils AutoOmni 2.0-23B-A3B, a 23B omni-modal on-device cockpit LLM</h4>
+    <p>At the Apsara Conference the company introduced a 23B MoE omni-modal model (3B active) designed to run entirely on automotive SoCs including Snapdragon Cockpit Elite, claiming routine-task parity with 230B cloud models in cockpit scenarios with 5-6x accelerated inference and 8+ concurrent task streams.</p>
+    <p class="byline"><span class="src">PR Newswire (via Yahoo Finance)</span> · 2026-09-23</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+    </div>
+
+    <div class="trending-wrap">
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Repos on GitHub</h1>
+      <div class="t-line"></div>
+      <a href="https://github.com/trending" target="_blank" rel="noopener" class="t-link">Go to GitHub trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://github.com/anthropics/financial-services" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">anthropics/financial-services</span>
+    <span class="t-meta">Python · 37.0k ★ · +664 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/google/ax" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">google/ax</span>
+    <span class="t-meta">Go · 9.3k ★ · +1,543 today — Google's open agentic orchestration runtime</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/davila7/claude-code-templates" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">davila7/claude-code-templates</span>
+    <span class="t-meta">Python · 31.6k ★ · +389 today — CLI to configure and monitor Claude Code</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/obra/superpowers" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">obra/superpowers</span>
+    <span class="t-meta">Shell · 290.8k ★ · +474 today — agentic skills framework &amp; development methodology</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/dream-num/univer" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">dream-num/univer</span>
+    <span class="t-meta">TypeScript · 16.5k ★ · +1,142 today — the office harness for AI agents</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/agent-substrate/substrate" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">agent-substrate/substrate</span>
+    <span class="t-meta">Go · 3.6k ★ · +558 today — Agent Substrate core system</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/strands-agents/harness-sdk" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">strands-agents/harness-sdk</span>
+    <span class="t-meta">Python · 7.9k ★ · +115 today — open-source SDK for production AI agent harnesses</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/HKUDS/CLI-Anything" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">HKUDS/CLI-Anything</span>
+    <span class="t-meta">Python · 50.0k ★ · +57 today — making all software agent-native</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/superdesigndev/treg" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">superdesigndev/treg</span>
+    <span class="t-meta">Python · 2.8k ★ · +506 today — routing layer for agent tools</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/DeusData/codebase-memory-mcp" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">DeusData/codebase-memory-mcp</span>
+    <span class="t-meta">C · 44.7k ★ · +190 today — code-intelligence MCP server with a persistent knowledge graph</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+  
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Trending on HF</h1>
+      <div class="t-line"></div>
+      <a href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener" class="t-link">Go to Hugging Face trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://huggingface.co/convaiinnovations/laya" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">convaiinnovations/laya</span>
+    <span class="t-meta">0.4B text-classification model, updated minutes ago</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Qwen/Qwen-Image-2.1" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Qwen/Qwen-Image-2.1</span>
+    <span class="t-meta">7B unified open-weight text-to-image + editing model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">prism-ml/Ternary-Bonsai-2-27B-gguf</span>
+    <span class="t-meta">27B ternary-quantized reasoning model, ~5.9 GB GGUF, llama.cpp</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">XingChen-AGI/Xing4.0-29B-A4B</span>
+    <span class="t-meta">29B MoE, 4B active, agentic, single-GPU deployment</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">abenzerps/Qwen-Image-2.1-Uncensored-GGUF</span>
+    <span class="t-meta">Community GGUF quant of Qwen-Image-2.1, 351k downloads</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Comfy-Org/Qwen-Image-2.1" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">Comfy-Org/Qwen-Image-2.1</span>
+    <span class="t-meta">Official ComfyUI build of the Qwen image model, 2.22M downloads</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Altworld/Hemmingway-1" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">Altworld/Hemmingway-1</span>
+    <span class="t-meta">27B Apache-2.0 Qwen3.8 fine-tune for human-like writing</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">deepseek-ai/DeepSeek-V4.1-Flash</span>
+    <span class="t-meta">Open-weights multimodal MoE (552B backbone, 8B/16B active I/O), 1M context</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">Qwen/Qwen3.8-27B</span>
+    <span class="t-meta">28B multimodal instruct model, 6.91M downloads</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/AlexWortega/openjev" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">AlexWortega/openjev</span>
+    <span class="t-meta">Open text-classification model, trending since ~10h ago</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+</div>
+
+
+    <section class="section" id="free-models">
+  <div class="section-head">
+    <h2>Free Models</h2>
+    <span class="line"></span>
+    <span class="n">29</span>
+  </div>
+
+  <p class="section-note">Free means $0 per token today, not unlimited or unconditional: both platforms rate-limit free use and require a free API key, some OpenRouter free endpoints may train on your prompts unless you opt out in account settings, and the roster changes daily. Verified against each provider's own pricing data at generation time — but pricing changes without notice, so confirm it's still free on the provider's own page before you rely on it.</p>
+
+  <div class="trending-wrap trending-wrap--in-section">
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenRouter</h1>
+        <div class="t-line"></div>
+        <a href="https://openrouter.ai/models?max_price=0" target="_blank" rel="noopener" class="t-link">Browse free models →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://openrouter.ai/cohere/north-mini-code:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Cohere: North Mini Code (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/dots-studio/dots-3-note-preview:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Dots Studio: Dots3-Note Preview (free)</span>
+    <span class="t-meta">512K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-26b-a4b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Google: Gemma 4 26B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-31b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Google: Gemma 4 31B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.0-flash-fin:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">inclusionAI: Ling 3.0 Flash Fin (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.0-flash-sante:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">inclusionAI: Ling 3.0 Flash Sante (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/liquid/lfm-2.5-2.6b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">LiquidAI: LFM2.5-2.6B (free)</span>
+    <span class="t-meta">65K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nex-agi/nex-n2.5-mini:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">Nex AGI: Nex-N2.5-Mini (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nex-agi/nex-n2.5-pro:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">Nex AGI: Nex-N2.5-Pro (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Nano Omni (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Super (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Ultra (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#13</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Content Safety (free)</span>
+    <span class="t-meta">128K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-lightning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#14</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Lightning (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-s-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#15</span>
+    <span class="t-name">Poolside: Laguna S 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-xs-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#16</span>
+    <span class="t-name">Poolside: Laguna XS 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/qwen/qwen3.8-27b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#17</span>
+    <span class="t-name">Qwen: Qwen3.8 27B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/stealth/space-bunny-alpha" target="_blank" rel="noopener">
+    <span class="t-ranking">#18</span>
+    <span class="t-name">Space Bunny Alpha</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#19</span>
+    <span class="t-name">Thinking Machines: Inkling (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling-small:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#20</span>
+    <span class="t-name">Thinking Machines: Inkling Small (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenCode Zen</h1>
+        <div class="t-line"></div>
+        <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener" class="t-link">See the full Zen catalog →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Big Pickle</span>
+    <span class="t-meta">big-pickle</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Space Bunny Free</span>
+    <span class="t-meta">space-bunny-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">MiMo-V2.6-Flash Free</span>
+    <span class="t-meta">mimo-v2.6-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">MiMo-V2.5 Free</span>
+    <span class="t-meta">mimo-v2.5-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Ling 3.0 Flash Fin Free</span>
+    <span class="t-meta">ling-3.0-flash-fin-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">Nemotron 3 Ultra Free</span>
+    <span class="t-meta">nemotron-3-ultra-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">Nemotron 3.5 Lightning Free</span>
+    <span class="t-meta">nemotron-3.5-lightning-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">Muse Spark 1.3 Contributor Free</span>
+    <span class="t-meta">muse-spark-1.3-contributor-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">Jev 1.13 Free</span>
+    <span class="t-meta">jev-1.13-free</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <section class="inbrief">
+  <div class="section-head">
+    <h2>In Brief</h2>
+    <span class="line"></span>
+    <span class="n">11</span>
+  </div>
+  <ul class="qh-list">
+    <li><a href="https://arxiv.org/abs/2609.28344" target="_blank" rel="noopener"><span class="qh-title">Mizar: a 159M-parameter audio-language model that answers locally on a single CPU</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://arxiv.org/abs/2609.28145" target="_blank" rel="noopener"><span class="qh-title">'RL starts before RL': on-policy distillation as a pre-RL preparation stage lifts final scores</span><span class="qh-src">arXiv</span></a></li>
+
+    <li><a href="https://github.com/ggml-org/ggml/releases/tag/v0.25.1" target="_blank" rel="noopener"><span class="qh-title">ggml v0.25.1 maintenance release lands alongside llama.cpp v0.5.0</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://github.com/Parcha-ai/agentrun" target="_blank" rel="noopener"><span class="qh-title">Show HN: AgentRun — a DSL to turn coding-agent runs into reproducible workflows</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://github.com/rondoflow/rondoflow" target="_blank" rel="noopener"><span class="qh-title">Show HN: RondoFlow — local-first visual orchestration of Claude Code agents</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://useax.dev/" target="_blank" rel="noopener"><span class="qh-title">Show HN: Ax — a local exchange where coding agents talk to each other</span><span class="qh-src">Ax</span></a></li>
+
+    <li><a href="https://x.com/GoogleDeepMind/status/2102781533274734801" target="_blank" rel="noopener"><span class="qh-title">Google DeepMind adds fine-tunable delivery control to Gemini TTS, all audio watermarked with SynthID</span><span class="qh-src">GoogleDeepMind (X)</span></a></li>
+
+    <li><a href="https://techcrunch.com/2026-09-23/vc-firm-bessemer-now-has-another-5-75b-to-invest-in-what-else-ai/" target="_blank" rel="noopener"><span class="qh-title">Bessemer Venture Partners raises $5.75B across two funds for the AI stack</span><span class="qh-src">TechCrunch</span></a></li>
+
+    <li><a href="https://techcrunch.com/2026-09-23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials/" target="_blank" rel="noopener"><span class="qh-title">Enveda secures $311M Series E at a $2B valuation for nature-derived AI drug discovery</span><span class="qh-src">TechCrunch</span></a></li>
+
+    <li><a href="https://techcrunch.com/2026-09-23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/" target="_blank" rel="noopener"><span class="qh-title">Ema raises $77M Series B as 'AI employees' eat into enterprise software and services</span><span class="qh-src">TechCrunch</span></a></li>
+
+    <li><a href="https://www.ai4business.it/intelligenza-artificiale/nasce-sophia-275-milioni-per-lai-startup-e-deep-tech/" target="_blank" rel="noopener"><span class="qh-title">SophIA launches: 27.5 million euros for Italian AI, startups and deep tech</span><span class="qh-src">AI4Business</span></a></li>
+
+  </ul>
+</section>
+
+
+    <footer class="colophon">
+      <p class="mark">Per aspera ad astra</p>
+      <p class="meta">Compiled by Hermes Agent · 2026-09-24 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
+    </footer>
+
+  </div>
+<div class="mo" id="mo" onclick="cm(event)"><div class="mb"><button class="mc" onclick="cm()">✕</button><h2 class="mh" id="mh"></h2><p class="mm">Source: <span id="ms"></span></p><div class="mbd" id="mbd"></div></div></div>
+<script>function openArt(el){var h=el.getAttribute('data-h'),b=el.getAttribute('data-b'),s=el.getAttribute('data-s'),u=el.getAttribute('data-u');document.getElementById('mh').textContent=h;var sl=document.getElementById('ms');if(u&&u!=='#'&&u!==''){sl.innerHTML='<a href="'+u+'" target="_blank" rel="noopener">'+s+'</a>';}else{sl.textContent=s;}var aiS='*— Written by AI (';var i=b.indexOf(aiS);if(i>=0){var bf=b.substring(0,i);var af=b.substring(i+aiS.length);var mdl=af.split(')')[0];bf=bf.split('\n').join('<br>');bf=bf.replace(/\*([^*]+)\*/g,'<em class="en">$1</em>');var sg='<div class="as"><span class="al">⬥ AI-GENERATED</span><br>Model: '+mdl+'</div>';document.getElementById('mbd').innerHTML=bf+sg;}else{document.getElementById('mbd').innerHTML=b.split('\n').join('<br>');}document.getElementById('mo').classList.add('a');document.body.style.overflow='hidden';}function cm(e){if(e&&e.target!=document.getElementById('mo'))return;document.getElementById('mo').classList.remove('a');document.body.style.overflow='';}document.addEventListener('keydown',function(e){if(e.key==='Escape')cm()});</script></body>
+</html>

@@ -5162,6 +5162,144 @@
       "source": "AI4Business",
       "date": "2026-09-24",
       "issue": 27
+    },
+    {
+      "text": "llama.cpp streams the Qwen3.8-Flash-Next 51B n-gram embedding from SSD at negligible cost",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-25",
+      "issue": 28
+    },
+    {
+      "text": "CXMT begins mass production of 12nm-class G5 DRAM, boosting dies per wafer by over 50%",
+      "source": "eTeknix",
+      "date": "2026-09-25",
+      "issue": 28
+    },
+    {
+      "text": "Ahead of US IPO, British AI neocloud Nscale secures $3.36B in convertible financing",
+      "source": "TechCrunch",
+      "date": "2026-09-25",
+      "issue": 28
+    },
+    {
+      "text": "Perplexity Portable Computer adds AMD Ryzen AI Max support on Windows",
+      "source": "Windows Forum",
+      "date": "2026-09-25",
+      "issue": 28
+    },
+    {
+      "text": "llama.cpp b11191 and b11190 add a model-driven W4A4 path via llama_prec_policy",
+      "source": "GitHub",
+      "date": "2026-09-25",
+      "issue": 28
+    },
+    {
+      "text": "GHOST-Q: grounding hallucinations hide behind same-score trade-offs in quantized VLMs",
+      "source": "arXiv",
+      "date": "2026-09-25",
+      "issue": 28
+    },
+    {
+      "text": "KernelOPT: dispatch-aware agentic search closes the gap with expert GPU kernels",
+      "source": "arXiv",
+      "date": "2026-09-25",
+      "issue": 28
+    },
+    {
+      "text": "Not every token is worth distilling: selective supervision for direct on-policy distillation",
+      "source": "arXiv",
+      "date": "2026-09-25",
+      "issue": 28
+    },
+    {
+      "text": "Show HN: AgentLens replays and compares Codex runs",
+      "source": "GitHub",
+      "date": "2026-09-25",
+      "issue": 28
+    },
+    {
+      "text": "Show HN: Executor requires coding agents to prove their code works",
+      "source": "GitHub",
+      "date": "2026-09-25",
+      "issue": 28
+    },
+    {
+      "text": "Show HN: Reliopt applies Pareto-frontier, contract-gated optimization to LLM programs",
+      "source": "GitHub",
+      "date": "2026-09-25",
+      "issue": 28
+    },
+    {
+      "text": "llama.cpp merges MiniMax-M3 support with MSA sparse attention",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-25",
+      "issue": 28
+    },
+    {
+      "text": "n8n 2.36 adds provider-less AI model usage for self-hosted workflows",
+      "source": "n8n Docs",
+      "date": "2026-09-25",
+      "issue": 28
+    },
+    {
+      "text": "Google publishes a behind-the-scenes look at Project Suncatcher, its moonshot to put AI in space",
+      "source": "Google",
+      "date": "2026-09-25",
+      "issue": 28
+    },
+    {
+      "text": "DeepMind confirms Gemini 4 is in early post-training, with an early release planned",
+      "source": "X (@GoogleDeepMind)",
+      "date": "2026-09-25",
+      "issue": 28
+    },
+    {
+      "text": "OpenAI to preview GPT-6 Cyber and ship a dozen products at DevDay",
+      "source": "X",
+      "date": "2026-09-25",
+      "issue": 28
+    },
+    {
+      "text": "DeepSeek hits $1 billion ARR, aims to close $7.5 billion second round by end of October",
+      "source": "X",
+      "date": "2026-09-25",
+      "issue": 28
+    },
+    {
+      "text": "Claude agents flag a novel enzyme system (array-associated reverse transcriptases) in bacteriophage DNA",
+      "source": "X",
+      "date": "2026-09-25",
+      "issue": 28
+    },
+    {
+      "text": "Fireship rounds up the announcements from Meta Connect 2026",
+      "source": "YouTube \u2014 Fireship",
+      "date": "2026-09-25",
+      "issue": 28
+    },
+    {
+      "text": "Anthropic: Claude solves the nine-loop scattering-amplitude calculation in planar N=4 super-Yang-Mills",
+      "source": "X (@AnthropicAI)",
+      "date": "2026-09-25",
+      "issue": 28
+    },
+    {
+      "text": "Island, Cyera and Snorkel AI headline the week's biggest US funding rounds",
+      "source": "Crunchbase News",
+      "date": "2026-09-25",
+      "issue": 28
+    },
+    {
+      "text": "Lightspeed targets $250M for a new India fund focused on early-stage AI",
+      "source": "TechCrunch",
+      "date": "2026-09-25",
+      "issue": 28
+    },
+    {
+      "text": "Milan's Clastix closes a \u20ac2.9M seed round to scale kMetal for Kubernetes at scale",
+      "source": "Startupbusiness.it",
+      "date": "2026-09-25",
+      "issue": 28
     }
   ]
 }
