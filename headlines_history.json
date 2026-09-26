@@ -5300,6 +5300,150 @@
       "source": "Startupbusiness.it",
       "date": "2026-09-25",
       "issue": 28
+    },
+    {
+      "text": "Ollama v0.40.0-rc0 makes MLX the default runtime on Apple Silicon",
+      "source": "GitHub",
+      "date": "2026-09-26",
+      "issue": 29
+    },
+    {
+      "text": "DDR5 SO-DIMM prices up sixfold in 12 months; Schenker raises laptop prices through 2027 shortage",
+      "source": "Tom's Hardware",
+      "date": "2026-09-26",
+      "issue": 29
+    },
+    {
+      "text": "WiCi One: first wireless eGPU pairs an RTX 5060 Ti with Wi-Fi 7, ships Q4 2026",
+      "source": "BigGo Finance",
+      "date": "2026-09-26",
+      "issue": 29
+    },
+    {
+      "text": "Intel expects 14A to land 'within 5%' of TSMC's A14 performance",
+      "source": "Tom's Hardware",
+      "date": "2026-09-26",
+      "issue": 29
+    },
+    {
+      "text": "AI chip startup DensityAI in talks for a near-$10B valuation",
+      "source": "MarketScreener",
+      "date": "2026-09-26",
+      "issue": 29
+    },
+    {
+      "text": "Ternary-Bonsai-2-27B GGUF refreshed within hours of the cutoff, 3.11M downloads",
+      "source": "HuggingFace",
+      "date": "2026-09-26",
+      "issue": 29
+    },
+    {
+      "text": "QLoRA fine-tune of Llama-3.1-8B-Instruct for text-to-SQL published",
+      "source": "HuggingFace",
+      "date": "2026-09-26",
+      "issue": 29
+    },
+    {
+      "text": "llama.cpp b11193 ships with cpp-httplib 0.58.0 and Hexagon script fixes",
+      "source": "GitHub",
+      "date": "2026-09-26",
+      "issue": 29
+    },
+    {
+      "text": "KISS: a highly performant Rust agent harness for local models",
+      "source": "Hacker News",
+      "date": "2026-09-26",
+      "issue": 29
+    },
+    {
+      "text": "OOMU: free native macOS desktop AI harness for local and cloud models",
+      "source": "Hacker News",
+      "date": "2026-09-26",
+      "issue": 29
+    },
+    {
+      "text": "Qwengram-0.8B: Qwen3.8 Flash-Next n-gram memory transferred into a 0.8B model",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-26",
+      "issue": 29
+    },
+    {
+      "text": "n8n ships 2.41.3 and 2.40.7 patches propagating trace spans",
+      "source": "n8n",
+      "date": "2026-09-26",
+      "issue": 29
+    },
+    {
+      "text": "Micro1 reportedly raises $100M+ at a $4B valuation for AI training data",
+      "source": "Crunchbase News",
+      "date": "2026-09-26",
+      "issue": 29
+    },
+    {
+      "text": "Numeral closes $100M Series C led by Insight Partners",
+      "source": "Crunchbase News",
+      "date": "2026-09-26",
+      "issue": 29
+    },
+    {
+      "text": "Show HN: Tenjin, a Jev-based x402 tool router for Claude Code",
+      "source": "Hacker News",
+      "date": "2026-09-26",
+      "issue": 29
+    },
+    {
+      "text": "Show HN: Piloxa, an MCP server that sends USPS Certified Mail from AI agents",
+      "source": "Hacker News",
+      "date": "2026-09-26",
+      "issue": 29
+    },
+    {
+      "text": "Show HN: MyA11yReport MCP for building and testing accessible websites",
+      "source": "Hacker News",
+      "date": "2026-09-26",
+      "issue": 29
+    },
+    {
+      "text": "Noctua explores 2,000W micro-channel air cooling with Forced Physics DCT",
+      "source": "Tom's Hardware",
+      "date": "2026-09-26",
+      "issue": 29
+    },
+    {
+      "text": "Matt Wolfe rounds up new model releases: Opus 5.5, GPT-6 Sol, Jev and Muse",
+      "source": "YouTube \u2014 Matt Wolfe",
+      "date": "2026-09-26",
+      "issue": 29
+    },
+    {
+      "text": "The AI Daily Brief examines how people are actually using Jev",
+      "source": "YouTube \u2014 The AI Daily Brief",
+      "date": "2026-09-26",
+      "issue": 29
+    },
+    {
+      "text": "Microsoft AI CEO Mustafa Suleyman says the industry needs a 'red line' for AI",
+      "source": "YouTube \u2014 Bloomberg Technology",
+      "date": "2026-09-26",
+      "issue": 29
+    },
+    {
+      "text": "Bloomberg: Anthropic goes big on compute as Microsoft rethinks its AI strategy",
+      "source": "YouTube \u2014 Bloomberg Technology",
+      "date": "2026-09-26",
+      "issue": 29
+    },
+    {
+      "text": "Confindustria's Marchesini calls for an 'AI 5.0' support plan for Italian businesses",
+      "source": "AI4Business",
+      "date": "2026-09-26",
+      "issue": 29
+    },
+    {
+      "text": "AI4Business surveys the Claude developer console: prompt caching, Batch API, Skills and server-side MCP",
+      "source": "AI4Business",
+      "date": "2026-09-26",
+      "issue": 29
     }
   ]
 }
