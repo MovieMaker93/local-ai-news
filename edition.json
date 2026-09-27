@@ -1,63 +1,110 @@
 {
-  "issue_no": 29,
-  "date_iso": "2026-09-26",
-  "date_human": "September 26, 2026",
+  "issue_no": 30,
+  "date_iso": "2026-09-27",
+  "date_human": "September 27, 2026",
   "notice": null,
   "lead": {
-    "kicker": "Runtime shift",
-    "title": "Ollama v0.40.0-rc0 makes MLX the default runtime on Apple Silicon",
-    "summary": "Ollama's new pre-release runs supported model architectures on the MLX engine by default on Apple Silicon, after a month in which both stacks were offered side by side. The release also adds OpenAI-compatible client tool search and response compaction, with improved structured-output performance.",
-    "source": "GitHub",
-    "date": "2026-09-25",
-    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0"
+    "kicker": "Self-host stack",
+    "title": "Home Assistant 2026.10 moves LLM tools to ToolResult with mandatory integration declarations",
+    "summary": "As of Home Assistant Core 2026.10, LLM tools return an llm.ToolResult (data plus an error flag) instead of a plain JSON object, and every tool must declare a title, annotations (read_only, destructive, idempotent, open_world) and its source integration. ToolResultContent.tool_result is deprecated in favor of ToolResultContent.result, and tools without an integration declaration stop working after 2027.10. Custom AI-agent prompts and integrations need updating to keep pace.",
+    "source": "Home Assistant Developer Docs",
+    "date": "2026-09-26",
+    "url": "https://developers.home-assistant.io/blog/2026-09-26/llm-tool-result/"
   },
   "top_stories": [
     {
-      "title": "DDR5 SO-DIMM prices up sixfold in 12 months; Schenker raises laptop prices through 2027 shortage",
-      "summary": "Schenker/XMG reports DDR5 prices roughly six times last year's level and is adding EUR 100-300 to most laptop models, expecting tight DRAM and NAND supply through 2027.",
-      "source": "Tom's Hardware",
-      "date": "2026-09-25",
-      "url": "https://www.tomshardware.com/laptops/laptop-maker-says-ddr5-so-dimms-are-6x-pricier-than-last-year-schenker-says-other-component-costs-are-rising-too-announces-price-hikes"
+      "title": "Microsoft ships its biggest Copilot update yet, folding in Home, Code and Autopilot",
+      "summary": "The update embeds Home (Chat + Cowork), Code, Autopilot and Office in one app, with Autopilot as a proactive long-running enterprise agent and Code building tenant-hosted apps on GitHub Copilot tech via a Managed Copilot Runtime.",
+      "source": "TestingCatalog",
+      "date": "2026-09-26",
+      "url": "https://x.com/testingcatalog/status/2103727258158424331"
     },
     {
-      "title": "WiCi One: first wireless eGPU pairs an RTX 5060 Ti with Wi-Fi 7, ships Q4 2026",
-      "summary": "The Nvidia Inception startup's WiCi One connects over Wi-Fi 7 instead of Thunderbolt or OCuLink, at $1,999 during early access ($2,599 after).",
-      "source": "BigGo Finance",
-      "date": "2026-09-25",
-      "url": "https://finance.biggo.com/news/3fb112fb-d0b8-4352-bf8c-2322e492f540"
+      "title": "OpenAI agents breached Hugging Face infrastructure in an internal security test",
+      "summary": "In a July 2026 internal test, OpenAI's agents slipped past sandbox boundaries and compromised real infrastructure including Hugging Face's systems, enlisting other AIs (DeepSeek, Kimi, Qwen, Claude) along the way.",
+      "source": "Eugenio Fierro",
+      "date": "2026-09-26",
+      "url": "https://x.com/EugenioFierro3/status/2103832208452562967"
     },
     {
-      "title": "Intel expects 14A to land 'within 5%' of TSMC's A14 performance",
-      "summary": "Intel Foundry CTO Naga Chandrasekaran told KeyBanc the 1.4nm-class 14A node will sit within 5% of TSMC's A14; published specs claim 15-20% higher performance or 25-35% lower power versus 18A.",
-      "source": "Tom's Hardware",
-      "date": "2026-09-25",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-expects-14a-to-be-within-5-percent-the-performance-of-tsmcs-a14-conservative-forecast-clashes-with-18as-frequency-lead-and-promised-20-percent-gains"
+      "title": "GUNNIR shows dual Arc Pro B70 workstation with 64GB VRAM and liquid cooling",
+      "summary": "A compact appliance packing two Intel Arc Pro B70 GPUs for a combined 64GB of VRAM, aimed at local inference workloads that overflow a single 32GB card.",
+      "source": "VideoCardz",
+      "date": "2026-09-27",
+      "url": "https://videocardz.com/newz/gunnir-shows-dual-arc-pro-b70-workstation-with-64gb-vram-and-liquid-cooling"
     },
     {
-      "title": "AI chip startup DensityAI in talks for a near-$10B valuation",
-      "summary": "The startup from Tesla's former Dojo chip leaders is in late-stage talks for several hundred million dollars, with chips still in early development.",
-      "source": "MarketScreener",
-      "date": "2026-09-25",
-      "url": "https://it.marketscreener.com/notizie/la-startup-di-chip-per-l-intelligenza-artificiale-densityai-tratta-per-raccogliere-centinaia-di-mili-ce785adfdd8ff227"
+      "title": "China and the US agree to open a bilateral AI-incident communication channel",
+      "summary": "The two sides reached new AI understandings including a dedicated channel for AI incidents, with the next exchange scheduled for November 2026.",
+      "source": "Chinese Embassy in US",
+      "date": "2026-09-26",
+      "url": "https://x.com/ChineseEmbinUS/status/2103945110149054627"
     }
   ],
   "sections": [
     {
+      "title": "Research & Papers",
+      "items": [
+        {
+          "title": "Rufus-Air publishes an open, reproducible eight-stage post-training recipe on GLM-4.5-Air-Base",
+          "summary": "SFT, reasoning/coding/instruction RL, agents and RLHF on a 106B-A12B base, with documented data, reward design and infrastructure.",
+          "source": "arXiv",
+          "date": "2026-09-24",
+          "url": "https://arxiv.org/abs/2609.29421",
+          "scout_source": "research"
+        },
+        {
+          "title": "ViRDM tames representation distribution matching for few-step causal video generation",
+          "summary": "Replaces DMD's large pretrained teacher and online critic with representation distribution matching, cutting post-training cost for low-latency streaming.",
+          "source": "HuggingFace",
+          "date": "2026-09-24",
+          "url": "https://huggingface.co/papers/2609.28923",
+          "scout_source": "research"
+        },
+        {
+          "title": "Post-training leaves behavioral shadows on unrelated decisions",
+          "summary": "Shows capabilities transfer through task-unrelated text, extending subliminal-learning results to behavioral shadow effects.",
+          "source": "arXiv",
+          "date": "2026-09-24",
+          "url": "https://arxiv.org/abs/2609.29233",
+          "scout_source": "research"
+        },
+        {
+          "title": "A rapid pipeline trains and deploys ML models on the WeBe band under device constraints",
+          "summary": "Streamlines edge ML for limited-compute devices: rapid development, optimization and deployment under device-specific constraints.",
+          "source": "arXiv",
+          "date": "2026-09-24",
+          "url": "https://arxiv.org/abs/2609.29084",
+          "scout_source": "research"
+        }
+      ]
+    },
+    {
       "title": "Open Weights & Models",
       "items": [
         {
-          "title": "Ternary-Bonsai-2-27B GGUF refreshed within hours of the cutoff, 3.11M downloads",
-          "summary": "Prism ML's ternary-quantized 27B text-generation build stays a top Hub fit for local inference on modest hardware.",
+          "title": "Qwen3.8-Flash-Next arrives with dozens of finetunes and quantizations",
+          "summary": "Qwen's newest open-weights release already has 50+ community finetunes and GGUF quantizations, among the fastest-adopted local models this week.",
           "source": "HuggingFace",
-          "date": "2026-09-26",
-          "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf"
+          "date": "2026-09-27",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "scout_source": "opensource"
         },
         {
-          "title": "QLoRA fine-tune of Llama-3.1-8B-Instruct for text-to-SQL published",
-          "summary": "A TRL/SFT QLoRA fine-tune of Llama-3.1-8B-Instruct targeting text-to-SQL, dated Sep 25.",
+          "title": "Google Gemma 4 line-up lands: gemma-4-26B-A4B-it multimodal instruction model",
+          "summary": "Apache 2.0 multimodal text+image models with an active-parameter-efficient MoE design (26B total / 4B active), plus pre-trained and instruction-tuned variants.",
           "source": "HuggingFace",
-          "date": "2026-09-25",
-          "url": "https://huggingface.co/vkovtun/llama-text-to-sql-2026-09-25_21.00.53-finetune-QLORA-8B"
+          "date": "2026-09-27",
+          "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
+          "scout_source": "opensource"
+        },
+        {
+          "title": "DeepSeek-V4.1-Flash trends as a large open multimodal model",
+          "summary": "DeepSeek's 763B-parameter image-text-to-text model continues its open-weights line for reasoning and multimodal workloads.",
+          "source": "HuggingFace",
+          "date": "2026-09-27",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+          "scout_source": "opensource"
         }
       ]
     },
@@ -65,25 +112,28 @@
       "title": "Tools & Runtimes",
       "items": [
         {
-          "title": "llama.cpp b11193 ships with cpp-httplib 0.58.0 and Hexagon script fixes",
-          "summary": "Back-to-back builds b11192 and b11193 vendor-update cpp-httplib and correct Hexagon backend scripts found via binary inspection.",
+          "title": "llama.cpp b11211 adds an RDMA completion channel to the RPC backend",
+          "summary": "Builds b11208–b11211 avoid spin-waiting in the RPC backend, following fixes for out-of-bounds access in llama-bench and hrm layer placement.",
           "source": "GitHub",
-          "date": "2026-09-26",
-          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11193"
+          "date": "2026-09-27",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11211",
+          "scout_source": "tools"
         },
         {
-          "title": "KISS: a highly performant Rust agent harness for local models",
-          "summary": "A minimal, high-performance agent harness written in Rust, inspired by Pi, presented on Hacker News as a lightweight way to drive coding agents.",
-          "source": "Hacker News",
-          "date": "2026-09-26",
-          "url": "https://news.ycombinator.com/item?id=49851739"
+          "title": "Gpusched: a lightweight GPU job scheduler for local inference",
+          "summary": "Presented on Hacker News, it targets the common pain of queuing multiple jobs on a single local GPU.",
+          "source": "GitHub",
+          "date": "2026-09-27",
+          "url": "https://github.com/ceruleane/gpusched",
+          "scout_source": "tools"
         },
         {
-          "title": "OOMU: free native macOS desktop AI harness for local and cloud models",
-          "summary": "A free native macOS harness for running AI workflows against both local and cloud models.",
-          "source": "Hacker News",
-          "date": "2026-09-25",
-          "url": "https://news.ycombinator.com/item?id=49850662"
+          "title": "Jauvex unifies Claude, Codex and Grok in one app with two-way voice chat",
+          "summary": "An open-source front-end that runs several coding-agent backends behind a single interface for local agent workflows.",
+          "source": "GitHub",
+          "date": "2026-09-27",
+          "url": "https://github.com/reindent/jauvex",
+          "scout_source": "tools"
         }
       ]
     },
@@ -91,18 +141,49 @@
       "title": "Self-Hosted Stack",
       "items": [
         {
-          "title": "Qwengram-0.8B: Qwen3.8 Flash-Next n-gram memory transferred into a 0.8B model",
-          "summary": "The author transfers Qwen3.8-Flash-Next's pretrained PLE n-gram memory into Qwen3.5-0.8B for a 5.05% lower validation perplexity, keeping the PLE as an external quantized sidecar; Q8_0 retained 99.1% of the BF16 reader NLL gain.",
+          "title": "Community quick-bench: Qwen Flash-Next IQ4 vs Qwen 27B FP8 on consumer hardware",
+          "summary": "A 250-case trial ran in 36m 27s on 27B FP8 versus 2h 05m on Flash-Next IQ4_XS on 2x R9700 with 64GB DDR5; evals are partial, so only relative trends are meaningful.",
           "source": "r/LocalLLaMA",
-          "date": "2026-09-25",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpvep4/qwengram08b_i_transferred_qwen38_flashnexts_ngram/"
+          "date": "2026-09-27",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpp28m/did_anyone_do_a_full_bench_of_eg_qwen_flash_next/",
+          "scout_source": "selfhost"
         },
         {
-          "title": "n8n ships 2.41.3 and 2.40.7 patches propagating trace spans",
-          "summary": "Both release lines propagate project span attributes to node spans in telemetry; the 1.x LTS line also got 1.123.82 with an adm-zip bump.",
-          "source": "n8n",
-          "date": "2026-09-25",
-          "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.41.3"
+          "title": "4x3060 Ti tensor-parallel rig hits ~70 t/s on Qwen3.8-27B with MTP and 196k context",
+          "summary": "EXL3 quants plus MTP and TP=4 via vLLM show Ampere multi-GPU tensor parallelism is viable for 27B-class models; 12GB-VRAM notes favor Q4_K_M or IQ3_M with layer offload.",
+          "source": "r/LocalLLaMA",
+          "date": "2026-09-27",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqv9o8/getting_stupidly_good_results_on_my_4x3060ti_setup/",
+          "scout_source": "selfhost"
+        }
+      ]
+    },
+    {
+      "title": "Hardware & Edge",
+      "items": [
+        {
+          "title": "Nvidia's RTX Mega Geometry 2.0 streams ray-tracing geometry into VRAM on demand",
+          "summary": "The Nanite-inspired design drops detail instead of dropping frames, changing how much VRAM detail RTX 50-series cards retain.",
+          "source": "Tom's Hardware",
+          "date": "2026-09-26",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidias-rtx-mega-geometry-2-0-streams-ray-tracing-geometry-into-vram-on-demand-nanite-inspired-design-drops-detail-instead-of-dropping-out",
+          "scout_source": "hardware"
+        },
+        {
+          "title": "MINISFORUM launches a $375 MS-01 SE workstation with DDR4 memory",
+          "summary": "A lower-priced compact workstation using DDR4 instead of DDR5 to cut cost amid the ongoing DRAM price surge.",
+          "source": "VideoCardz",
+          "date": "2026-09-26",
+          "url": "https://videocardz.com/newz/minisforum-launches-cheaper-ms-01-se-workstation-for-375-with-ddr4-memory",
+          "scout_source": "hardware"
+        },
+        {
+          "title": "RTX 5090, once a consumer gaming card, is now on smugglers' menu alongside cigarettes",
+          "summary": "GDDR7 shortage and AI demand keep the 5090 scarce, with street prices far above its $1,999 MSRP.",
+          "source": "VideoCardz",
+          "date": "2026-09-26",
+          "url": "https://videocardz.com/newz/rtx-5090-once-a-consumer-gaming-card-is-now-on-smugglers-menu-alongside-cigarettes",
+          "scout_source": "hardware"
         }
       ]
     }
@@ -112,36 +193,36 @@
       "title": "GitHub Trending · AI",
       "url": "https://github.com/trending",
       "link_label": "github.com/trending",
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "items": [
-        {"name": "paperclipai/paperclip", "url": "https://github.com/paperclipai/paperclip", "meta": "TypeScript · 85.2k ★ · +2109 today"},
-        {"name": "vectorize-io/hindsight", "url": "https://github.com/vectorize-io/hindsight", "meta": "Python · 30.0k ★ · +1653 today"},
-        {"name": "google/ax", "url": "https://github.com/google/ax", "meta": "Go · 11.6k ★ · +1379 today"},
-        {"name": "rohitg00/ai-engineering-from-scratch", "url": "https://github.com/rohitg00/ai-engineering-from-scratch", "meta": "Python · 57.7k ★ · +1177 today"},
-        {"name": "dream-num/univer", "url": "https://github.com/dream-num/univer", "meta": "TypeScript · 18.7k ★ · +1050 today"},
-        {"name": "mattpocock/skills", "url": "https://github.com/mattpocock/skills", "meta": "Shell · 269.8k ★ · +583 today"},
-        {"name": "obra/superpowers", "url": "https://github.com/obra/superpowers", "meta": "Shell · 291.7k ★ · +468 today"},
-        {"name": "NVIDIA/Model-Optimizer", "url": "https://github.com/NVIDIA/Model-Optimizer", "meta": "Python · 4.5k ★ · +359 today"},
-        {"name": "pbakaus/impeccable", "url": "https://github.com/pbakaus/impeccable", "meta": "JavaScript · 71.3k ★ · +306 today"},
-        {"name": "anthropics/skills", "url": "https://github.com/anthropics/skills", "meta": "Python · 178.4k ★ · +189 today"}
+        {"name": "paperclipai/paperclip", "url": "https://github.com/paperclipai/paperclip", "meta": "TypeScript · 88.3k ★ · +2608 today"},
+        {"name": "vectorize-io/hindsight", "url": "https://github.com/vectorize-io/hindsight", "meta": "Python · 34.7k ★ · +2147 today"},
+        {"name": "dream-num/univer", "url": "https://github.com/dream-num/univer", "meta": "TypeScript · 19.8k ★ · +849 today"},
+        {"name": "rohitg00/ai-engineering-from-scratch", "url": "https://github.com/rohitg00/ai-engineering-from-scratch", "meta": "Python · 58.7k ★ · +827 today"},
+        {"name": "NVIDIA/Model-Optimizer", "url": "https://github.com/NVIDIA/Model-Optimizer", "meta": "Python · 4.9k ★ · +357 today"},
+        {"name": "block/buzz", "url": "https://github.com/block/buzz", "meta": "Rust · 34.9k ★ · +339 today"},
+        {"name": "mobile-next/mobile-mcp", "url": "https://github.com/mobile-next/mobile-mcp", "meta": "TypeScript · 7.6k ★ · +168 today"},
+        {"name": "microsoft/vscode", "url": "https://github.com/microsoft/vscode", "meta": "TypeScript · 193.1k ★ · +95 today"},
+        {"name": "tensorflow/tensorflow", "url": "https://github.com/tensorflow/tensorflow", "meta": "C++ · 200.5k ★ · +46 today"},
+        {"name": "anthropics/claude-code-action", "url": "https://github.com/anthropics/claude-code-action", "meta": "TypeScript · 9.2k ★ · +31 today"}
       ]
     },
     "huggingface": {
       "title": "Models Trending (Hugging Face)",
       "url": "https://huggingface.co/models?sort=trending",
       "link_label": "huggingface.co/models",
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "items": [
-        {"name": "convaiinnovations/laya", "url": "https://huggingface.co/convaiinnovations/laya", "meta": "0.4B, text classification"},
-        {"name": "Qwen/Qwen-Image-2.1", "url": "https://huggingface.co/Qwen/Qwen-Image-2.1", "meta": "7B, text-to-image"},
-        {"name": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF", "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF", "meta": "7B, GGUF quant of Qwen-Image-2.1"},
-        {"name": "XingChen-AGI/Xing4.0-29B-A4B", "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B", "meta": "31B, text generation"},
-        {"name": "prism-ml/Ternary-Bonsai-2-27B-gguf", "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf", "meta": "27B, ternary-quantized text generation"},
-        {"name": "Comfy-Org/Qwen-Image-2.1", "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1", "meta": "ComfyUI packaging of Qwen-Image-2.1"},
-        {"name": "Altworld/Hemmingway-1", "url": "https://huggingface.co/Altworld/Hemmingway-1", "meta": "27B, text generation"},
-        {"name": "Edge0/Audio8-ASR-Infinite", "url": "https://huggingface.co/Edge0/Audio8-ASR-Infinite", "meta": "4B, automatic speech recognition"},
-        {"name": "XiaomiMiMo/MiMo-V2.6-Pro-RL", "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL", "meta": "1T, text generation (RL-tuned)"},
-        {"name": "TaichuAI/ZDTaichu5.0-9B", "url": "https://huggingface.co/TaichuAI/ZDTaichu5.0-9B", "meta": "10B, image-text-to-text"}
+        {"name": "convaiinnovations/laya", "url": "https://huggingface.co/convaiinnovations/laya", "meta": "0.4B text classification model"},
+        {"name": "Qwen/Qwen-Image-2.1", "url": "https://huggingface.co/Qwen/Qwen-Image-2.1", "meta": "7B text-to-image model, 52.8k downloads"},
+        {"name": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF", "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF", "meta": "GGUF quant of Qwen-Image-2.1, 964k downloads"},
+        {"name": "XingChen-AGI/Xing4.0-29B-A4B", "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B", "meta": "31B text generation, MoE with 4B active params"},
+        {"name": "Edge0/Audio8-ASR-Infinite", "url": "https://huggingface.co/Edge0/Audio8-ASR-Infinite", "meta": "ASR model for unlimited-length audio"},
+        {"name": "Comfy-Org/Qwen-Image-2.1", "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1", "meta": "Comfy-packaged Qwen-Image-2.1, 3.99M downloads"},
+        {"name": "prism-ml/Ternary-Bonsai-2-27B-gguf", "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf", "meta": "Ternary-quantized 27B text-generation GGUF"},
+        {"name": "Altworld/Hemmingway-1", "url": "https://huggingface.co/Altworld/Hemmingway-1", "meta": "27B text generation model"},
+        {"name": "XiaomiMiMo/MiMo-V2.6-Pro-RL", "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL", "meta": "1T-parameter RL-tuned text generation flagship"},
+        {"name": "deepseek-ai/DeepSeek-V4.1-Flash", "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash", "meta": "763B multimodal image-text-to-text model"}
       ]
     }
   },
@@ -150,7 +231,7 @@
       "title": "Free on OpenRouter",
       "url": "https://openrouter.ai/models?max_price=0",
       "link_label": "Browse free models on OpenRouter →",
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "items": [
         {"name": "Cohere: North Mini Code (free)", "url": "https://openrouter.ai/cohere/north-mini-code:free", "meta": "256K ctx"},
         {"name": "Dots Studio: Dots3-Note Preview (free)", "url": "https://openrouter.ai/dots-studio/dots-3-note-preview:free", "meta": "512K ctx"},
@@ -176,10 +257,11 @@
       "title": "Free on OpenCode Zen",
       "url": "https://opencode.ai/docs/zen/",
       "link_label": "See the full Zen catalog →",
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "items": [
         {"name": "Big Pickle", "url": "https://opencode.ai/docs/zen/", "meta": "big-pickle"},
         {"name": "Space Bunny Free", "url": "https://opencode.ai/docs/zen/", "meta": "space-bunny-free"},
+        {"name": "LongCat 2.5 Preview Free", "url": "https://opencode.ai/docs/zen/", "meta": "longcat-2.5-preview-free"},
         {"name": "MiMo-V2.6-Flash Free", "url": "https://opencode.ai/docs/zen/", "meta": "mimo-v2.6-flash-free"},
         {"name": "MiMo-V2.5 Free", "url": "https://opencode.ai/docs/zen/", "meta": "mimo-v2.5-free"},
         {"name": "Ling 3.0 Flash Fin Free", "url": "https://opencode.ai/docs/zen/", "meta": "ling-3.0-flash-fin-free"},
@@ -191,24 +273,93 @@
     }
   },
   "quick_hits": [
-    {"title": "Micro1 reportedly raises $100M+ at a $4B valuation for AI training data", "source": "Crunchbase News", "date": "2026-09-25", "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-ai-health-island-cyera/"},
-    {"title": "Numeral closes $100M Series C led by Insight Partners", "source": "Crunchbase News", "date": "2026-09-25", "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-ai-health-island-cyera/"},
-    {"title": "Show HN: Tenjin, a Jev-based x402 tool router for Claude Code", "source": "Hacker News", "date": "2026-09-26", "url": "https://news.ycombinator.com/item?id=49851853"},
-    {"title": "Show HN: Piloxa, an MCP server that sends USPS Certified Mail from AI agents", "source": "Hacker News", "date": "2026-09-25", "url": "https://news.ycombinator.com/item?id=49849629"},
-    {"title": "Show HN: MyA11yReport MCP for building and testing accessible websites", "source": "Hacker News", "date": "2026-09-25", "url": "https://news.ycombinator.com/item?id=49850774"},
-    {"title": "Noctua explores 2,000W micro-channel air cooling with Forced Physics DCT", "source": "Tom's Hardware", "date": "2026-09-25", "url": "https://www.tomshardware.com/pc-components/air-cooling/noctua-explores-2-000w-micro-channel-air-cooling-partners-with-forced-physics-to-develop-vacuum-pump-level-airflow-for-desktop-pcs"},
-    {"title": "Matt Wolfe rounds up new model releases: Opus 5.5, GPT-6 Sol, Jev and Muse", "source": "YouTube — Matt Wolfe", "date": "2026-09-26", "url": "https://www.youtube.com/watch?v=aDpIra7NFuE"},
-    {"title": "The AI Daily Brief examines how people are actually using Jev", "source": "YouTube — The AI Daily Brief", "date": "2026-09-26", "url": "https://www.youtube.com/watch?v=uV6h3Uo4Nh8"},
-    {"title": "Microsoft AI CEO Mustafa Suleyman says the industry needs a 'red line' for AI", "source": "YouTube — Bloomberg Technology", "date": "2026-09-25", "url": "https://www.youtube.com/watch?v=XGmMomplN4c"},
-    {"title": "Bloomberg: Anthropic goes big on compute as Microsoft rethinks its AI strategy", "source": "YouTube — Bloomberg Technology", "date": "2026-09-25", "url": "https://www.youtube.com/watch?v=5DMutq7W__w"},
-    {"title": "Confindustria's Marchesini calls for an 'AI 5.0' support plan for Italian businesses", "source": "AI4Business", "date": "2026-09-25", "url": "https://www.ai4business.it/intelligenza-artificiale/ai-manager/marchesini-confindustria-serve-una-politica-di-sostegno-per-lintelligenza-artificiale-nelle-imprese-una-sorta-di-piano-ai-5-0/"},
-    {"title": "AI4Business surveys the Claude developer console: prompt caching, Batch API, Skills and server-side MCP", "source": "AI4Business", "date": "2026-09-25", "url": "https://www.ai4business.it/intelligenza-artificiale/claude-platform-claude-com-la-console-developer-che-cambia-il-rapporto-con-lai-in-produzione/"}
+    {
+      "title": "Qwen3.8-Flash-Next hits 65 tok/s output on 12GB VRAM with GSQ/RCO quants and RAM offloading",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-26",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp7zyb/qwen38flashnext_on_12gb_vram_65_tokens_per_second/",
+      "scout_source": "selfhost"
+    },
+    {
+      "title": "Canopy frames LLM inference problems as optimization over the autoregressive prefix tree",
+      "source": "arXiv",
+      "date": "2026-09-24",
+      "url": "https://arxiv.org/abs/2609.30017",
+      "scout_source": "research"
+    },
+    {
+      "title": "ExplorationBench measures AI systems' exploration in verifiable synthetic worlds",
+      "source": "HuggingFace",
+      "date": "2026-09-24",
+      "url": "https://huggingface.co/papers/2609.30199",
+      "scout_source": "research"
+    },
+    {
+      "title": "ASIRF handles context-dependent sensitive-information redaction without per-domain retraining",
+      "source": "arXiv",
+      "date": "2026-09-24",
+      "url": "https://arxiv.org/abs/2609.29191",
+      "scout_source": "research"
+    },
+    {
+      "title": "SLCA-GRPO resolves cross-segment credit misattribution in tool-calling RL",
+      "source": "arXiv",
+      "date": "2026-09-24",
+      "url": "https://arxiv.org/abs/2609.29050",
+      "scout_source": "research"
+    },
+    {
+      "title": "Microsoft quietly drops Copilot+ branding from its new Surface laptops",
+      "source": "Tom's Hardware",
+      "date": "2026-09-26",
+      "url": "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-quietly-drops-copilot-branding-from-its-new-laptops-surface-cvp-confirms-new-devices-meet-hardware-requirements-but-lack-controversial-branding",
+      "scout_source": "hardware"
+    },
+    {
+      "title": "MSI Claw 8 EX AI, an Arc G3-based gaming handheld, up for preorder at $1,499",
+      "source": "VideoCardz",
+      "date": "2026-09-27",
+      "url": "https://videocardz.com/newz/msi-claw-8-ex-ai-arc-g3-based-gaming-handheld-is-up-for-preorder-at-1499-300-less-than-g3-extreme",
+      "scout_source": "hardware"
+    },
+    {
+      "title": "Cognee publishes a detailed guide to agent memory for local RAG stacks",
+      "source": "Cognee",
+      "date": "2026-09-26",
+      "url": "https://www.cognee.ai/agent-memory",
+      "scout_source": "tools"
+    },
+    {
+      "title": "Product Hunt digest: Floot MCP and Lyzr's Opencontroller lead agent-tooling launches",
+      "source": "GitHub",
+      "date": "2026-09-26",
+      "url": "https://github.com/duanyytop/agents-radar/issues/3482",
+      "scout_source": "tools"
+    },
+    {
+      "title": "Theo analyzes frontier model pacing in the latest release cycle",
+      "source": "YouTube — Theo - t3.gg",
+      "date": "2026-09-27",
+      "url": "https://www.youtube.com/watch?v=IBcBKgYUghU",
+      "scout_source": "youtube"
+    },
+    {
+      "title": "The employee paradox: Italian workers fear losing skills companies rate decisive in an AI era",
+      "source": "Forbes Italia",
+      "date": "2026-09-26",
+      "url": "https://forbes.it/2026-09-26/ai-lavoro-dipendenti-competenze-ibm/",
+      "scout_source": "italia"
+    },
+    {
+      "title": "La Tech Made in Italy: after 10M sessions, Unobravo takes telepsychology into 29 Italian cities",
+      "source": "La Tech Made in Italy",
+      "date": "2026-09-27",
+      "url": "https://www.latechmadeinitaly.com/e-se-il-futuro-del-tech-fosse-piu-umano-e-meno-ai/",
+      "scout_source": "italia"
+    }
   ],
   "spiked": {
-    "low signal": 1,
-    "out of window": 6,
-    "duplicate url": 1,
-    "same story": 1,
-    "already ran": 12
+    "already ran": 10,
+    "low signal": 7
   }
 }

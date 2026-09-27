@@ -5444,6 +5444,198 @@
       "source": "AI4Business",
       "date": "2026-09-26",
       "issue": 29
+    },
+    {
+      "text": "Home Assistant 2026.10 moves LLM tools to ToolResult with mandatory integration declarations",
+      "source": "Home Assistant Developer Docs",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "Microsoft ships its biggest Copilot update yet, folding in Home, Code and Autopilot",
+      "source": "TestingCatalog",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "OpenAI agents breached Hugging Face infrastructure in an internal security test",
+      "source": "Eugenio Fierro",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "GUNNIR shows dual Arc Pro B70 workstation with 64GB VRAM and liquid cooling",
+      "source": "VideoCardz",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "China and the US agree to open a bilateral AI-incident communication channel",
+      "source": "Chinese Embassy in US",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "Rufus-Air publishes an open, reproducible eight-stage post-training recipe on GLM-4.5-Air-Base",
+      "source": "arXiv",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "ViRDM tames representation distribution matching for few-step causal video generation",
+      "source": "HuggingFace",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "Post-training leaves behavioral shadows on unrelated decisions",
+      "source": "arXiv",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "A rapid pipeline trains and deploys ML models on the WeBe band under device constraints",
+      "source": "arXiv",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "Qwen3.8-Flash-Next arrives with dozens of finetunes and quantizations",
+      "source": "HuggingFace",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "Google Gemma 4 line-up lands: gemma-4-26B-A4B-it multimodal instruction model",
+      "source": "HuggingFace",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "DeepSeek-V4.1-Flash trends as a large open multimodal model",
+      "source": "HuggingFace",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "llama.cpp b11211 adds an RDMA completion channel to the RPC backend",
+      "source": "GitHub",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "Gpusched: a lightweight GPU job scheduler for local inference",
+      "source": "GitHub",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "Jauvex unifies Claude, Codex and Grok in one app with two-way voice chat",
+      "source": "GitHub",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "Community quick-bench: Qwen Flash-Next IQ4 vs Qwen 27B FP8 on consumer hardware",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "4x3060 Ti tensor-parallel rig hits ~70 t/s on Qwen3.8-27B with MTP and 196k context",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "Nvidia's RTX Mega Geometry 2.0 streams ray-tracing geometry into VRAM on demand",
+      "source": "Tom's Hardware",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "MINISFORUM launches a $375 MS-01 SE workstation with DDR4 memory",
+      "source": "VideoCardz",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "RTX 5090, once a consumer gaming card, is now on smugglers' menu alongside cigarettes",
+      "source": "VideoCardz",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "Qwen3.8-Flash-Next hits 65 tok/s output on 12GB VRAM with GSQ/RCO quants and RAM offloading",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "Canopy frames LLM inference problems as optimization over the autoregressive prefix tree",
+      "source": "arXiv",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "ExplorationBench measures AI systems' exploration in verifiable synthetic worlds",
+      "source": "HuggingFace",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "ASIRF handles context-dependent sensitive-information redaction without per-domain retraining",
+      "source": "arXiv",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "SLCA-GRPO resolves cross-segment credit misattribution in tool-calling RL",
+      "source": "arXiv",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "Microsoft quietly drops Copilot+ branding from its new Surface laptops",
+      "source": "Tom's Hardware",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "MSI Claw 8 EX AI, an Arc G3-based gaming handheld, up for preorder at $1,499",
+      "source": "VideoCardz",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "Cognee publishes a detailed guide to agent memory for local RAG stacks",
+      "source": "Cognee",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "Product Hunt digest: Floot MCP and Lyzr's Opencontroller lead agent-tooling launches",
+      "source": "GitHub",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "Theo analyzes frontier model pacing in the latest release cycle",
+      "source": "YouTube \u2014 Theo - t3.gg",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "The employee paradox: Italian workers fear losing skills companies rate decisive in an AI era",
+      "source": "Forbes Italia",
+      "date": "2026-09-27",
+      "issue": 30
+    },
+    {
+      "text": "La Tech Made in Italy: after 10M sessions, Unobravo takes telepsychology into 29 Italian cities",
+      "source": "La Tech Made in Italy",
+      "date": "2026-09-27",
+      "issue": 30
     }
   ]
 }
