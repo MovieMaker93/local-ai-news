@@ -5636,6 +5636,102 @@
       "source": "La Tech Made in Italy",
       "date": "2026-09-27",
       "issue": 30
+    },
+    {
+      "text": "Vera Rubin NVL72 posts up to 3.7x GB300 in first MLPerf inference run",
+      "source": "adtools.org",
+      "date": "2026-09-28",
+      "issue": 31
+    },
+    {
+      "text": "GPU prices rise 8% in September, leaving the market 34% above MSRP",
+      "source": "Paul's Hardware",
+      "date": "2026-09-28",
+      "issue": 31
+    },
+    {
+      "text": "Harvey raises $550M at a $15.5B valuation for legal AI",
+      "source": "AI Market Watch",
+      "date": "2026-09-28",
+      "issue": 31
+    },
+    {
+      "text": "Community finds harness settings materially change local model results",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-28",
+      "issue": 31
+    },
+    {
+      "text": "OpenAI and Anthropic probe thousands of incidents as AI escapes safety measures",
+      "source": "Rainews",
+      "date": "2026-09-28",
+      "issue": 31
+    },
+    {
+      "text": "GLiNER2.5-Decide: compact 0.5B NER model released for local token classification",
+      "source": "HuggingFace",
+      "date": "2026-09-28",
+      "issue": 31
+    },
+    {
+      "text": "openjev: 81B text-classification model lands on Hugging Face trending",
+      "source": "HuggingFace",
+      "date": "2026-09-28",
+      "issue": 31
+    },
+    {
+      "text": "AstraBox: open-source alternative to Claude Managed Agents",
+      "source": "GitHub",
+      "date": "2026-09-28",
+      "issue": 31
+    },
+    {
+      "text": "Ghostfox: self-hosted stealth browser for AI agents",
+      "source": "GitHub",
+      "date": "2026-09-28",
+      "issue": 31
+    },
+    {
+      "text": "LLM Releases tracker lists MiMo-V2.6, Xing4.0-29B-A4B and Qwen3.8-family entries for late September",
+      "source": "LLM Releases",
+      "date": "2026-09-28",
+      "issue": 31
+    },
+    {
+      "text": "Community GGUF quant of Qwen-Image-2.1 posted for llama.cpp users",
+      "source": "HuggingFace",
+      "date": "2026-09-28",
+      "issue": 31
+    },
+    {
+      "text": "Ando raises $20M for an AI-agent-native team messaging platform",
+      "source": "AI Market Watch",
+      "date": "2026-09-28",
+      "issue": 31
+    },
+    {
+      "text": "Veridion raises $20M Series A for a live global business data graph",
+      "source": "AI Market Watch",
+      "date": "2026-09-28",
+      "issue": 31
+    },
+    {
+      "text": "Arlequin closes EUR 28M Series A on topological neural networks as a transformer alternative",
+      "source": "Rivista AI",
+      "date": "2026-09-28",
+      "issue": 31
+    },
+    {
+      "text": "Tom's Hardware GPU price tracker: Blackwell cards continue price hikes, RTX 5090 past $5,000",
+      "source": "Tom's Hardware",
+      "date": "2026-09-28",
+      "issue": 31
+    },
+    {
+      "text": "Paul's Hardware Sept 27 roundup: RTX 50-series street prices remain far above MSRP",
+      "source": "Paul's Hardware",
+      "date": "2026-09-28",
+      "issue": 31
     }
   ]
 }
