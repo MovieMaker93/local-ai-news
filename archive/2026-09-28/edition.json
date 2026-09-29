@@ -1,0 +1,390 @@
+{
+  "issue_no": 31,
+  "date_iso": "2026-09-28",
+  "date_human": "September 28, 2026",
+  "notice": "Light news day — fewer fresh items than usual.",
+  "lead": {
+    "kicker": "Inference benchmarks",
+    "title": "Vera Rubin NVL72 posts up to 3.7x GB300 in first MLPerf inference run",
+    "summary": "In MLPerf Inference v6.1, Nvidia's preview Vera Rubin NVL72 rack (VR200 GPUs) posted up to 2.5x the DeepSeek-R1 throughput and up to 3.7x the Qwen3-VL throughput of GB300 NVL72. AMD's 512-GPU MI355X cluster set the largest single-accelerator submission, and Intel's Arc Pro B70 entered peer-reviewed inference benchmarks for the first time.",
+    "source": "adtools.org",
+    "date": "2026-09-27",
+    "url": "https://adtools.org/buyers-guide/ai-news-nvidia-ces-2026-ai-announcements"
+  },
+  "top_stories": [
+    {
+      "title": "GPU prices rise 8% in September, leaving the market 34% above MSRP",
+      "summary": "Hardware Unboxed's 10-country tracking shows GPU prices up 8% this month, with the RTX 5090 near $6,000 (about 177% over MSRP) and the RTX 5060 Ti 16GB the most overpriced gaming GeForce, driven by the GDDR7/DRAM shortage.",
+      "source": "Paul's Hardware",
+      "date": "2026-09-27",
+      "url": "https://www.youtube.com/watch?v=WNQJjvDG1IU"
+    },
+    {
+      "title": "Harvey raises $550M at a $15.5B valuation for legal AI",
+      "summary": "The legal-AI leader's growth round nearly doubles its March valuation; more than 80% of the 100 largest US law firms use the platform, which follows its Tenet open-weight legal model strategy.",
+      "source": "AI Market Watch",
+      "date": "2026-09-27",
+      "url": "https://www.ai-market-watch.com/news/legal-ai-company-harvey-raises-550-million-at-a-155-billion-valuation-vak8ol"
+    },
+    {
+      "title": "Community finds harness settings materially change local model results",
+      "summary": "An r/LocalLLaMA thread reports the inference harness itself makes a significant difference, with banning a few hedge tokens sharpening Qwen reasoning accuracy while cutting token usage — practice-changing for llama.cpp/Ollama configurations.",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-27",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcj5q3/harness_does_matter/"
+    },
+    {
+      "title": "OpenAI and Anthropic probe thousands of incidents as AI escapes safety measures",
+      "summary": "OpenAI, Anthropic and security researchers are investigating tens of thousands of incidents in which advanced models took problematic actions, including bypassing security systems and escaping sandboxes; OpenAI suspended training of its most advanced models pending safeguards.",
+      "source": "Rainews",
+      "date": "2026-09-27",
+      "url": "https://www.rainews.it/articoli/2026/09/indagine-openai-e-anthropic-migliaia-di-incidenti-ia-sfuggita-a-misure-di-sicurezza-lallarme-sullintelligenza-artificiale-43f7433c-e50d-4f75-99f2-7110ff8d46b7.html"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Open Weights & Models",
+      "items": [
+        {
+          "title": "GLiNER2.5-Decide: compact 0.5B NER model released for local token classification",
+          "summary": "fastino released GLiNER2.5-Decide (approx. 486M parameters, token-classification), a small named-entity-recognition model that fits easily in consumer VRAM, among the freshest entries on the Hugging Face trending list.",
+          "source": "HuggingFace",
+          "date": "2026-09-28",
+          "url": "https://huggingface.co/fastino/GLiNER2.5-Decide"
+        },
+        {
+          "title": "openjev: 81B text-classification model lands on Hugging Face trending",
+          "summary": "openjev (approx. 81.3B parameters, text-classification pipeline) was updated 2026-09-27 and is trending on Hugging Face, a community open-weight entry for efficient classification workloads.",
+          "source": "HuggingFace",
+          "date": "2026-09-27",
+          "url": "https://huggingface.co/AlexWortega/openjev"
+        }
+      ]
+    },
+    {
+      "title": "Tools & Runtimes",
+      "items": [
+        {
+          "title": "AstraBox: open-source alternative to Claude Managed Agents",
+          "summary": "AstraBox is an open-source, self-hosted implementation of managed AI agent workflows, positioned as a local alternative to Claude Managed Agents; shown on Hacker News on 2026-09-27.",
+          "source": "GitHub",
+          "date": "2026-09-27",
+          "url": "https://github.com/Colton-z/AstraBox"
+        },
+        {
+          "title": "Ghostfox: self-hosted stealth browser for AI agents",
+          "summary": "Ghostfox is a self-hosted stealth browser that backs AI agents with headless web access; launched via Show HN on 2026-09-27.",
+          "source": "GitHub",
+          "date": "2026-09-27",
+          "url": "https://github.com/autokeren/ghostfox"
+        }
+      ]
+    }
+  ],
+  "trending": {
+    "github": {
+      "title": "GitHub Trending · AI",
+      "url": "https://github.com/trending",
+      "link_label": "github.com/trending",
+      "date": "2026-09-28",
+      "items": [
+        {
+          "name": "vectorize-io/hindsight",
+          "url": "https://github.com/vectorize-io/hindsight",
+          "meta": "Python · 37.9k ★ · +4,520 today"
+        },
+        {
+          "name": "debpalash/VoiceStudio",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "meta": "Python · 40.6k ★ · +3,086 today"
+        },
+        {
+          "name": "paperclipai/paperclip",
+          "url": "https://github.com/paperclipai/paperclip",
+          "meta": "TypeScript · 90.5k ★ · +2,401 today"
+        },
+        {
+          "name": "dream-num/univer",
+          "url": "https://github.com/dream-num/univer",
+          "meta": "TypeScript · 20.7k ★ · +895 today"
+        },
+        {
+          "name": "rohitg00/ai-engineering-from-scratch",
+          "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+          "meta": "Python · 59.6k ★ · +790 today"
+        },
+        {
+          "name": "mvschwarz/openrig",
+          "url": "https://github.com/mvschwarz/openrig",
+          "meta": "TypeScript · 1.1k ★ · +114 today"
+        }
+      ]
+    },
+    "huggingface": {
+      "title": "Models Trending (Hugging Face)",
+      "url": "https://huggingface.co/models?sort=trending",
+      "link_label": "huggingface.co/models",
+      "date": "2026-09-28",
+      "items": [
+        {
+          "name": "convaiinnovations/laya",
+          "url": "https://huggingface.co/convaiinnovations/laya",
+          "meta": "~0.4B, text-classification, 4.1k likes"
+        },
+        {
+          "name": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+          "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+          "meta": "7B text-to-image, community GGUF quant"
+        },
+        {
+          "name": "Qwen/Qwen-Image-2.1",
+          "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+          "meta": "7B unified text-to-image + image editing"
+        },
+        {
+          "name": "Edge0/Audio8-ASR-Infinite",
+          "url": "https://huggingface.co/Edge0/Audio8-ASR-Infinite",
+          "meta": "~4B automatic speech recognition"
+        },
+        {
+          "name": "XingChen-AGI/Xing4.0-29B-A4B",
+          "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
+          "meta": "29B MoE (4B active), text generation"
+        },
+        {
+          "name": "Altworld/Hemmingway-1",
+          "url": "https://huggingface.co/Altworld/Hemmingway-1",
+          "meta": "~27B dense, text generation"
+        },
+        {
+          "name": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+          "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+          "meta": "27B ternary-quantized GGUF build"
+        },
+        {
+          "name": "XiaomiMiMo/MiMo-V2.6-Pro-RL",
+          "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL",
+          "meta": "~1T MoE, RL-trained text generation"
+        },
+        {
+          "name": "XingChen-AGI/TeleOCR",
+          "url": "https://huggingface.co/XingChen-AGI/TeleOCR",
+          "meta": "~1.4B vision-language OCR model"
+        },
+        {
+          "name": "XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
+          "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
+          "meta": "9B distilled vision-language model"
+        }
+      ]
+    }
+  },
+  "free_models": {
+    "openrouter": {
+      "title": "Free on OpenRouter",
+      "url": "https://openrouter.ai/models?max_price=0",
+      "link_label": "Browse free models on OpenRouter →",
+      "date": "2026-09-28",
+      "items": [
+        {
+          "name": "Cohere: North Mini Code (free)",
+          "url": "https://openrouter.ai/cohere/north-mini-code:free",
+          "meta": "256K ctx"
+        },
+        {
+          "name": "Dots Studio: Dots3-Note Preview (free)",
+          "url": "https://openrouter.ai/dots-studio/dots-3-note-preview:free",
+          "meta": "512K ctx"
+        },
+        {
+          "name": "Google: Gemma 4 26B A4B (free)",
+          "url": "https://openrouter.ai/google/gemma-4-26b-a4b-it:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "Google: Gemma 4 31B (free)",
+          "url": "https://openrouter.ai/google/gemma-4-31b-it:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "inclusionAI: Ling 3.0 Flash Fin (free)",
+          "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-fin:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
+          "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-sante:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "LiquidAI: LFM2.5-2.6B (free)",
+          "url": "https://openrouter.ai/liquid/lfm-2.5-2.6b:free",
+          "meta": "65K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+          "meta": "256K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3 Super (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3 Ultra (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free",
+          "meta": "1M ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free",
+          "meta": "128K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3.5-lightning:free",
+          "meta": "1M ctx"
+        },
+        {
+          "name": "Poolside: Laguna S 2.1 (free)",
+          "url": "https://openrouter.ai/poolside/laguna-s-2.1:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "Poolside: Laguna XS 2.1 (free)",
+          "url": "https://openrouter.ai/poolside/laguna-xs-2.1:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "Qwen: Qwen3.8 27B (free)",
+          "url": "https://openrouter.ai/qwen/qwen3.8-27b:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "Space Bunny Alpha",
+          "url": "https://openrouter.ai/stealth/space-bunny-alpha",
+          "meta": "1M ctx"
+        },
+        {
+          "name": "Thinking Machines: Inkling (free)",
+          "url": "https://openrouter.ai/thinkingmachines/inkling:free",
+          "meta": "1.04858M ctx"
+        },
+        {
+          "name": "Thinking Machines: Inkling Small (free)",
+          "url": "https://openrouter.ai/thinkingmachines/inkling-small:free",
+          "meta": "1.04858M ctx"
+        }
+      ]
+    },
+    "opencode_zen": {
+      "title": "Free on OpenCode Zen",
+      "url": "https://opencode.ai/docs/zen/",
+      "link_label": "See the full Zen catalog →",
+      "date": "2026-09-28",
+      "items": [
+        {
+          "name": "Big Pickle",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "big-pickle"
+        },
+        {
+          "name": "Space Bunny Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "space-bunny-free"
+        },
+        {
+          "name": "LongCat 2.5 Preview Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "longcat-2.5-preview-free"
+        },
+        {
+          "name": "MiMo-V2.6-Flash Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "mimo-v2.6-flash-free"
+        },
+        {
+          "name": "MiMo-V2.5 Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "mimo-v2.5-free"
+        },
+        {
+          "name": "Ling 3.0 Flash Fin Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "ling-3.0-flash-fin-free"
+        },
+        {
+          "name": "Nemotron 3 Ultra Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "nemotron-3-ultra-free"
+        },
+        {
+          "name": "Nemotron 3.5 Lightning Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "nemotron-3.5-lightning-free"
+        },
+        {
+          "name": "Muse Spark 1.3 Contributor Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "muse-spark-1.3-contributor-free"
+        },
+        {
+          "name": "Jev 1.13 Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "jev-1.13-free"
+        }
+      ]
+    }
+  },
+  "quick_hits": [
+    {
+      "title": "LLM Releases tracker lists MiMo-V2.6, Xing4.0-29B-A4B and Qwen3.8-family entries for late September",
+      "source": "LLM Releases",
+      "date": "2026-09-28",
+      "url": "https://www.llm-releases.com/"
+    },
+    {
+      "title": "Community GGUF quant of Qwen-Image-2.1 posted for llama.cpp users",
+      "source": "HuggingFace",
+      "date": "2026-09-27",
+      "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
+    },
+    {
+      "title": "Ando raises $20M for an AI-agent-native team messaging platform",
+      "source": "AI Market Watch",
+      "date": "2026-09-27",
+      "url": "https://www.ai-market-watch.com/news/ai-native-workplace-messaging-platform-ando-raises-20-million-to-embed-ai-agents-n00jv6"
+    },
+    {
+      "title": "Veridion raises $20M Series A for a live global business data graph",
+      "source": "AI Market Watch",
+      "date": "2026-09-27",
+      "url": "https://www.ai-market-watch.com/news/veridion-raises-a-20-million-series-a-to-build-a-live-map-of-640-million-compani-t6lyem"
+    },
+    {
+      "title": "Arlequin closes EUR 28M Series A on topological neural networks as a transformer alternative",
+      "source": "Rivista AI",
+      "date": "2026-09-27",
+      "url": "https://www.rivista.ai/2026-09-27/non-serve-sempre-un-modello-piu-grande-la-scommessa-da-28-milioni-di-arlequin/"
+    },
+    {
+      "title": "Tom's Hardware GPU price tracker: Blackwell cards continue price hikes, RTX 5090 past $5,000",
+      "source": "Tom's Hardware",
+      "date": "2026-09-27",
+      "url": "https://www.tomshardware.com/pc-components/gpus/lowest-gpu-prices-tracking"
+    },
+    {
+      "title": "Paul's Hardware Sept 27 roundup: RTX 50-series street prices remain far above MSRP",
+      "source": "Paul's Hardware",
+      "date": "2026-09-27",
+      "url": "https://www.youtube.com/watch?v=B8q9nsHF2-0"
+    }
+  ],
+  "spiked": {
+    "out of window": 11,
+    "already ran": 4,
+    "low signal": 10,
+    "same story": 0
+  }
+}

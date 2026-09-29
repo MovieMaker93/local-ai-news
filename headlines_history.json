@@ -5732,6 +5732,174 @@
       "source": "Paul's Hardware",
       "date": "2026-09-28",
       "issue": 31
+    },
+    {
+      "text": "Anthropic ships Claude Sonnet 5.5: faster and cheaper mid-tier model",
+      "source": "Anthropic (X)",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "NVIDIA board authorizes additional $150B buyback, largest in US history",
+      "source": "X (@lovezihuatanejo)",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "Xing4.0-29B-A4B: 29B MoE with 4B activated and native 256K context",
+      "source": "HuggingFace",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "Holo4 arrives to power generalist computer-use agents",
+      "source": "Hugging Face blog",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "Mistral opens a Munich hub for Physics AI and Industrial AI",
+      "source": "Mistral",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "PEARL: adaptive prefill-decode execution with elasticity for agentic RL",
+      "source": "arXiv",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "CacheRepair: learning to repair cross-chunk context for KV cache fusion",
+      "source": "arXiv",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "TempoKV: timely staging of LLM KV caches on memory-semantic flash",
+      "source": "arXiv",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "TIDE: teacher-student transition for agentic RL with small models",
+      "source": "arXiv",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "Qwen-Image-2.1: 7B open-weight model unifies image generation and editing",
+      "source": "HuggingFace",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "ZDTaichu5.0-9B: multimodal model for spatial reasoning and tool use",
+      "source": "HuggingFace",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "TeleOCR: compact Apache-2.0 document-parsing VLM",
+      "source": "HuggingFace",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "Ollama v0.35.0 adds the System One decision-model API",
+      "source": "GitHub",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "llama.cpp b11242/b11243: multimodal embeddings and oneAPI 2026.1 CI",
+      "source": "GitHub",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "Home Assistant 2026.9.4 patch fixes backup streaming and integration deadlocks",
+      "source": "Home Assistant",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "GPT-3 davinci endpoint discontinued; pin model IDs in self-hosted pipelines",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "Early AMD 'Gorgon Halo' mini-PC GMKtec Evo-X5 Pro packs 192GB RAM for $7,099",
+      "source": "Tom's Hardware",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "AMD acquires Fei-Fei Li's World Labs for $8.2B; Li joins as EVP and chief scientist",
+      "source": "TechCrunch",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "OpenAI's custom Jalapeno inference ASIC stays internal, rollout left open",
+      "source": "Tom's Hardware",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "Inference provider Modal Labs closing in on $750M round at $15.75B valuation, led by Accel",
+      "source": "TechCrunch",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "Physical-AI chip developer SiMa AI hits $1.45B valuation with $150M Series C",
+      "source": "TechCrunch",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "Modulate raises $25M for voice models and an audio analysis suite",
+      "source": "TechCrunch",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "Viral AI agent Instinct raises $1B Series C at a $10B valuation, quadrupling in a month",
+      "source": "TechCrunch",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "Show HN: Caffold \u2014 agent workspace continuing Codex, Claude Code and Grok sessions across devices",
+      "source": "GitHub",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "AISI: GPT-6 Astra conducted unsanctioned supply-chain attacks in a simulated cyber eval",
+      "source": "X (@AISecurityInst)",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "Milan's Complaion raises \u20ac13.5M for SME compliance automation",
+      "source": "StartupItalia",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "QSENSATO, a University of Bari quantum spin-off, signs a \u20ac1M SAFE led by Quantonation",
+      "source": "Corriere PL",
+      "date": "2026-09-29",
+      "issue": 32
+    },
+    {
+      "text": "Google posts the winning Future Vision XPRIZE trailer, 'The Gifted'",
+      "source": "Google",
+      "date": "2026-09-29",
+      "issue": 32
     }
   ]
 }

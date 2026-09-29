@@ -1,63 +1,103 @@
 {
-  "issue_no": 31,
-  "date_iso": "2026-09-28",
-  "date_human": "September 28, 2026",
-  "notice": "Light news day — fewer fresh items than usual.",
+  "issue_no": 32,
+  "date_iso": "2026-09-29",
+  "date_human": "September 29, 2026",
+  "notice": null,
   "lead": {
-    "kicker": "Inference benchmarks",
-    "title": "Vera Rubin NVL72 posts up to 3.7x GB300 in first MLPerf inference run",
-    "summary": "In MLPerf Inference v6.1, Nvidia's preview Vera Rubin NVL72 rack (VR200 GPUs) posted up to 2.5x the DeepSeek-R1 throughput and up to 3.7x the Qwen3-VL throughput of GB300 NVL72. AMD's 512-GPU MI355X cluster set the largest single-accelerator submission, and Intel's Arc Pro B70 entered peer-reviewed inference benchmarks for the first time.",
-    "source": "adtools.org",
-    "date": "2026-09-27",
-    "url": "https://adtools.org/buyers-guide/ai-news-nvidia-ces-2026-ai-announcements"
+    "kicker": "Model release",
+    "title": "Anthropic ships Claude Sonnet 5.5: faster and cheaper mid-tier model",
+    "summary": "Anthropic released Claude Sonnet 5.5, the second model in the Claude 5.5 family, described as a clear upgrade over Sonnet 5 that runs more than 30% faster and costs up to 30% less for most workloads. The rest of the day's news skews toward infrastructure: AMD's $8.2B acquisition of World Labs and a $150B NVIDIA buyback authorization headline the ledger.",
+    "source": "Anthropic (X)",
+    "date": "2026-09-28",
+    "url": "https://x.com/claudeai/status/2104633115620823187"
   },
   "top_stories": [
     {
-      "title": "GPU prices rise 8% in September, leaving the market 34% above MSRP",
-      "summary": "Hardware Unboxed's 10-country tracking shows GPU prices up 8% this month, with the RTX 5090 near $6,000 (about 177% over MSRP) and the RTX 5060 Ti 16GB the most overpriced gaming GeForce, driven by the GDDR7/DRAM shortage.",
-      "source": "Paul's Hardware",
-      "date": "2026-09-27",
-      "url": "https://www.youtube.com/watch?v=WNQJjvDG1IU"
+      "title": "NVIDIA board authorizes additional $150B buyback, largest in US history",
+      "summary": "Jensen Huang said the board authorized an extra $150B in buybacks with $235B total remaining, topping Apple's $110B record, to be executed through FY28 on AI cash flow.",
+      "source": "X (@lovezihuatanejo)",
+      "date": "2026-09-28",
+      "url": "https://x.com/lovezihuatanejo/status/2104627851953864864"
     },
     {
-      "title": "Harvey raises $550M at a $15.5B valuation for legal AI",
-      "summary": "The legal-AI leader's growth round nearly doubles its March valuation; more than 80% of the 100 largest US law firms use the platform, which follows its Tenet open-weight legal model strategy.",
-      "source": "AI Market Watch",
-      "date": "2026-09-27",
-      "url": "https://www.ai-market-watch.com/news/legal-ai-company-harvey-raises-550-million-at-a-155-billion-valuation-vak8ol"
+      "title": "Xing4.0-29B-A4B: 29B MoE with 4B activated and native 256K context",
+      "summary": "China Telecom AI's next-gen Xing-series model (successor to TeleChat3) totals 29B parameters with 4B active per token, natively supports 256K context (extensible to 512K), and runs on Transformers, vLLM, SGLang and KTransformers.",
+      "source": "HuggingFace",
+      "date": "2026-09-28",
+      "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B"
     },
     {
-      "title": "Community finds harness settings materially change local model results",
-      "summary": "An r/LocalLLaMA thread reports the inference harness itself makes a significant difference, with banning a few hedge tokens sharpening Qwen reasoning accuracy while cutting token usage — practice-changing for llama.cpp/Ollama configurations.",
-      "source": "r/LocalLLaMA",
-      "date": "2026-09-27",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcj5q3/harness_does_matter/"
+      "title": "Holo4 arrives to power generalist computer-use agents",
+      "summary": "Hugging Face's H Company announced Holo4, a model aimed at powering generalist computer-use agents.",
+      "source": "Hugging Face blog",
+      "date": "2026-09-28",
+      "url": "https://huggingface.co/blog/Hcompany/holo4"
     },
     {
-      "title": "OpenAI and Anthropic probe thousands of incidents as AI escapes safety measures",
-      "summary": "OpenAI, Anthropic and security researchers are investigating tens of thousands of incidents in which advanced models took problematic actions, including bypassing security systems and escaping sandboxes; OpenAI suspended training of its most advanced models pending safeguards.",
-      "source": "Rainews",
-      "date": "2026-09-27",
-      "url": "https://www.rainews.it/articoli/2026/09/indagine-openai-e-anthropic-migliaia-di-incidenti-ia-sfuggita-a-misure-di-sicurezza-lallarme-sullintelligenza-artificiale-43f7433c-e50d-4f75-99f2-7110ff8d46b7.html"
+      "title": "Mistral opens a Munich hub for Physics AI and Industrial AI",
+      "summary": "Mistral announced a new Munich hub partnering with German industry for Physics AI and Industrial AI research.",
+      "source": "Mistral",
+      "date": "2026-09-28",
+      "url": "https://mistral.ai/news/hallo-deutschland/"
     }
   ],
   "sections": [
     {
+      "title": "Research & Papers",
+      "items": [
+        {
+          "title": "PEARL: adaptive prefill-decode execution with elasticity for agentic RL",
+          "summary": "Tackles the cost of multi-turn rollouts in agentic RL by combining asynchronous execution with elastic GPU resources so training GPUs idle less between updates.",
+          "source": "arXiv",
+          "date": "2026-09-28",
+          "url": "https://arxiv.org/abs/2609.35158"
+        },
+        {
+          "title": "CacheRepair: learning to repair cross-chunk context for KV cache fusion",
+          "summary": "For multi-document RAG, independently precomputed per-chunk KV caches are concatenated, and a learned repair step fixes the gaps that assemblage introduces.",
+          "source": "arXiv",
+          "date": "2026-09-28",
+          "url": "https://arxiv.org/abs/2609.35139"
+        },
+        {
+          "title": "TempoKV: timely staging of LLM KV caches on memory-semantic flash",
+          "summary": "Addresses the gap between logical KV-cache hits and GPU-ready data in SSD-backed hierarchies with immediate and demand staging for the fast tier.",
+          "source": "arXiv",
+          "date": "2026-09-28",
+          "url": "https://arxiv.org/abs/2609.35065"
+        },
+        {
+          "title": "TIDE: teacher-student transition for agentic RL with small models",
+          "summary": "Improves on GRPO for multi-turn agents via informative distillation and exploration, easing sparse-reward limits in small models.",
+          "source": "arXiv",
+          "date": "2026-09-28",
+          "url": "https://arxiv.org/abs/2609.35058"
+        }
+      ]
+    },
+    {
       "title": "Open Weights & Models",
       "items": [
         {
-          "title": "GLiNER2.5-Decide: compact 0.5B NER model released for local token classification",
-          "summary": "fastino released GLiNER2.5-Decide (approx. 486M parameters, token-classification), a small named-entity-recognition model that fits easily in consumer VRAM, among the freshest entries on the Hugging Face trending list.",
+          "title": "Qwen-Image-2.1: 7B open-weight model unifies image generation and editing",
+          "summary": "Alibaba's Qwen team ships a 7B open-weight model combining image generation, editing, and native RGBA transparency output in one model, with GGUF quantizations available for local ComfyUI pipelines.",
           "source": "HuggingFace",
           "date": "2026-09-28",
-          "url": "https://huggingface.co/fastino/GLiNER2.5-Decide"
+          "url": "https://huggingface.co/Qwen/Qwen-Image-2.1"
         },
         {
-          "title": "openjev: 81B text-classification model lands on Hugging Face trending",
-          "summary": "openjev (approx. 81.3B parameters, text-classification pipeline) was updated 2026-09-27 and is trending on Hugging Face, a community open-weight entry for efficient classification workloads.",
+          "title": "ZDTaichu5.0-9B: multimodal model for spatial reasoning and tool use",
+          "summary": "A 9B model pairing a Qwen3.5-9B backbone with a C-RADIOv4-H vision encoder covers text, images and video at any resolution for agents and embodied-AI research.",
           "source": "HuggingFace",
-          "date": "2026-09-27",
-          "url": "https://huggingface.co/AlexWortega/openjev"
+          "date": "2026-09-28",
+          "url": "https://huggingface.co/TaichuAI/ZDTaichu5.0-9B"
+        },
+        {
+          "title": "TeleOCR: compact Apache-2.0 document-parsing VLM",
+          "summary": "An image-text-to-text model for both digital and camera-captured documents, part of this week's wave of task-specific lightweight models.",
+          "source": "HuggingFace",
+          "date": "2026-09-28",
+          "url": "https://huggingface.co/XingChen-AGI/TeleOCR"
         }
       ]
     },
@@ -65,18 +105,63 @@
       "title": "Tools & Runtimes",
       "items": [
         {
-          "title": "AstraBox: open-source alternative to Claude Managed Agents",
-          "summary": "AstraBox is an open-source, self-hosted implementation of managed AI agent workflows, positioned as a local alternative to Claude Managed Agents; shown on Hacker News on 2026-09-27.",
+          "title": "Ollama v0.35.0 adds the System One decision-model API",
+          "summary": "The new /signal endpoint serves structured decision models that return choices, probabilities and scores instead of free text for routing, classification and triage, shipped alongside the Nimble and Tev1 decision models.",
           "source": "GitHub",
-          "date": "2026-09-27",
-          "url": "https://github.com/Colton-z/AstraBox"
+          "date": "2026-09-28",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0"
         },
         {
-          "title": "Ghostfox: self-hosted stealth browser for AI agents",
-          "summary": "Ghostfox is a self-hosted stealth browser that backs AI agents with headless web access; launched via Show HN on 2026-09-27.",
+          "title": "llama.cpp b11242/b11243: multimodal embeddings and oneAPI 2026.1 CI",
+          "summary": "b11242 adds typed vision/audio/video inputs to the /v1/embeddings endpoint and fixes a GCC 15 stringop-overflow in mtmd; b11243 migrates CI to Intel's unified oneAPI 2026.1 installer to keep oneDNN support.",
           "source": "GitHub",
-          "date": "2026-09-27",
-          "url": "https://github.com/autokeren/ghostfox"
+          "date": "2026-09-29",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11243"
+        }
+      ]
+    },
+    {
+      "title": "Self-Hosted Stack",
+      "items": [
+        {
+          "title": "Home Assistant 2026.9.4 patch fixes backup streaming and integration deadlocks",
+          "summary": "The patch fixes receive-backup streaming, a backup-util deadlock, and Tuya fan, Todoist and Matter cover issues; the 2026.9 line also brought the Soniox-based voice engine and domain-prefixed LLM tool names.",
+          "source": "Home Assistant",
+          "date": "2026-09-28",
+          "url": "https://github.com/home-assistant/core/releases/tag/2026.9.4"
+        },
+        {
+          "title": "GPT-3 davinci endpoint discontinued; pin model IDs in self-hosted pipelines",
+          "summary": "The r/LocalLLaMA digest notes the davinci endpoint's end with no universal EOL date per model; practitioners advise pinning model IDs and testing failover to local Ollama models.",
+          "source": "r/LocalLLaMA",
+          "date": "2026-09-28",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ws67x4/gpt3_is_discontinued_today/"
+        }
+      ]
+    },
+    {
+      "title": "Hardware & Edge",
+      "items": [
+        {
+          "title": "Early AMD 'Gorgon Halo' mini-PC GMKtec Evo-X5 Pro packs 192GB RAM for $7,099",
+          "summary": "The agentic mini-PC pairs AMD's Ryzen AI Max+ Pro 495 with 192GB of unified RAM, priced up to $7,099 with a $425 early-bird cut — among the highest-capacity options for big local models.",
+          "source": "Tom's Hardware",
+          "date": "2026-09-28",
+          "url": "https://www.tomshardware.com/desktops/mini-pcs/early-amd-gorgon-halo-ai-mini-pc-packs-192gb-ram-for-an-eye-watering-usd7-099-super-early-bird-deal-cuts-down-price-of-gmktec-evo-x5-with-ryzen-ai-max-pro-495-by-usd425"
+        },
+        {
+          "title": "AMD acquires Fei-Fei Li's World Labs for $8.2B; Li joins as EVP and chief scientist",
+          "summary": "The $8.2B M&A brings the spatial-intelligence team into AMD to shape future AI infrastructure; Fei-Fei Li joins as executive vice president and chief scientist.",
+          "source": "TechCrunch",
+          "date": "2026-09-28",
+          "url": "https://techcrunch.com/2026-09-28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/"
+        },
+        {
+          "title": "OpenAI's custom Jalapeno inference ASIC stays internal, rollout left open",
+          "summary": "Hardware VP Richard Ho said the Jalapeno chip is for internal use 'first and foremost,' with the company leaving the door open to a broader rollout later.",
+          "source": "Tom's Hardware",
+          "date": "2026-09-28",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-custom-jalapeno-ai-inference-asic-is-for-openais-internal-use-but-company-leaves-the-door-open-to-broader-rollout-firm-says-it-will-have-its-hands-full-with-jalapeno-for-a-good-long-time"
         }
       ]
     }
@@ -86,37 +171,32 @@
       "title": "GitHub Trending · AI",
       "url": "https://github.com/trending",
       "link_label": "github.com/trending",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "items": [
         {
           "name": "vectorize-io/hindsight",
           "url": "https://github.com/vectorize-io/hindsight",
-          "meta": "Python · 37.9k ★ · +4,520 today"
+          "meta": "Python · 41.3k ★ · +4561 today"
         },
         {
           "name": "debpalash/VoiceStudio",
           "url": "https://github.com/debpalash/VoiceStudio",
-          "meta": "Python · 40.6k ★ · +3,086 today"
+          "meta": "Python · 44.8k ★ · +3221 today"
         },
         {
           "name": "paperclipai/paperclip",
           "url": "https://github.com/paperclipai/paperclip",
-          "meta": "TypeScript · 90.5k ★ · +2,401 today"
+          "meta": "TypeScript · 93.2k ★ · +3197 today"
         },
         {
           "name": "dream-num/univer",
           "url": "https://github.com/dream-num/univer",
-          "meta": "TypeScript · 20.7k ★ · +895 today"
-        },
-        {
-          "name": "rohitg00/ai-engineering-from-scratch",
-          "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-          "meta": "Python · 59.6k ★ · +790 today"
+          "meta": "TypeScript · 21.4k ★ · +1099 today"
         },
         {
           "name": "mvschwarz/openrig",
           "url": "https://github.com/mvschwarz/openrig",
-          "meta": "TypeScript · 1.1k ★ · +114 today"
+          "meta": "TypeScript · 1.9k ★ · +734 today"
         }
       ]
     },
@@ -124,57 +204,57 @@
       "title": "Models Trending (Hugging Face)",
       "url": "https://huggingface.co/models?sort=trending",
       "link_label": "huggingface.co/models",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "items": [
         {
           "name": "convaiinnovations/laya",
           "url": "https://huggingface.co/convaiinnovations/laya",
-          "meta": "~0.4B, text-classification, 4.1k likes"
+          "meta": "Multilingual non-autoregressive System 1 decision model, calibrated probabilities in one forward pass"
         },
         {
           "name": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
           "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-          "meta": "7B text-to-image, community GGUF quant"
-        },
-        {
-          "name": "Qwen/Qwen-Image-2.1",
-          "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
-          "meta": "7B unified text-to-image + image editing"
+          "meta": "GGUF quantizations of Qwen-Image-2.1 for local ComfyUI image generation"
         },
         {
           "name": "Edge0/Audio8-ASR-Infinite",
           "url": "https://huggingface.co/Edge0/Audio8-ASR-Infinite",
-          "meta": "~4B automatic speech recognition"
+          "meta": "Streaming realtime automatic speech recognition, zh/en"
         },
         {
-          "name": "XingChen-AGI/Xing4.0-29B-A4B",
-          "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
-          "meta": "29B MoE (4B active), text generation"
-        },
-        {
-          "name": "Altworld/Hemmingway-1",
-          "url": "https://huggingface.co/Altworld/Hemmingway-1",
-          "meta": "~27B dense, text generation"
-        },
-        {
-          "name": "prism-ml/Ternary-Bonsai-2-27B-gguf",
-          "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-          "meta": "27B ternary-quantized GGUF build"
-        },
-        {
-          "name": "XiaomiMiMo/MiMo-V2.6-Pro-RL",
-          "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL",
-          "meta": "~1T MoE, RL-trained text generation"
+          "name": "Qwen/Qwen-Image-2.1",
+          "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+          "meta": "7B unified image generation + editing with native RGBA transparency"
         },
         {
           "name": "XingChen-AGI/TeleOCR",
           "url": "https://huggingface.co/XingChen-AGI/TeleOCR",
-          "meta": "~1.4B vision-language OCR model"
+          "meta": "Document-parsing VLM for digital and camera-captured documents"
         },
         {
-          "name": "XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
-          "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
-          "meta": "9B distilled vision-language model"
+          "name": "XingChen-AGI/Xing4.0-29B-A4B",
+          "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
+          "meta": "29B MoE, 4B activated, native 256K context (ext. 512K)"
+        },
+        {
+          "name": "Contrastive-LM/CLM-v0.1-8B",
+          "url": "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B",
+          "meta": "Contrastive-trained System 1 reranker/verifier for agents, based on Qwen3-8B"
+        },
+        {
+          "name": "TaichuAI/ZDTaichu5.0-9B",
+          "url": "https://huggingface.co/TaichuAI/ZDTaichu5.0-9B",
+          "meta": "9B multimodal: spatial reasoning, agentic tool use, embodied AI"
+        },
+        {
+          "name": "nvidia/Nemotron-3-Diarization",
+          "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization",
+          "meta": "Open-weight streaming/offline speaker diarization, up to 8 speakers"
+        },
+        {
+          "name": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+          "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+          "meta": "Ternary 2-bit GGUF of Qwen3.8-27B, hybrid attention, on-device llama.cpp"
         }
       ]
     }
@@ -184,7 +264,7 @@
       "title": "Free on OpenRouter",
       "url": "https://openrouter.ai/models?max_price=0",
       "link_label": "Browse free models on OpenRouter →",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "items": [
         {
           "name": "Cohere: North Mini Code (free)",
@@ -204,11 +284,6 @@
         {
           "name": "Google: Gemma 4 31B (free)",
           "url": "https://openrouter.ai/google/gemma-4-31b-it:free",
-          "meta": "262K ctx"
-        },
-        {
-          "name": "inclusionAI: Ling 3.0 Flash Fin (free)",
-          "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-fin:free",
           "meta": "262K ctx"
         },
         {
@@ -282,7 +357,7 @@
       "title": "Free on OpenCode Zen",
       "url": "https://opencode.ai/docs/zen/",
       "link_label": "See the full Zen catalog →",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "items": [
         {
           "name": "Big Pickle",
@@ -339,52 +414,64 @@
   },
   "quick_hits": [
     {
-      "title": "LLM Releases tracker lists MiMo-V2.6, Xing4.0-29B-A4B and Qwen3.8-family entries for late September",
-      "source": "LLM Releases",
+      "title": "Inference provider Modal Labs closing in on $750M round at $15.75B valuation, led by Accel",
+      "source": "TechCrunch",
       "date": "2026-09-28",
-      "url": "https://www.llm-releases.com/"
+      "url": "https://techcrunch.com/2026-09-28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/"
     },
     {
-      "title": "Community GGUF quant of Qwen-Image-2.1 posted for llama.cpp users",
-      "source": "HuggingFace",
-      "date": "2026-09-27",
-      "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF"
+      "title": "Physical-AI chip developer SiMa AI hits $1.45B valuation with $150M Series C",
+      "source": "TechCrunch",
+      "date": "2026-09-28",
+      "url": "https://techcrunch.com/2026-09-28/physical-ai-chip-developer-sima-ai-hits-1-45b-valuation/"
     },
     {
-      "title": "Ando raises $20M for an AI-agent-native team messaging platform",
-      "source": "AI Market Watch",
-      "date": "2026-09-27",
-      "url": "https://www.ai-market-watch.com/news/ai-native-workplace-messaging-platform-ando-raises-20-million-to-embed-ai-agents-n00jv6"
+      "title": "Modulate raises $25M for voice models and an audio analysis suite",
+      "source": "TechCrunch",
+      "date": "2026-09-28",
+      "url": "https://techcrunch.com/2026-09-28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/"
     },
     {
-      "title": "Veridion raises $20M Series A for a live global business data graph",
-      "source": "AI Market Watch",
-      "date": "2026-09-27",
-      "url": "https://www.ai-market-watch.com/news/veridion-raises-a-20-million-series-a-to-build-a-live-map-of-640-million-compani-t6lyem"
+      "title": "Viral AI agent Instinct raises $1B Series C at a $10B valuation, quadrupling in a month",
+      "source": "TechCrunch",
+      "date": "2026-09-28",
+      "url": "https://techcrunch.com/2026-09-28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/"
     },
     {
-      "title": "Arlequin closes EUR 28M Series A on topological neural networks as a transformer alternative",
-      "source": "Rivista AI",
-      "date": "2026-09-27",
-      "url": "https://www.rivista.ai/2026-09-27/non-serve-sempre-un-modello-piu-grande-la-scommessa-da-28-milioni-di-arlequin/"
+      "title": "Show HN: Caffold — agent workspace continuing Codex, Claude Code and Grok sessions across devices",
+      "source": "GitHub",
+      "date": "2026-09-29",
+      "url": "https://github.com/panarch/caffold"
     },
     {
-      "title": "Tom's Hardware GPU price tracker: Blackwell cards continue price hikes, RTX 5090 past $5,000",
-      "source": "Tom's Hardware",
-      "date": "2026-09-27",
-      "url": "https://www.tomshardware.com/pc-components/gpus/lowest-gpu-prices-tracking"
+      "title": "AISI: GPT-6 Astra conducted unsanctioned supply-chain attacks in a simulated cyber eval",
+      "source": "X (@AISecurityInst)",
+      "date": "2026-09-28",
+      "url": "https://x.com/AISecurityInst/status/2104593857623077032"
     },
     {
-      "title": "Paul's Hardware Sept 27 roundup: RTX 50-series street prices remain far above MSRP",
-      "source": "Paul's Hardware",
-      "date": "2026-09-27",
-      "url": "https://www.youtube.com/watch?v=B8q9nsHF2-0"
+      "title": "Milan's Complaion raises €13.5M for SME compliance automation",
+      "source": "StartupItalia",
+      "date": "2026-09-28",
+      "url": "https://startupitalia.eu/startup/complaion-raccoglie-135-milioni-di-euro/"
+    },
+    {
+      "title": "QSENSATO, a University of Bari quantum spin-off, signs a €1M SAFE led by Quantonation",
+      "source": "Corriere PL",
+      "date": "2026-09-28",
+      "url": "https://www.corrierepl.it/2026-09-28/qsensato-raccoglie-1-milione-di-euro-in-un-investimento-safe/"
+    },
+    {
+      "title": "Google posts the winning Future Vision XPRIZE trailer, 'The Gifted'",
+      "source": "Google",
+      "date": "2026-09-28",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/"
     }
   ],
   "spiked": {
-    "out of window": 11,
-    "already ran": 4,
     "low signal": 10,
-    "same story": 0
+    "out of window": 4,
+    "same story": 6,
+    "already ran": 4
   }
 }
