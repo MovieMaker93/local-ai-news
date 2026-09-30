@@ -5900,6 +5900,228 @@
       "source": "Google",
       "date": "2026-09-29",
       "issue": 32
+    },
+    {
+      "text": "NVIDIA ships Kumo Tabular, an open-weights tabular-prediction model that needs no training pass",
+      "source": "Hugging Face",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "Holo4 computer-use weights land: Holo4-27B (dense) and Holo4-35B-A3B (MoE) for local agent stacks",
+      "source": "HuggingFace",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "Home Assistant Core 2026.10 reworks the LLM tool API: ToolResult and tool annotations",
+      "source": "Home Assistant",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "SSD streaming runs Qwen3.8-Flash-Next 177B (119 GiB NVFP4) at 9-10 tok/s on one 16 GB RTX 5060 Ti",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "Nvidia and AMD GPUs are up to 40% more expensive over three months, with another Q4 hike expected",
+      "source": "PCGuide",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "STEPQuant: when and where errors matter in delta-rule recurrent-state quantization",
+      "source": "arXiv",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "LeapQuant: efficient linear attention with accurate recurrent-state quantization",
+      "source": "arXiv",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "MetaCtrl: a metacognitive controller for shorter, cheaper reasoning",
+      "source": "arXiv",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "AdviSD: a small advisor model steering a frozen LLM via multi-turn self-distillation",
+      "source": "arXiv",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "ProvenanceGuard: source-aware factuality verification for MCP agents",
+      "source": "Hugging Face",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "AgentBull/bongard-mini: an open-weight T5-based 'System One' model for machine intuition",
+      "source": "HuggingFace",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "NVIDIA Nemotron-3-Diarization trends: a 99.2M speaker-diarization/VAD model",
+      "source": "HuggingFace",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "TetiAI's Titan 5 and Titan 5 Flash: European frontier models that keep data in Europe",
+      "source": "Arena Digitale",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "llama.cpp keeps its near-daily build cadence with b11277",
+      "source": "GitHub",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "Reflex Engine claims a cold-start TTFT win over llama.cpp and vLLM",
+      "source": "GitHub",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "Moching: a Rust desktop agent with 219 built-in tools",
+      "source": "GitHub",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "Runtape: counterfactual replay and regression tests for AI agent runs",
+      "source": "GitHub",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "Foreman: a Director agent that routes work to worker agents",
+      "source": "GitHub",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "Postgres MCP server keeps an agent-editable context file",
+      "source": "GitHub",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "Guide: Qwen 3.8 27B Q4 with 100K context on a 16 GB RX 7800 XT via llama.cpp",
+      "source": "r/LocalLLaMA",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "n8n 2.42.0: AI Agent tool nesting, API workflow metadata, self-host fixes",
+      "source": "Freedom.tech",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "RTX 5070 Ti: GDDR7 overclocked from 28 to 39 Gbps, lifting bandwidth from 896 to 1,248 GB/s",
+      "source": "Overclock3D",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "AMD Adrenalin 26.9.2 WHQL updates the Ryzen AI NPU MCDM driver stack",
+      "source": "TechPowerUp",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "OpenAI reportedly in talks to raise $30B at a $1.4T valuation; Altman says he will keep cutting model prices",
+      "source": "TechCrunch / Bloomberg",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "Samsung and affiliates put $1B into Helix Digital Infrastructure's AI data-centre buildout",
+      "source": "Tech Startups",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "EliseAI raises $350M at a $4B valuation, doubling its valuation on the back of a16z and Bessemer",
+      "source": "TechCrunch",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "Reco raises $55M (with AT&T Ventures) as AI-agent-security startups crowd the market",
+      "source": "TechCrunch",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "Ema raises $77M Series B to take agent teams into IT-services work",
+      "source": "Outsource Accelerator",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "Atomic raises a $12.5M Series A to put supply chains on autopilot",
+      "source": "TechCrunch",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "Protego Ventures closes its debut $125M fund for Israeli defense tech",
+      "source": "TechCrunch",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "Rayon raises \u20ac10M for browser-based AI CAD; Marble raises \u20ac6.5M for AI fraud-and-AML automation",
+      "source": "Tech Startups",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "Oura shelves its $2.2B IPO, citing uncertainty in the IPO market",
+      "source": "TechCrunch",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "Italy's AI decree (D.Lgs. 160/2026) takes effect Sept 30: police AI use, facial recognition, liability rules",
+      "source": "TGWEBAI",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "Mondadori's PLAI accelerator scouts 1,600+ startups and weighs deals with Hi Twin, Tuduu and Wordlift",
+      "source": "Primaonline",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "Milan's Underdogs Group raises \u20ac20M from Nextalia to build an AI marketing-and-adtech stack and buy datatech firms",
+      "source": "Forbes Italia",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "ZDTaichu5.0-9B: a 10B multimodal model trending on the Hugging Face Hub",
+      "source": "HuggingFace",
+      "date": "2026-09-30",
+      "issue": 33
+    },
+    {
+      "text": "YouTube roundup: Manus 2.0's autonomous-agent launch and the reported Claude Sonnet 5.5 beat over Opus",
+      "source": "YouTube \u2014 Beyond AI News",
+      "date": "2026-09-30",
+      "issue": 33
     }
   ]
 }
