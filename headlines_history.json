@@ -6122,6 +6122,222 @@
       "source": "YouTube \u2014 Beyond AI News",
       "date": "2026-09-30",
       "issue": 33
+    },
+    {
+      "text": "192GB Framework Desktop sells out on day one: the cheapest way to run big models at home",
+      "source": "Phoronix",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "NVIDIA open-sources OpenShell, a kernel-level sandbox runtime for autonomous agents",
+      "source": "GitHub",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "The $4,299 RTX 5090: Walmart's GeForce Week sale sold out with 10,000 carts full",
+      "source": "TweakTown",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "Artificial Analysis: Gemini 4 Argon ties GPT-6 Astra on the AA Intelligence Index at ~60% of the cost",
+      "source": "ArtificialAnlys",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "QATFactory: deployment-aligned quantization-aware training and distillation for LLMs",
+      "source": "arXiv",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "Expert-parallel communication across PCIe-connected consumer GPUs",
+      "source": "arXiv",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "RATIO: quantization on reasoning models makes them overthink, not just err",
+      "source": "arXiv",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "Low-discrepancy dither curbs error build-up in quantized recurrent-state caches",
+      "source": "arXiv",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "Smaller models write better rejects: preference-distillation scaling across 7B-72B",
+      "source": "arXiv",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "Open TTS Leaderboard: a standard harness for evaluating open-weight TTS and voice cloning",
+      "source": "Hugging Face",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "Tencent Hy4-preview: 770B-total / 49B-active Apache 2.0 MoE with 1M-token context",
+      "source": "HuggingFace",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "China Telecom AI ships Xing4.0-29B-A4B and TeleOCR for single-GPU local use",
+      "source": "HuggingFace",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "Moondream Parakeet Redux: a 178 MB ternary (1.58-bit) speech-to-text model for CPU and Apple Silicon",
+      "source": "HuggingFace",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "Magnitude: a self-optimizing inference engine that tunes itself to your exact GPU",
+      "source": "GitHub",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "Reflex: a GGUF-native Rust/CUDA engine chasing llama.cpp and vLLM on cold-start latency",
+      "source": "GitHub",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "jev-judge-mcp: gate and verify agent actions with local Jev judge models",
+      "source": "GitHub",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "AA-AgentPerf-Local: Artificial Analysis benchmarks AI agents on local hardware",
+      "source": "Artificial Analysis",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "LLMxRay: an observability dashboard for self-hosted Ollama stacks",
+      "source": "GitHub",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "Asus ProArt P16: the first RTX Spark N1X laptop lands October 8 in China",
+      "source": "Fudzilla",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "Polytoken: a local-first daemon for running coding agents on your own machine",
+      "source": "Polytoken Docs",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "OpenAI publishes mcp-extensions, a framework for MCP-based ChatGPT plugins",
+      "source": "GitHub",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "Micron: memory supply stays 'much tighter' through 2027-2028 \u2014 bad news for GPU VRAM and PC RAM prices",
+      "source": "Unite.AI",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "TechPowerUp tracks the 192GB box wave: Framework, CHUWI and Lenovo all price above $6,000",
+      "source": "TechPowerUp",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "llama.cpp ships daily builds b11310-b11312 with continued CUDA, Vulkan, Metal and CPU backend fixes",
+      "source": "GitHub",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "ScratchCAD: an open-source text-to-CAD tool exposed as an MCP server and API for agents",
+      "source": "GitHub",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "TalkScribe pairs on-device dictation with local-LLM rewriting on macOS",
+      "source": "TalkScribe",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "VoxScribe brings free, open-source offline voice dictation to Windows",
+      "source": "GitHub",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "ElevenLabs doubles its valuation to $22B in a $300M employee tender, co-led by Wellington and T. Rowe Price",
+      "source": "TechCrunch",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "GMI Cloud raises $668M ($223M equity with NVIDIA participating, plus a $445M credit facility) to expand GPU capacity across the US, Taiwan and Southeast Asia",
+      "source": "PR Newswire",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "Flow Engineering raises a $50M Series B at a $750M valuation, backed by Valar, Atreides and Sequoia",
+      "source": "TechCrunch",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "Restate lands a $20M Series A for durable workflow infrastructure for AI agents",
+      "source": "TechCrunch",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "Destro AI exits stealth with $8M to build a robot 'intelligence layer' for warehouses",
+      "source": "TechCrunch",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "Outmarket AI raises a $34.5M Series B to automate insurance brokerage work",
+      "source": "Insurance Journal",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "BAG Ventures, founded by two Google alumni, closes an $11.3M fund for enterprise AI startups",
+      "source": "TechCrunch",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "Italy raised a record \u20ac388.55M for startups in September: 24 rounds, led by on-device AI unicorn Exein's $270M round",
+      "source": "La Repubblica",
+      "date": "2026-10-01",
+      "issue": 34
+    },
+    {
+      "text": "Underdogs Group raises \u20ac20M from Nextalia to build a pan-European AI marketing-and-adtech platform",
+      "source": "BeBeez",
+      "date": "2026-10-01",
+      "issue": 34
     }
   ]
 }

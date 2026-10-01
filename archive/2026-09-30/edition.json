@@ -1,0 +1,576 @@
+{
+  "issue_no": 33,
+  "date_iso": "2026-09-30",
+  "date_human": "September 30, 2026",
+  "notice": null,
+  "lead": {
+    "kicker": "Tabular prediction",
+    "title": "NVIDIA ships Kumo Tabular, an open-weights tabular-prediction model that needs no training pass",
+    "summary": "NVIDIA released Kumo Tabular, an open-weights foundation model for tabular prediction that labels new tables in a single forward pass with no training or feature engineering step. It comes in three sizes (28M-215M parameters), was pretrained only on synthetic data, ranks first on TabArena, BeyondArena, TALENT and ScoringBench, and ships under the OpenMDW-1.1 license for commercial use, with code and weights on GitHub and Hugging Face.",
+    "source": "Hugging Face",
+    "date": "2026-09-29",
+    "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
+    "image": "images/lead_2026-09-30.jpg"
+  },
+  "top_stories": [
+    {
+      "title": "Holo4 computer-use weights land: Holo4-27B (dense) and Holo4-35B-A3B (MoE) for local agent stacks",
+      "summary": "H Company published the Holo4 family of generalist computer-use VLMs: Holo4-27B (dense, built on Qwen3.8-27B, CC BY-NC 4.0) and Holo4-35B-A3B (MoE with 3B active params, Apache 2.0, self-hostable for commercial use). One checkpoint can click a GUI, type, run code, call MCP servers and hit APIs, with 256K context, GGUF/FP8/NVFP4 builds, 85.2% on OSWorld at $0.08/task, and documented vLLM and llama.cpp serving.",
+      "source": "HuggingFace",
+      "scout_source": "opensource",
+      "date": "2026-09-29",
+      "url": "https://huggingface.co/Hcompany/Holo4-35B-A3B"
+    },
+    {
+      "title": "Home Assistant Core 2026.10 reworks the LLM tool API: ToolResult and tool annotations",
+      "summary": "LLM tools now return an llm.ToolResult with an error flag, and tools declare a title, an owning integration, and read_only/destructive/idempotent/open_world annotations served to MCP clients. A security-relevant rework for anyone wiring local LLMs or MCP servers into Home Assistant.",
+      "source": "Home Assistant",
+      "scout_source": "selfhost",
+      "date": "2026-09-30",
+      "url": "https://developers.home-assistant.io/blog/2026-09-26/llm-tool-result/"
+    },
+    {
+      "title": "SSD streaming runs Qwen3.8-Flash-Next 177B (119 GiB NVFP4) at 9-10 tok/s on one 16 GB RTX 5060 Ti",
+      "summary": "A home-built inference engine for MoE models that don't fit in VRAM+RAM keeps most weights on SSD and pages experts in per token, hitting 9-10 tok/s decode on a single consumer GPU with 32 GB RAM (14-15 tok/s expected in v2). A durable workaround pattern for running 100 GB+ MoE checkpoints on a budget box instead of multi-GPU rigs.",
+      "source": "r/LocalLLaMA",
+      "scout_source": "selfhost",
+      "date": "2026-09-30",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wrxap8/qwen38flashnext_177b_nvfp4119gib_ssd_streaming_at/"
+    },
+    {
+      "title": "Nvidia and AMD GPUs are up to 40% more expensive over three months, with another Q4 hike expected",
+      "summary": "Price-tracking data shows average Nvidia GPU prices rose 41.3% and AMD Radeon prices 28.3% between June and September, with RTX 5090 AIB models crossing $7,000 on Amazon by Sept 29 and Nvidia reportedly raising GDDR6/GDDR7 prices to board partners again. A further AMD-wide price hike is expected in Q4.",
+      "source": "PCGuide",
+      "scout_source": "hardware",
+      "date": "2026-09-29",
+      "url": "https://www.pcguide.com/news/nvidia-amd-gpus-are-up-to-40-more-expensive-in-the-past-3-months-with-another-price-hike-coming-in-q4"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Research & Papers",
+      "items": [
+        {
+          "title": "STEPQuant: when and where errors matter in delta-rule recurrent-state quantization",
+          "summary": "Shows that quantizing the fixed-size recurrent state of delta-rule linear-attention models to low precision causes severe accuracy degradation via error propagation, and proposes state-specific quantization that preserves accuracy under a reduced memory footprint for concurrent serving.",
+          "source": "arXiv",
+          "scout_source": "research",
+          "date": "2026-09-29",
+          "url": "https://arxiv.org/abs/2609.38169"
+        },
+        {
+          "title": "LeapQuant: efficient linear attention with accurate recurrent-state quantization",
+          "summary": "Targets hybrid LLMs with linear attention (Gated DeltaNet, Kimi Delta Attention) and quantizes the fixed-size recurrent state accurately, compressing long context and cutting inference memory while limiting accuracy loss.",
+          "source": "arXiv",
+          "scout_source": "research",
+          "date": "2026-09-29",
+          "url": "https://arxiv.org/abs/2609.38166"
+        },
+        {
+          "title": "MetaCtrl: a metacognitive controller for shorter, cheaper reasoning",
+          "summary": "Adds a metacognitive controller that regulates reasoning-token allocation in large reasoning models, cutting redundant chain-of-thought on simple problems while preserving accuracy — reducing per-query token cost at inference.",
+          "source": "arXiv",
+          "scout_source": "research",
+          "date": "2026-09-29",
+          "url": "https://arxiv.org/abs/2609.37304"
+        },
+        {
+          "title": "AdviSD: a small advisor model steering a frozen LLM via multi-turn self-distillation",
+          "summary": "Trains a small advisor model to steer a frozen LLM executor with natural-language advice in multi-turn interactions — a small-model-plus-frozen-model composition pattern relevant to low-cost inference stacks.",
+          "source": "arXiv",
+          "scout_source": "research",
+          "date": "2026-09-29",
+          "url": "https://arxiv.org/abs/2609.38142"
+        },
+        {
+          "title": "ProvenanceGuard: source-aware factuality verification for MCP agents",
+          "summary": "Multiverse Computing's verifier for MCP-based agents detects cross-source conflation — where a claim is supported somewhere in the pooled evidence but not by the source the answer actually cites — targeting tool-using agents that pull from search tools, databases and MCP records.",
+          "source": "Hugging Face",
+          "scout_source": "official",
+          "date": "2026-09-29",
+          "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source"
+        }
+      ],
+      "image": "images/section_research_2026-09-30.jpg"
+    },
+    {
+      "title": "Open Weights & Models",
+      "items": [
+        {
+          "title": "AgentBull/bongard-mini: an open-weight T5-based 'System One' model for machine intuition",
+          "summary": "A newly published open-weight System One model for machine intuition and Jev-like judgment, built on the T5 encoder-decoder. It joins a fast-filling field of open replications of the closed Jev decision API (Laya, Kev-9B, openjev).",
+          "source": "HuggingFace",
+          "scout_source": "opensource",
+          "date": "2026-09-30",
+          "url": "https://huggingface.co/AgentBull/bongard-mini"
+        },
+        {
+          "title": "NVIDIA Nemotron-3-Diarization trends: a 99.2M speaker-diarization/VAD model",
+          "summary": "NVIDIA's compact diarization/VAD model joined the top of the Hugging Face trending chart alongside its Nemotron 3 family listings on OpenRouter.",
+          "source": "HuggingFace",
+          "scout_source": "opensource",
+          "date": "2026-09-30",
+          "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization"
+        },
+        {
+          "title": "TetiAI's Titan 5 and Titan 5 Flash: European frontier models that keep data in Europe",
+          "summary": "Italian startup TetiAI announced frontier models built on open foundations with data processed and stored in European data centers under GDPR/AI Act rules. Titan 5 is priced at $1.00/M input tokens, roughly a tenth of the cost of GPT-6 Astra and Claude Fable 5.1.",
+          "source": "Arena Digitale",
+          "scout_source": "italia",
+          "date": "2026-09-29",
+          "url": "https://arenadigitale.it/2026-09-29/tetiai-lancia-titan-5-e-titan-5-flash-lintelligenza-artificiale-di-frontiera-e-arrivata-in-europa-e-resta-in-europa/"
+        }
+      ],
+      "image": "images/section_openweights_2026-09-30.jpg"
+    },
+    {
+      "title": "Tools & Runtimes",
+      "items": [
+        {
+          "title": "llama.cpp keeps its near-daily build cadence with b11277",
+          "summary": "Build b11277 landed on September 30, continuing the rapid build line (b11243 on Sept 29, b11269 in the same window) with no breaking-change notes in the nightly series.",
+          "source": "GitHub",
+          "scout_source": "tools",
+          "date": "2026-09-30",
+          "url": "https://github.com/ggml-org/llama.cpp/releases"
+        },
+        {
+          "title": "Reflex Engine claims a cold-start TTFT win over llama.cpp and vLLM",
+          "summary": "Show HN debut of Reflex, a local LLM inference engine whose authors benchmark it beating llama.cpp and vLLM on cold-start time-to-first-token. Early proof-of-concept stage, but relevant to local inference runtime watchers.",
+          "source": "GitHub",
+          "scout_source": "tools",
+          "date": "2026-09-30",
+          "url": "https://github.com/lateos-ai/reflex"
+        },
+        {
+          "title": "Moching: a Rust desktop agent with 219 built-in tools",
+          "summary": "Show HN launch of an AI desktop agent written in Rust that ships with 219 built-in tools, positioning itself as a local-first alternative to hosted agent platforms.",
+          "source": "GitHub",
+          "scout_source": "tools",
+          "date": "2026-09-30",
+          "url": "https://github.com/moching-ai-dev/moching"
+        },
+        {
+          "title": "Runtape: counterfactual replay and regression tests for AI agent runs",
+          "summary": "Records AI agent runs and replays them counterfactually to build regression tests, targeting agent workflow reliability.",
+          "source": "GitHub",
+          "scout_source": "tools",
+          "date": "2026-09-30",
+          "url": "https://github.com/RehanMohammed985/runtape"
+        },
+        {
+          "title": "Foreman: a Director agent that routes work to worker agents",
+          "summary": "An agent orchestration system that routes work from a Director agent to worker agents, aimed at self-hosted multi-agent workflows.",
+          "source": "GitHub",
+          "scout_source": "tools",
+          "date": "2026-09-30",
+          "url": "https://github.com/mastaan66/foreman"
+        },
+        {
+          "title": "Postgres MCP server keeps an agent-editable context file",
+          "summary": "A Postgres MCP server that maintains a context file the agent can append to, letting coding agents accumulate schema knowledge across sessions.",
+          "source": "GitHub",
+          "scout_source": "tools",
+          "date": "2026-09-29",
+          "url": "https://github.com/contextflo/postgres-mcp"
+        }
+      ],
+      "image": "images/section_tools_2026-09-30.jpg"
+    },
+    {
+      "title": "Self-Hosted Stack",
+      "items": [
+        {
+          "title": "Guide: Qwen 3.8 27B Q4 with 100K context on a 16 GB RX 7800 XT via llama.cpp",
+          "summary": "An actively discussed r/LocalLLaMA guide running Qwen 3.8 27B Q4_XS at ~30 tok/s decode with 100K context on a 16 GB RX 7800 XT using llama-server flags (--fit on, --jinja, --reasoning-format deepseek, tuned sampling) — a practical AMD/Vulkan recipe for mid-range VRAM cards.",
+          "source": "r/LocalLLaMA",
+          "scout_source": "selfhost",
+          "date": "2026-09-29",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wt7e8l/qwen_38_27b_q4_with_100k_context_on_a_16_gb_rx/"
+        },
+        {
+          "title": "n8n 2.42.0: AI Agent tool nesting, API workflow metadata, self-host fixes",
+          "summary": "The AI Agent Tool can now use its own tools under pre-v3 parent agents, workflow descriptions are accepted on creation via API, and Azure OpenAI authentication, Redis reconnection and memory-management issues affecting self-hosted deployments are fixed.",
+          "source": "Freedom.tech",
+          "scout_source": "selfhost",
+          "date": "2026-09-29",
+          "url": "https://freedom.tech/posts/2026-09-29-n8n-2-42-0/"
+        }
+      ]
+    },
+    {
+      "title": "Hardware & Edge",
+      "items": [
+        {
+          "title": "RTX 5070 Ti: GDDR7 overclocked from 28 to 39 Gbps, lifting bandwidth from 896 to 1,248 GB/s",
+          "summary": "An overclocker (via the mVolt+ Extreme tool) pushed Samsung GDDR7 on a GIGABYTE RTX 5070 Ti from stock 28 Gbps to 39 Gbps, a ~39-40% memory overclock. Game gains were minimal (~5 FPS), but it shows how much headroom Blackwell's memory subsystem has beyond its soldered configuration.",
+          "source": "Overclock3D",
+          "scout_source": "hardware",
+          "date": "2026-09-30",
+          "url": "https://overclock3d.net/news/gpu-displays/gamer-pushes-gddr7-to-39-gbps-with-rtx-5070-ti-overclock/"
+        },
+        {
+          "title": "AMD Adrenalin 26.9.2 WHQL updates the Ryzen AI NPU MCDM driver stack",
+          "summary": "The optional driver (Sept 29) adds optimizations for six games and fixes intermittent driver timeouts on Radeon GPUs, and ships an updated Ryzen AI NPU MCDM component relevant to on-device AI inference on AI PCs.",
+          "source": "TechPowerUp",
+          "scout_source": "hardware",
+          "date": "2026-09-29",
+          "url": "https://www.techpowerup.com/353220/amd-software-adrenalin-26-9-2-whql-drivers-released"
+        }
+      ]
+    }
+  ],
+  "trending": {
+    "github": {
+      "title": "GitHub Trending · AI",
+      "url": "https://github.com/trending",
+      "link_label": "github.com/trending",
+      "date": "2026-09-30",
+      "items": [
+        {
+          "name": "debpalash/VoiceStudio",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "meta": "Python · 49.4k ★ · +4758 today — open-source, fully-local ElevenLabs alternative (voice cloning, dubbing, dictation)"
+        },
+        {
+          "name": "NVIDIA/OpenShell",
+          "url": "https://github.com/NVIDIA/OpenShell",
+          "meta": "Rust · 11.1k ★ · +990 today — safe, private runtime for autonomous AI agents"
+        },
+        {
+          "name": "vectorize-io/hindsight",
+          "url": "https://github.com/vectorize-io/hindsight",
+          "meta": "Python · 43.4k ★ · +2575 today — Hindsight: agent memory that learns"
+        },
+        {
+          "name": "paperclipai/paperclip",
+          "url": "https://github.com/paperclipai/paperclip",
+          "meta": "TypeScript · 94.9k ★ · +2458 today — open-source app to manage AI agents at work"
+        },
+        {
+          "name": "VectifyAI/PageIndex",
+          "url": "https://github.com/VectifyAI/PageIndex",
+          "meta": "Python · 37.7k ★ · +835 today — document index for vectorless, reasoning-based RAG"
+        },
+        {
+          "name": "rohitg00/ai-engineering-from-scratch",
+          "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+          "meta": "Python · 61.9k ★ · +786 today — AI/LLM engineering learning roadmap"
+        },
+        {
+          "name": "mvschwarz/openrig",
+          "url": "https://github.com/mvschwarz/openrig",
+          "meta": "TypeScript · 2.6k ★ · +737 today — multi-agent harness running Claude Code and Codex together"
+        },
+        {
+          "name": "dream-num/univer",
+          "url": "https://github.com/dream-num/univer",
+          "meta": "TypeScript · 22.0k ★ · +696 today — office harness for AI agents (spreadsheets, docs, slides, PDF)"
+        }
+      ]
+    },
+    "huggingface": {
+      "title": "Models Trending (Hugging Face)",
+      "url": "https://huggingface.co/models?sort=trending",
+      "link_label": "huggingface.co/models",
+      "date": "2026-09-30",
+      "items": [
+        {
+          "name": "convaiinnovations/laya",
+          "url": "https://huggingface.co/convaiinnovations/laya",
+          "meta": "Text Classification · 0.4B — open 'System One' decision model, Jev alternative"
+        },
+        {
+          "name": "Edge0/Audio8-ASR-Infinite",
+          "url": "https://huggingface.co/Edge0/Audio8-ASR-Infinite",
+          "meta": "ASR · 4B — automatic speech recognition"
+        },
+        {
+          "name": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+          "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+          "meta": "Text-to-Image · 7B GGUF quantized derivative of Qwen-Image-2.1"
+        },
+        {
+          "name": "XingChen-AGI/TeleOCR",
+          "url": "https://huggingface.co/XingChen-AGI/TeleOCR",
+          "meta": "Image-Text-to-Text · 1B — OCR vision-language model"
+        },
+        {
+          "name": "Qwen/Qwen-Image-2.1",
+          "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+          "meta": "Text-to-Image · 7B — unified open-weight image generation + editing"
+        },
+        {
+          "name": "Contrastive-LM/CLM-v0.1-8B",
+          "url": "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B",
+          "meta": "Text Ranking · 8B — contrastive ranking/retrieval model"
+        },
+        {
+          "name": "nvidia/Nemotron-3-Diarization",
+          "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization",
+          "meta": "Voice Activity Detection · 99.2M — speaker diarization/VAD"
+        },
+        {
+          "name": "TaichuAI/ZDTaichu5.0-9B",
+          "url": "https://huggingface.co/TaichuAI/ZDTaichu5.0-9B",
+          "meta": "Image-Text-to-Text · 10B — multimodal vision-language model"
+        },
+        {
+          "name": "Viggle/Qwen-Image-2.1-viggle-turbo",
+          "url": "https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo",
+          "meta": "Text-to-Image · 7B — turbo distillate of Qwen-Image-2.1"
+        },
+        {
+          "name": "XingChen-AGI/Xing4.0-29B-A4B",
+          "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
+          "meta": "Text Generation · 31B MoE (4B active) — chat/reasoning model"
+        }
+      ]
+    }
+  },
+  "free_models": {
+    "openrouter": {
+      "title": "Free on OpenRouter",
+      "url": "https://openrouter.ai/models?max_price=0",
+      "link_label": "Browse free models on OpenRouter →",
+      "date": "2026-09-30",
+      "items": [
+        {
+          "name": "Cohere: North Mini Code (free)",
+          "url": "https://openrouter.ai/cohere/north-mini-code:free",
+          "meta": "256K ctx"
+        },
+        {
+          "name": "Dots Studio: Dots3-Note Preview (free)",
+          "url": "https://openrouter.ai/dots-studio/dots-3-note-preview:free",
+          "meta": "512K ctx"
+        },
+        {
+          "name": "Google: Gemma 4 26B A4B (free)",
+          "url": "https://openrouter.ai/google/gemma-4-26b-a4b-it:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "Google: Gemma 4 31B (free)",
+          "url": "https://openrouter.ai/google/gemma-4-31b-it:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
+          "url": "https://openrouter.ai/inclusionai/ling-3.0-flash-sante:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "LiquidAI: LFM2.5-2.6B (free)",
+          "url": "https://openrouter.ai/liquid/lfm-2.5-2.6b:free",
+          "meta": "65K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+          "meta": "256K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3 Super (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3 Ultra (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free",
+          "meta": "1M ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free",
+          "meta": "128K ctx"
+        },
+        {
+          "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
+          "url": "https://openrouter.ai/nvidia/nemotron-3.5-lightning:free",
+          "meta": "1M ctx"
+        },
+        {
+          "name": "Poolside: Laguna S 2.1 (free)",
+          "url": "https://openrouter.ai/poolside/laguna-s-2.1:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "Poolside: Laguna XS 2.1 (free)",
+          "url": "https://openrouter.ai/poolside/laguna-xs-2.1:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "Qwen: Qwen3.8 27B (free)",
+          "url": "https://openrouter.ai/qwen/qwen3.8-27b:free",
+          "meta": "262K ctx"
+        },
+        {
+          "name": "Space Bunny Alpha",
+          "url": "https://openrouter.ai/stealth/space-bunny-alpha",
+          "meta": "1M ctx"
+        },
+        {
+          "name": "Thinking Machines: Inkling (free)",
+          "url": "https://openrouter.ai/thinkingmachines/inkling:free",
+          "meta": "1.04858M ctx"
+        },
+        {
+          "name": "Thinking Machines: Inkling Small (free)",
+          "url": "https://openrouter.ai/thinkingmachines/inkling-small:free",
+          "meta": "1.04858M ctx"
+        }
+      ]
+    },
+    "opencode_zen": {
+      "title": "Free on OpenCode Zen",
+      "url": "https://opencode.ai/docs/zen/",
+      "link_label": "See the full Zen catalog →",
+      "date": "2026-09-30",
+      "items": [
+        {
+          "name": "Big Pickle",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "big-pickle"
+        },
+        {
+          "name": "Space Bunny Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "space-bunny-free"
+        },
+        {
+          "name": "LongCat 2.5 Preview Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "longcat-2.5-preview-free"
+        },
+        {
+          "name": "MiMo-V2.6-Flash Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "mimo-v2.6-flash-free"
+        },
+        {
+          "name": "MiMo-V2.5 Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "mimo-v2.5-free"
+        },
+        {
+          "name": "Ling 3.0 Flash Fin Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "ling-3.0-flash-fin-free"
+        },
+        {
+          "name": "Nemotron 3 Ultra Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "nemotron-3-ultra-free"
+        },
+        {
+          "name": "Nemotron 3.5 Lightning Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "nemotron-3.5-lightning-free"
+        },
+        {
+          "name": "Muse Spark 1.3 Contributor Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "muse-spark-1.3-contributor-free"
+        },
+        {
+          "name": "Jev 1.13 Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "jev-1.13-free"
+        }
+      ]
+    }
+  },
+  "quick_hits": [
+    {
+      "title": "OpenAI reportedly in talks to raise $30B at a $1.4T valuation; Altman says he will keep cutting model prices",
+      "source": "TechCrunch / Bloomberg",
+      "date": "2026-09-29",
+      "url": "https://techcrunch.com/2026-09-29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation/"
+    },
+    {
+      "title": "Samsung and affiliates put $1B into Helix Digital Infrastructure's AI data-centre buildout",
+      "source": "Tech Startups",
+      "date": "2026-09-29",
+      "url": "https://techstartups.com/2026-09-29/startup-funding-news-today-september-29-2026-atomic-anote-helix-marble-reverion-more/"
+    },
+    {
+      "title": "EliseAI raises $350M at a $4B valuation, doubling its valuation on the back of a16z and Bessemer",
+      "source": "TechCrunch",
+      "date": "2026-09-29",
+      "url": "https://techcrunch.com/2026-09-29/a16z-backed-eliseai-raises-350m-doubles-valuation-to-4b/"
+    },
+    {
+      "title": "Reco raises $55M (with AT&T Ventures) as AI-agent-security startups crowd the market",
+      "source": "TechCrunch",
+      "date": "2026-09-29",
+      "url": "https://techcrunch.com/2026-09-29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/"
+    },
+    {
+      "title": "Ema raises $77M Series B to take agent teams into IT-services work",
+      "source": "Outsource Accelerator",
+      "date": "2026-09-30",
+      "url": "https://news.outsourceaccelerator.com/ema-series-b-funding/"
+    },
+    {
+      "title": "Atomic raises a $12.5M Series A to put supply chains on autopilot",
+      "source": "TechCrunch",
+      "date": "2026-09-29",
+      "url": "https://techcrunch.com/2026-09-29/ex-tesla-team-raises-12-5m-to-put-supply-chains-on-autopilot/"
+    },
+    {
+      "title": "Protego Ventures closes its debut $125M fund for Israeli defense tech",
+      "source": "TechCrunch",
+      "date": "2026-09-29",
+      "url": "https://techcrunch.com/2026-09-29/protego-ventures-closes-debut-125-million-fund-for-israeli-defense-tech/"
+    },
+    {
+      "title": "Rayon raises €10M for browser-based AI CAD; Marble raises €6.5M for AI fraud-and-AML automation",
+      "source": "Tech Startups",
+      "date": "2026-09-29",
+      "url": "https://techstartups.com/2026-09-29/startup-funding-news-today-september-29-2026-atomic-anote-helix-marble-reverion-more/"
+    },
+    {
+      "title": "Oura shelves its $2.2B IPO, citing uncertainty in the IPO market",
+      "source": "TechCrunch",
+      "date": "2026-09-29",
+      "url": "https://techcrunch.com/2026-09-29/oura-shelves-its-2-2b-ipo-citing-uncertainty-in-the-market/"
+    },
+    {
+      "title": "Italy's AI decree (D.Lgs. 160/2026) takes effect Sept 30: police AI use, facial recognition, liability rules",
+      "source": "TGWEBAI",
+      "date": "2026-09-29",
+      "url": "https://www.tgwebai.it/decreto-160-ia-riconoscimento-facciale-risarcimenti/"
+    },
+    {
+      "title": "Mondadori's PLAI accelerator scouts 1,600+ startups and weighs deals with Hi Twin, Tuduu and Wordlift",
+      "source": "Primaonline",
+      "date": "2026-09-29",
+      "url": "https://www.primaonline.it/2026-09-29/483941/plai-mondadori-oltre-1-600-startup-analizzate-e-nuovi-progetti-sullai/"
+    },
+    {
+      "title": "Milan's Underdogs Group raises €20M from Nextalia to build an AI marketing-and-adtech stack and buy datatech firms",
+      "source": "Forbes Italia",
+      "date": "2026-09-29",
+      "url": "https://forbes.it/2026-09-29/underdogs-group-20-milioni-euro-fare-marketing-ia/"
+    },
+    {
+      "title": "ZDTaichu5.0-9B: a 10B multimodal model trending on the Hugging Face Hub",
+      "source": "HuggingFace",
+      "date": "2026-09-30",
+      "url": "https://huggingface.co/TaichuAI/ZDTaichu5.0-9B"
+    },
+    {
+      "title": "YouTube roundup: Manus 2.0's autonomous-agent launch and the reported Claude Sonnet 5.5 beat over Opus",
+      "source": "YouTube — Beyond AI News",
+      "date": "2026-09-29",
+      "url": "https://www.youtube.com/watch?v=L75zF2WKiVE"
+    }
+  ],
+  "spiked": {
+    "same story": 7,
+    "already ran": 2,
+    "out of window": 2,
+    "low signal": 5
+  }
+}
