@@ -6338,6 +6338,180 @@
       "source": "BeBeez",
       "date": "2026-10-01",
       "issue": 34
+    },
+    {
+      "text": "llama.cpp adds Decision Models support with a new /v1/systemone endpoint",
+      "source": "Hugging Face / ggml-org",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "Nvidia introduces a 64GB DGX Spark from $4,999 as the 128GB model jumps to $6,950",
+      "source": "TechGenyz",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "Micro Center now requires a signed declaration and photo ID to buy an RTX 5090",
+      "source": "TechRadar",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "ThinkingBox grades agents on the database records they leave behind, not their prose",
+      "source": "Hugging Face",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "Supabase raises $150M led by GIC and acquires Turso to build AI-agent databases",
+      "source": "AI Weekly",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "Aleph Alpha releases Kolibri-1, an open-weight sovereign reasoning MoE",
+      "source": "HuggingFace",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "Cloudflare open-sources Clef and Clef-Flash: multimodal models for typed structured output",
+      "source": "HuggingFace",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "NaiveAI Naive-N0.5-Flash: MIT-licensed MoE code/long-context model from Beijing",
+      "source": "HuggingFace",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "Jeffy: local pretrained text classifiers that run and retrain on CPU",
+      "source": "GitHub",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "Valet: self-hosted coding agents in per-thread Docker sandboxes",
+      "source": "GitHub",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "cliproxy-rs: Rust rewrite of CLIProxyAPI, a local proxy for LLM subscription accounts",
+      "source": "GitHub",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "Home Assistant ships a native llama.cpp conversation integration \u2014 guides shift from HACS workarounds to first-party setup",
+      "source": "WindowsForum (Hetzner)",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "Piper TTS archived \u2014 guides now recommend Kokoro/XTTS and a fully local Whisper + Ollama + Wyoming voice stack",
+      "source": "DEV Community",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "Open WebUI ecosystem update: oikb knowledge-base sync and the Open WebUI Computer agent harness",
+      "source": "Open WebUI",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "n8n v3 major release (operational cleanup, breaking changes) signalled for ~October 2026",
+      "source": "n8n (GitHub)",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "Local AI mini-PC roundup: DGX Spark vs AMD Strix Halo vs Mac Studio M5, prices re-verified October 3",
+      "source": "ComputingForgeeks",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "Analysts say the GPU street-price spike has plateaued; a ~$1,600 RTX 5080 flagged as poor resale value",
+      "source": "GameGPU",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "OpenAI's head of safety reportedly resigns, warning the company's culture is 'broken'",
+      "source": "Guardian, via X (nordicinst)",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "Paper examines KV-cache integrity when malicious agents share a latent communication channel",
+      "source": "X (aimalysheva)",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "SuperLocalMemory 4.0 proposes a governed memory operating system for AI agents",
+      "source": "arXiv",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "Cohere reportedly in advanced talks to raise up to $3B at a $20B valuation",
+      "source": "Embers News",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "Temasek's Xora leads a $53M round in AI startup Hang Ten",
+      "source": "Business Bearings",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "doxx.net raises $38M Series A led by a16z to keep AI agents off malicious networks",
+      "source": "SECBORN",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "HiringCafe raises $6.8M pre-seed led by Spark Capital for its AI talent agent",
+      "source": "Tech Company News",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "PCSS plans the PIAST-AI Factory: a Polish GPU cluster of 1,500+ GPUs for AI development",
+      "source": "X (QuantumStateX)",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "IRS data shows record solo-founder activity as AI tools shrink team size",
+      "source": "X (rohanpaul_ai)",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "University of Naples Federico II joins SophIA, the \u20ac27.5M national AI and cybersecurity tech-transfer pole",
+      "source": "Il Giorno (Juorno.it)",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "Milano Digital Week 2026 puts AI, data and urban services at the center (Oct 1-4)",
+      "source": "LaMilano.it",
+      "date": "2026-10-04",
+      "issue": 35
+    },
+    {
+      "text": "Italian AI Gigafactory: an 'Newco' alliance of Italian companies forms to bid for the EU supercomputing project, with Domyn involved",
+      "source": "Corriere della Sera (Roma)",
+      "date": "2026-10-04",
+      "issue": 35
     }
   ]
 }
