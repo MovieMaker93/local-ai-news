@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LOCAL AI NEWS — open-weight intelligence · October 04, 2026</title>
+  <title>LOCAL AI NEWS — open-weight intelligence · October 06, 2026</title>
   <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
   <link rel="stylesheet" href="style.css">
   <style>.wt{display:flex;align-items:center;height:38px;background:var(--ink);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);margin:14px 0 0;overflow:hidden}.wtt{display:flex;align-items:center;white-space:nowrap;padding-left:20px;animation:ws 90s linear infinite}.wtt:hover{animation-play-state:paused}@keyframes ws{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.ti{display:inline-flex;align-items:center;gap:7px;padding:0 22px;cursor:pointer;border-right:1px solid var(--rule);height:38px}.ti:hover{background:rgba(240,162,60,.05)}.tih{font-family:var(--serif);font-size:13px;color:var(--type)}.tis{font-family:var(--sans);font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.mo{display:none;position:fixed;inset:0;background:rgba(10,10,12,.88);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(8px)}.mo.a{display:flex}.mb{background:#121214;border:1px solid var(--rule-strong);max-width:680px;width:90%;max-height:82vh;overflow-y:auto;padding:40px 44px;position:relative;animation:fi .2s ease}@keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.mc{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:var(--sans);padding:4px 8px}.mh{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;letter-spacing:-.01em;color:var(--type);margin:0 0 14px;padding-right:32px}.mm{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}.mm a{color:var(--lux)}.mm a:hover{text-decoration:underline}.mbd{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--type-dim)}.mbd .en{display:block;color:var(--lux-soft);font-style:italic;font-size:15px;margin-top:14px;padding-left:12px;border-left:2px solid var(--rule-strong)}.mbd .as{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.5}.mbd .as .al{color:var(--lux-soft);font-weight:600;font-family:var(--sans);font-size:10px;letter-spacing:.06em;text-transform:uppercase}</style></head>
@@ -14,16 +14,16 @@
     <div class="topline"></div>
     <div class="ears">
       <span class="left">Est. MMXXVI</span>
-      <span class="right">No. 35 <a href="archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+      <span class="right">No. 36 <a href="archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
     </div>
     <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
       <hr class="rule-double">
       <div class="dateline">
-        <span>October 04, 2026</span>
+        <span>October 06, 2026</span>
         <span class="dot">◆</span>
         <span class="tag">open weights, on your metal</span>
         <span class="dot">◆</span>
-        <span>80 stories</span>
+        <span>73 stories</span>
       </div>
       <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
       <hr class="rule-thin">
@@ -31,103 +31,75 @@
 
     
 
-    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="The Nvidia Shield TV Pro just got a $100 price hike — and memory is to blame" data-b="Seven years after its debut, Nvidia&#x27;s Shield TV Pro streaming box has jumped by $100 in price, a move first reported by Ars Technica and republished on WIRED. The most recent Shield model launched in 2019 at $199.99, running Android TV with AI upscaling and broad hardware media decoding, despite housing the already aging Tegra X1+ processor. The cheaper non-Pro version, which sold for $149.99, has been discontinued, while the Pro now sits at $299.99.
+    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="Reflection AI has unveiled Beam, the Brooklyn startup&#x27;s first frontier-class open-weight model, positioning it as a cheaper Western rival to leading Chinese open models. According to TechCrunch, the two-year-old company says Beam matches top Chinese open models on advanced reasoning benchmarks while requiring far less compute, a claim the outlet notes has not been independently verified." data-b="Technically, Beam is a text-only mixture-of-experts model trained on high-compute reinforcement learning. It carries 501 billion total parameters with 23 billion active, was pretrained on 23.8 trillion tokens, and supports a 1 million token context window. By comparison, Z.ai&#x27;s GLM-5.2 has roughly 744 billion total parameters and 40 billion active. Reflection says Beam uses three to four times less inference compute than rivals and performs better than today&#x27;s leading Western open models, calling it a &quot;workhorse model&quot; for enterprises, the public sector, and developers.
 
-According to WIRED, the wider generative-AI boom has scrambled technology supply chains, and anything containing memory or storage is now costlier to build. Nvidia confirmed the connection, telling Ars that component costs, memory included, have risen substantially across the industry from October 2.
+Its competitive frame is wide: closed labs like Anthropic and OpenAI, Chinese open models, and Western players such as Mistral, Meta and Cohere. Its closest US rival may be Inkling, Mira Murati&#x27;s Thinking Machines Lab model, which Beam reportedly beats on four coding tests, though Inkling is multimodal and Beam is text-only.
 
-The outlet notes that Nvidia still manufactures the Shield and sells through every unit, so fresh production faces the same supply constraints as today&#x27;s phones and PCs — with no pre-AI inventory to fall back on. Ironically, Nvidia itself is among the firms most responsible for inflated component costs, having grown into one of the world&#x27;s most valuable companies on the back of its AI accelerators. Consoles from Nintendo, Microsoft and Sony have seen similar bumps; the PS5 Pro rose from $699.99 to $899.99.
+Reflection has raised roughly $4.7 billion, per PitchBook, and signed compute deals worth more than $7 billion with SpaceX and Nebius for Nvidia GB300 chips through 2029. It is pitching &quot;AI factories&quot; for enterprises and sovereign nations, including a trial partnership with South Korea&#x27;s Shinsegae Group. Weights and full technical details are due this month.
 
-The Shield remains out of stock on Nvidia&#x27;s own store, though Best Buy lists it at the new price. For anyone who just wants Netflix, WIRED&#x27;s verdict: a cheaper streamer makes more sense.
+*The compute-cost framing matters more than the benchmark talk: if Reflection&#x27;s unverified numbers hold up, the open-model race has shifted from raw capability to price-per-token economics.*
 
-*An old media box priced like a flagship console is the clearest sign yet that the memory crunch has reached even the gadgets nobody buys for AI.*
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/"><span class="tih">Reflection AI has unveiled Beam, the Brooklyn startup&#x27;s first frontier-class open-weight model, positioning it as a cheaper Western rival to leading Chinese open models. According to TechCrunch, the two-year-old company says Beam matches top Chinese open models on advanced reasoning benchmarks while requiring far less compute, a claim the outlet notes has not been independently verified.</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Open-source command-line tool strips Apple Intelligence from macOS 27" data-b="macOS 27 Golden Gate has dropped the toggle that previously let owners switch Apple Intelligence off, and, as Ars Technica reports, one developer&#x27;s response is a terminal command. Because no single on/off switch exists this time, the AI models needed by Apple Intelligence stay on disk even for people who hunt down and disable individual AI capabilities in Settings.
 
-*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/"><span class="tih">The Nvidia Shield TV Pro just got a $100 price hike — and memory is to blame</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Capcom wants its RE Engine to become an &quot;AI-generation game engine" data-b="At the Capcom Open Conference RE: 2026, programmer Satoshi Ishida presented a roadmap for the RE Engine, the graphics and development engine behind the Resident Evil franchise, and framed artificial intelligence as a way to relieve some of the drudgery of big-game production, according to The Verge. Speaking in a session titled &quot;The Outlook and Future of the REX Project, Further Evolving the RE Engine for the Next Generation,&quot; Ishida argued that games made at the scale of Resident Evil turn even straightforward tasks into long ones, a problem he said the studio intends to answer by integrating AI into development workflows. The Verge notes that Capcom has previously said it would not ship AI-generated assets in its games, reserving the technology for efficiency gains instead, and Ishida&#x27;s remarks appear to follow that position while still leaving room for wider AI use down the line. The eventual goal, per the presentation as translated by IGN, is to move RE Engine incrementally into an &quot;AI-generation game engine&quot; serving &quot;a future where we create games together with AI.&quot; The irony is not minor, as the Verge&#x27;s Terrence O&#x27;Brien observes: Capcom&#x27;s upcoming title Pragmata is themed around the horrors of AI, yet the studio developing it seems willing to build the tools that automate part of its own pipeline.
+In response, a GitHub developer known as Om Lahore published RemoveMacAI last week, a fully reversible utility. According to a Reddit post first picked up by MacRumors, it shuts off Siri, Writing Tools, Genmoji, Image Playground, the ChatGPT extension and the summary features, deletes the underlying models, and stops macOS from re-downloading them; dictation keeps working, since that sits under a separate setting. Lahore puts the models at &quot;about 12GB&quot; in the tool&#x27;s documentation, though The Verge noted the footprint can top 30GB.
 
-*The appeal here is cheaper, faster development — whether &quot;creating games together with AI&quot; actually makes games better is a different conversation, and Capcom has left that question unanswered.*
+Mechanically, the tool installs a configuration profile the user approves in System Settings and relies on Apple&#x27;s own asset service, so System Integrity Protection stays active and nothing inside /System is touched, Ars Technica explains. A `removemacai revert` command removes the profile and lets macOS refetch the models, and unwanted features can be removed selectively. Some Reddit users say it works, and the repository had around 1,700 stars at publication.
 
-*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/games/1004418/capcom-ai-game-development"><span class="tih">Capcom wants its RE Engine to become an &quot;AI-generation game engine</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="US Charges Tech CEO in $300M Nvidia Chip Smuggling Case" data-b="The Department of Justice has charged Greg Lui, the 38-year-old chief executive of Earthmade Computer, in an alleged scheme to smuggle more than $300 million worth of servers containing export-controlled Nvidia chips into China, according to Ars Technica&#x27;s report on the DOJ press release and FBI indictment.
+*The appeal here says less about Apple&#x27;s AI ambitions than about how much owners resent storage and settings real estate they never asked for.*
 
-Prosecutors allege that from October 2023 until August 2026, Lui used falsified paperwork to disguise shipment destinations, allegedly working with freight-forwarding firms in Malaysia and Singapore to divert servers carrying Nvidia A100 and H100 GPUs. In one flagged 2024 order, 27 servers declared as bound for Malaysia were allegedly shipped to China instead; a separate batch of 92 export-controlled servers was allegedly routed through Singapore and Malaysia, then Hong Kong, to a firm in Hangzhou, which The Wall Street Journal described last year as China&#x27;s AI hub. In another case, Lui allegedly filed documents naming a fake buyer whose &quot;CEO&quot; was an identity bought years earlier.
+*— Written by AI (qwen3.8-flash-next)*" data-s="arstechnica.com" data-u="https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/"><span class="tih">Open-source command-line tool strips Apple Intelligence from macOS 27</span> <span class="tis">— arstechnica.com</span></div><div class="ti" onclick="openArt(this)" data-h="PearX demo day puts five startups in front of venture investors" data-b="The latest cohort of PearX, the 12-week accelerator run by pre-seed and seed-focused venture firm Pear VC, closed with a demo day in San Francisco last week, and TechCrunch spoke with venture capitalists there about which of the 16 startups stood out. The program is deliberately small, capping each cohort at 20 companies, and, unlike Y Combinator, offers no standard deal terms — its investments can reach $2 million. PearX also says it keeps participating startups quiet until demo day, unlike programs where the hottest names raise during the course.
 
-The DOJ says emails and payment records from Bank of America and JP Morgan accounts back the charges, and is seeking to seize the proceeds, including more than $176 million his firm allegedly received in 2024. Lui faces conspiracy, smuggling and money-laundering counts, carrying up to 20 years on some charges.
+Among the five companies that generated the most buzz, Speridlabs is building foundational models for 3D space aimed at robotics, gaming and special effects, arguing that rivals such as Runway, Odyssey and Google&#x27;s Genie cannot be queried or modified. Saia is designing an inference chip that runs AI directly from flash storage instead of conventional memory, claiming eight times the capacity and a quarter of the power draw of Nvidia&#x27;s Jetson, with mass production targeted for 2028. Ren pitches a privacy-focused AI personal assistant with a fully automated voice calling system. Veros applies AI to trust and estate planning and already manages $250 million in assets. Datum indexes a company&#x27;s library of 3D designs so engineers can reuse prior work.
 
-Nvidia, meanwhile, has pivoted from denying diversion to downplaying it, telling Bloomberg that under half a percent of its products were allegedly diverted to China, while a Bloomberg investigation across five countries points to gaps in Nvidia&#x27;s own due diligence.
+*The batch&#x27;s shift from pure software toward silicon and physical-world models suggests local AI is becoming as interesting to investors as local apps.*
 
-*Editorial note: The case says less about one CEO than about the limits of paperwork-based export controls, where enforcement catches couriers long after the workarounds have become an industry.*
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/05/5-startups-that-caught-vcs-attention-at-the-latest-pearx-demo-day/"><span class="tih">PearX demo day puts five startups in front of venture investors</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia&#x27;s Shield TV Pro just got a $100 price hike, bringing the seven-year-old streamer to $299.99, according to a report from Wired, originally published on Ars Technica. The current Shield TV Pro debuted in 2019 and launched at $199.99, while the cheaper $149.99 non-Pro model has been discontinued, leaving the Pro as the last survivor of the line." data-b="The company points the finger at the AI boom. A spokesperson told Ars Technica that component costs, memory included, have increased substantially across the industry, making the older device more expensive to build. Nvidia&#x27;s Andrew Bell had earlier described the Shield as a passion project, noting the firm still manufactures it and sells every unit produced. With no stockpile of pre-AI hardware to fall back on, new units face the same supply-chain constraints now squeezing smartphones and computers.
 
-*— Written by AI (qwen3.8-flash-next)*" data-s="arstechnica.com" data-u="https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/"><span class="tih">US Charges Tech CEO in $300M Nvidia Chip Smuggling Case</span> <span class="tis">— arstechnica.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia&#x27;s seven-year-old Shield TV Pro just got a $100 price hike, and the company says AI is to blame" data-b="The Shield TV Pro, Nvidia&#x27;s streaming box that first appeared in 2019, now costs $299.99, a $100 increase effective October 2. A spokesperson told Ars Technica that component costs, including memory, have risen substantially across the industry, and that this is what pushed the repricing. The device launched at $199.99; its cheaper sibling, sold at $149.99, has meanwhile been discontinued.
+Wired is careful not to paint Nvidia as a victim. As a top supplier of AI accelerators and one of the most valuable companies in the world, Nvidia is itself partly responsible for elevated component costs. The console world shows the same pattern, with Nintendo, Microsoft and Sony all bumping prices on current-generation hardware; the PS5 Pro, for example, went from $699.99 at its 2024 launch to $899.99. The Shield TV Pro was out of stock at Nvidia&#x27;s store at publication, though Best Buy still lists it at the new price. For viewers who only want Netflix, Wired recommends a cheaper streamer unless the broad codec support or Plex server features are a must.
 
-According to Ars Technica, the box still runs Android TV on an aging Tegra X1+ chip, with AI upscaling and broad hardware media decoding. Nvidia&#x27;s Andrew Bell said earlier this year that the Shield remains a passion project, and that the company still manufactures it and sells every unit it builds. With no pre-AI parts stockpile left, fresh units now face the same supply-chain squeeze as modern smartphones and computers.
+*Seven years on, the Shield&#x27;s biggest obstacle isn&#x27;t its aging Tegra chip — it&#x27;s an industry-wide memory shortage that Nvidia itself helped create.*
 
-The irony, as Ars Technica notes, is that Nvidia is no victim. One of the world&#x27;s most valuable firms thanks to its market-leading AI accelerators and GPUs, it is itself a major driver of soaring component costs. Rivals Nintendo, Microsoft and Sony have also repriced current-generation consoles, with the PS5 Pro climbing from $699.99 at its 2024 launch to $899.99. Shield TV Pro stock had been thin for months, and while sold out on Nvidia&#x27;s own store, the box remains available at Best Buy at the new price. Unless broad codec support or Plex server duties matter to you, Ars Technica concludes, far cheaper Netflix machines exist.
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/"><span class="tih">Nvidia&#x27;s Shield TV Pro just got a $100 price hike, bringing the seven-year-old streamer to $299.99, according to a report from Wired, originally published on Ars Technica. The current Shield TV Pro debuted in 2019 and launched at $199.99, while the cheaper $149.99 non-Pro model has been discontinued, leaving the Pro as the last survivor of the line.</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Reflection AI has unveiled Beam, the Brooklyn startup&#x27;s first frontier-class open-weight model, positioning it as a cheaper Western rival to leading Chinese open models. According to TechCrunch, the two-year-old company says Beam matches top Chinese open models on advanced reasoning benchmarks while requiring far less compute, a claim the outlet notes has not been independently verified." data-b="Technically, Beam is a text-only mixture-of-experts model trained on high-compute reinforcement learning. It carries 501 billion total parameters with 23 billion active, was pretrained on 23.8 trillion tokens, and supports a 1 million token context window. By comparison, Z.ai&#x27;s GLM-5.2 has roughly 744 billion total parameters and 40 billion active. Reflection says Beam uses three to four times less inference compute than rivals and performs better than today&#x27;s leading Western open models, calling it a &quot;workhorse model&quot; for enterprises, the public sector, and developers.
 
-*A niche set-top box repriced by the very AI boom its maker helped create feels like the cleanest illustration yet of how broadly the memory shortage is being paid for.*
+Its competitive frame is wide: closed labs like Anthropic and OpenAI, Chinese open models, and Western players such as Mistral, Meta and Cohere. Its closest US rival may be Inkling, Mira Murati&#x27;s Thinking Machines Lab model, which Beam reportedly beats on four coding tests, though Inkling is multimodal and Beam is text-only.
 
-*— Written by AI (qwen3.8-flash-next)*" data-s="arstechnica.com" data-u="https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/"><span class="tih">Nvidia&#x27;s seven-year-old Shield TV Pro just got a $100 price hike, and the company says AI is to blame</span> <span class="tis">— arstechnica.com</span></div><div class="ti" onclick="openArt(this)" data-h="Neurable One headphones track brain activity to chase distraction" data-b="Neurable has unveiled the Neurable One, its first in-house pair of brain-scanning headphones, the Boston-based company announced Thursday. The device buries 12 EEG sensors in its nylon earpads to monitor brain waves, with the aim of helping wearers concentrate while working, studying or gaming, according to WIRED, which spoke exclusively with the company.
+Reflection has raised roughly $4.7 billion, per PitchBook, and signed compute deals worth more than $7 billion with SpaceX and Nebius for Nvidia GB300 chips through 2029. It is pitching &quot;AI factories&quot; for enterprises and sovereign nations, including a trial partnership with South Korea&#x27;s Shinsegae Group. Weights and full technical details are due this month.
 
-The move is a pivot. Neurable had planned to license its brain-scanning technology to other gadget makers — it previously powered Master &amp; Dynamic headphones and an HP HyperX gaming headset with two EEG sensors. Cofounder and CEO Ramses Alcaide said the company took the product in-house to move faster and better showcase what the technology can do.
+*The compute-cost framing matters more than the benchmark talk: if Reflection&#x27;s unverified numbers hold up, the open-model race has shifted from raw capability to price-per-token economics.*
 
-A companion app tracks eight metrics, including a &quot;Brain Battery&quot; reserve level, stress, sleepiness and an Alpha Peak Frequency the company compares to heart-rate variability. Unlike earlier models, monitoring starts passively the moment the headphones go on — Alcaide likens it to wearing a Fitbit — pinging the wearer when attention drifts and suggesting breaks when burnout looms. It also supports meditation and nap modes.
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/"><span class="tih">Reflection AI has unveiled Beam, the Brooklyn startup&#x27;s first frontier-class open-weight model, positioning it as a cheaper Western rival to leading Chinese open models. According to TechCrunch, the two-year-old company says Beam matches top Chinese open models on advanced reasoning benchmarks while requiring far less compute, a claim the outlet notes has not been independently verified.</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Open-source command-line tool strips Apple Intelligence from macOS 27" data-b="macOS 27 Golden Gate has dropped the toggle that previously let owners switch Apple Intelligence off, and, as Ars Technica reports, one developer&#x27;s response is a terminal command. Because no single on/off switch exists this time, the AI models needed by Apple Intelligence stay on disk even for people who hunt down and disable individual AI capabilities in Settings.
 
-The headphones cost $499 and launch in October on Neurable&#x27;s website, with 22 hours of battery (12 with EEG active). No new efficacy research exists yet; the company cites prior Mayo Clinic work showing a 30 percent focus boost. It says brain data is never sold or used for advertising, and the device is not a medical device.
+In response, a GitHub developer known as Om Lahore published RemoveMacAI last week, a fully reversible utility. According to a Reddit post first picked up by MacRumors, it shuts off Siri, Writing Tools, Genmoji, Image Playground, the ChatGPT extension and the summary features, deletes the underlying models, and stops macOS from re-downloading them; dictation keeps working, since that sits under a separate setting. Lahore puts the models at &quot;about 12GB&quot; in the tool&#x27;s documentation, though The Verge noted the footprint can top 30GB.
 
-*An unusual bet that consumers will pay $499 to be told to take a break — though &quot;your data stays with you&quot; may be the harder sell to believe.*
+Mechanically, the tool installs a configuration profile the user approves in System Settings and relies on Apple&#x27;s own asset service, so System Integrity Protection stays active and nothing inside /System is touched, Ars Technica explains. A `removemacai revert` command removes the profile and lets macOS refetch the models, and unwanted features can be removed selectively. Some Reddit users say it works, and the repository had around 1,700 stars at publication.
 
-*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/exclusive-neurable-one-brain-scanning-headphones-want-to-fix-your-focus/"><span class="tih">Neurable One headphones track brain activity to chase distraction</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="The Nvidia Shield TV Pro just got a $100 price hike — and memory is to blame" data-b="Seven years after its debut, Nvidia&#x27;s Shield TV Pro streaming box has jumped by $100 in price, a move first reported by Ars Technica and republished on WIRED. The most recent Shield model launched in 2019 at $199.99, running Android TV with AI upscaling and broad hardware media decoding, despite housing the already aging Tegra X1+ processor. The cheaper non-Pro version, which sold for $149.99, has been discontinued, while the Pro now sits at $299.99.
+*The appeal here says less about Apple&#x27;s AI ambitions than about how much owners resent storage and settings real estate they never asked for.*
 
-According to WIRED, the wider generative-AI boom has scrambled technology supply chains, and anything containing memory or storage is now costlier to build. Nvidia confirmed the connection, telling Ars that component costs, memory included, have risen substantially across the industry from October 2.
+*— Written by AI (qwen3.8-flash-next)*" data-s="arstechnica.com" data-u="https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/"><span class="tih">Open-source command-line tool strips Apple Intelligence from macOS 27</span> <span class="tis">— arstechnica.com</span></div><div class="ti" onclick="openArt(this)" data-h="PearX demo day puts five startups in front of venture investors" data-b="The latest cohort of PearX, the 12-week accelerator run by pre-seed and seed-focused venture firm Pear VC, closed with a demo day in San Francisco last week, and TechCrunch spoke with venture capitalists there about which of the 16 startups stood out. The program is deliberately small, capping each cohort at 20 companies, and, unlike Y Combinator, offers no standard deal terms — its investments can reach $2 million. PearX also says it keeps participating startups quiet until demo day, unlike programs where the hottest names raise during the course.
 
-The outlet notes that Nvidia still manufactures the Shield and sells through every unit, so fresh production faces the same supply constraints as today&#x27;s phones and PCs — with no pre-AI inventory to fall back on. Ironically, Nvidia itself is among the firms most responsible for inflated component costs, having grown into one of the world&#x27;s most valuable companies on the back of its AI accelerators. Consoles from Nintendo, Microsoft and Sony have seen similar bumps; the PS5 Pro rose from $699.99 to $899.99.
+Among the five companies that generated the most buzz, Speridlabs is building foundational models for 3D space aimed at robotics, gaming and special effects, arguing that rivals such as Runway, Odyssey and Google&#x27;s Genie cannot be queried or modified. Saia is designing an inference chip that runs AI directly from flash storage instead of conventional memory, claiming eight times the capacity and a quarter of the power draw of Nvidia&#x27;s Jetson, with mass production targeted for 2028. Ren pitches a privacy-focused AI personal assistant with a fully automated voice calling system. Veros applies AI to trust and estate planning and already manages $250 million in assets. Datum indexes a company&#x27;s library of 3D designs so engineers can reuse prior work.
 
-The Shield remains out of stock on Nvidia&#x27;s own store, though Best Buy lists it at the new price. For anyone who just wants Netflix, WIRED&#x27;s verdict: a cheaper streamer makes more sense.
+*The batch&#x27;s shift from pure software toward silicon and physical-world models suggests local AI is becoming as interesting to investors as local apps.*
 
-*An old media box priced like a flagship console is the clearest sign yet that the memory crunch has reached even the gadgets nobody buys for AI.*
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/05/5-startups-that-caught-vcs-attention-at-the-latest-pearx-demo-day/"><span class="tih">PearX demo day puts five startups in front of venture investors</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia&#x27;s Shield TV Pro just got a $100 price hike, bringing the seven-year-old streamer to $299.99, according to a report from Wired, originally published on Ars Technica. The current Shield TV Pro debuted in 2019 and launched at $199.99, while the cheaper $149.99 non-Pro model has been discontinued, leaving the Pro as the last survivor of the line." data-b="The company points the finger at the AI boom. A spokesperson told Ars Technica that component costs, memory included, have increased substantially across the industry, making the older device more expensive to build. Nvidia&#x27;s Andrew Bell had earlier described the Shield as a passion project, noting the firm still manufactures it and sells every unit produced. With no stockpile of pre-AI hardware to fall back on, new units face the same supply-chain constraints now squeezing smartphones and computers.
 
-*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/"><span class="tih">The Nvidia Shield TV Pro just got a $100 price hike — and memory is to blame</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Capcom wants its RE Engine to become an &quot;AI-generation game engine" data-b="At the Capcom Open Conference RE: 2026, programmer Satoshi Ishida presented a roadmap for the RE Engine, the graphics and development engine behind the Resident Evil franchise, and framed artificial intelligence as a way to relieve some of the drudgery of big-game production, according to The Verge. Speaking in a session titled &quot;The Outlook and Future of the REX Project, Further Evolving the RE Engine for the Next Generation,&quot; Ishida argued that games made at the scale of Resident Evil turn even straightforward tasks into long ones, a problem he said the studio intends to answer by integrating AI into development workflows. The Verge notes that Capcom has previously said it would not ship AI-generated assets in its games, reserving the technology for efficiency gains instead, and Ishida&#x27;s remarks appear to follow that position while still leaving room for wider AI use down the line. The eventual goal, per the presentation as translated by IGN, is to move RE Engine incrementally into an &quot;AI-generation game engine&quot; serving &quot;a future where we create games together with AI.&quot; The irony is not minor, as the Verge&#x27;s Terrence O&#x27;Brien observes: Capcom&#x27;s upcoming title Pragmata is themed around the horrors of AI, yet the studio developing it seems willing to build the tools that automate part of its own pipeline.
+Wired is careful not to paint Nvidia as a victim. As a top supplier of AI accelerators and one of the most valuable companies in the world, Nvidia is itself partly responsible for elevated component costs. The console world shows the same pattern, with Nintendo, Microsoft and Sony all bumping prices on current-generation hardware; the PS5 Pro, for example, went from $699.99 at its 2024 launch to $899.99. The Shield TV Pro was out of stock at Nvidia&#x27;s store at publication, though Best Buy still lists it at the new price. For viewers who only want Netflix, Wired recommends a cheaper streamer unless the broad codec support or Plex server features are a must.
 
-*The appeal here is cheaper, faster development — whether &quot;creating games together with AI&quot; actually makes games better is a different conversation, and Capcom has left that question unanswered.*
+*Seven years on, the Shield&#x27;s biggest obstacle isn&#x27;t its aging Tegra chip — it&#x27;s an industry-wide memory shortage that Nvidia itself helped create.*
 
-*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/games/1004418/capcom-ai-game-development"><span class="tih">Capcom wants its RE Engine to become an &quot;AI-generation game engine</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="US Charges Tech CEO in $300M Nvidia Chip Smuggling Case" data-b="The Department of Justice has charged Greg Lui, the 38-year-old chief executive of Earthmade Computer, in an alleged scheme to smuggle more than $300 million worth of servers containing export-controlled Nvidia chips into China, according to Ars Technica&#x27;s report on the DOJ press release and FBI indictment.
-
-Prosecutors allege that from October 2023 until August 2026, Lui used falsified paperwork to disguise shipment destinations, allegedly working with freight-forwarding firms in Malaysia and Singapore to divert servers carrying Nvidia A100 and H100 GPUs. In one flagged 2024 order, 27 servers declared as bound for Malaysia were allegedly shipped to China instead; a separate batch of 92 export-controlled servers was allegedly routed through Singapore and Malaysia, then Hong Kong, to a firm in Hangzhou, which The Wall Street Journal described last year as China&#x27;s AI hub. In another case, Lui allegedly filed documents naming a fake buyer whose &quot;CEO&quot; was an identity bought years earlier.
-
-The DOJ says emails and payment records from Bank of America and JP Morgan accounts back the charges, and is seeking to seize the proceeds, including more than $176 million his firm allegedly received in 2024. Lui faces conspiracy, smuggling and money-laundering counts, carrying up to 20 years on some charges.
-
-Nvidia, meanwhile, has pivoted from denying diversion to downplaying it, telling Bloomberg that under half a percent of its products were allegedly diverted to China, while a Bloomberg investigation across five countries points to gaps in Nvidia&#x27;s own due diligence.
-
-*Editorial note: The case says less about one CEO than about the limits of paperwork-based export controls, where enforcement catches couriers long after the workarounds have become an industry.*
-
-*— Written by AI (qwen3.8-flash-next)*" data-s="arstechnica.com" data-u="https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/"><span class="tih">US Charges Tech CEO in $300M Nvidia Chip Smuggling Case</span> <span class="tis">— arstechnica.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia&#x27;s seven-year-old Shield TV Pro just got a $100 price hike, and the company says AI is to blame" data-b="The Shield TV Pro, Nvidia&#x27;s streaming box that first appeared in 2019, now costs $299.99, a $100 increase effective October 2. A spokesperson told Ars Technica that component costs, including memory, have risen substantially across the industry, and that this is what pushed the repricing. The device launched at $199.99; its cheaper sibling, sold at $149.99, has meanwhile been discontinued.
-
-According to Ars Technica, the box still runs Android TV on an aging Tegra X1+ chip, with AI upscaling and broad hardware media decoding. Nvidia&#x27;s Andrew Bell said earlier this year that the Shield remains a passion project, and that the company still manufactures it and sells every unit it builds. With no pre-AI parts stockpile left, fresh units now face the same supply-chain squeeze as modern smartphones and computers.
-
-The irony, as Ars Technica notes, is that Nvidia is no victim. One of the world&#x27;s most valuable firms thanks to its market-leading AI accelerators and GPUs, it is itself a major driver of soaring component costs. Rivals Nintendo, Microsoft and Sony have also repriced current-generation consoles, with the PS5 Pro climbing from $699.99 at its 2024 launch to $899.99. Shield TV Pro stock had been thin for months, and while sold out on Nvidia&#x27;s own store, the box remains available at Best Buy at the new price. Unless broad codec support or Plex server duties matter to you, Ars Technica concludes, far cheaper Netflix machines exist.
-
-*A niche set-top box repriced by the very AI boom its maker helped create feels like the cleanest illustration yet of how broadly the memory shortage is being paid for.*
-
-*— Written by AI (qwen3.8-flash-next)*" data-s="arstechnica.com" data-u="https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/"><span class="tih">Nvidia&#x27;s seven-year-old Shield TV Pro just got a $100 price hike, and the company says AI is to blame</span> <span class="tis">— arstechnica.com</span></div><div class="ti" onclick="openArt(this)" data-h="Neurable One headphones track brain activity to chase distraction" data-b="Neurable has unveiled the Neurable One, its first in-house pair of brain-scanning headphones, the Boston-based company announced Thursday. The device buries 12 EEG sensors in its nylon earpads to monitor brain waves, with the aim of helping wearers concentrate while working, studying or gaming, according to WIRED, which spoke exclusively with the company.
-
-The move is a pivot. Neurable had planned to license its brain-scanning technology to other gadget makers — it previously powered Master &amp; Dynamic headphones and an HP HyperX gaming headset with two EEG sensors. Cofounder and CEO Ramses Alcaide said the company took the product in-house to move faster and better showcase what the technology can do.
-
-A companion app tracks eight metrics, including a &quot;Brain Battery&quot; reserve level, stress, sleepiness and an Alpha Peak Frequency the company compares to heart-rate variability. Unlike earlier models, monitoring starts passively the moment the headphones go on — Alcaide likens it to wearing a Fitbit — pinging the wearer when attention drifts and suggesting breaks when burnout looms. It also supports meditation and nap modes.
-
-The headphones cost $499 and launch in October on Neurable&#x27;s website, with 22 hours of battery (12 with EEG active). No new efficacy research exists yet; the company cites prior Mayo Clinic work showing a 30 percent focus boost. It says brain data is never sold or used for advertising, and the device is not a medical device.
-
-*An unusual bet that consumers will pay $499 to be told to take a break — though &quot;your data stays with you&quot; may be the harder sell to believe.*
-
-*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/exclusive-neurable-one-brain-scanning-headphones-want-to-fix-your-focus/"><span class="tih">Neurable One headphones track brain activity to chase distraction</span> <span class="tis">— wired.com</span></div></div></div>
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/"><span class="tih">Nvidia&#x27;s Shield TV Pro just got a $100 price hike, bringing the seven-year-old streamer to $299.99, according to a report from Wired, originally published on Ars Technica. The current Shield TV Pro debuted in 2019 and launched at $199.99, while the cheaper $149.99 non-Pro model has been discontinued, leaving the Pro as the last survivor of the line.</span> <span class="tis">— wired.com</span></div></div></div>
 <div class="lead-zone">
       <article class="lead">
-  <a href="https://huggingface.co/blog/ggml-org/decision-models-in-llamacpp" target="_blank" rel="noopener">
-    <img src="images/lead_2026-10-04.jpg" alt="" class="lead-image">
+  <a href="https://startupfortune.com/a-wave-of-narrow-ai-inference-engines-is-beating-vllm-and-llamacpp-at-their-own-game" target="_blank" rel="noopener">
+    <img src="images/lead_2026-10-06.jpg" alt="" class="lead-image">
     <div class="lead-grid">
       <div class="lead-head">
-        <p class="kicker">New inference primitive</p>
-        <h1>llama.cpp adds Decision Models support with a new /v1/systemone endpoint</h1>
+        <p class="kicker">Inference engines</p>
+        <h1>Narrow, single-architecture inference engines are beating llama.cpp and vLLM on consumer rigs</h1>
       </div>
       <div class="lead-body">
-        <p class="deck">llama.cpp merged PR #29818 on October 2, adding a POST /v1/systemone API to llama-server for typed decision models (laya, julia-1, lev, openjev, kev). A model receives a state — text, JSON, or a screenshot for vision-capable weights — plus typed questions and returns a probability for each option in a single forward pass, skipping token-by-token generation. The endpoint follows the Typesafe.ai SystemOne API format and ships with five open GGUF decision models, a relevant new primitive for self-hosted agent and automation stacks.</p>
-        <p class="byline"><span class="src">Hugging Face / ggml-org</span> · <span>2026-10-03</span> · <span class="more">Read the dispatch →</span></p>
+        <p class="deck">Purpose-built 'napkin runtimes' that each target one hardware family — Strata, nInfer, DwarfStar, Splash, llamAmpere, gufo — are winning on narrow workloads by wide margins. Strata runs the 125B Qwen3.8-Flash-Next MoE on a single 12GB GPU at 50-120 tok/s (94 on an RTX 5070, 60 on an RX 9070 XT) by keeping hot experts in VRAM and the expert pool in system RAM, hitting 53.2 tok/s versus 20.8 for upstream llama.cpp on the same box; CUDA-only nInfer beat Strata at every context length, and Apple-Silicon-only Splash pushes roughly 210 tok/s on a 48GB M5 Pro. The signal for local-AI operators: single-vendor kernels now beat cross-platform engines where the workload fits the runtime's niche.</p>
+        <p class="byline"><span class="src">Startup Fortune</span> · <span>2026-10-05</span> · <span class="more">Read the dispatch →</span></p>
       </div>
     </div>
   </a>
@@ -137,26 +109,26 @@ The headphones cost $499 and launch in October on Neurable&#x27;s website, with 
 
     <div class="topstories">
 <article class="story">
-  <a href="https://techgenyz.com/nvidia-dgx-spark-64gb-local-ai-starts-at-4999/" target="_blank" rel="noopener">
-    <h3>Nvidia introduces a 64GB DGX Spark from $4,999 as the 128GB model jumps to $6,950</h3>
-    <p>A 64GB GB10 Grace Blackwell tier will be sold from October 23 by Acer, ASUS, Dell, Gigabyte, HP and MSI, capable of running models up to roughly 100B parameters on-device. It arrives as the memory shortage (the 'RAMpocalypse') pushes the 128GB DGX Spark well above its launch price.</p>
-    <p class="byline"><span class="src">TechGenyz</span> · 2026-10-03</p>
+  <a href="https://github.com/vllm-project/vllm/releases" target="_blank" rel="noopener">
+    <h3>vLLM v0.31.0 makes FlashMLA mega attention the SM100 default and adds a 'vllm preload' fast-restart CLI</h3>
+    <p>The 717-commit release (Oct 5) makes FlashMLA mega attention with V4.1 NVFP4 compressed KV cache the default on SM100, adds fused sparse-MQA/gate/MoE kernels, and introduces a preload CLI that keeps post-quantized weights resident in GPU memory across engine restarts — plus data-parallel preload, MTP draft models and a /health endpoint.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-10-05</p>
   </a>
 </article>
 
 <article class="story">
-  <a href="https://www.techradar.com/computing/gpu/micro-center-reportedly-now-makes-you-fill-out-a-form-and-have-a-photo-id-to-buy-an-nvidia-rtx-5090-gpu-and-while-some-people-hate-the-idea-others-are-in-favor" target="_blank" rel="noopener">
-    <h3>Micro Center now requires a signed declaration and photo ID to buy an RTX 5090</h3>
-    <p>A Micro Center store in Tustin, California began requiring RTX 5090 buyers to sign an anti-scalping/anti-export pledge, show a government ID, and limit purchases to one card per customer, ever — a sign of how tight high-VRAM consumer GPU supply has become under export-control and scalper pressure.</p>
-    <p class="byline"><span class="src">TechRadar</span> · 2026-10-03</p>
+  <a href="https://github.com/ggml-org/ggml/releases/tag/v0.26.0" target="_blank" rel="noopener">
+    <h3>ggml v0.26.0 ships sparse Flash Attention for SYCL, Vulkan and Metal</h3>
+    <p>The tensor library under llama.cpp gained sparse Flash Attention kernels — including sparse FA for quantized KV caches — on the SYCL, Vulkan and Metal backends, directly affecting memory use and long-context speed on Intel, AMD and Apple Silicon GPUs.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-10-05</p>
   </a>
 </article>
 
 <article class="story">
-  <a href="https://huggingface.co/blog/microsoft/thinkingbox" target="_blank" rel="noopener">
-    <h3>ThinkingBox grades agents on the database records they leave behind, not their prose</h3>
-    <p>Microsoft and Hugging Face released ThinkingBox, an open benchmark that grades AI agents on backend records and side effects rather than generated text, run against isolated MCP tool sessions. It can be self-hosted with its MCP and OpenEnv servers.</p>
-    <p class="byline"><span class="src">Hugging Face</span> · 2026-10-03</p>
+  <a href="https://www.xda-developers.com/32gb-ddr5-kits-cost-more-than-cpu-waiting-ram-prices-to-drop-is-a-trap/" target="_blank" rel="noopener">
+    <h3>32GB DDR5 kits now cost more than a flagship CPU as the memory shortage squeezes LLM rig builds</h3>
+    <p>32GB has displaced 16GB as the top RAM capacity in gaming rigs despite the shortage, and DDR5 is up as much as ~486% during 2026 as HBM/AI demand pulls capacity from consumer DRAM and GDDR6/GDDR7 — with Intel's third CPU price hike (~10%, effective Oct 5) and AMD's ~10% Q4 increase landing in the same window, the cost floor for VRAM-offload and unified-memory builds keeps rising.</p>
+    <p class="byline"><span class="src">XDA Developers</span> · 2026-10-05</p>
   </a>
 </article>
 
@@ -170,29 +142,29 @@ The headphones cost $499 and launch in October on Neurable&#x27;s website, with 
     <span class="line"></span>
     <span class="n">03</span>
   </div>
-  <div class="section-hero"><img src="images/section_open_weights_2026-10-04.jpg" alt="" class="section-hero-img"></div>
+  <div class="section-hero"><img src="images/section_open_weights_2026-10-06.jpg" alt="" class="section-hero-img"></div>
   <div class="section-grid">
 <article class="item">
-  <a href="https://huggingface.co/Aleph-Alpha/Kolibri-1" target="_blank" rel="noopener">
-    <h4>Aleph Alpha releases Kolibri-1, an open-weight sovereign reasoning MoE</h4>
-    <p>An Apache-2.0 mixture-of-experts reasoning model targeting European needs, with strong German and English reasoning, vLLM-ready with FP8 and GGUF quantized variants. Still climbing the Hugging Face trending chart through October 3.</p>
-    <p class="byline"><span class="src">HuggingFace</span> · 2026-10-03</p>
+  <a href="https://huggingface.co/Lightricks/LTX-2.5" target="_blank" rel="noopener">
+    <h4>LTX-2.5: Lightricks' open-weights image-to-video backbone tops Hugging Face trending</h4>
+    <p>The LTX-2.5 checkpoint (~6.5k likes) is the most-liked model on the HF trending page this week — a rare new open-weight video-generation backbone that local-GPU users can self-host.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-10-02</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://huggingface.co/Cloudflare/clef" target="_blank" rel="noopener">
-    <h4>Cloudflare open-sources Clef and Clef-Flash: multimodal models for typed structured output</h4>
-    <p>The 'SystemOne' post-trained family (Clef on Qwen3.8-27B, Clef-Flash on a Qwen3.5 base) does image-text-to-typed-output with schema-constrained structured output and classification, built for agent and guardrail pipelines.</p>
-    <p class="byline"><span class="src">HuggingFace</span> · 2026-10-03</p>
+  <a href="https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.8-27B" target="_blank" rel="noopener">
+    <h4>ThinkingCap-Qwen3.8-27B cuts reasoning tokens 37% with about a 1-point accuracy drop</h4>
+    <p>Keeps 85.8% average accuracy vs the base model's 86.6% while cutting thinking verbosity by 37% on average (11-66% per benchmark) — fewer reasoning tokens means faster, cheaper local inference.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-10-06</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://huggingface.co/NaiveAI/Naive-N0.5-Flash" target="_blank" rel="noopener">
-    <h4>NaiveAI Naive-N0.5-Flash: MIT-licensed MoE code/long-context model from Beijing</h4>
-    <p>The debut open-weights model from Beijing-based NaiveAI — a MoE tuned for code and long-context agentic work, published with weights and inference code, and already spawning quantized GGUF derivatives.</p>
-    <p class="byline"><span class="src">HuggingFace</span> · 2026-10-03</p>
+  <a href="https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf" target="_blank" rel="noopener">
+    <h4>Ternary-Bonsai-2-27B GGUF pushes ternary-quantized 27B weights into the llama.cpp ecosystem</h4>
+    <p>The 2.4k-like GGUF release (trending all week) extends the Oct 5-6 trend of sub-5-bit quants of large models for consumer VRAM — Xing4.0-29B-A4B-GGUF and a GLM-5.3 EXL3 quant are also trending.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-10-06</p>
   </a>
 </article>
 
@@ -203,31 +175,47 @@ The headphones cost $499 and launch in October on Neurable&#x27;s website, with 
   <div class="section-head">
     <h2>Tools &amp; Runtimes</h2>
     <span class="line"></span>
-    <span class="n">03</span>
+    <span class="n">05</span>
   </div>
-  <div class="section-hero"><img src="images/section_tools_runtimes_2026-10-04.jpg" alt="" class="section-hero-img"></div>
+  <div class="section-hero"><img src="images/section_tools_runtimes_2026-10-06.jpg" alt="" class="section-hero-img"></div>
   <div class="section-grid">
 <article class="item">
-  <a href="https://github.com/nicobrenner/jeffy" target="_blank" rel="noopener">
-    <h4>Jeffy: local pretrained text classifiers that run and retrain on CPU</h4>
-    <p>A new GitHub project showcased on Show HN ships pretrained text classifiers that run entirely on CPU, with local retraining on your own labels.</p>
-    <p class="byline"><span class="src">GitHub</span> · 2026-10-03</p>
+  <a href="https://github.com/ggml-org/llama.cpp/releases" target="_blank" rel="noopener">
+    <h4>llama.cpp v0.6.0: GLM-5.3-Flash support, MTP speculative decoding, revamped Web UI</h4>
+    <p>The v0.6.0 release (Oct 5) adds the llama_batch_ext batch API, support for the 320B GLM-5.3-Flash text+vision hybrid and the Clef decision model, MTP speculative decoding for Qwen4Exp (~1.5x decode speedup on DGX Spark), a /v1/systemone server API, a rebuilt Web UI with a Hugging Face Hub download pipeline, and Metal/Vulkan flash-attention kernels — and bumps bundled ggml to v0.26.0.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-10-05</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://github.com/dropalltables/valet" target="_blank" rel="noopener">
-    <h4>Valet: self-hosted coding agents in per-thread Docker sandboxes</h4>
-    <p>Valet runs Claude Code and Codex coding agents in per-thread sandboxes, deployable with a single docker compose command for fully local agent workflows.</p>
-    <p class="byline"><span class="src">GitHub</span> · 2026-10-03</p>
+  <a href="https://news.ycombinator.com/item?id=49973649" target="_blank" rel="noopener">
+    <h4>Show HN: Crowsnest — local macOS workspace for running Claude Code and Codex in one app</h4>
+    <p>A paid, local-first macOS coordinator for the Claude Code and Codex runtimes already installed on your machine: multiple provider accounts, searchable agent history, cross-runtime handoffs via attributed forks, parallel agent crews and remote workspaces over SSH. All transcripts stay on the local machine (UI binds to 127.0.0.1).</p>
+    <p class="byline"><span class="src">Hacker News</span> · 2026-10-06</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://github.com/vayungodara/cliproxy-rs" target="_blank" rel="noopener">
-    <h4>cliproxy-rs: Rust rewrite of CLIProxyAPI, a local proxy for LLM subscription accounts</h4>
-    <p>A drop-in compatible Rust port exposing Claude, Codex, Gemini and OpenAI-compatible providers as a single local proxy endpoint for local clients and agents.</p>
-    <p class="byline"><span class="src">GitHub</span> · 2026-10-03</p>
+  <a href="https://news.ycombinator.com/item?id=49971028" target="_blank" rel="noopener">
+    <h4>Show HN: Ototo — offload code exploration to a smaller, cheaper model before the frontier model</h4>
+    <p>Ototo hands code-exploration subtasks to a smaller model ahead of the expensive primary model, cutting token cost and latency on large repos — part of a growing pattern of routing parts of agent workflows away from the frontier model.</p>
+    <p class="byline"><span class="src">Hacker News</span> · 2026-10-05</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://news.ycombinator.com/item?id=49973266" target="_blank" rel="noopener">
+    <h4>Show HN: Jev Browser Wingman — an MCP proxy that hands an agent's browser clicks to TypeSafe's Jev</h4>
+    <p>The MCP proxy routes browser clicks made by coding agents through Jev's protection layer, so agentic browser automation gets policy enforcement before actions execute — relevant to anyone wiring browser-use/MCP tooling into local agent stacks.</p>
+    <p class="byline"><span class="src">Hacker News</span> · 2026-10-06</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://news.ycombinator.com/item?id=49970586" target="_blank" rel="noopener">
+    <h4>Show HN: Simulkit — estimate which local LLMs fit on any Apple Silicon Mac</h4>
+    <p>Simulkit's Mac Local LLMs page simulates decode/prefill speed and memory fit for dozens of GGUF-era models (Qwen, Gemma, DeepSeek, GLM, gpt-oss) on each Apple Silicon chip using memory bandwidth, GPU compute and macOS wired-memory limits — a sanity check before downloading weights.</p>
+    <p class="byline"><span class="src">Hacker News</span> · 2026-10-05</p>
   </a>
 </article>
 
@@ -238,66 +226,31 @@ The headphones cost $499 and launch in October on Neurable&#x27;s website, with 
   <div class="section-head">
     <h2>Self-Hosted Stack</h2>
     <span class="line"></span>
-    <span class="n">04</span>
+    <span class="n">03</span>
   </div>
-  <div class="section-hero"><img src="images/section_self_hosted_stack_2026-10-04.jpg" alt="" class="section-hero-img"></div>
+  <div class="section-hero"><img src="images/section_self_hosted_stack_2026-10-06.jpg" alt="" class="section-hero-img"></div>
   <div class="section-grid">
 <article class="item">
-  <a href="https://windowsforum.com/news/turn-a-gtx-1080-into-a-local-home-assistant-ai-server-with-llama-cpp.446307" target="_blank" rel="noopener">
-    <h4>Home Assistant ships a native llama.cpp conversation integration — guides shift from HACS workarounds to first-party setup</h4>
-    <p>Home Assistant 2026.8 added native llama.cpp and LiteLLM conversation integrations, retiring the HACS bridges. Community guides now recommend pointing the integration at any OpenAI-compatible /v1 endpoint, exposing a minimal set of entities, and letting the built-in intent matcher handle routine commands with the LLM as fallback.</p>
-    <p class="byline"><span class="src">WindowsForum (Hetzner)</span> · 2026-10-03</p>
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1wa26pn/friends_dont_let_friends_use_ollama/" target="_blank" rel="noopener">
+    <h4>r/LocalLLaMA: 'Friends Don't Let Friends Use Ollama' — pushback on Ollama as the default local stack</h4>
+    <p>A 1.3K+ upvote thread circulates the writeup arguing Ollama's wrapper layer hides llama.cpp features (flash attention, KV-cache quantization, sampler control) and degrades performance versus running llama.cpp or llama-server directly, reflecting a community shift toward direct llama.cpp/llama-server deployments.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-10-05</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://dev.to/kunal_d6a8fea2309e1571ee7/local-ai-voice-assistant-stack-2026-whisper-piper-ollama-wired-together-572l" target="_blank" rel="noopener">
-    <h4>Piper TTS archived — guides now recommend Kokoro/XTTS and a fully local Whisper + Ollama + Wyoming voice stack</h4>
-    <p>An October 2026 guide to the offline voice stack flags that Piper is archived and read-only on GitHub despite running on ~8.9% of Home Assistant installs, recommending Kokoro TTS or Coqui XTTS for new builds — and to verify airgapped operation with a packet capture.</p>
-    <p class="byline"><span class="src">DEV Community</span> · 2026-10-03</p>
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1wcj5q3/harness_does_matter/" target="_blank" rel="noopener">
+    <h4>r/LocalLLaMA: 'Harness does matter' — the agent/frontend wrapping a local model changes results more than expected</h4>
+    <p>Users report the same local model performing very differently depending on its harness (Open WebUI, OpenClaw-style agents, raw API). Practical takeaway for self-hosters: benchmark and tune the harness and system prompt around a local model, not just the checkpoint.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-10-06</p>
   </a>
 </article>
 
 <article class="item">
-  <a href="https://docs.openwebui.com/" target="_blank" rel="noopener">
-    <h4>Open WebUI ecosystem update: oikb knowledge-base sync and the Open WebUI Computer agent harness</h4>
-    <p>oikb keeps Knowledge Bases synced with local folders, GitHub repos, S3 and 40+ other sources via incremental SHA-256 diffing, while Open WebUI Computer (cptr) serves your whole machine to any browser and reconnects as a model through its OpenAI-compatible gateway.</p>
-    <p class="byline"><span class="src">Open WebUI</span> · 2026-10-04</p>
-  </a>
-</article>
-
-<article class="item">
-  <a href="https://github.com/n8n-io/n8n/blob/master/.github/DEVELOPING_V3.md" target="_blank" rel="noopener">
-    <h4>n8n v3 major release (operational cleanup, breaking changes) signalled for ~October 2026</h4>
-    <p>n8n's development guide signals a v3 major as an operational release — breaking changes, removals and legacy cleanup. Self-hosters running queue mode with AI nodes should review the v3 changelog before upgrading.</p>
-    <p class="byline"><span class="src">n8n (GitHub)</span> · 2026-10-04</p>
-  </a>
-</article>
-
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-head">
-    <h2>Hardware &amp; Edge</h2>
-    <span class="line"></span>
-    <span class="n">02</span>
-  </div>
-  <div class="section-hero"><img src="images/section_hardware_edge_2026-10-04.jpg" alt="" class="section-hero-img"></div>
-  <div class="section-grid">
-<article class="item">
-  <a href="https://computingforgeeks.com/best-mini-pc-for-local-ai-llm/" target="_blank" rel="noopener">
-    <h4>Local AI mini-PC roundup: DGX Spark vs AMD Strix Halo vs Mac Studio M5, prices re-verified October 3</h4>
-    <p>A hands-on comparison of the GB10, Strix Halo and Mac Studio tiers for local LLM inference, with every price re-checked against vendor stores and live listings — evidence that the memory shortage has pushed 128GB unified-memory boxes well above launch prices.</p>
-    <p class="byline"><span class="src">ComputingForgeeks</span> · 2026-10-03</p>
-  </a>
-</article>
-
-<article class="item">
-  <a href="https://en.gamegpu.com/news/zhelezo/geforce-rtx-5080-za-usd1600-mozhet-vskore-poteryat-do-usd1000-v-sluchae-pereprodazhi" target="_blank" rel="noopener">
-    <h4>Analysts say the GPU street-price spike has plateaued; a ~$1,600 RTX 5080 flagged as poor resale value</h4>
-    <p>Tech YES City and Moore's Law Is Dead hosts conclude retail GPU pricing has hit a ceiling as buyers resist inflated markups, calling a $1,600 RTX 5080 or an overpriced RTX 5070 Ti an irrational purchase with up to $1,000 of resale value at risk.</p>
-    <p class="byline"><span class="src">GameGPU</span> · 2026-10-03</p>
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1wapjaw/openai_alleged_of_stealing_mathematicians_work/" target="_blank" rel="noopener">
+    <h4>r/LocalLLaMA: mathematicians' leaked work on Codex fuels the 'run local for privacy' argument</h4>
+    <p>A top thread (1.4K+ upvotes) covers the allegation that two mathematicians had years of their own work exposed after feeding drafts into a cloud coding agent, prompting heavy-model users to route around cloud AI and treat self-hosted inference as a hedge against providers mining user data.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-10-05</p>
   </a>
 </article>
 
@@ -315,82 +268,58 @@ The headphones cost $499 and launch in October on Neurable&#x27;s website, with 
     </div>
     <ul class="t-list">
       <li>
-  <a href="https://github.com/DietrichGebert/ponytail" target="_blank" rel="noopener">
+  <a href="https://github.com/msitarzewski/agency-agents" target="_blank" rel="noopener">
     <span class="t-ranking">#01</span>
-    <span class="t-name">DietrichGebert/ponytail</span>
-    <span class="t-meta">JavaScript · 153.6k ★ · +1,281 today</span>
-  </a>
-</li>
-
-<li>
-  <a href="https://github.com/Panniantong/Agent-Reach" target="_blank" rel="noopener">
-    <span class="t-ranking">#02</span>
-    <span class="t-name">Panniantong/Agent-Reach</span>
-    <span class="t-meta">Python · 90.0k ★ · +1,696 today</span>
-  </a>
-</li>
-
-<li>
-  <a href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener">
-    <span class="t-ranking">#03</span>
-    <span class="t-name">affaan-m/ECC</span>
-    <span class="t-meta">JavaScript · 272.4k ★ · +897 today</span>
-  </a>
-</li>
-
-<li>
-  <a href="https://github.com/pbakaus/impeccable" target="_blank" rel="noopener">
-    <span class="t-ranking">#04</span>
-    <span class="t-name">pbakaus/impeccable</span>
-    <span class="t-meta">JavaScript · 75.4k ★ · +699 today</span>
-  </a>
-</li>
-
-<li>
-  <a href="https://github.com/JuliusBrussee/caveman" target="_blank" rel="noopener">
-    <span class="t-ranking">#05</span>
-    <span class="t-name">JuliusBrussee/caveman</span>
-    <span class="t-meta">Go · 109.6k ★ · +507 today</span>
+    <span class="t-name">msitarzewski/agency-agents</span>
+    <span class="t-meta">Shell · 157.4k ★ · +744 today</span>
   </a>
 </li>
 
 <li>
   <a href="https://github.com/thedotmack/claude-mem" target="_blank" rel="noopener">
-    <span class="t-ranking">#06</span>
+    <span class="t-ranking">#02</span>
     <span class="t-name">thedotmack/claude-mem</span>
-    <span class="t-meta">TypeScript · 95.7k ★ · +79 today</span>
+    <span class="t-meta">TypeScript · 96.7k ★ · +534 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/Panniantong/Agent-Reach" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Panniantong/Agent-Reach</span>
+    <span class="t-meta">Python · 92.1k ★ · +1,155 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/calesthio/OpenMontage" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">calesthio/OpenMontage</span>
+    <span class="t-meta">Python · 64.2k ★ · +742 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/earthtojake/text-to-cad" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">earthtojake/text-to-cad</span>
+    <span class="t-meta">Python · 17.5k ★ · +437 today</span>
   </a>
 </li>
 
 <li>
   <a href="https://github.com/cloudflare/cloudflare-os" target="_blank" rel="noopener">
-    <span class="t-ranking">#07</span>
+    <span class="t-ranking">#06</span>
     <span class="t-name">cloudflare/cloudflare-os</span>
-    <span class="t-meta">TypeScript · 10.6k ★ · +85 today</span>
+    <span class="t-meta">TypeScript · 11.1k ★ · +101 today</span>
   </a>
 </li>
 
 <li>
-  <a href="https://github.com/addyosmani/agent-skills" target="_blank" rel="noopener">
-    <span class="t-ranking">#08</span>
-    <span class="t-name">addyosmani/agent-skills</span>
-    <span class="t-meta">JavaScript · 100.9k ★ · +252 today</span>
-  </a>
-</li>
-
-<li>
-  <a href="https://github.com/obra/superpowers" target="_blank" rel="noopener">
-    <span class="t-ranking">#09</span>
-    <span class="t-name">obra/superpowers</span>
-    <span class="t-meta">Shell · 295.0k ★ · +577 today</span>
-  </a>
-</li>
-
-<li>
-  <a href="https://github.com/mattpocock/skills" target="_blank" rel="noopener">
-    <span class="t-ranking">#10</span>
-    <span class="t-name">mattpocock/skills</span>
-    <span class="t-meta">Shell · 275.4k ★ · +751 today</span>
+  <a href="https://github.com/michael-denyer/pstack-claude" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">michael-denyer/pstack-claude</span>
+    <span class="t-meta">JavaScript · 1.5k ★ · +223 today</span>
   </a>
 </li>
 
@@ -408,39 +337,39 @@ The headphones cost $499 and launch in October on Neurable&#x27;s website, with 
   <a href="https://huggingface.co/Cloudflare/clef" target="_blank" rel="noopener">
     <span class="t-ranking">#01</span>
     <span class="t-name">Cloudflare/clef</span>
-    <span class="t-meta">Multimodal image-text-to-typed-output, post-trained on Qwen3.8-27B (Cloudflare SystemOne)</span>
-  </a>
-</li>
-
-<li>
-  <a href="https://huggingface.co/convaiinnovations/laya" target="_blank" rel="noopener">
-    <span class="t-ranking">#02</span>
-    <span class="t-name">convaiinnovations/laya</span>
-    <span class="t-meta">RLCD-trained decision model for routing, scoring and guardrails (Apache-2.0)</span>
+    <span class="t-meta">1.5k likes · image-text-to-text, Cloudflare's agent-facing multimodal model</span>
   </a>
 </li>
 
 <li>
   <a href="https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF" target="_blank" rel="noopener">
-    <span class="t-ranking">#03</span>
+    <span class="t-ranking">#02</span>
     <span class="t-name">abenzerps/Qwen-Image-2.1-Uncensored-GGUF</span>
-    <span class="t-meta">GGUF quantized repack of Qwen-Image-2.1 (community, no safety filter)</span>
+    <span class="t-meta">3.3k likes · text-to-image, GGUF quant of Qwen-Image-2.1</span>
   </a>
 </li>
 
 <li>
-  <a href="https://huggingface.co/Lightricks/LTX-2.5" target="_blank" rel="noopener">
+  <a href="https://huggingface.co/convaiinnovations/laya" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">convaiinnovations/laya</span>
+    <span class="t-meta">5.2k likes · trending text-classification model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Aleph-Alpha/Kolibri-1" target="_blank" rel="noopener">
     <span class="t-ranking">#04</span>
-    <span class="t-name">Lightricks/LTX-2.5</span>
-    <span class="t-meta">Open-weight video + audio/video diffusion (image-to-video, text-to-audio-video)</span>
+    <span class="t-name">Aleph-Alpha/Kolibri-1</span>
+    <span class="t-meta">78B MoE (~3.46B active), 1M context, Apache-2.0 sovereign open-weights LLM</span>
   </a>
 </li>
 
 <li>
-  <a href="https://huggingface.co/Qwen/Qwen-Image-2.1" target="_blank" rel="noopener">
+  <a href="https://huggingface.co/autotrust/JEV-27B-VL" target="_blank" rel="noopener">
     <span class="t-ranking">#05</span>
-    <span class="t-name">Qwen/Qwen-Image-2.1</span>
-    <span class="t-meta">2.1-gen text-to-image and image-editing pipeline, diffusers-native, ~86k downloads</span>
+    <span class="t-name">autotrust/JEV-27B-VL</span>
+    <span class="t-meta">721 likes · 27B vision-language model</span>
   </a>
 </li>
 
@@ -448,31 +377,31 @@ The headphones cost $499 and launch in October on Neurable&#x27;s website, with 
   <a href="https://huggingface.co/Cloudflare/clef-flash" target="_blank" rel="noopener">
     <span class="t-ranking">#06</span>
     <span class="t-name">Cloudflare/clef-flash</span>
-    <span class="t-meta">Flash sibling of Clef, post-trained on a Qwen3.5 base — small multimodal structured-output model</span>
+    <span class="t-meta">539 likes · compact image-text-to-text sibling of Clef</span>
   </a>
 </li>
 
 <li>
-  <a href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener">
+  <a href="https://huggingface.co/Lightricks/LTX-2.5" target="_blank" rel="noopener">
     <span class="t-ranking">#07</span>
-    <span class="t-name">Qwen/Qwen3.8-27B</span>
-    <span class="t-meta">27B multimodal (image-text-to-text) reasoning model, Apache-2.0, ~6.9M downloads</span>
+    <span class="t-name">Lightricks/LTX-2.5</span>
+    <span class="t-meta">6.5k likes · open-weights image-to-video diffusion backbone</span>
   </a>
 </li>
 
 <li>
-  <a href="https://huggingface.co/Contrastive-LM/CLM-v0.1-8B" target="_blank" rel="noopener">
+  <a href="https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF" target="_blank" rel="noopener">
     <span class="t-ranking">#08</span>
-    <span class="t-name">Contrastive-LM/CLM-v0.1-8B</span>
-    <span class="t-meta">8B contrastive reranker/verifier fine-tuned from Qwen3-8B for agent retrieval</span>
+    <span class="t-name">Venastine-Research/Xing4.0-29B-A4B-GGUF</span>
+    <span class="t-meta">29B MoE (4B active), GGUF quant for local inference</span>
   </a>
 </li>
 
 <li>
-  <a href="https://huggingface.co/SupersonicLabs/Julia-1" target="_blank" rel="noopener">
+  <a href="https://huggingface.co/autotrust/GEV-26B-Decide" target="_blank" rel="noopener">
     <span class="t-ranking">#09</span>
-    <span class="t-name">SupersonicLabs/Julia-1</span>
-    <span class="t-meta">Small decision model (mmBERT-small base) for multilingual routing/scoring</span>
+    <span class="t-name">autotrust/GEV-26B-Decide</span>
+    <span class="t-meta">471 likes · 26B decision/classification model</span>
   </a>
 </li>
 
@@ -480,7 +409,7 @@ The headphones cost $499 and launch in October on Neurable&#x27;s website, with 
   <a href="https://huggingface.co/PSRben/VisionHOPE" target="_blank" rel="noopener">
     <span class="t-ranking">#10</span>
     <span class="t-name">PSRben/VisionHOPE</span>
-    <span class="t-meta">MIT-licensed vision/image-classification model, new entrant on the trending chart</span>
+    <span class="t-meta">426 likes · image-classification model</span>
   </a>
 </li>
 
@@ -493,7 +422,7 @@ The headphones cost $499 and launch in October on Neurable&#x27;s website, with 
   <div class="section-head">
     <h2>Free Models</h2>
     <span class="line"></span>
-    <span class="n">31</span>
+    <span class="n">29</span>
   </div>
 
   <p class="section-note">Free means $0 per token today, not unlimited or unconditional: both platforms rate-limit free use and require a free API key, some OpenRouter free endpoints may train on your prompts unless you opt out in account settings, and the roster changes daily. Verified against each provider's own pricing data at generation time — but pricing changes without notice, so confirm it's still free on the provider's own page before you rely on it.</p>
@@ -627,24 +556,8 @@ The headphones cost $499 and launch in October on Neurable&#x27;s website, with 
 </li>
 
 <li>
-  <a href="https://openrouter.ai/qwen/qwen3.8-27b:free" target="_blank" rel="noopener">
-    <span class="t-ranking">#16</span>
-    <span class="t-name">Qwen: Qwen3.8 27B (free)</span>
-    <span class="t-meta">262K ctx</span>
-  </a>
-</li>
-
-<li>
-  <a href="https://openrouter.ai/stealth/space-bunny-alpha" target="_blank" rel="noopener">
-    <span class="t-ranking">#17</span>
-    <span class="t-name">Space Bunny Alpha</span>
-    <span class="t-meta">1M ctx</span>
-  </a>
-</li>
-
-<li>
   <a href="https://openrouter.ai/thinkingmachines/inkling:free" target="_blank" rel="noopener">
-    <span class="t-ranking">#18</span>
+    <span class="t-ranking">#16</span>
     <span class="t-name">Thinking Machines: Inkling (free)</span>
     <span class="t-meta">1.04858M ctx</span>
   </a>
@@ -652,7 +565,7 @@ The headphones cost $499 and launch in October on Neurable&#x27;s website, with 
 
 <li>
   <a href="https://openrouter.ai/thinkingmachines/inkling-small:free" target="_blank" rel="noopener">
-    <span class="t-ranking">#19</span>
+    <span class="t-ranking">#17</span>
     <span class="t-name">Thinking Machines: Inkling Small (free)</span>
     <span class="t-meta">1.04858M ctx</span>
   </a>
@@ -777,29 +690,29 @@ The headphones cost $499 and launch in October on Neurable&#x27;s website, with 
     <span class="n">12</span>
   </div>
   <ul class="qh-list">
-    <li><a href="https://x.com/nordicinst/status/2106469997966929941" target="_blank" rel="noopener"><span class="qh-title">OpenAI's head of safety reportedly resigns, warning the company's culture is 'broken'</span><span class="qh-src">Guardian, via X (nordicinst)</span></a></li>
+    <li><a href="https://www.explainx.ai/blog/strata-qwen3-8-flash-next-125b-consumer-gpu-100-tokens-per-second-2026" target="_blank" rel="noopener"><span class="qh-title">Strata hits HN's front page: a 125B MoE on 12GB VRAM plus system RAM, with an OpenAI/Anthropic-compatible localhost API</span><span class="qh-src">ExplainX</span></a></li>
 
-    <li><a href="https://x.com/aimalysheva/status/2106506580183187477" target="_blank" rel="noopener"><span class="qh-title">Paper examines KV-cache integrity when malicious agents share a latent communication channel</span><span class="qh-src">X (aimalysheva)</span></a></li>
+    <li><a href="https://edgen.tech/fr/news/post/amd-passes-tsmcs-10-wafer-hike-to-customers-from-q4" target="_blank" rel="noopener"><span class="qh-title">Intel's ~10% CPU price increase took effect Oct 5; AMD passes TSMC's wafer-cost hike to Instinct, Radeon and chipsets in Q4</span><span class="qh-src">Edgen Tech</span></a></li>
 
-    <li><a href="https://arxiv.org/abs/2608.08253" target="_blank" rel="noopener"><span class="qh-title">SuperLocalMemory 4.0 proposes a governed memory operating system for AI agents</span><span class="qh-src">arXiv</span></a></li>
+    <li><a href="https://techcrunch.com/2026-10-05/etched-fields-funding-offers-at-40b-valuation-sources-say/" target="_blank" rel="noopener"><span class="qh-title">Etched reportedly fields funding offers at a $40B-$50B valuation, up from $21B weeks after its $700M raise</span><span class="qh-src">TechCrunch</span></a></li>
 
-    <li><a href="https://embers.news/article/cohere-talks-3b-round-at-20b-valuation-in-record-startup-deal-91492" target="_blank" rel="noopener"><span class="qh-title">Cohere reportedly in advanced talks to raise up to $3B at a $20B valuation</span><span class="qh-src">Embers News</span></a></li>
+    <li><a href="https://techcrunch.com/2026-10-05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai/" target="_blank" rel="noopener"><span class="qh-title">Ghost raises an $11M a16z-led seed for its $3,499 screenless 'Core' personal AI computer</span><span class="qh-src">TechCrunch</span></a></li>
 
-    <li><a href="https://businessbearings.com/articles/temasek-s-xora-leads-53-million-round-in-ai-startup-hang-ten-76a7fe38" target="_blank" rel="noopener"><span class="qh-title">Temasek's Xora leads a $53M round in AI startup Hang Ten</span><span class="qh-src">Business Bearings</span></a></li>
+    <li><a href="https://techcrunch.com/2026-10-05/after-factorys-public-spat-with-khosla-menlo-proudly-invests/" target="_blank" rel="noopener"><span class="qh-title">Menlo Ventures confirms a 'significant' investment in AI coding startup Factory's $5B-valuation round</span><span class="qh-src">TechCrunch</span></a></li>
 
-    <li><a href="https://secborn.com/doxx-net-lands-38m-to-keep-ai-agents-off-malicious-networks/" target="_blank" rel="noopener"><span class="qh-title">doxx.net raises $38M Series A led by a16z to keep AI agents off malicious networks</span><span class="qh-src">SECBORN</span></a></li>
+    <li><a href="https://techstartups.com/2026-10-05/startup-funding-news-today-october-5-2026-onebyzero-pandektes-fleuret-ai-more/" target="_blank" rel="noopener"><span class="qh-title">OneByZero closes a $20M Series A led by Jungle Ventures for enterprise AI agent deployment infrastructure</span><span class="qh-src">TechStartups</span></a></li>
 
-    <li><a href="https://www.techcompanynews.com/hiringcafe-raises-6-8-million-in-pre-seed-funding-round/" target="_blank" rel="noopener"><span class="qh-title">HiringCafe raises $6.8M pre-seed led by Spark Capital for its AI talent agent</span><span class="qh-src">Tech Company News</span></a></li>
+    <li><a href="https://techstartups.com/2026-10-05/startup-funding-news-today-october-5-2026-onebyzero-pandektes-fleuret-ai-more/" target="_blank" rel="noopener"><span class="qh-title">Copenhagen's Pandektes raises €13.5M Series A for legal AI search; Paris's Fleuret AI takes €4M pre-seed for agentic penetration testing</span><span class="qh-src">TechStartups</span></a></li>
 
-    <li><a href="https://x.com/QuantumStateX/status/2106468579054854637" target="_blank" rel="noopener"><span class="qh-title">PCSS plans the PIAST-AI Factory: a Polish GPU cluster of 1,500+ GPUs for AI development</span><span class="qh-src">X (QuantumStateX)</span></a></li>
+    <li><a href="https://theaiinsider.tech/2026-10-05/augmeta-secures-3m-seed-to-assign-ai-operators-to-every-business-kpi" target="_blank" rel="noopener"><span class="qh-title">Augmeta raises a $3M seed for autonomous 'AI Operators' that monitor and act on enterprise KPIs</span><span class="qh-src">The AI Insider</span></a></li>
 
-    <li><a href="https://x.com/rohanpaul_ai/status/2106523656486834212" target="_blank" rel="noopener"><span class="qh-title">IRS data shows record solo-founder activity as AI tools shrink team size</span><span class="qh-src">X (rohanpaul_ai)</span></a></li>
+    <li><a href="https://forbes.it/2026-10-05/signsplit-startup-alessandro-monterosso-round-valutazione-1-miliardo" target="_blank" rel="noopener"><span class="qh-title">SignSplit exits stealth with a $400M strategic seed at a $1B valuation for a consented human-data marketplace</span><span class="qh-src">Forbes Italia</span></a></li>
 
-    <li><a href="https://www.juorno.it/intelligenza-artificiale-la-federico-ii-entra-in-sophia/" target="_blank" rel="noopener"><span class="qh-title">University of Naples Federico II joins SophIA, the €27.5M national AI and cybersecurity tech-transfer pole</span><span class="qh-src">Il Giorno (Juorno.it)</span></a></li>
+    <li><a href="https://www.ilcorrieredellasicurezza.it/justsolve-raccoglie-37-milioni-di-euro-per-costruire-linfrastruttura-di-ai-agentica-per-la-gestione-e-il-recupero-crediti/" target="_blank" rel="noopener"><span class="qh-title">JustSolve closes a €3.7M pre-seed to build agentic-AI infrastructure for debt management and collections</span><span class="qh-src">Il Corriere della Sicurezza</span></a></li>
 
-    <li><a href="https://lamilano.it/milano/milano-digital-week-2026-dieci-appuntamenti-tra-ai-dati-e-innovazione-urbana/" target="_blank" rel="noopener"><span class="qh-title">Milano Digital Week 2026 puts AI, data and urban services at the center (Oct 1-4)</span><span class="qh-src">LaMilano.it</span></a></li>
+    <li><a href="https://www.ansa.it/sito/notizie/economia/2026-10-05/nasce-giurify-piattaforma-di-ia-per-la-consulenza-legale_f22cbfaf-91b5-4db7-8097-aeed9ba5a00c.html" target="_blank" rel="noopener"><span class="qh-title">Giurify debuts with €2.5M: contract AI co-founded by Federico Faggin, the inventor of the first microprocessor</span><span class="qh-src">ANSA</span></a></li>
 
-    <li><a href="https://roma.corriere.it/notizie/cronaca/26_ottobre_03/gigafactory-alleanza-aziende-ai-59772463-6f10-48a4-9be4-dc4bd3914xlk.shtml" target="_blank" rel="noopener"><span class="qh-title">Italian AI Gigafactory: an 'Newco' alliance of Italian companies forms to bid for the EU supercomputing project, with Domyn involved</span><span class="qh-src">Corriere della Sera (Roma)</span></a></li>
+    <li><a href="https://forbes.it/2026-10-05/textyess-4-milioni-migliorare-marketing-e-commerce/" target="_blank" rel="noopener"><span class="qh-title">Milan's TextYess raises €4M to run WhatsApp retention-marketing agents for e-commerce</span><span class="qh-src">Forbes Italia</span></a></li>
 
   </ul>
 </section>
@@ -807,7 +720,7 @@ The headphones cost $499 and launch in October on Neurable&#x27;s website, with 
 
     <footer class="colophon">
       <p class="mark">Per aspera ad astra</p>
-      <p class="meta">Compiled by Hermes Agent · 2026-10-04 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Compiled by Hermes Agent · 2026-10-06 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
       <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
     </footer>
 

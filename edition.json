@@ -1,45 +1,38 @@
 {
-  "issue_no": 35,
-  "date_iso": "2026-10-04",
-  "date_human": "October 04, 2026",
+  "issue_no": 36,
+  "date_iso": "2026-10-06",
+  "date_human": "October 06, 2026",
   "notice": null,
   "lead": {
-    "kicker": "New inference primitive",
-    "title": "llama.cpp adds Decision Models support with a new /v1/systemone endpoint",
-    "summary": "llama.cpp merged PR #29818 on October 2, adding a POST /v1/systemone API to llama-server for typed decision models (laya, julia-1, lev, openjev, kev). A model receives a state — text, JSON, or a screenshot for vision-capable weights — plus typed questions and returns a probability for each option in a single forward pass, skipping token-by-token generation. The endpoint follows the Typesafe.ai SystemOne API format and ships with five open GGUF decision models, a relevant new primitive for self-hosted agent and automation stacks.",
-    "source": "Hugging Face / ggml-org",
-    "date": "2026-10-03",
-    "url": "https://huggingface.co/blog/ggml-org/decision-models-in-llamacpp",
-    "image": "images/lead_2026-10-04.jpg"
+    "kicker": "Inference engines",
+    "title": "Narrow, single-architecture inference engines are beating llama.cpp and vLLM on consumer rigs",
+    "summary": "Purpose-built 'napkin runtimes' that each target one hardware family — Strata, nInfer, DwarfStar, Splash, llamAmpere, gufo — are winning on narrow workloads by wide margins. Strata runs the 125B Qwen3.8-Flash-Next MoE on a single 12GB GPU at 50-120 tok/s (94 on an RTX 5070, 60 on an RX 9070 XT) by keeping hot experts in VRAM and the expert pool in system RAM, hitting 53.2 tok/s versus 20.8 for upstream llama.cpp on the same box; CUDA-only nInfer beat Strata at every context length, and Apple-Silicon-only Splash pushes roughly 210 tok/s on a 48GB M5 Pro. The signal for local-AI operators: single-vendor kernels now beat cross-platform engines where the workload fits the runtime's niche.",
+    "source": "Startup Fortune",
+    "date": "2026-10-05",
+    "url": "https://startupfortune.com/a-wave-of-narrow-ai-inference-engines-is-beating-vllm-and-llamacpp-at-their-own-game",
+    "image": "images/lead_2026-10-06.jpg"
   },
   "top_stories": [
     {
-      "title": "Nvidia introduces a 64GB DGX Spark from $4,999 as the 128GB model jumps to $6,950",
-      "summary": "A 64GB GB10 Grace Blackwell tier will be sold from October 23 by Acer, ASUS, Dell, Gigabyte, HP and MSI, capable of running models up to roughly 100B parameters on-device. It arrives as the memory shortage (the 'RAMpocalypse') pushes the 128GB DGX Spark well above its launch price.",
-      "source": "TechGenyz",
-      "date": "2026-10-03",
-      "url": "https://techgenyz.com/nvidia-dgx-spark-64gb-local-ai-starts-at-4999/"
+      "title": "vLLM v0.31.0 makes FlashMLA mega attention the SM100 default and adds a 'vllm preload' fast-restart CLI",
+      "summary": "The 717-commit release (Oct 5) makes FlashMLA mega attention with V4.1 NVFP4 compressed KV cache the default on SM100, adds fused sparse-MQA/gate/MoE kernels, and introduces a preload CLI that keeps post-quantized weights resident in GPU memory across engine restarts — plus data-parallel preload, MTP draft models and a /health endpoint.",
+      "source": "GitHub",
+      "date": "2026-10-05",
+      "url": "https://github.com/vllm-project/vllm/releases"
     },
     {
-      "title": "Micro Center now requires a signed declaration and photo ID to buy an RTX 5090",
-      "summary": "A Micro Center store in Tustin, California began requiring RTX 5090 buyers to sign an anti-scalping/anti-export pledge, show a government ID, and limit purchases to one card per customer, ever — a sign of how tight high-VRAM consumer GPU supply has become under export-control and scalper pressure.",
-      "source": "TechRadar",
-      "date": "2026-10-03",
-      "url": "https://www.techradar.com/computing/gpu/micro-center-reportedly-now-makes-you-fill-out-a-form-and-have-a-photo-id-to-buy-an-nvidia-rtx-5090-gpu-and-while-some-people-hate-the-idea-others-are-in-favor"
+      "title": "ggml v0.26.0 ships sparse Flash Attention for SYCL, Vulkan and Metal",
+      "summary": "The tensor library under llama.cpp gained sparse Flash Attention kernels — including sparse FA for quantized KV caches — on the SYCL, Vulkan and Metal backends, directly affecting memory use and long-context speed on Intel, AMD and Apple Silicon GPUs.",
+      "source": "GitHub",
+      "date": "2026-10-05",
+      "url": "https://github.com/ggml-org/ggml/releases/tag/v0.26.0"
     },
     {
-      "title": "ThinkingBox grades agents on the database records they leave behind, not their prose",
-      "summary": "Microsoft and Hugging Face released ThinkingBox, an open benchmark that grades AI agents on backend records and side effects rather than generated text, run against isolated MCP tool sessions. It can be self-hosted with its MCP and OpenEnv servers.",
-      "source": "Hugging Face",
-      "date": "2026-10-03",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox"
-    },
-    {
-      "title": "Supabase raises $150M led by GIC and acquires Turso to build AI-agent databases",
-      "summary": "The round includes CapitalG, IronArc and SquarePeg; the Turso acquisition folds a SQLite-based, agent-optimised database into Supabase, which also launched hosted sandboxes for long-running AI agents.",
-      "source": "AI Weekly",
-      "date": "2026-10-03",
-      "url": "https://aiweekly.co/alerts/supabase-raises-150m-buys-turso-for-ai-agent-databases"
+      "title": "32GB DDR5 kits now cost more than a flagship CPU as the memory shortage squeezes LLM rig builds",
+      "summary": "32GB has displaced 16GB as the top RAM capacity in gaming rigs despite the shortage, and DDR5 is up as much as ~486% during 2026 as HBM/AI demand pulls capacity from consumer DRAM and GDDR6/GDDR7 — with Intel's third CPU price hike (~10%, effective Oct 5) and AMD's ~10% Q4 increase landing in the same window, the cost floor for VRAM-offload and unified-memory builds keeps rising.",
+      "source": "XDA Developers",
+      "date": "2026-10-05",
+      "url": "https://www.xda-developers.com/32gb-ddr5-kits-cost-more-than-cpu-waiting-ram-prices-to-drop-is-a-trap/"
     }
   ],
   "sections": [
@@ -47,183 +40,96 @@
       "title": "Open Weights & Models",
       "items": [
         {
-          "title": "Aleph Alpha releases Kolibri-1, an open-weight sovereign reasoning MoE",
-          "summary": "An Apache-2.0 mixture-of-experts reasoning model targeting European needs, with strong German and English reasoning, vLLM-ready with FP8 and GGUF quantized variants. Still climbing the Hugging Face trending chart through October 3.",
+          "title": "LTX-2.5: Lightricks' open-weights image-to-video backbone tops Hugging Face trending",
+          "summary": "The LTX-2.5 checkpoint (~6.5k likes) is the most-liked model on the HF trending page this week — a rare new open-weight video-generation backbone that local-GPU users can self-host.",
           "source": "HuggingFace",
-          "date": "2026-10-03",
-          "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+          "date": "2026-10-02",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5"
         },
         {
-          "title": "Cloudflare open-sources Clef and Clef-Flash: multimodal models for typed structured output",
-          "summary": "The 'SystemOne' post-trained family (Clef on Qwen3.8-27B, Clef-Flash on a Qwen3.5 base) does image-text-to-typed-output with schema-constrained structured output and classification, built for agent and guardrail pipelines.",
+          "title": "ThinkingCap-Qwen3.8-27B cuts reasoning tokens 37% with about a 1-point accuracy drop",
+          "summary": "Keeps 85.8% average accuracy vs the base model's 86.6% while cutting thinking verbosity by 37% on average (11-66% per benchmark) — fewer reasoning tokens means faster, cheaper local inference.",
           "source": "HuggingFace",
-          "date": "2026-10-03",
-          "url": "https://huggingface.co/Cloudflare/clef"
+          "date": "2026-10-06",
+          "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.8-27B"
         },
         {
-          "title": "NaiveAI Naive-N0.5-Flash: MIT-licensed MoE code/long-context model from Beijing",
-          "summary": "The debut open-weights model from Beijing-based NaiveAI — a MoE tuned for code and long-context agentic work, published with weights and inference code, and already spawning quantized GGUF derivatives.",
+          "title": "Ternary-Bonsai-2-27B GGUF pushes ternary-quantized 27B weights into the llama.cpp ecosystem",
+          "summary": "The 2.4k-like GGUF release (trending all week) extends the Oct 5-6 trend of sub-5-bit quants of large models for consumer VRAM — Xing4.0-29B-A4B-GGUF and a GLM-5.3 EXL3 quant are also trending.",
           "source": "HuggingFace",
-          "date": "2026-10-03",
-          "url": "https://huggingface.co/NaiveAI/Naive-N0.5-Flash"
+          "date": "2026-10-06",
+          "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf"
         }
       ],
-      "image": "images/section_open_weights_2026-10-04.jpg"
+      "image": "images/section_open_weights_2026-10-06.jpg"
     },
     {
       "title": "Tools & Runtimes",
       "items": [
         {
-          "title": "Jeffy: local pretrained text classifiers that run and retrain on CPU",
-          "summary": "A new GitHub project showcased on Show HN ships pretrained text classifiers that run entirely on CPU, with local retraining on your own labels.",
+          "title": "llama.cpp v0.6.0: GLM-5.3-Flash support, MTP speculative decoding, revamped Web UI",
+          "summary": "The v0.6.0 release (Oct 5) adds the llama_batch_ext batch API, support for the 320B GLM-5.3-Flash text+vision hybrid and the Clef decision model, MTP speculative decoding for Qwen4Exp (~1.5x decode speedup on DGX Spark), a /v1/systemone server API, a rebuilt Web UI with a Hugging Face Hub download pipeline, and Metal/Vulkan flash-attention kernels — and bumps bundled ggml to v0.26.0.",
           "source": "GitHub",
-          "date": "2026-10-03",
-          "url": "https://github.com/nicobrenner/jeffy"
+          "date": "2026-10-05",
+          "url": "https://github.com/ggml-org/llama.cpp/releases"
         },
         {
-          "title": "Valet: self-hosted coding agents in per-thread Docker sandboxes",
-          "summary": "Valet runs Claude Code and Codex coding agents in per-thread sandboxes, deployable with a single docker compose command for fully local agent workflows.",
-          "source": "GitHub",
-          "date": "2026-10-03",
-          "url": "https://github.com/dropalltables/valet"
+          "title": "Show HN: Crowsnest — local macOS workspace for running Claude Code and Codex in one app",
+          "summary": "A paid, local-first macOS coordinator for the Claude Code and Codex runtimes already installed on your machine: multiple provider accounts, searchable agent history, cross-runtime handoffs via attributed forks, parallel agent crews and remote workspaces over SSH. All transcripts stay on the local machine (UI binds to 127.0.0.1).",
+          "source": "Hacker News",
+          "date": "2026-10-06",
+          "url": "https://news.ycombinator.com/item?id=49973649"
         },
         {
-          "title": "cliproxy-rs: Rust rewrite of CLIProxyAPI, a local proxy for LLM subscription accounts",
-          "summary": "A drop-in compatible Rust port exposing Claude, Codex, Gemini and OpenAI-compatible providers as a single local proxy endpoint for local clients and agents.",
-          "source": "GitHub",
-          "date": "2026-10-03",
-          "url": "https://github.com/vayungodara/cliproxy-rs"
+          "title": "Show HN: Ototo — offload code exploration to a smaller, cheaper model before the frontier model",
+          "summary": "Ototo hands code-exploration subtasks to a smaller model ahead of the expensive primary model, cutting token cost and latency on large repos — part of a growing pattern of routing parts of agent workflows away from the frontier model.",
+          "source": "Hacker News",
+          "date": "2026-10-05",
+          "url": "https://news.ycombinator.com/item?id=49971028"
+        },
+        {
+          "title": "Show HN: Jev Browser Wingman — an MCP proxy that hands an agent's browser clicks to TypeSafe's Jev",
+          "summary": "The MCP proxy routes browser clicks made by coding agents through Jev's protection layer, so agentic browser automation gets policy enforcement before actions execute — relevant to anyone wiring browser-use/MCP tooling into local agent stacks.",
+          "source": "Hacker News",
+          "date": "2026-10-06",
+          "url": "https://news.ycombinator.com/item?id=49973266"
+        },
+        {
+          "title": "Show HN: Simulkit — estimate which local LLMs fit on any Apple Silicon Mac",
+          "summary": "Simulkit's Mac Local LLMs page simulates decode/prefill speed and memory fit for dozens of GGUF-era models (Qwen, Gemma, DeepSeek, GLM, gpt-oss) on each Apple Silicon chip using memory bandwidth, GPU compute and macOS wired-memory limits — a sanity check before downloading weights.",
+          "source": "Hacker News",
+          "date": "2026-10-05",
+          "url": "https://news.ycombinator.com/item?id=49970586"
         }
       ],
-      "image": "images/section_tools_runtimes_2026-10-04.jpg"
+      "image": "images/section_tools_runtimes_2026-10-06.jpg"
     },
     {
       "title": "Self-Hosted Stack",
       "items": [
         {
-          "title": "Home Assistant ships a native llama.cpp conversation integration — guides shift from HACS workarounds to first-party setup",
-          "summary": "Home Assistant 2026.8 added native llama.cpp and LiteLLM conversation integrations, retiring the HACS bridges. Community guides now recommend pointing the integration at any OpenAI-compatible /v1 endpoint, exposing a minimal set of entities, and letting the built-in intent matcher handle routine commands with the LLM as fallback.",
-          "source": "WindowsForum (Hetzner)",
-          "date": "2026-10-03",
-          "url": "https://windowsforum.com/news/turn-a-gtx-1080-into-a-local-home-assistant-ai-server-with-llama-cpp.446307"
+          "title": "r/LocalLLaMA: 'Friends Don't Let Friends Use Ollama' — pushback on Ollama as the default local stack",
+          "summary": "A 1.3K+ upvote thread circulates the writeup arguing Ollama's wrapper layer hides llama.cpp features (flash attention, KV-cache quantization, sampler control) and degrades performance versus running llama.cpp or llama-server directly, reflecting a community shift toward direct llama.cpp/llama-server deployments.",
+          "source": "r/LocalLLaMA",
+          "date": "2026-10-05",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wa26pn/friends_dont_let_friends_use_ollama/"
         },
         {
-          "title": "Piper TTS archived — guides now recommend Kokoro/XTTS and a fully local Whisper + Ollama + Wyoming voice stack",
-          "summary": "An October 2026 guide to the offline voice stack flags that Piper is archived and read-only on GitHub despite running on ~8.9% of Home Assistant installs, recommending Kokoro TTS or Coqui XTTS for new builds — and to verify airgapped operation with a packet capture.",
-          "source": "DEV Community",
-          "date": "2026-10-03",
-          "url": "https://dev.to/kunal_d6a8fea2309e1571ee7/local-ai-voice-assistant-stack-2026-whisper-piper-ollama-wired-together-572l"
+          "title": "r/LocalLLaMA: 'Harness does matter' — the agent/frontend wrapping a local model changes results more than expected",
+          "summary": "Users report the same local model performing very differently depending on its harness (Open WebUI, OpenClaw-style agents, raw API). Practical takeaway for self-hosters: benchmark and tune the harness and system prompt around a local model, not just the checkpoint.",
+          "source": "r/LocalLLaMA",
+          "date": "2026-10-06",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcj5q3/harness_does_matter/"
         },
         {
-          "title": "Open WebUI ecosystem update: oikb knowledge-base sync and the Open WebUI Computer agent harness",
-          "summary": "oikb keeps Knowledge Bases synced with local folders, GitHub repos, S3 and 40+ other sources via incremental SHA-256 diffing, while Open WebUI Computer (cptr) serves your whole machine to any browser and reconnects as a model through its OpenAI-compatible gateway.",
-          "source": "Open WebUI",
-          "date": "2026-10-04",
-          "url": "https://docs.openwebui.com/"
-        },
-        {
-          "title": "n8n v3 major release (operational cleanup, breaking changes) signalled for ~October 2026",
-          "summary": "n8n's development guide signals a v3 major as an operational release — breaking changes, removals and legacy cleanup. Self-hosters running queue mode with AI nodes should review the v3 changelog before upgrading.",
-          "source": "n8n (GitHub)",
-          "date": "2026-10-04",
-          "url": "https://github.com/n8n-io/n8n/blob/master/.github/DEVELOPING_V3.md"
+          "title": "r/LocalLLaMA: mathematicians' leaked work on Codex fuels the 'run local for privacy' argument",
+          "summary": "A top thread (1.4K+ upvotes) covers the allegation that two mathematicians had years of their own work exposed after feeding drafts into a cloud coding agent, prompting heavy-model users to route around cloud AI and treat self-hosted inference as a hedge against providers mining user data.",
+          "source": "r/LocalLLaMA",
+          "date": "2026-10-05",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wapjaw/openai_alleged_of_stealing_mathematicians_work/"
         }
       ],
-      "image": "images/section_self_hosted_stack_2026-10-04.jpg"
-    },
-    {
-      "title": "Hardware & Edge",
-      "items": [
-        {
-          "title": "Local AI mini-PC roundup: DGX Spark vs AMD Strix Halo vs Mac Studio M5, prices re-verified October 3",
-          "summary": "A hands-on comparison of the GB10, Strix Halo and Mac Studio tiers for local LLM inference, with every price re-checked against vendor stores and live listings — evidence that the memory shortage has pushed 128GB unified-memory boxes well above launch prices.",
-          "source": "ComputingForgeeks",
-          "date": "2026-10-03",
-          "url": "https://computingforgeeks.com/best-mini-pc-for-local-ai-llm/"
-        },
-        {
-          "title": "Analysts say the GPU street-price spike has plateaued; a ~$1,600 RTX 5080 flagged as poor resale value",
-          "summary": "Tech YES City and Moore's Law Is Dead hosts conclude retail GPU pricing has hit a ceiling as buyers resist inflated markups, calling a $1,600 RTX 5080 or an overpriced RTX 5070 Ti an irrational purchase with up to $1,000 of resale value at risk.",
-          "source": "GameGPU",
-          "date": "2026-10-03",
-          "url": "https://en.gamegpu.com/news/zhelezo/geforce-rtx-5080-za-usd1600-mozhet-vskore-poteryat-do-usd1000-v-sluchae-pereprodazhi"
-        }
-      ],
-      "image": "images/section_hardware_edge_2026-10-04.jpg"
-    }
-  ],
-  "quick_hits": [
-    {
-      "title": "OpenAI's head of safety reportedly resigns, warning the company's culture is 'broken'",
-      "source": "Guardian, via X (nordicinst)",
-      "date": "2026-10-03",
-      "url": "https://x.com/nordicinst/status/2106469997966929941"
-    },
-    {
-      "title": "Paper examines KV-cache integrity when malicious agents share a latent communication channel",
-      "source": "X (aimalysheva)",
-      "date": "2026-10-03",
-      "url": "https://x.com/aimalysheva/status/2106506580183187477"
-    },
-    {
-      "title": "SuperLocalMemory 4.0 proposes a governed memory operating system for AI agents",
-      "source": "arXiv",
-      "date": "2026-10-04",
-      "url": "https://arxiv.org/abs/2608.08253"
-    },
-    {
-      "title": "Cohere reportedly in advanced talks to raise up to $3B at a $20B valuation",
-      "source": "Embers News",
-      "date": "2026-10-03",
-      "url": "https://embers.news/article/cohere-talks-3b-round-at-20b-valuation-in-record-startup-deal-91492"
-    },
-    {
-      "title": "Temasek's Xora leads a $53M round in AI startup Hang Ten",
-      "source": "Business Bearings",
-      "date": "2026-10-03",
-      "url": "https://businessbearings.com/articles/temasek-s-xora-leads-53-million-round-in-ai-startup-hang-ten-76a7fe38"
-    },
-    {
-      "title": "doxx.net raises $38M Series A led by a16z to keep AI agents off malicious networks",
-      "source": "SECBORN",
-      "date": "2026-10-03",
-      "url": "https://secborn.com/doxx-net-lands-38m-to-keep-ai-agents-off-malicious-networks/"
-    },
-    {
-      "title": "HiringCafe raises $6.8M pre-seed led by Spark Capital for its AI talent agent",
-      "source": "Tech Company News",
-      "date": "2026-10-03",
-      "url": "https://www.techcompanynews.com/hiringcafe-raises-6-8-million-in-pre-seed-funding-round/"
-    },
-    {
-      "title": "PCSS plans the PIAST-AI Factory: a Polish GPU cluster of 1,500+ GPUs for AI development",
-      "source": "X (QuantumStateX)",
-      "date": "2026-10-03",
-      "url": "https://x.com/QuantumStateX/status/2106468579054854637"
-    },
-    {
-      "title": "IRS data shows record solo-founder activity as AI tools shrink team size",
-      "source": "X (rohanpaul_ai)",
-      "date": "2026-10-03",
-      "url": "https://x.com/rohanpaul_ai/status/2106523656486834212"
-    },
-    {
-      "title": "University of Naples Federico II joins SophIA, the €27.5M national AI and cybersecurity tech-transfer pole",
-      "source": "Il Giorno (Juorno.it)",
-      "date": "2026-10-03",
-      "url": "https://www.juorno.it/intelligenza-artificiale-la-federico-ii-entra-in-sophia/"
-    },
-    {
-      "title": "Milano Digital Week 2026 puts AI, data and urban services at the center (Oct 1-4)",
-      "source": "LaMilano.it",
-      "date": "2026-10-03",
-      "url": "https://lamilano.it/milano/milano-digital-week-2026-dieci-appuntamenti-tra-ai-dati-e-innovazione-urbana/"
-    },
-    {
-      "title": "Italian AI Gigafactory: an 'Newco' alliance of Italian companies forms to bid for the EU supercomputing project, with Domyn involved",
-      "source": "Corriere della Sera (Roma)",
-      "date": "2026-10-03",
-      "url": "https://roma.corriere.it/notizie/cronaca/26_ottobre_03/gigafactory-alleanza-aziende-ai-59772463-6f10-48a4-9be4-dc4bd3914xlk.shtml"
+      "image": "images/section_self_hosted_stack_2026-10-06.jpg"
     }
   ],
   "trending": {
@@ -231,57 +137,42 @@
       "title": "GitHub Trending · AI",
       "url": "https://github.com/trending",
       "link_label": "github.com/trending",
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "items": [
         {
-          "name": "DietrichGebert/ponytail",
-          "url": "https://github.com/DietrichGebert/ponytail",
-          "meta": "JavaScript · 153.6k ★ · +1,281 today"
-        },
-        {
-          "name": "Panniantong/Agent-Reach",
-          "url": "https://github.com/Panniantong/Agent-Reach",
-          "meta": "Python · 90.0k ★ · +1,696 today"
-        },
-        {
-          "name": "affaan-m/ECC",
-          "url": "https://github.com/affaan-m/ECC",
-          "meta": "JavaScript · 272.4k ★ · +897 today"
-        },
-        {
-          "name": "pbakaus/impeccable",
-          "url": "https://github.com/pbakaus/impeccable",
-          "meta": "JavaScript · 75.4k ★ · +699 today"
-        },
-        {
-          "name": "JuliusBrussee/caveman",
-          "url": "https://github.com/JuliusBrussee/caveman",
-          "meta": "Go · 109.6k ★ · +507 today"
+          "name": "msitarzewski/agency-agents",
+          "url": "https://github.com/msitarzewski/agency-agents",
+          "meta": "Shell · 157.4k ★ · +744 today"
         },
         {
           "name": "thedotmack/claude-mem",
           "url": "https://github.com/thedotmack/claude-mem",
-          "meta": "TypeScript · 95.7k ★ · +79 today"
+          "meta": "TypeScript · 96.7k ★ · +534 today"
+        },
+        {
+          "name": "Panniantong/Agent-Reach",
+          "url": "https://github.com/Panniantong/Agent-Reach",
+          "meta": "Python · 92.1k ★ · +1,155 today"
+        },
+        {
+          "name": "calesthio/OpenMontage",
+          "url": "https://github.com/calesthio/OpenMontage",
+          "meta": "Python · 64.2k ★ · +742 today"
+        },
+        {
+          "name": "earthtojake/text-to-cad",
+          "url": "https://github.com/earthtojake/text-to-cad",
+          "meta": "Python · 17.5k ★ · +437 today"
         },
         {
           "name": "cloudflare/cloudflare-os",
           "url": "https://github.com/cloudflare/cloudflare-os",
-          "meta": "TypeScript · 10.6k ★ · +85 today"
+          "meta": "TypeScript · 11.1k ★ · +101 today"
         },
         {
-          "name": "addyosmani/agent-skills",
-          "url": "https://github.com/addyosmani/agent-skills",
-          "meta": "JavaScript · 100.9k ★ · +252 today"
-        },
-        {
-          "name": "obra/superpowers",
-          "url": "https://github.com/obra/superpowers",
-          "meta": "Shell · 295.0k ★ · +577 today"
-        },
-        {
-          "name": "mattpocock/skills",
-          "url": "https://github.com/mattpocock/skills",
-          "meta": "Shell · 275.4k ★ · +751 today"
+          "name": "michael-denyer/pstack-claude",
+          "url": "https://github.com/michael-denyer/pstack-claude",
+          "meta": "JavaScript · 1.5k ★ · +223 today"
         }
       ]
     },
@@ -289,57 +180,57 @@
       "title": "Models Trending (Hugging Face)",
       "url": "https://huggingface.co/models?sort=trending",
       "link_label": "huggingface.co/models",
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "items": [
         {
           "name": "Cloudflare/clef",
           "url": "https://huggingface.co/Cloudflare/clef",
-          "meta": "Multimodal image-text-to-typed-output, post-trained on Qwen3.8-27B (Cloudflare SystemOne)"
-        },
-        {
-          "name": "convaiinnovations/laya",
-          "url": "https://huggingface.co/convaiinnovations/laya",
-          "meta": "RLCD-trained decision model for routing, scoring and guardrails (Apache-2.0)"
+          "meta": "1.5k likes · image-text-to-text, Cloudflare's agent-facing multimodal model"
         },
         {
           "name": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
           "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-          "meta": "GGUF quantized repack of Qwen-Image-2.1 (community, no safety filter)"
+          "meta": "3.3k likes · text-to-image, GGUF quant of Qwen-Image-2.1"
         },
         {
-          "name": "Lightricks/LTX-2.5",
-          "url": "https://huggingface.co/Lightricks/LTX-2.5",
-          "meta": "Open-weight video + audio/video diffusion (image-to-video, text-to-audio-video)"
+          "name": "convaiinnovations/laya",
+          "url": "https://huggingface.co/convaiinnovations/laya",
+          "meta": "5.2k likes · trending text-classification model"
         },
         {
-          "name": "Qwen/Qwen-Image-2.1",
-          "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
-          "meta": "2.1-gen text-to-image and image-editing pipeline, diffusers-native, ~86k downloads"
+          "name": "Aleph-Alpha/Kolibri-1",
+          "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+          "meta": "78B MoE (~3.46B active), 1M context, Apache-2.0 sovereign open-weights LLM"
+        },
+        {
+          "name": "autotrust/JEV-27B-VL",
+          "url": "https://huggingface.co/autotrust/JEV-27B-VL",
+          "meta": "721 likes · 27B vision-language model"
         },
         {
           "name": "Cloudflare/clef-flash",
           "url": "https://huggingface.co/Cloudflare/clef-flash",
-          "meta": "Flash sibling of Clef, post-trained on a Qwen3.5 base — small multimodal structured-output model"
+          "meta": "539 likes · compact image-text-to-text sibling of Clef"
         },
         {
-          "name": "Qwen/Qwen3.8-27B",
-          "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "meta": "27B multimodal (image-text-to-text) reasoning model, Apache-2.0, ~6.9M downloads"
+          "name": "Lightricks/LTX-2.5",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5",
+          "meta": "6.5k likes · open-weights image-to-video diffusion backbone"
         },
         {
-          "name": "Contrastive-LM/CLM-v0.1-8B",
-          "url": "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B",
-          "meta": "8B contrastive reranker/verifier fine-tuned from Qwen3-8B for agent retrieval"
+          "name": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
+          "url": "https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF",
+          "meta": "29B MoE (4B active), GGUF quant for local inference"
         },
         {
-          "name": "SupersonicLabs/Julia-1",
-          "url": "https://huggingface.co/SupersonicLabs/Julia-1",
-          "meta": "Small decision model (mmBERT-small base) for multilingual routing/scoring"
+          "name": "autotrust/GEV-26B-Decide",
+          "url": "https://huggingface.co/autotrust/GEV-26B-Decide",
+          "meta": "471 likes · 26B decision/classification model"
         },
         {
           "name": "PSRben/VisionHOPE",
           "url": "https://huggingface.co/PSRben/VisionHOPE",
-          "meta": "MIT-licensed vision/image-classification model, new entrant on the trending chart"
+          "meta": "426 likes · image-classification model"
         }
       ]
     }
@@ -349,7 +240,7 @@
       "title": "Free on OpenRouter",
       "url": "https://openrouter.ai/models?max_price=0",
       "link_label": "Browse free models on OpenRouter →",
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "items": [
         {
           "name": "Apodex: Apodex 1.1 Mini (free)",
@@ -427,16 +318,6 @@
           "meta": "262K ctx"
         },
         {
-          "name": "Qwen: Qwen3.8 27B (free)",
-          "url": "https://openrouter.ai/qwen/qwen3.8-27b:free",
-          "meta": "262K ctx"
-        },
-        {
-          "name": "Space Bunny Alpha",
-          "url": "https://openrouter.ai/stealth/space-bunny-alpha",
-          "meta": "1M ctx"
-        },
-        {
           "name": "Thinking Machines: Inkling (free)",
           "url": "https://openrouter.ai/thinkingmachines/inkling:free",
           "meta": "1.04858M ctx"
@@ -452,7 +333,7 @@
       "title": "Free on OpenCode Zen",
       "url": "https://opencode.ai/docs/zen/",
       "link_label": "See the full Zen catalog →",
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "items": [
         {
           "name": "Big Pickle",
@@ -517,8 +398,70 @@
       ]
     }
   },
+  "quick_hits": [
+    {
+      "title": "Strata hits HN's front page: a 125B MoE on 12GB VRAM plus system RAM, with an OpenAI/Anthropic-compatible localhost API",
+      "source": "ExplainX",
+      "url": "https://www.explainx.ai/blog/strata-qwen3-8-flash-next-125b-consumer-gpu-100-tokens-per-second-2026"
+    },
+    {
+      "title": "Intel's ~10% CPU price increase took effect Oct 5; AMD passes TSMC's wafer-cost hike to Instinct, Radeon and chipsets in Q4",
+      "source": "Edgen Tech",
+      "url": "https://edgen.tech/fr/news/post/amd-passes-tsmcs-10-wafer-hike-to-customers-from-q4"
+    },
+    {
+      "title": "Etched reportedly fields funding offers at a $40B-$50B valuation, up from $21B weeks after its $700M raise",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026-10-05/etched-fields-funding-offers-at-40b-valuation-sources-say/"
+    },
+    {
+      "title": "Ghost raises an $11M a16z-led seed for its $3,499 screenless 'Core' personal AI computer",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026-10-05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai/"
+    },
+    {
+      "title": "Menlo Ventures confirms a 'significant' investment in AI coding startup Factory's $5B-valuation round",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026-10-05/after-factorys-public-spat-with-khosla-menlo-proudly-invests/"
+    },
+    {
+      "title": "OneByZero closes a $20M Series A led by Jungle Ventures for enterprise AI agent deployment infrastructure",
+      "source": "TechStartups",
+      "url": "https://techstartups.com/2026-10-05/startup-funding-news-today-october-5-2026-onebyzero-pandektes-fleuret-ai-more/"
+    },
+    {
+      "title": "Copenhagen's Pandektes raises €13.5M Series A for legal AI search; Paris's Fleuret AI takes €4M pre-seed for agentic penetration testing",
+      "source": "TechStartups",
+      "url": "https://techstartups.com/2026-10-05/startup-funding-news-today-october-5-2026-onebyzero-pandektes-fleuret-ai-more/"
+    },
+    {
+      "title": "Augmeta raises a $3M seed for autonomous 'AI Operators' that monitor and act on enterprise KPIs",
+      "source": "The AI Insider",
+      "url": "https://theaiinsider.tech/2026-10-05/augmeta-secures-3m-seed-to-assign-ai-operators-to-every-business-kpi"
+    },
+    {
+      "title": "SignSplit exits stealth with a $400M strategic seed at a $1B valuation for a consented human-data marketplace",
+      "source": "Forbes Italia",
+      "url": "https://forbes.it/2026-10-05/signsplit-startup-alessandro-monterosso-round-valutazione-1-miliardo"
+    },
+    {
+      "title": "JustSolve closes a €3.7M pre-seed to build agentic-AI infrastructure for debt management and collections",
+      "source": "Il Corriere della Sicurezza",
+      "url": "https://www.ilcorrieredellasicurezza.it/justsolve-raccoglie-37-milioni-di-euro-per-costruire-linfrastruttura-di-ai-agentica-per-la-gestione-e-il-recupero-crediti/"
+    },
+    {
+      "title": "Giurify debuts with €2.5M: contract AI co-founded by Federico Faggin, the inventor of the first microprocessor",
+      "source": "ANSA",
+      "url": "https://www.ansa.it/sito/notizie/economia/2026-10-05/nasce-giurify-piattaforma-di-ia-per-la-consulenza-legale_f22cbfaf-91b5-4db7-8097-aeed9ba5a00c.html"
+    },
+    {
+      "title": "Milan's TextYess raises €4M to run WhatsApp retention-marketing agents for e-commerce",
+      "source": "Forbes Italia",
+      "url": "https://forbes.it/2026-10-05/textyess-4-milioni-migliorare-marketing-e-commerce/"
+    }
+  ],
   "spiked": {
     "already ran": 6,
-    "duplicate url": 1
+    "low signal": 2
   }
 }

@@ -6512,6 +6512,168 @@
       "source": "Corriere della Sera (Roma)",
       "date": "2026-10-04",
       "issue": 35
+    },
+    {
+      "text": "Narrow, single-architecture inference engines are beating llama.cpp and vLLM on consumer rigs",
+      "source": "Startup Fortune",
+      "date": "2026-10-06",
+      "issue": 36
+    },
+    {
+      "text": "vLLM v0.31.0 makes FlashMLA mega attention the SM100 default and adds a 'vllm preload' fast-restart CLI",
+      "source": "GitHub",
+      "date": "2026-10-06",
+      "issue": 36
+    },
+    {
+      "text": "ggml v0.26.0 ships sparse Flash Attention for SYCL, Vulkan and Metal",
+      "source": "GitHub",
+      "date": "2026-10-06",
+      "issue": 36
+    },
+    {
+      "text": "32GB DDR5 kits now cost more than a flagship CPU as the memory shortage squeezes LLM rig builds",
+      "source": "XDA Developers",
+      "date": "2026-10-06",
+      "issue": 36
+    },
+    {
+      "text": "LTX-2.5: Lightricks' open-weights image-to-video backbone tops Hugging Face trending",
+      "source": "HuggingFace",
+      "date": "2026-10-06",
+      "issue": 36
+    },
+    {
+      "text": "ThinkingCap-Qwen3.8-27B cuts reasoning tokens 37% with about a 1-point accuracy drop",
+      "source": "HuggingFace",
+      "date": "2026-10-06",
+      "issue": 36
+    },
+    {
+      "text": "Ternary-Bonsai-2-27B GGUF pushes ternary-quantized 27B weights into the llama.cpp ecosystem",
+      "source": "HuggingFace",
+      "date": "2026-10-06",
+      "issue": 36
+    },
+    {
+      "text": "llama.cpp v0.6.0: GLM-5.3-Flash support, MTP speculative decoding, revamped Web UI",
+      "source": "GitHub",
+      "date": "2026-10-06",
+      "issue": 36
+    },
+    {
+      "text": "Show HN: Crowsnest \u2014 local macOS workspace for running Claude Code and Codex in one app",
+      "source": "Hacker News",
+      "date": "2026-10-06",
+      "issue": 36
+    },
+    {
+      "text": "Show HN: Ototo \u2014 offload code exploration to a smaller, cheaper model before the frontier model",
+      "source": "Hacker News",
+      "date": "2026-10-06",
+      "issue": 36
+    },
+    {
+      "text": "Show HN: Jev Browser Wingman \u2014 an MCP proxy that hands an agent's browser clicks to TypeSafe's Jev",
+      "source": "Hacker News",
+      "date": "2026-10-06",
+      "issue": 36
+    },
+    {
+      "text": "Show HN: Simulkit \u2014 estimate which local LLMs fit on any Apple Silicon Mac",
+      "source": "Hacker News",
+      "date": "2026-10-06",
+      "issue": 36
+    },
+    {
+      "text": "r/LocalLLaMA: 'Friends Don't Let Friends Use Ollama' \u2014 pushback on Ollama as the default local stack",
+      "source": "r/LocalLLaMA",
+      "date": "2026-10-06",
+      "issue": 36
+    },
+    {
+      "text": "r/LocalLLaMA: 'Harness does matter' \u2014 the agent/frontend wrapping a local model changes results more than expected",
+      "source": "r/LocalLLaMA",
+      "date": "2026-10-06",
+      "issue": 36
+    },
+    {
+      "text": "r/LocalLLaMA: mathematicians' leaked work on Codex fuels the 'run local for privacy' argument",
+      "source": "r/LocalLLaMA",
+      "date": "2026-10-06",
+      "issue": 36
+    },
+    {
+      "text": "Strata hits HN's front page: a 125B MoE on 12GB VRAM plus system RAM, with an OpenAI/Anthropic-compatible localhost API",
+      "source": "ExplainX",
+      "date": "2026-10-06",
+      "issue": 36
+    },
+    {
+      "text": "Intel's ~10% CPU price increase took effect Oct 5; AMD passes TSMC's wafer-cost hike to Instinct, Radeon and chipsets in Q4",
+      "source": "Edgen Tech",
+      "date": "2026-10-06",
+      "issue": 36
+    },
+    {
+      "text": "Etched reportedly fields funding offers at a $40B-$50B valuation, up from $21B weeks after its $700M raise",
+      "source": "TechCrunch",
+      "date": "2026-10-06",
+      "issue": 36
+    },
+    {
+      "text": "Ghost raises an $11M a16z-led seed for its $3,499 screenless 'Core' personal AI computer",
+      "source": "TechCrunch",
+      "date": "2026-10-06",
+      "issue": 36
+    },
+    {
+      "text": "Menlo Ventures confirms a 'significant' investment in AI coding startup Factory's $5B-valuation round",
+      "source": "TechCrunch",
+      "date": "2026-10-06",
+      "issue": 36
+    },
+    {
+      "text": "OneByZero closes a $20M Series A led by Jungle Ventures for enterprise AI agent deployment infrastructure",
+      "source": "TechStartups",
+      "date": "2026-10-06",
+      "issue": 36
+    },
+    {
+      "text": "Copenhagen's Pandektes raises \u20ac13.5M Series A for legal AI search; Paris's Fleuret AI takes \u20ac4M pre-seed for agentic penetration testing",
+      "source": "TechStartups",
+      "date": "2026-10-06",
+      "issue": 36
+    },
+    {
+      "text": "Augmeta raises a $3M seed for autonomous 'AI Operators' that monitor and act on enterprise KPIs",
+      "source": "The AI Insider",
+      "date": "2026-10-06",
+      "issue": 36
+    },
+    {
+      "text": "SignSplit exits stealth with a $400M strategic seed at a $1B valuation for a consented human-data marketplace",
+      "source": "Forbes Italia",
+      "date": "2026-10-06",
+      "issue": 36
+    },
+    {
+      "text": "JustSolve closes a \u20ac3.7M pre-seed to build agentic-AI infrastructure for debt management and collections",
+      "source": "Il Corriere della Sicurezza",
+      "date": "2026-10-06",
+      "issue": 36
+    },
+    {
+      "text": "Giurify debuts with \u20ac2.5M: contract AI co-founded by Federico Faggin, the inventor of the first microprocessor",
+      "source": "ANSA",
+      "date": "2026-10-06",
+      "issue": 36
+    },
+    {
+      "text": "Milan's TextYess raises \u20ac4M to run WhatsApp retention-marketing agents for e-commerce",
+      "source": "Forbes Italia",
+      "date": "2026-10-06",
+      "issue": 36
     }
   ]
 }
