@@ -1,135 +1,183 @@
 {
-  "issue_no": 36,
-  "date_iso": "2026-10-06",
-  "date_human": "October 06, 2026",
+  "issue_no": 37,
+  "date_iso": "2026-10-07",
+  "date_human": "October 07, 2026",
   "notice": null,
   "lead": {
-    "kicker": "Inference engines",
-    "title": "Narrow, single-architecture inference engines are beating llama.cpp and vLLM on consumer rigs",
-    "summary": "Purpose-built 'napkin runtimes' that each target one hardware family — Strata, nInfer, DwarfStar, Splash, llamAmpere, gufo — are winning on narrow workloads by wide margins. Strata runs the 125B Qwen3.8-Flash-Next MoE on a single 12GB GPU at 50-120 tok/s (94 on an RTX 5070, 60 on an RX 9070 XT) by keeping hot experts in VRAM and the expert pool in system RAM, hitting 53.2 tok/s versus 20.8 for upstream llama.cpp on the same box; CUDA-only nInfer beat Strata at every context length, and Apple-Silicon-only Splash pushes roughly 210 tok/s on a 48GB M5 Pro. The signal for local-AI operators: single-vendor kernels now beat cross-platform engines where the workload fits the runtime's niche.",
-    "source": "Startup Fortune",
-    "date": "2026-10-05",
-    "url": "https://startupfortune.com/a-wave-of-narrow-ai-inference-engines-is-beating-vllm-and-llamacpp-at-their-own-game",
-    "image": "images/lead_2026-10-06.jpg"
+    "kicker": "Open-Weights Release",
+    "title": "Mistral Large 4 'Le Chonk': a 1T-parameter open-weights frontier model, preview live and public weights promised for Oct 27",
+    "summary": "Mistral AI has unveiled Mistral Large 4, a natively multimodal sparse MoE with roughly 1.05T total and about 49-52B active parameters, trained from scratch on 4,000 Nvidia Grace Blackwell GPUs in European data centers. It is fluent in 160+ languages and Mistral claims it beats DeepSeek and Qwen on DeepSWE 1.1 (62% vs 57%/51%), positioning it as the strongest open-weight model developed outside China. A limited preview is live via Mistral Studio, and full weights are due on Hugging Face and other model repos by October 27.",
+    "source": "Reuters / Mistral AI",
+    "date": "2026-10-06",
+    "url": "https://www.mistral.ai/news/mistral-large-4/",
+    "image": "images/lead_2026-10-07.jpg"
   },
   "top_stories": [
     {
-      "title": "vLLM v0.31.0 makes FlashMLA mega attention the SM100 default and adds a 'vllm preload' fast-restart CLI",
-      "summary": "The 717-commit release (Oct 5) makes FlashMLA mega attention with V4.1 NVFP4 compressed KV cache the default on SM100, adds fused sparse-MQA/gate/MoE kernels, and introduces a preload CLI that keeps post-quantized weights resident in GPU memory across engine restarts — plus data-parallel preload, MTP draft models and a /health endpoint.",
-      "source": "GitHub",
-      "date": "2026-10-05",
-      "url": "https://github.com/vllm-project/vllm/releases"
+      "title": "NVIDIA RTX Spark ships: Surface Laptop Ultra and RTX Spark PCs launch with up to 128GB unified memory",
+      "summary": "At the October 7 Microsoft-NVIDIA event, the RTX Spark Grace Blackwell superchip (20-core Grace CPU + 6,144-core Blackwell GPU, ~1 petaflop FP4) launched in Windows PCs, headlined by a Surface Laptop Ultra with up to 128GB of unified memory that can run ~120B-parameter models locally. Two SKUs ship (S2 from ~$2,999, S3 up to ~$7,000) from ASUS, Dell, HP, Lenovo, Microsoft and MSI, with Windows 11 adding native MCP support, sandboxed Agent Workspaces and Microsoft Execution Containers for local agents.",
+      "source": "Byteiota",
+      "date": "2026-10-07",
+      "url": "https://byteiota.com/rtx-spark-surface-laptop-ultra-run-120b-ai-models-windows-locally"
     },
     {
-      "title": "ggml v0.26.0 ships sparse Flash Attention for SYCL, Vulkan and Metal",
-      "summary": "The tensor library under llama.cpp gained sparse Flash Attention kernels — including sparse FA for quantized KV caches — on the SYCL, Vulkan and Metal backends, directly affecting memory use and long-context speed on Intel, AMD and Apple Silicon GPUs.",
-      "source": "GitHub",
-      "date": "2026-10-05",
-      "url": "https://github.com/ggml-org/ggml/releases/tag/v0.26.0"
+      "title": "EmbeddingGemma 2: Google's open, natively multimodal embedding model for local RAG",
+      "summary": "Google published EmbeddingGemma 2, an open, lightweight, natively multimodal embedding model positioned as best-in-class for multimodal embedding tasks, available as an open-weight download. It drops straight into self-hosted retrieval and RAG pipelines.",
+      "source": "Google",
+      "date": "2026-10-06",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/"
     },
     {
-      "title": "32GB DDR5 kits now cost more than a flagship CPU as the memory shortage squeezes LLM rig builds",
-      "summary": "32GB has displaced 16GB as the top RAM capacity in gaming rigs despite the shortage, and DDR5 is up as much as ~486% during 2026 as HBM/AI demand pulls capacity from consumer DRAM and GDDR6/GDDR7 — with Intel's third CPU price hike (~10%, effective Oct 5) and AMD's ~10% Q4 increase landing in the same window, the cost floor for VRAM-offload and unified-memory builds keeps rising.",
-      "source": "XDA Developers",
-      "date": "2026-10-05",
-      "url": "https://www.xda-developers.com/32gb-ddr5-kits-cost-more-than-cpu-waiting-ram-prices-to-drop-is-a-trap/"
+      "title": "Home Assistant 2026.10 ships native MCP support, turning the whole home into context for AI agents",
+      "summary": "Released October 7, Home Assistant 2026.10 integrates the Model Context Protocol directly into the platform via a new MCP Server integration and AI settings page, letting any MCP-compatible agent (Claude and others) read and control the entire home. The release flags several breaking changes to check before upgrading.",
+      "source": "Forkast News",
+      "date": "2026-10-07",
+      "url": "https://forkast.news/home-assistant-2026-10-ships-tomorrow-the-open-source-smart-home-gets-its-mcp-moment/"
+    },
+    {
+      "title": "DeepSeek closing in on a $12B+ pre-IPO round backed by Tencent and CATL",
+      "summary": "More than 80B yuan (roughly $12B, possibly up to ~$15B) has reportedly been committed by investors including Tencent and CATL at a valuation near ~$74B, with the round expected to close in October ahead of a domestic IPO in early 2027. Unconfirmed by DeepSeek as of October 6.",
+      "source": "TechStartups",
+      "date": "2026-10-06",
+      "url": "https://techstartups.com/2026-10-06/deepseek-to-raise-12-billion-in-tencent-and-catl-backed-funding-ahead-of-ipo"
     }
   ],
   "sections": [
     {
+      "title": "Research & Papers",
+      "items": [
+        {
+          "title": "TRACE: rollout-guided quantization-aware training for FP4 reinforcement learning of MoE models",
+          "summary": "TRACE aligns the quantized training and rollout execution paths for RL post-training of MoE LLMs, cutting the memory and compute overhead of RL rollout generation. Featured on Hugging Face Daily Papers on October 7.",
+          "source": "arXiv",
+          "date": "2026-10-06",
+          "url": "https://arxiv.org/abs/2610.07767"
+        },
+        {
+          "title": "Hiding tool latency in on-device cascaded voice agents with speculative execution",
+          "summary": "Proposes speculative tool execution for on-device cascaded voice agents: predicts tool requests from partial ASR hypotheses and starts tool execution before the user finishes speaking, hiding latency in an on-device ASR+LLM+tool pipeline.",
+          "source": "arXiv",
+          "date": "2026-10-06",
+          "url": "https://arxiv.org/abs/2610.07641"
+        },
+        {
+          "title": "Secure Speculative Decoding for large language models",
+          "summary": "Studies hardened speculative decoding where a small draft model proposes tokens for the large target model to verify — directly relevant to local inference stacks that pair small draft models with larger targets.",
+          "source": "arXiv",
+          "date": "2026-10-06",
+          "url": "https://arxiv.org/abs/2610.08678"
+        },
+        {
+          "title": "Rethinking cross-tokenizer on-policy distillation",
+          "summary": "Examines on-policy distillation where student and teacher use different tokenizers, questioning whether broader vocabulary alignment improves distillation and proposing more reliable cross-tokenizer supervision.",
+          "source": "arXiv",
+          "date": "2026-10-06",
+          "url": "https://arxiv.org/abs/2610.08448"
+        },
+        {
+          "title": "How well do small language models really do at abstract reasoning?",
+          "summary": "Over 1,000 runs profiling decoder-only, encoder-decoder and MoE small models on ARC-TGI find that in-distribution accuracy is attainable via SFT but generalization collapses off-distribution — a caution against endpoint-accuracy overestimates of SLM skill.",
+          "source": "arXiv",
+          "date": "2026-10-06",
+          "url": "https://arxiv.org/abs/2610.08680"
+        }
+      ],
+      "image": "images/section_research_papers_2026-10-07.jpg"
+    },
+    {
       "title": "Open Weights & Models",
       "items": [
         {
-          "title": "LTX-2.5: Lightricks' open-weights image-to-video backbone tops Hugging Face trending",
-          "summary": "The LTX-2.5 checkpoint (~6.5k likes) is the most-liked model on the HF trending page this week — a rare new open-weight video-generation backbone that local-GPU users can self-host.",
-          "source": "HuggingFace",
-          "date": "2026-10-02",
-          "url": "https://huggingface.co/Lightricks/LTX-2.5"
+          "title": "Meta returns to open source with Muse Glimmer, an Apache 2.0 30B agent model sized for consumer GPUs",
+          "summary": "Meta's Muse Glimmer is a 30B open-weight agent-optimized model compressed to under 20 GB via 4-bit quantization — small enough to run on a Mac or PC with one consumer GPU. The Hugging Face release ships BF16 weights, GGUF quants and ExecuTorch builds; the 4-bit build is roughly 68 GB, about 25 GB more than the 43 GB a plain MXFP4 quant would take.",
+          "source": "VentureBeat",
+          "date": "2026-10-06",
+          "url": "https://venturebeat.com/technology/meta-returns-to-open-source-with-muse-glimmer-an-apache-2-0-licensed-30b-parameter-ai-model-optimized-for-agents-available-now"
         },
         {
-          "title": "ThinkingCap-Qwen3.8-27B cuts reasoning tokens 37% with about a 1-point accuracy drop",
-          "summary": "Keeps 85.8% average accuracy vs the base model's 86.6% while cutting thinking verbosity by 37% on average (11-66% per benchmark) — fewer reasoning tokens means faster, cheaper local inference.",
-          "source": "HuggingFace",
+          "title": "Alibaba puts a Qwen-Max-class model on ModelScope: Qwen3.8-2.4T-A95B, a 2.4T-param sparse MoE with open weights",
+          "summary": "2.4 trillion total parameters, 95B active per token across 512 experts, hybrid Gated DeltaNet + Gated Attention and a native 262K-token context (extensible to ~1.01M). First time Max-class capability ships as downloadable weights rather than a closed API, with day-one vLLM, SGLang and TokenSpeed recipes — though the full-size model needs multi-node hardware.",
+          "source": "AICHINA.news",
           "date": "2026-10-06",
-          "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.8-27B"
+          "url": "https://aichina.news/blog/alibaba-just-put-a-qwen-max-class-model-on-modelscope-2-4-trillion-vs7nul"
         },
         {
-          "title": "Ternary-Bonsai-2-27B GGUF pushes ternary-quantized 27B weights into the llama.cpp ecosystem",
-          "summary": "The 2.4k-like GGUF release (trending all week) extends the Oct 5-6 trend of sub-5-bit quants of large models for consumer VRAM — Xing4.0-29B-A4B-GGUF and a GLM-5.3 EXL3 quant are also trending.",
-          "source": "HuggingFace",
+          "title": "Kimi K3's weights measured: 1,453.7 GiB across 96 shards — and the GGUF repo that shipped empty",
+          "summary": "Audit of Moonshot AI's Kimi K3 open-weight release (2.8T total / 104B active MoE, 1M-token context, MXFP4 compressed-tensors): it takes eleven 141GB H200s just to hold the weights, the unsloth/Kimi-K3-GGUF repo initially shipped only a README, and the license moved off MIT to revenue-conditional terms. 'Open weights' on paper is still not 'runnable at home' at 2.8T scale.",
+          "source": "ThakiCloud",
           "date": "2026-10-06",
-          "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf"
+          "url": "https://thakicloud.com/tech-blog/en/llmops/kimi-k3-local-serving"
+        },
+        {
+          "title": "Falcon-Emirati: when an LLM learns the dialect, the culture, and the nuance",
+          "summary": "TII (Technology Innovation Institute) published a Hugging Face blog on its Arabic-language LLM focused on regional Arabic dialects and cultural nuance, rather than Modern Standard Arabic only.",
+          "source": "Hugging Face",
+          "date": "2026-10-06",
+          "url": "https://huggingface.co/blog/tiiuae/falcon-emirati"
+        },
+        {
+          "title": "Falcon OCR Arabic: a 270M-parameter Arabic OCR model that claims state of the art at its size",
+          "summary": "TII's companion release is a compact 270M-parameter Arabic OCR model claiming SOTA accuracy at its size, published on the Hugging Face blog and available for local deployment.",
+          "source": "Hugging Face",
+          "date": "2026-10-06",
+          "url": "https://huggingface.co/blog/tiiuae/falcon-ocr-arabic"
         }
       ],
-      "image": "images/section_open_weights_2026-10-06.jpg"
+      "image": "images/section_open_weights_2026-10-07.jpg"
     },
     {
       "title": "Tools & Runtimes",
       "items": [
         {
-          "title": "llama.cpp v0.6.0: GLM-5.3-Flash support, MTP speculative decoding, revamped Web UI",
-          "summary": "The v0.6.0 release (Oct 5) adds the llama_batch_ext batch API, support for the 320B GLM-5.3-Flash text+vision hybrid and the Clef decision model, MTP speculative decoding for Qwen4Exp (~1.5x decode speedup on DGX Spark), a /v1/systemone server API, a rebuilt Web UI with a Hugging Face Hub download pipeline, and Metal/Vulkan flash-attention kernels — and bumps bundled ggml to v0.26.0.",
+          "title": "llama.cpp ships b11456-b11459: CUDA BF16 XIELU kernels, per-thread stream memsets, WebGPU fixes",
+          "summary": "Three releases on Oct 6-7 add BF16 support for the XIELU activation on CUDA, a per-thread stream optimization for buffer-init padding memsets, and a ggml-webgpu fix for WASI native features — steady backend coverage expansion for local GPU inference.",
           "source": "GitHub",
-          "date": "2026-10-05",
-          "url": "https://github.com/ggml-org/llama.cpp/releases"
+          "date": "2026-10-07",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11459"
         },
         {
-          "title": "Show HN: Crowsnest — local macOS workspace for running Claude Code and Codex in one app",
-          "summary": "A paid, local-first macOS coordinator for the Claude Code and Codex runtimes already installed on your machine: multiple provider accounts, searchable agent history, cross-runtime handoffs via attributed forks, parallel agent crews and remote workspaces over SSH. All transcripts stay on the local machine (UI binds to 127.0.0.1).",
+          "title": "GridCore: a scheduler that lets several local LLMs share one GPU",
+          "summary": "GridCore time-slices a single GPU across multiple locally-run LLMs so several models can coexist on one card, instead of one model hogging all the VRAM. Aimed at hobbyist rigs running more than one local model at once.",
           "source": "Hacker News",
           "date": "2026-10-06",
-          "url": "https://news.ycombinator.com/item?id=49973649"
+          "url": "https://news.ycombinator.com/item?id=49983013"
         },
         {
-          "title": "Show HN: Ototo — offload code exploration to a smaller, cheaper model before the frontier model",
-          "summary": "Ototo hands code-exploration subtasks to a smaller model ahead of the expensive primary model, cutting token cost and latency on large repos — part of a growing pattern of routing parts of agent workflows away from the frontier model.",
-          "source": "Hacker News",
-          "date": "2026-10-05",
-          "url": "https://news.ycombinator.com/item?id=49971028"
-        },
-        {
-          "title": "Show HN: Jev Browser Wingman — an MCP proxy that hands an agent's browser clicks to TypeSafe's Jev",
-          "summary": "The MCP proxy routes browser clicks made by coding agents through Jev's protection layer, so agentic browser automation gets policy enforcement before actions execute — relevant to anyone wiring browser-use/MCP tooling into local agent stacks.",
+          "title": "Reika: a coding agent CLI designed around small local models first",
+          "summary": "A coding agent CLI built specifically to drive small local models rather than cloud APIs, with prompt and tool-calling formats tuned for on-device inference.",
           "source": "Hacker News",
           "date": "2026-10-06",
-          "url": "https://news.ycombinator.com/item?id=49973266"
+          "url": "https://news.ycombinator.com/item?id=49982904"
         },
         {
-          "title": "Show HN: Simulkit — estimate which local LLMs fit on any Apple Silicon Mac",
-          "summary": "Simulkit's Mac Local LLMs page simulates decode/prefill speed and memory fit for dozens of GGUF-era models (Qwen, Gemma, DeepSeek, GLM, gpt-oss) on each Apple Silicon chip using memory bandwidth, GPU compute and macOS wired-memory limits — a sanity check before downloading weights.",
-          "source": "Hacker News",
-          "date": "2026-10-05",
-          "url": "https://news.ycombinator.com/item?id=49970586"
+          "title": "RigMark: benchmarks local AI the way coding agents actually use it",
+          "summary": "Alex Ellis's open-source benchmark harness scores local model setups against real coding-agent workloads instead of synthetic academic tasks.",
+          "source": "GitHub",
+          "date": "2026-10-06",
+          "url": "https://github.com/alexellis/rigmark"
         }
       ],
-      "image": "images/section_tools_runtimes_2026-10-06.jpg"
+      "image": "images/section_tools_runtimes_2026-10-07.jpg"
     },
     {
-      "title": "Self-Hosted Stack",
+      "title": "Hardware & Edge",
       "items": [
         {
-          "title": "r/LocalLLaMA: 'Friends Don't Let Friends Use Ollama' — pushback on Ollama as the default local stack",
-          "summary": "A 1.3K+ upvote thread circulates the writeup arguing Ollama's wrapper layer hides llama.cpp features (flash attention, KV-cache quantization, sampler control) and degrades performance versus running llama.cpp or llama-server directly, reflecting a community shift toward direct llama.cpp/llama-server deployments.",
-          "source": "r/LocalLLaMA",
-          "date": "2026-10-05",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wa26pn/friends_dont_let_friends_use_ollama/"
-        },
-        {
-          "title": "r/LocalLLaMA: 'Harness does matter' — the agent/frontend wrapping a local model changes results more than expected",
-          "summary": "Users report the same local model performing very differently depending on its harness (Open WebUI, OpenClaw-style agents, raw API). Practical takeaway for self-hosters: benchmark and tune the harness and system prompt around a local model, not just the checkpoint.",
-          "source": "r/LocalLLaMA",
+          "title": "AMD details Ryzen AI Max+ PRO 495 'Gorgon Halo': up to 192GB unified memory, claims 320B-parameter models on device",
+          "summary": "AMD published benchmarks for the 16-core Ryzen AI Max+ PRO 495 (Radeon 8065S iGPU, 55 TOPS XDNA 2 NPU, up to 192GB LPDDR5X-8533), claiming GLM 5.3 Flash 320B can run locally and a 128GB config can handle up to 200B-parameter models in thin-and-light PCs. First Gorgon Halo systems (e.g. Minisforum MS-S1 Max-P495) are already on sale from about $7,000.",
+          "source": "Channel Life",
           "date": "2026-10-06",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcj5q3/harness_does_matter/"
+          "url": "https://channellife.com.au/story/amd-details-latest-local-ai-capabilities-in-ryzen-ai-max-pcs"
         },
         {
-          "title": "r/LocalLLaMA: mathematicians' leaked work on Codex fuels the 'run local for privacy' argument",
-          "summary": "A top thread (1.4K+ upvotes) covers the allegation that two mathematicians had years of their own work exposed after feeding drafts into a cloud coding agent, prompting heavy-model users to route around cloud AI and treat self-hosted inference as a hedge against providers mining user data.",
-          "source": "r/LocalLLaMA",
-          "date": "2026-10-05",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wapjaw/openai_alleged_of_stealing_mathematicians_work/"
+          "title": "Lucebox Zero 495 pairs Ryzen AI Max+ PRO 495 with a Radeon R9700, claims 3x DGX Spark speed on MoE models",
+          "summary": "The Milan-based box uses 'asymmetric expert parallelism' to split hot MoE experts and dense layers onto the R9700's fast GDDR6 while cold experts stay in slower unified memory, claiming 86 tok/s on DeepSeek V4 Flash versus 14.09 tok/s on DGX Spark. The trick helps MoE models only, and all figures are vendor-run until independent tests. First shipments expected January 2027.",
+          "source": "Tech Times",
+          "date": "2026-10-06",
+          "url": "https://www.techtimes.com/articles/328610/20261006/lucebox-zero-495-local-ai-workstation-claims-3x-dgx-spark-speed-moe-models.htm"
         }
       ],
-      "image": "images/section_self_hosted_stack_2026-10-06.jpg"
+      "image": "images/section_hardware_edge_2026-10-07.jpg"
     }
   ],
   "trending": {
@@ -137,42 +185,47 @@
       "title": "GitHub Trending · AI",
       "url": "https://github.com/trending",
       "link_label": "github.com/trending",
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "items": [
         {
-          "name": "msitarzewski/agency-agents",
-          "url": "https://github.com/msitarzewski/agency-agents",
-          "meta": "Shell · 157.4k ★ · +744 today"
-        },
-        {
-          "name": "thedotmack/claude-mem",
-          "url": "https://github.com/thedotmack/claude-mem",
-          "meta": "TypeScript · 96.7k ★ · +534 today"
-        },
-        {
-          "name": "Panniantong/Agent-Reach",
-          "url": "https://github.com/Panniantong/Agent-Reach",
-          "meta": "Python · 92.1k ★ · +1,155 today"
-        },
-        {
-          "name": "calesthio/OpenMontage",
-          "url": "https://github.com/calesthio/OpenMontage",
-          "meta": "Python · 64.2k ★ · +742 today"
+          "name": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "meta": "Shell · 278,342 ★ · +889 today"
         },
         {
           "name": "earthtojake/text-to-cad",
           "url": "https://github.com/earthtojake/text-to-cad",
-          "meta": "Python · 17.5k ★ · +437 today"
+          "meta": "Python · 18,075 ★ · +619 today"
         },
         {
-          "name": "cloudflare/cloudflare-os",
-          "url": "https://github.com/cloudflare/cloudflare-os",
-          "meta": "TypeScript · 11.1k ★ · +101 today"
+          "name": "pbakaus/impeccable",
+          "url": "https://github.com/pbakaus/impeccable",
+          "meta": "JavaScript · 77,814 ★ · +616 today"
         },
         {
-          "name": "michael-denyer/pstack-claude",
-          "url": "https://github.com/michael-denyer/pstack-claude",
-          "meta": "JavaScript · 1.5k ★ · +223 today"
+          "name": "thedotmack/claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "meta": "TypeScript · 97,267 ★ · +534 today"
+        },
+        {
+          "name": "ayghri/i-have-adhd",
+          "url": "https://github.com/ayghri/i-have-adhd",
+          "meta": "Python · 54,508 ★ · +326 today"
+        },
+        {
+          "name": "morluto/rea",
+          "url": "https://github.com/morluto/rea",
+          "meta": "TypeScript · 10,176 ★ · +2,956 today"
+        },
+        {
+          "name": "deepseek-ai/DeepGEMM",
+          "url": "https://github.com/deepseek-ai/DeepGEMM",
+          "meta": "Cuda · 8,765 ★ · +199 today"
+        },
+        {
+          "name": "msitarzewski/agency-agents",
+          "url": "https://github.com/msitarzewski/agency-agents",
+          "meta": "Shell · 157,938 ★ · +623 today"
         }
       ]
     },
@@ -180,57 +233,57 @@
       "title": "Models Trending (Hugging Face)",
       "url": "https://huggingface.co/models?sort=trending",
       "link_label": "huggingface.co/models",
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "items": [
         {
           "name": "Cloudflare/clef",
           "url": "https://huggingface.co/Cloudflare/clef",
-          "meta": "1.5k likes · image-text-to-text, Cloudflare's agent-facing multimodal model"
-        },
-        {
-          "name": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-          "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-          "meta": "3.3k likes · text-to-image, GGUF quant of Qwen-Image-2.1"
-        },
-        {
-          "name": "convaiinnovations/laya",
-          "url": "https://huggingface.co/convaiinnovations/laya",
-          "meta": "5.2k likes · trending text-classification model"
-        },
-        {
-          "name": "Aleph-Alpha/Kolibri-1",
-          "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
-          "meta": "78B MoE (~3.46B active), 1M context, Apache-2.0 sovereign open-weights LLM"
+          "meta": "27B decision model (image-text-to-text), Apache 2.0, Cloudflare's open-weight release"
         },
         {
           "name": "autotrust/JEV-27B-VL",
           "url": "https://huggingface.co/autotrust/JEV-27B-VL",
-          "meta": "721 likes · 27B vision-language model"
+          "meta": "27B vision-language model, image-text-to-text, Jev-API compatible"
         },
         {
-          "name": "Cloudflare/clef-flash",
-          "url": "https://huggingface.co/Cloudflare/clef-flash",
-          "meta": "539 likes · compact image-text-to-text sibling of Clef"
+          "name": "Aleph-Alpha/Kolibri-1",
+          "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+          "meta": "78B MoE (~3.5B active), bilingual DE/EN, 262K context, Apache 2.0"
         },
         {
-          "name": "Lightricks/LTX-2.5",
-          "url": "https://huggingface.co/Lightricks/LTX-2.5",
-          "meta": "6.5k likes · open-weights image-to-video diffusion backbone"
-        },
-        {
-          "name": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
-          "url": "https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF",
-          "meta": "29B MoE (4B active), GGUF quant for local inference"
+          "name": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+          "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+          "meta": "GGUF quantized community variant of Qwen-Image-2.1, text-to-image"
         },
         {
           "name": "autotrust/GEV-26B-Decide",
           "url": "https://huggingface.co/autotrust/GEV-26B-Decide",
-          "meta": "471 likes · 26B decision/classification model"
+          "meta": "26B decision/classification model, companion to the JEV-27B-VL stack"
         },
         {
-          "name": "PSRben/VisionHOPE",
-          "url": "https://huggingface.co/PSRben/VisionHOPE",
-          "meta": "426 likes · image-classification model"
+          "name": "google/embeddinggemma-2",
+          "url": "https://huggingface.co/google/embeddinggemma-2",
+          "meta": "Feature-extraction / embedding model for RAG and retrieval pipelines"
+        },
+        {
+          "name": "Cloudflare/clef-flash",
+          "url": "https://huggingface.co/Cloudflare/clef-flash",
+          "meta": "Smaller/faster sibling of the Clef decision models, image-text-to-text"
+        },
+        {
+          "name": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
+          "url": "https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF",
+          "meta": "GGUF quants of TeleAI's Xing4.0-29B-A4B agentic MoE, single-GPU (~15 GB) deploy"
+        },
+        {
+          "name": "convaiinnovations/laya",
+          "url": "https://huggingface.co/convaiinnovations/laya",
+          "meta": "Speech/audio model (text-classification tag on hub), voice-AI oriented"
+        },
+        {
+          "name": "Lightricks/LTX-2.5",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5",
+          "meta": "Image-to-video generation model, open weights"
         }
       ]
     }
@@ -240,7 +293,7 @@
       "title": "Free on OpenRouter",
       "url": "https://openrouter.ai/models?max_price=0",
       "link_label": "Browse free models on OpenRouter →",
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "items": [
         {
           "name": "Apodex: Apodex 1.1 Mini (free)",
@@ -333,7 +386,7 @@
       "title": "Free on OpenCode Zen",
       "url": "https://opencode.ai/docs/zen/",
       "link_label": "See the full Zen catalog →",
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "items": [
         {
           "name": "Big Pickle",
@@ -349,6 +402,11 @@
           "name": "LongCat 2.5 Preview Free",
           "url": "https://opencode.ai/docs/zen/",
           "meta": "longcat-2.5-preview-free"
+        },
+        {
+          "name": "Exo Free",
+          "url": "https://opencode.ai/docs/zen/",
+          "meta": "exo-free"
         },
         {
           "name": "Fledge Alpha Free",
@@ -400,68 +458,82 @@
   },
   "quick_hits": [
     {
-      "title": "Strata hits HN's front page: a 125B MoE on 12GB VRAM plus system RAM, with an OpenAI/Anthropic-compatible localhost API",
-      "source": "ExplainX",
-      "url": "https://www.explainx.ai/blog/strata-qwen3-8-flash-next-125b-consumer-gpu-100-tokens-per-second-2026"
+      "title": "Open WebUI 0.11.4 patches 19 security advisories, three of them session-token theft — upgrade if you self-host",
+      "source": "ThreatFrontier",
+      "date": "2026-10-06",
+      "url": "https://threatfrontier.com/articles/open-webui-0-11-4-19-advisories-session-token-theft"
     },
     {
-      "title": "Intel's ~10% CPU price increase took effect Oct 5; AMD passes TSMC's wafer-cost hike to Instinct, Radeon and chipsets in Q4",
-      "source": "Edgen Tech",
-      "url": "https://edgen.tech/fr/news/post/amd-passes-tsmcs-10-wafer-hike-to-customers-from-q4"
+      "title": "Bees: open-source agentic teams that run entirely on your own computer",
+      "source": "Hacker News",
+      "date": "2026-10-06",
+      "url": "https://news.ycombinator.com/item?id=49985737"
     },
     {
-      "title": "Etched reportedly fields funding offers at a $40B-$50B valuation, up from $21B weeks after its $700M raise",
+      "title": "Speck: a cognitive-architecture layer that wraps small local LLMs with memory and control flow",
+      "source": "GitHub",
+      "date": "2026-10-06",
+      "url": "https://github.com/doctarock/Speck"
+    },
+    {
+      "title": "ZWhispr stacks three speech models for local dictation and transcription",
+      "source": "Hacker News",
+      "date": "2026-10-07",
+      "url": "https://news.ycombinator.com/item?id=49986429"
+    },
+    {
+      "title": "AgentOS: a self-hosted control plane to run coding agents from your phone",
+      "source": "GitHub",
+      "date": "2026-10-07",
+      "url": "https://github.com/saadnvd1/agent-os"
+    },
+    {
+      "title": "NanoMuse: an open-source personal AI agent for phone and desktop with local execution by default",
+      "source": "GitHub",
+      "date": "2026-10-07",
+      "url": "https://github.com/nano-muse/nanoMuse"
+    },
+    {
+      "title": "ProjectTodo: a local todo board that ships its own MCP server for AI assistants",
+      "source": "GitHub",
+      "date": "2026-10-06",
+      "url": "https://github.com/nidheesh1994/projecttodo"
+    },
+    {
+      "title": "Orbit: a local-first delivery layer for coding-agent output",
+      "source": "GitHub",
+      "date": "2026-10-06",
+      "url": "https://github.com/constellation-works/orbit"
+    },
+    {
+      "title": "OpenAI announces new mathematical results from an internal frontier model, and open-sources a 722-problem math dataset with Lean proofs",
+      "source": "X (OpenAI)",
+      "date": "2026-10-06",
+      "url": "https://x.com/OpenAI/status/2107596713791767021"
+    },
+    {
+      "title": "Lambda to raise up to $4B at a $14.5B pre-money valuation ahead of a planned IPO",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026-10-05/etched-fields-funding-offers-at-40b-valuation-sources-say/"
+      "date": "2026-10-06",
+      "url": "https://techcrunch.com/2026-10-06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/"
     },
     {
-      "title": "Ghost raises an $11M a16z-led seed for its $3,499 screenless 'Core' personal AI computer",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026-10-05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai/"
-    },
-    {
-      "title": "Menlo Ventures confirms a 'significant' investment in AI coding startup Factory's $5B-valuation round",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026-10-05/after-factorys-public-spat-with-khosla-menlo-proudly-invests/"
-    },
-    {
-      "title": "OneByZero closes a $20M Series A led by Jungle Ventures for enterprise AI agent deployment infrastructure",
+      "title": "Vinci raises $250M at a $1.5B valuation for AI-driven physics simulation",
       "source": "TechStartups",
-      "url": "https://techstartups.com/2026-10-05/startup-funding-news-today-october-5-2026-onebyzero-pandektes-fleuret-ai-more/"
+      "date": "2026-10-06",
+      "url": "https://techstartups.com/2026-10-06/startup-funding-news-today-october-6-2026-reactor-vinci-spiko-hadrian-whitelab-genomics-more"
     },
     {
-      "title": "Copenhagen's Pandektes raises €13.5M Series A for legal AI search; Paris's Fleuret AI takes €4M pre-seed for agentic penetration testing",
-      "source": "TechStartups",
-      "url": "https://techstartups.com/2026-10-05/startup-funding-news-today-october-5-2026-onebyzero-pandektes-fleuret-ai-more/"
-    },
-    {
-      "title": "Augmeta raises a $3M seed for autonomous 'AI Operators' that monitor and act on enterprise KPIs",
-      "source": "The AI Insider",
-      "url": "https://theaiinsider.tech/2026-10-05/augmeta-secures-3m-seed-to-assign-ai-operators-to-every-business-kpi"
-    },
-    {
-      "title": "SignSplit exits stealth with a $400M strategic seed at a $1B valuation for a consented human-data marketplace",
-      "source": "Forbes Italia",
-      "url": "https://forbes.it/2026-10-05/signsplit-startup-alessandro-monterosso-round-valutazione-1-miliardo"
-    },
-    {
-      "title": "JustSolve closes a €3.7M pre-seed to build agentic-AI infrastructure for debt management and collections",
-      "source": "Il Corriere della Sicurezza",
-      "url": "https://www.ilcorrieredellasicurezza.it/justsolve-raccoglie-37-milioni-di-euro-per-costruire-linfrastruttura-di-ai-agentica-per-la-gestione-e-il-recupero-crediti/"
-    },
-    {
-      "title": "Giurify debuts with €2.5M: contract AI co-founded by Federico Faggin, the inventor of the first microprocessor",
-      "source": "ANSA",
-      "url": "https://www.ansa.it/sito/notizie/economia/2026-10-05/nasce-giurify-piattaforma-di-ia-per-la-consulenza-legale_f22cbfaf-91b5-4db7-8097-aeed9ba5a00c.html"
-    },
-    {
-      "title": "Milan's TextYess raises €4M to run WhatsApp retention-marketing agents for e-commerce",
-      "source": "Forbes Italia",
-      "url": "https://forbes.it/2026-10-05/textyess-4-milioni-migliorare-marketing-e-commerce/"
+      "title": "Wave by Vento opens in Turin (Oct 7-9) with 1,500+ startups and investors expected",
+      "source": "OGR Torino",
+      "date": "2026-10-07",
+      "url": "https://ogrtorino.it/events/wave-by-vento-2026"
     }
   ],
   "spiked": {
-    "already ran": 6,
-    "low signal": 2
+    "low signal": 7,
+    "same story": 4,
+    "already ran": 4,
+    "out of window": 1
   }
 }

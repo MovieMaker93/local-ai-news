@@ -6674,6 +6674,204 @@
       "source": "Forbes Italia",
       "date": "2026-10-06",
       "issue": 36
+    },
+    {
+      "text": "Mistral Large 4 'Le Chonk': a 1T-parameter open-weights frontier model, preview live and public weights promised for Oct 27",
+      "source": "Reuters / Mistral AI",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "NVIDIA RTX Spark ships: Surface Laptop Ultra and RTX Spark PCs launch with up to 128GB unified memory",
+      "source": "Byteiota",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "EmbeddingGemma 2: Google's open, natively multimodal embedding model for local RAG",
+      "source": "Google",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "Home Assistant 2026.10 ships native MCP support, turning the whole home into context for AI agents",
+      "source": "Forkast News",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "DeepSeek closing in on a $12B+ pre-IPO round backed by Tencent and CATL",
+      "source": "TechStartups",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "TRACE: rollout-guided quantization-aware training for FP4 reinforcement learning of MoE models",
+      "source": "arXiv",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "Hiding tool latency in on-device cascaded voice agents with speculative execution",
+      "source": "arXiv",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "Secure Speculative Decoding for large language models",
+      "source": "arXiv",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "Rethinking cross-tokenizer on-policy distillation",
+      "source": "arXiv",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "How well do small language models really do at abstract reasoning?",
+      "source": "arXiv",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "Meta returns to open source with Muse Glimmer, an Apache 2.0 30B agent model sized for consumer GPUs",
+      "source": "VentureBeat",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "Alibaba puts a Qwen-Max-class model on ModelScope: Qwen3.8-2.4T-A95B, a 2.4T-param sparse MoE with open weights",
+      "source": "AICHINA.news",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "Kimi K3's weights measured: 1,453.7 GiB across 96 shards \u2014 and the GGUF repo that shipped empty",
+      "source": "ThakiCloud",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "Falcon-Emirati: when an LLM learns the dialect, the culture, and the nuance",
+      "source": "Hugging Face",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "Falcon OCR Arabic: a 270M-parameter Arabic OCR model that claims state of the art at its size",
+      "source": "Hugging Face",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "llama.cpp ships b11456-b11459: CUDA BF16 XIELU kernels, per-thread stream memsets, WebGPU fixes",
+      "source": "GitHub",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "GridCore: a scheduler that lets several local LLMs share one GPU",
+      "source": "Hacker News",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "Reika: a coding agent CLI designed around small local models first",
+      "source": "Hacker News",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "RigMark: benchmarks local AI the way coding agents actually use it",
+      "source": "GitHub",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "AMD details Ryzen AI Max+ PRO 495 'Gorgon Halo': up to 192GB unified memory, claims 320B-parameter models on device",
+      "source": "Channel Life",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "Lucebox Zero 495 pairs Ryzen AI Max+ PRO 495 with a Radeon R9700, claims 3x DGX Spark speed on MoE models",
+      "source": "Tech Times",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "Open WebUI 0.11.4 patches 19 security advisories, three of them session-token theft \u2014 upgrade if you self-host",
+      "source": "ThreatFrontier",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "Bees: open-source agentic teams that run entirely on your own computer",
+      "source": "Hacker News",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "Speck: a cognitive-architecture layer that wraps small local LLMs with memory and control flow",
+      "source": "GitHub",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "ZWhispr stacks three speech models for local dictation and transcription",
+      "source": "Hacker News",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "AgentOS: a self-hosted control plane to run coding agents from your phone",
+      "source": "GitHub",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "NanoMuse: an open-source personal AI agent for phone and desktop with local execution by default",
+      "source": "GitHub",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "ProjectTodo: a local todo board that ships its own MCP server for AI assistants",
+      "source": "GitHub",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "Orbit: a local-first delivery layer for coding-agent output",
+      "source": "GitHub",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "OpenAI announces new mathematical results from an internal frontier model, and open-sources a 722-problem math dataset with Lean proofs",
+      "source": "X (OpenAI)",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "Lambda to raise up to $4B at a $14.5B pre-money valuation ahead of a planned IPO",
+      "source": "TechCrunch",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "Vinci raises $250M at a $1.5B valuation for AI-driven physics simulation",
+      "source": "TechStartups",
+      "date": "2026-10-07",
+      "issue": 37
+    },
+    {
+      "text": "Wave by Vento opens in Turin (Oct 7-9) with 1,500+ startups and investors expected",
+      "source": "OGR Torino",
+      "date": "2026-10-07",
+      "issue": 37
     }
   ]
 }

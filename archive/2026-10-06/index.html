@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOCAL AI NEWS — open-weight intelligence · October 06, 2026</title>
+  <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
+  <link rel="stylesheet" href="style.css">
+  <style>.wt{display:flex;align-items:center;height:38px;background:var(--ink);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);margin:14px 0 0;overflow:hidden}.wtt{display:flex;align-items:center;white-space:nowrap;padding-left:20px;animation:ws 90s linear infinite}.wtt:hover{animation-play-state:paused}@keyframes ws{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.ti{display:inline-flex;align-items:center;gap:7px;padding:0 22px;cursor:pointer;border-right:1px solid var(--rule);height:38px}.ti:hover{background:rgba(240,162,60,.05)}.tih{font-family:var(--serif);font-size:13px;color:var(--type)}.tis{font-family:var(--sans);font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.mo{display:none;position:fixed;inset:0;background:rgba(10,10,12,.88);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(8px)}.mo.a{display:flex}.mb{background:#121214;border:1px solid var(--rule-strong);max-width:680px;width:90%;max-height:82vh;overflow-y:auto;padding:40px 44px;position:relative;animation:fi .2s ease}@keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.mc{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:var(--sans);padding:4px 8px}.mh{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;letter-spacing:-.01em;color:var(--type);margin:0 0 14px;padding-right:32px}.mm{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}.mm a{color:var(--lux)}.mm a:hover{text-decoration:underline}.mbd{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--type-dim)}.mbd .en{display:block;color:var(--lux-soft);font-style:italic;font-size:15px;margin-top:14px;padding-left:12px;border-left:2px solid var(--rule-strong)}.mbd .as{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.5}.mbd .as .al{color:var(--lux-soft);font-weight:600;font-family:var(--sans);font-size:10px;letter-spacing:.06em;text-transform:uppercase}</style></head>
+  <body>
+  <div class="container">
+
+  <header class="masthead">
+    <div class="topline"></div>
+    <div class="ears">
+      <span class="left">Est. MMXXVI</span>
+      <span class="right">No. 36 <a href="/archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+    </div>
+    <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
+      <hr class="rule-double">
+      <div class="dateline">
+        <span>October 06, 2026</span>
+        <span class="dot">◆</span>
+        <span class="tag">open weights, on your metal</span>
+        <span class="dot">◆</span>
+        <span>73 stories</span>
+      </div>
+      <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
+      <hr class="rule-thin">
+    </header>
+
+    
+
+    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="Reflection AI has unveiled Beam, the Brooklyn startup&#x27;s first frontier-class open-weight model, positioning it as a cheaper Western rival to leading Chinese open models. According to TechCrunch, the two-year-old company says Beam matches top Chinese open models on advanced reasoning benchmarks while requiring far less compute, a claim the outlet notes has not been independently verified." data-b="Technically, Beam is a text-only mixture-of-experts model trained on high-compute reinforcement learning. It carries 501 billion total parameters with 23 billion active, was pretrained on 23.8 trillion tokens, and supports a 1 million token context window. By comparison, Z.ai&#x27;s GLM-5.2 has roughly 744 billion total parameters and 40 billion active. Reflection says Beam uses three to four times less inference compute than rivals and performs better than today&#x27;s leading Western open models, calling it a &quot;workhorse model&quot; for enterprises, the public sector, and developers.
+
+Its competitive frame is wide: closed labs like Anthropic and OpenAI, Chinese open models, and Western players such as Mistral, Meta and Cohere. Its closest US rival may be Inkling, Mira Murati&#x27;s Thinking Machines Lab model, which Beam reportedly beats on four coding tests, though Inkling is multimodal and Beam is text-only.
+
+Reflection has raised roughly $4.7 billion, per PitchBook, and signed compute deals worth more than $7 billion with SpaceX and Nebius for Nvidia GB300 chips through 2029. It is pitching &quot;AI factories&quot; for enterprises and sovereign nations, including a trial partnership with South Korea&#x27;s Shinsegae Group. Weights and full technical details are due this month.
+
+*The compute-cost framing matters more than the benchmark talk: if Reflection&#x27;s unverified numbers hold up, the open-model race has shifted from raw capability to price-per-token economics.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/"><span class="tih">Reflection AI has unveiled Beam, the Brooklyn startup&#x27;s first frontier-class open-weight model, positioning it as a cheaper Western rival to leading Chinese open models. According to TechCrunch, the two-year-old company says Beam matches top Chinese open models on advanced reasoning benchmarks while requiring far less compute, a claim the outlet notes has not been independently verified.</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Open-source command-line tool strips Apple Intelligence from macOS 27" data-b="macOS 27 Golden Gate has dropped the toggle that previously let owners switch Apple Intelligence off, and, as Ars Technica reports, one developer&#x27;s response is a terminal command. Because no single on/off switch exists this time, the AI models needed by Apple Intelligence stay on disk even for people who hunt down and disable individual AI capabilities in Settings.
+
+In response, a GitHub developer known as Om Lahore published RemoveMacAI last week, a fully reversible utility. According to a Reddit post first picked up by MacRumors, it shuts off Siri, Writing Tools, Genmoji, Image Playground, the ChatGPT extension and the summary features, deletes the underlying models, and stops macOS from re-downloading them; dictation keeps working, since that sits under a separate setting. Lahore puts the models at &quot;about 12GB&quot; in the tool&#x27;s documentation, though The Verge noted the footprint can top 30GB.
+
+Mechanically, the tool installs a configuration profile the user approves in System Settings and relies on Apple&#x27;s own asset service, so System Integrity Protection stays active and nothing inside /System is touched, Ars Technica explains. A `removemacai revert` command removes the profile and lets macOS refetch the models, and unwanted features can be removed selectively. Some Reddit users say it works, and the repository had around 1,700 stars at publication.
+
+*The appeal here says less about Apple&#x27;s AI ambitions than about how much owners resent storage and settings real estate they never asked for.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="arstechnica.com" data-u="https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/"><span class="tih">Open-source command-line tool strips Apple Intelligence from macOS 27</span> <span class="tis">— arstechnica.com</span></div><div class="ti" onclick="openArt(this)" data-h="PearX demo day puts five startups in front of venture investors" data-b="The latest cohort of PearX, the 12-week accelerator run by pre-seed and seed-focused venture firm Pear VC, closed with a demo day in San Francisco last week, and TechCrunch spoke with venture capitalists there about which of the 16 startups stood out. The program is deliberately small, capping each cohort at 20 companies, and, unlike Y Combinator, offers no standard deal terms — its investments can reach $2 million. PearX also says it keeps participating startups quiet until demo day, unlike programs where the hottest names raise during the course.
+
+Among the five companies that generated the most buzz, Speridlabs is building foundational models for 3D space aimed at robotics, gaming and special effects, arguing that rivals such as Runway, Odyssey and Google&#x27;s Genie cannot be queried or modified. Saia is designing an inference chip that runs AI directly from flash storage instead of conventional memory, claiming eight times the capacity and a quarter of the power draw of Nvidia&#x27;s Jetson, with mass production targeted for 2028. Ren pitches a privacy-focused AI personal assistant with a fully automated voice calling system. Veros applies AI to trust and estate planning and already manages $250 million in assets. Datum indexes a company&#x27;s library of 3D designs so engineers can reuse prior work.
+
+*The batch&#x27;s shift from pure software toward silicon and physical-world models suggests local AI is becoming as interesting to investors as local apps.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/05/5-startups-that-caught-vcs-attention-at-the-latest-pearx-demo-day/"><span class="tih">PearX demo day puts five startups in front of venture investors</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia&#x27;s Shield TV Pro just got a $100 price hike, bringing the seven-year-old streamer to $299.99, according to a report from Wired, originally published on Ars Technica. The current Shield TV Pro debuted in 2019 and launched at $199.99, while the cheaper $149.99 non-Pro model has been discontinued, leaving the Pro as the last survivor of the line." data-b="The company points the finger at the AI boom. A spokesperson told Ars Technica that component costs, memory included, have increased substantially across the industry, making the older device more expensive to build. Nvidia&#x27;s Andrew Bell had earlier described the Shield as a passion project, noting the firm still manufactures it and sells every unit produced. With no stockpile of pre-AI hardware to fall back on, new units face the same supply-chain constraints now squeezing smartphones and computers.
+
+Wired is careful not to paint Nvidia as a victim. As a top supplier of AI accelerators and one of the most valuable companies in the world, Nvidia is itself partly responsible for elevated component costs. The console world shows the same pattern, with Nintendo, Microsoft and Sony all bumping prices on current-generation hardware; the PS5 Pro, for example, went from $699.99 at its 2024 launch to $899.99. The Shield TV Pro was out of stock at Nvidia&#x27;s store at publication, though Best Buy still lists it at the new price. For viewers who only want Netflix, Wired recommends a cheaper streamer unless the broad codec support or Plex server features are a must.
+
+*Seven years on, the Shield&#x27;s biggest obstacle isn&#x27;t its aging Tegra chip — it&#x27;s an industry-wide memory shortage that Nvidia itself helped create.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/"><span class="tih">Nvidia&#x27;s Shield TV Pro just got a $100 price hike, bringing the seven-year-old streamer to $299.99, according to a report from Wired, originally published on Ars Technica. The current Shield TV Pro debuted in 2019 and launched at $199.99, while the cheaper $149.99 non-Pro model has been discontinued, leaving the Pro as the last survivor of the line.</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Reflection AI has unveiled Beam, the Brooklyn startup&#x27;s first frontier-class open-weight model, positioning it as a cheaper Western rival to leading Chinese open models. According to TechCrunch, the two-year-old company says Beam matches top Chinese open models on advanced reasoning benchmarks while requiring far less compute, a claim the outlet notes has not been independently verified." data-b="Technically, Beam is a text-only mixture-of-experts model trained on high-compute reinforcement learning. It carries 501 billion total parameters with 23 billion active, was pretrained on 23.8 trillion tokens, and supports a 1 million token context window. By comparison, Z.ai&#x27;s GLM-5.2 has roughly 744 billion total parameters and 40 billion active. Reflection says Beam uses three to four times less inference compute than rivals and performs better than today&#x27;s leading Western open models, calling it a &quot;workhorse model&quot; for enterprises, the public sector, and developers.
+
+Its competitive frame is wide: closed labs like Anthropic and OpenAI, Chinese open models, and Western players such as Mistral, Meta and Cohere. Its closest US rival may be Inkling, Mira Murati&#x27;s Thinking Machines Lab model, which Beam reportedly beats on four coding tests, though Inkling is multimodal and Beam is text-only.
+
+Reflection has raised roughly $4.7 billion, per PitchBook, and signed compute deals worth more than $7 billion with SpaceX and Nebius for Nvidia GB300 chips through 2029. It is pitching &quot;AI factories&quot; for enterprises and sovereign nations, including a trial partnership with South Korea&#x27;s Shinsegae Group. Weights and full technical details are due this month.
+
+*The compute-cost framing matters more than the benchmark talk: if Reflection&#x27;s unverified numbers hold up, the open-model race has shifted from raw capability to price-per-token economics.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/"><span class="tih">Reflection AI has unveiled Beam, the Brooklyn startup&#x27;s first frontier-class open-weight model, positioning it as a cheaper Western rival to leading Chinese open models. According to TechCrunch, the two-year-old company says Beam matches top Chinese open models on advanced reasoning benchmarks while requiring far less compute, a claim the outlet notes has not been independently verified.</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Open-source command-line tool strips Apple Intelligence from macOS 27" data-b="macOS 27 Golden Gate has dropped the toggle that previously let owners switch Apple Intelligence off, and, as Ars Technica reports, one developer&#x27;s response is a terminal command. Because no single on/off switch exists this time, the AI models needed by Apple Intelligence stay on disk even for people who hunt down and disable individual AI capabilities in Settings.
+
+In response, a GitHub developer known as Om Lahore published RemoveMacAI last week, a fully reversible utility. According to a Reddit post first picked up by MacRumors, it shuts off Siri, Writing Tools, Genmoji, Image Playground, the ChatGPT extension and the summary features, deletes the underlying models, and stops macOS from re-downloading them; dictation keeps working, since that sits under a separate setting. Lahore puts the models at &quot;about 12GB&quot; in the tool&#x27;s documentation, though The Verge noted the footprint can top 30GB.
+
+Mechanically, the tool installs a configuration profile the user approves in System Settings and relies on Apple&#x27;s own asset service, so System Integrity Protection stays active and nothing inside /System is touched, Ars Technica explains. A `removemacai revert` command removes the profile and lets macOS refetch the models, and unwanted features can be removed selectively. Some Reddit users say it works, and the repository had around 1,700 stars at publication.
+
+*The appeal here says less about Apple&#x27;s AI ambitions than about how much owners resent storage and settings real estate they never asked for.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="arstechnica.com" data-u="https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/"><span class="tih">Open-source command-line tool strips Apple Intelligence from macOS 27</span> <span class="tis">— arstechnica.com</span></div><div class="ti" onclick="openArt(this)" data-h="PearX demo day puts five startups in front of venture investors" data-b="The latest cohort of PearX, the 12-week accelerator run by pre-seed and seed-focused venture firm Pear VC, closed with a demo day in San Francisco last week, and TechCrunch spoke with venture capitalists there about which of the 16 startups stood out. The program is deliberately small, capping each cohort at 20 companies, and, unlike Y Combinator, offers no standard deal terms — its investments can reach $2 million. PearX also says it keeps participating startups quiet until demo day, unlike programs where the hottest names raise during the course.
+
+Among the five companies that generated the most buzz, Speridlabs is building foundational models for 3D space aimed at robotics, gaming and special effects, arguing that rivals such as Runway, Odyssey and Google&#x27;s Genie cannot be queried or modified. Saia is designing an inference chip that runs AI directly from flash storage instead of conventional memory, claiming eight times the capacity and a quarter of the power draw of Nvidia&#x27;s Jetson, with mass production targeted for 2028. Ren pitches a privacy-focused AI personal assistant with a fully automated voice calling system. Veros applies AI to trust and estate planning and already manages $250 million in assets. Datum indexes a company&#x27;s library of 3D designs so engineers can reuse prior work.
+
+*The batch&#x27;s shift from pure software toward silicon and physical-world models suggests local AI is becoming as interesting to investors as local apps.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="techcrunch.com" data-u="https://techcrunch.com/2026/10/05/5-startups-that-caught-vcs-attention-at-the-latest-pearx-demo-day/"><span class="tih">PearX demo day puts five startups in front of venture investors</span> <span class="tis">— techcrunch.com</span></div><div class="ti" onclick="openArt(this)" data-h="Nvidia&#x27;s Shield TV Pro just got a $100 price hike, bringing the seven-year-old streamer to $299.99, according to a report from Wired, originally published on Ars Technica. The current Shield TV Pro debuted in 2019 and launched at $199.99, while the cheaper $149.99 non-Pro model has been discontinued, leaving the Pro as the last survivor of the line." data-b="The company points the finger at the AI boom. A spokesperson told Ars Technica that component costs, memory included, have increased substantially across the industry, making the older device more expensive to build. Nvidia&#x27;s Andrew Bell had earlier described the Shield as a passion project, noting the firm still manufactures it and sells every unit produced. With no stockpile of pre-AI hardware to fall back on, new units face the same supply-chain constraints now squeezing smartphones and computers.
+
+Wired is careful not to paint Nvidia as a victim. As a top supplier of AI accelerators and one of the most valuable companies in the world, Nvidia is itself partly responsible for elevated component costs. The console world shows the same pattern, with Nintendo, Microsoft and Sony all bumping prices on current-generation hardware; the PS5 Pro, for example, went from $699.99 at its 2024 launch to $899.99. The Shield TV Pro was out of stock at Nvidia&#x27;s store at publication, though Best Buy still lists it at the new price. For viewers who only want Netflix, Wired recommends a cheaper streamer unless the broad codec support or Plex server features are a must.
+
+*Seven years on, the Shield&#x27;s biggest obstacle isn&#x27;t its aging Tegra chip — it&#x27;s an industry-wide memory shortage that Nvidia itself helped create.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/"><span class="tih">Nvidia&#x27;s Shield TV Pro just got a $100 price hike, bringing the seven-year-old streamer to $299.99, according to a report from Wired, originally published on Ars Technica. The current Shield TV Pro debuted in 2019 and launched at $199.99, while the cheaper $149.99 non-Pro model has been discontinued, leaving the Pro as the last survivor of the line.</span> <span class="tis">— wired.com</span></div></div></div>
+<div class="lead-zone">
+      <article class="lead">
+  <a href="https://startupfortune.com/a-wave-of-narrow-ai-inference-engines-is-beating-vllm-and-llamacpp-at-their-own-game" target="_blank" rel="noopener">
+    <img src="images/lead_2026-10-06.jpg" alt="" class="lead-image">
+    <div class="lead-grid">
+      <div class="lead-head">
+        <p class="kicker">Inference engines</p>
+        <h1>Narrow, single-architecture inference engines are beating llama.cpp and vLLM on consumer rigs</h1>
+      </div>
+      <div class="lead-body">
+        <p class="deck">Purpose-built 'napkin runtimes' that each target one hardware family — Strata, nInfer, DwarfStar, Splash, llamAmpere, gufo — are winning on narrow workloads by wide margins. Strata runs the 125B Qwen3.8-Flash-Next MoE on a single 12GB GPU at 50-120 tok/s (94 on an RTX 5070, 60 on an RX 9070 XT) by keeping hot experts in VRAM and the expert pool in system RAM, hitting 53.2 tok/s versus 20.8 for upstream llama.cpp on the same box; CUDA-only nInfer beat Strata at every context length, and Apple-Silicon-only Splash pushes roughly 210 tok/s on a 48GB M5 Pro. The signal for local-AI operators: single-vendor kernels now beat cross-platform engines where the workload fits the runtime's niche.</p>
+        <p class="byline"><span class="src">Startup Fortune</span> · <span>2026-10-05</span> · <span class="more">Read the dispatch →</span></p>
+      </div>
+    </div>
+  </a>
+</article>
+
+    </div>
+
+    <div class="topstories">
+<article class="story">
+  <a href="https://github.com/vllm-project/vllm/releases" target="_blank" rel="noopener">
+    <h3>vLLM v0.31.0 makes FlashMLA mega attention the SM100 default and adds a 'vllm preload' fast-restart CLI</h3>
+    <p>The 717-commit release (Oct 5) makes FlashMLA mega attention with V4.1 NVFP4 compressed KV cache the default on SM100, adds fused sparse-MQA/gate/MoE kernels, and introduces a preload CLI that keeps post-quantized weights resident in GPU memory across engine restarts — plus data-parallel preload, MTP draft models and a /health endpoint.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-10-05</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://github.com/ggml-org/ggml/releases/tag/v0.26.0" target="_blank" rel="noopener">
+    <h3>ggml v0.26.0 ships sparse Flash Attention for SYCL, Vulkan and Metal</h3>
+    <p>The tensor library under llama.cpp gained sparse Flash Attention kernels — including sparse FA for quantized KV caches — on the SYCL, Vulkan and Metal backends, directly affecting memory use and long-context speed on Intel, AMD and Apple Silicon GPUs.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-10-05</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://www.xda-developers.com/32gb-ddr5-kits-cost-more-than-cpu-waiting-ram-prices-to-drop-is-a-trap/" target="_blank" rel="noopener">
+    <h3>32GB DDR5 kits now cost more than a flagship CPU as the memory shortage squeezes LLM rig builds</h3>
+    <p>32GB has displaced 16GB as the top RAM capacity in gaming rigs despite the shortage, and DDR5 is up as much as ~486% during 2026 as HBM/AI demand pulls capacity from consumer DRAM and GDDR6/GDDR7 — with Intel's third CPU price hike (~10%, effective Oct 5) and AMD's ~10% Q4 increase landing in the same window, the cost floor for VRAM-offload and unified-memory builds keeps rising.</p>
+    <p class="byline"><span class="src">XDA Developers</span> · 2026-10-05</p>
+  </a>
+</article>
+
+</div>
+
+
+    <div class="sections">
+      <section class="section">
+  <div class="section-head">
+    <h2>Open Weights &amp; Models</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  <div class="section-hero"><img src="images/section_open_weights_2026-10-06.jpg" alt="" class="section-hero-img"></div>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://huggingface.co/Lightricks/LTX-2.5" target="_blank" rel="noopener">
+    <h4>LTX-2.5: Lightricks' open-weights image-to-video backbone tops Hugging Face trending</h4>
+    <p>The LTX-2.5 checkpoint (~6.5k likes) is the most-liked model on the HF trending page this week — a rare new open-weight video-generation backbone that local-GPU users can self-host.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-10-02</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.8-27B" target="_blank" rel="noopener">
+    <h4>ThinkingCap-Qwen3.8-27B cuts reasoning tokens 37% with about a 1-point accuracy drop</h4>
+    <p>Keeps 85.8% average accuracy vs the base model's 86.6% while cutting thinking verbosity by 37% on average (11-66% per benchmark) — fewer reasoning tokens means faster, cheaper local inference.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-10-06</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf" target="_blank" rel="noopener">
+    <h4>Ternary-Bonsai-2-27B GGUF pushes ternary-quantized 27B weights into the llama.cpp ecosystem</h4>
+    <p>The 2.4k-like GGUF release (trending all week) extends the Oct 5-6 trend of sub-5-bit quants of large models for consumer VRAM — Xing4.0-29B-A4B-GGUF and a GLM-5.3 EXL3 quant are also trending.</p>
+    <p class="byline"><span class="src">HuggingFace</span> · 2026-10-06</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Tools &amp; Runtimes</h2>
+    <span class="line"></span>
+    <span class="n">05</span>
+  </div>
+  <div class="section-hero"><img src="images/section_tools_runtimes_2026-10-06.jpg" alt="" class="section-hero-img"></div>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://github.com/ggml-org/llama.cpp/releases" target="_blank" rel="noopener">
+    <h4>llama.cpp v0.6.0: GLM-5.3-Flash support, MTP speculative decoding, revamped Web UI</h4>
+    <p>The v0.6.0 release (Oct 5) adds the llama_batch_ext batch API, support for the 320B GLM-5.3-Flash text+vision hybrid and the Clef decision model, MTP speculative decoding for Qwen4Exp (~1.5x decode speedup on DGX Spark), a /v1/systemone server API, a rebuilt Web UI with a Hugging Face Hub download pipeline, and Metal/Vulkan flash-attention kernels — and bumps bundled ggml to v0.26.0.</p>
+    <p class="byline"><span class="src">GitHub</span> · 2026-10-05</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://news.ycombinator.com/item?id=49973649" target="_blank" rel="noopener">
+    <h4>Show HN: Crowsnest — local macOS workspace for running Claude Code and Codex in one app</h4>
+    <p>A paid, local-first macOS coordinator for the Claude Code and Codex runtimes already installed on your machine: multiple provider accounts, searchable agent history, cross-runtime handoffs via attributed forks, parallel agent crews and remote workspaces over SSH. All transcripts stay on the local machine (UI binds to 127.0.0.1).</p>
+    <p class="byline"><span class="src">Hacker News</span> · 2026-10-06</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://news.ycombinator.com/item?id=49971028" target="_blank" rel="noopener">
+    <h4>Show HN: Ototo — offload code exploration to a smaller, cheaper model before the frontier model</h4>
+    <p>Ototo hands code-exploration subtasks to a smaller model ahead of the expensive primary model, cutting token cost and latency on large repos — part of a growing pattern of routing parts of agent workflows away from the frontier model.</p>
+    <p class="byline"><span class="src">Hacker News</span> · 2026-10-05</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://news.ycombinator.com/item?id=49973266" target="_blank" rel="noopener">
+    <h4>Show HN: Jev Browser Wingman — an MCP proxy that hands an agent's browser clicks to TypeSafe's Jev</h4>
+    <p>The MCP proxy routes browser clicks made by coding agents through Jev's protection layer, so agentic browser automation gets policy enforcement before actions execute — relevant to anyone wiring browser-use/MCP tooling into local agent stacks.</p>
+    <p class="byline"><span class="src">Hacker News</span> · 2026-10-06</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://news.ycombinator.com/item?id=49970586" target="_blank" rel="noopener">
+    <h4>Show HN: Simulkit — estimate which local LLMs fit on any Apple Silicon Mac</h4>
+    <p>Simulkit's Mac Local LLMs page simulates decode/prefill speed and memory fit for dozens of GGUF-era models (Qwen, Gemma, DeepSeek, GLM, gpt-oss) on each Apple Silicon chip using memory bandwidth, GPU compute and macOS wired-memory limits — a sanity check before downloading weights.</p>
+    <p class="byline"><span class="src">Hacker News</span> · 2026-10-05</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Self-Hosted Stack</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  <div class="section-hero"><img src="images/section_self_hosted_stack_2026-10-06.jpg" alt="" class="section-hero-img"></div>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1wa26pn/friends_dont_let_friends_use_ollama/" target="_blank" rel="noopener">
+    <h4>r/LocalLLaMA: 'Friends Don't Let Friends Use Ollama' — pushback on Ollama as the default local stack</h4>
+    <p>A 1.3K+ upvote thread circulates the writeup arguing Ollama's wrapper layer hides llama.cpp features (flash attention, KV-cache quantization, sampler control) and degrades performance versus running llama.cpp or llama-server directly, reflecting a community shift toward direct llama.cpp/llama-server deployments.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-10-05</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1wcj5q3/harness_does_matter/" target="_blank" rel="noopener">
+    <h4>r/LocalLLaMA: 'Harness does matter' — the agent/frontend wrapping a local model changes results more than expected</h4>
+    <p>Users report the same local model performing very differently depending on its harness (Open WebUI, OpenClaw-style agents, raw API). Practical takeaway for self-hosters: benchmark and tune the harness and system prompt around a local model, not just the checkpoint.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-10-06</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1wapjaw/openai_alleged_of_stealing_mathematicians_work/" target="_blank" rel="noopener">
+    <h4>r/LocalLLaMA: mathematicians' leaked work on Codex fuels the 'run local for privacy' argument</h4>
+    <p>A top thread (1.4K+ upvotes) covers the allegation that two mathematicians had years of their own work exposed after feeding drafts into a cloud coding agent, prompting heavy-model users to route around cloud AI and treat self-hosted inference as a hedge against providers mining user data.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-10-05</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+    </div>
+
+    <div class="trending-wrap">
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Repos on GitHub</h1>
+      <div class="t-line"></div>
+      <a href="https://github.com/trending" target="_blank" rel="noopener" class="t-link">Go to GitHub trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://github.com/msitarzewski/agency-agents" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">msitarzewski/agency-agents</span>
+    <span class="t-meta">Shell · 157.4k ★ · +744 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/thedotmack/claude-mem" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">thedotmack/claude-mem</span>
+    <span class="t-meta">TypeScript · 96.7k ★ · +534 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/Panniantong/Agent-Reach" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Panniantong/Agent-Reach</span>
+    <span class="t-meta">Python · 92.1k ★ · +1,155 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/calesthio/OpenMontage" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">calesthio/OpenMontage</span>
+    <span class="t-meta">Python · 64.2k ★ · +742 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/earthtojake/text-to-cad" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">earthtojake/text-to-cad</span>
+    <span class="t-meta">Python · 17.5k ★ · +437 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/cloudflare/cloudflare-os" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">cloudflare/cloudflare-os</span>
+    <span class="t-meta">TypeScript · 11.1k ★ · +101 today</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/michael-denyer/pstack-claude" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">michael-denyer/pstack-claude</span>
+    <span class="t-meta">JavaScript · 1.5k ★ · +223 today</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+  
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Trending on HF</h1>
+      <div class="t-line"></div>
+      <a href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener" class="t-link">Go to Hugging Face trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://huggingface.co/Cloudflare/clef" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Cloudflare/clef</span>
+    <span class="t-meta">1.5k likes · image-text-to-text, Cloudflare's agent-facing multimodal model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">abenzerps/Qwen-Image-2.1-Uncensored-GGUF</span>
+    <span class="t-meta">3.3k likes · text-to-image, GGUF quant of Qwen-Image-2.1</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/convaiinnovations/laya" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">convaiinnovations/laya</span>
+    <span class="t-meta">5.2k likes · trending text-classification model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Aleph-Alpha/Kolibri-1" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Aleph-Alpha/Kolibri-1</span>
+    <span class="t-meta">78B MoE (~3.46B active), 1M context, Apache-2.0 sovereign open-weights LLM</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/autotrust/JEV-27B-VL" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">autotrust/JEV-27B-VL</span>
+    <span class="t-meta">721 likes · 27B vision-language model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Cloudflare/clef-flash" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">Cloudflare/clef-flash</span>
+    <span class="t-meta">539 likes · compact image-text-to-text sibling of Clef</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Lightricks/LTX-2.5" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">Lightricks/LTX-2.5</span>
+    <span class="t-meta">6.5k likes · open-weights image-to-video diffusion backbone</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">Venastine-Research/Xing4.0-29B-A4B-GGUF</span>
+    <span class="t-meta">29B MoE (4B active), GGUF quant for local inference</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/autotrust/GEV-26B-Decide" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">autotrust/GEV-26B-Decide</span>
+    <span class="t-meta">471 likes · 26B decision/classification model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/PSRben/VisionHOPE" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">PSRben/VisionHOPE</span>
+    <span class="t-meta">426 likes · image-classification model</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+</div>
+
+
+    <section class="section" id="free-models">
+  <div class="section-head">
+    <h2>Free Models</h2>
+    <span class="line"></span>
+    <span class="n">29</span>
+  </div>
+
+  <p class="section-note">Free means $0 per token today, not unlimited or unconditional: both platforms rate-limit free use and require a free API key, some OpenRouter free endpoints may train on your prompts unless you opt out in account settings, and the roster changes daily. Verified against each provider's own pricing data at generation time — but pricing changes without notice, so confirm it's still free on the provider's own page before you rely on it.</p>
+
+  <div class="trending-wrap trending-wrap--in-section">
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenRouter</h1>
+        <div class="t-line"></div>
+        <a href="https://openrouter.ai/models?max_price=0" target="_blank" rel="noopener" class="t-link">Browse free models →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://openrouter.ai/apodex/apodex-1.1-mini:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Apodex: Apodex 1.1 Mini (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/cohere/north-mini-code:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Cohere: North Mini Code (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/dots-studio/dots-3-note-preview:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Dots Studio: Dots3-Note Preview (free)</span>
+    <span class="t-meta">512K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-26b-a4b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Google: Gemma 4 26B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-31b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Google: Gemma 4 31B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.0-flash-sante:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">inclusionAI: Ling 3.0 Flash Sante (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.1-flash" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">inclusionAI: Ling 3.1 Flash</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/liquid/lfm-2.5-2.6b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">LiquidAI: LFM2.5-2.6B (free)</span>
+    <span class="t-meta">65K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Nano Omni (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Super (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Ultra (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Content Safety (free)</span>
+    <span class="t-meta">128K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-lightning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#13</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Lightning (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-s-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#14</span>
+    <span class="t-name">Poolside: Laguna S 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-xs-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#15</span>
+    <span class="t-name">Poolside: Laguna XS 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#16</span>
+    <span class="t-name">Thinking Machines: Inkling (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling-small:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#17</span>
+    <span class="t-name">Thinking Machines: Inkling Small (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenCode Zen</h1>
+        <div class="t-line"></div>
+        <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener" class="t-link">See the full Zen catalog →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Big Pickle</span>
+    <span class="t-meta">big-pickle</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Space Bunny Free</span>
+    <span class="t-meta">space-bunny-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">LongCat 2.5 Preview Free</span>
+    <span class="t-meta">longcat-2.5-preview-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Fledge Alpha Free</span>
+    <span class="t-meta">fledge-alpha-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">MiMo-V2.6-Flash Free</span>
+    <span class="t-meta">mimo-v2.6-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">MiMo-V2.5 Free</span>
+    <span class="t-meta">mimo-v2.5-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">Ling 3.1 Flash Free</span>
+    <span class="t-meta">ling-3.1-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">Ling 3.0 Flash Fin Free</span>
+    <span class="t-meta">ling-3.0-flash-fin-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">Nemotron 3 Ultra Free</span>
+    <span class="t-meta">nemotron-3-ultra-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">Nemotron 3.5 Lightning Free</span>
+    <span class="t-meta">nemotron-3.5-lightning-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">Muse Spark 1.3 Contributor Free</span>
+    <span class="t-meta">muse-spark-1.3-contributor-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">Jev 1.13 Free</span>
+    <span class="t-meta">jev-1.13-free</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <section class="inbrief">
+  <div class="section-head">
+    <h2>In Brief</h2>
+    <span class="line"></span>
+    <span class="n">12</span>
+  </div>
+  <ul class="qh-list">
+    <li><a href="https://www.explainx.ai/blog/strata-qwen3-8-flash-next-125b-consumer-gpu-100-tokens-per-second-2026" target="_blank" rel="noopener"><span class="qh-title">Strata hits HN's front page: a 125B MoE on 12GB VRAM plus system RAM, with an OpenAI/Anthropic-compatible localhost API</span><span class="qh-src">ExplainX</span></a></li>
+
+    <li><a href="https://edgen.tech/fr/news/post/amd-passes-tsmcs-10-wafer-hike-to-customers-from-q4" target="_blank" rel="noopener"><span class="qh-title">Intel's ~10% CPU price increase took effect Oct 5; AMD passes TSMC's wafer-cost hike to Instinct, Radeon and chipsets in Q4</span><span class="qh-src">Edgen Tech</span></a></li>
+
+    <li><a href="https://techcrunch.com/2026-10-05/etched-fields-funding-offers-at-40b-valuation-sources-say/" target="_blank" rel="noopener"><span class="qh-title">Etched reportedly fields funding offers at a $40B-$50B valuation, up from $21B weeks after its $700M raise</span><span class="qh-src">TechCrunch</span></a></li>
+
+    <li><a href="https://techcrunch.com/2026-10-05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai/" target="_blank" rel="noopener"><span class="qh-title">Ghost raises an $11M a16z-led seed for its $3,499 screenless 'Core' personal AI computer</span><span class="qh-src">TechCrunch</span></a></li>
+
+    <li><a href="https://techcrunch.com/2026-10-05/after-factorys-public-spat-with-khosla-menlo-proudly-invests/" target="_blank" rel="noopener"><span class="qh-title">Menlo Ventures confirms a 'significant' investment in AI coding startup Factory's $5B-valuation round</span><span class="qh-src">TechCrunch</span></a></li>
+
+    <li><a href="https://techstartups.com/2026-10-05/startup-funding-news-today-october-5-2026-onebyzero-pandektes-fleuret-ai-more/" target="_blank" rel="noopener"><span class="qh-title">OneByZero closes a $20M Series A led by Jungle Ventures for enterprise AI agent deployment infrastructure</span><span class="qh-src">TechStartups</span></a></li>
+
+    <li><a href="https://techstartups.com/2026-10-05/startup-funding-news-today-october-5-2026-onebyzero-pandektes-fleuret-ai-more/" target="_blank" rel="noopener"><span class="qh-title">Copenhagen's Pandektes raises €13.5M Series A for legal AI search; Paris's Fleuret AI takes €4M pre-seed for agentic penetration testing</span><span class="qh-src">TechStartups</span></a></li>
+
+    <li><a href="https://theaiinsider.tech/2026-10-05/augmeta-secures-3m-seed-to-assign-ai-operators-to-every-business-kpi" target="_blank" rel="noopener"><span class="qh-title">Augmeta raises a $3M seed for autonomous 'AI Operators' that monitor and act on enterprise KPIs</span><span class="qh-src">The AI Insider</span></a></li>
+
+    <li><a href="https://forbes.it/2026-10-05/signsplit-startup-alessandro-monterosso-round-valutazione-1-miliardo" target="_blank" rel="noopener"><span class="qh-title">SignSplit exits stealth with a $400M strategic seed at a $1B valuation for a consented human-data marketplace</span><span class="qh-src">Forbes Italia</span></a></li>
+
+    <li><a href="https://www.ilcorrieredellasicurezza.it/justsolve-raccoglie-37-milioni-di-euro-per-costruire-linfrastruttura-di-ai-agentica-per-la-gestione-e-il-recupero-crediti/" target="_blank" rel="noopener"><span class="qh-title">JustSolve closes a €3.7M pre-seed to build agentic-AI infrastructure for debt management and collections</span><span class="qh-src">Il Corriere della Sicurezza</span></a></li>
+
+    <li><a href="https://www.ansa.it/sito/notizie/economia/2026-10-05/nasce-giurify-piattaforma-di-ia-per-la-consulenza-legale_f22cbfaf-91b5-4db7-8097-aeed9ba5a00c.html" target="_blank" rel="noopener"><span class="qh-title">Giurify debuts with €2.5M: contract AI co-founded by Federico Faggin, the inventor of the first microprocessor</span><span class="qh-src">ANSA</span></a></li>
+
+    <li><a href="https://forbes.it/2026-10-05/textyess-4-milioni-migliorare-marketing-e-commerce/" target="_blank" rel="noopener"><span class="qh-title">Milan's TextYess raises €4M to run WhatsApp retention-marketing agents for e-commerce</span><span class="qh-src">Forbes Italia</span></a></li>
+
+  </ul>
+</section>
+
+
+    <footer class="colophon">
+      <p class="mark">Per aspera ad astra</p>
+      <p class="meta">Compiled by Hermes Agent · 2026-10-06 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
+    </footer>
+
+  </div>
+<div class="mo" id="mo" onclick="cm(event)"><div class="mb"><button class="mc" onclick="cm()">✕</button><h2 class="mh" id="mh"></h2><p class="mm">Source: <span id="ms"></span></p><div class="mbd" id="mbd"></div></div></div>
+<script>function openArt(el){var h=el.getAttribute('data-h'),b=el.getAttribute('data-b'),s=el.getAttribute('data-s'),u=el.getAttribute('data-u');document.getElementById('mh').textContent=h;var sl=document.getElementById('ms');if(u&&u!=='#'&&u!==''){sl.innerHTML='<a href="'+u+'" target="_blank" rel="noopener">'+s+'</a>';}else{sl.textContent=s;}var aiS='*— Written by AI (';var i=b.indexOf(aiS);if(i>=0){var bf=b.substring(0,i);var af=b.substring(i+aiS.length);var mdl=af.split(')')[0];bf=bf.split('\n').join('<br>');bf=bf.replace(/\*([^*]+)\*/g,'<em class="en">$1</em>');var sg='<div class="as"><span class="al">⬥ AI-GENERATED</span><br>Model: '+mdl+'</div>';document.getElementById('mbd').innerHTML=bf+sg;}else{document.getElementById('mbd').innerHTML=b.split('\n').join('<br>');}document.getElementById('mo').classList.add('a');document.body.style.overflow='hidden';}function cm(e){if(e&&e.target!=document.getElementById('mo'))return;document.getElementById('mo').classList.remove('a');document.body.style.overflow='';}document.addEventListener('keydown',function(e){if(e.key==='Escape')cm()});</script></body>
+</html>
