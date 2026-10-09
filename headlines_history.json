@@ -6872,6 +6872,204 @@
       "source": "OGR Torino",
       "date": "2026-10-07",
       "issue": 37
+    },
+    {
+      "text": "LightOnOCR-3 folds text recognition and layout extraction into one open model",
+      "source": "Hugging Face",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "Manus raises over $500M in its first round since the Meta split",
+      "source": "TechCrunch",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "Nous Research raises $90M Series B at a $1.5B valuation for open-source agents",
+      "source": "DigitalToday",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "Model leaderboard Arena nearly doubles its valuation to $3.1B in 10 months",
+      "source": "TechCrunch",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "SparseDecoding: pruning LLMs scored on the model's own generated tokens",
+      "source": "arXiv",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "Rounding in preconditioner space redesigns 4-bit AdamW optimizer-state quantization",
+      "source": "arXiv",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "When lower reconstruction loss hurts: robust refinement for low-bit LLM quantization",
+      "source": "arXiv",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "Where draft trees lose target mass: exit-guided speculative decoding",
+      "source": "arXiv",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "RaRaCache reuses the KV cache across models of different sizes",
+      "source": "arXiv",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "JetBrains ships Mellum2.1: a 12B MoE thinking model built for coding sub-agents",
+      "source": "MarkTechPost",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "GLM-5.3-Flash weights go live on Hugging Face while the 744B flagship stays withheld",
+      "source": "Ideabosque",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "Conway Research opens Underdog-Saluki-27B-1.0 under Apache 2.0",
+      "source": "HuggingFace",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "Ollama v0.40.2 upgrades older models in the background for the new llama.cpp runner",
+      "source": "GitHub (ollama/ollama)",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "Rembrandt: a free open-source Lightroom alternative with AI that runs entirely locally",
+      "source": "GitHub",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "Edi Life OS ships an MCP server so agents can reach your self-hosted dashboard",
+      "source": "GitHub",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "Anvil runs offline LLM chat and SDXL image generation on the iPhone",
+      "source": "Hacker News",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "n8n 2.43.2 fixes OpenAI-compatible Assistant model providers on self-hosted instances",
+      "source": "GitHub (n8n-io/n8n)",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "llama.cpp builds b11513\u2013b11515 land with SYCL and Hexagon fixes",
+      "source": "GitHub (ggml-org/llama.cpp)",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "Aura: a self-hosted multi-user agent with temporal graph memory and MCP tools",
+      "source": "GitHub",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "SK hynix and Samsung push 16-layer HBM4 while Nvidia's Rubin favors 12 stacks",
+      "source": "The Korea Herald",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "GPU Price Index: tracked cards sell 6.7% below launch MSRP as of Oct 8",
+      "source": "videocardprices.com",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "Anthropic launches a Cyber Mission to secure critical infrastructure and open-source software",
+      "source": "X (AnthropicAI)",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "Microsoft releases an open-source cross-platform sandboxing library for agent tooling",
+      "source": "X (simonw)",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "Darwin-27B-ZTC: a single-pass judge model and a quantitative look at its calibration",
+      "source": "Hugging Face (FINAL-Bench)",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "Carbon-A: an open model that finds genes in known and unknown genomes",
+      "source": "Hugging Face (HuggingFaceBio)",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "LIFT: video generation under large viewpoint change via on-policy self-distillation",
+      "source": "X (_akhaliq)",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "Voice model 'Drama 3' shows unprecedented control over the direction of spoken language",
+      "source": "X (omarsar0)",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "Italy unveils a 'Made in Italy' data center network with over \u20ac1B in investment",
+      "source": "AI4Business",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "Turin hosts the IMSA 2026 final: 19 deep tech startups born from public research compete",
+      "source": "ANSA Piemonte",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "Robot data startup Mecka AI raises a $60M Series B from Sequoia, Nvidia and M12",
+      "source": "TechStartups",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "Waymo locks in a $5B loan from Blackstone and PIMCO to fuel robotaxi expansion",
+      "source": "TechCrunch",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "Rein Security raises $25M Series A to secure AI agent runtimes",
+      "source": "TechStartups",
+      "date": "2026-10-09",
+      "issue": 38
+    },
+    {
+      "text": "DivMoE fixes routing collapse when upcycling small dense models into MoE",
+      "source": "arXiv",
+      "date": "2026-10-09",
+      "issue": 38
     }
   ]
 }
