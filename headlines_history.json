@@ -7070,6 +7070,198 @@
       "source": "arXiv",
       "date": "2026-10-09",
       "issue": 38
+    },
+    {
+      "text": "Janas runs models larger than RAM by streaming MoE experts from SSD",
+      "source": "GitHub (prabanta-dev/janas)",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "Intel formally launches GPU D-Series with the D270 inference card, up to 480GB of LPDDR5X",
+      "source": "Phoronix",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "Meta launches Muse Wonder and Muse Wonder Full, its first agentic frontier models \u2014 API-only, no open weights",
+      "source": "Meta",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "Amazon in advanced talks to acquire Decart for about $7B to bolster Trainium",
+      "source": "TechStartups",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "Nvidia in early talks to acquire open-weight startup Reflection AI at a $25B valuation",
+      "source": "TechStartups",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "DualQuant: dual-scale, calibration-free weight-and-activation quantization for native 4-bit inference",
+      "source": "arXiv",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "Continually post-training small models via synthetic self-distillation",
+      "source": "arXiv",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "ReadKV: query-adaptive quantization lets each decoding query read the KV cache at the precision it needs",
+      "source": "arXiv",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "Adaptive DHiSparse brings speculative decoding to load-adaptive host-memory KV paging",
+      "source": "arXiv",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "ReplaySSM: cache SSM inputs, not recurrent state",
+      "source": "arXiv",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "AutoTrust ships JEV-35B: one set of open weights serving both fast and deliberative modes",
+      "source": "Hugging Face (AutoTrust)",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "OpenBMB refreshes MiniCPM-V-4.7-35B-A3B: a 35B multimodal with 3B active per token",
+      "source": "Hugging Face (OpenBMB)",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "Z.ai announces GLM-Legal, an agentic legal model \u2014 but the open-weight claim is disputed",
+      "source": "Unite.AI",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "Ollama v0.40.4-rc0: llama.cpp b11521 bump for decision models and EmbeddingGemma 2",
+      "source": "GitHub (ollama)",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "Copilot CLI now discovers models from a running local Ollama instance via /model",
+      "source": "Pondero AI",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "Open WebUI v0.12.0: realtime voice mode, VRM avatars, admin MFA and computer-agent support",
+      "source": "Open WebUI",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "CUDA megakernel hits 140 tok/s on Qwen 3.8 27B on a single RTX 3090 \u2014 validated against llama.cpp",
+      "source": "r/LocalLLaMA",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "Self-hosted n8n: the September security advisories have no CVE IDs and are invisible to npm audit",
+      "source": "dev.to",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "The Verge starts a local-AI diary: running agents for privacy, and what actually breaks",
+      "source": "The Verge",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "Microsoft opens pre-orders for the Surface RTX Spark Dev Box at about $6,000, shipping October 16",
+      "source": "Fudzilla",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "NVIDIA reportedly ending the RTX 5090, reserving GB202 silicon for RTX PRO workstation cards",
+      "source": "TechPowerUp",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "Anthropic details how it is blunting distillation attacks against Claude",
+      "source": "X (AnthropicAI)",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "NVIDIA's LoGRA: full-weight RL training that uses less memory than LoRA (7.2 GiB at 1.5B params)",
+      "source": "X (omarsar0)",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "Basis publishes Global Emotions: 525 hours of expressive speech across 108 locales",
+      "source": "Hugging Face",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "llama.cpp b11580 released, continuing the near-daily rolling-build cadence",
+      "source": "GitHub",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "Show HN: EpochGo \u2014 local-first multi-agent AutoML running entirely on Ollama",
+      "source": "GitHub",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "Show HN: SolidCraft \u2014 parametric CAD in Rust exposing its modeling operations to agents over MCP",
+      "source": "GitHub",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "n8n 2.42.7 fixes concurrent credential tests and deferred skill tool calls",
+      "source": "GitHub (n8n)",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "SOAR AI secures access to up to $1B in equity financing for AI data-center expansion",
+      "source": "TechStartups",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "Infinigence AI completes a 2.3B-yuan (~$344M) Series C for AI-native infrastructure",
+      "source": "TechStartups",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "Italian venture capital: \u20ac1.47B invested in the first nine months of 2026, with AI leading growth",
+      "source": "We Wealth",
+      "date": "2026-10-13",
+      "issue": 39
+    },
+    {
+      "text": "Assolombarda's Biffi: Milan's Quadrilatero should become Italy's AI factory, with a bid to host a UN AI-governance agency",
+      "source": "AI4Business",
+      "date": "2026-10-13",
+      "issue": 39
     }
   ]
 }
