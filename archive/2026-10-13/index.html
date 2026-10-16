@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOCAL AI NEWS — open-weight intelligence · October 13, 2026</title>
+  <meta name="description" content="A daily recap of local AI news from the last 24 hours: open weights, tooling, hardware, and the self-hosted stack.">
+  <link rel="stylesheet" href="style.css">
+  <style>.wt{display:flex;align-items:center;height:38px;background:var(--ink);border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule);margin:14px 0 0;overflow:hidden}.wtt{display:flex;align-items:center;white-space:nowrap;padding-left:20px;animation:ws 90s linear infinite}.wtt:hover{animation-play-state:paused}@keyframes ws{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.ti{display:inline-flex;align-items:center;gap:7px;padding:0 22px;cursor:pointer;border-right:1px solid var(--rule);height:38px}.ti:hover{background:rgba(240,162,60,.05)}.tih{font-family:var(--serif);font-size:13px;color:var(--type)}.tis{font-family:var(--sans);font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.mo{display:none;position:fixed;inset:0;background:rgba(10,10,12,.88);z-index:1000;justify-content:center;align-items:center;backdrop-filter:blur(8px)}.mo.a{display:flex}.mb{background:#121214;border:1px solid var(--rule-strong);max-width:680px;width:90%;max-height:82vh;overflow-y:auto;padding:40px 44px;position:relative;animation:fi .2s ease}@keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.mc{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:var(--sans);padding:4px 8px}.mh{font-family:var(--serif);font-weight:700;font-size:30px;line-height:1.1;letter-spacing:-.01em;color:var(--type);margin:0 0 14px;padding-right:32px}.mm{font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}.mm a{color:var(--lux)}.mm a:hover{text-decoration:underline}.mbd{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--type-dim)}.mbd .en{display:block;color:var(--lux-soft);font-style:italic;font-size:15px;margin-top:14px;padding-left:12px;border-left:2px solid var(--rule-strong)}.mbd .as{display:block;margin-top:18px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:11px;color:var(--muted);line-height:1.5}.mbd .as .al{color:var(--lux-soft);font-weight:600;font-family:var(--sans);font-size:10px;letter-spacing:.06em;text-transform:uppercase}</style></head>
+  <body>
+  <div class="container">
+
+  <header class="masthead">
+    <div class="topline"></div>
+    <div class="ears">
+      <span class="left">Est. MMXXVI</span>
+      <span class="right">No. 39 <a href="/archive/" class="ar" title="Browse past issues">◆ Archive</a> <a href="#free-models" class="ar" title="Today's free AI models">⌁ Free Models</a></span>
+    </div>
+    <div class="nameplate">LOCAL <span class="lux">AI NEWS</span></div>
+      <hr class="rule-double">
+      <div class="dateline">
+        <span>October 13, 2026</span>
+        <span class="dot">◆</span>
+        <span class="tag">open weights, on your metal</span>
+        <span class="dot">◆</span>
+        <span>79 stories</span>
+      </div>
+      <div class="devocracy-credit">Inference self-hosted on a DGX Spark · models served via LiteLLM</div>
+      <hr class="rule-thin">
+    </header>
+
+    
+
+    <div class="wt"><div class="wtt"><div class="ti" onclick="openArt(this)" data-h="Musk&#x27;s Grok Purchase Receipt Backfires When X Users Turn It Against Him" data-b="Elon Musk spent Sunday showing off on X how his Grok AI agent ordered Lego Star Wars sets on his behalf, but the post he shared carried far more information than he intended. According to WIRED, the screenshot visible to Musk&#x27;s more than 240 million followers revealed the 10-digit Lego order number, what he paid, his delivery and billing addresses, the last four digits of his credit card, and the email address the bot used for the purchase.
+
+Within hours, X users weaponized those details. An account named Enderman apparently used the email and order number with Lego&#x27;s customer service chatbot to get the order canceled; Musk later replied that it had not actually been canceled. A second user, according to WIRED, took the same details to Sophia, the AI assistant on Lego&#x27;s site, and reportedly reopened the delivery with the order count raised to 400 sets and the delivery address changed, while keeping Musk&#x27;s original payment method.
+
+Lego declined to comment when WIRED asked about the incident. The episode lands awkwardly just days after Musk suggested Grok could shop online if users uploaded a picture of their credit card. Visa warned in late 2025 about fraud risks in agentic commerce, citing a 25 percent rise in malicious bot-initiated transactions in the latter half of the year, and 40 percent in the US.
+
+*Receipts posted publicly are less about bragging rights than about handing strangers the keys to your checkout.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him/"><span class="tih">Musk&#x27;s Grok Purchase Receipt Backfires When X Users Turn It Against Him</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="OnePlus has drawn its most ambitious flagships yet, but only Chinese buyers can get one. According to The Verge, the company launched the OnePlus 16 in China on Monday, marking its first flagship since abandoning the US and European markets earlier this summer. The hardware makes a case that OnePlus is at its strongest in years." data-b="The device leans on raw speed, pairing a Snapdragon 8 Elite Extreme Gen 6 chipset with up to 16GB of RAM and 1TB of storage. Powering it is a massive 9,000mAh silicon-carbon battery — among the largest ever fitted in an Android flagship — supported by 100W wired and 50W wireless charging. The display is another departure: a first for OnePlus that refreshes at 185Hz, delivering 185fps gameplay where games support it and up to 165Hz across the system interface.
+
+Cameras, historically an OnePlus weak point, improve substantially. The main shooter rises to 200 megapixels on a larger 1/1.4-inch-type sensor with a faster f/1.4 aperture, addressing the low-light struggles of the OnePlus 15, alongside 50-megapixel ultrawide and telephoto lenses. A design flourish completes the package: the silver model embeds LED lights shaped around &quot;16&quot; and purported galactic coordinates that pulse in distinct patterns for calls, messages, and battery status.
+
+The OnePlus 16 starts at ¥5,699, roughly $850, and given the company&#x27;s exit, buyers in the US and Europe have no path to owning it.
+
+*It is a genuinely notable machine, but a flagship this interesting is wasted if it lives behind a market wall — the story here is less about the phone than about who gets to use it.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/tech/1009570/oneplus-16-specs-features-china"><span class="tih">OnePlus has drawn its most ambitious flagships yet, but only Chinese buyers can get one. According to The Verge, the company launched the OnePlus 16 in China on Monday, marking its first flagship since abandoning the US and European markets earlier this summer. The hardware makes a case that OnePlus is at its strongest in years.</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="No Man&#x27;s Sky Heads to iPhone and iPad This Month" data-b="Hello Games is bringing its space-exploration game No Man&#x27;s Sky to Apple&#x27;s mobile devices, with iPhone and iPad versions arriving on October 28th, according to The Verge. Rather than a scaled-down port, studio head Sean Murray stressed in a blog post that the release is &quot;not No Man&#x27;s Sky Lite,&quot; carrying the full sweep of updates shipped since launch, including last year&#x27;s large Voyagers expansion. Multiplayer and planetary settlements are the notable omissions. Murray compared the mobile edition to the version made for the original Nintendo Switch, which was later expanded based on player response, and said the studio plans similar ongoing support for iOS.
+
+The game will require an iPhone 11 or a third-generation iPad Air, or better, and Hello says the install is a modest 5GB. Touch controls were redesigned, and players can use controllers, cast their screen, or pair a mouse and keyboard with the iPad. Murray highlighted effort put into battery efficiency and thermals to allow long, comfortable sessions. The launch model is free to try, though pricing for the complete game remains unannounced.
+
+The release lands roughly ten years after the game debuted, adding iOS to a roster that spans Mac, PC, modern consoles, and VR, sustained by a steady stream of free content such as September&#x27;s Cosmos update.
+
+*It is telling that a decade-old open-world game can now justify a phone port — mobile is becoming the default front door for big, long-lived titles.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/entertainment/1009541/no-mans-sky-iphone-ipad-launch-date"><span class="tih">No Man&#x27;s Sky Heads to iPhone and iPad This Month</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Rubedo targets &quot;zombie&quot; cells to reverse visible skin aging, early trial data shows" data-b="A California biotech startup is testing whether clearing out stubborn, damaged cells can make human skin measure as biologically younger. Rubedo Life Sciences, based in Mountain View, presented early clinical results at the Aging Research and Drug Discovery meeting in Boston earlier this month, as reported by WIRED.
+
+The company&#x27;s topical cream targets cellular senescence — the state in which stressed or damaged cells stop dividing yet survive, piling up over the years and fueling inflammation. Rubedo&#x27;s approach suppresses a survival protein called GPX4, pushing senescent cells toward ferroptosis, a programmed cell-death pathway, while sparing neighboring healthy cells.
+
+In an 11-participant trial involving people with atopic dermatitis, four weeks of application lowered average skin biological age by roughly two years, per an aging clock run independently by Mitra Bio; one participant registered a drop exceeding 11 years. The company also reported fewer inflammation markers and a 10 percent rise in a collagen linked to skin elasticity. A separate 18-person study on sun-damage lesions found a 46 percent reduction after one month. Rubedo is exploring psoriasis, hair loss, a possible over-the-counter cream, and an oral form.
+
+Analysts quoted by WIRED urge caution: aging clocks are imperfect, senescence has useful roles, and the work remains early-stage.
+
+*Senescent-cell clearing looks genuinely novel, but a clock-based &quot;two years younger&quot; is a long way from skin that patients themselves would call younger.*
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/new-anti-aging-drug-trial-for-skin/"><span class="tih">Rubedo targets &quot;zombie&quot; cells to reverse visible skin aging, early trial data shows</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="US Publishing Giants Quietly Deploy AI While Publicly Resisting It" data-b="At least three of the US Big Five book publishers — HarperCollins, Simon &amp; Schuster, and Hachette — have been working generative AI tools into their operations without public disclosure or author consent, according to a WIRED report based on interviews with more than two dozen employees who spoke anonymously.
+
+Workers say Claude and ChatGPT have been used to email literary agents, draft publicity and back-cover copy, produce cover art, and generate marketing materials, frequently at executives&#x27; direction. The practice sits awkwardly alongside the industry&#x27;s public stance: the same publishers have sued Google over copyright and dropped authors suspected of leaning on language models.
+
+At HarperCollins, leadership reportedly bought licenses for Claude, ChatGPT, and Jasper and required staff to act as &quot;AI Champions&quot; hunting for use cases; employee concerns about legal, ethical, and environmental costs were reportedly brushed off as the price of doing business. Simon &amp; Schuster, for its part, once held a paid contest for the best AI use cases. Literary agents now say rejection letters from Big Five editors carry recognizable machine-written fingerprints, and staffers at all three companies believe the suspicion is warranted.
+
+A Hachette spokesperson said the company backs AI for operational efficiency but not creative use or author communication. Simon &amp; Schuster described its enterprise tools as limited, vetted, and non-mandatory. HarperCollins did not respond to request for comment.
+
+*When an industry sues AI in court while buying it in bulk for its marketing teams, the tell is not the technology — it&#x27;s the gap between the press release and the workflow.*
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/book-publishers-are-quietly-using-more-ai-staff-are-revolting/"><span class="tih">US Publishing Giants Quietly Deploy AI While Publicly Resisting It</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="Musk&#x27;s Grok Purchase Receipt Backfires When X Users Turn It Against Him" data-b="Elon Musk spent Sunday showing off on X how his Grok AI agent ordered Lego Star Wars sets on his behalf, but the post he shared carried far more information than he intended. According to WIRED, the screenshot visible to Musk&#x27;s more than 240 million followers revealed the 10-digit Lego order number, what he paid, his delivery and billing addresses, the last four digits of his credit card, and the email address the bot used for the purchase.
+
+Within hours, X users weaponized those details. An account named Enderman apparently used the email and order number with Lego&#x27;s customer service chatbot to get the order canceled; Musk later replied that it had not actually been canceled. A second user, according to WIRED, took the same details to Sophia, the AI assistant on Lego&#x27;s site, and reportedly reopened the delivery with the order count raised to 400 sets and the delivery address changed, while keeping Musk&#x27;s original payment method.
+
+Lego declined to comment when WIRED asked about the incident. The episode lands awkwardly just days after Musk suggested Grok could shop online if users uploaded a picture of their credit card. Visa warned in late 2025 about fraud risks in agentic commerce, citing a 25 percent rise in malicious bot-initiated transactions in the latter half of the year, and 40 percent in the US.
+
+*Receipts posted publicly are less about bragging rights than about handing strangers the keys to your checkout.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him/"><span class="tih">Musk&#x27;s Grok Purchase Receipt Backfires When X Users Turn It Against Him</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="OnePlus has drawn its most ambitious flagships yet, but only Chinese buyers can get one. According to The Verge, the company launched the OnePlus 16 in China on Monday, marking its first flagship since abandoning the US and European markets earlier this summer. The hardware makes a case that OnePlus is at its strongest in years." data-b="The device leans on raw speed, pairing a Snapdragon 8 Elite Extreme Gen 6 chipset with up to 16GB of RAM and 1TB of storage. Powering it is a massive 9,000mAh silicon-carbon battery — among the largest ever fitted in an Android flagship — supported by 100W wired and 50W wireless charging. The display is another departure: a first for OnePlus that refreshes at 185Hz, delivering 185fps gameplay where games support it and up to 165Hz across the system interface.
+
+Cameras, historically an OnePlus weak point, improve substantially. The main shooter rises to 200 megapixels on a larger 1/1.4-inch-type sensor with a faster f/1.4 aperture, addressing the low-light struggles of the OnePlus 15, alongside 50-megapixel ultrawide and telephoto lenses. A design flourish completes the package: the silver model embeds LED lights shaped around &quot;16&quot; and purported galactic coordinates that pulse in distinct patterns for calls, messages, and battery status.
+
+The OnePlus 16 starts at ¥5,699, roughly $850, and given the company&#x27;s exit, buyers in the US and Europe have no path to owning it.
+
+*It is a genuinely notable machine, but a flagship this interesting is wasted if it lives behind a market wall — the story here is less about the phone than about who gets to use it.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/tech/1009570/oneplus-16-specs-features-china"><span class="tih">OnePlus has drawn its most ambitious flagships yet, but only Chinese buyers can get one. According to The Verge, the company launched the OnePlus 16 in China on Monday, marking its first flagship since abandoning the US and European markets earlier this summer. The hardware makes a case that OnePlus is at its strongest in years.</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="No Man&#x27;s Sky Heads to iPhone and iPad This Month" data-b="Hello Games is bringing its space-exploration game No Man&#x27;s Sky to Apple&#x27;s mobile devices, with iPhone and iPad versions arriving on October 28th, according to The Verge. Rather than a scaled-down port, studio head Sean Murray stressed in a blog post that the release is &quot;not No Man&#x27;s Sky Lite,&quot; carrying the full sweep of updates shipped since launch, including last year&#x27;s large Voyagers expansion. Multiplayer and planetary settlements are the notable omissions. Murray compared the mobile edition to the version made for the original Nintendo Switch, which was later expanded based on player response, and said the studio plans similar ongoing support for iOS.
+
+The game will require an iPhone 11 or a third-generation iPad Air, or better, and Hello says the install is a modest 5GB. Touch controls were redesigned, and players can use controllers, cast their screen, or pair a mouse and keyboard with the iPad. Murray highlighted effort put into battery efficiency and thermals to allow long, comfortable sessions. The launch model is free to try, though pricing for the complete game remains unannounced.
+
+The release lands roughly ten years after the game debuted, adding iOS to a roster that spans Mac, PC, modern consoles, and VR, sustained by a steady stream of free content such as September&#x27;s Cosmos update.
+
+*It is telling that a decade-old open-world game can now justify a phone port — mobile is becoming the default front door for big, long-lived titles.*
+
+*— Written by AI (qwen3.8-flash-next)*" data-s="theverge.com" data-u="https://www.theverge.com/entertainment/1009541/no-mans-sky-iphone-ipad-launch-date"><span class="tih">No Man&#x27;s Sky Heads to iPhone and iPad This Month</span> <span class="tis">— theverge.com</span></div><div class="ti" onclick="openArt(this)" data-h="Rubedo targets &quot;zombie&quot; cells to reverse visible skin aging, early trial data shows" data-b="A California biotech startup is testing whether clearing out stubborn, damaged cells can make human skin measure as biologically younger. Rubedo Life Sciences, based in Mountain View, presented early clinical results at the Aging Research and Drug Discovery meeting in Boston earlier this month, as reported by WIRED.
+
+The company&#x27;s topical cream targets cellular senescence — the state in which stressed or damaged cells stop dividing yet survive, piling up over the years and fueling inflammation. Rubedo&#x27;s approach suppresses a survival protein called GPX4, pushing senescent cells toward ferroptosis, a programmed cell-death pathway, while sparing neighboring healthy cells.
+
+In an 11-participant trial involving people with atopic dermatitis, four weeks of application lowered average skin biological age by roughly two years, per an aging clock run independently by Mitra Bio; one participant registered a drop exceeding 11 years. The company also reported fewer inflammation markers and a 10 percent rise in a collagen linked to skin elasticity. A separate 18-person study on sun-damage lesions found a 46 percent reduction after one month. Rubedo is exploring psoriasis, hair loss, a possible over-the-counter cream, and an oral form.
+
+Analysts quoted by WIRED urge caution: aging clocks are imperfect, senescence has useful roles, and the work remains early-stage.
+
+*Senescent-cell clearing looks genuinely novel, but a clock-based &quot;two years younger&quot; is a long way from skin that patients themselves would call younger.*
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/new-anti-aging-drug-trial-for-skin/"><span class="tih">Rubedo targets &quot;zombie&quot; cells to reverse visible skin aging, early trial data shows</span> <span class="tis">— wired.com</span></div><div class="ti" onclick="openArt(this)" data-h="US Publishing Giants Quietly Deploy AI While Publicly Resisting It" data-b="At least three of the US Big Five book publishers — HarperCollins, Simon &amp; Schuster, and Hachette — have been working generative AI tools into their operations without public disclosure or author consent, according to a WIRED report based on interviews with more than two dozen employees who spoke anonymously.
+
+Workers say Claude and ChatGPT have been used to email literary agents, draft publicity and back-cover copy, produce cover art, and generate marketing materials, frequently at executives&#x27; direction. The practice sits awkwardly alongside the industry&#x27;s public stance: the same publishers have sued Google over copyright and dropped authors suspected of leaning on language models.
+
+At HarperCollins, leadership reportedly bought licenses for Claude, ChatGPT, and Jasper and required staff to act as &quot;AI Champions&quot; hunting for use cases; employee concerns about legal, ethical, and environmental costs were reportedly brushed off as the price of doing business. Simon &amp; Schuster, for its part, once held a paid contest for the best AI use cases. Literary agents now say rejection letters from Big Five editors carry recognizable machine-written fingerprints, and staffers at all three companies believe the suspicion is warranted.
+
+A Hachette spokesperson said the company backs AI for operational efficiency but not creative use or author communication. Simon &amp; Schuster described its enterprise tools as limited, vetted, and non-mandatory. HarperCollins did not respond to request for comment.
+
+*When an industry sues AI in court while buying it in bulk for its marketing teams, the tell is not the technology — it&#x27;s the gap between the press release and the workflow.*
+*— Written by AI (qwen3.8-flash-next)*" data-s="wired.com" data-u="https://www.wired.com/story/book-publishers-are-quietly-using-more-ai-staff-are-revolting/"><span class="tih">US Publishing Giants Quietly Deploy AI While Publicly Resisting It</span> <span class="tis">— wired.com</span></div></div></div>
+<div class="lead-zone">
+      <article class="lead">
+  <a href="https://github.com/prabanta-dev/janas" target="_blank" rel="noopener">
+    <img src="images/lead_2026-10-13.jpg" alt="" class="lead-image">
+    <div class="lead-grid">
+      <div class="lead-head">
+        <p class="kicker">Beyond the RAM limit</p>
+        <h1>Janas runs models larger than RAM by streaming MoE experts from SSD</h1>
+      </div>
+      <div class="lead-body">
+        <p class="deck">Janas, a pure-C inference engine, keeps mixture-of-experts models larger than system memory viable by streaming experts from the SSD instead of loading everything. It claims 37 tok/s on Qwen3-Next-80B (48 GB) on a 32 GB laptop and beats llama.cpp across the 13 models compared in Q4_K_M — the clearest sign yet that a laptop's RAM ceiling no longer caps what it can run.</p>
+        <p class="byline"><span class="src">GitHub (prabanta-dev/janas)</span> · <span>2026-10-12</span> · <span class="more">Read the dispatch →</span></p>
+      </div>
+    </div>
+  </a>
+</article>
+
+    </div>
+
+    <div class="topstories">
+<article class="story">
+  <a href="https://www.phoronix.com/news/Intel-GPU-D-Series" target="_blank" rel="noopener">
+    <h3>Intel formally launches GPU D-Series with the D270 inference card, up to 480GB of LPDDR5X</h3>
+    <p>At the OCP Global Summit, Intel renamed the Crescent Island accelerator as the GPU D270: Xe3P, 1.3 PFLOPS FP8, 1.5 TB/s bandwidth and up to 480 GB of LPDDR5X in a 350 W air-cooled PCIe card. By banking capacity on cheap LPDDR5X instead of scarce HBM, it attacks inference cost-per-gigabyte — a factor that could eventually feed through to cheaper local and hosted inference.</p>
+    <p class="byline"><span class="src">Phoronix</span> · 2026-10-12</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://about.fb.com/news/2026/10/introducing-muse-wonder-models/" target="_blank" rel="noopener">
+    <h3>Meta launches Muse Wonder and Muse Wonder Full, its first agentic frontier models — API-only, no open weights</h3>
+    <p>Meta Superintelligence Labs released Muse Wonder for personal and professional agentic work via the Meta Model API and Muse Code subscriptions, breaking with its Llama open-weights lineage. For local users the runnable member of the family stays the Apache-2.0 Muse Glimmer 30B on Hugging Face.</p>
+    <p class="byline"><span class="src">Meta</span> · 2026-10-12</p>
+  </a>
+</article>
+
+<article class="story">
+  <a href="https://techstartups.com/2026-10-12/amazon-in-talks-to-acquire-ai-startup-decart-for-7-billion-as-ai-computing-race-heats-up/" target="_blank" rel="noopener">
+    <h3>Amazon in advanced talks to acquire Decart for about $7B to bolster Trainium</h3>
+    <p>The Wall Street Journal reports Amazon is in advanced talks to buy Nvidia-backed Decart, whose software moves AI workloads across different chips, for roughly $7B — part of the push to make Trainium a credible alternative to Nvidia. No deal is signed yet.</p>
+    <p class="byline"><span class="src">TechStartups</span> · 2026-10-12</p>
+  </a>
+</article>
+
+</div>
+
+
+    <div class="sections">
+      <section class="section">
+  <div class="section-head">
+    <h2>Research &amp; Papers</h2>
+    <span class="line"></span>
+    <span class="n">05</span>
+  </div>
+  <a href="https://arxiv.org/abs/2610.13767" target="_blank" rel="noopener" class="section-hero"><img src="images/section_research_papers_2026-10-13.jpg" alt="" class="section-hero-img"><h4 class="hero-title">DualQuant: dual-scale, calibration-free weight-and-activation quantization for native 4-bit inference</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.13767" target="_blank" rel="noopener">
+    <h4>DualQuant: dual-scale, calibration-free weight-and-activation quantization for native 4-bit inference</h4>
+    <p>Quantizes both weights and activations at two scales without needing calibration data, aiming to recover the full throughput gains of low-bit formats on native 4-bit accelerators.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-09</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.13113" target="_blank" rel="noopener">
+    <h4>Continually post-training small models via synthetic self-distillation</h4>
+    <p>Shows standard self-distillation fails on small models because of weak in-context ability, and proposes synthetic self-distillation that lets latency-critical small models acquire new skills without forgetting old ones.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-09</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.11245" target="_blank" rel="noopener">
+    <h4>ReadKV: query-adaptive quantization lets each decoding query read the KV cache at the precision it needs</h4>
+    <p>A progressive KV-code scheme that separates the retained-bit budget from the per-query fetch budget, so cheap tokens read low-precision keys and values and important ones read more.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-08</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.13708" target="_blank" rel="noopener">
+    <h4>Adaptive DHiSparse brings speculative decoding to load-adaptive host-memory KV paging</h4>
+    <p>Extends hierarchical sparse KV caches with draft-model speculative decoding and adapts the cache budget to load, targeting long-context serving that runs out of KV memory before GPU throughput does.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-09</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://arxiv.org/abs/2610.13778" target="_blank" rel="noopener">
+    <h4>ReplaySSM: cache SSM inputs, not recurrent state</h4>
+    <p>Unrolls state-space recurrence so decode steps replay cached inputs instead of reading and writing state, cutting state I/O and making speculative-decoding rollback cheap in hybrid models.</p>
+    <p class="byline"><span class="src">arXiv</span> · 2026-10-09</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Open Weights &amp; Models</h2>
+    <span class="line"></span>
+    <span class="n">03</span>
+  </div>
+  <a href="https://huggingface.co/autotrust/JEV-35B" target="_blank" rel="noopener" class="section-hero"><img src="images/section_open_weights_2026-10-13.jpg" alt="" class="section-hero-img"><h4 class="hero-title">AutoTrust ships JEV-35B: one set of open weights serving both fast and deliberative modes</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://huggingface.co/autotrust/JEV-35B" target="_blank" rel="noopener">
+    <h4>AutoTrust ships JEV-35B: one set of open weights serving both fast and deliberative modes</h4>
+    <p>The ~36B Apache-2.0 successor to the Qwen3.8-27B-based JEV-27B landed on the Hub and hit trending within a day (6.2k downloads, 236 likes). Its System 1 + System 2 design answers in one mode and thinks in the other from the same checkpoint.</p>
+    <p class="byline"><span class="src">Hugging Face (AutoTrust)</span> · 2026-10-11</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B" target="_blank" rel="noopener">
+    <h4>OpenBMB refreshes MiniCPM-V-4.7-35B-A3B: a 35B multimodal with 3B active per token</h4>
+    <p>The image-text-to-text sparse-activation checkpoint saw active updates through October 12-13 and sits in trending. Exactly this class — 35B total, A3B active — is what actually runs on single-workstation hardware.</p>
+    <p class="byline"><span class="src">Hugging Face (OpenBMB)</span> · 2026-10-12</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.unite.ai/z-ai-unveils-glm-legal-an-agentic-model-for-legal-workflows/" target="_blank" rel="noopener">
+    <h4>Z.ai announces GLM-Legal, an agentic legal model — but the open-weight claim is disputed</h4>
+    <p>GLM-Legal, built on the MIT-licensed GLM-5.3-Flash base, posts a 19.2% all-pass rate on Harvey's Legal Agent Benchmark, 12.5 points above the base. Independent coverage flags that the legal checkpoint's access is gated, so the 'open-weight' framing warrants caution; the Flash base itself remains freely downloadable.</p>
+    <p class="byline"><span class="src">Unite.AI</span> · 2026-10-12</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Tools &amp; Runtimes</h2>
+    <span class="line"></span>
+    <span class="n">02</span>
+  </div>
+  <a href="https://github.com/ollama/ollama/releases/tag/v0.40.4-rc0" target="_blank" rel="noopener" class="section-hero"><img src="images/section_tools_runtimes_2026-10-13.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Ollama v0.40.4-rc0: llama.cpp b11521 bump for decision models and EmbeddingGemma 2</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://github.com/ollama/ollama/releases/tag/v0.40.4-rc0" target="_blank" rel="noopener">
+    <h4>Ollama v0.40.4-rc0: llama.cpp b11521 bump for decision models and EmbeddingGemma 2</h4>
+    <p>The release candidate lifts llama.cpp to b11521 for decision-model and EmbeddingGemma 2 support, adds manifest reuse in inference routes, and fixes MLX speculative rollback, following v0.40.3's `ollama launch` fixes.</p>
+    <p class="byline"><span class="src">GitHub (ollama)</span> · 2026-10-12</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://pondero.ai/news/2026-10-12-copilot-haiku-sandboxing-cli" target="_blank" rel="noopener">
+    <h4>Copilot CLI now discovers models from a running local Ollama instance via /model</h4>
+    <p>GitHub Copilot CLI 1.0.94+ can find and add local Ollama models mid-session, and local sandboxing reached GA across CLI, app and VS Code in GitHub's early-October changelog.</p>
+    <p class="byline"><span class="src">Pondero AI</span> · 2026-10-12</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Self-Hosted Stack</h2>
+    <span class="line"></span>
+    <span class="n">04</span>
+  </div>
+  <a href="https://openwebui.com/blog/v0-12-0-a-voice-that-talks-back-and-a-face-to-go-with-it" target="_blank" rel="noopener" class="section-hero"><img src="images/section_self_hosted_stack_2026-10-13.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Open WebUI v0.12.0: realtime voice mode, VRM avatars, admin MFA and computer-agent support</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://openwebui.com/blog/v0-12-0-a-voice-that-talks-back-and-a-face-to-go-with-it" target="_blank" rel="noopener">
+    <h4>Open WebUI v0.12.0: realtime voice mode, VRM avatars, admin MFA and computer-agent support</h4>
+    <p>The v0.12.0 release adds a realtime voice mode backed by an OpenAI Realtime model, animated avatars, nested groups and Open WebUI Computer agent support through an OpenAI-compatible gateway. Milvus and multi-instance Redis setups need upgrade attention.</p>
+    <p class="byline"><span class="src">Open WebUI</span> · 2026-10-10</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1x37q7b/update_qwen_38_27b_140_toks_on_single_rtx_3090/" target="_blank" rel="noopener">
+    <h4>CUDA megakernel hits 140 tok/s on Qwen 3.8 27B on a single RTX 3090 — validated against llama.cpp</h4>
+    <p>The follow-up accuracy numbers show KL divergence of 0.0007-0.0009 versus llama.cpp across 1K-96K contexts, confirming the 1.4-1.9x decode speedup is not bought with quality loss. A custom CUDA engine is emerging as a real alternative for this model family.</p>
+    <p class="byline"><span class="src">r/LocalLLaMA</span> · 2026-10-11</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://dev.to/munimv2/self-hosted-n8n-before-2414-26-september-advisories-with-no-cve-id-and-npm-audit-wont-show-them-2jh4" target="_blank" rel="noopener">
+    <h4>Self-hosted n8n: the September security advisories have no CVE IDs and are invisible to npm audit</h4>
+    <p>About 26 September n8n advisories are absent from OSV.dev and the GitHub Advisory Database, so npm audit, Dependabot and OSV-Scanner can report vulnerable instances as clean. The fix is to update to 2.41.4+ (stable 2.42.6/2.42.7, beta 2.42.1, or 1.123.83) rather than trust scanner verdicts.</p>
+    <p class="byline"><span class="src">dev.to</span> · 2026-10-12</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress" target="_blank" rel="noopener">
+    <h4>The Verge starts a local-AI diary: running agents for privacy, and what actually breaks</h4>
+    <p>The series runs the open-source Hermes Agent with a 125B Qwen 3.8 Flash Next model (~105 GB) on a 256 GB M5 Ultra Mac Studio. The payoff is private work on sensitive files; the failure modes turned out to be host-level — sleeping Macs killing cron jobs silently — and the testing continues on smaller machines.</p>
+    <p class="byline"><span class="src">The Verge</span> · 2026-10-11</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Hardware &amp; Edge</h2>
+    <span class="line"></span>
+    <span class="n">02</span>
+  </div>
+  <a href="https://fudzilla.com/microsoft-wants-6000-for-surface-rtx-spark-dev-box/" target="_blank" rel="noopener" class="section-hero"><img src="images/section_hardware_edge_2026-10-13.jpg" alt="" class="section-hero-img"><h4 class="hero-title">Microsoft opens pre-orders for the Surface RTX Spark Dev Box at about $6,000, shipping October 16</h4></a>
+  <div class="section-grid">
+<article class="item">
+  <a href="https://fudzilla.com/microsoft-wants-6000-for-surface-rtx-spark-dev-box/" target="_blank" rel="noopener">
+    <h4>Microsoft opens pre-orders for the Surface RTX Spark Dev Box at about $6,000, shipping October 16</h4>
+    <p>The Dev Box (Blackwell RTX GPU plus Grace CPU, 1 petaflop AI compute, 128 GB unified memory) costs roughly $2,000 more than AMD's Ryzen AI Halo box and joins the DGX Spark and Mac Studio as a desk-side local-AI machine — with memory-shortage costs pushing all of them above initial expectations.</p>
+    <p class="byline"><span class="src">Fudzilla</span> · 2026-10-12</p>
+  </a>
+</article>
+
+<article class="item">
+  <a href="https://www.techpowerup.com/353578/nvidia-reportedly-ending-the-rtx-5090-reserves-gb202-silicon-for-workstation-gpus" target="_blank" rel="noopener">
+    <h4>NVIDIA reportedly ending the RTX 5090, reserving GB202 silicon for RTX PRO workstation cards</h4>
+    <p>Leaker MEGAsizeGPU claims NVIDIA has stopped allocating GB202 dies to the GeForce RTX 5090, redirecting supply to RTX PRO Blackwell cards. If confirmed, the 32 GB 5090 would be the last consumer card at that capacity — pushing serious local-LLM builders toward workstation cards or unified-memory boxes.</p>
+    <p class="byline"><span class="src">TechPowerUp</span> · 2026-10-12</p>
+  </a>
+</article>
+
+  </div>
+</section>
+
+    </div>
+
+    <div class="trending-wrap">
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Repos on GitHub</h1>
+      <div class="t-line"></div>
+      <a href="https://github.com/trending" target="_blank" rel="noopener" class="t-link">Go to GitHub trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://github.com/morluto/rea" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">morluto/rea</span>
+    <span class="t-meta">TypeScript · 168.1k ★ · +45,327 today — reverse engineering with agents</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/Alishahryar1/free-claude-code" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Alishahryar1/free-claude-code</span>
+    <span class="t-meta">Python · 59.4k ★ · +626 today — free Claude Code/Codex/OpenCode harness</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/cathrynlavery/diagram-design" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">cathrynlavery/diagram-design</span>
+    <span class="t-meta">HTML · 52.9k ★ · +2,081 today — editorial diagrams for AI coding agents</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/lyogavin/airllm" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">lyogavin/airllm</span>
+    <span class="t-meta">Jupyter Notebook · 37.7k ★ · +879 today — 2.8T-param LLM inference on one 4GB GPU</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/mksglu/context-mode" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">mksglu/context-mode</span>
+    <span class="t-meta">TypeScript · 27.5k ★ · +246 today — context-window optimization for coding agents</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/open-webui/open-webui" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">open-webui/open-webui</span>
+    <span class="t-meta">Python · 155.2k ★ · +157 today — local AI front-end for Ollama/OpenAI APIs</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://github.com/microsoft/BitNet" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">microsoft/BitNet</span>
+    <span class="t-meta">C++ · 41.0k ★ · +97 today — official 1-bit LLM inference framework</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+  
+  <div class="trending-col">
+    <div class="t-head">
+      <h1 class="t-title">Trending on HF</h1>
+      <div class="t-line"></div>
+      <a href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener" class="t-link">Go to Hugging Face trending →</a>
+    </div>
+    <ul class="t-list">
+      <li>
+  <a href="https://huggingface.co/google/embeddinggemma-2" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">google/embeddinggemma-2</span>
+    <span class="t-meta">Feature extraction · 0.7B embedding model</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/jialinyyzz/humanizer" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">jialinyyzz/humanizer</span>
+    <span class="t-meta">Text generation · 12B</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Qwen/Qwen-Image-2.1-Turbo</span>
+    <span class="t-meta">Text-to-image · 7B, updated Oct 12</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">abenzerps/Qwen-Image-2.1-Uncensored-Quantized</span>
+    <span class="t-meta">Text-to-image · 7B quantized community finetune</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Cloudflare/clef" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Cloudflare/clef</span>
+    <span class="t-meta">Image-text-to-text · 27B vision-language</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Lightricks/LTX-2.5" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">Lightricks/LTX-2.5</span>
+    <span class="t-meta">Image-to-video · open video generation</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">ConwayResearch/Underdog-Saluki-27B-1.0</span>
+    <span class="t-meta">Text generation · 27B</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">Qwen/Qwen3.8-27B</span>
+    <span class="t-meta">Image-text-to-text · 28B open weights</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/LiquidAI/d1-3B" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">LiquidAI/d1-3B</span>
+    <span class="t-meta">Multimodal 3B decision model for the edge</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF</span>
+    <span class="t-meta">Text-to-image · 8B GGUF quant</span>
+  </a>
+</li>
+
+    </ul>
+  </div>
+</div>
+
+
+    <section class="section" id="free-models">
+  <div class="section-head">
+    <h2>Free Models</h2>
+    <span class="line"></span>
+    <span class="n">30</span>
+  </div>
+
+  <p class="section-note">Free means $0 per token today, not unlimited or unconditional: both platforms rate-limit free use and require a free API key, some OpenRouter free endpoints may train on your prompts unless you opt out in account settings, and the roster changes daily. Verified against each provider's own pricing data at generation time — but pricing changes without notice, so confirm it's still free on the provider's own page before you rely on it.</p>
+
+  <div class="trending-wrap trending-wrap--in-section">
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenRouter</h1>
+        <div class="t-line"></div>
+        <a href="https://openrouter.ai/models?max_price=0" target="_blank" rel="noopener" class="t-link">Browse free models →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://openrouter.ai/apodex/apodex-1.1-mini:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Apodex: Apodex 1.1 Mini (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/cohere/north-mini-code:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Cohere: North Mini Code (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/dots-studio/dots-3-note-preview:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Dots Studio: Dots3-Note Preview (free)</span>
+    <span class="t-meta">512K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-26b-a4b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">Google: Gemma 4 26B A4B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/google/gemma-4-31b-it:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Google: Gemma 4 31B (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/inclusionai/ling-3.1-flash" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">inclusionAI: Ling 3.1 Flash</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/liquid/lfm-2.5-2.6b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">LiquidAI: LFM2.5-2.6B (free)</span>
+    <span class="t-meta">65K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Nano Omni (free)</span>
+    <span class="t-meta">256K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Super (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">NVIDIA: Nemotron 3 Ultra (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-content-safety:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Content Safety (free)</span>
+    <span class="t-meta">128K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/nvidia/nemotron-3.5-lightning:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">NVIDIA: Nemotron 3.5 Lightning (free)</span>
+    <span class="t-meta">1M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-s-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#13</span>
+    <span class="t-name">Poolside: Laguna S 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/poolside/laguna-xs-2.1:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#14</span>
+    <span class="t-name">Poolside: Laguna XS 2.1 (free)</span>
+    <span class="t-meta">262K ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#15</span>
+    <span class="t-name">Thinking Machines: Inkling (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://openrouter.ai/thinkingmachines/inkling-small:free" target="_blank" rel="noopener">
+    <span class="t-ranking">#16</span>
+    <span class="t-name">Thinking Machines: Inkling Small (free)</span>
+    <span class="t-meta">1.04858M ctx</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+
+    <div class="trending-col">
+      <div class="t-head">
+        <h1 class="t-title">Free on OpenCode Zen</h1>
+        <div class="t-line"></div>
+        <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener" class="t-link">See the full Zen catalog →</a>
+      </div>
+      <ul class="t-list">
+        <li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#01</span>
+    <span class="t-name">Big Pickle</span>
+    <span class="t-meta">big-pickle</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#02</span>
+    <span class="t-name">Space Bunny Free</span>
+    <span class="t-meta">space-bunny-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#03</span>
+    <span class="t-name">Cat Jam Free</span>
+    <span class="t-meta">cat-jam-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#04</span>
+    <span class="t-name">LongCat 2.5 Preview Free</span>
+    <span class="t-meta">longcat-2.5-preview-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#05</span>
+    <span class="t-name">Step 5 Preview Free</span>
+    <span class="t-meta">step-5-preview-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#06</span>
+    <span class="t-name">Exo Free</span>
+    <span class="t-meta">exo-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#07</span>
+    <span class="t-name">MiMo-V2.6-Flash Free</span>
+    <span class="t-meta">mimo-v2.6-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#08</span>
+    <span class="t-name">MiMo-V2.5 Free</span>
+    <span class="t-meta">mimo-v2.5-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#09</span>
+    <span class="t-name">Ling 3.1 Flash Free</span>
+    <span class="t-meta">ling-3.1-flash-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#10</span>
+    <span class="t-name">Ling 3.0 Flash Fin Free</span>
+    <span class="t-meta">ling-3.0-flash-fin-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#11</span>
+    <span class="t-name">Nemotron 3 Ultra Free</span>
+    <span class="t-meta">nemotron-3-ultra-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#12</span>
+    <span class="t-name">Nemotron 3.5 Lightning Free</span>
+    <span class="t-meta">nemotron-3.5-lightning-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#13</span>
+    <span class="t-name">Muse Spark 1.3 Contributor Free</span>
+    <span class="t-meta">muse-spark-1.3-contributor-free</span>
+  </a>
+</li>
+
+<li>
+  <a href="https://opencode.ai/docs/zen/" target="_blank" rel="noopener">
+    <span class="t-ranking">#14</span>
+    <span class="t-name">Jev 1.13 Free</span>
+    <span class="t-meta">jev-1.13-free</span>
+  </a>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <section class="inbrief">
+  <div class="section-head">
+    <h2>In Brief</h2>
+    <span class="line"></span>
+    <span class="n">11</span>
+  </div>
+  <ul class="qh-list">
+    <li><a href="https://x.com/AnthropicAI/status/2109795898909950247" target="_blank" rel="noopener"><span class="qh-title">Anthropic details how it is blunting distillation attacks against Claude</span><span class="qh-src">X (AnthropicAI)</span></a></li>
+
+    <li><a href="https://x.com/omarsar0/status/2109771098120450299" target="_blank" rel="noopener"><span class="qh-title">NVIDIA's LoGRA: full-weight RL training that uses less memory than LoRA (7.2 GiB at 1.5B params)</span><span class="qh-src">X (omarsar0)</span></a></li>
+
+    <li><a href="https://huggingface.co/blog/basis-ai/global-emotions" target="_blank" rel="noopener"><span class="qh-title">Basis publishes Global Emotions: 525 hours of expressive speech across 108 locales</span><span class="qh-src">Hugging Face</span></a></li>
+
+    <li><a href="https://github.com/ggml-org/llama.cpp/releases/tag/b11580" target="_blank" rel="noopener"><span class="qh-title">llama.cpp b11580 released, continuing the near-daily rolling-build cadence</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://github.com/AryanDinakaran/EpochGo" target="_blank" rel="noopener"><span class="qh-title">Show HN: EpochGo — local-first multi-agent AutoML running entirely on Ollama</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://github.com/bherbruck/solidcraft" target="_blank" rel="noopener"><span class="qh-title">Show HN: SolidCraft — parametric CAD in Rust exposing its modeling operations to agents over MCP</span><span class="qh-src">GitHub</span></a></li>
+
+    <li><a href="https://github.com/n8n-io/n8n/releases" target="_blank" rel="noopener"><span class="qh-title">n8n 2.42.7 fixes concurrent credential tests and deferred skill tool calls</span><span class="qh-src">GitHub (n8n)</span></a></li>
+
+    <li><a href="https://techstartups.com/2026-10-12/soar-ai-secures-up-to-1-billion-in-equity-financing-to-expand-ai-data-centers-across-the-u-s-and-beyond/" target="_blank" rel="noopener"><span class="qh-title">SOAR AI secures access to up to $1B in equity financing for AI data-center expansion</span><span class="qh-src">TechStartups</span></a></li>
+
+    <li><a href="https://techstartups.com/2026-10-12/startup-funding-news-today-october-12-2026-infinigence-ai-mosi-intelligence-fulian-integrated-more/" target="_blank" rel="noopener"><span class="qh-title">Infinigence AI completes a 2.3B-yuan (~$344M) Series C for AI-native infrastructure</span><span class="qh-src">TechStartups</span></a></li>
+
+    <li><a href="https://www.we-wealth.com/news/venture-capital-italia-startup-report-2026-growth-capital" target="_blank" rel="noopener"><span class="qh-title">Italian venture capital: €1.47B invested in the first nine months of 2026, with AI leading growth</span><span class="qh-src">We Wealth</span></a></li>
+
+    <li><a href="https://www.ai4business.it/intelligenza-artificiale/ai-manager/biffi-il-quadrilatero-assolombarda-diventi-fabbrica-dellai-puntiamo-a-creare-a-milano-lagenzia-onu-per-la-governance/" target="_blank" rel="noopener"><span class="qh-title">Assolombarda's Biffi: Milan's Quadrilatero should become Italy's AI factory, with a bid to host a UN AI-governance agency</span><span class="qh-src">AI4Business</span></a></li>
+
+  </ul>
+</section>
+
+
+    <footer class="colophon">
+      <p class="mark">Per aspera ad astra</p>
+      <p class="meta">Compiled by Hermes Agent · 2026-10-13 · <a href="https://github.com/MovieMaker93/local-ai-news" target="_blank" rel="noopener">source</a></p>
+      <p class="meta">Beta · <a href="making-of.html" title="Replay how this issue assembled itself">See how this issue made itself</a></p>
+    </footer>
+
+  </div>
+<div class="mo" id="mo" onclick="cm(event)"><div class="mb"><button class="mc" onclick="cm()">✕</button><h2 class="mh" id="mh"></h2><p class="mm">Source: <span id="ms"></span></p><div class="mbd" id="mbd"></div></div></div>
+<script>function openArt(el){var h=el.getAttribute('data-h'),b=el.getAttribute('data-b'),s=el.getAttribute('data-s'),u=el.getAttribute('data-u');document.getElementById('mh').textContent=h;var sl=document.getElementById('ms');if(u&&u!=='#'&&u!==''){sl.innerHTML='<a href="'+u+'" target="_blank" rel="noopener">'+s+'</a>';}else{sl.textContent=s;}var aiS='*— Written by AI (';var i=b.indexOf(aiS);if(i>=0){var bf=b.substring(0,i);var af=b.substring(i+aiS.length);var mdl=af.split(')')[0];bf=bf.split('\n').join('<br>');bf=bf.replace(/\*([^*]+)\*/g,'<em class="en">$1</em>');var sg='<div class="as"><span class="al">⬥ AI-GENERATED</span><br>Model: '+mdl+'</div>';document.getElementById('mbd').innerHTML=bf+sg;}else{document.getElementById('mbd').innerHTML=b.split('\n').join('<br>');}document.getElementById('mo').classList.add('a');document.body.style.overflow='hidden';}function cm(e){if(e&&e.target!=document.getElementById('mo'))return;document.getElementById('mo').classList.remove('a');document.body.style.overflow='';}document.addEventListener('keydown',function(e){if(e.key==='Escape')cm()});</script></body>
+</html>

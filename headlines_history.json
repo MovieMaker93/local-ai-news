@@ -7262,6 +7262,222 @@
       "source": "AI4Business",
       "date": "2026-10-13",
       "issue": 39
+    },
+    {
+      "text": "Meta releases Muse Spark Open, an open-weight frontier multimodal MoE",
+      "source": "Hugging Face (Meta)",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "NVIDIA readies the software stack as RTX Spark laptops ship",
+      "source": "NVIDIA Blog",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "Black Forest Labs' FLUX.3 Image Klein lands in Diffusers on day one",
+      "source": "Hugging Face (Black Forest Labs)",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "Apertus 1.5 extends the Swiss open models with vision, audio and a 4x longer context",
+      "source": "Hugging Face (swiss-ai / ETH-Zurich-AI-Center)",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "First AA-AgentPerf-Local results land on the RTX Spark N1X laptops",
+      "source": "Artificial Analysis",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "Training-free on-policy distillation aggregates specialist models with forward passes only",
+      "source": "arXiv",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "LoopAhead pipelines self-speculative decoding for looped language models",
+      "source": "arXiv",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "Rethinking routing exploration in modern mixture-of-experts",
+      "source": "arXiv",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "IFM/MBZUAI launch Jais 3: six Arabic-native open-weight models from 0.9B to 375B, Apache 2.0",
+      "source": "HuggingFace",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "NVIDIA ships Nemotron 3.5 Super VL 120B-A12B: open-weight omni-encoder VLM with 1M context",
+      "source": "HuggingFace",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "Granite Switch 4.1: chat, decisions and speech from one endpoint",
+      "source": "Hugging Face (IBM Granite)",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "Mistral introduces Timestral, its first time-series foundation models",
+      "source": "Mistral",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "NVIDIA opens a 2.8-trillion-token Indic pretraining pipeline",
+      "source": "Hugging Face (NVIDIA)",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "Tokenmaxxing BERT: Hugging Face makes BERT-style tokenization roughly 50x faster",
+      "source": "Hugging Face",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "arcKode gives low-VRAM local sLLMs codebase-wide context via SQLite",
+      "source": "GitHub",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "Kokoro TTS distilled down to 9MB for local speech",
+      "source": "Hugging Face",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "PostHog launches an MCP server leaderboard",
+      "source": "PostHog",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "Ollama v0.40.5 ships Nemotron 3.5 Super and Bolt support",
+      "source": "Ollama (GitHub)",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "Open WebUI v0.12.2 repairs MinerU 4.x extraction, adds per-model routing",
+      "source": "Open WebUI (GitHub)",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "n8n 2.44.2 fixes the shared XML parser in webhook handling",
+      "source": "n8n (GitHub)",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "QwenPaw v2.2.2 stable for local-model personal assistants",
+      "source": "QwenPaw (GitHub)",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "Apple details distributed LLM inference with MLX and RDMA over Thunderbolt",
+      "source": "Apple Machine Learning Research",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "Tom's Hardware: the RTX Spark Superchip impresses in local AI, not in gaming",
+      "source": "Tom's Hardware",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "What hardware can actually run Meta's Muse Spark Open locally",
+      "source": "Anchor Terminal",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "Ramp reaches $60B valuation as it pushes deeper into AI",
+      "source": "TechCrunch",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "Modal raises $750M Series D at a $15.75B valuation for AI infrastructure",
+      "source": "TechStartups",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "Labelbox raises more than $100M for reinforcement learning and enterprise AI agents",
+      "source": "TechStartups",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "TIPS: a tiny inference-time policy for scaling diffusion language models",
+      "source": "arXiv",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "Router drift control mitigates off-policy degradation in MoE reinforcement learning",
+      "source": "arXiv",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "Subspace tuning mitigates catastrophic forgetting in LLM fine-tuning",
+      "source": "arXiv",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "Trajectory-level speculation with semantic verification cuts tool-agent latency",
+      "source": "arXiv",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "Pasteface records, transcribes and copies speech locally in the terminal",
+      "source": "GitHub",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "RDST is a local agent that watches Postgres/MySQL for query regressions",
+      "source": "GitHub",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "Sakana AI paper lays out a concrete framework for orchestrating coding agents in scientific research",
+      "source": "X (omarsar0)",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "Krea 3 beta opens for the new frontier creative model",
+      "source": "X (krea_ai)",
+      "date": "2026-10-16",
+      "issue": 40
+    },
+    {
+      "text": "D-Wave delivers Italy's first quantum annealing computer ahead of the 'Volta B1' inauguration",
+      "source": "La Stampa",
+      "date": "2026-10-16",
+      "issue": 40
     }
   ]
 }
